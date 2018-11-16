@@ -40,27 +40,27 @@ public:
 
 #ifdef _WIN32
 
-List40 * (*List40::ptr::_New)() = (List40 * (*)()) 0x0;
-Node58 * (*List40::ptr::AddLast40)(List40 * self, Switch * data) = (Node58 * (*)(List40 * self, Switch * data)) 0x629b90;
-List40 * (*List40::ptr::_new2)(List40 * self, Array<Switch *> * arg1) = (List40 * (*)(List40 * self, Array<Switch *> * arg1)) 0x0;
-bool (*List40::ptr::_IsEmpty)() = (bool (*)()) 0x0;
-Switch * (*List40::ptr::_First)() = (Switch * (*)()) 0x0;
-bool (*List40::ptr::_Equals25)(List40 * self, Switch * arg1, Switch * arg2) = (bool (*)(List40 * self, Switch * arg1, Switch * arg2)) 0x0;
-int (*List40::ptr::RemoveEach22)(List40 * self, Switch * value) = (int (*)(List40 * self, Switch * value)) 0x629c30;
-void (*List40::ptr::_mark)() = (void (*)()) 0x0;
-void (*List40::ptr::CSTR_List40)(List40 * self) = (void (*)(List40 * self)) 0x629ac0;
+inline List40 * (*List40::ptr::_New)() = (List40 * (*)()) 0x0;
+inline Node58 * (*List40::ptr::AddLast40)(List40 * self, Switch * data) = (Node58 * (*)(List40 * self, Switch * data)) 0x629b90;
+inline List40 * (*List40::ptr::_new2)(List40 * self, Array<Switch *> * arg1) = (List40 * (*)(List40 * self, Array<Switch *> * arg1)) 0x0;
+inline bool (*List40::ptr::_IsEmpty)() = (bool (*)()) 0x0;
+inline Switch * (*List40::ptr::_First)() = (Switch * (*)()) 0x0;
+inline bool (*List40::ptr::_Equals25)(List40 * self, Switch * arg1, Switch * arg2) = (bool (*)(List40 * self, Switch * arg1, Switch * arg2)) 0x0;
+inline int (*List40::ptr::RemoveEach22)(List40 * self, Switch * value) = (int (*)(List40 * self, Switch * value)) 0x629c30;
+inline void (*List40::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List40::ptr::CSTR_List40)(List40 * self) = (void (*)(List40 * self)) 0x629ac0;
 #endif
 
 #ifdef __linux__
 
-List40 * (*List40::ptr::_New)() = (List40 * (*)()) 0x81b9830;
-Node58 * (*List40::ptr::AddLast40)(List40 * self, Switch * data) = (Node58 * (*)(List40 * self, Switch * data)) 0x80ba250;
-List40 * (*List40::ptr::_new2)(List40 * self, Array<Switch *> * arg1) = (List40 * (*)(List40 * self, Array<Switch *> * arg1)) 0x0;
-bool (*List40::ptr::_IsEmpty)() = (bool (*)()) 0x8075020;
-Switch * (*List40::ptr::_First)() = (Switch * (*)()) 0x8075030;
-bool (*List40::ptr::_Equals25)(List40 * self, Switch * arg1, Switch * arg2) = (bool (*)(List40 * self, Switch * arg1, Switch * arg2)) 0x8075050;
-int (*List40::ptr::RemoveEach22)(List40 * self, Switch * value) = (int (*)(List40 * self, Switch * value)) 0x8075060;
-void (*List40::ptr::_mark)() = (void (*)()) 0x8086df0;
-void (*List40::ptr::CSTR_List40)(List40 * self) = (void (*)(List40 * self)) 0x81b9b50;
+inline List40 * (*List40::ptr::_New)() = (List40 * (*)()) 0x81b9830;
+inline Node58 * (*List40::ptr::AddLast40)(List40 * self, Switch * data) = (Node58 * (*)(List40 * self, Switch * data)) 0x80ba250;
+inline List40 * (*List40::ptr::_new2)(List40 * self, Array<Switch *> * arg1) = (List40 * (*)(List40 * self, Array<Switch *> * arg1)) 0x0;
+inline bool (*List40::ptr::_IsEmpty)() = (bool (*)()) 0x8075020;
+inline Switch * (*List40::ptr::_First)() = (Switch * (*)()) 0x8075030;
+inline bool (*List40::ptr::_Equals25)(List40 * self, Switch * arg1, Switch * arg2) = (bool (*)(List40 * self, Switch * arg1, Switch * arg2)) 0x8075050;
+inline int (*List40::ptr::RemoveEach22)(List40 * self, Switch * value) = (int (*)(List40 * self, Switch * value)) 0x8075060;
+inline void (*List40::ptr::_mark)() = (void (*)()) 0x8086df0;
+inline void (*List40::ptr::CSTR_List40)(List40 * self) = (void (*)(List40 * self)) 0x81b9b50;
 #endif
 #endif

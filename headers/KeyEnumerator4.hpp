@@ -28,19 +28,19 @@ public:
 
 #ifdef _WIN32
 
-KeyEnumerator4 * (*KeyEnumerator4::ptr::_New)(KeyEnumerator4 * self, Node63 * arg1) = (KeyEnumerator4 * (*)(KeyEnumerator4 * self, Node63 * arg1)) 0x0;
-KeyEnumerator4 * (*KeyEnumerator4::ptr::_new2)() = (KeyEnumerator4 * (*)()) 0x0;
-bool (*KeyEnumerator4::ptr::_HasNext)() = (bool (*)()) 0x0;
-Point * (*KeyEnumerator4::ptr::NextObject)(KeyEnumerator4 * self) = (Point * (*)(KeyEnumerator4 * self)) 0x633130;
-void (*KeyEnumerator4::ptr::_mark)() = (void (*)()) 0x0;
+inline KeyEnumerator4 * (*KeyEnumerator4::ptr::_New)(KeyEnumerator4 * self, Node63 * arg1) = (KeyEnumerator4 * (*)(KeyEnumerator4 * self, Node63 * arg1)) 0x0;
+inline KeyEnumerator4 * (*KeyEnumerator4::ptr::_new2)() = (KeyEnumerator4 * (*)()) 0x0;
+inline bool (*KeyEnumerator4::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline Point * (*KeyEnumerator4::ptr::NextObject)(KeyEnumerator4 * self) = (Point * (*)(KeyEnumerator4 * self)) 0x633130;
+inline void (*KeyEnumerator4::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-KeyEnumerator4 * (*KeyEnumerator4::ptr::_New)(KeyEnumerator4 * self, Node63 * arg1) = (KeyEnumerator4 * (*)(KeyEnumerator4 * self, Node63 * arg1)) 0x0;
-KeyEnumerator4 * (*KeyEnumerator4::ptr::_new2)() = (KeyEnumerator4 * (*)()) 0x81d48c0;
-bool (*KeyEnumerator4::ptr::_HasNext)() = (bool (*)()) 0x8076bc0;
-Point * (*KeyEnumerator4::ptr::NextObject)(KeyEnumerator4 * self) = (Point * (*)(KeyEnumerator4 * self)) 0x809b620;
-void (*KeyEnumerator4::ptr::_mark)() = (void (*)()) 0x808e1c0;
+inline KeyEnumerator4 * (*KeyEnumerator4::ptr::_New)(KeyEnumerator4 * self, Node63 * arg1) = (KeyEnumerator4 * (*)(KeyEnumerator4 * self, Node63 * arg1)) 0x0;
+inline KeyEnumerator4 * (*KeyEnumerator4::ptr::_new2)() = (KeyEnumerator4 * (*)()) 0x81d48c0;
+inline bool (*KeyEnumerator4::ptr::_HasNext)() = (bool (*)()) 0x8076bc0;
+inline Point * (*KeyEnumerator4::ptr::NextObject)(KeyEnumerator4 * self) = (Point * (*)(KeyEnumerator4 * self)) 0x809b620;
+inline void (*KeyEnumerator4::ptr::_mark)() = (void (*)()) 0x808e1c0;
 #endif
 #endif

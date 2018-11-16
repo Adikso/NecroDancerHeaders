@@ -41,31 +41,31 @@ public:
 
 #ifdef _WIN32
 
-Map18 * (*Map18::ptr::_New)() = (Map18 * (*)()) 0x0;
-int (*Map18::ptr::_Compare6)(Map18 * self, Point * arg1, Point * arg2) = (int (*)(Map18 * self, Point * arg1, Point * arg2)) 0x0;
-int (*Map18::ptr::_RotateLeft18)(Map18 * self, Node60 * arg1) = (int (*)(Map18 * self, Node60 * arg1)) 0x0;
-int (*Map18::ptr::_RotateRight18)(Map18 * self, Node60 * arg1) = (int (*)(Map18 * self, Node60 * arg1)) 0x0;
-int (*Map18::ptr::_InsertFixup18)(Map18 * self, Node60 * arg1) = (int (*)(Map18 * self, Node60 * arg1)) 0x0;
-bool (*Map18::ptr::Add12)(Map18 * self, Point * key, int value) = (bool (*)(Map18 * self, Point * key, int value)) 0x630cb0;
-MapKeys2 * (*Map18::ptr::Keys)(Map18 * self) = (MapKeys2 * (*)(Map18 * self)) 0x630db0;
-Node60 * (*Map18::ptr::_FirstNode)() = (Node60 * (*)()) 0x0;
-Node60 * (*Map18::ptr::_FindNode3)(Map18 * self, Point * arg1) = (Node60 * (*)(Map18 * self, Point * arg1)) 0x0;
-int (*Map18::ptr::Get4)(Map18 * self, Point * key) = (int (*)(Map18 * self, Point * key)) 0x616280;
-void (*Map18::ptr::_mark)() = (void (*)()) 0x0;
+inline Map18 * (*Map18::ptr::_New)() = (Map18 * (*)()) 0x0;
+inline int (*Map18::ptr::_Compare6)(Map18 * self, Point * arg1, Point * arg2) = (int (*)(Map18 * self, Point * arg1, Point * arg2)) 0x0;
+inline int (*Map18::ptr::_RotateLeft18)(Map18 * self, Node60 * arg1) = (int (*)(Map18 * self, Node60 * arg1)) 0x0;
+inline int (*Map18::ptr::_RotateRight18)(Map18 * self, Node60 * arg1) = (int (*)(Map18 * self, Node60 * arg1)) 0x0;
+inline int (*Map18::ptr::_InsertFixup18)(Map18 * self, Node60 * arg1) = (int (*)(Map18 * self, Node60 * arg1)) 0x0;
+inline bool (*Map18::ptr::Add12)(Map18 * self, Point * key, int value) = (bool (*)(Map18 * self, Point * key, int value)) 0x630cb0;
+inline MapKeys2 * (*Map18::ptr::Keys)(Map18 * self) = (MapKeys2 * (*)(Map18 * self)) 0x630db0;
+inline Node60 * (*Map18::ptr::_FirstNode)() = (Node60 * (*)()) 0x0;
+inline Node60 * (*Map18::ptr::_FindNode3)(Map18 * self, Point * arg1) = (Node60 * (*)(Map18 * self, Point * arg1)) 0x0;
+inline int (*Map18::ptr::Get4)(Map18 * self, Point * key) = (int (*)(Map18 * self, Point * key)) 0x616280;
+inline void (*Map18::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Map18 * (*Map18::ptr::_New)() = (Map18 * (*)()) 0x81ba1c0;
-int (*Map18::ptr::_Compare6)(Map18 * self, Point * arg1, Point * arg2) = (int (*)(Map18 * self, Point * arg1, Point * arg2)) 0x0;
-int (*Map18::ptr::_RotateLeft18)(Map18 * self, Node60 * arg1) = (int (*)(Map18 * self, Node60 * arg1)) 0x0;
-int (*Map18::ptr::_RotateRight18)(Map18 * self, Node60 * arg1) = (int (*)(Map18 * self, Node60 * arg1)) 0x0;
-int (*Map18::ptr::_InsertFixup18)(Map18 * self, Node60 * arg1) = (int (*)(Map18 * self, Node60 * arg1)) 0x0;
-bool (*Map18::ptr::Add12)(Map18 * self, Point * key, int value) = (bool (*)(Map18 * self, Point * key, int value)) 0x80ba490;
-MapKeys2 * (*Map18::ptr::Keys)(Map18 * self) = (MapKeys2 * (*)(Map18 * self)) 0x80bae80;
-Node60 * (*Map18::ptr::_FirstNode)() = (Node60 * (*)()) 0x8075440;
-Node60 * (*Map18::ptr::_FindNode3)(Map18 * self, Point * arg1) = (Node60 * (*)(Map18 * self, Point * arg1)) 0x8075460;
-int (*Map18::ptr::Get4)(Map18 * self, Point * key) = (int (*)(Map18 * self, Point * key)) 0x80754b0;
-void (*Map18::ptr::_mark)() = (void (*)()) 0x808d780;
+inline Map18 * (*Map18::ptr::_New)() = (Map18 * (*)()) 0x81ba1c0;
+inline int (*Map18::ptr::_Compare6)(Map18 * self, Point * arg1, Point * arg2) = (int (*)(Map18 * self, Point * arg1, Point * arg2)) 0x0;
+inline int (*Map18::ptr::_RotateLeft18)(Map18 * self, Node60 * arg1) = (int (*)(Map18 * self, Node60 * arg1)) 0x0;
+inline int (*Map18::ptr::_RotateRight18)(Map18 * self, Node60 * arg1) = (int (*)(Map18 * self, Node60 * arg1)) 0x0;
+inline int (*Map18::ptr::_InsertFixup18)(Map18 * self, Node60 * arg1) = (int (*)(Map18 * self, Node60 * arg1)) 0x0;
+inline bool (*Map18::ptr::Add12)(Map18 * self, Point * key, int value) = (bool (*)(Map18 * self, Point * key, int value)) 0x80ba490;
+inline MapKeys2 * (*Map18::ptr::Keys)(Map18 * self) = (MapKeys2 * (*)(Map18 * self)) 0x80bae80;
+inline Node60 * (*Map18::ptr::_FirstNode)() = (Node60 * (*)()) 0x8075440;
+inline Node60 * (*Map18::ptr::_FindNode3)(Map18 * self, Point * arg1) = (Node60 * (*)(Map18 * self, Point * arg1)) 0x8075460;
+inline int (*Map18::ptr::Get4)(Map18 * self, Point * key) = (int (*)(Map18 * self, Point * key)) 0x80754b0;
+inline void (*Map18::ptr::_mark)() = (void (*)()) 0x808d780;
 #endif
 #endif

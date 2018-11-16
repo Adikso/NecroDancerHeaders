@@ -34,21 +34,21 @@ public:
 
 #ifdef _WIN32
 
-Node34 * (*Node34::ptr::_New)(Node34 * self, String * arg1, String * arg2, int arg3, Node34 * arg4) = (Node34 * (*)(Node34 * self, String * arg1, String * arg2, int arg3, Node34 * arg4)) 0x0;
-Node34 * (*Node34::ptr::_new2)() = (Node34 * (*)()) 0x0;
-Node34 * (*Node34::ptr::_NextNode)() = (Node34 * (*)()) 0x0;
-String * (*Node34::ptr::_Key)() = (String * (*)()) 0x0;
-String * (*Node34::ptr::_Value)() = (String * (*)()) 0x0;
-void (*Node34::ptr::_mark)() = (void (*)()) 0x0;
+inline Node34 * (*Node34::ptr::_New)(Node34 * self, String * arg1, String * arg2, int arg3, Node34 * arg4) = (Node34 * (*)(Node34 * self, String * arg1, String * arg2, int arg3, Node34 * arg4)) 0x0;
+inline Node34 * (*Node34::ptr::_new2)() = (Node34 * (*)()) 0x0;
+inline Node34 * (*Node34::ptr::_NextNode)() = (Node34 * (*)()) 0x0;
+inline String * (*Node34::ptr::_Key)() = (String * (*)()) 0x0;
+inline String * (*Node34::ptr::_Value)() = (String * (*)()) 0x0;
+inline void (*Node34::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node34 * (*Node34::ptr::_New)(Node34 * self, String * arg1, String * arg2, int arg3, Node34 * arg4) = (Node34 * (*)(Node34 * self, String * arg1, String * arg2, int arg3, Node34 * arg4)) 0x0;
-Node34 * (*Node34::ptr::_new2)() = (Node34 * (*)()) 0x81a7f00;
-Node34 * (*Node34::ptr::_NextNode)() = (Node34 * (*)()) 0x8073f50;
-String * (*Node34::ptr::_Key)() = (String * (*)()) 0x0;
-String * (*Node34::ptr::_Value)() = (String * (*)()) 0x0;
-void (*Node34::ptr::_mark)() = (void (*)()) 0x809b1f0;
+inline Node34 * (*Node34::ptr::_New)(Node34 * self, String * arg1, String * arg2, int arg3, Node34 * arg4) = (Node34 * (*)(Node34 * self, String * arg1, String * arg2, int arg3, Node34 * arg4)) 0x0;
+inline Node34 * (*Node34::ptr::_new2)() = (Node34 * (*)()) 0x81a7f00;
+inline Node34 * (*Node34::ptr::_NextNode)() = (Node34 * (*)()) 0x8073f50;
+inline String * (*Node34::ptr::_Key)() = (String * (*)()) 0x0;
+inline String * (*Node34::ptr::_Value)() = (String * (*)()) 0x0;
+inline void (*Node34::ptr::_mark)() = (void (*)()) 0x809b1f0;
 #endif
 #endif

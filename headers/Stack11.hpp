@@ -44,36 +44,36 @@ public:
 };
 
 #ifdef _WIN32
-XMLNode * * Stack11::_NIL = (XMLNode* *) 0x835580;
+inline XMLNode * * Stack11::_NIL = (XMLNode* *) 0x835580;
 
-Stack11 * (*Stack11::ptr::_New)() = (Stack11 * (*)()) 0x0;
-Stack11 * (*Stack11::ptr::_new2)(Stack11 * self, Array<XMLNode *> * arg1) = (Stack11 * (*)(Stack11 * self, Array<XMLNode *> * arg1)) 0x0;
-int (*Stack11::ptr::Clear)(Stack11 * self) = (int (*)(Stack11 * self)) 0x66cd00;
-int (*Stack11::ptr::Push31)(Stack11 * self, XMLNode * value) = (int (*)(Stack11 * self, XMLNode * value)) 0x66cda0;
-int (*Stack11::ptr::_Push32)(Stack11 * self, Array<XMLNode *> * values, int offset, int count) = (int (*)(Stack11 * self, Array<XMLNode *> * values, int offset, int count)) 0x66ce40;
-int (*Stack11::ptr::_Push33)(Stack11 * self, Array<XMLNode *> * values, int offset) = (int (*)(Stack11 * self, Array<XMLNode *> * values, int offset)) 0x66ce80;
-bool (*Stack11::ptr::_IsEmpty)() = (bool (*)()) 0x0;
-int (*Stack11::ptr::_Length)() = (int (*)()) 0x0;
-XMLNode * (*Stack11::ptr::_Get2)(Stack11 * self, int arg1) = (XMLNode * (*)(Stack11 * self, int arg1)) 0x0;
-int (*Stack11::ptr::Remove5)(Stack11 * self, int index) = (int (*)(Stack11 * self, int index)) 0x66cec0;
-Enumerator46 * (*Stack11::ptr::ObjectEnumerator)(Stack11 * self) = (Enumerator46 * (*)(Stack11 * self)) 0x66cfc0;
-void (*Stack11::ptr::_mark)() = (void (*)()) 0x0;
+inline Stack11 * (*Stack11::ptr::_New)() = (Stack11 * (*)()) 0x0;
+inline Stack11 * (*Stack11::ptr::_new2)(Stack11 * self, Array<XMLNode *> * arg1) = (Stack11 * (*)(Stack11 * self, Array<XMLNode *> * arg1)) 0x0;
+inline int (*Stack11::ptr::Clear)(Stack11 * self) = (int (*)(Stack11 * self)) 0x66cd00;
+inline int (*Stack11::ptr::Push31)(Stack11 * self, XMLNode * value) = (int (*)(Stack11 * self, XMLNode * value)) 0x66cda0;
+inline int (*Stack11::ptr::_Push32)(Stack11 * self, Array<XMLNode *> * values, int offset, int count) = (int (*)(Stack11 * self, Array<XMLNode *> * values, int offset, int count)) 0x66ce40;
+inline int (*Stack11::ptr::_Push33)(Stack11 * self, Array<XMLNode *> * values, int offset) = (int (*)(Stack11 * self, Array<XMLNode *> * values, int offset)) 0x66ce80;
+inline bool (*Stack11::ptr::_IsEmpty)() = (bool (*)()) 0x0;
+inline int (*Stack11::ptr::_Length)() = (int (*)()) 0x0;
+inline XMLNode * (*Stack11::ptr::_Get2)(Stack11 * self, int arg1) = (XMLNode * (*)(Stack11 * self, int arg1)) 0x0;
+inline int (*Stack11::ptr::Remove5)(Stack11 * self, int index) = (int (*)(Stack11 * self, int index)) 0x66cec0;
+inline Enumerator46 * (*Stack11::ptr::ObjectEnumerator)(Stack11 * self) = (Enumerator46 * (*)(Stack11 * self)) 0x66cfc0;
+inline void (*Stack11::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
-XMLNode * * Stack11::_NIL = (XMLNode* *) 0x0;
+inline XMLNode * * Stack11::_NIL = (XMLNode* *) 0x0;
 
-Stack11 * (*Stack11::ptr::_New)() = (Stack11 * (*)()) 0x81dae50;
-Stack11 * (*Stack11::ptr::_new2)(Stack11 * self, Array<XMLNode *> * arg1) = (Stack11 * (*)(Stack11 * self, Array<XMLNode *> * arg1)) 0x0;
-int (*Stack11::ptr::Clear)(Stack11 * self) = (int (*)(Stack11 * self)) 0x8077cd0;
-int (*Stack11::ptr::Push31)(Stack11 * self, XMLNode * value) = (int (*)(Stack11 * self, XMLNode * value)) 0x80bde60;
-int (*Stack11::ptr::_Push32)(Stack11 * self, Array<XMLNode *> * values, int offset, int count) = (int (*)(Stack11 * self, Array<XMLNode *> * values, int offset, int count)) 0x0;
-int (*Stack11::ptr::_Push33)(Stack11 * self, Array<XMLNode *> * values, int offset) = (int (*)(Stack11 * self, Array<XMLNode *> * values, int offset)) 0x0;
-bool (*Stack11::ptr::_IsEmpty)() = (bool (*)()) 0x8077d80;
-int (*Stack11::ptr::_Length)() = (int (*)()) 0x8077d90;
-XMLNode * (*Stack11::ptr::_Get2)(Stack11 * self, int arg1) = (XMLNode * (*)(Stack11 * self, int arg1)) 0x8077da0;
-int (*Stack11::ptr::Remove5)(Stack11 * self, int index) = (int (*)(Stack11 * self, int index)) 0x8095b70;
-Enumerator46 * (*Stack11::ptr::ObjectEnumerator)(Stack11 * self) = (Enumerator46 * (*)(Stack11 * self)) 0x80bc180;
-void (*Stack11::ptr::_mark)() = (void (*)()) 0x8077db0;
+inline Stack11 * (*Stack11::ptr::_New)() = (Stack11 * (*)()) 0x81dae50;
+inline Stack11 * (*Stack11::ptr::_new2)(Stack11 * self, Array<XMLNode *> * arg1) = (Stack11 * (*)(Stack11 * self, Array<XMLNode *> * arg1)) 0x0;
+inline int (*Stack11::ptr::Clear)(Stack11 * self) = (int (*)(Stack11 * self)) 0x8077cd0;
+inline int (*Stack11::ptr::Push31)(Stack11 * self, XMLNode * value) = (int (*)(Stack11 * self, XMLNode * value)) 0x80bde60;
+inline int (*Stack11::ptr::_Push32)(Stack11 * self, Array<XMLNode *> * values, int offset, int count) = (int (*)(Stack11 * self, Array<XMLNode *> * values, int offset, int count)) 0x0;
+inline int (*Stack11::ptr::_Push33)(Stack11 * self, Array<XMLNode *> * values, int offset) = (int (*)(Stack11 * self, Array<XMLNode *> * values, int offset)) 0x0;
+inline bool (*Stack11::ptr::_IsEmpty)() = (bool (*)()) 0x8077d80;
+inline int (*Stack11::ptr::_Length)() = (int (*)()) 0x8077d90;
+inline XMLNode * (*Stack11::ptr::_Get2)(Stack11 * self, int arg1) = (XMLNode * (*)(Stack11 * self, int arg1)) 0x8077da0;
+inline int (*Stack11::ptr::Remove5)(Stack11 * self, int index) = (int (*)(Stack11 * self, int index)) 0x8095b70;
+inline Enumerator46 * (*Stack11::ptr::ObjectEnumerator)(Stack11 * self) = (Enumerator46 * (*)(Stack11 * self)) 0x80bc180;
+inline void (*Stack11::ptr::_mark)() = (void (*)()) 0x8077db0;
 #endif
 #endif

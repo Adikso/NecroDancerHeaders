@@ -31,21 +31,21 @@ public:
 
 #ifdef _WIN32
 
-Node17 * (*Node17::ptr::_New)(Node17 * self, Node17 * arg1, Node17 * arg2, Gargoyle * arg3) = (Node17 * (*)(Node17 * self, Node17 * arg1, Node17 * arg2, Gargoyle * arg3)) 0x0;
-Node17 * (*Node17::ptr::_new2)() = (Node17 * (*)()) 0x0;
-Node17 * (*Node17::ptr::_GetNode)() = (Node17 * (*)()) 0x0;
-Node17 * (*Node17::ptr::_NextNode)() = (Node17 * (*)()) 0x0;
-int (*Node17::ptr::_Remove3)() = (int (*)()) 0x0;
-void (*Node17::ptr::_mark)() = (void (*)()) 0x0;
+inline Node17 * (*Node17::ptr::_New)(Node17 * self, Node17 * arg1, Node17 * arg2, Gargoyle * arg3) = (Node17 * (*)(Node17 * self, Node17 * arg1, Node17 * arg2, Gargoyle * arg3)) 0x0;
+inline Node17 * (*Node17::ptr::_new2)() = (Node17 * (*)()) 0x0;
+inline Node17 * (*Node17::ptr::_GetNode)() = (Node17 * (*)()) 0x0;
+inline Node17 * (*Node17::ptr::_NextNode)() = (Node17 * (*)()) 0x0;
+inline int (*Node17::ptr::_Remove3)() = (int (*)()) 0x0;
+inline void (*Node17::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node17 * (*Node17::ptr::_New)(Node17 * self, Node17 * arg1, Node17 * arg2, Gargoyle * arg3) = (Node17 * (*)(Node17 * self, Node17 * arg1, Node17 * arg2, Gargoyle * arg3)) 0x0;
-Node17 * (*Node17::ptr::_new2)() = (Node17 * (*)()) 0x81953e0;
-Node17 * (*Node17::ptr::_GetNode)() = (Node17 * (*)()) 0x0;
-Node17 * (*Node17::ptr::_NextNode)() = (Node17 * (*)()) 0x0;
-int (*Node17::ptr::_Remove3)() = (int (*)()) 0x0;
-void (*Node17::ptr::_mark)() = (void (*)()) 0x8089110;
+inline Node17 * (*Node17::ptr::_New)(Node17 * self, Node17 * arg1, Node17 * arg2, Gargoyle * arg3) = (Node17 * (*)(Node17 * self, Node17 * arg1, Node17 * arg2, Gargoyle * arg3)) 0x0;
+inline Node17 * (*Node17::ptr::_new2)() = (Node17 * (*)()) 0x81953e0;
+inline Node17 * (*Node17::ptr::_GetNode)() = (Node17 * (*)()) 0x0;
+inline Node17 * (*Node17::ptr::_NextNode)() = (Node17 * (*)()) 0x0;
+inline int (*Node17::ptr::_Remove3)() = (int (*)()) 0x0;
+inline void (*Node17::ptr::_mark)() = (void (*)()) 0x8089110;
 #endif
 #endif

@@ -32,17 +32,17 @@ public:
 
 #ifdef _WIN32
 
-XMLAttributeQueryItem * (*XMLAttributeQueryItem::ptr::New)(XMLAttributeQueryItem * self, String * id, String * value, bool required, bool special) = (XMLAttributeQueryItem * (*)(XMLAttributeQueryItem * self, String * id, String * value, bool required, bool special)) 0x4464a0;
-XMLAttributeQueryItem * (*XMLAttributeQueryItem::ptr::_new2)() = (XMLAttributeQueryItem * (*)()) 0x0;
-void (*XMLAttributeQueryItem::ptr::_mark)() = (void (*)()) 0x0;
-void (*XMLAttributeQueryItem::ptr::CSTR_XMLAttributeQueryItem)(XMLAttributeQueryItem * self) = (void (*)(XMLAttributeQueryItem * self)) 0x4462b0;
+inline XMLAttributeQueryItem * (*XMLAttributeQueryItem::ptr::New)(XMLAttributeQueryItem * self, String * id, String * value, bool required, bool special) = (XMLAttributeQueryItem * (*)(XMLAttributeQueryItem * self, String * id, String * value, bool required, bool special)) 0x4464a0;
+inline XMLAttributeQueryItem * (*XMLAttributeQueryItem::ptr::_new2)() = (XMLAttributeQueryItem * (*)()) 0x0;
+inline void (*XMLAttributeQueryItem::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*XMLAttributeQueryItem::ptr::CSTR_XMLAttributeQueryItem)(XMLAttributeQueryItem * self) = (void (*)(XMLAttributeQueryItem * self)) 0x4462b0;
 #endif
 
 #ifdef __linux__
 
-XMLAttributeQueryItem * (*XMLAttributeQueryItem::ptr::New)(XMLAttributeQueryItem * self, String * id, String * value, bool required, bool special) = (XMLAttributeQueryItem * (*)(XMLAttributeQueryItem * self, String * id, String * value, bool required, bool special)) 0x81181c0;
-XMLAttributeQueryItem * (*XMLAttributeQueryItem::ptr::_new2)() = (XMLAttributeQueryItem * (*)()) 0x8118240;
-void (*XMLAttributeQueryItem::ptr::_mark)() = (void (*)()) 0x806d660;
-void (*XMLAttributeQueryItem::ptr::CSTR_XMLAttributeQueryItem)(XMLAttributeQueryItem * self) = (void (*)(XMLAttributeQueryItem * self)) 0x8118130;
+inline XMLAttributeQueryItem * (*XMLAttributeQueryItem::ptr::New)(XMLAttributeQueryItem * self, String * id, String * value, bool required, bool special) = (XMLAttributeQueryItem * (*)(XMLAttributeQueryItem * self, String * id, String * value, bool required, bool special)) 0x81181c0;
+inline XMLAttributeQueryItem * (*XMLAttributeQueryItem::ptr::_new2)() = (XMLAttributeQueryItem * (*)()) 0x8118240;
+inline void (*XMLAttributeQueryItem::ptr::_mark)() = (void (*)()) 0x806d660;
+inline void (*XMLAttributeQueryItem::ptr::CSTR_XMLAttributeQueryItem)(XMLAttributeQueryItem * self) = (void (*)(XMLAttributeQueryItem * self)) 0x8118130;
 #endif
 #endif

@@ -51,38 +51,38 @@ public:
 };
 
 #ifdef _WIN32
-List34 * * SoulFamiliar::allSouls = (List34* *) 0x835bdc;
-bool * SoulFamiliar::hasPlayedAttackThisFrame = (bool*) 0x83557e;
+inline List34 * * SoulFamiliar::allSouls = (List34* *) 0x835bdc;
+inline bool * SoulFamiliar::hasPlayedAttackThisFrame = (bool*) 0x83557e;
 
-SoulFamiliar * (*SoulFamiliar::ptr::GetSoulAt)(int x, int y) = (SoulFamiliar * (*)(int x, int y)) 0x604200;
-void (*SoulFamiliar::ptr::Die)(SoulFamiliar * self) = (void (*)(SoulFamiliar * self)) 0x604250;
-SoulFamiliar * (*SoulFamiliar::ptr::New)(SoulFamiliar * self, int newX, int newY, Player * owner_) = (SoulFamiliar * (*)(SoulFamiliar * self, int newX, int newY, Player * owner_)) 0x6043d0;
-SoulFamiliar * (*SoulFamiliar::ptr::_new2)() = (SoulFamiliar * (*)()) 0x0;
-bool (*SoulFamiliar::ptr::CanAttackEnemy)(Enemy * e) = (bool (*)(Enemy * e)) 0x6047b0;
-void (*SoulFamiliar::ptr::ResetSoulMovement)() = (void (*)()) 0x604810;
-void (*SoulFamiliar::ptr::Update)(SoulFamiliar * self) = (void (*)(SoulFamiliar * self)) 0x604850;
-void (*SoulFamiliar::ptr::MoveTo)(SoulFamiliar * self, int newX, int newY) = (void (*)(SoulFamiliar * self, int newX, int newY)) 0x604890;
-bool (*SoulFamiliar::ptr::Hit)(SoulFamiliar * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(SoulFamiliar * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x604da0;
-bool (*SoulFamiliar::ptr::_IsSoul)() = (bool (*)()) 0x0;
-void (*SoulFamiliar::ptr::mark)(SoulFamiliar * self) = (void (*)(SoulFamiliar * self)) 0x6023f0;
-void (*SoulFamiliar::ptr::CSTR_SoulFamiliar)(SoulFamiliar * self) = (void (*)(SoulFamiliar * self)) 0x604190;
+inline SoulFamiliar * (*SoulFamiliar::ptr::GetSoulAt)(int x, int y) = (SoulFamiliar * (*)(int x, int y)) 0x604200;
+inline void (*SoulFamiliar::ptr::Die)(SoulFamiliar * self) = (void (*)(SoulFamiliar * self)) 0x604250;
+inline SoulFamiliar * (*SoulFamiliar::ptr::New)(SoulFamiliar * self, int newX, int newY, Player * owner_) = (SoulFamiliar * (*)(SoulFamiliar * self, int newX, int newY, Player * owner_)) 0x6043d0;
+inline SoulFamiliar * (*SoulFamiliar::ptr::_new2)() = (SoulFamiliar * (*)()) 0x0;
+inline bool (*SoulFamiliar::ptr::CanAttackEnemy)(Enemy * e) = (bool (*)(Enemy * e)) 0x6047b0;
+inline void (*SoulFamiliar::ptr::ResetSoulMovement)() = (void (*)()) 0x604810;
+inline void (*SoulFamiliar::ptr::Update)(SoulFamiliar * self) = (void (*)(SoulFamiliar * self)) 0x604850;
+inline void (*SoulFamiliar::ptr::MoveTo)(SoulFamiliar * self, int newX, int newY) = (void (*)(SoulFamiliar * self, int newX, int newY)) 0x604890;
+inline bool (*SoulFamiliar::ptr::Hit)(SoulFamiliar * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(SoulFamiliar * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x604da0;
+inline bool (*SoulFamiliar::ptr::_IsSoul)() = (bool (*)()) 0x0;
+inline void (*SoulFamiliar::ptr::mark)(SoulFamiliar * self) = (void (*)(SoulFamiliar * self)) 0x6023f0;
+inline void (*SoulFamiliar::ptr::CSTR_SoulFamiliar)(SoulFamiliar * self) = (void (*)(SoulFamiliar * self)) 0x604190;
 #endif
 
 #ifdef __linux__
-List34 * * SoulFamiliar::allSouls = (List34* *) 0x856a3dc;
-bool * SoulFamiliar::hasPlayedAttackThisFrame = (bool*) 0x856a3d9;
+inline List34 * * SoulFamiliar::allSouls = (List34* *) 0x856a3dc;
+inline bool * SoulFamiliar::hasPlayedAttackThisFrame = (bool*) 0x856a3d9;
 
-SoulFamiliar * (*SoulFamiliar::ptr::GetSoulAt)(int x, int y) = (SoulFamiliar * (*)(int x, int y)) 0x81a8e00;
-void (*SoulFamiliar::ptr::Die)(SoulFamiliar * self) = (void (*)(SoulFamiliar * self)) 0x83a0590;
-SoulFamiliar * (*SoulFamiliar::ptr::New)(SoulFamiliar * self, int newX, int newY, Player * owner_) = (SoulFamiliar * (*)(SoulFamiliar * self, int newX, int newY, Player * owner_)) 0x825e970;
-SoulFamiliar * (*SoulFamiliar::ptr::_new2)() = (SoulFamiliar * (*)()) 0x81a8e60;
-bool (*SoulFamiliar::ptr::CanAttackEnemy)(Enemy * e) = (bool (*)(Enemy * e)) 0x81a8ed0;
-void (*SoulFamiliar::ptr::ResetSoulMovement)() = (void (*)()) 0x81a8f30;
-void (*SoulFamiliar::ptr::Update)(SoulFamiliar * self) = (void (*)(SoulFamiliar * self)) 0x8257530;
-void (*SoulFamiliar::ptr::MoveTo)(SoulFamiliar * self, int newX, int newY) = (void (*)(SoulFamiliar * self, int newX, int newY)) 0x83bcea0;
-bool (*SoulFamiliar::ptr::Hit)(SoulFamiliar * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(SoulFamiliar * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x807f350;
-bool (*SoulFamiliar::ptr::_IsSoul)() = (bool (*)()) 0x8073f80;
-void (*SoulFamiliar::ptr::mark)(SoulFamiliar * self) = (void (*)(SoulFamiliar * self)) 0x80a54d0;
-void (*SoulFamiliar::ptr::CSTR_SoulFamiliar)(SoulFamiliar * self) = (void (*)(SoulFamiliar * self)) 0x81a8d90;
+inline SoulFamiliar * (*SoulFamiliar::ptr::GetSoulAt)(int x, int y) = (SoulFamiliar * (*)(int x, int y)) 0x81a8e00;
+inline void (*SoulFamiliar::ptr::Die)(SoulFamiliar * self) = (void (*)(SoulFamiliar * self)) 0x83a0590;
+inline SoulFamiliar * (*SoulFamiliar::ptr::New)(SoulFamiliar * self, int newX, int newY, Player * owner_) = (SoulFamiliar * (*)(SoulFamiliar * self, int newX, int newY, Player * owner_)) 0x825e970;
+inline SoulFamiliar * (*SoulFamiliar::ptr::_new2)() = (SoulFamiliar * (*)()) 0x81a8e60;
+inline bool (*SoulFamiliar::ptr::CanAttackEnemy)(Enemy * e) = (bool (*)(Enemy * e)) 0x81a8ed0;
+inline void (*SoulFamiliar::ptr::ResetSoulMovement)() = (void (*)()) 0x81a8f30;
+inline void (*SoulFamiliar::ptr::Update)(SoulFamiliar * self) = (void (*)(SoulFamiliar * self)) 0x8257530;
+inline void (*SoulFamiliar::ptr::MoveTo)(SoulFamiliar * self, int newX, int newY) = (void (*)(SoulFamiliar * self, int newX, int newY)) 0x83bcea0;
+inline bool (*SoulFamiliar::ptr::Hit)(SoulFamiliar * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(SoulFamiliar * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x807f350;
+inline bool (*SoulFamiliar::ptr::_IsSoul)() = (bool (*)()) 0x8073f80;
+inline void (*SoulFamiliar::ptr::mark)(SoulFamiliar * self) = (void (*)(SoulFamiliar * self)) 0x80a54d0;
+inline void (*SoulFamiliar::ptr::CSTR_SoulFamiliar)(SoulFamiliar * self) = (void (*)(SoulFamiliar * self)) 0x81a8d90;
 #endif
 #endif

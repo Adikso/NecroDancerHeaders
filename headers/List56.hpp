@@ -35,21 +35,21 @@ public:
 
 #ifdef _WIN32
 
-List56 * (*List56::ptr::_New)() = (List56 * (*)()) 0x0;
-Node79 * (*List56::ptr::AddLast56)(List56 * self, FloorPulse * data) = (Node79 * (*)(List56 * self, FloorPulse * data)) 0x68dea0;
-List56 * (*List56::ptr::_new2)(List56 * self, Array<FloorPulse *> * arg1) = (List56 * (*)(List56 * self, Array<FloorPulse *> * arg1)) 0x0;
-Enumerator55 * (*List56::ptr::ObjectEnumerator)(List56 * self) = (Enumerator55 * (*)(List56 * self)) 0x68df40;
-void (*List56::ptr::_mark)() = (void (*)()) 0x0;
-void (*List56::ptr::CSTR_List56)(List56 * self) = (void (*)(List56 * self)) 0x68ddd0;
+inline List56 * (*List56::ptr::_New)() = (List56 * (*)()) 0x0;
+inline Node79 * (*List56::ptr::AddLast56)(List56 * self, FloorPulse * data) = (Node79 * (*)(List56 * self, FloorPulse * data)) 0x68dea0;
+inline List56 * (*List56::ptr::_new2)(List56 * self, Array<FloorPulse *> * arg1) = (List56 * (*)(List56 * self, Array<FloorPulse *> * arg1)) 0x0;
+inline Enumerator55 * (*List56::ptr::ObjectEnumerator)(List56 * self) = (Enumerator55 * (*)(List56 * self)) 0x68df40;
+inline void (*List56::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List56::ptr::CSTR_List56)(List56 * self) = (void (*)(List56 * self)) 0x68ddd0;
 #endif
 
 #ifdef __linux__
 
-List56 * (*List56::ptr::_New)() = (List56 * (*)()) 0x81e4d40;
-Node79 * (*List56::ptr::AddLast56)(List56 * self, FloorPulse * data) = (Node79 * (*)(List56 * self, FloorPulse * data)) 0x81e4f80;
-List56 * (*List56::ptr::_new2)(List56 * self, Array<FloorPulse *> * arg1) = (List56 * (*)(List56 * self, Array<FloorPulse *> * arg1)) 0x0;
-Enumerator55 * (*List56::ptr::ObjectEnumerator)(List56 * self) = (Enumerator55 * (*)(List56 * self)) 0x80bcc50;
-void (*List56::ptr::_mark)() = (void (*)()) 0x80893b0;
-void (*List56::ptr::CSTR_List56)(List56 * self) = (void (*)(List56 * self)) 0x81e50c0;
+inline List56 * (*List56::ptr::_New)() = (List56 * (*)()) 0x81e4d40;
+inline Node79 * (*List56::ptr::AddLast56)(List56 * self, FloorPulse * data) = (Node79 * (*)(List56 * self, FloorPulse * data)) 0x81e4f80;
+inline List56 * (*List56::ptr::_new2)(List56 * self, Array<FloorPulse *> * arg1) = (List56 * (*)(List56 * self, Array<FloorPulse *> * arg1)) 0x0;
+inline Enumerator55 * (*List56::ptr::ObjectEnumerator)(List56 * self) = (Enumerator55 * (*)(List56 * self)) 0x80bcc50;
+inline void (*List56::ptr::_mark)() = (void (*)()) 0x80893b0;
+inline void (*List56::ptr::CSTR_List56)(List56 * self) = (void (*)(List56 * self)) 0x81e50c0;
 #endif
 #endif

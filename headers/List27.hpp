@@ -41,27 +41,27 @@ public:
 
 #ifdef _WIN32
 
-List27 * (*List27::ptr::_New)() = (List27 * (*)()) 0x0;
-Node44 * (*List27::ptr::AddLast27)(List27 * self, SoundData * data) = (Node44 * (*)(List27 * self, SoundData * data)) 0x5f8090;
-List27 * (*List27::ptr::_new2)(List27 * self, Array<SoundData *> * arg1) = (List27 * (*)(List27 * self, Array<SoundData *> * arg1)) 0x0;
-Enumerator47 * (*List27::ptr::ObjectEnumerator)(List27 * self) = (Enumerator47 * (*)(List27 * self)) 0x5f8130;
-bool (*List27::ptr::_Equals17)(List27 * self, SoundData * arg1, SoundData * arg2) = (bool (*)(List27 * self, SoundData * arg1, SoundData * arg2)) 0x0;
-int (*List27::ptr::_RemoveEach14)(List27 * self, SoundData * arg1) = (int (*)(List27 * self, SoundData * arg1)) 0x0;
-int (*List27::ptr::_Remove7)(List27 * self, SoundData * arg1) = (int (*)(List27 * self, SoundData * arg1)) 0x0;
-void (*List27::ptr::_mark)() = (void (*)()) 0x0;
-void (*List27::ptr::CSTR_List27)(List27 * self) = (void (*)(List27 * self)) 0x5f7fc0;
+inline List27 * (*List27::ptr::_New)() = (List27 * (*)()) 0x0;
+inline Node44 * (*List27::ptr::AddLast27)(List27 * self, SoundData * data) = (Node44 * (*)(List27 * self, SoundData * data)) 0x5f8090;
+inline List27 * (*List27::ptr::_new2)(List27 * self, Array<SoundData *> * arg1) = (List27 * (*)(List27 * self, Array<SoundData *> * arg1)) 0x0;
+inline Enumerator47 * (*List27::ptr::ObjectEnumerator)(List27 * self) = (Enumerator47 * (*)(List27 * self)) 0x5f8130;
+inline bool (*List27::ptr::_Equals17)(List27 * self, SoundData * arg1, SoundData * arg2) = (bool (*)(List27 * self, SoundData * arg1, SoundData * arg2)) 0x0;
+inline int (*List27::ptr::_RemoveEach14)(List27 * self, SoundData * arg1) = (int (*)(List27 * self, SoundData * arg1)) 0x0;
+inline int (*List27::ptr::_Remove7)(List27 * self, SoundData * arg1) = (int (*)(List27 * self, SoundData * arg1)) 0x0;
+inline void (*List27::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List27::ptr::CSTR_List27)(List27 * self) = (void (*)(List27 * self)) 0x5f7fc0;
 #endif
 
 #ifdef __linux__
 
-List27 * (*List27::ptr::_New)() = (List27 * (*)()) 0x81a0220;
-Node44 * (*List27::ptr::AddLast27)(List27 * self, SoundData * data) = (Node44 * (*)(List27 * self, SoundData * data)) 0x81a0460;
-List27 * (*List27::ptr::_new2)(List27 * self, Array<SoundData *> * arg1) = (List27 * (*)(List27 * self, Array<SoundData *> * arg1)) 0x0;
-Enumerator47 * (*List27::ptr::ObjectEnumerator)(List27 * self) = (Enumerator47 * (*)(List27 * self)) 0x80bc200;
-bool (*List27::ptr::_Equals17)(List27 * self, SoundData * arg1, SoundData * arg2) = (bool (*)(List27 * self, SoundData * arg1, SoundData * arg2)) 0x8073750;
-int (*List27::ptr::_RemoveEach14)(List27 * self, SoundData * arg1) = (int (*)(List27 * self, SoundData * arg1)) 0x8073760;
-int (*List27::ptr::_Remove7)(List27 * self, SoundData * arg1) = (int (*)(List27 * self, SoundData * arg1)) 0x80737c0;
-void (*List27::ptr::_mark)() = (void (*)()) 0x8087db0;
-void (*List27::ptr::CSTR_List27)(List27 * self) = (void (*)(List27 * self)) 0x81a05a0;
+inline List27 * (*List27::ptr::_New)() = (List27 * (*)()) 0x81a0220;
+inline Node44 * (*List27::ptr::AddLast27)(List27 * self, SoundData * data) = (Node44 * (*)(List27 * self, SoundData * data)) 0x81a0460;
+inline List27 * (*List27::ptr::_new2)(List27 * self, Array<SoundData *> * arg1) = (List27 * (*)(List27 * self, Array<SoundData *> * arg1)) 0x0;
+inline Enumerator47 * (*List27::ptr::ObjectEnumerator)(List27 * self) = (Enumerator47 * (*)(List27 * self)) 0x80bc200;
+inline bool (*List27::ptr::_Equals17)(List27 * self, SoundData * arg1, SoundData * arg2) = (bool (*)(List27 * self, SoundData * arg1, SoundData * arg2)) 0x8073750;
+inline int (*List27::ptr::_RemoveEach14)(List27 * self, SoundData * arg1) = (int (*)(List27 * self, SoundData * arg1)) 0x8073760;
+inline int (*List27::ptr::_Remove7)(List27 * self, SoundData * arg1) = (int (*)(List27 * self, SoundData * arg1)) 0x80737c0;
+inline void (*List27::ptr::_mark)() = (void (*)()) 0x8087db0;
+inline void (*List27::ptr::CSTR_List27)(List27 * self) = (void (*)(List27 * self)) 0x81a05a0;
 #endif
 #endif

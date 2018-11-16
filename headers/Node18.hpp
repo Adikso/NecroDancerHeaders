@@ -40,27 +40,27 @@ public:
 
 #ifdef _WIN32
 
-Node18 * (*Node18::ptr::_New)(Node18 * self, Node18 * succ, Node18 * pred, String * data) = (Node18 * (*)(Node18 * self, Node18 * succ, Node18 * pred, String * data)) 0x5c3a80;
-Node18 * (*Node18::ptr::_new2)() = (Node18 * (*)()) 0x0;
-int (*Node18::ptr::_Remove3)() = (int (*)()) 0x0;
-Node18 * (*Node18::ptr::_GetNode)() = (Node18 * (*)()) 0x0;
-Node18 * (*Node18::ptr::_PrevNode)() = (Node18 * (*)()) 0x0;
-Node18 * (*Node18::ptr::_NextNode)() = (Node18 * (*)()) 0x0;
-String * (*Node18::ptr::_Value)(Node18 * self) = (String * (*)(Node18 * self)) 0x5c3c50;
-void (*Node18::ptr::_mark)() = (void (*)()) 0x0;
-void (*Node18::ptr::CSTR_Node18)(Node18 * self) = (void (*)(Node18 * self)) 0x5c3940;
+inline Node18 * (*Node18::ptr::_New)(Node18 * self, Node18 * succ, Node18 * pred, String * data) = (Node18 * (*)(Node18 * self, Node18 * succ, Node18 * pred, String * data)) 0x5c3a80;
+inline Node18 * (*Node18::ptr::_new2)() = (Node18 * (*)()) 0x0;
+inline int (*Node18::ptr::_Remove3)() = (int (*)()) 0x0;
+inline Node18 * (*Node18::ptr::_GetNode)() = (Node18 * (*)()) 0x0;
+inline Node18 * (*Node18::ptr::_PrevNode)() = (Node18 * (*)()) 0x0;
+inline Node18 * (*Node18::ptr::_NextNode)() = (Node18 * (*)()) 0x0;
+inline String * (*Node18::ptr::_Value)(Node18 * self) = (String * (*)(Node18 * self)) 0x5c3c50;
+inline void (*Node18::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Node18::ptr::CSTR_Node18)(Node18 * self) = (void (*)(Node18 * self)) 0x5c3940;
 #endif
 
 #ifdef __linux__
 
-Node18 * (*Node18::ptr::_New)(Node18 * self, Node18 * succ, Node18 * pred, String * data) = (Node18 * (*)(Node18 * self, Node18 * succ, Node18 * pred, String * data)) 0x0;
-Node18 * (*Node18::ptr::_new2)() = (Node18 * (*)()) 0x81957c0;
-int (*Node18::ptr::_Remove3)() = (int (*)()) 0x8090ea0;
-Node18 * (*Node18::ptr::_GetNode)() = (Node18 * (*)()) 0x0;
-Node18 * (*Node18::ptr::_PrevNode)() = (Node18 * (*)()) 0x0;
-Node18 * (*Node18::ptr::_NextNode)() = (Node18 * (*)()) 0x0;
-String * (*Node18::ptr::_Value)(Node18 * self) = (String * (*)(Node18 * self)) 0x0;
-void (*Node18::ptr::_mark)() = (void (*)()) 0x8088170;
-void (*Node18::ptr::CSTR_Node18)(Node18 * self) = (void (*)(Node18 * self)) 0x8195580;
+inline Node18 * (*Node18::ptr::_New)(Node18 * self, Node18 * succ, Node18 * pred, String * data) = (Node18 * (*)(Node18 * self, Node18 * succ, Node18 * pred, String * data)) 0x0;
+inline Node18 * (*Node18::ptr::_new2)() = (Node18 * (*)()) 0x81957c0;
+inline int (*Node18::ptr::_Remove3)() = (int (*)()) 0x8090ea0;
+inline Node18 * (*Node18::ptr::_GetNode)() = (Node18 * (*)()) 0x0;
+inline Node18 * (*Node18::ptr::_PrevNode)() = (Node18 * (*)()) 0x0;
+inline Node18 * (*Node18::ptr::_NextNode)() = (Node18 * (*)()) 0x0;
+inline String * (*Node18::ptr::_Value)(Node18 * self) = (String * (*)(Node18 * self)) 0x0;
+inline void (*Node18::ptr::_mark)() = (void (*)()) 0x8088170;
+inline void (*Node18::ptr::CSTR_Node18)(Node18 * self) = (void (*)(Node18 * self)) 0x8195580;
 #endif
 #endif

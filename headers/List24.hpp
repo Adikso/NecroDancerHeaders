@@ -35,21 +35,21 @@ public:
 
 #ifdef _WIN32
 
-List24 * (*List24::ptr::_New)() = (List24 * (*)()) 0x0;
-Node34 * (*List24::ptr::AddLast24)(List24 * self, ShrineObject * data) = (Node34 * (*)(List24 * self, ShrineObject * data)) 0x5dfc70;
-List24 * (*List24::ptr::_new2)(List24 * self, Array<ShrineObject *> * arg1) = (List24 * (*)(List24 * self, Array<ShrineObject *> * arg1)) 0x0;
-Enumerator39 * (*List24::ptr::ObjectEnumerator)(List24 * self) = (Enumerator39 * (*)(List24 * self)) 0x5dfd10;
-void (*List24::ptr::_mark)() = (void (*)()) 0x0;
-void (*List24::ptr::CSTR_List24)(List24 * self) = (void (*)(List24 * self)) 0x5dfba0;
+inline List24 * (*List24::ptr::_New)() = (List24 * (*)()) 0x0;
+inline Node34 * (*List24::ptr::AddLast24)(List24 * self, ShrineObject * data) = (Node34 * (*)(List24 * self, ShrineObject * data)) 0x5dfc70;
+inline List24 * (*List24::ptr::_new2)(List24 * self, Array<ShrineObject *> * arg1) = (List24 * (*)(List24 * self, Array<ShrineObject *> * arg1)) 0x0;
+inline Enumerator39 * (*List24::ptr::ObjectEnumerator)(List24 * self) = (Enumerator39 * (*)(List24 * self)) 0x5dfd10;
+inline void (*List24::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List24::ptr::CSTR_List24)(List24 * self) = (void (*)(List24 * self)) 0x5dfba0;
 #endif
 
 #ifdef __linux__
 
-List24 * (*List24::ptr::_New)() = (List24 * (*)()) 0x8199aa0;
-Node34 * (*List24::ptr::AddLast24)(List24 * self, ShrineObject * data) = (Node34 * (*)(List24 * self, ShrineObject * data)) 0x8199ce0;
-List24 * (*List24::ptr::_new2)(List24 * self, Array<ShrineObject *> * arg1) = (List24 * (*)(List24 * self, Array<ShrineObject *> * arg1)) 0x0;
-Enumerator39 * (*List24::ptr::ObjectEnumerator)(List24 * self) = (Enumerator39 * (*)(List24 * self)) 0x80bbab0;
-void (*List24::ptr::_mark)() = (void (*)()) 0x8089e10;
-void (*List24::ptr::CSTR_List24)(List24 * self) = (void (*)(List24 * self)) 0x8199e20;
+inline List24 * (*List24::ptr::_New)() = (List24 * (*)()) 0x8199aa0;
+inline Node34 * (*List24::ptr::AddLast24)(List24 * self, ShrineObject * data) = (Node34 * (*)(List24 * self, ShrineObject * data)) 0x8199ce0;
+inline List24 * (*List24::ptr::_new2)(List24 * self, Array<ShrineObject *> * arg1) = (List24 * (*)(List24 * self, Array<ShrineObject *> * arg1)) 0x0;
+inline Enumerator39 * (*List24::ptr::ObjectEnumerator)(List24 * self) = (Enumerator39 * (*)(List24 * self)) 0x80bbab0;
+inline void (*List24::ptr::_mark)() = (void (*)()) 0x8089e10;
+inline void (*List24::ptr::CSTR_List24)(List24 * self) = (void (*)(List24 * self)) 0x8199e20;
 #endif
 #endif

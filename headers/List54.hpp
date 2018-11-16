@@ -43,27 +43,27 @@ public:
 
 #ifdef _WIN32
 
-List54 * (*List54::ptr::_New)() = (List54 * (*)()) 0x0;
-Node75 * (*List54::ptr::_AddLast54)(List54 * self, Doppelganger * arg1) = (Node75 * (*)(List54 * self, Doppelganger * arg1)) 0x0;
-List54 * (*List54::ptr::_new2)(List54 * self, Array<Doppelganger *> * arg1) = (List54 * (*)(List54 * self, Array<Doppelganger *> * arg1)) 0x0;
-Enumerator46 * (*List54::ptr::_ObjectEnumerator)() = (Enumerator46 * (*)()) 0x0;
-bool (*List54::ptr::_Equals32)(List54 * self, Doppelganger * arg1, Doppelganger * arg2) = (bool (*)(List54 * self, Doppelganger * arg1, Doppelganger * arg2)) 0x0;
-int (*List54::ptr::_RemoveEach28)(List54 * self, Doppelganger * arg1) = (int (*)(List54 * self, Doppelganger * arg1)) 0x0;
-void (*List54::ptr::_mark)() = (void (*)()) 0x0;
-void (*List54::ptr::CSTR_List54)(List54 * self) = (void (*)(List54 * self)) 0x66f830;
-Node74 * (*List54::ptr::AddLast54)(List54 * self, HighScoreSubmission * data) = (Node74 * (*)(List54 * self, HighScoreSubmission * data)) 0x66f900;
+inline List54 * (*List54::ptr::_New)() = (List54 * (*)()) 0x0;
+inline Node75 * (*List54::ptr::_AddLast54)(List54 * self, Doppelganger * arg1) = (Node75 * (*)(List54 * self, Doppelganger * arg1)) 0x0;
+inline List54 * (*List54::ptr::_new2)(List54 * self, Array<Doppelganger *> * arg1) = (List54 * (*)(List54 * self, Array<Doppelganger *> * arg1)) 0x0;
+inline Enumerator46 * (*List54::ptr::_ObjectEnumerator)() = (Enumerator46 * (*)()) 0x0;
+inline bool (*List54::ptr::_Equals32)(List54 * self, Doppelganger * arg1, Doppelganger * arg2) = (bool (*)(List54 * self, Doppelganger * arg1, Doppelganger * arg2)) 0x0;
+inline int (*List54::ptr::_RemoveEach28)(List54 * self, Doppelganger * arg1) = (int (*)(List54 * self, Doppelganger * arg1)) 0x0;
+inline void (*List54::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List54::ptr::CSTR_List54)(List54 * self) = (void (*)(List54 * self)) 0x66f830;
+inline Node74 * (*List54::ptr::AddLast54)(List54 * self, HighScoreSubmission * data) = (Node74 * (*)(List54 * self, HighScoreSubmission * data)) 0x66f900;
 #endif
 
 #ifdef __linux__
 
-List54 * (*List54::ptr::_New)() = (List54 * (*)()) 0x81db740;
-Node75 * (*List54::ptr::_AddLast54)(List54 * self, Doppelganger * arg1) = (Node75 * (*)(List54 * self, Doppelganger * arg1)) 0x0;
-List54 * (*List54::ptr::_new2)(List54 * self, Array<Doppelganger *> * arg1) = (List54 * (*)(List54 * self, Array<Doppelganger *> * arg1)) 0x0;
-Enumerator46 * (*List54::ptr::_ObjectEnumerator)() = (Enumerator46 * (*)()) 0x0;
-bool (*List54::ptr::_Equals32)(List54 * self, Doppelganger * arg1, Doppelganger * arg2) = (bool (*)(List54 * self, Doppelganger * arg1, Doppelganger * arg2)) 0x0;
-int (*List54::ptr::_RemoveEach28)(List54 * self, Doppelganger * arg1) = (int (*)(List54 * self, Doppelganger * arg1)) 0x0;
-void (*List54::ptr::_mark)() = (void (*)()) 0x8084c10;
-void (*List54::ptr::CSTR_List54)(List54 * self) = (void (*)(List54 * self)) 0x81dbac0;
-Node74 * (*List54::ptr::AddLast54)(List54 * self, HighScoreSubmission * data) = (Node74 * (*)(List54 * self, HighScoreSubmission * data)) 0x81db980;
+inline List54 * (*List54::ptr::_New)() = (List54 * (*)()) 0x81db740;
+inline Node75 * (*List54::ptr::_AddLast54)(List54 * self, Doppelganger * arg1) = (Node75 * (*)(List54 * self, Doppelganger * arg1)) 0x0;
+inline List54 * (*List54::ptr::_new2)(List54 * self, Array<Doppelganger *> * arg1) = (List54 * (*)(List54 * self, Array<Doppelganger *> * arg1)) 0x0;
+inline Enumerator46 * (*List54::ptr::_ObjectEnumerator)() = (Enumerator46 * (*)()) 0x0;
+inline bool (*List54::ptr::_Equals32)(List54 * self, Doppelganger * arg1, Doppelganger * arg2) = (bool (*)(List54 * self, Doppelganger * arg1, Doppelganger * arg2)) 0x0;
+inline int (*List54::ptr::_RemoveEach28)(List54 * self, Doppelganger * arg1) = (int (*)(List54 * self, Doppelganger * arg1)) 0x0;
+inline void (*List54::ptr::_mark)() = (void (*)()) 0x8084c10;
+inline void (*List54::ptr::CSTR_List54)(List54 * self) = (void (*)(List54 * self)) 0x81dbac0;
+inline Node74 * (*List54::ptr::AddLast54)(List54 * self, HighScoreSubmission * data) = (Node74 * (*)(List54 * self, HighScoreSubmission * data)) 0x81db980;
 #endif
 #endif

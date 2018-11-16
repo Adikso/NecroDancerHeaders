@@ -23,17 +23,17 @@ public:
 
 #ifdef _WIN32
 
-Medic * (*Medic::ptr::New)(Medic * self, int xVal, int yVal, int l, bool captv) = (Medic * (*)(Medic * self, int xVal, int yVal, int l, bool captv)) 0x628df0;
-Medic * (*Medic::ptr::_new2)() = (Medic * (*)()) 0x0;
-void (*Medic::ptr::Update)(Medic * self) = (void (*)(Medic * self)) 0x628eb0;
-void (*Medic::ptr::_mark)() = (void (*)()) 0x0;
+inline Medic * (*Medic::ptr::New)(Medic * self, int xVal, int yVal, int l, bool captv) = (Medic * (*)(Medic * self, int xVal, int yVal, int l, bool captv)) 0x628df0;
+inline Medic * (*Medic::ptr::_new2)() = (Medic * (*)()) 0x0;
+inline void (*Medic::ptr::Update)(Medic * self) = (void (*)(Medic * self)) 0x628eb0;
+inline void (*Medic::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Medic * (*Medic::ptr::New)(Medic * self, int xVal, int yVal, int l, bool captv) = (Medic * (*)(Medic * self, int xVal, int yVal, int l, bool captv)) 0x81b8b40;
-Medic * (*Medic::ptr::_new2)() = (Medic * (*)()) 0x81b8c00;
-void (*Medic::ptr::Update)(Medic * self) = (void (*)(Medic * self)) 0x83871d0;
-void (*Medic::ptr::_mark)() = (void (*)()) 0x80b31e0;
+inline Medic * (*Medic::ptr::New)(Medic * self, int xVal, int yVal, int l, bool captv) = (Medic * (*)(Medic * self, int xVal, int yVal, int l, bool captv)) 0x81b8b40;
+inline Medic * (*Medic::ptr::_new2)() = (Medic * (*)()) 0x81b8c00;
+inline void (*Medic::ptr::Update)(Medic * self) = (void (*)(Medic * self)) 0x83871d0;
+inline void (*Medic::ptr::_mark)() = (void (*)()) 0x80b31e0;
 #endif
 #endif

@@ -45,25 +45,25 @@ public:
 
 #ifdef _WIN32
 
-void (*MobileEntity::ptr::Splash)(MobileEntity * self, bool destroyWater) = (void (*)(MobileEntity * self, bool destroyWater)) 0x4fd700;
-bool (*MobileEntity::ptr::IsSlidingOnIce)(MobileEntity * self) = (bool (*)(MobileEntity * self)) 0x4fd730;
-MobileEntity * (*MobileEntity::ptr::_New)() = (MobileEntity * (*)()) 0x0;
-bool (*MobileEntity::ptr::IsStandingStill)(MobileEntity * self) = (bool (*)(MobileEntity * self)) 0x4fd740;
-bool (*MobileEntity::ptr::IsStuckInLiquid)(MobileEntity * self) = (bool (*)(MobileEntity * self)) 0x4fd7c0;
-void (*MobileEntity::ptr::Update)(MobileEntity * self) = (void (*)(MobileEntity * self)) 0x4fd830;
-void (*MobileEntity::ptr::_mark)() = (void (*)()) 0x0;
-void (*MobileEntity::ptr::CSTR_MobileEntity)(MobileEntity * self) = (void (*)(MobileEntity * self)) 0x4fd570;
+inline void (*MobileEntity::ptr::Splash)(MobileEntity * self, bool destroyWater) = (void (*)(MobileEntity * self, bool destroyWater)) 0x4fd700;
+inline bool (*MobileEntity::ptr::IsSlidingOnIce)(MobileEntity * self) = (bool (*)(MobileEntity * self)) 0x4fd730;
+inline MobileEntity * (*MobileEntity::ptr::_New)() = (MobileEntity * (*)()) 0x0;
+inline bool (*MobileEntity::ptr::IsStandingStill)(MobileEntity * self) = (bool (*)(MobileEntity * self)) 0x4fd740;
+inline bool (*MobileEntity::ptr::IsStuckInLiquid)(MobileEntity * self) = (bool (*)(MobileEntity * self)) 0x4fd7c0;
+inline void (*MobileEntity::ptr::Update)(MobileEntity * self) = (void (*)(MobileEntity * self)) 0x4fd830;
+inline void (*MobileEntity::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*MobileEntity::ptr::CSTR_MobileEntity)(MobileEntity * self) = (void (*)(MobileEntity * self)) 0x4fd570;
 #endif
 
 #ifdef __linux__
 
-void (*MobileEntity::ptr::Splash)(MobileEntity * self, bool destroyWater) = (void (*)(MobileEntity * self, bool destroyWater)) 0x837bd40;
-bool (*MobileEntity::ptr::IsSlidingOnIce)(MobileEntity * self) = (bool (*)(MobileEntity * self)) 0x806e430;
-MobileEntity * (*MobileEntity::ptr::_New)() = (MobileEntity * (*)()) 0x813fdf0;
-bool (*MobileEntity::ptr::IsStandingStill)(MobileEntity * self) = (bool (*)(MobileEntity * self)) 0x807e0f0;
-bool (*MobileEntity::ptr::IsStuckInLiquid)(MobileEntity * self) = (bool (*)(MobileEntity * self)) 0x8131570;
-void (*MobileEntity::ptr::Update)(MobileEntity * self) = (void (*)(MobileEntity * self)) 0x837ce20;
-void (*MobileEntity::ptr::_mark)() = (void (*)()) 0x80a5330;
-void (*MobileEntity::ptr::CSTR_MobileEntity)(MobileEntity * self) = (void (*)(MobileEntity * self)) 0x813fd70;
+inline void (*MobileEntity::ptr::Splash)(MobileEntity * self, bool destroyWater) = (void (*)(MobileEntity * self, bool destroyWater)) 0x837bd40;
+inline bool (*MobileEntity::ptr::IsSlidingOnIce)(MobileEntity * self) = (bool (*)(MobileEntity * self)) 0x806e430;
+inline MobileEntity * (*MobileEntity::ptr::_New)() = (MobileEntity * (*)()) 0x813fdf0;
+inline bool (*MobileEntity::ptr::IsStandingStill)(MobileEntity * self) = (bool (*)(MobileEntity * self)) 0x807e0f0;
+inline bool (*MobileEntity::ptr::IsStuckInLiquid)(MobileEntity * self) = (bool (*)(MobileEntity * self)) 0x8131570;
+inline void (*MobileEntity::ptr::Update)(MobileEntity * self) = (void (*)(MobileEntity * self)) 0x837ce20;
+inline void (*MobileEntity::ptr::_mark)() = (void (*)()) 0x80a5330;
+inline void (*MobileEntity::ptr::CSTR_MobileEntity)(MobileEntity * self) = (void (*)(MobileEntity * self)) 0x813fd70;
 #endif
 #endif

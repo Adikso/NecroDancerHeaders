@@ -42,29 +42,29 @@ public:
 
 #ifdef _WIN32
 
-int (*ZombieElectric::ptr::GetNextMovementDir)(ZombieElectric * self) = (int (*)(ZombieElectric * self)) 0x658930;
-int (*ZombieElectric::ptr::GetMovementDir)(ZombieElectric * self) = (int (*)(ZombieElectric * self)) 0x658b10;
-ZombieElectric * (*ZombieElectric::ptr::New)(ZombieElectric * self, int x_, int y_, int l) = (ZombieElectric * (*)(ZombieElectric * self, int x_, int y_, int l)) 0x658b90;
-ZombieElectric * (*ZombieElectric::ptr::_new2)() = (ZombieElectric * (*)()) 0x0;
-void (*ZombieElectric::ptr::Update)(ZombieElectric * self) = (void (*)(ZombieElectric * self)) 0x658e10;
-Point * (*ZombieElectric::ptr::GetMovementDirection)(ZombieElectric * self) = (Point * (*)(ZombieElectric * self)) 0x658ec0;
-void (*ZombieElectric::ptr::MoveFail)(ZombieElectric * self) = (void (*)(ZombieElectric * self)) 0x658fe0;
-void (*ZombieElectric::ptr::MoveSucceed)(ZombieElectric * self, bool hitPlayer, bool moveDelayed) = (void (*)(ZombieElectric * self, bool hitPlayer, bool moveDelayed)) 0x659060;
-bool (*ZombieElectric::ptr::Hit)(ZombieElectric * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(ZombieElectric * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x6590d0;
-void (*ZombieElectric::ptr::mark)(ZombieElectric * self) = (void (*)(ZombieElectric * self)) 0x5f8210;
+inline int (*ZombieElectric::ptr::GetNextMovementDir)(ZombieElectric * self) = (int (*)(ZombieElectric * self)) 0x658930;
+inline int (*ZombieElectric::ptr::GetMovementDir)(ZombieElectric * self) = (int (*)(ZombieElectric * self)) 0x658b10;
+inline ZombieElectric * (*ZombieElectric::ptr::New)(ZombieElectric * self, int x_, int y_, int l) = (ZombieElectric * (*)(ZombieElectric * self, int x_, int y_, int l)) 0x658b90;
+inline ZombieElectric * (*ZombieElectric::ptr::_new2)() = (ZombieElectric * (*)()) 0x0;
+inline void (*ZombieElectric::ptr::Update)(ZombieElectric * self) = (void (*)(ZombieElectric * self)) 0x658e10;
+inline Point * (*ZombieElectric::ptr::GetMovementDirection)(ZombieElectric * self) = (Point * (*)(ZombieElectric * self)) 0x658ec0;
+inline void (*ZombieElectric::ptr::MoveFail)(ZombieElectric * self) = (void (*)(ZombieElectric * self)) 0x658fe0;
+inline void (*ZombieElectric::ptr::MoveSucceed)(ZombieElectric * self, bool hitPlayer, bool moveDelayed) = (void (*)(ZombieElectric * self, bool hitPlayer, bool moveDelayed)) 0x659060;
+inline bool (*ZombieElectric::ptr::Hit)(ZombieElectric * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(ZombieElectric * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x6590d0;
+inline void (*ZombieElectric::ptr::mark)(ZombieElectric * self) = (void (*)(ZombieElectric * self)) 0x5f8210;
 #endif
 
 #ifdef __linux__
 
-int (*ZombieElectric::ptr::GetNextMovementDir)(ZombieElectric * self) = (int (*)(ZombieElectric * self)) 0x82304c0;
-int (*ZombieElectric::ptr::GetMovementDir)(ZombieElectric * self) = (int (*)(ZombieElectric * self)) 0x80966a0;
-ZombieElectric * (*ZombieElectric::ptr::New)(ZombieElectric * self, int x_, int y_, int l) = (ZombieElectric * (*)(ZombieElectric * self, int x_, int y_, int l)) 0x81c9ea0;
-ZombieElectric * (*ZombieElectric::ptr::_new2)() = (ZombieElectric * (*)()) 0x81ca030;
-void (*ZombieElectric::ptr::Update)(ZombieElectric * self) = (void (*)(ZombieElectric * self)) 0x837f140;
-Point * (*ZombieElectric::ptr::GetMovementDirection)(ZombieElectric * self) = (Point * (*)(ZombieElectric * self)) 0x81314a0;
-void (*ZombieElectric::ptr::MoveFail)(ZombieElectric * self) = (void (*)(ZombieElectric * self)) 0x81347f0;
-void (*ZombieElectric::ptr::MoveSucceed)(ZombieElectric * self, bool hitPlayer, bool moveDelayed) = (void (*)(ZombieElectric * self, bool hitPlayer, bool moveDelayed)) 0x8076610;
-bool (*ZombieElectric::ptr::Hit)(ZombieElectric * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(ZombieElectric * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8396d80;
-void (*ZombieElectric::ptr::mark)(ZombieElectric * self) = (void (*)(ZombieElectric * self)) 0x80b01f0;
+inline int (*ZombieElectric::ptr::GetNextMovementDir)(ZombieElectric * self) = (int (*)(ZombieElectric * self)) 0x82304c0;
+inline int (*ZombieElectric::ptr::GetMovementDir)(ZombieElectric * self) = (int (*)(ZombieElectric * self)) 0x80966a0;
+inline ZombieElectric * (*ZombieElectric::ptr::New)(ZombieElectric * self, int x_, int y_, int l) = (ZombieElectric * (*)(ZombieElectric * self, int x_, int y_, int l)) 0x81c9ea0;
+inline ZombieElectric * (*ZombieElectric::ptr::_new2)() = (ZombieElectric * (*)()) 0x81ca030;
+inline void (*ZombieElectric::ptr::Update)(ZombieElectric * self) = (void (*)(ZombieElectric * self)) 0x837f140;
+inline Point * (*ZombieElectric::ptr::GetMovementDirection)(ZombieElectric * self) = (Point * (*)(ZombieElectric * self)) 0x81314a0;
+inline void (*ZombieElectric::ptr::MoveFail)(ZombieElectric * self) = (void (*)(ZombieElectric * self)) 0x81347f0;
+inline void (*ZombieElectric::ptr::MoveSucceed)(ZombieElectric * self, bool hitPlayer, bool moveDelayed) = (void (*)(ZombieElectric * self, bool hitPlayer, bool moveDelayed)) 0x8076610;
+inline bool (*ZombieElectric::ptr::Hit)(ZombieElectric * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(ZombieElectric * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8396d80;
+inline void (*ZombieElectric::ptr::mark)(ZombieElectric * self) = (void (*)(ZombieElectric * self)) 0x80b01f0;
 #endif
 #endif

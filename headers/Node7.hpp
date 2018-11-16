@@ -25,15 +25,15 @@ public:
 
 #ifdef _WIN32
 
-Node7 * (*Node7::ptr::_New)(Node7 * self, Node7 * succ, Node7 * pred, Array<int> * data) = (Node7 * (*)(Node7 * self, Node7 * succ, Node7 * pred, Array<int> * data)) 0x5420d0;
-Node7 * (*Node7::ptr::_new2)() = (Node7 * (*)()) 0x0;
-void (*Node7::ptr::_mark)() = (void (*)()) 0x0;
+inline Node7 * (*Node7::ptr::_New)(Node7 * self, Node7 * succ, Node7 * pred, Array<int> * data) = (Node7 * (*)(Node7 * self, Node7 * succ, Node7 * pred, Array<int> * data)) 0x5420d0;
+inline Node7 * (*Node7::ptr::_new2)() = (Node7 * (*)()) 0x0;
+inline void (*Node7::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node7 * (*Node7::ptr::_New)(Node7 * self, Node7 * succ, Node7 * pred, Array<int> * data) = (Node7 * (*)(Node7 * self, Node7 * succ, Node7 * pred, Array<int> * data)) 0x0;
-Node7 * (*Node7::ptr::_new2)() = (Node7 * (*)()) 0x81596a0;
-void (*Node7::ptr::_mark)() = (void (*)()) 0x808ae10;
+inline Node7 * (*Node7::ptr::_New)(Node7 * self, Node7 * succ, Node7 * pred, Array<int> * data) = (Node7 * (*)(Node7 * self, Node7 * succ, Node7 * pred, Array<int> * data)) 0x0;
+inline Node7 * (*Node7::ptr::_new2)() = (Node7 * (*)()) 0x81596a0;
+inline void (*Node7::ptr::_mark)() = (void (*)()) 0x808ae10;
 #endif
 #endif

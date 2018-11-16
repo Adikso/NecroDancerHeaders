@@ -25,19 +25,19 @@ public:
 
 #ifdef _WIN32
 
-ShieldFamiliar * (*ShieldFamiliar::ptr::New)(ShieldFamiliar * self, int x_, int y_) = (ShieldFamiliar * (*)(ShieldFamiliar * self, int x_, int y_)) 0x602f30;
-ShieldFamiliar * (*ShieldFamiliar::ptr::_new2)() = (ShieldFamiliar * (*)()) 0x0;
-void (*ShieldFamiliar::ptr::Update)(ShieldFamiliar * self) = (void (*)(ShieldFamiliar * self)) 0x6030a0;
-bool (*ShieldFamiliar::ptr::ApplyEffect)(ShieldFamiliar * self, int dir) = (bool (*)(ShieldFamiliar * self, int dir)) 0x6030f0;
-void (*ShieldFamiliar::ptr::_mark)() = (void (*)()) 0x0;
+inline ShieldFamiliar * (*ShieldFamiliar::ptr::New)(ShieldFamiliar * self, int x_, int y_) = (ShieldFamiliar * (*)(ShieldFamiliar * self, int x_, int y_)) 0x602f30;
+inline ShieldFamiliar * (*ShieldFamiliar::ptr::_new2)() = (ShieldFamiliar * (*)()) 0x0;
+inline void (*ShieldFamiliar::ptr::Update)(ShieldFamiliar * self) = (void (*)(ShieldFamiliar * self)) 0x6030a0;
+inline bool (*ShieldFamiliar::ptr::ApplyEffect)(ShieldFamiliar * self, int dir) = (bool (*)(ShieldFamiliar * self, int dir)) 0x6030f0;
+inline void (*ShieldFamiliar::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-ShieldFamiliar * (*ShieldFamiliar::ptr::New)(ShieldFamiliar * self, int x_, int y_) = (ShieldFamiliar * (*)(ShieldFamiliar * self, int x_, int y_)) 0x81a7880;
-ShieldFamiliar * (*ShieldFamiliar::ptr::_new2)() = (ShieldFamiliar * (*)()) 0x81a7a20;
-void (*ShieldFamiliar::ptr::Update)(ShieldFamiliar * self) = (void (*)(ShieldFamiliar * self)) 0x812cf90;
-bool (*ShieldFamiliar::ptr::ApplyEffect)(ShieldFamiliar * self, int dir) = (bool (*)(ShieldFamiliar * self, int dir)) 0x819bd40;
-void (*ShieldFamiliar::ptr::_mark)() = (void (*)()) 0x80a5540;
+inline ShieldFamiliar * (*ShieldFamiliar::ptr::New)(ShieldFamiliar * self, int x_, int y_) = (ShieldFamiliar * (*)(ShieldFamiliar * self, int x_, int y_)) 0x81a7880;
+inline ShieldFamiliar * (*ShieldFamiliar::ptr::_new2)() = (ShieldFamiliar * (*)()) 0x81a7a20;
+inline void (*ShieldFamiliar::ptr::Update)(ShieldFamiliar * self) = (void (*)(ShieldFamiliar * self)) 0x812cf90;
+inline bool (*ShieldFamiliar::ptr::ApplyEffect)(ShieldFamiliar * self, int dir) = (bool (*)(ShieldFamiliar * self, int dir)) 0x819bd40;
+inline void (*ShieldFamiliar::ptr::_mark)() = (void (*)()) 0x80a5540;
 #endif
 #endif

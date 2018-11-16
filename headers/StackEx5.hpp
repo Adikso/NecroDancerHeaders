@@ -22,15 +22,15 @@ public:
 
 #ifdef _WIN32
 
-StackEx5 * (*StackEx5::ptr::_New)() = (StackEx5 * (*)()) 0x0;
-RoomBase * (*StackEx5::ptr::ChooseRandom)(StackEx5 * self, bool useSeed) = (RoomBase * (*)(StackEx5 * self, bool useSeed)) 0x631690;
-void (*StackEx5::ptr::_mark)() = (void (*)()) 0x0;
+inline StackEx5 * (*StackEx5::ptr::_New)() = (StackEx5 * (*)()) 0x0;
+inline RoomBase * (*StackEx5::ptr::ChooseRandom)(StackEx5 * self, bool useSeed) = (RoomBase * (*)(StackEx5 * self, bool useSeed)) 0x631690;
+inline void (*StackEx5::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-StackEx5 * (*StackEx5::ptr::_New)() = (StackEx5 * (*)()) 0x81d6140;
-RoomBase * (*StackEx5::ptr::ChooseRandom)(StackEx5 * self, bool useSeed) = (RoomBase * (*)(StackEx5 * self, bool useSeed)) 0x81004f0;
-void (*StackEx5::ptr::_mark)() = (void (*)()) 0x80878a0;
+inline StackEx5 * (*StackEx5::ptr::_New)() = (StackEx5 * (*)()) 0x81d6140;
+inline RoomBase * (*StackEx5::ptr::ChooseRandom)(StackEx5 * self, bool useSeed) = (RoomBase * (*)(StackEx5 * self, bool useSeed)) 0x81004f0;
+inline void (*StackEx5::ptr::_mark)() = (void (*)()) 0x80878a0;
 #endif
 #endif

@@ -35,21 +35,21 @@ public:
 
 #ifdef _WIN32
 
-List15 * (*List15::ptr::_New)() = (List15 * (*)()) 0x0;
-Node25 * (*List15::ptr::AddLast15)(List15 * self, TrapObject * data) = (Node25 * (*)(List15 * self, TrapObject * data)) 0x5db700;
-List15 * (*List15::ptr::_new2)(List15 * self, Array<TrapObject *> * arg1) = (List15 * (*)(List15 * self, Array<TrapObject *> * arg1)) 0x0;
-Enumerator33 * (*List15::ptr::ObjectEnumerator)(List15 * self) = (Enumerator33 * (*)(List15 * self)) 0x5db7a0;
-void (*List15::ptr::_mark)() = (void (*)()) 0x0;
-void (*List15::ptr::CSTR_List15)(List15 * self) = (void (*)(List15 * self)) 0x5db630;
+inline List15 * (*List15::ptr::_New)() = (List15 * (*)()) 0x0;
+inline Node25 * (*List15::ptr::AddLast15)(List15 * self, TrapObject * data) = (Node25 * (*)(List15 * self, TrapObject * data)) 0x5db700;
+inline List15 * (*List15::ptr::_new2)(List15 * self, Array<TrapObject *> * arg1) = (List15 * (*)(List15 * self, Array<TrapObject *> * arg1)) 0x0;
+inline Enumerator33 * (*List15::ptr::ObjectEnumerator)(List15 * self) = (Enumerator33 * (*)(List15 * self)) 0x5db7a0;
+inline void (*List15::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List15::ptr::CSTR_List15)(List15 * self) = (void (*)(List15 * self)) 0x5db630;
 #endif
 
 #ifdef __linux__
 
-List15 * (*List15::ptr::_New)() = (List15 * (*)()) 0x8194320;
-Node25 * (*List15::ptr::AddLast15)(List15 * self, TrapObject * data) = (Node25 * (*)(List15 * self, TrapObject * data)) 0x8194560;
-List15 * (*List15::ptr::_new2)(List15 * self, Array<TrapObject *> * arg1) = (List15 * (*)(List15 * self, Array<TrapObject *> * arg1)) 0x0;
-Enumerator33 * (*List15::ptr::ObjectEnumerator)(List15 * self) = (Enumerator33 * (*)(List15 * self)) 0x80bb620;
-void (*List15::ptr::_mark)() = (void (*)()) 0x808acb0;
-void (*List15::ptr::CSTR_List15)(List15 * self) = (void (*)(List15 * self)) 0x81946a0;
+inline List15 * (*List15::ptr::_New)() = (List15 * (*)()) 0x8194320;
+inline Node25 * (*List15::ptr::AddLast15)(List15 * self, TrapObject * data) = (Node25 * (*)(List15 * self, TrapObject * data)) 0x8194560;
+inline List15 * (*List15::ptr::_new2)(List15 * self, Array<TrapObject *> * arg1) = (List15 * (*)(List15 * self, Array<TrapObject *> * arg1)) 0x0;
+inline Enumerator33 * (*List15::ptr::ObjectEnumerator)(List15 * self) = (Enumerator33 * (*)(List15 * self)) 0x80bb620;
+inline void (*List15::ptr::_mark)() = (void (*)()) 0x808acb0;
+inline void (*List15::ptr::CSTR_List15)(List15 * self) = (void (*)(List15 * self)) 0x81946a0;
 #endif
 #endif

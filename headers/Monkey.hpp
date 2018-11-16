@@ -45,29 +45,29 @@ public:
 
 #ifdef _WIN32
 
-void (*Monkey::ptr::Die)(Monkey * self) = (void (*)(Monkey * self)) 0x639e60;
-Monkey * (*Monkey::ptr::New)(Monkey * self, int xVal, int yVal, int l) = (Monkey * (*)(Monkey * self, int xVal, int yVal, int l)) 0x639e90;
-Monkey * (*Monkey::ptr::_new2)() = (Monkey * (*)()) 0x0;
-void (*Monkey::ptr::Update)(Monkey * self) = (void (*)(Monkey * self)) 0x63a130;
-void (*Monkey::ptr::AttemptClamp)(Monkey * self) = (void (*)(Monkey * self)) 0x63a2a0;
-int (*Monkey::ptr::PerformMovement)(Monkey * self, int xVal, int yVal) = (int (*)(Monkey * self, int xVal, int yVal)) 0x63a6f0;
-bool (*Monkey::ptr::Hit)(Monkey * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Monkey * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x63aa90;
-bool (*Monkey::ptr::DislodgeAttempt)(Monkey * self) = (bool (*)(Monkey * self)) 0x63abf0;
-void (*Monkey::ptr::mark)(Monkey * self) = (void (*)(Monkey * self)) 0x63ad60;
-void (*Monkey::ptr::CSTR_Monkey)(Monkey * self) = (void (*)(Monkey * self)) 0x639de0;
+inline void (*Monkey::ptr::Die)(Monkey * self) = (void (*)(Monkey * self)) 0x639e60;
+inline Monkey * (*Monkey::ptr::New)(Monkey * self, int xVal, int yVal, int l) = (Monkey * (*)(Monkey * self, int xVal, int yVal, int l)) 0x639e90;
+inline Monkey * (*Monkey::ptr::_new2)() = (Monkey * (*)()) 0x0;
+inline void (*Monkey::ptr::Update)(Monkey * self) = (void (*)(Monkey * self)) 0x63a130;
+inline void (*Monkey::ptr::AttemptClamp)(Monkey * self) = (void (*)(Monkey * self)) 0x63a2a0;
+inline int (*Monkey::ptr::PerformMovement)(Monkey * self, int xVal, int yVal) = (int (*)(Monkey * self, int xVal, int yVal)) 0x63a6f0;
+inline bool (*Monkey::ptr::Hit)(Monkey * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Monkey * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x63aa90;
+inline bool (*Monkey::ptr::DislodgeAttempt)(Monkey * self) = (bool (*)(Monkey * self)) 0x63abf0;
+inline void (*Monkey::ptr::mark)(Monkey * self) = (void (*)(Monkey * self)) 0x63ad60;
+inline void (*Monkey::ptr::CSTR_Monkey)(Monkey * self) = (void (*)(Monkey * self)) 0x639de0;
 #endif
 
 #ifdef __linux__
 
-void (*Monkey::ptr::Die)(Monkey * self) = (void (*)(Monkey * self)) 0x83b6410;
-Monkey * (*Monkey::ptr::New)(Monkey * self, int xVal, int yVal, int l) = (Monkey * (*)(Monkey * self, int xVal, int yVal, int l)) 0x81c00a0;
-Monkey * (*Monkey::ptr::_new2)() = (Monkey * (*)()) 0x81c0300;
-void (*Monkey::ptr::Update)(Monkey * self) = (void (*)(Monkey * self)) 0x83831a0;
-void (*Monkey::ptr::AttemptClamp)(Monkey * self) = (void (*)(Monkey * self)) 0x83a3d50;
-int (*Monkey::ptr::PerformMovement)(Monkey * self, int xVal, int yVal) = (int (*)(Monkey * self, int xVal, int yVal)) 0x826af30;
-bool (*Monkey::ptr::Hit)(Monkey * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Monkey * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8399630;
-bool (*Monkey::ptr::DislodgeAttempt)(Monkey * self) = (bool (*)(Monkey * self)) 0x83b8870;
-void (*Monkey::ptr::mark)(Monkey * self) = (void (*)(Monkey * self)) 0x80b0df0;
-void (*Monkey::ptr::CSTR_Monkey)(Monkey * self) = (void (*)(Monkey * self)) 0x81c0060;
+inline void (*Monkey::ptr::Die)(Monkey * self) = (void (*)(Monkey * self)) 0x83b6410;
+inline Monkey * (*Monkey::ptr::New)(Monkey * self, int xVal, int yVal, int l) = (Monkey * (*)(Monkey * self, int xVal, int yVal, int l)) 0x81c00a0;
+inline Monkey * (*Monkey::ptr::_new2)() = (Monkey * (*)()) 0x81c0300;
+inline void (*Monkey::ptr::Update)(Monkey * self) = (void (*)(Monkey * self)) 0x83831a0;
+inline void (*Monkey::ptr::AttemptClamp)(Monkey * self) = (void (*)(Monkey * self)) 0x83a3d50;
+inline int (*Monkey::ptr::PerformMovement)(Monkey * self, int xVal, int yVal) = (int (*)(Monkey * self, int xVal, int yVal)) 0x826af30;
+inline bool (*Monkey::ptr::Hit)(Monkey * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Monkey * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8399630;
+inline bool (*Monkey::ptr::DislodgeAttempt)(Monkey * self) = (bool (*)(Monkey * self)) 0x83b8870;
+inline void (*Monkey::ptr::mark)(Monkey * self) = (void (*)(Monkey * self)) 0x80b0df0;
+inline void (*Monkey::ptr::CSTR_Monkey)(Monkey * self) = (void (*)(Monkey * self)) 0x81c0060;
 #endif
 #endif

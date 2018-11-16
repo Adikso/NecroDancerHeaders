@@ -50,29 +50,29 @@ public:
 
 #ifdef _WIN32
 
-Shriner * (*Shriner::ptr::New)(Shriner * self, int xVal, int yVal, int l, bool captv) = (Shriner * (*)(Shriner * self, int xVal, int yVal, int l, bool captv)) 0x61c1d0;
-Shriner * (*Shriner::ptr::_new2)() = (Shriner * (*)()) 0x0;
-bool (*Shriner::ptr::CanBeDamaged)(Shriner * self, bool phasing, bool piercing) = (bool (*)(Shriner * self, bool phasing, bool piercing)) 0x5fcb50;
-void (*Shriner::ptr::SummonDragons)(Shriner * self) = (void (*)(Shriner * self)) 0x61c370;
-bool (*Shriner::ptr::Hit)(Shriner * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Shriner * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x61c7c0;
-Point * (*Shriner::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
-void (*Shriner::ptr::Update)(Shriner * self) = (void (*)(Shriner * self)) 0x61c880;
-void (*Shriner::ptr::Die)(Shriner * self) = (void (*)(Shriner * self)) 0x61c8d0;
-void (*Shriner::ptr::mark)(Shriner * self) = (void (*)(Shriner * self)) 0x61c950;
-void (*Shriner::ptr::CSTR_Shriner)(Shriner * self) = (void (*)(Shriner * self)) 0x61c130;
+inline Shriner * (*Shriner::ptr::New)(Shriner * self, int xVal, int yVal, int l, bool captv) = (Shriner * (*)(Shriner * self, int xVal, int yVal, int l, bool captv)) 0x61c1d0;
+inline Shriner * (*Shriner::ptr::_new2)() = (Shriner * (*)()) 0x0;
+inline bool (*Shriner::ptr::CanBeDamaged)(Shriner * self, bool phasing, bool piercing) = (bool (*)(Shriner * self, bool phasing, bool piercing)) 0x5fcb50;
+inline void (*Shriner::ptr::SummonDragons)(Shriner * self) = (void (*)(Shriner * self)) 0x61c370;
+inline bool (*Shriner::ptr::Hit)(Shriner * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Shriner * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x61c7c0;
+inline Point * (*Shriner::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
+inline void (*Shriner::ptr::Update)(Shriner * self) = (void (*)(Shriner * self)) 0x61c880;
+inline void (*Shriner::ptr::Die)(Shriner * self) = (void (*)(Shriner * self)) 0x61c8d0;
+inline void (*Shriner::ptr::mark)(Shriner * self) = (void (*)(Shriner * self)) 0x61c950;
+inline void (*Shriner::ptr::CSTR_Shriner)(Shriner * self) = (void (*)(Shriner * self)) 0x61c130;
 #endif
 
 #ifdef __linux__
 
-Shriner * (*Shriner::ptr::New)(Shriner * self, int xVal, int yVal, int l, bool captv) = (Shriner * (*)(Shriner * self, int xVal, int yVal, int l, bool captv)) 0x81b7210;
-Shriner * (*Shriner::ptr::_new2)() = (Shriner * (*)()) 0x81b7370;
-bool (*Shriner::ptr::CanBeDamaged)(Shriner * self, bool phasing, bool piercing) = (bool (*)(Shriner * self, bool phasing, bool piercing)) 0x8074ec0;
-void (*Shriner::ptr::SummonDragons)(Shriner * self) = (void (*)(Shriner * self)) 0x83d36d0;
-bool (*Shriner::ptr::Hit)(Shriner * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Shriner * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x839aef0;
-Point * (*Shriner::ptr::_GetMovementDirection)() = (Point * (*)()) 0x80b4d80;
-void (*Shriner::ptr::Update)(Shriner * self) = (void (*)(Shriner * self)) 0x8387620;
-void (*Shriner::ptr::Die)(Shriner * self) = (void (*)(Shriner * self)) 0x83b71a0;
-void (*Shriner::ptr::mark)(Shriner * self) = (void (*)(Shriner * self)) 0x80b2c20;
-void (*Shriner::ptr::CSTR_Shriner)(Shriner * self) = (void (*)(Shriner * self)) 0x81b7160;
+inline Shriner * (*Shriner::ptr::New)(Shriner * self, int xVal, int yVal, int l, bool captv) = (Shriner * (*)(Shriner * self, int xVal, int yVal, int l, bool captv)) 0x81b7210;
+inline Shriner * (*Shriner::ptr::_new2)() = (Shriner * (*)()) 0x81b7370;
+inline bool (*Shriner::ptr::CanBeDamaged)(Shriner * self, bool phasing, bool piercing) = (bool (*)(Shriner * self, bool phasing, bool piercing)) 0x8074ec0;
+inline void (*Shriner::ptr::SummonDragons)(Shriner * self) = (void (*)(Shriner * self)) 0x83d36d0;
+inline bool (*Shriner::ptr::Hit)(Shriner * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Shriner * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x839aef0;
+inline Point * (*Shriner::ptr::_GetMovementDirection)() = (Point * (*)()) 0x80b4d80;
+inline void (*Shriner::ptr::Update)(Shriner * self) = (void (*)(Shriner * self)) 0x8387620;
+inline void (*Shriner::ptr::Die)(Shriner * self) = (void (*)(Shriner * self)) 0x83b71a0;
+inline void (*Shriner::ptr::mark)(Shriner * self) = (void (*)(Shriner * self)) 0x80b2c20;
+inline void (*Shriner::ptr::CSTR_Shriner)(Shriner * self) = (void (*)(Shriner * self)) 0x81b7160;
 #endif
 #endif

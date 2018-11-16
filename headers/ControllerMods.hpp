@@ -80,37 +80,37 @@ public:
 
 #ifdef _WIN32
 
-String * (*ControllerMods::ptr::GetModName)(String * modPath) = (String * (*)(String * modPath)) 0x6ab1e0;
-void (*ControllerMods::ptr::Refresh)(ControllerMods * self) = (void (*)(ControllerMods * self)) 0x6ab2c0;
-ControllerMods * (*ControllerMods::ptr::New)(ControllerMods * self, Controller * game, bool publish) = (ControllerMods * (*)(ControllerMods * self, Controller * game, bool publish)) 0x6ab480;
-ControllerMods * (*ControllerMods::ptr::_new2)() = (ControllerMods * (*)()) 0x0;
-String * (*ControllerMods::ptr::getModPath)(ControllerMods * self, int guiIndex) = (String * (*)(ControllerMods * self, int guiIndex)) 0x6abe50;
-void (*ControllerMods::ptr::ActivateMod)(ControllerMods * self, String * modName) = (void (*)(ControllerMods * self, String * modName)) 0x6abec0;
-void (*ControllerMods::ptr::Update)(ControllerMods * self) = (void (*)(ControllerMods * self)) 0x6ac220;
-void (*ControllerMods::ptr::Render)(ControllerMods * self) = (void (*)(ControllerMods * self)) 0x6ac2c0;
-void (*ControllerMods::ptr::_RegainFocus)() = (void (*)()) 0x0;
-void (*ControllerMods::ptr::Zip)(ControllerMods * self, String * modName, String * folder) = (void (*)(ControllerMods * self, String * modName, String * folder)) 0x6ac870;
-void (*ControllerMods::ptr::GUICallback)(ControllerMods * self, int index, bool left) = (void (*)(ControllerMods * self, int index, bool left)) 0x6acb90;
-void (*ControllerMods::ptr::Destructor)(ControllerMods * self) = (void (*)(ControllerMods * self)) 0x6ad2e0;
-void (*ControllerMods::ptr::mark)(ControllerMods * self) = (void (*)(ControllerMods * self)) 0x6ad340;
-void (*ControllerMods::ptr::CSTR_ControllerMods)(ControllerMods * self) = (void (*)(ControllerMods * self)) 0x6aace0;
+inline String * (*ControllerMods::ptr::GetModName)(String * modPath) = (String * (*)(String * modPath)) 0x6ab1e0;
+inline void (*ControllerMods::ptr::Refresh)(ControllerMods * self) = (void (*)(ControllerMods * self)) 0x6ab2c0;
+inline ControllerMods * (*ControllerMods::ptr::New)(ControllerMods * self, Controller * game, bool publish) = (ControllerMods * (*)(ControllerMods * self, Controller * game, bool publish)) 0x6ab480;
+inline ControllerMods * (*ControllerMods::ptr::_new2)() = (ControllerMods * (*)()) 0x0;
+inline String * (*ControllerMods::ptr::getModPath)(ControllerMods * self, int guiIndex) = (String * (*)(ControllerMods * self, int guiIndex)) 0x6abe50;
+inline void (*ControllerMods::ptr::ActivateMod)(ControllerMods * self, String * modName) = (void (*)(ControllerMods * self, String * modName)) 0x6abec0;
+inline void (*ControllerMods::ptr::Update)(ControllerMods * self) = (void (*)(ControllerMods * self)) 0x6ac220;
+inline void (*ControllerMods::ptr::Render)(ControllerMods * self) = (void (*)(ControllerMods * self)) 0x6ac2c0;
+inline void (*ControllerMods::ptr::_RegainFocus)() = (void (*)()) 0x0;
+inline void (*ControllerMods::ptr::Zip)(ControllerMods * self, String * modName, String * folder) = (void (*)(ControllerMods * self, String * modName, String * folder)) 0x6ac870;
+inline void (*ControllerMods::ptr::GUICallback)(ControllerMods * self, int index, bool left) = (void (*)(ControllerMods * self, int index, bool left)) 0x6acb90;
+inline void (*ControllerMods::ptr::Destructor)(ControllerMods * self) = (void (*)(ControllerMods * self)) 0x6ad2e0;
+inline void (*ControllerMods::ptr::mark)(ControllerMods * self) = (void (*)(ControllerMods * self)) 0x6ad340;
+inline void (*ControllerMods::ptr::CSTR_ControllerMods)(ControllerMods * self) = (void (*)(ControllerMods * self)) 0x6aace0;
 #endif
 
 #ifdef __linux__
 
-String * (*ControllerMods::ptr::GetModName)(String * modPath) = (String * (*)(String * modPath)) 0x81f3c80;
-void (*ControllerMods::ptr::Refresh)(ControllerMods * self) = (void (*)(ControllerMods * self)) 0x80e5950;
-ControllerMods * (*ControllerMods::ptr::New)(ControllerMods * self, Controller * game, bool publish) = (ControllerMods * (*)(ControllerMods * self, Controller * game, bool publish)) 0x81f3d00;
-ControllerMods * (*ControllerMods::ptr::_new2)() = (ControllerMods * (*)()) 0x81f4eb0;
-String * (*ControllerMods::ptr::getModPath)(ControllerMods * self, int guiIndex) = (String * (*)(ControllerMods * self, int guiIndex)) 0x807a3e0;
-void (*ControllerMods::ptr::ActivateMod)(ControllerMods * self, String * modName) = (void (*)(ControllerMods * self, String * modName)) 0x83dbab0;
-void (*ControllerMods::ptr::Update)(ControllerMods * self) = (void (*)(ControllerMods * self)) 0x80c5090;
-void (*ControllerMods::ptr::Render)(ControllerMods * self) = (void (*)(ControllerMods * self)) 0x80ce5a0;
-void (*ControllerMods::ptr::_RegainFocus)() = (void (*)()) 0x807a430;
-void (*ControllerMods::ptr::Zip)(ControllerMods * self, String * modName, String * folder) = (void (*)(ControllerMods * self, String * modName, String * folder)) 0x80f6540;
-void (*ControllerMods::ptr::GUICallback)(ControllerMods * self, int index, bool left) = (void (*)(ControllerMods * self, int index, bool left)) 0x827c420;
-void (*ControllerMods::ptr::Destructor)(ControllerMods * self) = (void (*)(ControllerMods * self)) 0x807a440;
-void (*ControllerMods::ptr::mark)(ControllerMods * self) = (void (*)(ControllerMods * self)) 0x80ace00;
-void (*ControllerMods::ptr::CSTR_ControllerMods)(ControllerMods * self) = (void (*)(ControllerMods * self)) 0x81f3360;
+inline String * (*ControllerMods::ptr::GetModName)(String * modPath) = (String * (*)(String * modPath)) 0x81f3c80;
+inline void (*ControllerMods::ptr::Refresh)(ControllerMods * self) = (void (*)(ControllerMods * self)) 0x80e5950;
+inline ControllerMods * (*ControllerMods::ptr::New)(ControllerMods * self, Controller * game, bool publish) = (ControllerMods * (*)(ControllerMods * self, Controller * game, bool publish)) 0x81f3d00;
+inline ControllerMods * (*ControllerMods::ptr::_new2)() = (ControllerMods * (*)()) 0x81f4eb0;
+inline String * (*ControllerMods::ptr::getModPath)(ControllerMods * self, int guiIndex) = (String * (*)(ControllerMods * self, int guiIndex)) 0x807a3e0;
+inline void (*ControllerMods::ptr::ActivateMod)(ControllerMods * self, String * modName) = (void (*)(ControllerMods * self, String * modName)) 0x83dbab0;
+inline void (*ControllerMods::ptr::Update)(ControllerMods * self) = (void (*)(ControllerMods * self)) 0x80c5090;
+inline void (*ControllerMods::ptr::Render)(ControllerMods * self) = (void (*)(ControllerMods * self)) 0x80ce5a0;
+inline void (*ControllerMods::ptr::_RegainFocus)() = (void (*)()) 0x807a430;
+inline void (*ControllerMods::ptr::Zip)(ControllerMods * self, String * modName, String * folder) = (void (*)(ControllerMods * self, String * modName, String * folder)) 0x80f6540;
+inline void (*ControllerMods::ptr::GUICallback)(ControllerMods * self, int index, bool left) = (void (*)(ControllerMods * self, int index, bool left)) 0x827c420;
+inline void (*ControllerMods::ptr::Destructor)(ControllerMods * self) = (void (*)(ControllerMods * self)) 0x807a440;
+inline void (*ControllerMods::ptr::mark)(ControllerMods * self) = (void (*)(ControllerMods * self)) 0x80ace00;
+inline void (*ControllerMods::ptr::CSTR_ControllerMods)(ControllerMods * self) = (void (*)(ControllerMods * self)) 0x81f3360;
 #endif
 #endif

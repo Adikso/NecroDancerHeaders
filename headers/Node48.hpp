@@ -27,17 +27,17 @@ public:
 
 #ifdef _WIN32
 
-Node48 * (*Node48::ptr::_New)(Node48 * self, Node48 * arg1, Node48 * arg2, SaleItem * arg3) = (Node48 * (*)(Node48 * self, Node48 * arg1, Node48 * arg2, SaleItem * arg3)) 0x0;
-Node48 * (*Node48::ptr::_new2)() = (Node48 * (*)()) 0x0;
-int (*Node48::ptr::_Remove3)() = (int (*)()) 0x0;
-void (*Node48::ptr::_mark)() = (void (*)()) 0x0;
+inline Node48 * (*Node48::ptr::_New)(Node48 * self, Node48 * arg1, Node48 * arg2, SaleItem * arg3) = (Node48 * (*)(Node48 * self, Node48 * arg1, Node48 * arg2, SaleItem * arg3)) 0x0;
+inline Node48 * (*Node48::ptr::_new2)() = (Node48 * (*)()) 0x0;
+inline int (*Node48::ptr::_Remove3)() = (int (*)()) 0x0;
+inline void (*Node48::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node48 * (*Node48::ptr::_New)(Node48 * self, Node48 * arg1, Node48 * arg2, SaleItem * arg3) = (Node48 * (*)(Node48 * self, Node48 * arg1, Node48 * arg2, SaleItem * arg3)) 0x0;
-Node48 * (*Node48::ptr::_new2)() = (Node48 * (*)()) 0x81bee00;
-int (*Node48::ptr::_Remove3)() = (int (*)()) 0x8092ac0;
-void (*Node48::ptr::_mark)() = (void (*)()) 0x808b4d0;
+inline Node48 * (*Node48::ptr::_New)(Node48 * self, Node48 * arg1, Node48 * arg2, SaleItem * arg3) = (Node48 * (*)(Node48 * self, Node48 * arg1, Node48 * arg2, SaleItem * arg3)) 0x0;
+inline Node48 * (*Node48::ptr::_new2)() = (Node48 * (*)()) 0x81bee00;
+inline int (*Node48::ptr::_Remove3)() = (int (*)()) 0x8092ac0;
+inline void (*Node48::ptr::_mark)() = (void (*)()) 0x808b4d0;
 #endif
 #endif

@@ -32,25 +32,25 @@ public:
 
 #ifdef _WIN32
 
-int (*RNG::ptr::Rand)(RNG * self) = (int (*)(RNG * self)) 0x57e3c0;
-int (*RNG::ptr::RndIntRange)(RNG * self, int lo, int hi) = (int (*)(RNG * self, int lo, int hi)) 0x57e3f0;
-void (*RNG::ptr::SetSeed)(RNG * self, int seed_) = (void (*)(RNG * self, int seed_)) 0x57e410;
-RNG * (*RNG::ptr::_New)() = (RNG * (*)()) 0x0;
-RNG * (*RNG::ptr::_new2)(RNG * self, int arg1) = (RNG * (*)(RNG * self, int arg1)) 0x0;
-RNG * (*RNG::ptr::Make)(int x) = (RNG * (*)(int x)) 0x57e440;
-RNG * (*RNG::ptr::Split)(RNG * self) = (RNG * (*)(RNG * self)) 0x57e520;
-void (*RNG::ptr::_mark)() = (void (*)()) 0x0;
+inline int (*RNG::ptr::Rand)(RNG * self) = (int (*)(RNG * self)) 0x57e3c0;
+inline int (*RNG::ptr::RndIntRange)(RNG * self, int lo, int hi) = (int (*)(RNG * self, int lo, int hi)) 0x57e3f0;
+inline void (*RNG::ptr::SetSeed)(RNG * self, int seed_) = (void (*)(RNG * self, int seed_)) 0x57e410;
+inline RNG * (*RNG::ptr::_New)() = (RNG * (*)()) 0x0;
+inline RNG * (*RNG::ptr::_new2)(RNG * self, int arg1) = (RNG * (*)(RNG * self, int arg1)) 0x0;
+inline RNG * (*RNG::ptr::Make)(int x) = (RNG * (*)(int x)) 0x57e440;
+inline RNG * (*RNG::ptr::Split)(RNG * self) = (RNG * (*)(RNG * self)) 0x57e520;
+inline void (*RNG::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-int (*RNG::ptr::Rand)(RNG * self) = (int (*)(RNG * self)) 0x806fe60;
-int (*RNG::ptr::RndIntRange)(RNG * self, int lo, int hi) = (int (*)(RNG * self, int lo, int hi)) 0x806feb0;
-void (*RNG::ptr::SetSeed)(RNG * self, int seed_) = (void (*)(RNG * self, int seed_)) 0x822e010;
-RNG * (*RNG::ptr::_New)() = (RNG * (*)()) 0x8158320;
-RNG * (*RNG::ptr::_new2)(RNG * self, int arg1) = (RNG * (*)(RNG * self, int arg1)) 0x8158370;
-RNG * (*RNG::ptr::Make)(int x) = (RNG * (*)(int x)) 0x8158390;
-RNG * (*RNG::ptr::Split)(RNG * self) = (RNG * (*)(RNG * self)) 0x80b39e0;
-void (*RNG::ptr::_mark)() = (void (*)()) 0x806fee0;
+inline int (*RNG::ptr::Rand)(RNG * self) = (int (*)(RNG * self)) 0x806fe60;
+inline int (*RNG::ptr::RndIntRange)(RNG * self, int lo, int hi) = (int (*)(RNG * self, int lo, int hi)) 0x806feb0;
+inline void (*RNG::ptr::SetSeed)(RNG * self, int seed_) = (void (*)(RNG * self, int seed_)) 0x822e010;
+inline RNG * (*RNG::ptr::_New)() = (RNG * (*)()) 0x8158320;
+inline RNG * (*RNG::ptr::_new2)(RNG * self, int arg1) = (RNG * (*)(RNG * self, int arg1)) 0x8158370;
+inline RNG * (*RNG::ptr::Make)(int x) = (RNG * (*)(int x)) 0x8158390;
+inline RNG * (*RNG::ptr::Split)(RNG * self) = (RNG * (*)(RNG * self)) 0x80b39e0;
+inline void (*RNG::ptr::_mark)() = (void (*)()) 0x806fee0;
 #endif
 #endif

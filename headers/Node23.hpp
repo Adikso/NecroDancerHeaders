@@ -36,23 +36,23 @@ public:
 
 #ifdef _WIN32
 
-Node23 * (*Node23::ptr::_NextNode)() = (Node23 * (*)()) 0x0;
-Tile * (*Node23::ptr::_Value)() = (Tile * (*)()) 0x0;
-Node23 * (*Node23::ptr::_New)(Node23 * self, int arg1, Tile * arg2, int arg3, Node23 * arg4) = (Node23 * (*)(Node23 * self, int arg1, Tile * arg2, int arg3, Node23 * arg4)) 0x0;
-Node23 * (*Node23::ptr::_new2)() = (Node23 * (*)()) 0x0;
-int (*Node23::ptr::_Key)() = (int (*)()) 0x0;
-int (*Node23::ptr::_Count2)(Node23 * self, int arg1) = (int (*)(Node23 * self, int arg1)) 0x0;
-void (*Node23::ptr::_mark)() = (void (*)()) 0x0;
+inline Node23 * (*Node23::ptr::_NextNode)() = (Node23 * (*)()) 0x0;
+inline Tile * (*Node23::ptr::_Value)() = (Tile * (*)()) 0x0;
+inline Node23 * (*Node23::ptr::_New)(Node23 * self, int arg1, Tile * arg2, int arg3, Node23 * arg4) = (Node23 * (*)(Node23 * self, int arg1, Tile * arg2, int arg3, Node23 * arg4)) 0x0;
+inline Node23 * (*Node23::ptr::_new2)() = (Node23 * (*)()) 0x0;
+inline int (*Node23::ptr::_Key)() = (int (*)()) 0x0;
+inline int (*Node23::ptr::_Count2)(Node23 * self, int arg1) = (int (*)(Node23 * self, int arg1)) 0x0;
+inline void (*Node23::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node23 * (*Node23::ptr::_NextNode)() = (Node23 * (*)()) 0x0;
-Tile * (*Node23::ptr::_Value)() = (Tile * (*)()) 0x0;
-Node23 * (*Node23::ptr::_New)(Node23 * self, int arg1, Tile * arg2, int arg3, Node23 * arg4) = (Node23 * (*)(Node23 * self, int arg1, Tile * arg2, int arg3, Node23 * arg4)) 0x0;
-Node23 * (*Node23::ptr::_new2)() = (Node23 * (*)()) 0x81984f0;
-int (*Node23::ptr::_Key)() = (int (*)()) 0x0;
-int (*Node23::ptr::_Count2)(Node23 * self, int arg1) = (int (*)(Node23 * self, int arg1)) 0x0;
-void (*Node23::ptr::_mark)() = (void (*)()) 0x808e7c0;
+inline Node23 * (*Node23::ptr::_NextNode)() = (Node23 * (*)()) 0x0;
+inline Tile * (*Node23::ptr::_Value)() = (Tile * (*)()) 0x0;
+inline Node23 * (*Node23::ptr::_New)(Node23 * self, int arg1, Tile * arg2, int arg3, Node23 * arg4) = (Node23 * (*)(Node23 * self, int arg1, Tile * arg2, int arg3, Node23 * arg4)) 0x0;
+inline Node23 * (*Node23::ptr::_new2)() = (Node23 * (*)()) 0x81984f0;
+inline int (*Node23::ptr::_Key)() = (int (*)()) 0x0;
+inline int (*Node23::ptr::_Count2)(Node23 * self, int arg1) = (int (*)(Node23 * self, int arg1)) 0x0;
+inline void (*Node23::ptr::_mark)() = (void (*)()) 0x808e7c0;
 #endif
 #endif

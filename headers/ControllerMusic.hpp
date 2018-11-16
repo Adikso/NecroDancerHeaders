@@ -78,31 +78,31 @@ public:
 
 #ifdef _WIN32
 
-String * (*ControllerMusic::ptr::GetBaseTextForIndex)(ControllerMusic * self, int index) = (String * (*)(ControllerMusic * self, int index)) 0x698370;
-void (*ControllerMusic::ptr::RefreshModeText)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x698800;
-ControllerMusic * (*ControllerMusic::ptr::New)(ControllerMusic * self, Controller * game) = (ControllerMusic * (*)(ControllerMusic * self, Controller * game)) 0x698910;
-void (*ControllerMusic::ptr::ProcessCustomSong)(ControllerMusic * self, String * filepath, String * filename) = (void (*)(ControllerMusic * self, String * filepath, String * filename)) 0x6993e0;
-void (*ControllerMusic::ptr::Update)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x6995c0;
-void (*ControllerMusic::ptr::Render)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x69a230;
-void (*ControllerMusic::ptr::RegainFocus)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x69a9e0;
-void (*ControllerMusic::ptr::GUICallback)(ControllerMusic * self, int index, bool left) = (void (*)(ControllerMusic * self, int index, bool left)) 0x69aa50;
-void (*ControllerMusic::ptr::Destructor)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x69b0a0;
-void (*ControllerMusic::ptr::mark)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x69b140;
-void (*ControllerMusic::ptr::CSTR_ControllerMusic)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x697bd0;
+inline String * (*ControllerMusic::ptr::GetBaseTextForIndex)(ControllerMusic * self, int index) = (String * (*)(ControllerMusic * self, int index)) 0x698370;
+inline void (*ControllerMusic::ptr::RefreshModeText)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x698800;
+inline ControllerMusic * (*ControllerMusic::ptr::New)(ControllerMusic * self, Controller * game) = (ControllerMusic * (*)(ControllerMusic * self, Controller * game)) 0x698910;
+inline void (*ControllerMusic::ptr::ProcessCustomSong)(ControllerMusic * self, String * filepath, String * filename) = (void (*)(ControllerMusic * self, String * filepath, String * filename)) 0x6993e0;
+inline void (*ControllerMusic::ptr::Update)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x6995c0;
+inline void (*ControllerMusic::ptr::Render)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x69a230;
+inline void (*ControllerMusic::ptr::RegainFocus)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x69a9e0;
+inline void (*ControllerMusic::ptr::GUICallback)(ControllerMusic * self, int index, bool left) = (void (*)(ControllerMusic * self, int index, bool left)) 0x69aa50;
+inline void (*ControllerMusic::ptr::Destructor)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x69b0a0;
+inline void (*ControllerMusic::ptr::mark)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x69b140;
+inline void (*ControllerMusic::ptr::CSTR_ControllerMusic)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x697bd0;
 #endif
 
 #ifdef __linux__
 
-String * (*ControllerMusic::ptr::GetBaseTextForIndex)(ControllerMusic * self, int index) = (String * (*)(ControllerMusic * self, int index)) 0x80c8eb0;
-void (*ControllerMusic::ptr::RefreshModeText)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x810b1e0;
-ControllerMusic * (*ControllerMusic::ptr::New)(ControllerMusic * self, Controller * game) = (ControllerMusic * (*)(ControllerMusic * self, Controller * game)) 0x81ebb50;
-void (*ControllerMusic::ptr::ProcessCustomSong)(ControllerMusic * self, String * filepath, String * filename) = (void (*)(ControllerMusic * self, String * filepath, String * filename)) 0x814df30;
-void (*ControllerMusic::ptr::Update)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x8114e10;
-void (*ControllerMusic::ptr::Render)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x80cf5a0;
-void (*ControllerMusic::ptr::RegainFocus)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x8365600;
-void (*ControllerMusic::ptr::GUICallback)(ControllerMusic * self, int index, bool left) = (void (*)(ControllerMusic * self, int index, bool left)) 0x8367da0;
-void (*ControllerMusic::ptr::Destructor)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x8079a80;
-void (*ControllerMusic::ptr::mark)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x80ad900;
-void (*ControllerMusic::ptr::CSTR_ControllerMusic)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x81e9ba0;
+inline String * (*ControllerMusic::ptr::GetBaseTextForIndex)(ControllerMusic * self, int index) = (String * (*)(ControllerMusic * self, int index)) 0x80c8eb0;
+inline void (*ControllerMusic::ptr::RefreshModeText)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x810b1e0;
+inline ControllerMusic * (*ControllerMusic::ptr::New)(ControllerMusic * self, Controller * game) = (ControllerMusic * (*)(ControllerMusic * self, Controller * game)) 0x81ebb50;
+inline void (*ControllerMusic::ptr::ProcessCustomSong)(ControllerMusic * self, String * filepath, String * filename) = (void (*)(ControllerMusic * self, String * filepath, String * filename)) 0x814df30;
+inline void (*ControllerMusic::ptr::Update)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x8114e10;
+inline void (*ControllerMusic::ptr::Render)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x80cf5a0;
+inline void (*ControllerMusic::ptr::RegainFocus)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x8365600;
+inline void (*ControllerMusic::ptr::GUICallback)(ControllerMusic * self, int index, bool left) = (void (*)(ControllerMusic * self, int index, bool left)) 0x8367da0;
+inline void (*ControllerMusic::ptr::Destructor)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x8079a80;
+inline void (*ControllerMusic::ptr::mark)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x80ad900;
+inline void (*ControllerMusic::ptr::CSTR_ControllerMusic)(ControllerMusic * self) = (void (*)(ControllerMusic * self)) 0x81e9ba0;
 #endif
 #endif

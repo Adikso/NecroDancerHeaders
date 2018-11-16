@@ -58,42 +58,42 @@ public:
 };
 
 #ifdef _WIN32
-List53 * * Bell::bells = (List53* *) 0x835584;
+inline List53 * * Bell::bells = (List53* *) 0x835584;
 
-Bell * (*Bell::ptr::New)(Bell * self, int xVal, int yVal, int num) = (Bell * (*)(Bell * self, int xVal, int yVal, int num)) 0x66a6a0;
-Bell * (*Bell::ptr::_new2)() = (Bell * (*)()) 0x0;
-bool (*Bell::ptr::Ringable)(Bell * self) = (bool (*)(Bell * self)) 0x66a880;
-Enemy * (*Bell::ptr::SpawnEnemy)(Bell * self, int xVal, int yVal, int enemyType) = (Enemy * (*)(Bell * self, int xVal, int yVal, int enemyType)) 0x66aac0;
-void (*Bell::ptr::Ring)(Bell * self, bool makeEnemy) = (void (*)(Bell * self, bool makeEnemy)) 0x66abc0;
-bool (*Bell::ptr::Hit)(Bell * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Bell * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x66b2a0;
-bool (*Bell::ptr::HasBeenRung)(Bell * self) = (bool (*)(Bell * self)) 0x66b4f0;
-void (*Bell::ptr::Die)(Bell * self) = (void (*)(Bell * self)) 0x66b500;
-Bell * (*Bell::ptr::GetBellAt)(int xVal, int yVal) = (Bell * (*)(int xVal, int yVal)) 0x66b530;
-bool (*Bell::ptr::_ImmuneToEarth)() = (bool (*)()) 0x0;
-bool (*Bell::ptr::_ImmuneToFear)() = (bool (*)()) 0x0;
-void (*Bell::ptr::Update)(Bell * self) = (void (*)(Bell * self)) 0x66b580;
-Point * (*Bell::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
-void (*Bell::ptr::_mark)() = (void (*)()) 0x0;
-void (*Bell::ptr::CSTR_Bell)(Bell * self) = (void (*)(Bell * self)) 0x66a620;
+inline Bell * (*Bell::ptr::New)(Bell * self, int xVal, int yVal, int num) = (Bell * (*)(Bell * self, int xVal, int yVal, int num)) 0x66a6a0;
+inline Bell * (*Bell::ptr::_new2)() = (Bell * (*)()) 0x0;
+inline bool (*Bell::ptr::Ringable)(Bell * self) = (bool (*)(Bell * self)) 0x66a880;
+inline Enemy * (*Bell::ptr::SpawnEnemy)(Bell * self, int xVal, int yVal, int enemyType) = (Enemy * (*)(Bell * self, int xVal, int yVal, int enemyType)) 0x66aac0;
+inline void (*Bell::ptr::Ring)(Bell * self, bool makeEnemy) = (void (*)(Bell * self, bool makeEnemy)) 0x66abc0;
+inline bool (*Bell::ptr::Hit)(Bell * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Bell * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x66b2a0;
+inline bool (*Bell::ptr::HasBeenRung)(Bell * self) = (bool (*)(Bell * self)) 0x66b4f0;
+inline void (*Bell::ptr::Die)(Bell * self) = (void (*)(Bell * self)) 0x66b500;
+inline Bell * (*Bell::ptr::GetBellAt)(int xVal, int yVal) = (Bell * (*)(int xVal, int yVal)) 0x66b530;
+inline bool (*Bell::ptr::_ImmuneToEarth)() = (bool (*)()) 0x0;
+inline bool (*Bell::ptr::_ImmuneToFear)() = (bool (*)()) 0x0;
+inline void (*Bell::ptr::Update)(Bell * self) = (void (*)(Bell * self)) 0x66b580;
+inline Point * (*Bell::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
+inline void (*Bell::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Bell::ptr::CSTR_Bell)(Bell * self) = (void (*)(Bell * self)) 0x66a620;
 #endif
 
 #ifdef __linux__
-List53 * * Bell::bells = (List53* *) 0x856a344;
+inline List53 * * Bell::bells = (List53* *) 0x856a344;
 
-Bell * (*Bell::ptr::New)(Bell * self, int xVal, int yVal, int num) = (Bell * (*)(Bell * self, int xVal, int yVal, int num)) 0x81d99a0;
-Bell * (*Bell::ptr::_new2)() = (Bell * (*)()) 0x81d9b30;
-bool (*Bell::ptr::Ringable)(Bell * self) = (bool (*)(Bell * self)) 0x8263b60;
-Enemy * (*Bell::ptr::SpawnEnemy)(Bell * self, int xVal, int yVal, int enemyType) = (Enemy * (*)(Bell * self, int xVal, int yVal, int enemyType)) 0x81d0180;
-void (*Bell::ptr::Ring)(Bell * self, bool makeEnemy) = (void (*)(Bell * self, bool makeEnemy)) 0x83aaeb0;
-bool (*Bell::ptr::Hit)(Bell * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Bell * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8396430;
-bool (*Bell::ptr::HasBeenRung)(Bell * self) = (bool (*)(Bell * self)) 0x8077ab0;
-void (*Bell::ptr::Die)(Bell * self) = (void (*)(Bell * self)) 0x83b5a60;
-Bell * (*Bell::ptr::GetBellAt)(int xVal, int yVal) = (Bell * (*)(int xVal, int yVal)) 0x81d9b50;
-bool (*Bell::ptr::_ImmuneToEarth)() = (bool (*)()) 0x8077ac0;
-bool (*Bell::ptr::_ImmuneToFear)() = (bool (*)()) 0x8077ad0;
-void (*Bell::ptr::Update)(Bell * self) = (void (*)(Bell * self)) 0x837dff0;
-Point * (*Bell::ptr::_GetMovementDirection)() = (Point * (*)()) 0x80b3c80;
-void (*Bell::ptr::_mark)() = (void (*)()) 0x80aff50;
-void (*Bell::ptr::CSTR_Bell)(Bell * self) = (void (*)(Bell * self)) 0x81d9950;
+inline Bell * (*Bell::ptr::New)(Bell * self, int xVal, int yVal, int num) = (Bell * (*)(Bell * self, int xVal, int yVal, int num)) 0x81d99a0;
+inline Bell * (*Bell::ptr::_new2)() = (Bell * (*)()) 0x81d9b30;
+inline bool (*Bell::ptr::Ringable)(Bell * self) = (bool (*)(Bell * self)) 0x8263b60;
+inline Enemy * (*Bell::ptr::SpawnEnemy)(Bell * self, int xVal, int yVal, int enemyType) = (Enemy * (*)(Bell * self, int xVal, int yVal, int enemyType)) 0x81d0180;
+inline void (*Bell::ptr::Ring)(Bell * self, bool makeEnemy) = (void (*)(Bell * self, bool makeEnemy)) 0x83aaeb0;
+inline bool (*Bell::ptr::Hit)(Bell * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Bell * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8396430;
+inline bool (*Bell::ptr::HasBeenRung)(Bell * self) = (bool (*)(Bell * self)) 0x8077ab0;
+inline void (*Bell::ptr::Die)(Bell * self) = (void (*)(Bell * self)) 0x83b5a60;
+inline Bell * (*Bell::ptr::GetBellAt)(int xVal, int yVal) = (Bell * (*)(int xVal, int yVal)) 0x81d9b50;
+inline bool (*Bell::ptr::_ImmuneToEarth)() = (bool (*)()) 0x8077ac0;
+inline bool (*Bell::ptr::_ImmuneToFear)() = (bool (*)()) 0x8077ad0;
+inline void (*Bell::ptr::Update)(Bell * self) = (void (*)(Bell * self)) 0x837dff0;
+inline Point * (*Bell::ptr::_GetMovementDirection)() = (Point * (*)()) 0x80b3c80;
+inline void (*Bell::ptr::_mark)() = (void (*)()) 0x80aff50;
+inline void (*Bell::ptr::CSTR_Bell)(Bell * self) = (void (*)(Bell * self)) 0x81d9950;
 #endif
 #endif

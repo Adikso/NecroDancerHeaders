@@ -43,31 +43,31 @@ public:
 
 #ifdef _WIN32
 
-TrainingSarcophagus * (*TrainingSarcophagus::ptr::New)(TrainingSarcophagus * self, int xVal, int yVal, int eNum) = (TrainingSarcophagus * (*)(TrainingSarcophagus * self, int xVal, int yVal, int eNum)) 0x66c550;
-TrainingSarcophagus * (*TrainingSarcophagus::ptr::_new2)() = (TrainingSarcophagus * (*)()) 0x0;
-Point * (*TrainingSarcophagus::ptr::GetMovementDirection)(TrainingSarcophagus * self) = (Point * (*)(TrainingSarcophagus * self)) 0x63d0d0;
-int (*TrainingSarcophagus::ptr::PerformMovement)(TrainingSarcophagus * self, int xVal, int yVal) = (int (*)(TrainingSarcophagus * self, int xVal, int yVal)) 0x406aa0;
-bool (*TrainingSarcophagus::ptr::CanBeDamaged)(TrainingSarcophagus * self, bool phasing, bool piercing) = (bool (*)(TrainingSarcophagus * self, bool phasing, bool piercing)) 0x5fbe20;
-bool (*TrainingSarcophagus::ptr::Hit)(TrainingSarcophagus * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(TrainingSarcophagus * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x57f6f0;
-void (*TrainingSarcophagus::ptr::MoveFail)(TrainingSarcophagus * self) = (void (*)(TrainingSarcophagus * self)) 0x66c640;
-void (*TrainingSarcophagus::ptr::MoveSucceed)(TrainingSarcophagus * self, bool hitPlayer, bool moveDelayed) = (void (*)(TrainingSarcophagus * self, bool hitPlayer, bool moveDelayed)) 0x64ece0;
-void (*TrainingSarcophagus::ptr::Update)(TrainingSarcophagus * self) = (void (*)(TrainingSarcophagus * self)) 0x66c8d0;
-bool (*TrainingSarcophagus::ptr::_CanBeLord)() = (bool (*)()) 0x0;
-void (*TrainingSarcophagus::ptr::_mark)() = (void (*)()) 0x0;
+inline TrainingSarcophagus * (*TrainingSarcophagus::ptr::New)(TrainingSarcophagus * self, int xVal, int yVal, int eNum) = (TrainingSarcophagus * (*)(TrainingSarcophagus * self, int xVal, int yVal, int eNum)) 0x66c550;
+inline TrainingSarcophagus * (*TrainingSarcophagus::ptr::_new2)() = (TrainingSarcophagus * (*)()) 0x0;
+inline Point * (*TrainingSarcophagus::ptr::GetMovementDirection)(TrainingSarcophagus * self) = (Point * (*)(TrainingSarcophagus * self)) 0x63d0d0;
+inline int (*TrainingSarcophagus::ptr::PerformMovement)(TrainingSarcophagus * self, int xVal, int yVal) = (int (*)(TrainingSarcophagus * self, int xVal, int yVal)) 0x406aa0;
+inline bool (*TrainingSarcophagus::ptr::CanBeDamaged)(TrainingSarcophagus * self, bool phasing, bool piercing) = (bool (*)(TrainingSarcophagus * self, bool phasing, bool piercing)) 0x5fbe20;
+inline bool (*TrainingSarcophagus::ptr::Hit)(TrainingSarcophagus * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(TrainingSarcophagus * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x57f6f0;
+inline void (*TrainingSarcophagus::ptr::MoveFail)(TrainingSarcophagus * self) = (void (*)(TrainingSarcophagus * self)) 0x66c640;
+inline void (*TrainingSarcophagus::ptr::MoveSucceed)(TrainingSarcophagus * self, bool hitPlayer, bool moveDelayed) = (void (*)(TrainingSarcophagus * self, bool hitPlayer, bool moveDelayed)) 0x64ece0;
+inline void (*TrainingSarcophagus::ptr::Update)(TrainingSarcophagus * self) = (void (*)(TrainingSarcophagus * self)) 0x66c8d0;
+inline bool (*TrainingSarcophagus::ptr::_CanBeLord)() = (bool (*)()) 0x0;
+inline void (*TrainingSarcophagus::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-TrainingSarcophagus * (*TrainingSarcophagus::ptr::New)(TrainingSarcophagus * self, int xVal, int yVal, int eNum) = (TrainingSarcophagus * (*)(TrainingSarcophagus * self, int xVal, int yVal, int eNum)) 0x81da810;
-TrainingSarcophagus * (*TrainingSarcophagus::ptr::_new2)() = (TrainingSarcophagus * (*)()) 0x81da910;
-Point * (*TrainingSarcophagus::ptr::GetMovementDirection)(TrainingSarcophagus * self) = (Point * (*)(TrainingSarcophagus * self)) 0x80b3c50;
-int (*TrainingSarcophagus::ptr::PerformMovement)(TrainingSarcophagus * self, int xVal, int yVal) = (int (*)(TrainingSarcophagus * self, int xVal, int yVal)) 0x8077c90;
-bool (*TrainingSarcophagus::ptr::CanBeDamaged)(TrainingSarcophagus * self, bool phasing, bool piercing) = (bool (*)(TrainingSarcophagus * self, bool phasing, bool piercing)) 0x8077ca0;
-bool (*TrainingSarcophagus::ptr::Hit)(TrainingSarcophagus * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(TrainingSarcophagus * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8077cb0;
-void (*TrainingSarcophagus::ptr::MoveFail)(TrainingSarcophagus * self) = (void (*)(TrainingSarcophagus * self)) 0x83ab580;
-void (*TrainingSarcophagus::ptr::MoveSucceed)(TrainingSarcophagus * self, bool hitPlayer, bool moveDelayed) = (void (*)(TrainingSarcophagus * self, bool hitPlayer, bool moveDelayed)) 0x83ab860;
-void (*TrainingSarcophagus::ptr::Update)(TrainingSarcophagus * self) = (void (*)(TrainingSarcophagus * self)) 0x837dea0;
-bool (*TrainingSarcophagus::ptr::_CanBeLord)() = (bool (*)()) 0x8077cc0;
-void (*TrainingSarcophagus::ptr::_mark)() = (void (*)()) 0x80afed0;
+inline TrainingSarcophagus * (*TrainingSarcophagus::ptr::New)(TrainingSarcophagus * self, int xVal, int yVal, int eNum) = (TrainingSarcophagus * (*)(TrainingSarcophagus * self, int xVal, int yVal, int eNum)) 0x81da810;
+inline TrainingSarcophagus * (*TrainingSarcophagus::ptr::_new2)() = (TrainingSarcophagus * (*)()) 0x81da910;
+inline Point * (*TrainingSarcophagus::ptr::GetMovementDirection)(TrainingSarcophagus * self) = (Point * (*)(TrainingSarcophagus * self)) 0x80b3c50;
+inline int (*TrainingSarcophagus::ptr::PerformMovement)(TrainingSarcophagus * self, int xVal, int yVal) = (int (*)(TrainingSarcophagus * self, int xVal, int yVal)) 0x8077c90;
+inline bool (*TrainingSarcophagus::ptr::CanBeDamaged)(TrainingSarcophagus * self, bool phasing, bool piercing) = (bool (*)(TrainingSarcophagus * self, bool phasing, bool piercing)) 0x8077ca0;
+inline bool (*TrainingSarcophagus::ptr::Hit)(TrainingSarcophagus * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(TrainingSarcophagus * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8077cb0;
+inline void (*TrainingSarcophagus::ptr::MoveFail)(TrainingSarcophagus * self) = (void (*)(TrainingSarcophagus * self)) 0x83ab580;
+inline void (*TrainingSarcophagus::ptr::MoveSucceed)(TrainingSarcophagus * self, bool hitPlayer, bool moveDelayed) = (void (*)(TrainingSarcophagus * self, bool hitPlayer, bool moveDelayed)) 0x83ab860;
+inline void (*TrainingSarcophagus::ptr::Update)(TrainingSarcophagus * self) = (void (*)(TrainingSarcophagus * self)) 0x837dea0;
+inline bool (*TrainingSarcophagus::ptr::_CanBeLord)() = (bool (*)()) 0x8077cc0;
+inline void (*TrainingSarcophagus::ptr::_mark)() = (void (*)()) 0x80afed0;
 #endif
 #endif

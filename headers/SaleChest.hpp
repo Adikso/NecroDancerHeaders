@@ -51,36 +51,36 @@ public:
 };
 
 #ifdef _WIN32
-List31 * * SaleChest::currentSaleChests = (List31* *) 0x835614;
+inline List31 * * SaleChest::currentSaleChests = (List31* *) 0x835614;
 
-void (*SaleChest::ptr::SetCost)(SaleChest * self) = (void (*)(SaleChest * self)) 0x5ddf00;
-void (*SaleChest::ptr::ResetCosts)() = (void (*)()) 0x5de2e0;
-SaleChest * (*SaleChest::ptr::New)(SaleChest * self, int xVal, int yVal, String * cont, bool invis, bool isLocked, bool isSecret, int tmpColor) = (SaleChest * (*)(SaleChest * self, int xVal, int yVal, String * cont, bool invis, bool isLocked, bool isSecret, int tmpColor)) 0x5de320;
-SaleChest * (*SaleChest::ptr::_new2)() = (SaleChest * (*)()) 0x0;
-void (*SaleChest::ptr::Die)(SaleChest * self) = (void (*)(SaleChest * self)) 0x5de3d0;
-bool (*SaleChest::ptr::_CanSeeShopkeeper)() = (bool (*)()) 0x0;
-bool (*SaleChest::ptr::CanSteal)(SaleChest * self) = (bool (*)(SaleChest * self)) 0x5de400;
-bool (*SaleChest::ptr::Open)(SaleChest * self, Player * player) = (bool (*)(SaleChest * self, Player * player)) 0x5de500;
-void (*SaleChest::ptr::Render)(SaleChest * self) = (void (*)(SaleChest * self)) 0x5dea70;
-void (*SaleChest::ptr::SkipNextDraw)(SaleChest * self) = (void (*)(SaleChest * self)) 0x5deb70;
-void (*SaleChest::ptr::mark)(SaleChest * self) = (void (*)(SaleChest * self)) 0x5debc0;
-void (*SaleChest::ptr::CSTR_SaleChest)(SaleChest * self) = (void (*)(SaleChest * self)) 0x5ddd10;
+inline void (*SaleChest::ptr::SetCost)(SaleChest * self) = (void (*)(SaleChest * self)) 0x5ddf00;
+inline void (*SaleChest::ptr::ResetCosts)() = (void (*)()) 0x5de2e0;
+inline SaleChest * (*SaleChest::ptr::New)(SaleChest * self, int xVal, int yVal, String * cont, bool invis, bool isLocked, bool isSecret, int tmpColor) = (SaleChest * (*)(SaleChest * self, int xVal, int yVal, String * cont, bool invis, bool isLocked, bool isSecret, int tmpColor)) 0x5de320;
+inline SaleChest * (*SaleChest::ptr::_new2)() = (SaleChest * (*)()) 0x0;
+inline void (*SaleChest::ptr::Die)(SaleChest * self) = (void (*)(SaleChest * self)) 0x5de3d0;
+inline bool (*SaleChest::ptr::_CanSeeShopkeeper)() = (bool (*)()) 0x0;
+inline bool (*SaleChest::ptr::CanSteal)(SaleChest * self) = (bool (*)(SaleChest * self)) 0x5de400;
+inline bool (*SaleChest::ptr::Open)(SaleChest * self, Player * player) = (bool (*)(SaleChest * self, Player * player)) 0x5de500;
+inline void (*SaleChest::ptr::Render)(SaleChest * self) = (void (*)(SaleChest * self)) 0x5dea70;
+inline void (*SaleChest::ptr::SkipNextDraw)(SaleChest * self) = (void (*)(SaleChest * self)) 0x5deb70;
+inline void (*SaleChest::ptr::mark)(SaleChest * self) = (void (*)(SaleChest * self)) 0x5debc0;
+inline void (*SaleChest::ptr::CSTR_SaleChest)(SaleChest * self) = (void (*)(SaleChest * self)) 0x5ddd10;
 #endif
 
 #ifdef __linux__
-List31 * * SaleChest::currentSaleChests = (List31* *) 0x856a498;
+inline List31 * * SaleChest::currentSaleChests = (List31* *) 0x856a498;
 
-void (*SaleChest::ptr::SetCost)(SaleChest * self) = (void (*)(SaleChest * self)) 0x8123e20;
-void (*SaleChest::ptr::ResetCosts)() = (void (*)()) 0x8197680;
-SaleChest * (*SaleChest::ptr::New)(SaleChest * self, int xVal, int yVal, String * cont, bool invis, bool isLocked, bool isSecret, int tmpColor) = (SaleChest * (*)(SaleChest * self, int xVal, int yVal, String * cont, bool invis, bool isLocked, bool isSecret, int tmpColor)) 0x82adfe0;
-SaleChest * (*SaleChest::ptr::_new2)() = (SaleChest * (*)()) 0x81976c0;
-void (*SaleChest::ptr::Die)(SaleChest * self) = (void (*)(SaleChest * self)) 0x8093320;
-bool (*SaleChest::ptr::_CanSeeShopkeeper)() = (bool (*)()) 0x808b8d0;
-bool (*SaleChest::ptr::CanSteal)(SaleChest * self) = (bool (*)(SaleChest * self)) 0x80d40e0;
-bool (*SaleChest::ptr::Open)(SaleChest * self, Player * player) = (bool (*)(SaleChest * self, Player * player)) 0x8391cd0;
-void (*SaleChest::ptr::Render)(SaleChest * self) = (void (*)(SaleChest * self)) 0x8267110;
-void (*SaleChest::ptr::SkipNextDraw)(SaleChest * self) = (void (*)(SaleChest * self)) 0x8087aa0;
-void (*SaleChest::ptr::mark)(SaleChest * self) = (void (*)(SaleChest * self)) 0x80b2720;
-void (*SaleChest::ptr::CSTR_SaleChest)(SaleChest * self) = (void (*)(SaleChest * self)) 0x8197320;
+inline void (*SaleChest::ptr::SetCost)(SaleChest * self) = (void (*)(SaleChest * self)) 0x8123e20;
+inline void (*SaleChest::ptr::ResetCosts)() = (void (*)()) 0x8197680;
+inline SaleChest * (*SaleChest::ptr::New)(SaleChest * self, int xVal, int yVal, String * cont, bool invis, bool isLocked, bool isSecret, int tmpColor) = (SaleChest * (*)(SaleChest * self, int xVal, int yVal, String * cont, bool invis, bool isLocked, bool isSecret, int tmpColor)) 0x82adfe0;
+inline SaleChest * (*SaleChest::ptr::_new2)() = (SaleChest * (*)()) 0x81976c0;
+inline void (*SaleChest::ptr::Die)(SaleChest * self) = (void (*)(SaleChest * self)) 0x8093320;
+inline bool (*SaleChest::ptr::_CanSeeShopkeeper)() = (bool (*)()) 0x808b8d0;
+inline bool (*SaleChest::ptr::CanSteal)(SaleChest * self) = (bool (*)(SaleChest * self)) 0x80d40e0;
+inline bool (*SaleChest::ptr::Open)(SaleChest * self, Player * player) = (bool (*)(SaleChest * self, Player * player)) 0x8391cd0;
+inline void (*SaleChest::ptr::Render)(SaleChest * self) = (void (*)(SaleChest * self)) 0x8267110;
+inline void (*SaleChest::ptr::SkipNextDraw)(SaleChest * self) = (void (*)(SaleChest * self)) 0x8087aa0;
+inline void (*SaleChest::ptr::mark)(SaleChest * self) = (void (*)(SaleChest * self)) 0x80b2720;
+inline void (*SaleChest::ptr::CSTR_SaleChest)(SaleChest * self) = (void (*)(SaleChest * self)) 0x8197320;
 #endif
 #endif

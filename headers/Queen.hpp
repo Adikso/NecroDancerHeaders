@@ -31,21 +31,21 @@ public:
 
 #ifdef _WIN32
 
-Queen * (*Queen::ptr::New)(Queen * self, int xVal, int yVal, int l) = (Queen * (*)(Queen * self, int xVal, int yVal, int l)) 0x657030;
-Queen * (*Queen::ptr::_new2)() = (Queen * (*)()) 0x0;
-void (*Queen::ptr::Update)(Queen * self) = (void (*)(Queen * self)) 0x6572b0;
-bool (*Queen::ptr::Hit)(Queen * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Queen * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x646670;
-Point * (*Queen::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
-void (*Queen::ptr::_mark)() = (void (*)()) 0x0;
+inline Queen * (*Queen::ptr::New)(Queen * self, int xVal, int yVal, int l) = (Queen * (*)(Queen * self, int xVal, int yVal, int l)) 0x657030;
+inline Queen * (*Queen::ptr::_new2)() = (Queen * (*)()) 0x0;
+inline void (*Queen::ptr::Update)(Queen * self) = (void (*)(Queen * self)) 0x6572b0;
+inline bool (*Queen::ptr::Hit)(Queen * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Queen * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x646670;
+inline Point * (*Queen::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
+inline void (*Queen::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Queen * (*Queen::ptr::New)(Queen * self, int xVal, int yVal, int l) = (Queen * (*)(Queen * self, int xVal, int yVal, int l)) 0x81c9060;
-Queen * (*Queen::ptr::_new2)() = (Queen * (*)()) 0x81c9260;
-void (*Queen::ptr::Update)(Queen * self) = (void (*)(Queen * self)) 0x837f2e0;
-bool (*Queen::ptr::Hit)(Queen * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Queen * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83970d0;
-Point * (*Queen::ptr::_GetMovementDirection)() = (Point * (*)()) 0x80765e0;
-void (*Queen::ptr::_mark)() = (void (*)()) 0x80b0230;
+inline Queen * (*Queen::ptr::New)(Queen * self, int xVal, int yVal, int l) = (Queen * (*)(Queen * self, int xVal, int yVal, int l)) 0x81c9060;
+inline Queen * (*Queen::ptr::_new2)() = (Queen * (*)()) 0x81c9260;
+inline void (*Queen::ptr::Update)(Queen * self) = (void (*)(Queen * self)) 0x837f2e0;
+inline bool (*Queen::ptr::Hit)(Queen * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Queen * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83970d0;
+inline Point * (*Queen::ptr::_GetMovementDirection)() = (Point * (*)()) 0x80765e0;
+inline void (*Queen::ptr::_mark)() = (void (*)()) 0x80b0230;
 #endif
 #endif

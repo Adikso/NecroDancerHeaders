@@ -27,17 +27,17 @@ public:
 
 #ifdef _WIN32
 
-Node50 * (*Node50::ptr::_New)(Node50 * self, Node50 * arg1, Node50 * arg2, SoulFamiliar * arg3) = (Node50 * (*)(Node50 * self, Node50 * arg1, Node50 * arg2, SoulFamiliar * arg3)) 0x0;
-Node50 * (*Node50::ptr::_new2)() = (Node50 * (*)()) 0x0;
-int (*Node50::ptr::_Remove2)() = (int (*)()) 0x0;
-void (*Node50::ptr::_mark)() = (void (*)()) 0x0;
+inline Node50 * (*Node50::ptr::_New)(Node50 * self, Node50 * arg1, Node50 * arg2, SoulFamiliar * arg3) = (Node50 * (*)(Node50 * self, Node50 * arg1, Node50 * arg2, SoulFamiliar * arg3)) 0x0;
+inline Node50 * (*Node50::ptr::_new2)() = (Node50 * (*)()) 0x0;
+inline int (*Node50::ptr::_Remove2)() = (int (*)()) 0x0;
+inline void (*Node50::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node50 * (*Node50::ptr::_New)(Node50 * self, Node50 * arg1, Node50 * arg2, SoulFamiliar * arg3) = (Node50 * (*)(Node50 * self, Node50 * arg1, Node50 * arg2, SoulFamiliar * arg3)) 0x0;
-Node50 * (*Node50::ptr::_new2)() = (Node50 * (*)()) 0x81bff20;
-int (*Node50::ptr::_Remove2)() = (int (*)()) 0x0;
-void (*Node50::ptr::_mark)() = (void (*)()) 0x8088530;
+inline Node50 * (*Node50::ptr::_New)(Node50 * self, Node50 * arg1, Node50 * arg2, SoulFamiliar * arg3) = (Node50 * (*)(Node50 * self, Node50 * arg1, Node50 * arg2, SoulFamiliar * arg3)) 0x0;
+inline Node50 * (*Node50::ptr::_new2)() = (Node50 * (*)()) 0x81bff20;
+inline int (*Node50::ptr::_Remove2)() = (int (*)()) 0x0;
+inline void (*Node50::ptr::_mark)() = (void (*)()) 0x8088530;
 #endif
 #endif

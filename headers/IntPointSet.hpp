@@ -25,15 +25,15 @@ public:
 
 #ifdef _WIN32
 
-IntPointSet * (*IntPointSet::ptr::New)(IntPointSet * self) = (IntPointSet * (*)(IntPointSet * self)) 0x632d50;
-void (*IntPointSet::ptr::_mark)() = (void (*)()) 0x0;
-void (*IntPointSet::ptr::CSTR_IntPointSet)(IntPointSet * self) = (void (*)(IntPointSet * self)) 0x632cd0;
+inline IntPointSet * (*IntPointSet::ptr::New)(IntPointSet * self) = (IntPointSet * (*)(IntPointSet * self)) 0x632d50;
+inline void (*IntPointSet::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*IntPointSet::ptr::CSTR_IntPointSet)(IntPointSet * self) = (void (*)(IntPointSet * self)) 0x632cd0;
 #endif
 
 #ifdef __linux__
 
-IntPointSet * (*IntPointSet::ptr::New)(IntPointSet * self) = (IntPointSet * (*)(IntPointSet * self)) 0x81bc580;
-void (*IntPointSet::ptr::_mark)() = (void (*)()) 0x8086c90;
-void (*IntPointSet::ptr::CSTR_IntPointSet)(IntPointSet * self) = (void (*)(IntPointSet * self)) 0x81bc560;
+inline IntPointSet * (*IntPointSet::ptr::New)(IntPointSet * self) = (IntPointSet * (*)(IntPointSet * self)) 0x81bc580;
+inline void (*IntPointSet::ptr::_mark)() = (void (*)()) 0x8086c90;
+inline void (*IntPointSet::ptr::CSTR_IntPointSet)(IntPointSet * self) = (void (*)(IntPointSet * self)) 0x81bc560;
 #endif
 #endif

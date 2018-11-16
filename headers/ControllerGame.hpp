@@ -74,33 +74,33 @@ public:
 
 #ifdef _WIN32
 
-void (*ControllerGame::ptr::ResetPostDeathReplay)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x53d9d0;
-ControllerGame * (*ControllerGame::ptr::New)(ControllerGame * self) = (ControllerGame * (*)(ControllerGame * self)) 0x53da90;
-void (*ControllerGame::ptr::RegainFocus)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x53de40;
-void (*ControllerGame::ptr::Update)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x53dfc0;
-bool (*ControllerGame::ptr::ScoreSubmitFailed)(ControllerGame * self) = (bool (*)(ControllerGame * self)) 0x53ef20;
-void (*ControllerGame::ptr::PrepareToSubmitScores)(ControllerGame * self, int numScores) = (void (*)(ControllerGame * self, int numScores)) 0x53ef50;
-void (*ControllerGame::ptr::Render)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x53efa0;
-void (*ControllerGame::ptr::Suspend)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x540fc0;
-void (*ControllerGame::ptr::Destructor)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x5410c0;
-void (*ControllerGame::ptr::RenderPostGameReplay)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x5410d0;
-void (*ControllerGame::ptr::mark)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x541120;
-void (*ControllerGame::ptr::CSTR_ControllerGame)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x53d520;
+inline void (*ControllerGame::ptr::ResetPostDeathReplay)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x53d9d0;
+inline ControllerGame * (*ControllerGame::ptr::New)(ControllerGame * self) = (ControllerGame * (*)(ControllerGame * self)) 0x53da90;
+inline void (*ControllerGame::ptr::RegainFocus)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x53de40;
+inline void (*ControllerGame::ptr::Update)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x53dfc0;
+inline bool (*ControllerGame::ptr::ScoreSubmitFailed)(ControllerGame * self) = (bool (*)(ControllerGame * self)) 0x53ef20;
+inline void (*ControllerGame::ptr::PrepareToSubmitScores)(ControllerGame * self, int numScores) = (void (*)(ControllerGame * self, int numScores)) 0x53ef50;
+inline void (*ControllerGame::ptr::Render)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x53efa0;
+inline void (*ControllerGame::ptr::Suspend)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x540fc0;
+inline void (*ControllerGame::ptr::Destructor)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x5410c0;
+inline void (*ControllerGame::ptr::RenderPostGameReplay)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x5410d0;
+inline void (*ControllerGame::ptr::mark)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x541120;
+inline void (*ControllerGame::ptr::CSTR_ControllerGame)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x53d520;
 #endif
 
 #ifdef __linux__
 
-void (*ControllerGame::ptr::ResetPostDeathReplay)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x80d7490;
-ControllerGame * (*ControllerGame::ptr::New)(ControllerGame * self) = (ControllerGame * (*)(ControllerGame * self)) 0x8364d90;
-void (*ControllerGame::ptr::RegainFocus)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x8311d90;
-void (*ControllerGame::ptr::Update)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x83fae80;
-bool (*ControllerGame::ptr::ScoreSubmitFailed)(ControllerGame * self) = (bool (*)(ControllerGame * self)) 0x8081b40;
-void (*ControllerGame::ptr::PrepareToSubmitScores)(ControllerGame * self, int numScores) = (void (*)(ControllerGame * self, int numScores)) 0x806f440;
-void (*ControllerGame::ptr::Render)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x841f4c0;
-void (*ControllerGame::ptr::Suspend)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x83148f0;
-void (*ControllerGame::ptr::Destructor)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x83148b0;
-void (*ControllerGame::ptr::RenderPostGameReplay)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x830a040;
-void (*ControllerGame::ptr::mark)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x80a3900;
-void (*ControllerGame::ptr::CSTR_ControllerGame)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x8147a80;
+inline void (*ControllerGame::ptr::ResetPostDeathReplay)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x80d7490;
+inline ControllerGame * (*ControllerGame::ptr::New)(ControllerGame * self) = (ControllerGame * (*)(ControllerGame * self)) 0x8364d90;
+inline void (*ControllerGame::ptr::RegainFocus)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x8311d90;
+inline void (*ControllerGame::ptr::Update)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x83fae80;
+inline bool (*ControllerGame::ptr::ScoreSubmitFailed)(ControllerGame * self) = (bool (*)(ControllerGame * self)) 0x8081b40;
+inline void (*ControllerGame::ptr::PrepareToSubmitScores)(ControllerGame * self, int numScores) = (void (*)(ControllerGame * self, int numScores)) 0x806f440;
+inline void (*ControllerGame::ptr::Render)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x841f4c0;
+inline void (*ControllerGame::ptr::Suspend)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x83148f0;
+inline void (*ControllerGame::ptr::Destructor)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x83148b0;
+inline void (*ControllerGame::ptr::RenderPostGameReplay)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x830a040;
+inline void (*ControllerGame::ptr::mark)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x80a3900;
+inline void (*ControllerGame::ptr::CSTR_ControllerGame)(ControllerGame * self) = (void (*)(ControllerGame * self)) 0x8147a80;
 #endif
 #endif

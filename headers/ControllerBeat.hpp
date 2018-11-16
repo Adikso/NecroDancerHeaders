@@ -54,29 +54,29 @@ public:
 
 #ifdef _WIN32
 
-ControllerBeat * (*ControllerBeat::ptr::New)(ControllerBeat * self, String * fName, int songIndex, int playlistIndex) = (ControllerBeat * (*)(ControllerBeat * self, String * fName, int songIndex, int playlistIndex)) 0x6a9ee0;
-ControllerBeat * (*ControllerBeat::ptr::_new2)() = (ControllerBeat * (*)()) 0x0;
-void (*ControllerBeat::ptr::_RegainFocus)() = (void (*)()) 0x0;
-void (*ControllerBeat::ptr::WriteBeatFile)(ControllerBeat * self) = (void (*)(ControllerBeat * self)) 0x6aa280;
-bool (*ControllerBeat::ptr::DirWasHit)(ControllerBeat * self) = (bool (*)(ControllerBeat * self)) 0x6aa5b0;
-void (*ControllerBeat::ptr::Update)(ControllerBeat * self) = (void (*)(ControllerBeat * self)) 0x6aa820;
-void (*ControllerBeat::ptr::Render)(ControllerBeat * self) = (void (*)(ControllerBeat * self)) 0x6aa900;
-void (*ControllerBeat::ptr::Destructor)(ControllerBeat * self) = (void (*)(ControllerBeat * self)) 0x6aaaa0;
-void (*ControllerBeat::ptr::mark)(ControllerBeat * self) = (void (*)(ControllerBeat * self)) 0x6aaad0;
-void (*ControllerBeat::ptr::CSTR_ControllerBeat)(ControllerBeat * self) = (void (*)(ControllerBeat * self)) 0x6a9a60;
+inline ControllerBeat * (*ControllerBeat::ptr::New)(ControllerBeat * self, String * fName, int songIndex, int playlistIndex) = (ControllerBeat * (*)(ControllerBeat * self, String * fName, int songIndex, int playlistIndex)) 0x6a9ee0;
+inline ControllerBeat * (*ControllerBeat::ptr::_new2)() = (ControllerBeat * (*)()) 0x0;
+inline void (*ControllerBeat::ptr::_RegainFocus)() = (void (*)()) 0x0;
+inline void (*ControllerBeat::ptr::WriteBeatFile)(ControllerBeat * self) = (void (*)(ControllerBeat * self)) 0x6aa280;
+inline bool (*ControllerBeat::ptr::DirWasHit)(ControllerBeat * self) = (bool (*)(ControllerBeat * self)) 0x6aa5b0;
+inline void (*ControllerBeat::ptr::Update)(ControllerBeat * self) = (void (*)(ControllerBeat * self)) 0x6aa820;
+inline void (*ControllerBeat::ptr::Render)(ControllerBeat * self) = (void (*)(ControllerBeat * self)) 0x6aa900;
+inline void (*ControllerBeat::ptr::Destructor)(ControllerBeat * self) = (void (*)(ControllerBeat * self)) 0x6aaaa0;
+inline void (*ControllerBeat::ptr::mark)(ControllerBeat * self) = (void (*)(ControllerBeat * self)) 0x6aaad0;
+inline void (*ControllerBeat::ptr::CSTR_ControllerBeat)(ControllerBeat * self) = (void (*)(ControllerBeat * self)) 0x6a9a60;
 #endif
 
 #ifdef __linux__
 
-ControllerBeat * (*ControllerBeat::ptr::New)(ControllerBeat * self, String * fName, int songIndex, int playlistIndex) = (ControllerBeat * (*)(ControllerBeat * self, String * fName, int songIndex, int playlistIndex)) 0x8367820;
-ControllerBeat * (*ControllerBeat::ptr::_new2)() = (ControllerBeat * (*)()) 0x81f32b0;
-void (*ControllerBeat::ptr::_RegainFocus)() = (void (*)()) 0x807a390;
-void (*ControllerBeat::ptr::WriteBeatFile)(ControllerBeat * self) = (void (*)(ControllerBeat * self)) 0x8301a10;
-bool (*ControllerBeat::ptr::DirWasHit)(ControllerBeat * self) = (bool (*)(ControllerBeat * self)) 0x81112e0;
-void (*ControllerBeat::ptr::Update)(ControllerBeat * self) = (void (*)(ControllerBeat * self)) 0x8314180;
-void (*ControllerBeat::ptr::Render)(ControllerBeat * self) = (void (*)(ControllerBeat * self)) 0x84079c0;
-void (*ControllerBeat::ptr::Destructor)(ControllerBeat * self) = (void (*)(ControllerBeat * self)) 0x807a3a0;
-void (*ControllerBeat::ptr::mark)(ControllerBeat * self) = (void (*)(ControllerBeat * self)) 0x80a8340;
-void (*ControllerBeat::ptr::CSTR_ControllerBeat)(ControllerBeat * self) = (void (*)(ControllerBeat * self)) 0x81f2f90;
+inline ControllerBeat * (*ControllerBeat::ptr::New)(ControllerBeat * self, String * fName, int songIndex, int playlistIndex) = (ControllerBeat * (*)(ControllerBeat * self, String * fName, int songIndex, int playlistIndex)) 0x8367820;
+inline ControllerBeat * (*ControllerBeat::ptr::_new2)() = (ControllerBeat * (*)()) 0x81f32b0;
+inline void (*ControllerBeat::ptr::_RegainFocus)() = (void (*)()) 0x807a390;
+inline void (*ControllerBeat::ptr::WriteBeatFile)(ControllerBeat * self) = (void (*)(ControllerBeat * self)) 0x8301a10;
+inline bool (*ControllerBeat::ptr::DirWasHit)(ControllerBeat * self) = (bool (*)(ControllerBeat * self)) 0x81112e0;
+inline void (*ControllerBeat::ptr::Update)(ControllerBeat * self) = (void (*)(ControllerBeat * self)) 0x8314180;
+inline void (*ControllerBeat::ptr::Render)(ControllerBeat * self) = (void (*)(ControllerBeat * self)) 0x84079c0;
+inline void (*ControllerBeat::ptr::Destructor)(ControllerBeat * self) = (void (*)(ControllerBeat * self)) 0x807a3a0;
+inline void (*ControllerBeat::ptr::mark)(ControllerBeat * self) = (void (*)(ControllerBeat * self)) 0x80a8340;
+inline void (*ControllerBeat::ptr::CSTR_ControllerBeat)(ControllerBeat * self) = (void (*)(ControllerBeat * self)) 0x81f2f90;
 #endif
 #endif

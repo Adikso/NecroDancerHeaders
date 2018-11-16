@@ -35,23 +35,23 @@ public:
 
 #ifdef _WIN32
 
-Zombie * (*Zombie::ptr::New)(Zombie * self, int xVal, int yVal, int l) = (Zombie * (*)(Zombie * self, int xVal, int yVal, int l)) 0x63b8e0;
-Zombie * (*Zombie::ptr::_new2)() = (Zombie * (*)()) 0x0;
-void (*Zombie::ptr::Update)(Zombie * self) = (void (*)(Zombie * self)) 0x63bb50;
-Point * (*Zombie::ptr::GetMovementDirection)(Zombie * self) = (Point * (*)(Zombie * self)) 0x637e80;
-void (*Zombie::ptr::MoveFail)(Zombie * self) = (void (*)(Zombie * self)) 0x63bbc0;
-void (*Zombie::ptr::_mark)() = (void (*)()) 0x0;
-void (*Zombie::ptr::CSTR_Zombie)(Zombie * self) = (void (*)(Zombie * self)) 0x63b880;
+inline Zombie * (*Zombie::ptr::New)(Zombie * self, int xVal, int yVal, int l) = (Zombie * (*)(Zombie * self, int xVal, int yVal, int l)) 0x63b8e0;
+inline Zombie * (*Zombie::ptr::_new2)() = (Zombie * (*)()) 0x0;
+inline void (*Zombie::ptr::Update)(Zombie * self) = (void (*)(Zombie * self)) 0x63bb50;
+inline Point * (*Zombie::ptr::GetMovementDirection)(Zombie * self) = (Point * (*)(Zombie * self)) 0x637e80;
+inline void (*Zombie::ptr::MoveFail)(Zombie * self) = (void (*)(Zombie * self)) 0x63bbc0;
+inline void (*Zombie::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Zombie::ptr::CSTR_Zombie)(Zombie * self) = (void (*)(Zombie * self)) 0x63b880;
 #endif
 
 #ifdef __linux__
 
-Zombie * (*Zombie::ptr::New)(Zombie * self, int xVal, int yVal, int l) = (Zombie * (*)(Zombie * self, int xVal, int yVal, int l)) 0x81c0670;
-Zombie * (*Zombie::ptr::_new2)() = (Zombie * (*)()) 0x81c07f0;
-void (*Zombie::ptr::Update)(Zombie * self) = (void (*)(Zombie * self)) 0x8382f40;
-Point * (*Zombie::ptr::GetMovementDirection)(Zombie * self) = (Point * (*)(Zombie * self)) 0x81029a0;
-void (*Zombie::ptr::MoveFail)(Zombie * self) = (void (*)(Zombie * self)) 0x81354c0;
-void (*Zombie::ptr::_mark)() = (void (*)()) 0x80b0790;
-void (*Zombie::ptr::CSTR_Zombie)(Zombie * self) = (void (*)(Zombie * self)) 0x81c0640;
+inline Zombie * (*Zombie::ptr::New)(Zombie * self, int xVal, int yVal, int l) = (Zombie * (*)(Zombie * self, int xVal, int yVal, int l)) 0x81c0670;
+inline Zombie * (*Zombie::ptr::_new2)() = (Zombie * (*)()) 0x81c07f0;
+inline void (*Zombie::ptr::Update)(Zombie * self) = (void (*)(Zombie * self)) 0x8382f40;
+inline Point * (*Zombie::ptr::GetMovementDirection)(Zombie * self) = (Point * (*)(Zombie * self)) 0x81029a0;
+inline void (*Zombie::ptr::MoveFail)(Zombie * self) = (void (*)(Zombie * self)) 0x81354c0;
+inline void (*Zombie::ptr::_mark)() = (void (*)()) 0x80b0790;
+inline void (*Zombie::ptr::CSTR_Zombie)(Zombie * self) = (void (*)(Zombie * self)) 0x81c0640;
 #endif
 #endif

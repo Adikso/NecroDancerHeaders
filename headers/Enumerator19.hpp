@@ -30,19 +30,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator19 * (*Enumerator19::ptr::_New)(Enumerator19 * self, List33 * arg1) = (Enumerator19 * (*)(Enumerator19 * self, List33 * arg1)) 0x0;
-Enumerator19 * (*Enumerator19::ptr::_new2)() = (Enumerator19 * (*)()) 0x0;
-bool (*Enumerator19::ptr::_HasNext)() = (bool (*)()) 0x0;
-Player * (*Enumerator19::ptr::_NextObject)() = (Player * (*)()) 0x0;
-void (*Enumerator19::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator19 * (*Enumerator19::ptr::_New)(Enumerator19 * self, List33 * arg1) = (Enumerator19 * (*)(Enumerator19 * self, List33 * arg1)) 0x0;
+inline Enumerator19 * (*Enumerator19::ptr::_new2)() = (Enumerator19 * (*)()) 0x0;
+inline bool (*Enumerator19::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline Player * (*Enumerator19::ptr::_NextObject)() = (Player * (*)()) 0x0;
+inline void (*Enumerator19::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator19 * (*Enumerator19::ptr::_New)(Enumerator19 * self, List33 * arg1) = (Enumerator19 * (*)(Enumerator19 * self, List33 * arg1)) 0x81a9530;
-Enumerator19 * (*Enumerator19::ptr::_new2)() = (Enumerator19 * (*)()) 0x81a95e0;
-bool (*Enumerator19::ptr::_HasNext)() = (bool (*)()) 0x8093be0;
-Player * (*Enumerator19::ptr::_NextObject)() = (Player * (*)()) 0x8093b70;
-void (*Enumerator19::ptr::_mark)() = (void (*)()) 0x808df10;
+inline Enumerator19 * (*Enumerator19::ptr::_New)(Enumerator19 * self, List33 * arg1) = (Enumerator19 * (*)(Enumerator19 * self, List33 * arg1)) 0x81a9530;
+inline Enumerator19 * (*Enumerator19::ptr::_new2)() = (Enumerator19 * (*)()) 0x81a95e0;
+inline bool (*Enumerator19::ptr::_HasNext)() = (bool (*)()) 0x8093be0;
+inline Player * (*Enumerator19::ptr::_NextObject)() = (Player * (*)()) 0x8093b70;
+inline void (*Enumerator19::ptr::_mark)() = (void (*)()) 0x808df10;
 #endif
 #endif

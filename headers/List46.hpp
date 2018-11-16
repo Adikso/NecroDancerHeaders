@@ -44,29 +44,29 @@ public:
 
 #ifdef _WIN32
 
-List46 * (*List46::ptr::_New)() = (List46 * (*)()) 0x0;
-Node66 * (*List46::ptr::_AddLast46)(List46 * self, CrystalShards * arg1) = (Node66 * (*)(List46 * self, CrystalShards * arg1)) 0x0;
-List46 * (*List46::ptr::_new2)(List46 * self, Array<CrystalShards *> * arg1) = (List46 * (*)(List46 * self, Array<CrystalShards *> * arg1)) 0x0;
-Enumerator29 * (*List46::ptr::_ObjectEnumerator)() = (Enumerator29 * (*)()) 0x0;
-Node66 * (*List46::ptr::_FirstNode)() = (Node66 * (*)()) 0x0;
-bool (*List46::ptr::_Equals28)(List46 * self, CrystalShards * arg1, CrystalShards * arg2) = (bool (*)(List46 * self, CrystalShards * arg1, CrystalShards * arg2)) 0x0;
-int (*List46::ptr::_RemoveEach24)(List46 * self, CrystalShards * arg1) = (int (*)(List46 * self, CrystalShards * arg1)) 0x0;
-void (*List46::ptr::_mark)() = (void (*)()) 0x0;
-void (*List46::ptr::CSTR_List46)(List46 * self) = (void (*)(List46 * self)) 0x636dc0;
-Node66 * (*List46::ptr::AddLast46)(List46 * self, PulseData * data) = (Node66 * (*)(List46 * self, PulseData * data)) 0x636e90;
+inline List46 * (*List46::ptr::_New)() = (List46 * (*)()) 0x0;
+inline Node66 * (*List46::ptr::_AddLast46)(List46 * self, CrystalShards * arg1) = (Node66 * (*)(List46 * self, CrystalShards * arg1)) 0x0;
+inline List46 * (*List46::ptr::_new2)(List46 * self, Array<CrystalShards *> * arg1) = (List46 * (*)(List46 * self, Array<CrystalShards *> * arg1)) 0x0;
+inline Enumerator29 * (*List46::ptr::_ObjectEnumerator)() = (Enumerator29 * (*)()) 0x0;
+inline Node66 * (*List46::ptr::_FirstNode)() = (Node66 * (*)()) 0x0;
+inline bool (*List46::ptr::_Equals28)(List46 * self, CrystalShards * arg1, CrystalShards * arg2) = (bool (*)(List46 * self, CrystalShards * arg1, CrystalShards * arg2)) 0x0;
+inline int (*List46::ptr::_RemoveEach24)(List46 * self, CrystalShards * arg1) = (int (*)(List46 * self, CrystalShards * arg1)) 0x0;
+inline void (*List46::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List46::ptr::CSTR_List46)(List46 * self) = (void (*)(List46 * self)) 0x636dc0;
+inline Node66 * (*List46::ptr::AddLast46)(List46 * self, PulseData * data) = (Node66 * (*)(List46 * self, PulseData * data)) 0x636e90;
 #endif
 
 #ifdef __linux__
 
-List46 * (*List46::ptr::_New)() = (List46 * (*)()) 0x81bddd0;
-Node66 * (*List46::ptr::_AddLast46)(List46 * self, CrystalShards * arg1) = (Node66 * (*)(List46 * self, CrystalShards * arg1)) 0x0;
-List46 * (*List46::ptr::_new2)(List46 * self, Array<CrystalShards *> * arg1) = (List46 * (*)(List46 * self, Array<CrystalShards *> * arg1)) 0x0;
-Enumerator29 * (*List46::ptr::_ObjectEnumerator)() = (Enumerator29 * (*)()) 0x0;
-Node66 * (*List46::ptr::_FirstNode)() = (Node66 * (*)()) 0x8075d40;
-bool (*List46::ptr::_Equals28)(List46 * self, CrystalShards * arg1, CrystalShards * arg2) = (bool (*)(List46 * self, CrystalShards * arg1, CrystalShards * arg2)) 0x0;
-int (*List46::ptr::_RemoveEach24)(List46 * self, CrystalShards * arg1) = (int (*)(List46 * self, CrystalShards * arg1)) 0x0;
-void (*List46::ptr::_mark)() = (void (*)()) 0x80871f0;
-void (*List46::ptr::CSTR_List46)(List46 * self) = (void (*)(List46 * self)) 0x81be150;
-Node66 * (*List46::ptr::AddLast46)(List46 * self, PulseData * data) = (Node66 * (*)(List46 * self, PulseData * data)) 0x81be010;
+inline List46 * (*List46::ptr::_New)() = (List46 * (*)()) 0x81bddd0;
+inline Node66 * (*List46::ptr::_AddLast46)(List46 * self, CrystalShards * arg1) = (Node66 * (*)(List46 * self, CrystalShards * arg1)) 0x0;
+inline List46 * (*List46::ptr::_new2)(List46 * self, Array<CrystalShards *> * arg1) = (List46 * (*)(List46 * self, Array<CrystalShards *> * arg1)) 0x0;
+inline Enumerator29 * (*List46::ptr::_ObjectEnumerator)() = (Enumerator29 * (*)()) 0x0;
+inline Node66 * (*List46::ptr::_FirstNode)() = (Node66 * (*)()) 0x8075d40;
+inline bool (*List46::ptr::_Equals28)(List46 * self, CrystalShards * arg1, CrystalShards * arg2) = (bool (*)(List46 * self, CrystalShards * arg1, CrystalShards * arg2)) 0x0;
+inline int (*List46::ptr::_RemoveEach24)(List46 * self, CrystalShards * arg1) = (int (*)(List46 * self, CrystalShards * arg1)) 0x0;
+inline void (*List46::ptr::_mark)() = (void (*)()) 0x80871f0;
+inline void (*List46::ptr::CSTR_List46)(List46 * self) = (void (*)(List46 * self)) 0x81be150;
+inline Node66 * (*List46::ptr::AddLast46)(List46 * self, PulseData * data) = (Node66 * (*)(List46 * self, PulseData * data)) 0x81be010;
 #endif
 #endif

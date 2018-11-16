@@ -50,31 +50,31 @@ public:
 
 #ifdef _WIN32
 
-void (*FloorPulse::ptr::ShowWarning)(FloorPulse * self, bool large, bool down) = (void (*)(FloorPulse * self, bool large, bool down)) 0x68d3f0;
-FloorPulse * (*FloorPulse::ptr::New)(FloorPulse * self, int x_, int y_) = (FloorPulse * (*)(FloorPulse * self, int x_, int y_)) 0x68d460;
-FloorPulse * (*FloorPulse::ptr::_new2)() = (FloorPulse * (*)()) 0x0;
-void (*FloorPulse::ptr::Hide)(FloorPulse * self) = (void (*)(FloorPulse * self)) 0x68dac0;
-void (*FloorPulse::ptr::ShowMoveWarning)(FloorPulse * self) = (void (*)(FloorPulse * self)) 0x68dae0;
-void (*FloorPulse::ptr::ShowPulse)(FloorPulse * self, bool down) = (void (*)(FloorPulse * self, bool down)) 0x68db50;
-void (*FloorPulse::ptr::Render)(FloorPulse * self) = (void (*)(FloorPulse * self)) 0x68dbd0;
-bool (*FloorPulse::ptr::_Hit)(FloorPulse * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(FloorPulse * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x0;
-bool (*FloorPulse::ptr::_CanBeDamaged)(FloorPulse * self, bool arg1, bool arg2) = (bool (*)(FloorPulse * self, bool arg1, bool arg2)) 0x0;
-void (*FloorPulse::ptr::mark)(FloorPulse * self) = (void (*)(FloorPulse * self)) 0x68dc40;
-void (*FloorPulse::ptr::CSTR_FloorPulse)(FloorPulse * self) = (void (*)(FloorPulse * self)) 0x68d350;
+inline void (*FloorPulse::ptr::ShowWarning)(FloorPulse * self, bool large, bool down) = (void (*)(FloorPulse * self, bool large, bool down)) 0x68d3f0;
+inline FloorPulse * (*FloorPulse::ptr::New)(FloorPulse * self, int x_, int y_) = (FloorPulse * (*)(FloorPulse * self, int x_, int y_)) 0x68d460;
+inline FloorPulse * (*FloorPulse::ptr::_new2)() = (FloorPulse * (*)()) 0x0;
+inline void (*FloorPulse::ptr::Hide)(FloorPulse * self) = (void (*)(FloorPulse * self)) 0x68dac0;
+inline void (*FloorPulse::ptr::ShowMoveWarning)(FloorPulse * self) = (void (*)(FloorPulse * self)) 0x68dae0;
+inline void (*FloorPulse::ptr::ShowPulse)(FloorPulse * self, bool down) = (void (*)(FloorPulse * self, bool down)) 0x68db50;
+inline void (*FloorPulse::ptr::Render)(FloorPulse * self) = (void (*)(FloorPulse * self)) 0x68dbd0;
+inline bool (*FloorPulse::ptr::_Hit)(FloorPulse * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(FloorPulse * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x0;
+inline bool (*FloorPulse::ptr::_CanBeDamaged)(FloorPulse * self, bool arg1, bool arg2) = (bool (*)(FloorPulse * self, bool arg1, bool arg2)) 0x0;
+inline void (*FloorPulse::ptr::mark)(FloorPulse * self) = (void (*)(FloorPulse * self)) 0x68dc40;
+inline void (*FloorPulse::ptr::CSTR_FloorPulse)(FloorPulse * self) = (void (*)(FloorPulse * self)) 0x68d350;
 #endif
 
 #ifdef __linux__
 
-void (*FloorPulse::ptr::ShowWarning)(FloorPulse * self, bool large, bool down) = (void (*)(FloorPulse * self, bool large, bool down)) 0x80b3530;
-FloorPulse * (*FloorPulse::ptr::New)(FloorPulse * self, int x_, int y_) = (FloorPulse * (*)(FloorPulse * self, int x_, int y_)) 0x81e45d0;
-FloorPulse * (*FloorPulse::ptr::_new2)() = (FloorPulse * (*)()) 0x81e4ce0;
-void (*FloorPulse::ptr::Hide)(FloorPulse * self) = (void (*)(FloorPulse * self)) 0x8079180;
-void (*FloorPulse::ptr::ShowMoveWarning)(FloorPulse * self) = (void (*)(FloorPulse * self)) 0x80b34c0;
-void (*FloorPulse::ptr::ShowPulse)(FloorPulse * self, bool down) = (void (*)(FloorPulse * self, bool down)) 0x80b3610;
-void (*FloorPulse::ptr::Render)(FloorPulse * self) = (void (*)(FloorPulse * self)) 0x8266ec0;
-bool (*FloorPulse::ptr::_Hit)(FloorPulse * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(FloorPulse * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x80791a0;
-bool (*FloorPulse::ptr::_CanBeDamaged)(FloorPulse * self, bool arg1, bool arg2) = (bool (*)(FloorPulse * self, bool arg1, bool arg2)) 0x80791b0;
-void (*FloorPulse::ptr::mark)(FloorPulse * self) = (void (*)(FloorPulse * self)) 0x80a62b0;
-void (*FloorPulse::ptr::CSTR_FloorPulse)(FloorPulse * self) = (void (*)(FloorPulse * self)) 0x81e4560;
+inline void (*FloorPulse::ptr::ShowWarning)(FloorPulse * self, bool large, bool down) = (void (*)(FloorPulse * self, bool large, bool down)) 0x80b3530;
+inline FloorPulse * (*FloorPulse::ptr::New)(FloorPulse * self, int x_, int y_) = (FloorPulse * (*)(FloorPulse * self, int x_, int y_)) 0x81e45d0;
+inline FloorPulse * (*FloorPulse::ptr::_new2)() = (FloorPulse * (*)()) 0x81e4ce0;
+inline void (*FloorPulse::ptr::Hide)(FloorPulse * self) = (void (*)(FloorPulse * self)) 0x8079180;
+inline void (*FloorPulse::ptr::ShowMoveWarning)(FloorPulse * self) = (void (*)(FloorPulse * self)) 0x80b34c0;
+inline void (*FloorPulse::ptr::ShowPulse)(FloorPulse * self, bool down) = (void (*)(FloorPulse * self, bool down)) 0x80b3610;
+inline void (*FloorPulse::ptr::Render)(FloorPulse * self) = (void (*)(FloorPulse * self)) 0x8266ec0;
+inline bool (*FloorPulse::ptr::_Hit)(FloorPulse * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(FloorPulse * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x80791a0;
+inline bool (*FloorPulse::ptr::_CanBeDamaged)(FloorPulse * self, bool arg1, bool arg2) = (bool (*)(FloorPulse * self, bool arg1, bool arg2)) 0x80791b0;
+inline void (*FloorPulse::ptr::mark)(FloorPulse * self) = (void (*)(FloorPulse * self)) 0x80a62b0;
+inline void (*FloorPulse::ptr::CSTR_FloorPulse)(FloorPulse * self) = (void (*)(FloorPulse * self)) 0x81e4560;
 #endif
 #endif

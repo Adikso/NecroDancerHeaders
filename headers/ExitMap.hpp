@@ -22,15 +22,15 @@ public:
 
 #ifdef _WIN32
 
-ExitMap * (*ExitMap::ptr::_New)() = (ExitMap * (*)()) 0x0;
-int (*ExitMap::ptr::_Compare6)(ExitMap * self, Point * arg1, Point * arg2) = (int (*)(ExitMap * self, Point * arg1, Point * arg2)) 0x0;
-void (*ExitMap::ptr::_mark)() = (void (*)()) 0x0;
+inline ExitMap * (*ExitMap::ptr::_New)() = (ExitMap * (*)()) 0x0;
+inline int (*ExitMap::ptr::_Compare6)(ExitMap * self, Point * arg1, Point * arg2) = (int (*)(ExitMap * self, Point * arg1, Point * arg2)) 0x0;
+inline void (*ExitMap::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-ExitMap * (*ExitMap::ptr::_New)() = (ExitMap * (*)()) 0x819d880;
-int (*ExitMap::ptr::_Compare6)(ExitMap * self, Point * arg1, Point * arg2) = (int (*)(ExitMap * self, Point * arg1, Point * arg2)) 0x8087a20;
-void (*ExitMap::ptr::_mark)() = (void (*)()) 0x8082c20;
+inline ExitMap * (*ExitMap::ptr::_New)() = (ExitMap * (*)()) 0x819d880;
+inline int (*ExitMap::ptr::_Compare6)(ExitMap * self, Point * arg1, Point * arg2) = (int (*)(ExitMap * self, Point * arg1, Point * arg2)) 0x8087a20;
+inline void (*ExitMap::ptr::_mark)() = (void (*)()) 0x8082c20;
 #endif
 #endif

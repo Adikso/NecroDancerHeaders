@@ -27,15 +27,15 @@ public:
 
 #ifdef _WIN32
 
-void (*StandardItemPredicate::ptr::CSTR_StandardItemPredicate)(StandardItemPredicate * self) = (void (*)(StandardItemPredicate * self)) 0x61bb20;
-StandardItemPredicate * (*StandardItemPredicate::ptr::New)(StandardItemPredicate * self, String * itemClass_, int chestColor_, String * itemSlot_) = (StandardItemPredicate * (*)(StandardItemPredicate * self, String * itemClass_, int chestColor_, String * itemSlot_)) 0x61bda0;
-bool (*StandardItemPredicate::ptr::Call)(StandardItemPredicate * self, XMLNode * n) = (bool (*)(StandardItemPredicate * self, XMLNode * n)) 0x61be60;
+inline void (*StandardItemPredicate::ptr::CSTR_StandardItemPredicate)(StandardItemPredicate * self) = (void (*)(StandardItemPredicate * self)) 0x61bb20;
+inline StandardItemPredicate * (*StandardItemPredicate::ptr::New)(StandardItemPredicate * self, String * itemClass_, int chestColor_, String * itemSlot_) = (StandardItemPredicate * (*)(StandardItemPredicate * self, String * itemClass_, int chestColor_, String * itemSlot_)) 0x61bda0;
+inline bool (*StandardItemPredicate::ptr::Call)(StandardItemPredicate * self, XMLNode * n) = (bool (*)(StandardItemPredicate * self, XMLNode * n)) 0x61be60;
 #endif
 
 #ifdef __linux__
 
-void (*StandardItemPredicate::ptr::CSTR_StandardItemPredicate)(StandardItemPredicate * self) = (void (*)(StandardItemPredicate * self)) 0x81b7050;
-StandardItemPredicate * (*StandardItemPredicate::ptr::New)(StandardItemPredicate * self, String * itemClass_, int chestColor_, String * itemSlot_) = (StandardItemPredicate * (*)(StandardItemPredicate * self, String * itemClass_, int chestColor_, String * itemSlot_)) 0x81b70f0;
-bool (*StandardItemPredicate::ptr::Call)(StandardItemPredicate * self, XMLNode * n) = (bool (*)(StandardItemPredicate * self, XMLNode * n)) 0x815dd00;
+inline void (*StandardItemPredicate::ptr::CSTR_StandardItemPredicate)(StandardItemPredicate * self) = (void (*)(StandardItemPredicate * self)) 0x81b7050;
+inline StandardItemPredicate * (*StandardItemPredicate::ptr::New)(StandardItemPredicate * self, String * itemClass_, int chestColor_, String * itemSlot_) = (StandardItemPredicate * (*)(StandardItemPredicate * self, String * itemClass_, int chestColor_, String * itemSlot_)) 0x81b70f0;
+inline bool (*StandardItemPredicate::ptr::Call)(StandardItemPredicate * self, XMLNode * n) = (bool (*)(StandardItemPredicate * self, XMLNode * n)) 0x815dd00;
 #endif
 #endif

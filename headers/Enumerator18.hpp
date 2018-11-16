@@ -30,19 +30,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator18 * (*Enumerator18::ptr::_New)(Enumerator18 * self, List8 * arg1) = (Enumerator18 * (*)(Enumerator18 * self, List8 * arg1)) 0x0;
-Enumerator18 * (*Enumerator18::ptr::_new2)() = (Enumerator18 * (*)()) 0x0;
-bool (*Enumerator18::ptr::_HasNext)() = (bool (*)()) 0x0;
-Familiar * (*Enumerator18::ptr::_NextObject)() = (Familiar * (*)()) 0x0;
-void (*Enumerator18::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator18 * (*Enumerator18::ptr::_New)(Enumerator18 * self, List8 * arg1) = (Enumerator18 * (*)(Enumerator18 * self, List8 * arg1)) 0x0;
+inline Enumerator18 * (*Enumerator18::ptr::_new2)() = (Enumerator18 * (*)()) 0x0;
+inline bool (*Enumerator18::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline Familiar * (*Enumerator18::ptr::_NextObject)() = (Familiar * (*)()) 0x0;
+inline void (*Enumerator18::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator18 * (*Enumerator18::ptr::_New)(Enumerator18 * self, List8 * arg1) = (Enumerator18 * (*)(Enumerator18 * self, List8 * arg1)) 0x81a9450;
-Enumerator18 * (*Enumerator18::ptr::_new2)() = (Enumerator18 * (*)()) 0x81a9500;
-bool (*Enumerator18::ptr::_HasNext)() = (bool (*)()) 0x80910b0;
-Familiar * (*Enumerator18::ptr::_NextObject)() = (Familiar * (*)()) 0x8091040;
-void (*Enumerator18::ptr::_mark)() = (void (*)()) 0x8085660;
+inline Enumerator18 * (*Enumerator18::ptr::_New)(Enumerator18 * self, List8 * arg1) = (Enumerator18 * (*)(Enumerator18 * self, List8 * arg1)) 0x81a9450;
+inline Enumerator18 * (*Enumerator18::ptr::_new2)() = (Enumerator18 * (*)()) 0x81a9500;
+inline bool (*Enumerator18::ptr::_HasNext)() = (bool (*)()) 0x80910b0;
+inline Familiar * (*Enumerator18::ptr::_NextObject)() = (Familiar * (*)()) 0x8091040;
+inline void (*Enumerator18::ptr::_mark)() = (void (*)()) 0x8085660;
 #endif
 #endif

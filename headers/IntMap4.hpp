@@ -26,17 +26,17 @@ public:
 
 #ifdef _WIN32
 
-IntMap4 * (*IntMap4::ptr::_New)() = (IntMap4 * (*)()) 0x0;
-int (*IntMap4::ptr::_Compare2)(IntMap4 * self, int arg1, int arg2) = (int (*)(IntMap4 * self, int arg1, int arg2)) 0x0;
-void (*IntMap4::ptr::_mark)() = (void (*)()) 0x0;
-void (*IntMap4::ptr::CSTR_IntMap4)(IntMap4 * self) = (void (*)(IntMap4 * self)) 0x5d6a60;
+inline IntMap4 * (*IntMap4::ptr::_New)() = (IntMap4 * (*)()) 0x0;
+inline int (*IntMap4::ptr::_Compare2)(IntMap4 * self, int arg1, int arg2) = (int (*)(IntMap4 * self, int arg1, int arg2)) 0x0;
+inline void (*IntMap4::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*IntMap4::ptr::CSTR_IntMap4)(IntMap4 * self) = (void (*)(IntMap4 * self)) 0x5d6a60;
 #endif
 
 #ifdef __linux__
 
-IntMap4 * (*IntMap4::ptr::_New)() = (IntMap4 * (*)()) 0x8191050;
-int (*IntMap4::ptr::_Compare2)(IntMap4 * self, int arg1, int arg2) = (int (*)(IntMap4 * self, int arg1, int arg2)) 0x80719e0;
-void (*IntMap4::ptr::_mark)() = (void (*)()) 0x808d5e0;
-void (*IntMap4::ptr::CSTR_IntMap4)(IntMap4 * self) = (void (*)(IntMap4 * self)) 0x8191030;
+inline IntMap4 * (*IntMap4::ptr::_New)() = (IntMap4 * (*)()) 0x8191050;
+inline int (*IntMap4::ptr::_Compare2)(IntMap4 * self, int arg1, int arg2) = (int (*)(IntMap4 * self, int arg1, int arg2)) 0x80719e0;
+inline void (*IntMap4::ptr::_mark)() = (void (*)()) 0x808d5e0;
+inline void (*IntMap4::ptr::CSTR_IntMap4)(IntMap4 * self) = (void (*)(IntMap4 * self)) 0x8191030;
 #endif
 #endif

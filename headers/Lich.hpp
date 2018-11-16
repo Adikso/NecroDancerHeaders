@@ -42,25 +42,25 @@ public:
 
 #ifdef _WIN32
 
-Lich * (*Lich::ptr::New)(Lich * self, int xVal, int yVal, int l) = (Lich * (*)(Lich * self, int xVal, int yVal, int l)) 0x64d0a0;
-Lich * (*Lich::ptr::_new2)() = (Lich * (*)()) 0x0;
-Point * (*Lich::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
-int (*Lich::ptr::MoveImmediate)(Lich * self, int xVal, int yVal, String * movementSource) = (int (*)(Lich * self, int xVal, int yVal, String * movementSource)) 0x64d440;
-void (*Lich::ptr::_Update)() = (void (*)()) 0x0;
-void (*Lich::ptr::_Render)() = (void (*)()) 0x0;
-void (*Lich::ptr::_mark)() = (void (*)()) 0x0;
-void (*Lich::ptr::CSTR_Lich)(Lich * self) = (void (*)(Lich * self)) 0x64d020;
+inline Lich * (*Lich::ptr::New)(Lich * self, int xVal, int yVal, int l) = (Lich * (*)(Lich * self, int xVal, int yVal, int l)) 0x64d0a0;
+inline Lich * (*Lich::ptr::_new2)() = (Lich * (*)()) 0x0;
+inline Point * (*Lich::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
+inline int (*Lich::ptr::MoveImmediate)(Lich * self, int xVal, int yVal, String * movementSource) = (int (*)(Lich * self, int xVal, int yVal, String * movementSource)) 0x64d440;
+inline void (*Lich::ptr::_Update)() = (void (*)()) 0x0;
+inline void (*Lich::ptr::_Render)() = (void (*)()) 0x0;
+inline void (*Lich::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Lich::ptr::CSTR_Lich)(Lich * self) = (void (*)(Lich * self)) 0x64d020;
 #endif
 
 #ifdef __linux__
 
-Lich * (*Lich::ptr::New)(Lich * self, int xVal, int yVal, int l) = (Lich * (*)(Lich * self, int xVal, int yVal, int l)) 0x81c5800;
-Lich * (*Lich::ptr::_new2)() = (Lich * (*)()) 0x81c5a90;
-Point * (*Lich::ptr::_GetMovementDirection)() = (Point * (*)()) 0x80763e0;
-int (*Lich::ptr::MoveImmediate)(Lich * self, int xVal, int yVal, String * movementSource) = (int (*)(Lich * self, int xVal, int yVal, String * movementSource)) 0x83934c0;
-void (*Lich::ptr::_Update)() = (void (*)()) 0x83801e0;
-void (*Lich::ptr::_Render)() = (void (*)()) 0x830b560;
-void (*Lich::ptr::_mark)() = (void (*)()) 0x80b1290;
-void (*Lich::ptr::CSTR_Lich)(Lich * self) = (void (*)(Lich * self)) 0x81c57c0;
+inline Lich * (*Lich::ptr::New)(Lich * self, int xVal, int yVal, int l) = (Lich * (*)(Lich * self, int xVal, int yVal, int l)) 0x81c5800;
+inline Lich * (*Lich::ptr::_new2)() = (Lich * (*)()) 0x81c5a90;
+inline Point * (*Lich::ptr::_GetMovementDirection)() = (Point * (*)()) 0x80763e0;
+inline int (*Lich::ptr::MoveImmediate)(Lich * self, int xVal, int yVal, String * movementSource) = (int (*)(Lich * self, int xVal, int yVal, String * movementSource)) 0x83934c0;
+inline void (*Lich::ptr::_Update)() = (void (*)()) 0x83801e0;
+inline void (*Lich::ptr::_Render)() = (void (*)()) 0x830b560;
+inline void (*Lich::ptr::_mark)() = (void (*)()) 0x80b1290;
+inline void (*Lich::ptr::CSTR_Lich)(Lich * self) = (void (*)(Lich * self)) 0x81c57c0;
 #endif
 #endif

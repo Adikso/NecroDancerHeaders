@@ -31,21 +31,21 @@ public:
 
 #ifdef _WIN32
 
-BackwardsEnumerator * (*BackwardsEnumerator::ptr::_New)(BackwardsEnumerator * self, Stack2 * arg1) = (BackwardsEnumerator * (*)(BackwardsEnumerator * self, Stack2 * arg1)) 0x0;
-BackwardsEnumerator * (*BackwardsEnumerator::ptr::_new2)() = (BackwardsEnumerator * (*)()) 0x0;
-bool (*BackwardsEnumerator::ptr::HasNext)(BackwardsEnumerator * self) = (bool (*)(BackwardsEnumerator * self)) 0x66d1e0;
-int (*BackwardsEnumerator::ptr::NextObject)(BackwardsEnumerator * self) = (int (*)(BackwardsEnumerator * self)) 0x66d1f0;
-void (*BackwardsEnumerator::ptr::_mark)() = (void (*)()) 0x0;
-BackwardsEnumerator * (*BackwardsEnumerator::ptr::New)(BackwardsEnumerator * self, Stack * stack) = (BackwardsEnumerator * (*)(BackwardsEnumerator * self, Stack * stack)) 0x66d170;
+inline BackwardsEnumerator * (*BackwardsEnumerator::ptr::_New)(BackwardsEnumerator * self, Stack2 * arg1) = (BackwardsEnumerator * (*)(BackwardsEnumerator * self, Stack2 * arg1)) 0x0;
+inline BackwardsEnumerator * (*BackwardsEnumerator::ptr::_new2)() = (BackwardsEnumerator * (*)()) 0x0;
+inline bool (*BackwardsEnumerator::ptr::HasNext)(BackwardsEnumerator * self) = (bool (*)(BackwardsEnumerator * self)) 0x66d1e0;
+inline int (*BackwardsEnumerator::ptr::NextObject)(BackwardsEnumerator * self) = (int (*)(BackwardsEnumerator * self)) 0x66d1f0;
+inline void (*BackwardsEnumerator::ptr::_mark)() = (void (*)()) 0x0;
+inline BackwardsEnumerator * (*BackwardsEnumerator::ptr::New)(BackwardsEnumerator * self, Stack * stack) = (BackwardsEnumerator * (*)(BackwardsEnumerator * self, Stack * stack)) 0x66d170;
 #endif
 
 #ifdef __linux__
 
-BackwardsEnumerator * (*BackwardsEnumerator::ptr::_New)(BackwardsEnumerator * self, Stack2 * arg1) = (BackwardsEnumerator * (*)(BackwardsEnumerator * self, Stack2 * arg1)) 0x0;
-BackwardsEnumerator * (*BackwardsEnumerator::ptr::_new2)() = (BackwardsEnumerator * (*)()) 0x81db1a0;
-bool (*BackwardsEnumerator::ptr::HasNext)(BackwardsEnumerator * self) = (bool (*)(BackwardsEnumerator * self)) 0x8077ec0;
-int (*BackwardsEnumerator::ptr::NextObject)(BackwardsEnumerator * self) = (int (*)(BackwardsEnumerator * self)) 0x8077ed0;
-void (*BackwardsEnumerator::ptr::_mark)() = (void (*)()) 0x808f830;
-BackwardsEnumerator * (*BackwardsEnumerator::ptr::New)(BackwardsEnumerator * self, Stack * stack) = (BackwardsEnumerator * (*)(BackwardsEnumerator * self, Stack * stack)) 0x81db140;
+inline BackwardsEnumerator * (*BackwardsEnumerator::ptr::_New)(BackwardsEnumerator * self, Stack2 * arg1) = (BackwardsEnumerator * (*)(BackwardsEnumerator * self, Stack2 * arg1)) 0x0;
+inline BackwardsEnumerator * (*BackwardsEnumerator::ptr::_new2)() = (BackwardsEnumerator * (*)()) 0x81db1a0;
+inline bool (*BackwardsEnumerator::ptr::HasNext)(BackwardsEnumerator * self) = (bool (*)(BackwardsEnumerator * self)) 0x8077ec0;
+inline int (*BackwardsEnumerator::ptr::NextObject)(BackwardsEnumerator * self) = (int (*)(BackwardsEnumerator * self)) 0x8077ed0;
+inline void (*BackwardsEnumerator::ptr::_mark)() = (void (*)()) 0x808f830;
+inline BackwardsEnumerator * (*BackwardsEnumerator::ptr::New)(BackwardsEnumerator * self, Stack * stack) = (BackwardsEnumerator * (*)(BackwardsEnumerator * self, Stack * stack)) 0x81db140;
 #endif
 #endif

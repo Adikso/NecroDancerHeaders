@@ -30,19 +30,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator17 * (*Enumerator17::ptr::_New)(Enumerator17 * self, List34 * arg1) = (Enumerator17 * (*)(Enumerator17 * self, List34 * arg1)) 0x0;
-Enumerator17 * (*Enumerator17::ptr::_new2)() = (Enumerator17 * (*)()) 0x0;
-bool (*Enumerator17::ptr::_HasNext)() = (bool (*)()) 0x0;
-SoulFamiliar * (*Enumerator17::ptr::_NextObject)() = (SoulFamiliar * (*)()) 0x0;
-void (*Enumerator17::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator17 * (*Enumerator17::ptr::_New)(Enumerator17 * self, List34 * arg1) = (Enumerator17 * (*)(Enumerator17 * self, List34 * arg1)) 0x0;
+inline Enumerator17 * (*Enumerator17::ptr::_new2)() = (Enumerator17 * (*)()) 0x0;
+inline bool (*Enumerator17::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline SoulFamiliar * (*Enumerator17::ptr::_NextObject)() = (SoulFamiliar * (*)()) 0x0;
+inline void (*Enumerator17::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator17 * (*Enumerator17::ptr::_New)(Enumerator17 * self, List34 * arg1) = (Enumerator17 * (*)(Enumerator17 * self, List34 * arg1)) 0x81a9370;
-Enumerator17 * (*Enumerator17::ptr::_new2)() = (Enumerator17 * (*)()) 0x81a9420;
-bool (*Enumerator17::ptr::_HasNext)() = (bool (*)()) 0x8092430;
-SoulFamiliar * (*Enumerator17::ptr::_NextObject)() = (SoulFamiliar * (*)()) 0x80923c0;
-void (*Enumerator17::ptr::_mark)() = (void (*)()) 0x8084640;
+inline Enumerator17 * (*Enumerator17::ptr::_New)(Enumerator17 * self, List34 * arg1) = (Enumerator17 * (*)(Enumerator17 * self, List34 * arg1)) 0x81a9370;
+inline Enumerator17 * (*Enumerator17::ptr::_new2)() = (Enumerator17 * (*)()) 0x81a9420;
+inline bool (*Enumerator17::ptr::_HasNext)() = (bool (*)()) 0x8092430;
+inline SoulFamiliar * (*Enumerator17::ptr::_NextObject)() = (SoulFamiliar * (*)()) 0x80923c0;
+inline void (*Enumerator17::ptr::_mark)() = (void (*)()) 0x8084640;
 #endif
 #endif

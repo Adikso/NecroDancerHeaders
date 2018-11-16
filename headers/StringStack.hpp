@@ -30,19 +30,19 @@ public:
 
 #ifdef _WIN32
 
-StringStack * (*StringStack::ptr::_New)(StringStack * self, Array<String> * arg1) = (StringStack * (*)(StringStack * self, Array<String> * arg1)) 0x0;
-StringStack * (*StringStack::ptr::_new2)() = (StringStack * (*)()) 0x0;
-bool (*StringStack::ptr::Equals8)(StringStack * self, String * lhs, String * rhs) = (bool (*)(StringStack * self, String * lhs, String * rhs)) 0x5c3060;
-void (*StringStack::ptr::_mark)() = (void (*)()) 0x0;
-void (*StringStack::ptr::CSTR_StringStack)(StringStack * self) = (void (*)(StringStack * self)) 0x65f680;
+inline StringStack * (*StringStack::ptr::_New)(StringStack * self, Array<String> * arg1) = (StringStack * (*)(StringStack * self, Array<String> * arg1)) 0x0;
+inline StringStack * (*StringStack::ptr::_new2)() = (StringStack * (*)()) 0x0;
+inline bool (*StringStack::ptr::Equals8)(StringStack * self, String * lhs, String * rhs) = (bool (*)(StringStack * self, String * lhs, String * rhs)) 0x5c3060;
+inline void (*StringStack::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*StringStack::ptr::CSTR_StringStack)(StringStack * self) = (void (*)(StringStack * self)) 0x65f680;
 #endif
 
 #ifdef __linux__
 
-StringStack * (*StringStack::ptr::_New)(StringStack * self, Array<String> * arg1) = (StringStack * (*)(StringStack * self, Array<String> * arg1)) 0x0;
-StringStack * (*StringStack::ptr::_new2)() = (StringStack * (*)()) 0x0;
-bool (*StringStack::ptr::Equals8)(StringStack * self, String * lhs, String * rhs) = (bool (*)(StringStack * self, String * lhs, String * rhs)) 0x80c2460;
-void (*StringStack::ptr::_mark)() = (void (*)()) 0x807a570;
-void (*StringStack::ptr::CSTR_StringStack)(StringStack * self) = (void (*)(StringStack * self)) 0x81d4cb0;
+inline StringStack * (*StringStack::ptr::_New)(StringStack * self, Array<String> * arg1) = (StringStack * (*)(StringStack * self, Array<String> * arg1)) 0x0;
+inline StringStack * (*StringStack::ptr::_new2)() = (StringStack * (*)()) 0x0;
+inline bool (*StringStack::ptr::Equals8)(StringStack * self, String * lhs, String * rhs) = (bool (*)(StringStack * self, String * lhs, String * rhs)) 0x80c2460;
+inline void (*StringStack::ptr::_mark)() = (void (*)()) 0x807a570;
+inline void (*StringStack::ptr::CSTR_StringStack)(StringStack * self) = (void (*)(StringStack * self)) 0x81d4cb0;
 #endif
 #endif

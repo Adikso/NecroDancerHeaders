@@ -41,26 +41,26 @@ public:
 };
 
 #ifdef _WIN32
-List55 * * Doppelganger::doppelgangers = (List55* *) 0x835578;
+inline List55 * * Doppelganger::doppelgangers = (List55* *) 0x835578;
 
-void (*Doppelganger::ptr::Doppel)(Doppelganger * self) = (void (*)(Doppelganger * self)) 0x687dc0;
-Doppelganger * (*Doppelganger::ptr::New)(Doppelganger * self, int xVal, int yVal, int l) = (Doppelganger * (*)(Doppelganger * self, int xVal, int yVal, int l)) 0x688b40;
-Doppelganger * (*Doppelganger::ptr::_new2)() = (Doppelganger * (*)()) 0x0;
-void (*Doppelganger::ptr::Update)(Doppelganger * self) = (void (*)(Doppelganger * self)) 0x688da0;
-void (*Doppelganger::ptr::_UpdateAll)() = (void (*)()) 0x0;
-void (*Doppelganger::ptr::mark)(Doppelganger * self) = (void (*)(Doppelganger * self)) 0x689130;
-void (*Doppelganger::ptr::CSTR_Doppelganger)(Doppelganger * self) = (void (*)(Doppelganger * self)) 0x687d30;
+inline void (*Doppelganger::ptr::Doppel)(Doppelganger * self) = (void (*)(Doppelganger * self)) 0x687dc0;
+inline Doppelganger * (*Doppelganger::ptr::New)(Doppelganger * self, int xVal, int yVal, int l) = (Doppelganger * (*)(Doppelganger * self, int xVal, int yVal, int l)) 0x688b40;
+inline Doppelganger * (*Doppelganger::ptr::_new2)() = (Doppelganger * (*)()) 0x0;
+inline void (*Doppelganger::ptr::Update)(Doppelganger * self) = (void (*)(Doppelganger * self)) 0x688da0;
+inline void (*Doppelganger::ptr::_UpdateAll)() = (void (*)()) 0x0;
+inline void (*Doppelganger::ptr::mark)(Doppelganger * self) = (void (*)(Doppelganger * self)) 0x689130;
+inline void (*Doppelganger::ptr::CSTR_Doppelganger)(Doppelganger * self) = (void (*)(Doppelganger * self)) 0x687d30;
 #endif
 
 #ifdef __linux__
-List55 * * Doppelganger::doppelgangers = (List55* *) 0x856a300;
+inline List55 * * Doppelganger::doppelgangers = (List55* *) 0x856a300;
 
-void (*Doppelganger::ptr::Doppel)(Doppelganger * self) = (void (*)(Doppelganger * self)) 0x825d580;
-Doppelganger * (*Doppelganger::ptr::New)(Doppelganger * self, int xVal, int yVal, int l) = (Doppelganger * (*)(Doppelganger * self, int xVal, int yVal, int l)) 0x81e11b0;
-Doppelganger * (*Doppelganger::ptr::_new2)() = (Doppelganger * (*)()) 0x81e1390;
-void (*Doppelganger::ptr::Update)(Doppelganger * self) = (void (*)(Doppelganger * self)) 0x826a8d0;
-void (*Doppelganger::ptr::_UpdateAll)() = (void (*)()) 0x81e13a0;
-void (*Doppelganger::ptr::mark)(Doppelganger * self) = (void (*)(Doppelganger * self)) 0x808f950;
-void (*Doppelganger::ptr::CSTR_Doppelganger)(Doppelganger * self) = (void (*)(Doppelganger * self)) 0x81e1170;
+inline void (*Doppelganger::ptr::Doppel)(Doppelganger * self) = (void (*)(Doppelganger * self)) 0x825d580;
+inline Doppelganger * (*Doppelganger::ptr::New)(Doppelganger * self, int xVal, int yVal, int l) = (Doppelganger * (*)(Doppelganger * self, int xVal, int yVal, int l)) 0x81e11b0;
+inline Doppelganger * (*Doppelganger::ptr::_new2)() = (Doppelganger * (*)()) 0x81e1390;
+inline void (*Doppelganger::ptr::Update)(Doppelganger * self) = (void (*)(Doppelganger * self)) 0x826a8d0;
+inline void (*Doppelganger::ptr::_UpdateAll)() = (void (*)()) 0x81e13a0;
+inline void (*Doppelganger::ptr::mark)(Doppelganger * self) = (void (*)(Doppelganger * self)) 0x808f950;
+inline void (*Doppelganger::ptr::CSTR_Doppelganger)(Doppelganger * self) = (void (*)(Doppelganger * self)) 0x81e1170;
 #endif
 #endif

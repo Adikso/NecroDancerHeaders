@@ -46,37 +46,37 @@ public:
 
 #ifdef _WIN32
 
-bool (*BBDataBuffer::ptr::_New)(BBDataBuffer * self, int arg1) = (bool (*)(BBDataBuffer * self, int arg1)) 0x0;
-bool (*BBDataBuffer::ptr::_Load)(BBDataBuffer * self, String * arg1) = (bool (*)(BBDataBuffer * self, String * arg1)) 0x0;
-void * (*BBDataBuffer::ptr::_ReadPointer)(BBDataBuffer * self, int arg1) = (void * (*)(BBDataBuffer * self, int arg1)) 0x0;
-void * (*BBDataBuffer::ptr::_WritePointer)(BBDataBuffer * self, int arg1) = (void * (*)(BBDataBuffer * self, int arg1)) 0x0;
-void (*BBDataBuffer::ptr::_Discard)() = (void (*)()) 0x0;
-int (*BBDataBuffer::ptr::_Length)() = (int (*)()) 0x0;
-void (*BBDataBuffer::ptr::_PokeByte)(BBDataBuffer * self, int arg1, int arg2) = (void (*)(BBDataBuffer * self, int arg1, int arg2)) 0x0;
-void (*BBDataBuffer::ptr::_PokeShort)(BBDataBuffer * self, int arg1, int arg2) = (void (*)(BBDataBuffer * self, int arg1, int arg2)) 0x0;
-void (*BBDataBuffer::ptr::_PokeInt)(BBDataBuffer * self, int arg1, int arg2) = (void (*)(BBDataBuffer * self, int arg1, int arg2)) 0x0;
-void (*BBDataBuffer::ptr::_PokeFloat)(BBDataBuffer * self, int arg1, float arg2) = (void (*)(BBDataBuffer * self, int arg1, float arg2)) 0x0;
-int (*BBDataBuffer::ptr::_PeekByte)(BBDataBuffer * self, int arg1) = (int (*)(BBDataBuffer * self, int arg1)) 0x0;
-int (*BBDataBuffer::ptr::_PeekShort)(BBDataBuffer * self, int arg1) = (int (*)(BBDataBuffer * self, int arg1)) 0x0;
-int (*BBDataBuffer::ptr::_PeekInt)(BBDataBuffer * self, int arg1) = (int (*)(BBDataBuffer * self, int arg1)) 0x0;
-float (*BBDataBuffer::ptr::_PeekFloat)(BBDataBuffer * self, int arg1) = (float (*)(BBDataBuffer * self, int arg1)) 0x0;
+inline bool (*BBDataBuffer::ptr::_New)(BBDataBuffer * self, int arg1) = (bool (*)(BBDataBuffer * self, int arg1)) 0x0;
+inline bool (*BBDataBuffer::ptr::_Load)(BBDataBuffer * self, String * arg1) = (bool (*)(BBDataBuffer * self, String * arg1)) 0x0;
+inline void * (*BBDataBuffer::ptr::_ReadPointer)(BBDataBuffer * self, int arg1) = (void * (*)(BBDataBuffer * self, int arg1)) 0x0;
+inline void * (*BBDataBuffer::ptr::_WritePointer)(BBDataBuffer * self, int arg1) = (void * (*)(BBDataBuffer * self, int arg1)) 0x0;
+inline void (*BBDataBuffer::ptr::_Discard)() = (void (*)()) 0x0;
+inline int (*BBDataBuffer::ptr::_Length)() = (int (*)()) 0x0;
+inline void (*BBDataBuffer::ptr::_PokeByte)(BBDataBuffer * self, int arg1, int arg2) = (void (*)(BBDataBuffer * self, int arg1, int arg2)) 0x0;
+inline void (*BBDataBuffer::ptr::_PokeShort)(BBDataBuffer * self, int arg1, int arg2) = (void (*)(BBDataBuffer * self, int arg1, int arg2)) 0x0;
+inline void (*BBDataBuffer::ptr::_PokeInt)(BBDataBuffer * self, int arg1, int arg2) = (void (*)(BBDataBuffer * self, int arg1, int arg2)) 0x0;
+inline void (*BBDataBuffer::ptr::_PokeFloat)(BBDataBuffer * self, int arg1, float arg2) = (void (*)(BBDataBuffer * self, int arg1, float arg2)) 0x0;
+inline int (*BBDataBuffer::ptr::_PeekByte)(BBDataBuffer * self, int arg1) = (int (*)(BBDataBuffer * self, int arg1)) 0x0;
+inline int (*BBDataBuffer::ptr::_PeekShort)(BBDataBuffer * self, int arg1) = (int (*)(BBDataBuffer * self, int arg1)) 0x0;
+inline int (*BBDataBuffer::ptr::_PeekInt)(BBDataBuffer * self, int arg1) = (int (*)(BBDataBuffer * self, int arg1)) 0x0;
+inline float (*BBDataBuffer::ptr::_PeekFloat)(BBDataBuffer * self, int arg1) = (float (*)(BBDataBuffer * self, int arg1)) 0x0;
 #endif
 
 #ifdef __linux__
 
-bool (*BBDataBuffer::ptr::_New)(BBDataBuffer * self, int arg1) = (bool (*)(BBDataBuffer * self, int arg1)) 0x80e85b0;
-bool (*BBDataBuffer::ptr::_Load)(BBDataBuffer * self, String * arg1) = (bool (*)(BBDataBuffer * self, String * arg1)) 0x8301de0;
-void * (*BBDataBuffer::ptr::_ReadPointer)(BBDataBuffer * self, int arg1) = (void * (*)(BBDataBuffer * self, int arg1)) 0x80e8640;
-void * (*BBDataBuffer::ptr::_WritePointer)(BBDataBuffer * self, int arg1) = (void * (*)(BBDataBuffer * self, int arg1)) 0x80e8650;
-void (*BBDataBuffer::ptr::_Discard)() = (void (*)()) 0x80e8600;
-int (*BBDataBuffer::ptr::_Length)() = (int (*)()) 0x80e8630;
-void (*BBDataBuffer::ptr::_PokeByte)(BBDataBuffer * self, int arg1, int arg2) = (void (*)(BBDataBuffer * self, int arg1, int arg2)) 0x80e8660;
-void (*BBDataBuffer::ptr::_PokeShort)(BBDataBuffer * self, int arg1, int arg2) = (void (*)(BBDataBuffer * self, int arg1, int arg2)) 0x80e8680;
-void (*BBDataBuffer::ptr::_PokeInt)(BBDataBuffer * self, int arg1, int arg2) = (void (*)(BBDataBuffer * self, int arg1, int arg2)) 0x80e86a0;
-void (*BBDataBuffer::ptr::_PokeFloat)(BBDataBuffer * self, int arg1, float arg2) = (void (*)(BBDataBuffer * self, int arg1, float arg2)) 0x80e86c0;
-int (*BBDataBuffer::ptr::_PeekByte)(BBDataBuffer * self, int arg1) = (int (*)(BBDataBuffer * self, int arg1)) 0x80e86e0;
-int (*BBDataBuffer::ptr::_PeekShort)(BBDataBuffer * self, int arg1) = (int (*)(BBDataBuffer * self, int arg1)) 0x80e86f0;
-int (*BBDataBuffer::ptr::_PeekInt)(BBDataBuffer * self, int arg1) = (int (*)(BBDataBuffer * self, int arg1)) 0x80e8700;
-float (*BBDataBuffer::ptr::_PeekFloat)(BBDataBuffer * self, int arg1) = (float (*)(BBDataBuffer * self, int arg1)) 0x80e8710;
+inline bool (*BBDataBuffer::ptr::_New)(BBDataBuffer * self, int arg1) = (bool (*)(BBDataBuffer * self, int arg1)) 0x80e85b0;
+inline bool (*BBDataBuffer::ptr::_Load)(BBDataBuffer * self, String * arg1) = (bool (*)(BBDataBuffer * self, String * arg1)) 0x8301de0;
+inline void * (*BBDataBuffer::ptr::_ReadPointer)(BBDataBuffer * self, int arg1) = (void * (*)(BBDataBuffer * self, int arg1)) 0x80e8640;
+inline void * (*BBDataBuffer::ptr::_WritePointer)(BBDataBuffer * self, int arg1) = (void * (*)(BBDataBuffer * self, int arg1)) 0x80e8650;
+inline void (*BBDataBuffer::ptr::_Discard)() = (void (*)()) 0x80e8600;
+inline int (*BBDataBuffer::ptr::_Length)() = (int (*)()) 0x80e8630;
+inline void (*BBDataBuffer::ptr::_PokeByte)(BBDataBuffer * self, int arg1, int arg2) = (void (*)(BBDataBuffer * self, int arg1, int arg2)) 0x80e8660;
+inline void (*BBDataBuffer::ptr::_PokeShort)(BBDataBuffer * self, int arg1, int arg2) = (void (*)(BBDataBuffer * self, int arg1, int arg2)) 0x80e8680;
+inline void (*BBDataBuffer::ptr::_PokeInt)(BBDataBuffer * self, int arg1, int arg2) = (void (*)(BBDataBuffer * self, int arg1, int arg2)) 0x80e86a0;
+inline void (*BBDataBuffer::ptr::_PokeFloat)(BBDataBuffer * self, int arg1, float arg2) = (void (*)(BBDataBuffer * self, int arg1, float arg2)) 0x80e86c0;
+inline int (*BBDataBuffer::ptr::_PeekByte)(BBDataBuffer * self, int arg1) = (int (*)(BBDataBuffer * self, int arg1)) 0x80e86e0;
+inline int (*BBDataBuffer::ptr::_PeekShort)(BBDataBuffer * self, int arg1) = (int (*)(BBDataBuffer * self, int arg1)) 0x80e86f0;
+inline int (*BBDataBuffer::ptr::_PeekInt)(BBDataBuffer * self, int arg1) = (int (*)(BBDataBuffer * self, int arg1)) 0x80e8700;
+inline float (*BBDataBuffer::ptr::_PeekFloat)(BBDataBuffer * self, int arg1) = (float (*)(BBDataBuffer * self, int arg1)) 0x80e8710;
 #endif
 #endif

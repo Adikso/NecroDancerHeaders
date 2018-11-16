@@ -21,15 +21,15 @@ public:
 
 #ifdef _WIN32
 
-IntMap * (*IntMap::ptr::_New)() = (IntMap * (*)()) 0x0;
-int (*IntMap::ptr::Compare2)(IntMap * self, int lhs, int rhs) = (int (*)(IntMap * self, int lhs, int rhs)) 0x576730;
-void (*IntMap::ptr::_mark)() = (void (*)()) 0x0;
+inline IntMap * (*IntMap::ptr::_New)() = (IntMap * (*)()) 0x0;
+inline int (*IntMap::ptr::Compare2)(IntMap * self, int lhs, int rhs) = (int (*)(IntMap * self, int lhs, int rhs)) 0x576730;
+inline void (*IntMap::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-IntMap * (*IntMap::ptr::_New)() = (IntMap * (*)()) 0x8156cb0;
-int (*IntMap::ptr::Compare2)(IntMap * self, int lhs, int rhs) = (int (*)(IntMap * self, int lhs, int rhs)) 0x806fba0;
-void (*IntMap::ptr::_mark)() = (void (*)()) 0x8082880;
+inline IntMap * (*IntMap::ptr::_New)() = (IntMap * (*)()) 0x8156cb0;
+inline int (*IntMap::ptr::Compare2)(IntMap * self, int lhs, int rhs) = (int (*)(IntMap * self, int lhs, int rhs)) 0x806fba0;
+inline void (*IntMap::ptr::_mark)() = (void (*)()) 0x8082880;
 #endif
 #endif

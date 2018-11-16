@@ -51,41 +51,41 @@ public:
 
 #ifdef _WIN32
 
-Node22 * (*Map9::ptr::FirstNode)(Map9 * self) = (Node22 * (*)(Map9 * self)) 0x5d6180;
-NodeEnumerator2 * (*Map9::ptr::ObjectEnumerator)(Map9 * self) = (NodeEnumerator2 * (*)(Map9 * self)) 0x5d61a0;
-int (*Map9::ptr::_Compare2)(Map9 * self, int arg1, int arg2) = (int (*)(Map9 * self, int arg1, int arg2)) 0x0;
-Node22 * (*Map9::ptr::FindNode2)(Map9 * self, int key) = (Node22 * (*)(Map9 * self, int key)) 0x5d6280;
-bool (*Map9::ptr::Contains2)(Map9 * self, int key) = (bool (*)(Map9 * self, int key)) 0x5d62c0;
-Tile * (*Map9::ptr::Get2)(Map9 * self, int key) = (Tile * (*)(Map9 * self, int key)) 0x5d62e0;
-Map9 * (*Map9::ptr::_New)() = (Map9 * (*)()) 0x0;
-int (*Map9::ptr::_RotateLeft9)(Map9 * self, Node22 * node) = (int (*)(Map9 * self, Node22 * node)) 0x5d6300;
-int (*Map9::ptr::_RotateRight9)(Map9 * self, Node22 * node) = (int (*)(Map9 * self, Node22 * node)) 0x5d6480;
-int (*Map9::ptr::_InsertFixup9)(Map9 * self, Node22 * node) = (int (*)(Map9 * self, Node22 * node)) 0x5d65f0;
-bool (*Map9::ptr::Set10)(Map9 * self, int key, Tile * value) = (bool (*)(Map9 * self, int key, Tile * value)) 0x5d66e0;
-int (*Map9::ptr::_DeleteFixup5)(Map9 * self, Node22 * node, Node22 * parent) = (int (*)(Map9 * self, Node22 * node, Node22 * parent)) 0x5d67f0;
-int (*Map9::ptr::_RemoveNode5)(Map9 * self, Node22 * node) = (int (*)(Map9 * self, Node22 * node)) 0x5d6960;
-int (*Map9::ptr::Remove5)(Map9 * self, int key) = (int (*)(Map9 * self, int key)) 0x5d6a10;
-int (*Map9::ptr::Count)(Map9 * self) = (int (*)(Map9 * self)) 0x5d6a40;
-void (*Map9::ptr::_mark)() = (void (*)()) 0x0;
+inline Node22 * (*Map9::ptr::FirstNode)(Map9 * self) = (Node22 * (*)(Map9 * self)) 0x5d6180;
+inline NodeEnumerator2 * (*Map9::ptr::ObjectEnumerator)(Map9 * self) = (NodeEnumerator2 * (*)(Map9 * self)) 0x5d61a0;
+inline int (*Map9::ptr::_Compare2)(Map9 * self, int arg1, int arg2) = (int (*)(Map9 * self, int arg1, int arg2)) 0x0;
+inline Node22 * (*Map9::ptr::FindNode2)(Map9 * self, int key) = (Node22 * (*)(Map9 * self, int key)) 0x5d6280;
+inline bool (*Map9::ptr::Contains2)(Map9 * self, int key) = (bool (*)(Map9 * self, int key)) 0x5d62c0;
+inline Tile * (*Map9::ptr::Get2)(Map9 * self, int key) = (Tile * (*)(Map9 * self, int key)) 0x5d62e0;
+inline Map9 * (*Map9::ptr::_New)() = (Map9 * (*)()) 0x0;
+inline int (*Map9::ptr::_RotateLeft9)(Map9 * self, Node22 * node) = (int (*)(Map9 * self, Node22 * node)) 0x5d6300;
+inline int (*Map9::ptr::_RotateRight9)(Map9 * self, Node22 * node) = (int (*)(Map9 * self, Node22 * node)) 0x5d6480;
+inline int (*Map9::ptr::_InsertFixup9)(Map9 * self, Node22 * node) = (int (*)(Map9 * self, Node22 * node)) 0x5d65f0;
+inline bool (*Map9::ptr::Set10)(Map9 * self, int key, Tile * value) = (bool (*)(Map9 * self, int key, Tile * value)) 0x5d66e0;
+inline int (*Map9::ptr::_DeleteFixup5)(Map9 * self, Node22 * node, Node22 * parent) = (int (*)(Map9 * self, Node22 * node, Node22 * parent)) 0x5d67f0;
+inline int (*Map9::ptr::_RemoveNode5)(Map9 * self, Node22 * node) = (int (*)(Map9 * self, Node22 * node)) 0x5d6960;
+inline int (*Map9::ptr::Remove5)(Map9 * self, int key) = (int (*)(Map9 * self, int key)) 0x5d6a10;
+inline int (*Map9::ptr::Count)(Map9 * self) = (int (*)(Map9 * self)) 0x5d6a40;
+inline void (*Map9::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node22 * (*Map9::ptr::FirstNode)(Map9 * self) = (Node22 * (*)(Map9 * self)) 0x80715c0;
-NodeEnumerator2 * (*Map9::ptr::ObjectEnumerator)(Map9 * self) = (NodeEnumerator2 * (*)(Map9 * self)) 0x80b7890;
-int (*Map9::ptr::_Compare2)(Map9 * self, int arg1, int arg2) = (int (*)(Map9 * self, int arg1, int arg2)) 0x0;
-Node22 * (*Map9::ptr::FindNode2)(Map9 * self, int key) = (Node22 * (*)(Map9 * self, int key)) 0x80715e0;
-bool (*Map9::ptr::Contains2)(Map9 * self, int key) = (bool (*)(Map9 * self, int key)) 0x8071630;
-Tile * (*Map9::ptr::Get2)(Map9 * self, int key) = (Tile * (*)(Map9 * self, int key)) 0x8071650;
-Map9 * (*Map9::ptr::_New)() = (Map9 * (*)()) 0x8191020;
-int (*Map9::ptr::_RotateLeft9)(Map9 * self, Node22 * node) = (int (*)(Map9 * self, Node22 * node)) 0x0;
-int (*Map9::ptr::_RotateRight9)(Map9 * self, Node22 * node) = (int (*)(Map9 * self, Node22 * node)) 0x0;
-int (*Map9::ptr::_InsertFixup9)(Map9 * self, Node22 * node) = (int (*)(Map9 * self, Node22 * node)) 0x0;
-bool (*Map9::ptr::Set10)(Map9 * self, int key, Tile * value) = (bool (*)(Map9 * self, int key, Tile * value)) 0x80b7910;
-int (*Map9::ptr::_DeleteFixup5)(Map9 * self, Node22 * node, Node22 * parent) = (int (*)(Map9 * self, Node22 * node, Node22 * parent)) 0x0;
-int (*Map9::ptr::_RemoveNode5)(Map9 * self, Node22 * node) = (int (*)(Map9 * self, Node22 * node)) 0x0;
-int (*Map9::ptr::Remove5)(Map9 * self, int key) = (int (*)(Map9 * self, int key)) 0x8071970;
-int (*Map9::ptr::Count)(Map9 * self) = (int (*)(Map9 * self)) 0x80719b0;
-void (*Map9::ptr::_mark)() = (void (*)()) 0x808d520;
+inline Node22 * (*Map9::ptr::FirstNode)(Map9 * self) = (Node22 * (*)(Map9 * self)) 0x80715c0;
+inline NodeEnumerator2 * (*Map9::ptr::ObjectEnumerator)(Map9 * self) = (NodeEnumerator2 * (*)(Map9 * self)) 0x80b7890;
+inline int (*Map9::ptr::_Compare2)(Map9 * self, int arg1, int arg2) = (int (*)(Map9 * self, int arg1, int arg2)) 0x0;
+inline Node22 * (*Map9::ptr::FindNode2)(Map9 * self, int key) = (Node22 * (*)(Map9 * self, int key)) 0x80715e0;
+inline bool (*Map9::ptr::Contains2)(Map9 * self, int key) = (bool (*)(Map9 * self, int key)) 0x8071630;
+inline Tile * (*Map9::ptr::Get2)(Map9 * self, int key) = (Tile * (*)(Map9 * self, int key)) 0x8071650;
+inline Map9 * (*Map9::ptr::_New)() = (Map9 * (*)()) 0x8191020;
+inline int (*Map9::ptr::_RotateLeft9)(Map9 * self, Node22 * node) = (int (*)(Map9 * self, Node22 * node)) 0x0;
+inline int (*Map9::ptr::_RotateRight9)(Map9 * self, Node22 * node) = (int (*)(Map9 * self, Node22 * node)) 0x0;
+inline int (*Map9::ptr::_InsertFixup9)(Map9 * self, Node22 * node) = (int (*)(Map9 * self, Node22 * node)) 0x0;
+inline bool (*Map9::ptr::Set10)(Map9 * self, int key, Tile * value) = (bool (*)(Map9 * self, int key, Tile * value)) 0x80b7910;
+inline int (*Map9::ptr::_DeleteFixup5)(Map9 * self, Node22 * node, Node22 * parent) = (int (*)(Map9 * self, Node22 * node, Node22 * parent)) 0x0;
+inline int (*Map9::ptr::_RemoveNode5)(Map9 * self, Node22 * node) = (int (*)(Map9 * self, Node22 * node)) 0x0;
+inline int (*Map9::ptr::Remove5)(Map9 * self, int key) = (int (*)(Map9 * self, int key)) 0x8071970;
+inline int (*Map9::ptr::Count)(Map9 * self) = (int (*)(Map9 * self)) 0x80719b0;
+inline void (*Map9::ptr::_mark)() = (void (*)()) 0x808d520;
 #endif
 #endif

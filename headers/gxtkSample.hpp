@@ -17,11 +17,11 @@ public:
 
 #ifdef _WIN32
 
-int (*gxtkSample::ptr::_Discard)() = (int (*)()) 0x0;
+inline int (*gxtkSample::ptr::_Discard)() = (int (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-int (*gxtkSample::ptr::_Discard)() = (int (*)()) 0x83020a0;
+inline int (*gxtkSample::ptr::_Discard)() = (int (*)()) 0x83020a0;
 #endif
 #endif

@@ -24,17 +24,17 @@ public:
 
 #ifdef _WIN32
 
-void (*TextLog::ptr::Message)(String * str) = (void (*)(String * str)) 0x42e8c0;
-void (*TextLog::ptr::ExitGame)(String * errorString) = (void (*)(String * errorString)) 0x42e940;
-void (*TextLog::ptr::ForceMessage)(String * str) = (void (*)(String * str)) 0x42e9c0;
-void (*TextLog::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*TextLog::ptr::Message)(String * str) = (void (*)(String * str)) 0x42e8c0;
+inline void (*TextLog::ptr::ExitGame)(String * errorString) = (void (*)(String * errorString)) 0x42e940;
+inline void (*TextLog::ptr::ForceMessage)(String * str) = (void (*)(String * str)) 0x42e9c0;
+inline void (*TextLog::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-void (*TextLog::ptr::Message)(String * str) = (void (*)(String * str)) 0x8231940;
-void (*TextLog::ptr::ExitGame)(String * errorString) = (void (*)(String * errorString)) 0x8305920;
-void (*TextLog::ptr::ForceMessage)(String * str) = (void (*)(String * str)) 0x8231300;
-void (*TextLog::ptr::_mark)() = (void (*)()) 0x806d570;
+inline void (*TextLog::ptr::Message)(String * str) = (void (*)(String * str)) 0x8231940;
+inline void (*TextLog::ptr::ExitGame)(String * errorString) = (void (*)(String * errorString)) 0x8305920;
+inline void (*TextLog::ptr::ForceMessage)(String * str) = (void (*)(String * str)) 0x8231300;
+inline void (*TextLog::ptr::_mark)() = (void (*)()) 0x806d570;
 #endif
 #endif

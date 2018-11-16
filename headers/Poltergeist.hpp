@@ -57,38 +57,38 @@ public:
 };
 
 #ifdef _WIN32
-Poltergeist * * Poltergeist::theGhoul = (Poltergeist* *) 0x83598c;
+inline Poltergeist * * Poltergeist::theGhoul = (Poltergeist* *) 0x83598c;
 
-void (*Poltergeist::ptr::Die)(Poltergeist * self) = (void (*)(Poltergeist * self)) 0x64b0e0;
-Poltergeist * (*Poltergeist::ptr::New)(Poltergeist * self, int xVal, int yVal, int l) = (Poltergeist * (*)(Poltergeist * self, int xVal, int yVal, int l)) 0x64b100;
-Poltergeist * (*Poltergeist::ptr::_new2)() = (Poltergeist * (*)()) 0x0;
-void (*Poltergeist::ptr::Render)(Poltergeist * self) = (void (*)(Poltergeist * self)) 0x64b8c0;
-void (*Poltergeist::ptr::BecomeCorporeal)(Poltergeist * self, bool force) = (void (*)(Poltergeist * self, bool force)) 0x64b9c0;
-void (*Poltergeist::ptr::CheckCorporeality)(Poltergeist * self) = (void (*)(Poltergeist * self)) 0x64bd10;
-void (*Poltergeist::ptr::Update)(Poltergeist * self) = (void (*)(Poltergeist * self)) 0x64c0a0;
-bool (*Poltergeist::ptr::Hit)(Poltergeist * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Poltergeist * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x64c470;
-bool (*Poltergeist::ptr::_CanBeDamaged)(Poltergeist * self, bool arg1, bool arg2) = (bool (*)(Poltergeist * self, bool arg1, bool arg2)) 0x0;
-Point * (*Poltergeist::ptr::GetMovementDirection)(Poltergeist * self) = (Point * (*)(Poltergeist * self)) 0x64c590;
-void (*Poltergeist::ptr::MoveSucceed)(Poltergeist * self, bool hitPlayer, bool moveDelayed) = (void (*)(Poltergeist * self, bool hitPlayer, bool moveDelayed)) 0x64c680;
-void (*Poltergeist::ptr::mark)(Poltergeist * self) = (void (*)(Poltergeist * self)) 0x64c6b0;
-void (*Poltergeist::ptr::CSTR_Poltergeist)(Poltergeist * self) = (void (*)(Poltergeist * self)) 0x64b060;
+inline void (*Poltergeist::ptr::Die)(Poltergeist * self) = (void (*)(Poltergeist * self)) 0x64b0e0;
+inline Poltergeist * (*Poltergeist::ptr::New)(Poltergeist * self, int xVal, int yVal, int l) = (Poltergeist * (*)(Poltergeist * self, int xVal, int yVal, int l)) 0x64b100;
+inline Poltergeist * (*Poltergeist::ptr::_new2)() = (Poltergeist * (*)()) 0x0;
+inline void (*Poltergeist::ptr::Render)(Poltergeist * self) = (void (*)(Poltergeist * self)) 0x64b8c0;
+inline void (*Poltergeist::ptr::BecomeCorporeal)(Poltergeist * self, bool force) = (void (*)(Poltergeist * self, bool force)) 0x64b9c0;
+inline void (*Poltergeist::ptr::CheckCorporeality)(Poltergeist * self) = (void (*)(Poltergeist * self)) 0x64bd10;
+inline void (*Poltergeist::ptr::Update)(Poltergeist * self) = (void (*)(Poltergeist * self)) 0x64c0a0;
+inline bool (*Poltergeist::ptr::Hit)(Poltergeist * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Poltergeist * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x64c470;
+inline bool (*Poltergeist::ptr::_CanBeDamaged)(Poltergeist * self, bool arg1, bool arg2) = (bool (*)(Poltergeist * self, bool arg1, bool arg2)) 0x0;
+inline Point * (*Poltergeist::ptr::GetMovementDirection)(Poltergeist * self) = (Point * (*)(Poltergeist * self)) 0x64c590;
+inline void (*Poltergeist::ptr::MoveSucceed)(Poltergeist * self, bool hitPlayer, bool moveDelayed) = (void (*)(Poltergeist * self, bool hitPlayer, bool moveDelayed)) 0x64c680;
+inline void (*Poltergeist::ptr::mark)(Poltergeist * self) = (void (*)(Poltergeist * self)) 0x64c6b0;
+inline void (*Poltergeist::ptr::CSTR_Poltergeist)(Poltergeist * self) = (void (*)(Poltergeist * self)) 0x64b060;
 #endif
 
 #ifdef __linux__
-Poltergeist * * Poltergeist::theGhoul = (Poltergeist* *) 0x856a358;
+inline Poltergeist * * Poltergeist::theGhoul = (Poltergeist* *) 0x856a358;
 
-void (*Poltergeist::ptr::Die)(Poltergeist * self) = (void (*)(Poltergeist * self)) 0x83b5f80;
-Poltergeist * (*Poltergeist::ptr::New)(Poltergeist * self, int xVal, int yVal, int l) = (Poltergeist * (*)(Poltergeist * self, int xVal, int yVal, int l)) 0x81c4ee0;
-Poltergeist * (*Poltergeist::ptr::_new2)() = (Poltergeist * (*)()) 0x81c55d0;
-void (*Poltergeist::ptr::Render)(Poltergeist * self) = (void (*)(Poltergeist * self)) 0x830b720;
-void (*Poltergeist::ptr::BecomeCorporeal)(Poltergeist * self, bool force) = (void (*)(Poltergeist * self, bool force)) 0x8264460;
-void (*Poltergeist::ptr::CheckCorporeality)(Poltergeist * self) = (void (*)(Poltergeist * self)) 0x8260680;
-void (*Poltergeist::ptr::Update)(Poltergeist * self) = (void (*)(Poltergeist * self)) 0x8380440;
-bool (*Poltergeist::ptr::Hit)(Poltergeist * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Poltergeist * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8397840;
-bool (*Poltergeist::ptr::_CanBeDamaged)(Poltergeist * self, bool arg1, bool arg2) = (bool (*)(Poltergeist * self, bool arg1, bool arg2)) 0x8076370;
-Point * (*Poltergeist::ptr::GetMovementDirection)(Poltergeist * self) = (Point * (*)(Poltergeist * self)) 0x80b4460;
-void (*Poltergeist::ptr::MoveSucceed)(Poltergeist * self, bool hitPlayer, bool moveDelayed) = (void (*)(Poltergeist * self, bool hitPlayer, bool moveDelayed)) 0x8076380;
-void (*Poltergeist::ptr::mark)(Poltergeist * self) = (void (*)(Poltergeist * self)) 0x80b1340;
-void (*Poltergeist::ptr::CSTR_Poltergeist)(Poltergeist * self) = (void (*)(Poltergeist * self)) 0x81c4e80;
+inline void (*Poltergeist::ptr::Die)(Poltergeist * self) = (void (*)(Poltergeist * self)) 0x83b5f80;
+inline Poltergeist * (*Poltergeist::ptr::New)(Poltergeist * self, int xVal, int yVal, int l) = (Poltergeist * (*)(Poltergeist * self, int xVal, int yVal, int l)) 0x81c4ee0;
+inline Poltergeist * (*Poltergeist::ptr::_new2)() = (Poltergeist * (*)()) 0x81c55d0;
+inline void (*Poltergeist::ptr::Render)(Poltergeist * self) = (void (*)(Poltergeist * self)) 0x830b720;
+inline void (*Poltergeist::ptr::BecomeCorporeal)(Poltergeist * self, bool force) = (void (*)(Poltergeist * self, bool force)) 0x8264460;
+inline void (*Poltergeist::ptr::CheckCorporeality)(Poltergeist * self) = (void (*)(Poltergeist * self)) 0x8260680;
+inline void (*Poltergeist::ptr::Update)(Poltergeist * self) = (void (*)(Poltergeist * self)) 0x8380440;
+inline bool (*Poltergeist::ptr::Hit)(Poltergeist * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Poltergeist * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8397840;
+inline bool (*Poltergeist::ptr::_CanBeDamaged)(Poltergeist * self, bool arg1, bool arg2) = (bool (*)(Poltergeist * self, bool arg1, bool arg2)) 0x8076370;
+inline Point * (*Poltergeist::ptr::GetMovementDirection)(Poltergeist * self) = (Point * (*)(Poltergeist * self)) 0x80b4460;
+inline void (*Poltergeist::ptr::MoveSucceed)(Poltergeist * self, bool hitPlayer, bool moveDelayed) = (void (*)(Poltergeist * self, bool hitPlayer, bool moveDelayed)) 0x8076380;
+inline void (*Poltergeist::ptr::mark)(Poltergeist * self) = (void (*)(Poltergeist * self)) 0x80b1340;
+inline void (*Poltergeist::ptr::CSTR_Poltergeist)(Poltergeist * self) = (void (*)(Poltergeist * self)) 0x81c4e80;
 #endif
 #endif

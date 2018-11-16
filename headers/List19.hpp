@@ -35,21 +35,21 @@ public:
 
 #ifdef _WIN32
 
-List19 * (*List19::ptr::_New)() = (List19 * (*)()) 0x0;
-Node29 * (*List19::ptr::AddLast19)(List19 * self, ItemObject * data) = (Node29 * (*)(List19 * self, ItemObject * data)) 0x5dd0d0;
-List19 * (*List19::ptr::_new2)(List19 * self, Array<ItemObject *> * arg1) = (List19 * (*)(List19 * self, Array<ItemObject *> * arg1)) 0x0;
-Enumerator36 * (*List19::ptr::ObjectEnumerator)(List19 * self) = (Enumerator36 * (*)(List19 * self)) 0x5dd170;
-void (*List19::ptr::_mark)() = (void (*)()) 0x0;
-void (*List19::ptr::CSTR_List19)(List19 * self) = (void (*)(List19 * self)) 0x5dd000;
+inline List19 * (*List19::ptr::_New)() = (List19 * (*)()) 0x0;
+inline Node29 * (*List19::ptr::AddLast19)(List19 * self, ItemObject * data) = (Node29 * (*)(List19 * self, ItemObject * data)) 0x5dd0d0;
+inline List19 * (*List19::ptr::_new2)(List19 * self, Array<ItemObject *> * arg1) = (List19 * (*)(List19 * self, Array<ItemObject *> * arg1)) 0x0;
+inline Enumerator36 * (*List19::ptr::ObjectEnumerator)(List19 * self) = (Enumerator36 * (*)(List19 * self)) 0x5dd170;
+inline void (*List19::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List19::ptr::CSTR_List19)(List19 * self) = (void (*)(List19 * self)) 0x5dd000;
 #endif
 
 #ifdef __linux__
 
-List19 * (*List19::ptr::_New)() = (List19 * (*)()) 0x81966b0;
-Node29 * (*List19::ptr::AddLast19)(List19 * self, ItemObject * data) = (Node29 * (*)(List19 * self, ItemObject * data)) 0x81968f0;
-List19 * (*List19::ptr::_new2)(List19 * self, Array<ItemObject *> * arg1) = (List19 * (*)(List19 * self, Array<ItemObject *> * arg1)) 0x0;
-Enumerator36 * (*List19::ptr::ObjectEnumerator)(List19 * self) = (Enumerator36 * (*)(List19 * self)) 0x80bb840;
-void (*List19::ptr::_mark)() = (void (*)()) 0x80880b0;
-void (*List19::ptr::CSTR_List19)(List19 * self) = (void (*)(List19 * self)) 0x8196a30;
+inline List19 * (*List19::ptr::_New)() = (List19 * (*)()) 0x81966b0;
+inline Node29 * (*List19::ptr::AddLast19)(List19 * self, ItemObject * data) = (Node29 * (*)(List19 * self, ItemObject * data)) 0x81968f0;
+inline List19 * (*List19::ptr::_new2)(List19 * self, Array<ItemObject *> * arg1) = (List19 * (*)(List19 * self, Array<ItemObject *> * arg1)) 0x0;
+inline Enumerator36 * (*List19::ptr::ObjectEnumerator)(List19 * self) = (Enumerator36 * (*)(List19 * self)) 0x80bb840;
+inline void (*List19::ptr::_mark)() = (void (*)()) 0x80880b0;
+inline void (*List19::ptr::CSTR_List19)(List19 * self) = (void (*)(List19 * self)) 0x8196a30;
 #endif
 #endif

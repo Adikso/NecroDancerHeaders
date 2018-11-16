@@ -33,23 +33,23 @@ public:
 
 #ifdef _WIN32
 
-TextInput * (*TextInput::ptr::New)(TextInput * self, String * t, int j, float sc, int size) = (TextInput * (*)(TextInput * self, String * t, int j, float sc, int size)) 0x6836b0;
-TextInput * (*TextInput::ptr::_new2)() = (TextInput * (*)()) 0x0;
-void (*TextInput::ptr::Append)(TextInput * self, String * c) = (void (*)(TextInput * self, String * c)) 0x683830;
-void (*TextInput::ptr::Backspace)(TextInput * self) = (void (*)(TextInput * self)) 0x683920;
-void (*TextInput::ptr::Draw2)(TextInput * self, float x, float y, int frameOverride) = (void (*)(TextInput * self, float x, float y, int frameOverride)) 0x683a10;
-void (*TextInput::ptr::Discard)(TextInput * self) = (void (*)(TextInput * self)) 0x683aa0;
-void (*TextInput::ptr::mark)(TextInput * self) = (void (*)(TextInput * self)) 0x683ac0;
+inline TextInput * (*TextInput::ptr::New)(TextInput * self, String * t, int j, float sc, int size) = (TextInput * (*)(TextInput * self, String * t, int j, float sc, int size)) 0x6836b0;
+inline TextInput * (*TextInput::ptr::_new2)() = (TextInput * (*)()) 0x0;
+inline void (*TextInput::ptr::Append)(TextInput * self, String * c) = (void (*)(TextInput * self, String * c)) 0x683830;
+inline void (*TextInput::ptr::Backspace)(TextInput * self) = (void (*)(TextInput * self)) 0x683920;
+inline void (*TextInput::ptr::Draw2)(TextInput * self, float x, float y, int frameOverride) = (void (*)(TextInput * self, float x, float y, int frameOverride)) 0x683a10;
+inline void (*TextInput::ptr::Discard)(TextInput * self) = (void (*)(TextInput * self)) 0x683aa0;
+inline void (*TextInput::ptr::mark)(TextInput * self) = (void (*)(TextInput * self)) 0x683ac0;
 #endif
 
 #ifdef __linux__
 
-TextInput * (*TextInput::ptr::New)(TextInput * self, String * t, int j, float sc, int size) = (TextInput * (*)(TextInput * self, String * t, int j, float sc, int size)) 0x8210540;
-TextInput * (*TextInput::ptr::_new2)() = (TextInput * (*)()) 0x81e0420;
-void (*TextInput::ptr::Append)(TextInput * self, String * c) = (void (*)(TextInput * self, String * c)) 0x80c9220;
-void (*TextInput::ptr::Backspace)(TextInput * self) = (void (*)(TextInput * self)) 0x80d2750;
-void (*TextInput::ptr::Draw2)(TextInput * self, float x, float y, int frameOverride) = (void (*)(TextInput * self, float x, float y, int frameOverride)) 0x8085700;
-void (*TextInput::ptr::Discard)(TextInput * self) = (void (*)(TextInput * self)) 0x8078a40;
-void (*TextInput::ptr::mark)(TextInput * self) = (void (*)(TextInput * self)) 0x80a4b30;
+inline TextInput * (*TextInput::ptr::New)(TextInput * self, String * t, int j, float sc, int size) = (TextInput * (*)(TextInput * self, String * t, int j, float sc, int size)) 0x8210540;
+inline TextInput * (*TextInput::ptr::_new2)() = (TextInput * (*)()) 0x81e0420;
+inline void (*TextInput::ptr::Append)(TextInput * self, String * c) = (void (*)(TextInput * self, String * c)) 0x80c9220;
+inline void (*TextInput::ptr::Backspace)(TextInput * self) = (void (*)(TextInput * self)) 0x80d2750;
+inline void (*TextInput::ptr::Draw2)(TextInput * self, float x, float y, int frameOverride) = (void (*)(TextInput * self, float x, float y, int frameOverride)) 0x8085700;
+inline void (*TextInput::ptr::Discard)(TextInput * self) = (void (*)(TextInput * self)) 0x8078a40;
+inline void (*TextInput::ptr::mark)(TextInput * self) = (void (*)(TextInput * self)) 0x80a4b30;
 #endif
 #endif

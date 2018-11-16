@@ -44,35 +44,35 @@ public:
 
 #ifdef _WIN32
 
-Map8 * (*Map8::ptr::_New)() = (Map8 * (*)()) 0x0;
-int (*Map8::ptr::_Compare2)(Map8 * self, int arg1, int arg2) = (int (*)(Map8 * self, int arg1, int arg2)) 0x0;
-Node20 * (*Map8::ptr::_FindNode2)(Map8 * self, int arg1) = (Node20 * (*)(Map8 * self, int arg1)) 0x0;
-LevelObject * (*Map8::ptr::Get2)(Map8 * self, int key) = (LevelObject * (*)(Map8 * self, int key)) 0x5c9880;
-int (*Map8::ptr::_RotateLeft8)(Map8 * self, Node20 * node) = (int (*)(Map8 * self, Node20 * node)) 0x4f77e0;
-int (*Map8::ptr::_RotateRight8)(Map8 * self, Node20 * node) = (int (*)(Map8 * self, Node20 * node)) 0x4f7960;
-int (*Map8::ptr::_InsertFixup8)(Map8 * self, Node20 * node) = (int (*)(Map8 * self, Node20 * node)) 0x5c98a0;
-bool (*Map8::ptr::Set9)(Map8 * self, int key, LevelObject * value) = (bool (*)(Map8 * self, int key, LevelObject * value)) 0x5c9990;
-int (*Map8::ptr::_DeleteFixup4)(Map8 * self, Node20 * node, Node20 * parent) = (int (*)(Map8 * self, Node20 * node, Node20 * parent)) 0x5c9aa0;
-int (*Map8::ptr::_RemoveNode4)(Map8 * self, Node20 * node) = (int (*)(Map8 * self, Node20 * node)) 0x5c9c10;
-int (*Map8::ptr::Remove5)(Map8 * self, int key) = (int (*)(Map8 * self, int key)) 0x5c9cc0;
-int (*Map8::ptr::Clear)(Map8 * self) = (int (*)(Map8 * self)) 0x5764a0;
-void (*Map8::ptr::_mark)() = (void (*)()) 0x0;
+inline Map8 * (*Map8::ptr::_New)() = (Map8 * (*)()) 0x0;
+inline int (*Map8::ptr::_Compare2)(Map8 * self, int arg1, int arg2) = (int (*)(Map8 * self, int arg1, int arg2)) 0x0;
+inline Node20 * (*Map8::ptr::_FindNode2)(Map8 * self, int arg1) = (Node20 * (*)(Map8 * self, int arg1)) 0x0;
+inline LevelObject * (*Map8::ptr::Get2)(Map8 * self, int key) = (LevelObject * (*)(Map8 * self, int key)) 0x5c9880;
+inline int (*Map8::ptr::_RotateLeft8)(Map8 * self, Node20 * node) = (int (*)(Map8 * self, Node20 * node)) 0x4f77e0;
+inline int (*Map8::ptr::_RotateRight8)(Map8 * self, Node20 * node) = (int (*)(Map8 * self, Node20 * node)) 0x4f7960;
+inline int (*Map8::ptr::_InsertFixup8)(Map8 * self, Node20 * node) = (int (*)(Map8 * self, Node20 * node)) 0x5c98a0;
+inline bool (*Map8::ptr::Set9)(Map8 * self, int key, LevelObject * value) = (bool (*)(Map8 * self, int key, LevelObject * value)) 0x5c9990;
+inline int (*Map8::ptr::_DeleteFixup4)(Map8 * self, Node20 * node, Node20 * parent) = (int (*)(Map8 * self, Node20 * node, Node20 * parent)) 0x5c9aa0;
+inline int (*Map8::ptr::_RemoveNode4)(Map8 * self, Node20 * node) = (int (*)(Map8 * self, Node20 * node)) 0x5c9c10;
+inline int (*Map8::ptr::Remove5)(Map8 * self, int key) = (int (*)(Map8 * self, int key)) 0x5c9cc0;
+inline int (*Map8::ptr::Clear)(Map8 * self) = (int (*)(Map8 * self)) 0x5764a0;
+inline void (*Map8::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Map8 * (*Map8::ptr::_New)() = (Map8 * (*)()) 0x8189970;
-int (*Map8::ptr::_Compare2)(Map8 * self, int arg1, int arg2) = (int (*)(Map8 * self, int arg1, int arg2)) 0x0;
-Node20 * (*Map8::ptr::_FindNode2)(Map8 * self, int arg1) = (Node20 * (*)(Map8 * self, int arg1)) 0x8070e00;
-LevelObject * (*Map8::ptr::Get2)(Map8 * self, int key) = (LevelObject * (*)(Map8 * self, int key)) 0x8070e50;
-int (*Map8::ptr::_RotateLeft8)(Map8 * self, Node20 * node) = (int (*)(Map8 * self, Node20 * node)) 0x0;
-int (*Map8::ptr::_RotateRight8)(Map8 * self, Node20 * node) = (int (*)(Map8 * self, Node20 * node)) 0x0;
-int (*Map8::ptr::_InsertFixup8)(Map8 * self, Node20 * node) = (int (*)(Map8 * self, Node20 * node)) 0x0;
-bool (*Map8::ptr::Set9)(Map8 * self, int key, LevelObject * value) = (bool (*)(Map8 * self, int key, LevelObject * value)) 0x80b75c0;
-int (*Map8::ptr::_DeleteFixup4)(Map8 * self, Node20 * node, Node20 * parent) = (int (*)(Map8 * self, Node20 * node, Node20 * parent)) 0x0;
-int (*Map8::ptr::_RemoveNode4)(Map8 * self, Node20 * node) = (int (*)(Map8 * self, Node20 * node)) 0x0;
-int (*Map8::ptr::Remove5)(Map8 * self, int key) = (int (*)(Map8 * self, int key)) 0x8071170;
-int (*Map8::ptr::Clear)(Map8 * self) = (int (*)(Map8 * self)) 0x80711b0;
-void (*Map8::ptr::_mark)() = (void (*)()) 0x808c910;
+inline Map8 * (*Map8::ptr::_New)() = (Map8 * (*)()) 0x8189970;
+inline int (*Map8::ptr::_Compare2)(Map8 * self, int arg1, int arg2) = (int (*)(Map8 * self, int arg1, int arg2)) 0x0;
+inline Node20 * (*Map8::ptr::_FindNode2)(Map8 * self, int arg1) = (Node20 * (*)(Map8 * self, int arg1)) 0x8070e00;
+inline LevelObject * (*Map8::ptr::Get2)(Map8 * self, int key) = (LevelObject * (*)(Map8 * self, int key)) 0x8070e50;
+inline int (*Map8::ptr::_RotateLeft8)(Map8 * self, Node20 * node) = (int (*)(Map8 * self, Node20 * node)) 0x0;
+inline int (*Map8::ptr::_RotateRight8)(Map8 * self, Node20 * node) = (int (*)(Map8 * self, Node20 * node)) 0x0;
+inline int (*Map8::ptr::_InsertFixup8)(Map8 * self, Node20 * node) = (int (*)(Map8 * self, Node20 * node)) 0x0;
+inline bool (*Map8::ptr::Set9)(Map8 * self, int key, LevelObject * value) = (bool (*)(Map8 * self, int key, LevelObject * value)) 0x80b75c0;
+inline int (*Map8::ptr::_DeleteFixup4)(Map8 * self, Node20 * node, Node20 * parent) = (int (*)(Map8 * self, Node20 * node, Node20 * parent)) 0x0;
+inline int (*Map8::ptr::_RemoveNode4)(Map8 * self, Node20 * node) = (int (*)(Map8 * self, Node20 * node)) 0x0;
+inline int (*Map8::ptr::Remove5)(Map8 * self, int key) = (int (*)(Map8 * self, int key)) 0x8071170;
+inline int (*Map8::ptr::Clear)(Map8 * self) = (int (*)(Map8 * self)) 0x80711b0;
+inline void (*Map8::ptr::_mark)() = (void (*)()) 0x808c910;
 #endif
 #endif

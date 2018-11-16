@@ -63,27 +63,27 @@ public:
 
 #ifdef _WIN32
 
-ControllerPostGame * (*ControllerPostGame::ptr::New)(ControllerPostGame * self, ControllerGame * game, bool hardcore, bool daily, bool allChars, bool deathless, bool died, int coinVal, int timeVal) = (ControllerPostGame * (*)(ControllerPostGame * self, ControllerGame * game, bool hardcore, bool daily, bool allChars, bool deathless, bool died, int coinVal, int timeVal)) 0x661d20;
-ControllerPostGame * (*ControllerPostGame::ptr::_new2)() = (ControllerPostGame * (*)()) 0x0;
-void (*ControllerPostGame::ptr::Update)(ControllerPostGame * self) = (void (*)(ControllerPostGame * self)) 0x6628e0;
-void (*ControllerPostGame::ptr::Render)(ControllerPostGame * self) = (void (*)(ControllerPostGame * self)) 0x6628f0;
-void (*ControllerPostGame::ptr::_RegainFocus)() = (void (*)()) 0x0;
-void (*ControllerPostGame::ptr::GUICallback)(ControllerPostGame * self, int index, bool left) = (void (*)(ControllerPostGame * self, int index, bool left)) 0x663160;
-void (*ControllerPostGame::ptr::Destructor)(ControllerPostGame * self) = (void (*)(ControllerPostGame * self)) 0x6636b0;
-void (*ControllerPostGame::ptr::mark)(ControllerPostGame * self) = (void (*)(ControllerPostGame * self)) 0x663730;
-void (*ControllerPostGame::ptr::CSTR_ControllerPostGame)(ControllerPostGame * self) = (void (*)(ControllerPostGame * self)) 0x661830;
+inline ControllerPostGame * (*ControllerPostGame::ptr::New)(ControllerPostGame * self, ControllerGame * game, bool hardcore, bool daily, bool allChars, bool deathless, bool died, int coinVal, int timeVal) = (ControllerPostGame * (*)(ControllerPostGame * self, ControllerGame * game, bool hardcore, bool daily, bool allChars, bool deathless, bool died, int coinVal, int timeVal)) 0x661d20;
+inline ControllerPostGame * (*ControllerPostGame::ptr::_new2)() = (ControllerPostGame * (*)()) 0x0;
+inline void (*ControllerPostGame::ptr::Update)(ControllerPostGame * self) = (void (*)(ControllerPostGame * self)) 0x6628e0;
+inline void (*ControllerPostGame::ptr::Render)(ControllerPostGame * self) = (void (*)(ControllerPostGame * self)) 0x6628f0;
+inline void (*ControllerPostGame::ptr::_RegainFocus)() = (void (*)()) 0x0;
+inline void (*ControllerPostGame::ptr::GUICallback)(ControllerPostGame * self, int index, bool left) = (void (*)(ControllerPostGame * self, int index, bool left)) 0x663160;
+inline void (*ControllerPostGame::ptr::Destructor)(ControllerPostGame * self) = (void (*)(ControllerPostGame * self)) 0x6636b0;
+inline void (*ControllerPostGame::ptr::mark)(ControllerPostGame * self) = (void (*)(ControllerPostGame * self)) 0x663730;
+inline void (*ControllerPostGame::ptr::CSTR_ControllerPostGame)(ControllerPostGame * self) = (void (*)(ControllerPostGame * self)) 0x661830;
 #endif
 
 #ifdef __linux__
 
-ControllerPostGame * (*ControllerPostGame::ptr::New)(ControllerPostGame * self, ControllerGame * game, bool hardcore, bool daily, bool allChars, bool deathless, bool died, int coinVal, int timeVal) = (ControllerPostGame * (*)(ControllerPostGame * self, ControllerGame * game, bool hardcore, bool daily, bool allChars, bool deathless, bool died, int coinVal, int timeVal)) 0x82455b0;
-ControllerPostGame * (*ControllerPostGame::ptr::_new2)() = (ControllerPostGame * (*)()) 0x81d79b0;
-void (*ControllerPostGame::ptr::Update)(ControllerPostGame * self) = (void (*)(ControllerPostGame * self)) 0x83133e0;
-void (*ControllerPostGame::ptr::Render)(ControllerPostGame * self) = (void (*)(ControllerPostGame * self)) 0x84227d0;
-void (*ControllerPostGame::ptr::_RegainFocus)() = (void (*)()) 0x80777a0;
-void (*ControllerPostGame::ptr::GUICallback)(ControllerPostGame * self, int index, bool left) = (void (*)(ControllerPostGame * self, int index, bool left)) 0x83e2e90;
-void (*ControllerPostGame::ptr::Destructor)(ControllerPostGame * self) = (void (*)(ControllerPostGame * self)) 0x80777b0;
-void (*ControllerPostGame::ptr::mark)(ControllerPostGame * self) = (void (*)(ControllerPostGame * self)) 0x80a93c0;
-void (*ControllerPostGame::ptr::CSTR_ControllerPostGame)(ControllerPostGame * self) = (void (*)(ControllerPostGame * self)) 0x81d70e0;
+inline ControllerPostGame * (*ControllerPostGame::ptr::New)(ControllerPostGame * self, ControllerGame * game, bool hardcore, bool daily, bool allChars, bool deathless, bool died, int coinVal, int timeVal) = (ControllerPostGame * (*)(ControllerPostGame * self, ControllerGame * game, bool hardcore, bool daily, bool allChars, bool deathless, bool died, int coinVal, int timeVal)) 0x82455b0;
+inline ControllerPostGame * (*ControllerPostGame::ptr::_new2)() = (ControllerPostGame * (*)()) 0x81d79b0;
+inline void (*ControllerPostGame::ptr::Update)(ControllerPostGame * self) = (void (*)(ControllerPostGame * self)) 0x83133e0;
+inline void (*ControllerPostGame::ptr::Render)(ControllerPostGame * self) = (void (*)(ControllerPostGame * self)) 0x84227d0;
+inline void (*ControllerPostGame::ptr::_RegainFocus)() = (void (*)()) 0x80777a0;
+inline void (*ControllerPostGame::ptr::GUICallback)(ControllerPostGame * self, int index, bool left) = (void (*)(ControllerPostGame * self, int index, bool left)) 0x83e2e90;
+inline void (*ControllerPostGame::ptr::Destructor)(ControllerPostGame * self) = (void (*)(ControllerPostGame * self)) 0x80777b0;
+inline void (*ControllerPostGame::ptr::mark)(ControllerPostGame * self) = (void (*)(ControllerPostGame * self)) 0x80a93c0;
+inline void (*ControllerPostGame::ptr::CSTR_ControllerPostGame)(ControllerPostGame * self) = (void (*)(ControllerPostGame * self)) 0x81d70e0;
 #endif
 #endif

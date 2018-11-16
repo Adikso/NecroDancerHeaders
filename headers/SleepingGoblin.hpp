@@ -38,23 +38,23 @@ public:
 
 #ifdef _WIN32
 
-SleepingGoblin * (*SleepingGoblin::ptr::New)(SleepingGoblin * self, int xVal, int yVal, int l) = (SleepingGoblin * (*)(SleepingGoblin * self, int xVal, int yVal, int l)) 0x649a10;
-SleepingGoblin * (*SleepingGoblin::ptr::_new2)() = (SleepingGoblin * (*)()) 0x0;
-void (*SleepingGoblin::ptr::Update)(SleepingGoblin * self) = (void (*)(SleepingGoblin * self)) 0x649ca0;
-Point * (*SleepingGoblin::ptr::GetMovementDirection)(SleepingGoblin * self) = (Point * (*)(SleepingGoblin * self)) 0x649e00;
-void (*SleepingGoblin::ptr::MoveFail)(SleepingGoblin * self) = (void (*)(SleepingGoblin * self)) 0x64a280;
-void (*SleepingGoblin::ptr::_mark)() = (void (*)()) 0x0;
-void (*SleepingGoblin::ptr::CSTR_SleepingGoblin)(SleepingGoblin * self) = (void (*)(SleepingGoblin * self)) 0x649990;
+inline SleepingGoblin * (*SleepingGoblin::ptr::New)(SleepingGoblin * self, int xVal, int yVal, int l) = (SleepingGoblin * (*)(SleepingGoblin * self, int xVal, int yVal, int l)) 0x649a10;
+inline SleepingGoblin * (*SleepingGoblin::ptr::_new2)() = (SleepingGoblin * (*)()) 0x0;
+inline void (*SleepingGoblin::ptr::Update)(SleepingGoblin * self) = (void (*)(SleepingGoblin * self)) 0x649ca0;
+inline Point * (*SleepingGoblin::ptr::GetMovementDirection)(SleepingGoblin * self) = (Point * (*)(SleepingGoblin * self)) 0x649e00;
+inline void (*SleepingGoblin::ptr::MoveFail)(SleepingGoblin * self) = (void (*)(SleepingGoblin * self)) 0x64a280;
+inline void (*SleepingGoblin::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*SleepingGoblin::ptr::CSTR_SleepingGoblin)(SleepingGoblin * self) = (void (*)(SleepingGoblin * self)) 0x649990;
 #endif
 
 #ifdef __linux__
 
-SleepingGoblin * (*SleepingGoblin::ptr::New)(SleepingGoblin * self, int xVal, int yVal, int l) = (SleepingGoblin * (*)(SleepingGoblin * self, int xVal, int yVal, int l)) 0x81c4ad0;
-SleepingGoblin * (*SleepingGoblin::ptr::_new2)() = (SleepingGoblin * (*)()) 0x81c4c60;
-void (*SleepingGoblin::ptr::Update)(SleepingGoblin * self) = (void (*)(SleepingGoblin * self)) 0x8380e10;
-Point * (*SleepingGoblin::ptr::GetMovementDirection)(SleepingGoblin * self) = (Point * (*)(SleepingGoblin * self)) 0x83a6270;
-void (*SleepingGoblin::ptr::MoveFail)(SleepingGoblin * self) = (void (*)(SleepingGoblin * self)) 0x83a6720;
-void (*SleepingGoblin::ptr::_mark)() = (void (*)()) 0x80b04c0;
-void (*SleepingGoblin::ptr::CSTR_SleepingGoblin)(SleepingGoblin * self) = (void (*)(SleepingGoblin * self)) 0x81c4a90;
+inline SleepingGoblin * (*SleepingGoblin::ptr::New)(SleepingGoblin * self, int xVal, int yVal, int l) = (SleepingGoblin * (*)(SleepingGoblin * self, int xVal, int yVal, int l)) 0x81c4ad0;
+inline SleepingGoblin * (*SleepingGoblin::ptr::_new2)() = (SleepingGoblin * (*)()) 0x81c4c60;
+inline void (*SleepingGoblin::ptr::Update)(SleepingGoblin * self) = (void (*)(SleepingGoblin * self)) 0x8380e10;
+inline Point * (*SleepingGoblin::ptr::GetMovementDirection)(SleepingGoblin * self) = (Point * (*)(SleepingGoblin * self)) 0x83a6270;
+inline void (*SleepingGoblin::ptr::MoveFail)(SleepingGoblin * self) = (void (*)(SleepingGoblin * self)) 0x83a6720;
+inline void (*SleepingGoblin::ptr::_mark)() = (void (*)()) 0x80b04c0;
+inline void (*SleepingGoblin::ptr::CSTR_SleepingGoblin)(SleepingGoblin * self) = (void (*)(SleepingGoblin * self)) 0x81c4a90;
 #endif
 #endif

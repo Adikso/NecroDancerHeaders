@@ -35,17 +35,17 @@ public:
 
 #ifdef _WIN32
 
-HighScoreSubmission * (*HighScoreSubmission::ptr::New)(HighScoreSubmission * self, int s, int z, int l, String * lb, int sa, String * dt) = (HighScoreSubmission * (*)(HighScoreSubmission * self, int s, int z, int l, String * lb, int sa, String * dt)) 0x66f750;
-HighScoreSubmission * (*HighScoreSubmission::ptr::_new2)() = (HighScoreSubmission * (*)()) 0x0;
-void (*HighScoreSubmission::ptr::_mark)() = (void (*)()) 0x0;
-void (*HighScoreSubmission::ptr::CSTR_HighScoreSubmission)(HighScoreSubmission * self) = (void (*)(HighScoreSubmission * self)) 0x66f540;
+inline HighScoreSubmission * (*HighScoreSubmission::ptr::New)(HighScoreSubmission * self, int s, int z, int l, String * lb, int sa, String * dt) = (HighScoreSubmission * (*)(HighScoreSubmission * self, int s, int z, int l, String * lb, int sa, String * dt)) 0x66f750;
+inline HighScoreSubmission * (*HighScoreSubmission::ptr::_new2)() = (HighScoreSubmission * (*)()) 0x0;
+inline void (*HighScoreSubmission::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*HighScoreSubmission::ptr::CSTR_HighScoreSubmission)(HighScoreSubmission * self) = (void (*)(HighScoreSubmission * self)) 0x66f540;
 #endif
 
 #ifdef __linux__
 
-HighScoreSubmission * (*HighScoreSubmission::ptr::New)(HighScoreSubmission * self, int s, int z, int l, String * lb, int sa, String * dt) = (HighScoreSubmission * (*)(HighScoreSubmission * self, int s, int z, int l, String * lb, int sa, String * dt)) 0x81db6b0;
-HighScoreSubmission * (*HighScoreSubmission::ptr::_new2)() = (HighScoreSubmission * (*)()) 0x81db730;
-void (*HighScoreSubmission::ptr::_mark)() = (void (*)()) 0x8077f60;
-void (*HighScoreSubmission::ptr::CSTR_HighScoreSubmission)(HighScoreSubmission * self) = (void (*)(HighScoreSubmission * self)) 0x81db600;
+inline HighScoreSubmission * (*HighScoreSubmission::ptr::New)(HighScoreSubmission * self, int s, int z, int l, String * lb, int sa, String * dt) = (HighScoreSubmission * (*)(HighScoreSubmission * self, int s, int z, int l, String * lb, int sa, String * dt)) 0x81db6b0;
+inline HighScoreSubmission * (*HighScoreSubmission::ptr::_new2)() = (HighScoreSubmission * (*)()) 0x81db730;
+inline void (*HighScoreSubmission::ptr::_mark)() = (void (*)()) 0x8077f60;
+inline void (*HighScoreSubmission::ptr::CSTR_HighScoreSubmission)(HighScoreSubmission * self) = (void (*)(HighScoreSubmission * self)) 0x81db600;
 #endif
 #endif

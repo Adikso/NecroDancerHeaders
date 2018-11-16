@@ -36,21 +36,21 @@ public:
 
 #ifdef _WIN32
 
-Node10 * (*Node10::ptr::_New)(Node10 * self, int arg1, int arg2, int arg3, Node10 * arg4) = (Node10 * (*)(Node10 * self, int arg1, int arg2, int arg3, Node10 * arg4)) 0x0;
-Node10 * (*Node10::ptr::_new2)() = (Node10 * (*)()) 0x0;
-int (*Node10::ptr::_Count2)(Node10 * self, int arg1) = (int (*)(Node10 * self, int arg1)) 0x0;
-Node10 * (*Node10::ptr::_NextNode)() = (Node10 * (*)()) 0x0;
-void (*Node10::ptr::_mark)() = (void (*)()) 0x0;
-void (*Node10::ptr::CSTR_Node10)(Node10 * self) = (void (*)(Node10 * self)) 0x57e270;
+inline Node10 * (*Node10::ptr::_New)(Node10 * self, int arg1, int arg2, int arg3, Node10 * arg4) = (Node10 * (*)(Node10 * self, int arg1, int arg2, int arg3, Node10 * arg4)) 0x0;
+inline Node10 * (*Node10::ptr::_new2)() = (Node10 * (*)()) 0x0;
+inline int (*Node10::ptr::_Count2)(Node10 * self, int arg1) = (int (*)(Node10 * self, int arg1)) 0x0;
+inline Node10 * (*Node10::ptr::_NextNode)() = (Node10 * (*)()) 0x0;
+inline void (*Node10::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Node10::ptr::CSTR_Node10)(Node10 * self) = (void (*)(Node10 * self)) 0x57e270;
 #endif
 
 #ifdef __linux__
 
-Node10 * (*Node10::ptr::_New)(Node10 * self, int arg1, int arg2, int arg3, Node10 * arg4) = (Node10 * (*)(Node10 * self, int arg1, int arg2, int arg3, Node10 * arg4)) 0x0;
-Node10 * (*Node10::ptr::_new2)() = (Node10 * (*)()) 0x817f180;
-int (*Node10::ptr::_Count2)(Node10 * self, int arg1) = (int (*)(Node10 * self, int arg1)) 0x0;
-Node10 * (*Node10::ptr::_NextNode)() = (Node10 * (*)()) 0x8070be0;
-void (*Node10::ptr::_mark)() = (void (*)()) 0x8086f90;
-void (*Node10::ptr::CSTR_Node10)(Node10 * self) = (void (*)(Node10 * self)) 0x817ef40;
+inline Node10 * (*Node10::ptr::_New)(Node10 * self, int arg1, int arg2, int arg3, Node10 * arg4) = (Node10 * (*)(Node10 * self, int arg1, int arg2, int arg3, Node10 * arg4)) 0x0;
+inline Node10 * (*Node10::ptr::_new2)() = (Node10 * (*)()) 0x817f180;
+inline int (*Node10::ptr::_Count2)(Node10 * self, int arg1) = (int (*)(Node10 * self, int arg1)) 0x0;
+inline Node10 * (*Node10::ptr::_NextNode)() = (Node10 * (*)()) 0x8070be0;
+inline void (*Node10::ptr::_mark)() = (void (*)()) 0x8086f90;
+inline void (*Node10::ptr::CSTR_Node10)(Node10 * self) = (void (*)(Node10 * self)) 0x817ef40;
 #endif
 #endif

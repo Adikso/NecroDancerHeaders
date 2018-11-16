@@ -52,39 +52,39 @@ public:
 
 #ifdef _WIN32
 
-List26 * (*List26::ptr::_New)() = (List26 * (*)()) 0x0;
-Node43 * (*List26::ptr::AddLast26)(List26 * self, int data) = (Node43 * (*)(List26 * self, int data)) 0x5f7be0;
-List26 * (*List26::ptr::_new2)(List26 * self, Array<int> * arg1) = (List26 * (*)(List26 * self, Array<int> * arg1)) 0x0;
-int (*List26::ptr::_Count)() = (int (*)()) 0x0;
-int (*List26::ptr::_RemoveFirst)() = (int (*)()) 0x0;
-bool (*List26::ptr::_Equals16)(List26 * self, int arg1, int arg2) = (bool (*)(List26 * self, int arg1, int arg2)) 0x0;
-bool (*List26::ptr::Contains2)(List26 * self, int value) = (bool (*)(List26 * self, int value)) 0x5f7c80;
-int (*List26::ptr::_Clear)() = (int (*)()) 0x0;
-Enumerator45 * (*List26::ptr::ObjectEnumerator)(List26 * self) = (Enumerator45 * (*)(List26 * self)) 0x5f7cc0;
-int (*List26::ptr::_First)() = (int (*)()) 0x0;
-int (*List26::ptr::Last2)(List26 * self) = (int (*)(List26 * self)) 0x453d60;
-Array<int> * (*List26::ptr::ToArray)(List26 * self) = (Array<int> * (*)(List26 * self)) 0x5f7d50;
-bool (*List26::ptr::_IsEmpty)() = (bool (*)()) 0x0;
-void (*List26::ptr::_mark)() = (void (*)()) 0x0;
-void (*List26::ptr::CSTR_List26)(List26 * self) = (void (*)(List26 * self)) 0x5f7b10;
+inline List26 * (*List26::ptr::_New)() = (List26 * (*)()) 0x0;
+inline Node43 * (*List26::ptr::AddLast26)(List26 * self, int data) = (Node43 * (*)(List26 * self, int data)) 0x5f7be0;
+inline List26 * (*List26::ptr::_new2)(List26 * self, Array<int> * arg1) = (List26 * (*)(List26 * self, Array<int> * arg1)) 0x0;
+inline int (*List26::ptr::_Count)() = (int (*)()) 0x0;
+inline int (*List26::ptr::_RemoveFirst)() = (int (*)()) 0x0;
+inline bool (*List26::ptr::_Equals16)(List26 * self, int arg1, int arg2) = (bool (*)(List26 * self, int arg1, int arg2)) 0x0;
+inline bool (*List26::ptr::Contains2)(List26 * self, int value) = (bool (*)(List26 * self, int value)) 0x5f7c80;
+inline int (*List26::ptr::_Clear)() = (int (*)()) 0x0;
+inline Enumerator45 * (*List26::ptr::ObjectEnumerator)(List26 * self) = (Enumerator45 * (*)(List26 * self)) 0x5f7cc0;
+inline int (*List26::ptr::_First)() = (int (*)()) 0x0;
+inline int (*List26::ptr::Last2)(List26 * self) = (int (*)(List26 * self)) 0x453d60;
+inline Array<int> * (*List26::ptr::ToArray)(List26 * self) = (Array<int> * (*)(List26 * self)) 0x5f7d50;
+inline bool (*List26::ptr::_IsEmpty)() = (bool (*)()) 0x0;
+inline void (*List26::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List26::ptr::CSTR_List26)(List26 * self) = (void (*)(List26 * self)) 0x5f7b10;
 #endif
 
 #ifdef __linux__
 
-List26 * (*List26::ptr::_New)() = (List26 * (*)()) 0x819f350;
-Node43 * (*List26::ptr::AddLast26)(List26 * self, int data) = (Node43 * (*)(List26 * self, int data)) 0x80b90a0;
-List26 * (*List26::ptr::_new2)(List26 * self, Array<int> * arg1) = (List26 * (*)(List26 * self, Array<int> * arg1)) 0x819f360;
-int (*List26::ptr::_Count)() = (int (*)()) 0x80735d0;
-int (*List26::ptr::_RemoveFirst)() = (int (*)()) 0x80735f0;
-bool (*List26::ptr::_Equals16)(List26 * self, int arg1, int arg2) = (bool (*)(List26 * self, int arg1, int arg2)) 0x8073630;
-bool (*List26::ptr::Contains2)(List26 * self, int value) = (bool (*)(List26 * self, int value)) 0x8073640;
-int (*List26::ptr::_Clear)() = (int (*)()) 0x80955d0;
-Enumerator45 * (*List26::ptr::ObjectEnumerator)(List26 * self) = (Enumerator45 * (*)(List26 * self)) 0x80b8fd0;
-int (*List26::ptr::_First)() = (int (*)()) 0x8073690;
-int (*List26::ptr::Last2)(List26 * self) = (int (*)(List26 * self)) 0x80736b0;
-Array<int> * (*List26::ptr::ToArray)(List26 * self) = (Array<int> * (*)(List26 * self)) 0x80c1020;
-bool (*List26::ptr::_IsEmpty)() = (bool (*)()) 0x80736d0;
-void (*List26::ptr::_mark)() = (void (*)()) 0x808ff50;
-void (*List26::ptr::CSTR_List26)(List26 * self) = (void (*)(List26 * self)) 0x819f620;
+inline List26 * (*List26::ptr::_New)() = (List26 * (*)()) 0x819f350;
+inline Node43 * (*List26::ptr::AddLast26)(List26 * self, int data) = (Node43 * (*)(List26 * self, int data)) 0x80b90a0;
+inline List26 * (*List26::ptr::_new2)(List26 * self, Array<int> * arg1) = (List26 * (*)(List26 * self, Array<int> * arg1)) 0x819f360;
+inline int (*List26::ptr::_Count)() = (int (*)()) 0x80735d0;
+inline int (*List26::ptr::_RemoveFirst)() = (int (*)()) 0x80735f0;
+inline bool (*List26::ptr::_Equals16)(List26 * self, int arg1, int arg2) = (bool (*)(List26 * self, int arg1, int arg2)) 0x8073630;
+inline bool (*List26::ptr::Contains2)(List26 * self, int value) = (bool (*)(List26 * self, int value)) 0x8073640;
+inline int (*List26::ptr::_Clear)() = (int (*)()) 0x80955d0;
+inline Enumerator45 * (*List26::ptr::ObjectEnumerator)(List26 * self) = (Enumerator45 * (*)(List26 * self)) 0x80b8fd0;
+inline int (*List26::ptr::_First)() = (int (*)()) 0x8073690;
+inline int (*List26::ptr::Last2)(List26 * self) = (int (*)(List26 * self)) 0x80736b0;
+inline Array<int> * (*List26::ptr::ToArray)(List26 * self) = (Array<int> * (*)(List26 * self)) 0x80c1020;
+inline bool (*List26::ptr::_IsEmpty)() = (bool (*)()) 0x80736d0;
+inline void (*List26::ptr::_mark)() = (void (*)()) 0x808ff50;
+inline void (*List26::ptr::CSTR_List26)(List26 * self) = (void (*)(List26 * self)) 0x819f620;
 #endif
 #endif

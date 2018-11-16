@@ -66,35 +66,35 @@ public:
 
 #ifdef _WIN32
 
-Octoboss * (*Octoboss::ptr::New)(Octoboss * self, int xVal, int yVal, int l) = (Octoboss * (*)(Octoboss * self, int xVal, int yVal, int l)) 0x6337d0;
-Octoboss * (*Octoboss::ptr::_new2)() = (Octoboss * (*)()) 0x0;
-void (*Octoboss::ptr::DoAttackSplash)(Octoboss * self) = (void (*)(Octoboss * self)) 0x634610;
-void (*Octoboss::ptr::MoveFail)(Octoboss * self) = (void (*)(Octoboss * self)) 0x634b80;
-void (*Octoboss::ptr::BeginFinalPhase)(Octoboss * self, bool overrideSound) = (void (*)(Octoboss * self, bool overrideSound)) 0x634ba0;
-void (*Octoboss::ptr::Update)(Octoboss * self) = (void (*)(Octoboss * self)) 0x634cd0;
-void (*Octoboss::ptr::Render)(Octoboss * self) = (void (*)(Octoboss * self)) 0x635490;
-void (*Octoboss::ptr::MoveSucceed)(Octoboss * self, bool hitPlayer, bool moveDelayed) = (void (*)(Octoboss * self, bool hitPlayer, bool moveDelayed)) 0x6357f0;
-Point * (*Octoboss::ptr::GetMovementDirection)(Octoboss * self) = (Point * (*)(Octoboss * self)) 0x635820;
-bool (*Octoboss::ptr::Hit)(Octoboss * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Octoboss * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x635a20;
-void (*Octoboss::ptr::Die)(Octoboss * self) = (void (*)(Octoboss * self)) 0x635bc0;
-void (*Octoboss::ptr::mark)(Octoboss * self) = (void (*)(Octoboss * self)) 0x635be0;
-void (*Octoboss::ptr::CSTR_Octoboss)(Octoboss * self) = (void (*)(Octoboss * self)) 0x6336b0;
+inline Octoboss * (*Octoboss::ptr::New)(Octoboss * self, int xVal, int yVal, int l) = (Octoboss * (*)(Octoboss * self, int xVal, int yVal, int l)) 0x6337d0;
+inline Octoboss * (*Octoboss::ptr::_new2)() = (Octoboss * (*)()) 0x0;
+inline void (*Octoboss::ptr::DoAttackSplash)(Octoboss * self) = (void (*)(Octoboss * self)) 0x634610;
+inline void (*Octoboss::ptr::MoveFail)(Octoboss * self) = (void (*)(Octoboss * self)) 0x634b80;
+inline void (*Octoboss::ptr::BeginFinalPhase)(Octoboss * self, bool overrideSound) = (void (*)(Octoboss * self, bool overrideSound)) 0x634ba0;
+inline void (*Octoboss::ptr::Update)(Octoboss * self) = (void (*)(Octoboss * self)) 0x634cd0;
+inline void (*Octoboss::ptr::Render)(Octoboss * self) = (void (*)(Octoboss * self)) 0x635490;
+inline void (*Octoboss::ptr::MoveSucceed)(Octoboss * self, bool hitPlayer, bool moveDelayed) = (void (*)(Octoboss * self, bool hitPlayer, bool moveDelayed)) 0x6357f0;
+inline Point * (*Octoboss::ptr::GetMovementDirection)(Octoboss * self) = (Point * (*)(Octoboss * self)) 0x635820;
+inline bool (*Octoboss::ptr::Hit)(Octoboss * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Octoboss * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x635a20;
+inline void (*Octoboss::ptr::Die)(Octoboss * self) = (void (*)(Octoboss * self)) 0x635bc0;
+inline void (*Octoboss::ptr::mark)(Octoboss * self) = (void (*)(Octoboss * self)) 0x635be0;
+inline void (*Octoboss::ptr::CSTR_Octoboss)(Octoboss * self) = (void (*)(Octoboss * self)) 0x6336b0;
 #endif
 
 #ifdef __linux__
 
-Octoboss * (*Octoboss::ptr::New)(Octoboss * self, int xVal, int yVal, int l) = (Octoboss * (*)(Octoboss * self, int xVal, int yVal, int l)) 0x81d8c60;
-Octoboss * (*Octoboss::ptr::_new2)() = (Octoboss * (*)()) 0x81bcf90;
-void (*Octoboss::ptr::DoAttackSplash)(Octoboss * self) = (void (*)(Octoboss * self)) 0x83a3560;
-void (*Octoboss::ptr::MoveFail)(Octoboss * self) = (void (*)(Octoboss * self)) 0x81359d0;
-void (*Octoboss::ptr::BeginFinalPhase)(Octoboss * self, bool overrideSound) = (void (*)(Octoboss * self, bool overrideSound)) 0x83a3a80;
-void (*Octoboss::ptr::Update)(Octoboss * self) = (void (*)(Octoboss * self)) 0x8383580;
-void (*Octoboss::ptr::Render)(Octoboss * self) = (void (*)(Octoboss * self)) 0x830c480;
-void (*Octoboss::ptr::MoveSucceed)(Octoboss * self, bool hitPlayer, bool moveDelayed) = (void (*)(Octoboss * self, bool hitPlayer, bool moveDelayed)) 0x8075ca0;
-Point * (*Octoboss::ptr::GetMovementDirection)(Octoboss * self) = (Point * (*)(Octoboss * self)) 0x826a220;
-bool (*Octoboss::ptr::Hit)(Octoboss * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Octoboss * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83b89e0;
-void (*Octoboss::ptr::Die)(Octoboss * self) = (void (*)(Octoboss * self)) 0x83b6580;
-void (*Octoboss::ptr::mark)(Octoboss * self) = (void (*)(Octoboss * self)) 0x80b0840;
-void (*Octoboss::ptr::CSTR_Octoboss)(Octoboss * self) = (void (*)(Octoboss * self)) 0x81bce60;
+inline Octoboss * (*Octoboss::ptr::New)(Octoboss * self, int xVal, int yVal, int l) = (Octoboss * (*)(Octoboss * self, int xVal, int yVal, int l)) 0x81d8c60;
+inline Octoboss * (*Octoboss::ptr::_new2)() = (Octoboss * (*)()) 0x81bcf90;
+inline void (*Octoboss::ptr::DoAttackSplash)(Octoboss * self) = (void (*)(Octoboss * self)) 0x83a3560;
+inline void (*Octoboss::ptr::MoveFail)(Octoboss * self) = (void (*)(Octoboss * self)) 0x81359d0;
+inline void (*Octoboss::ptr::BeginFinalPhase)(Octoboss * self, bool overrideSound) = (void (*)(Octoboss * self, bool overrideSound)) 0x83a3a80;
+inline void (*Octoboss::ptr::Update)(Octoboss * self) = (void (*)(Octoboss * self)) 0x8383580;
+inline void (*Octoboss::ptr::Render)(Octoboss * self) = (void (*)(Octoboss * self)) 0x830c480;
+inline void (*Octoboss::ptr::MoveSucceed)(Octoboss * self, bool hitPlayer, bool moveDelayed) = (void (*)(Octoboss * self, bool hitPlayer, bool moveDelayed)) 0x8075ca0;
+inline Point * (*Octoboss::ptr::GetMovementDirection)(Octoboss * self) = (Point * (*)(Octoboss * self)) 0x826a220;
+inline bool (*Octoboss::ptr::Hit)(Octoboss * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Octoboss * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83b89e0;
+inline void (*Octoboss::ptr::Die)(Octoboss * self) = (void (*)(Octoboss * self)) 0x83b6580;
+inline void (*Octoboss::ptr::mark)(Octoboss * self) = (void (*)(Octoboss * self)) 0x80b0840;
+inline void (*Octoboss::ptr::CSTR_Octoboss)(Octoboss * self) = (void (*)(Octoboss * self)) 0x81bce60;
 #endif
 #endif

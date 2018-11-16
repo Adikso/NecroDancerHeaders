@@ -27,17 +27,17 @@ public:
 
 #ifdef _WIN32
 
-Node31 * (*Node31::ptr::_New)(Node31 * self, Node31 * arg1, Node31 * arg2, Chest * arg3) = (Node31 * (*)(Node31 * self, Node31 * arg1, Node31 * arg2, Chest * arg3)) 0x0;
-Node31 * (*Node31::ptr::_new2)() = (Node31 * (*)()) 0x0;
-int (*Node31::ptr::_Remove2)() = (int (*)()) 0x0;
-void (*Node31::ptr::_mark)() = (void (*)()) 0x0;
+inline Node31 * (*Node31::ptr::_New)(Node31 * self, Node31 * arg1, Node31 * arg2, Chest * arg3) = (Node31 * (*)(Node31 * self, Node31 * arg1, Node31 * arg2, Chest * arg3)) 0x0;
+inline Node31 * (*Node31::ptr::_new2)() = (Node31 * (*)()) 0x0;
+inline int (*Node31::ptr::_Remove2)() = (int (*)()) 0x0;
+inline void (*Node31::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node31 * (*Node31::ptr::_New)(Node31 * self, Node31 * arg1, Node31 * arg2, Chest * arg3) = (Node31 * (*)(Node31 * self, Node31 * arg1, Node31 * arg2, Chest * arg3)) 0x0;
-Node31 * (*Node31::ptr::_new2)() = (Node31 * (*)()) 0x81a48b0;
-int (*Node31::ptr::_Remove2)() = (int (*)()) 0x0;
-void (*Node31::ptr::_mark)() = (void (*)()) 0x808a7b0;
+inline Node31 * (*Node31::ptr::_New)(Node31 * self, Node31 * arg1, Node31 * arg2, Chest * arg3) = (Node31 * (*)(Node31 * self, Node31 * arg1, Node31 * arg2, Chest * arg3)) 0x0;
+inline Node31 * (*Node31::ptr::_new2)() = (Node31 * (*)()) 0x81a48b0;
+inline int (*Node31::ptr::_Remove2)() = (int (*)()) 0x0;
+inline void (*Node31::ptr::_mark)() = (void (*)()) 0x808a7b0;
 #endif
 #endif

@@ -42,38 +42,38 @@ public:
 };
 
 #ifdef _WIN32
-Controller * * Controller::currentController = (Controller* *) 0x835c3c;
+inline Controller * * Controller::currentController = (Controller* *) 0x835c3c;
 
-Controller * (*Controller::ptr::New)(Controller * self) = (Controller * (*)(Controller * self)) 0x448f40;
-void (*Controller::ptr::_RegainFocus)() = (void (*)()) 0x0;
-void (*Controller::ptr::GiveFocus)(Controller * c) = (void (*)(Controller * c)) 0x449000;
-void (*Controller::ptr::_Update)() = (void (*)()) 0x0;
-void (*Controller::ptr::_UpdateCurrent)() = (void (*)()) 0x0;
-void (*Controller::ptr::_Render)() = (void (*)()) 0x0;
-void (*Controller::ptr::_UpdateRender)() = (void (*)()) 0x0;
-void (*Controller::ptr::_Suspend)() = (void (*)()) 0x0;
-void (*Controller::ptr::_Resume)() = (void (*)()) 0x0;
-void (*Controller::ptr::_Destructor)() = (void (*)()) 0x0;
-void (*Controller::ptr::ReleaseFocus)(Controller * self) = (void (*)(Controller * self)) 0x4490c0;
-bool (*Controller::ptr::HasFocus)(Controller * self) = (bool (*)(Controller * self)) 0x449130;
-void (*Controller::ptr::_mark)() = (void (*)()) 0x0;
+inline Controller * (*Controller::ptr::New)(Controller * self) = (Controller * (*)(Controller * self)) 0x448f40;
+inline void (*Controller::ptr::_RegainFocus)() = (void (*)()) 0x0;
+inline void (*Controller::ptr::GiveFocus)(Controller * c) = (void (*)(Controller * c)) 0x449000;
+inline void (*Controller::ptr::_Update)() = (void (*)()) 0x0;
+inline void (*Controller::ptr::_UpdateCurrent)() = (void (*)()) 0x0;
+inline void (*Controller::ptr::_Render)() = (void (*)()) 0x0;
+inline void (*Controller::ptr::_UpdateRender)() = (void (*)()) 0x0;
+inline void (*Controller::ptr::_Suspend)() = (void (*)()) 0x0;
+inline void (*Controller::ptr::_Resume)() = (void (*)()) 0x0;
+inline void (*Controller::ptr::_Destructor)() = (void (*)()) 0x0;
+inline void (*Controller::ptr::ReleaseFocus)(Controller * self) = (void (*)(Controller * self)) 0x4490c0;
+inline bool (*Controller::ptr::HasFocus)(Controller * self) = (bool (*)(Controller * self)) 0x449130;
+inline void (*Controller::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
-Controller * * Controller::currentController = (Controller* *) 0x856ab18;
+inline Controller * * Controller::currentController = (Controller* *) 0x856ab18;
 
-Controller * (*Controller::ptr::New)(Controller * self) = (Controller * (*)(Controller * self)) 0x811afc0;
-void (*Controller::ptr::_RegainFocus)() = (void (*)()) 0x0;
-void (*Controller::ptr::GiveFocus)(Controller * c) = (void (*)(Controller * c)) 0x811b070;
-void (*Controller::ptr::_Update)() = (void (*)()) 0x0;
-void (*Controller::ptr::_UpdateCurrent)() = (void (*)()) 0x811b120;
-void (*Controller::ptr::_Render)() = (void (*)()) 0x0;
-void (*Controller::ptr::_UpdateRender)() = (void (*)()) 0x811b140;
-void (*Controller::ptr::_Suspend)() = (void (*)()) 0x806d9b0;
-void (*Controller::ptr::_Resume)() = (void (*)()) 0x806d9c0;
-void (*Controller::ptr::_Destructor)() = (void (*)()) 0x0;
-void (*Controller::ptr::ReleaseFocus)(Controller * self) = (void (*)(Controller * self)) 0x80a3d60;
-bool (*Controller::ptr::HasFocus)(Controller * self) = (bool (*)(Controller * self)) 0x806d9d0;
-void (*Controller::ptr::_mark)() = (void (*)()) 0x80a13c0;
+inline Controller * (*Controller::ptr::New)(Controller * self) = (Controller * (*)(Controller * self)) 0x811afc0;
+inline void (*Controller::ptr::_RegainFocus)() = (void (*)()) 0x0;
+inline void (*Controller::ptr::GiveFocus)(Controller * c) = (void (*)(Controller * c)) 0x811b070;
+inline void (*Controller::ptr::_Update)() = (void (*)()) 0x0;
+inline void (*Controller::ptr::_UpdateCurrent)() = (void (*)()) 0x811b120;
+inline void (*Controller::ptr::_Render)() = (void (*)()) 0x0;
+inline void (*Controller::ptr::_UpdateRender)() = (void (*)()) 0x811b140;
+inline void (*Controller::ptr::_Suspend)() = (void (*)()) 0x806d9b0;
+inline void (*Controller::ptr::_Resume)() = (void (*)()) 0x806d9c0;
+inline void (*Controller::ptr::_Destructor)() = (void (*)()) 0x0;
+inline void (*Controller::ptr::ReleaseFocus)(Controller * self) = (void (*)(Controller * self)) 0x80a3d60;
+inline bool (*Controller::ptr::HasFocus)(Controller * self) = (bool (*)(Controller * self)) 0x806d9d0;
+inline void (*Controller::ptr::_mark)() = (void (*)()) 0x80a13c0;
 #endif
 #endif

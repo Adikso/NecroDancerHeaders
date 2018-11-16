@@ -32,23 +32,23 @@ public:
 
 #ifdef _WIN32
 
-Node43 * (*Node43::ptr::_New)(Node43 * self, Node43 * succ, Node43 * pred, int data) = (Node43 * (*)(Node43 * self, Node43 * succ, Node43 * pred, int data)) 0x5f7dd0;
-Node43 * (*Node43::ptr::_new2)() = (Node43 * (*)()) 0x0;
-Node43 * (*Node43::ptr::_GetNode)() = (Node43 * (*)()) 0x0;
-Node43 * (*Node43::ptr::_NextNode)() = (Node43 * (*)()) 0x0;
-int (*Node43::ptr::_Remove3)() = (int (*)()) 0x0;
-Node43 * (*Node43::ptr::_PrevNode)() = (Node43 * (*)()) 0x0;
-void (*Node43::ptr::_mark)() = (void (*)()) 0x0;
+inline Node43 * (*Node43::ptr::_New)(Node43 * self, Node43 * succ, Node43 * pred, int data) = (Node43 * (*)(Node43 * self, Node43 * succ, Node43 * pred, int data)) 0x5f7dd0;
+inline Node43 * (*Node43::ptr::_new2)() = (Node43 * (*)()) 0x0;
+inline Node43 * (*Node43::ptr::_GetNode)() = (Node43 * (*)()) 0x0;
+inline Node43 * (*Node43::ptr::_NextNode)() = (Node43 * (*)()) 0x0;
+inline int (*Node43::ptr::_Remove3)() = (int (*)()) 0x0;
+inline Node43 * (*Node43::ptr::_PrevNode)() = (Node43 * (*)()) 0x0;
+inline void (*Node43::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node43 * (*Node43::ptr::_New)(Node43 * self, Node43 * succ, Node43 * pred, int data) = (Node43 * (*)(Node43 * self, Node43 * succ, Node43 * pred, int data)) 0x0;
-Node43 * (*Node43::ptr::_new2)() = (Node43 * (*)()) 0x81bbc70;
-Node43 * (*Node43::ptr::_GetNode)() = (Node43 * (*)()) 0x0;
-Node43 * (*Node43::ptr::_NextNode)() = (Node43 * (*)()) 0x0;
-int (*Node43::ptr::_Remove3)() = (int (*)()) 0x80918e0;
-Node43 * (*Node43::ptr::_PrevNode)() = (Node43 * (*)()) 0x0;
-void (*Node43::ptr::_mark)() = (void (*)()) 0x80897d0;
+inline Node43 * (*Node43::ptr::_New)(Node43 * self, Node43 * succ, Node43 * pred, int data) = (Node43 * (*)(Node43 * self, Node43 * succ, Node43 * pred, int data)) 0x0;
+inline Node43 * (*Node43::ptr::_new2)() = (Node43 * (*)()) 0x81bbc70;
+inline Node43 * (*Node43::ptr::_GetNode)() = (Node43 * (*)()) 0x0;
+inline Node43 * (*Node43::ptr::_NextNode)() = (Node43 * (*)()) 0x0;
+inline int (*Node43::ptr::_Remove3)() = (int (*)()) 0x80918e0;
+inline Node43 * (*Node43::ptr::_PrevNode)() = (Node43 * (*)()) 0x0;
+inline void (*Node43::ptr::_mark)() = (void (*)()) 0x80897d0;
 #endif
 #endif

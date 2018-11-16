@@ -26,17 +26,17 @@ public:
 
 #ifdef _WIN32
 
-StackEx6 * (*StackEx6::ptr::_New)() = (StackEx6 * (*)()) 0x0;
-void (*StackEx6::ptr::_Shuffle)(StackEx6 * self, bool arg1) = (void (*)(StackEx6 * self, bool arg1)) 0x0;
-void (*StackEx6::ptr::_mark)() = (void (*)()) 0x0;
-void (*StackEx6::ptr::CSTR_StackEx6)(StackEx6 * self) = (void (*)(StackEx6 * self)) 0x660eb0;
+inline StackEx6 * (*StackEx6::ptr::_New)() = (StackEx6 * (*)()) 0x0;
+inline void (*StackEx6::ptr::_Shuffle)(StackEx6 * self, bool arg1) = (void (*)(StackEx6 * self, bool arg1)) 0x0;
+inline void (*StackEx6::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*StackEx6::ptr::CSTR_StackEx6)(StackEx6 * self) = (void (*)(StackEx6 * self)) 0x660eb0;
 #endif
 
 #ifdef __linux__
 
-StackEx6 * (*StackEx6::ptr::_New)() = (StackEx6 * (*)()) 0x81d6920;
-void (*StackEx6::ptr::_Shuffle)(StackEx6 * self, bool arg1) = (void (*)(StackEx6 * self, bool arg1)) 0x8100450;
-void (*StackEx6::ptr::_mark)() = (void (*)()) 0x8087720;
-void (*StackEx6::ptr::CSTR_StackEx6)(StackEx6 * self) = (void (*)(StackEx6 * self)) 0x81d6810;
+inline StackEx6 * (*StackEx6::ptr::_New)() = (StackEx6 * (*)()) 0x81d6920;
+inline void (*StackEx6::ptr::_Shuffle)(StackEx6 * self, bool arg1) = (void (*)(StackEx6 * self, bool arg1)) 0x8100450;
+inline void (*StackEx6::ptr::_mark)() = (void (*)()) 0x8087720;
+inline void (*StackEx6::ptr::CSTR_StackEx6)(StackEx6 * self) = (void (*)(StackEx6 * self)) 0x81d6810;
 #endif
 #endif

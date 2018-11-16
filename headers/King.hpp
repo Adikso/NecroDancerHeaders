@@ -37,25 +37,25 @@ public:
 
 #ifdef _WIN32
 
-King * (*King::ptr::New)(King * self, int xVal, int yVal, int l) = (King * (*)(King * self, int xVal, int yVal, int l)) 0x6676b0;
-King * (*King::ptr::_new2)() = (King * (*)()) 0x0;
-void (*King::ptr::MoveSucceed)(King * self, bool hitPlayer, bool moveDelayed) = (void (*)(King * self, bool hitPlayer, bool moveDelayed)) 0x6679c0;
-void (*King::ptr::Update)(King * self) = (void (*)(King * self)) 0x6679f0;
-bool (*King::ptr::Hit)(King * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(King * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x667b40;
-Point * (*King::ptr::GetMovementDirection)(King * self) = (Point * (*)(King * self)) 0x667ee0;
-void (*King::ptr::Die)(King * self) = (void (*)(King * self)) 0x6675f0;
-void (*King::ptr::_mark)() = (void (*)()) 0x0;
+inline King * (*King::ptr::New)(King * self, int xVal, int yVal, int l) = (King * (*)(King * self, int xVal, int yVal, int l)) 0x6676b0;
+inline King * (*King::ptr::_new2)() = (King * (*)()) 0x0;
+inline void (*King::ptr::MoveSucceed)(King * self, bool hitPlayer, bool moveDelayed) = (void (*)(King * self, bool hitPlayer, bool moveDelayed)) 0x6679c0;
+inline void (*King::ptr::Update)(King * self) = (void (*)(King * self)) 0x6679f0;
+inline bool (*King::ptr::Hit)(King * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(King * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x667b40;
+inline Point * (*King::ptr::GetMovementDirection)(King * self) = (Point * (*)(King * self)) 0x667ee0;
+inline void (*King::ptr::Die)(King * self) = (void (*)(King * self)) 0x6675f0;
+inline void (*King::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-King * (*King::ptr::New)(King * self, int xVal, int yVal, int l) = (King * (*)(King * self, int xVal, int yVal, int l)) 0x81d8610;
-King * (*King::ptr::_new2)() = (King * (*)()) 0x81d8850;
-void (*King::ptr::MoveSucceed)(King * self, bool hitPlayer, bool moveDelayed) = (void (*)(King * self, bool hitPlayer, bool moveDelayed)) 0x8077a30;
-void (*King::ptr::Update)(King * self) = (void (*)(King * self)) 0x837e2f0;
-bool (*King::ptr::Hit)(King * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(King * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83d11f0;
-Point * (*King::ptr::GetMovementDirection)(King * self) = (Point * (*)(King * self)) 0x81b2ab0;
-void (*King::ptr::Die)(King * self) = (void (*)(King * self)) 0x83b5ae0;
-void (*King::ptr::_mark)() = (void (*)()) 0x80affc0;
+inline King * (*King::ptr::New)(King * self, int xVal, int yVal, int l) = (King * (*)(King * self, int xVal, int yVal, int l)) 0x81d8610;
+inline King * (*King::ptr::_new2)() = (King * (*)()) 0x81d8850;
+inline void (*King::ptr::MoveSucceed)(King * self, bool hitPlayer, bool moveDelayed) = (void (*)(King * self, bool hitPlayer, bool moveDelayed)) 0x8077a30;
+inline void (*King::ptr::Update)(King * self) = (void (*)(King * self)) 0x837e2f0;
+inline bool (*King::ptr::Hit)(King * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(King * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83d11f0;
+inline Point * (*King::ptr::GetMovementDirection)(King * self) = (Point * (*)(King * self)) 0x81b2ab0;
+inline void (*King::ptr::Die)(King * self) = (void (*)(King * self)) 0x83b5ae0;
+inline void (*King::ptr::_mark)() = (void (*)()) 0x80affc0;
 #endif
 #endif

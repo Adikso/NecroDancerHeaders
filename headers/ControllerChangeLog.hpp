@@ -61,25 +61,25 @@ public:
 
 #ifdef _WIN32
 
-ControllerChangeLog * (*ControllerChangeLog::ptr::New)(ControllerChangeLog * self) = (ControllerChangeLog * (*)(ControllerChangeLog * self)) 0x6706c0;
-void (*ControllerChangeLog::ptr::Update)(ControllerChangeLog * self) = (void (*)(ControllerChangeLog * self)) 0x6709b0;
-void (*ControllerChangeLog::ptr::Render)(ControllerChangeLog * self) = (void (*)(ControllerChangeLog * self)) 0x6709d0;
-void (*ControllerChangeLog::ptr::_RegainFocus)() = (void (*)()) 0x0;
-void (*ControllerChangeLog::ptr::GUICallback)(ControllerChangeLog * self, int index, bool left) = (void (*)(ControllerChangeLog * self, int index, bool left)) 0x67d0e0;
-void (*ControllerChangeLog::ptr::Destructor)(ControllerChangeLog * self) = (void (*)(ControllerChangeLog * self)) 0x67d1a0;
-void (*ControllerChangeLog::ptr::mark)(ControllerChangeLog * self) = (void (*)(ControllerChangeLog * self)) 0x67d230;
-void (*ControllerChangeLog::ptr::CSTR_ControllerChangeLog)(ControllerChangeLog * self) = (void (*)(ControllerChangeLog * self)) 0x6700c0;
+inline ControllerChangeLog * (*ControllerChangeLog::ptr::New)(ControllerChangeLog * self) = (ControllerChangeLog * (*)(ControllerChangeLog * self)) 0x6706c0;
+inline void (*ControllerChangeLog::ptr::Update)(ControllerChangeLog * self) = (void (*)(ControllerChangeLog * self)) 0x6709b0;
+inline void (*ControllerChangeLog::ptr::Render)(ControllerChangeLog * self) = (void (*)(ControllerChangeLog * self)) 0x6709d0;
+inline void (*ControllerChangeLog::ptr::_RegainFocus)() = (void (*)()) 0x0;
+inline void (*ControllerChangeLog::ptr::GUICallback)(ControllerChangeLog * self, int index, bool left) = (void (*)(ControllerChangeLog * self, int index, bool left)) 0x67d0e0;
+inline void (*ControllerChangeLog::ptr::Destructor)(ControllerChangeLog * self) = (void (*)(ControllerChangeLog * self)) 0x67d1a0;
+inline void (*ControllerChangeLog::ptr::mark)(ControllerChangeLog * self) = (void (*)(ControllerChangeLog * self)) 0x67d230;
+inline void (*ControllerChangeLog::ptr::CSTR_ControllerChangeLog)(ControllerChangeLog * self) = (void (*)(ControllerChangeLog * self)) 0x6700c0;
 #endif
 
 #ifdef __linux__
 
-ControllerChangeLog * (*ControllerChangeLog::ptr::New)(ControllerChangeLog * self) = (ControllerChangeLog * (*)(ControllerChangeLog * self)) 0x81dd480;
-void (*ControllerChangeLog::ptr::Update)(ControllerChangeLog * self) = (void (*)(ControllerChangeLog * self)) 0x8078020;
-void (*ControllerChangeLog::ptr::Render)(ControllerChangeLog * self) = (void (*)(ControllerChangeLog * self)) 0x84082c0;
-void (*ControllerChangeLog::ptr::_RegainFocus)() = (void (*)()) 0x8078040;
-void (*ControllerChangeLog::ptr::GUICallback)(ControllerChangeLog * self, int index, bool left) = (void (*)(ControllerChangeLog * self, int index, bool left)) 0x8365470;
-void (*ControllerChangeLog::ptr::Destructor)(ControllerChangeLog * self) = (void (*)(ControllerChangeLog * self)) 0x8078050;
-void (*ControllerChangeLog::ptr::mark)(ControllerChangeLog * self) = (void (*)(ControllerChangeLog * self)) 0x80a73d0;
-void (*ControllerChangeLog::ptr::CSTR_ControllerChangeLog)(ControllerChangeLog * self) = (void (*)(ControllerChangeLog * self)) 0x81dc390;
+inline ControllerChangeLog * (*ControllerChangeLog::ptr::New)(ControllerChangeLog * self) = (ControllerChangeLog * (*)(ControllerChangeLog * self)) 0x81dd480;
+inline void (*ControllerChangeLog::ptr::Update)(ControllerChangeLog * self) = (void (*)(ControllerChangeLog * self)) 0x8078020;
+inline void (*ControllerChangeLog::ptr::Render)(ControllerChangeLog * self) = (void (*)(ControllerChangeLog * self)) 0x84082c0;
+inline void (*ControllerChangeLog::ptr::_RegainFocus)() = (void (*)()) 0x8078040;
+inline void (*ControllerChangeLog::ptr::GUICallback)(ControllerChangeLog * self, int index, bool left) = (void (*)(ControllerChangeLog * self, int index, bool left)) 0x8365470;
+inline void (*ControllerChangeLog::ptr::Destructor)(ControllerChangeLog * self) = (void (*)(ControllerChangeLog * self)) 0x8078050;
+inline void (*ControllerChangeLog::ptr::mark)(ControllerChangeLog * self) = (void (*)(ControllerChangeLog * self)) 0x80a73d0;
+inline void (*ControllerChangeLog::ptr::CSTR_ControllerChangeLog)(ControllerChangeLog * self) = (void (*)(ControllerChangeLog * self)) 0x81dc390;
 #endif
 #endif

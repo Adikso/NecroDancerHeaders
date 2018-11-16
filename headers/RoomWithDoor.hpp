@@ -25,17 +25,17 @@ public:
 
 #ifdef _WIN32
 
-RoomWithDoor * (*RoomWithDoor::ptr::New)(RoomWithDoor * self, Rect * body_, Rect * door_) = (RoomWithDoor * (*)(RoomWithDoor * self, Rect * body_, Rect * door_)) 0x6600a0;
-RoomWithDoor * (*RoomWithDoor::ptr::_new2)() = (RoomWithDoor * (*)()) 0x0;
-bool (*RoomWithDoor::ptr::IsWall2)(RoomWithDoor * self, int x, int y) = (bool (*)(RoomWithDoor * self, int x, int y)) 0x660170;
-void (*RoomWithDoor::ptr::_mark)() = (void (*)()) 0x0;
+inline RoomWithDoor * (*RoomWithDoor::ptr::New)(RoomWithDoor * self, Rect * body_, Rect * door_) = (RoomWithDoor * (*)(RoomWithDoor * self, Rect * body_, Rect * door_)) 0x6600a0;
+inline RoomWithDoor * (*RoomWithDoor::ptr::_new2)() = (RoomWithDoor * (*)()) 0x0;
+inline bool (*RoomWithDoor::ptr::IsWall2)(RoomWithDoor * self, int x, int y) = (bool (*)(RoomWithDoor * self, int x, int y)) 0x660170;
+inline void (*RoomWithDoor::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-RoomWithDoor * (*RoomWithDoor::ptr::New)(RoomWithDoor * self, Rect * body_, Rect * door_) = (RoomWithDoor * (*)(RoomWithDoor * self, Rect * body_, Rect * door_)) 0x8230a70;
-RoomWithDoor * (*RoomWithDoor::ptr::_new2)() = (RoomWithDoor * (*)()) 0x81d5470;
-bool (*RoomWithDoor::ptr::IsWall2)(RoomWithDoor * self, int x, int y) = (bool (*)(RoomWithDoor * self, int x, int y)) 0x8077160;
-void (*RoomWithDoor::ptr::_mark)() = (void (*)()) 0x80873b0;
+inline RoomWithDoor * (*RoomWithDoor::ptr::New)(RoomWithDoor * self, Rect * body_, Rect * door_) = (RoomWithDoor * (*)(RoomWithDoor * self, Rect * body_, Rect * door_)) 0x8230a70;
+inline RoomWithDoor * (*RoomWithDoor::ptr::_new2)() = (RoomWithDoor * (*)()) 0x81d5470;
+inline bool (*RoomWithDoor::ptr::IsWall2)(RoomWithDoor * self, int x, int y) = (bool (*)(RoomWithDoor * self, int x, int y)) 0x8077160;
+inline void (*RoomWithDoor::ptr::_mark)() = (void (*)()) 0x80873b0;
 #endif
 #endif

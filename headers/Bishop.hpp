@@ -24,17 +24,17 @@ public:
 
 #ifdef _WIN32
 
-Bishop * (*Bishop::ptr::New)(Bishop * self, int xVal, int yVal, int l) = (Bishop * (*)(Bishop * self, int xVal, int yVal, int l)) 0x656750;
-Bishop * (*Bishop::ptr::_new2)() = (Bishop * (*)()) 0x0;
-Point * (*Bishop::ptr::GetMovementDirection)(Bishop * self) = (Point * (*)(Bishop * self)) 0x6569c0;
-void (*Bishop::ptr::_mark)() = (void (*)()) 0x0;
+inline Bishop * (*Bishop::ptr::New)(Bishop * self, int xVal, int yVal, int l) = (Bishop * (*)(Bishop * self, int xVal, int yVal, int l)) 0x656750;
+inline Bishop * (*Bishop::ptr::_new2)() = (Bishop * (*)()) 0x0;
+inline Point * (*Bishop::ptr::GetMovementDirection)(Bishop * self) = (Point * (*)(Bishop * self)) 0x6569c0;
+inline void (*Bishop::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Bishop * (*Bishop::ptr::New)(Bishop * self, int xVal, int yVal, int l) = (Bishop * (*)(Bishop * self, int xVal, int yVal, int l)) 0x81c8c00;
-Bishop * (*Bishop::ptr::_new2)() = (Bishop * (*)()) 0x81c8de0;
-Point * (*Bishop::ptr::GetMovementDirection)(Bishop * self) = (Point * (*)(Bishop * self)) 0x81b0680;
-void (*Bishop::ptr::_mark)() = (void (*)()) 0x80b0250;
+inline Bishop * (*Bishop::ptr::New)(Bishop * self, int xVal, int yVal, int l) = (Bishop * (*)(Bishop * self, int xVal, int yVal, int l)) 0x81c8c00;
+inline Bishop * (*Bishop::ptr::_new2)() = (Bishop * (*)()) 0x81c8de0;
+inline Point * (*Bishop::ptr::GetMovementDirection)(Bishop * self) = (Point * (*)(Bishop * self)) 0x81b0680;
+inline void (*Bishop::ptr::_mark)() = (void (*)()) 0x80b0250;
 #endif
 #endif

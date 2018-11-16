@@ -42,24 +42,24 @@ public:
 };
 
 #ifdef _WIN32
-int * Zap::zapGenerationAlloc = (int*) 0x8355d0;
+inline int * Zap::zapGenerationAlloc = (int*) 0x8355d0;
 
-Zap * (*Zap::ptr::New)(Zap * self, Player * player_, int playerX_, int playerY_, int electricStrength_) = (Zap * (*)(Zap * self, Player * player_, int playerX_, int playerY_, int electricStrength_)) 0x6057c0;
-Zap * (*Zap::ptr::_new2)() = (Zap * (*)()) 0x0;
-void (*Zap::ptr::Add11)(Zap * self, Enemy * nme, int x, int y, int dir) = (void (*)(Zap * self, Enemy * nme, int x, int y, int dir)) 0x605840;
-void (*Zap::ptr::Commit)(Zap * self) = (void (*)(Zap * self)) 0x605900;
-void (*Zap::ptr::mark)(Zap * self) = (void (*)(Zap * self)) 0x6061c0;
-void (*Zap::ptr::CSTR_Zap)(Zap * self) = (void (*)(Zap * self)) 0x6056d0;
+inline Zap * (*Zap::ptr::New)(Zap * self, Player * player_, int playerX_, int playerY_, int electricStrength_) = (Zap * (*)(Zap * self, Player * player_, int playerX_, int playerY_, int electricStrength_)) 0x6057c0;
+inline Zap * (*Zap::ptr::_new2)() = (Zap * (*)()) 0x0;
+inline void (*Zap::ptr::Add11)(Zap * self, Enemy * nme, int x, int y, int dir) = (void (*)(Zap * self, Enemy * nme, int x, int y, int dir)) 0x605840;
+inline void (*Zap::ptr::Commit)(Zap * self) = (void (*)(Zap * self)) 0x605900;
+inline void (*Zap::ptr::mark)(Zap * self) = (void (*)(Zap * self)) 0x6061c0;
+inline void (*Zap::ptr::CSTR_Zap)(Zap * self) = (void (*)(Zap * self)) 0x6056d0;
 #endif
 
 #ifdef __linux__
-int * Zap::zapGenerationAlloc = (int*) 0x856a3d4;
+inline int * Zap::zapGenerationAlloc = (int*) 0x856a3d4;
 
-Zap * (*Zap::ptr::New)(Zap * self, Player * player_, int playerX_, int playerY_, int electricStrength_) = (Zap * (*)(Zap * self, Player * player_, int playerX_, int playerY_, int electricStrength_)) 0x81a9ba0;
-Zap * (*Zap::ptr::_new2)() = (Zap * (*)()) 0x81a9c20;
-void (*Zap::ptr::Add11)(Zap * self, Enemy * nme, int x, int y, int dir) = (void (*)(Zap * self, Enemy * nme, int x, int y, int dir)) 0x80b4e40;
-void (*Zap::ptr::Commit)(Zap * self) = (void (*)(Zap * self)) 0x83bc330;
-void (*Zap::ptr::mark)(Zap * self) = (void (*)(Zap * self)) 0x8096240;
-void (*Zap::ptr::CSTR_Zap)(Zap * self) = (void (*)(Zap * self)) 0x81a9b30;
+inline Zap * (*Zap::ptr::New)(Zap * self, Player * player_, int playerX_, int playerY_, int electricStrength_) = (Zap * (*)(Zap * self, Player * player_, int playerX_, int playerY_, int electricStrength_)) 0x81a9ba0;
+inline Zap * (*Zap::ptr::_new2)() = (Zap * (*)()) 0x81a9c20;
+inline void (*Zap::ptr::Add11)(Zap * self, Enemy * nme, int x, int y, int dir) = (void (*)(Zap * self, Enemy * nme, int x, int y, int dir)) 0x80b4e40;
+inline void (*Zap::ptr::Commit)(Zap * self) = (void (*)(Zap * self)) 0x83bc330;
+inline void (*Zap::ptr::mark)(Zap * self) = (void (*)(Zap * self)) 0x8096240;
+inline void (*Zap::ptr::CSTR_Zap)(Zap * self) = (void (*)(Zap * self)) 0x81a9b30;
 #endif
 #endif

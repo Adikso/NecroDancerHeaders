@@ -43,29 +43,29 @@ public:
 
 #ifdef _WIN32
 
-List20 * (*List20::ptr::_New)() = (List20 * (*)()) 0x0;
-Node30 * (*List20::ptr::AddLast20)(List20 * self, Chest * data) = (Node30 * (*)(List20 * self, Chest * data)) 0x5dd2d0;
-List20 * (*List20::ptr::_new2)(List20 * self, Array<Chest *> * arg1) = (List20 * (*)(List20 * self, Array<Chest *> * arg1)) 0x0;
-Enumerator10 * (*List20::ptr::ObjectEnumerator)(List20 * self) = (Enumerator10 * (*)(List20 * self)) 0x5dd370;
-bool (*List20::ptr::_Equals13)(List20 * self, Chest * arg1, Chest * arg2) = (bool (*)(List20 * self, Chest * arg1, Chest * arg2)) 0x0;
-int (*List20::ptr::_RemoveEach12)(List20 * self, Chest * arg1) = (int (*)(List20 * self, Chest * arg1)) 0x0;
-bool (*List20::ptr::_IsEmpty)() = (bool (*)()) 0x0;
-Chest * (*List20::ptr::_First)() = (Chest * (*)()) 0x0;
-void (*List20::ptr::_mark)() = (void (*)()) 0x0;
-void (*List20::ptr::CSTR_List20)(List20 * self) = (void (*)(List20 * self)) 0x5dd200;
+inline List20 * (*List20::ptr::_New)() = (List20 * (*)()) 0x0;
+inline Node30 * (*List20::ptr::AddLast20)(List20 * self, Chest * data) = (Node30 * (*)(List20 * self, Chest * data)) 0x5dd2d0;
+inline List20 * (*List20::ptr::_new2)(List20 * self, Array<Chest *> * arg1) = (List20 * (*)(List20 * self, Array<Chest *> * arg1)) 0x0;
+inline Enumerator10 * (*List20::ptr::ObjectEnumerator)(List20 * self) = (Enumerator10 * (*)(List20 * self)) 0x5dd370;
+inline bool (*List20::ptr::_Equals13)(List20 * self, Chest * arg1, Chest * arg2) = (bool (*)(List20 * self, Chest * arg1, Chest * arg2)) 0x0;
+inline int (*List20::ptr::_RemoveEach12)(List20 * self, Chest * arg1) = (int (*)(List20 * self, Chest * arg1)) 0x0;
+inline bool (*List20::ptr::_IsEmpty)() = (bool (*)()) 0x0;
+inline Chest * (*List20::ptr::_First)() = (Chest * (*)()) 0x0;
+inline void (*List20::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List20::ptr::CSTR_List20)(List20 * self) = (void (*)(List20 * self)) 0x5dd200;
 #endif
 
 #ifdef __linux__
 
-List20 * (*List20::ptr::_New)() = (List20 * (*)()) 0x8196a90;
-Node30 * (*List20::ptr::AddLast20)(List20 * self, Chest * data) = (Node30 * (*)(List20 * self, Chest * data)) 0x8196cd0;
-List20 * (*List20::ptr::_new2)(List20 * self, Array<Chest *> * arg1) = (List20 * (*)(List20 * self, Array<Chest *> * arg1)) 0x0;
-Enumerator10 * (*List20::ptr::ObjectEnumerator)(List20 * self) = (Enumerator10 * (*)(List20 * self)) 0x80b8360;
-bool (*List20::ptr::_Equals13)(List20 * self, Chest * arg1, Chest * arg2) = (bool (*)(List20 * self, Chest * arg1, Chest * arg2)) 0x8072040;
-int (*List20::ptr::_RemoveEach12)(List20 * self, Chest * arg1) = (int (*)(List20 * self, Chest * arg1)) 0x8072050;
-bool (*List20::ptr::_IsEmpty)() = (bool (*)()) 0x80720b0;
-Chest * (*List20::ptr::_First)() = (Chest * (*)()) 0x80720c0;
-void (*List20::ptr::_mark)() = (void (*)()) 0x8089f70;
-void (*List20::ptr::CSTR_List20)(List20 * self) = (void (*)(List20 * self)) 0x8196e10;
+inline List20 * (*List20::ptr::_New)() = (List20 * (*)()) 0x8196a90;
+inline Node30 * (*List20::ptr::AddLast20)(List20 * self, Chest * data) = (Node30 * (*)(List20 * self, Chest * data)) 0x8196cd0;
+inline List20 * (*List20::ptr::_new2)(List20 * self, Array<Chest *> * arg1) = (List20 * (*)(List20 * self, Array<Chest *> * arg1)) 0x0;
+inline Enumerator10 * (*List20::ptr::ObjectEnumerator)(List20 * self) = (Enumerator10 * (*)(List20 * self)) 0x80b8360;
+inline bool (*List20::ptr::_Equals13)(List20 * self, Chest * arg1, Chest * arg2) = (bool (*)(List20 * self, Chest * arg1, Chest * arg2)) 0x8072040;
+inline int (*List20::ptr::_RemoveEach12)(List20 * self, Chest * arg1) = (int (*)(List20 * self, Chest * arg1)) 0x8072050;
+inline bool (*List20::ptr::_IsEmpty)() = (bool (*)()) 0x80720b0;
+inline Chest * (*List20::ptr::_First)() = (Chest * (*)()) 0x80720c0;
+inline void (*List20::ptr::_mark)() = (void (*)()) 0x8089f70;
+inline void (*List20::ptr::CSTR_List20)(List20 * self) = (void (*)(List20 * self)) 0x8196e10;
 #endif
 #endif

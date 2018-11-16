@@ -30,19 +30,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator4 * (*Enumerator4::ptr::_New)(Enumerator4 * self, List7 * arg1) = (Enumerator4 * (*)(Enumerator4 * self, List7 * arg1)) 0x0;
-Enumerator4 * (*Enumerator4::ptr::_new2)() = (Enumerator4 * (*)()) 0x0;
-bool (*Enumerator4::ptr::_HasNext)() = (bool (*)()) 0x0;
-FamiliarFixed * (*Enumerator4::ptr::_NextObject)() = (FamiliarFixed * (*)()) 0x0;
-void (*Enumerator4::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator4 * (*Enumerator4::ptr::_New)(Enumerator4 * self, List7 * arg1) = (Enumerator4 * (*)(Enumerator4 * self, List7 * arg1)) 0x0;
+inline Enumerator4 * (*Enumerator4::ptr::_new2)() = (Enumerator4 * (*)()) 0x0;
+inline bool (*Enumerator4::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline FamiliarFixed * (*Enumerator4::ptr::_NextObject)() = (FamiliarFixed * (*)()) 0x0;
+inline void (*Enumerator4::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator4 * (*Enumerator4::ptr::_New)(Enumerator4 * self, List7 * arg1) = (Enumerator4 * (*)(Enumerator4 * self, List7 * arg1)) 0x8159af0;
-Enumerator4 * (*Enumerator4::ptr::_new2)() = (Enumerator4 * (*)()) 0x8159ba0;
-bool (*Enumerator4::ptr::_HasNext)() = (bool (*)()) 0x8094430;
-FamiliarFixed * (*Enumerator4::ptr::_NextObject)() = (FamiliarFixed * (*)()) 0x80943c0;
-void (*Enumerator4::ptr::_mark)() = (void (*)()) 0x808ad70;
+inline Enumerator4 * (*Enumerator4::ptr::_New)(Enumerator4 * self, List7 * arg1) = (Enumerator4 * (*)(Enumerator4 * self, List7 * arg1)) 0x8159af0;
+inline Enumerator4 * (*Enumerator4::ptr::_new2)() = (Enumerator4 * (*)()) 0x8159ba0;
+inline bool (*Enumerator4::ptr::_HasNext)() = (bool (*)()) 0x8094430;
+inline FamiliarFixed * (*Enumerator4::ptr::_NextObject)() = (FamiliarFixed * (*)()) 0x80943c0;
+inline void (*Enumerator4::ptr::_mark)() = (void (*)()) 0x808ad70;
 #endif
 #endif

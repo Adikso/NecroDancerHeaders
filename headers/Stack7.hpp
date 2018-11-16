@@ -43,31 +43,31 @@ public:
 
 #ifdef _WIN32
 
-Stack7 * (*Stack7::ptr::_New)() = (Stack7 * (*)()) 0x0;
-Stack7 * (*Stack7::ptr::_new2)(Stack7 * self, Array<PortalSeg *> * arg1) = (Stack7 * (*)(Stack7 * self, Array<PortalSeg *> * arg1)) 0x0;
-int (*Stack7::ptr::_Push19)(Stack7 * self, PortalSeg * arg1) = (int (*)(Stack7 * self, PortalSeg * arg1)) 0x0;
-int (*Stack7::ptr::_Push20)(Stack7 * self, Array<PortalSeg *> * arg1, int arg2, int arg3) = (int (*)(Stack7 * self, Array<PortalSeg *> * arg1, int arg2, int arg3)) 0x0;
-int (*Stack7::ptr::_Push21)(Stack7 * self, Array<PortalSeg *> * arg1, int arg2) = (int (*)(Stack7 * self, Array<PortalSeg *> * arg1, int arg2)) 0x0;
-Enumerator37 * (*Stack7::ptr::_ObjectEnumerator)() = (Enumerator37 * (*)()) 0x0;
-int (*Stack7::ptr::_Length)() = (int (*)()) 0x0;
-PortalSeg * (*Stack7::ptr::_Get2)(Stack7 * self, int arg1) = (PortalSeg * (*)(Stack7 * self, int arg1)) 0x0;
-int (*Stack7::ptr::_Set22)(Stack7 * self, int arg1, PortalSeg * arg2) = (int (*)(Stack7 * self, int arg1, PortalSeg * arg2)) 0x0;
-void (*Stack7::ptr::_mark)() = (void (*)()) 0x0;
-int (*Stack7::ptr::Push19)(Stack7 * self, RoomWithDoor * value) = (int (*)(Stack7 * self, RoomWithDoor * value)) 0x6601b0;
+inline Stack7 * (*Stack7::ptr::_New)() = (Stack7 * (*)()) 0x0;
+inline Stack7 * (*Stack7::ptr::_new2)(Stack7 * self, Array<PortalSeg *> * arg1) = (Stack7 * (*)(Stack7 * self, Array<PortalSeg *> * arg1)) 0x0;
+inline int (*Stack7::ptr::_Push19)(Stack7 * self, PortalSeg * arg1) = (int (*)(Stack7 * self, PortalSeg * arg1)) 0x0;
+inline int (*Stack7::ptr::_Push20)(Stack7 * self, Array<PortalSeg *> * arg1, int arg2, int arg3) = (int (*)(Stack7 * self, Array<PortalSeg *> * arg1, int arg2, int arg3)) 0x0;
+inline int (*Stack7::ptr::_Push21)(Stack7 * self, Array<PortalSeg *> * arg1, int arg2) = (int (*)(Stack7 * self, Array<PortalSeg *> * arg1, int arg2)) 0x0;
+inline Enumerator37 * (*Stack7::ptr::_ObjectEnumerator)() = (Enumerator37 * (*)()) 0x0;
+inline int (*Stack7::ptr::_Length)() = (int (*)()) 0x0;
+inline PortalSeg * (*Stack7::ptr::_Get2)(Stack7 * self, int arg1) = (PortalSeg * (*)(Stack7 * self, int arg1)) 0x0;
+inline int (*Stack7::ptr::_Set22)(Stack7 * self, int arg1, PortalSeg * arg2) = (int (*)(Stack7 * self, int arg1, PortalSeg * arg2)) 0x0;
+inline void (*Stack7::ptr::_mark)() = (void (*)()) 0x0;
+inline int (*Stack7::ptr::Push19)(Stack7 * self, RoomWithDoor * value) = (int (*)(Stack7 * self, RoomWithDoor * value)) 0x6601b0;
 #endif
 
 #ifdef __linux__
 
-Stack7 * (*Stack7::ptr::_New)() = (Stack7 * (*)()) 0x81d5590;
-Stack7 * (*Stack7::ptr::_new2)(Stack7 * self, Array<PortalSeg *> * arg1) = (Stack7 * (*)(Stack7 * self, Array<PortalSeg *> * arg1)) 0x0;
-int (*Stack7::ptr::_Push19)(Stack7 * self, PortalSeg * arg1) = (int (*)(Stack7 * self, PortalSeg * arg1)) 0x0;
-int (*Stack7::ptr::_Push20)(Stack7 * self, Array<PortalSeg *> * arg1, int arg2, int arg3) = (int (*)(Stack7 * self, Array<PortalSeg *> * arg1, int arg2, int arg3)) 0x0;
-int (*Stack7::ptr::_Push21)(Stack7 * self, Array<PortalSeg *> * arg1, int arg2) = (int (*)(Stack7 * self, Array<PortalSeg *> * arg1, int arg2)) 0x0;
-Enumerator37 * (*Stack7::ptr::_ObjectEnumerator)() = (Enumerator37 * (*)()) 0x0;
-int (*Stack7::ptr::_Length)() = (int (*)()) 0x8077270;
-PortalSeg * (*Stack7::ptr::_Get2)(Stack7 * self, int arg1) = (PortalSeg * (*)(Stack7 * self, int arg1)) 0x8077280;
-int (*Stack7::ptr::_Set22)(Stack7 * self, int arg1, PortalSeg * arg2) = (int (*)(Stack7 * self, int arg1, PortalSeg * arg2)) 0x0;
-void (*Stack7::ptr::_mark)() = (void (*)()) 0x8077290;
-int (*Stack7::ptr::Push19)(Stack7 * self, RoomWithDoor * value) = (int (*)(Stack7 * self, RoomWithDoor * value)) 0x80bec80;
+inline Stack7 * (*Stack7::ptr::_New)() = (Stack7 * (*)()) 0x81d5590;
+inline Stack7 * (*Stack7::ptr::_new2)(Stack7 * self, Array<PortalSeg *> * arg1) = (Stack7 * (*)(Stack7 * self, Array<PortalSeg *> * arg1)) 0x0;
+inline int (*Stack7::ptr::_Push19)(Stack7 * self, PortalSeg * arg1) = (int (*)(Stack7 * self, PortalSeg * arg1)) 0x0;
+inline int (*Stack7::ptr::_Push20)(Stack7 * self, Array<PortalSeg *> * arg1, int arg2, int arg3) = (int (*)(Stack7 * self, Array<PortalSeg *> * arg1, int arg2, int arg3)) 0x0;
+inline int (*Stack7::ptr::_Push21)(Stack7 * self, Array<PortalSeg *> * arg1, int arg2) = (int (*)(Stack7 * self, Array<PortalSeg *> * arg1, int arg2)) 0x0;
+inline Enumerator37 * (*Stack7::ptr::_ObjectEnumerator)() = (Enumerator37 * (*)()) 0x0;
+inline int (*Stack7::ptr::_Length)() = (int (*)()) 0x8077270;
+inline PortalSeg * (*Stack7::ptr::_Get2)(Stack7 * self, int arg1) = (PortalSeg * (*)(Stack7 * self, int arg1)) 0x8077280;
+inline int (*Stack7::ptr::_Set22)(Stack7 * self, int arg1, PortalSeg * arg2) = (int (*)(Stack7 * self, int arg1, PortalSeg * arg2)) 0x0;
+inline void (*Stack7::ptr::_mark)() = (void (*)()) 0x8077290;
+inline int (*Stack7::ptr::Push19)(Stack7 * self, RoomWithDoor * value) = (int (*)(Stack7 * self, RoomWithDoor * value)) 0x80bec80;
 #endif
 #endif

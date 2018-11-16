@@ -24,17 +24,17 @@ public:
 
 #ifdef _WIN32
 
-StackEx2 * (*StackEx2::ptr::_New)() = (StackEx2 * (*)()) 0x0;
-Point * (*StackEx2::ptr::_ChooseRandom)(StackEx2 * self, bool arg1) = (Point * (*)(StackEx2 * self, bool arg1)) 0x0;
-void (*StackEx2::ptr::_Shuffle)(StackEx2 * self, bool arg1) = (void (*)(StackEx2 * self, bool arg1)) 0x0;
-void (*StackEx2::ptr::_mark)() = (void (*)()) 0x0;
+inline StackEx2 * (*StackEx2::ptr::_New)() = (StackEx2 * (*)()) 0x0;
+inline Point * (*StackEx2::ptr::_ChooseRandom)(StackEx2 * self, bool arg1) = (Point * (*)(StackEx2 * self, bool arg1)) 0x0;
+inline void (*StackEx2::ptr::_Shuffle)(StackEx2 * self, bool arg1) = (void (*)(StackEx2 * self, bool arg1)) 0x0;
+inline void (*StackEx2::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-StackEx2 * (*StackEx2::ptr::_New)() = (StackEx2 * (*)()) 0x81bb120;
-Point * (*StackEx2::ptr::_ChooseRandom)(StackEx2 * self, bool arg1) = (Point * (*)(StackEx2 * self, bool arg1)) 0x81007a0;
-void (*StackEx2::ptr::_Shuffle)(StackEx2 * self, bool arg1) = (void (*)(StackEx2 * self, bool arg1)) 0x8100700;
-void (*StackEx2::ptr::_mark)() = (void (*)()) 0x808ba10;
+inline StackEx2 * (*StackEx2::ptr::_New)() = (StackEx2 * (*)()) 0x81bb120;
+inline Point * (*StackEx2::ptr::_ChooseRandom)(StackEx2 * self, bool arg1) = (Point * (*)(StackEx2 * self, bool arg1)) 0x81007a0;
+inline void (*StackEx2::ptr::_Shuffle)(StackEx2 * self, bool arg1) = (void (*)(StackEx2 * self, bool arg1)) 0x8100700;
+inline void (*StackEx2::ptr::_mark)() = (void (*)()) 0x808ba10;
 #endif
 #endif

@@ -30,19 +30,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator32 * (*Enumerator32::ptr::_New)(Enumerator32 * self, List13 * arg1) = (Enumerator32 * (*)(Enumerator32 * self, List13 * arg1)) 0x0;
-Enumerator32 * (*Enumerator32::ptr::_new2)() = (Enumerator32 * (*)()) 0x0;
-bool (*Enumerator32::ptr::_HasNext)() = (bool (*)()) 0x0;
-TileObject * (*Enumerator32::ptr::_NextObject)() = (TileObject * (*)()) 0x0;
-void (*Enumerator32::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator32 * (*Enumerator32::ptr::_New)(Enumerator32 * self, List13 * arg1) = (Enumerator32 * (*)(Enumerator32 * self, List13 * arg1)) 0x0;
+inline Enumerator32 * (*Enumerator32::ptr::_new2)() = (Enumerator32 * (*)()) 0x0;
+inline bool (*Enumerator32::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline TileObject * (*Enumerator32::ptr::_NextObject)() = (TileObject * (*)()) 0x0;
+inline void (*Enumerator32::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator32 * (*Enumerator32::ptr::_New)(Enumerator32 * self, List13 * arg1) = (Enumerator32 * (*)(Enumerator32 * self, List13 * arg1)) 0x0;
-Enumerator32 * (*Enumerator32::ptr::_new2)() = (Enumerator32 * (*)()) 0x81d3e70;
-bool (*Enumerator32::ptr::_HasNext)() = (bool (*)()) 0x808f710;
-TileObject * (*Enumerator32::ptr::_NextObject)() = (TileObject * (*)()) 0x808f6a0;
-void (*Enumerator32::ptr::_mark)() = (void (*)()) 0x8088010;
+inline Enumerator32 * (*Enumerator32::ptr::_New)(Enumerator32 * self, List13 * arg1) = (Enumerator32 * (*)(Enumerator32 * self, List13 * arg1)) 0x0;
+inline Enumerator32 * (*Enumerator32::ptr::_new2)() = (Enumerator32 * (*)()) 0x81d3e70;
+inline bool (*Enumerator32::ptr::_HasNext)() = (bool (*)()) 0x808f710;
+inline TileObject * (*Enumerator32::ptr::_NextObject)() = (TileObject * (*)()) 0x808f6a0;
+inline void (*Enumerator32::ptr::_mark)() = (void (*)()) 0x8088010;
 #endif
 #endif

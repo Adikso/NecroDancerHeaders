@@ -57,30 +57,30 @@ public:
 };
 
 #ifdef _WIN32
-Sprite * * ControllerIntro::videoSpr = (Sprite* *) 0x835b80;
-bool * ControllerIntro::quitIntro = (bool*) 0x835b62;
+inline Sprite * * ControllerIntro::videoSpr = (Sprite* *) 0x835b80;
+inline bool * ControllerIntro::quitIntro = (bool*) 0x835b62;
 
-ControllerIntro * (*ControllerIntro::ptr::New)(ControllerIntro * self) = (ControllerIntro * (*)(ControllerIntro * self)) 0x542e90;
-void (*ControllerIntro::ptr::RegainFocus)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x53a860;
-void (*ControllerIntro::ptr::DrawFrame)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x543da0;
-void (*ControllerIntro::ptr::Update)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x543eb0;
-void (*ControllerIntro::ptr::Render)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x544680;
-void (*ControllerIntro::ptr::Destructor)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x5447b0;
-void (*ControllerIntro::ptr::mark)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x544800;
-void (*ControllerIntro::ptr::CSTR_ControllerIntro)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x542ba0;
+inline ControllerIntro * (*ControllerIntro::ptr::New)(ControllerIntro * self) = (ControllerIntro * (*)(ControllerIntro * self)) 0x542e90;
+inline void (*ControllerIntro::ptr::RegainFocus)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x53a860;
+inline void (*ControllerIntro::ptr::DrawFrame)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x543da0;
+inline void (*ControllerIntro::ptr::Update)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x543eb0;
+inline void (*ControllerIntro::ptr::Render)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x544680;
+inline void (*ControllerIntro::ptr::Destructor)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x5447b0;
+inline void (*ControllerIntro::ptr::mark)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x544800;
+inline void (*ControllerIntro::ptr::CSTR_ControllerIntro)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x542ba0;
 #endif
 
 #ifdef __linux__
-Sprite * * ControllerIntro::videoSpr = (Sprite* *) 0x856a84c;
-bool * ControllerIntro::quitIntro = (bool*) 0x856a848;
+inline Sprite * * ControllerIntro::videoSpr = (Sprite* *) 0x856a84c;
+inline bool * ControllerIntro::quitIntro = (bool*) 0x856a848;
 
-ControllerIntro * (*ControllerIntro::ptr::New)(ControllerIntro * self) = (ControllerIntro * (*)(ControllerIntro * self)) 0x8379130;
-void (*ControllerIntro::ptr::RegainFocus)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x806f6a0;
-void (*ControllerIntro::ptr::DrawFrame)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x8350d00;
-void (*ControllerIntro::ptr::Update)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x83149c0;
-void (*ControllerIntro::ptr::Render)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x841f300;
-void (*ControllerIntro::ptr::Destructor)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x80fd180;
-void (*ControllerIntro::ptr::mark)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x80ab110;
-void (*ControllerIntro::ptr::CSTR_ControllerIntro)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x8151370;
+inline ControllerIntro * (*ControllerIntro::ptr::New)(ControllerIntro * self) = (ControllerIntro * (*)(ControllerIntro * self)) 0x8379130;
+inline void (*ControllerIntro::ptr::RegainFocus)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x806f6a0;
+inline void (*ControllerIntro::ptr::DrawFrame)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x8350d00;
+inline void (*ControllerIntro::ptr::Update)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x83149c0;
+inline void (*ControllerIntro::ptr::Render)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x841f300;
+inline void (*ControllerIntro::ptr::Destructor)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x80fd180;
+inline void (*ControllerIntro::ptr::mark)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x80ab110;
+inline void (*ControllerIntro::ptr::CSTR_ControllerIntro)(ControllerIntro * self) = (void (*)(ControllerIntro * self)) 0x8151370;
 #endif
 #endif

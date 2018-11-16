@@ -35,19 +35,19 @@ public:
 
 #ifdef _WIN32
 
-Node36 * (*Node36::ptr::_New)(Node36 * self, String * arg1, Object * arg2, int arg3, Node36 * arg4) = (Node36 * (*)(Node36 * self, String * arg1, Object * arg2, int arg3, Node36 * arg4)) 0x0;
-Node36 * (*Node36::ptr::_new2)() = (Node36 * (*)()) 0x0;
-void (*Node36::ptr::_mark)() = (void (*)()) 0x0;
-void (*Node36::ptr::CSTR_Node36)(Node36 * self) = (void (*)(Node36 * self)) 0x5e0e60;
-Node36 * (*Node36::ptr::_New_2)(Node36 * self, String * key, bool value, int color, Node36 * parent) = (Node36 * (*)(Node36 * self, String * key, bool value, int color, Node36 * parent)) 0x5e0f40;
+inline Node36 * (*Node36::ptr::_New)(Node36 * self, String * arg1, Object * arg2, int arg3, Node36 * arg4) = (Node36 * (*)(Node36 * self, String * arg1, Object * arg2, int arg3, Node36 * arg4)) 0x0;
+inline Node36 * (*Node36::ptr::_new2)() = (Node36 * (*)()) 0x0;
+inline void (*Node36::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Node36::ptr::CSTR_Node36)(Node36 * self) = (void (*)(Node36 * self)) 0x5e0e60;
+inline Node36 * (*Node36::ptr::_New_2)(Node36 * self, String * key, bool value, int color, Node36 * parent) = (Node36 * (*)(Node36 * self, String * key, bool value, int color, Node36 * parent)) 0x5e0f40;
 #endif
 
 #ifdef __linux__
 
-Node36 * (*Node36::ptr::_New)(Node36 * self, String * arg1, Object * arg2, int arg3, Node36 * arg4) = (Node36 * (*)(Node36 * self, String * arg1, Object * arg2, int arg3, Node36 * arg4)) 0x0;
-Node36 * (*Node36::ptr::_new2)() = (Node36 * (*)()) 0x81aa280;
-void (*Node36::ptr::_mark)() = (void (*)()) 0x80874b0;
-void (*Node36::ptr::CSTR_Node36)(Node36 * self) = (void (*)(Node36 * self)) 0x81aa040;
-Node36 * (*Node36::ptr::_New_2)(Node36 * self, String * key, bool value, int color, Node36 * parent) = (Node36 * (*)(Node36 * self, String * key, bool value, int color, Node36 * parent)) 0x0;
+inline Node36 * (*Node36::ptr::_New)(Node36 * self, String * arg1, Object * arg2, int arg3, Node36 * arg4) = (Node36 * (*)(Node36 * self, String * arg1, Object * arg2, int arg3, Node36 * arg4)) 0x0;
+inline Node36 * (*Node36::ptr::_new2)() = (Node36 * (*)()) 0x81aa280;
+inline void (*Node36::ptr::_mark)() = (void (*)()) 0x80874b0;
+inline void (*Node36::ptr::CSTR_Node36)(Node36 * self) = (void (*)(Node36 * self)) 0x81aa040;
+inline Node36 * (*Node36::ptr::_New_2)(Node36 * self, String * key, bool value, int color, Node36 * parent) = (Node36 * (*)(Node36 * self, String * key, bool value, int color, Node36 * parent)) 0x0;
 #endif
 #endif

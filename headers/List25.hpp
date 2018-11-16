@@ -35,21 +35,21 @@ public:
 
 #ifdef _WIN32
 
-List25 * (*List25::ptr::_New)() = (List25 * (*)()) 0x0;
-Node39 * (*List25::ptr::AddLast25)(List25 * self, WeaponPoint * data) = (Node39 * (*)(List25 * self, WeaponPoint * data)) 0x5ed3e0;
-List25 * (*List25::ptr::_new2)(List25 * self, Array<WeaponPoint *> * arg1) = (List25 * (*)(List25 * self, Array<WeaponPoint *> * arg1)) 0x0;
-Enumerator20 * (*List25::ptr::ObjectEnumerator)(List25 * self) = (Enumerator20 * (*)(List25 * self)) 0x5ed480;
-void (*List25::ptr::_mark)() = (void (*)()) 0x0;
-void (*List25::ptr::CSTR_List25)(List25 * self) = (void (*)(List25 * self)) 0x5ed310;
+inline List25 * (*List25::ptr::_New)() = (List25 * (*)()) 0x0;
+inline Node39 * (*List25::ptr::AddLast25)(List25 * self, WeaponPoint * data) = (Node39 * (*)(List25 * self, WeaponPoint * data)) 0x5ed3e0;
+inline List25 * (*List25::ptr::_new2)(List25 * self, Array<WeaponPoint *> * arg1) = (List25 * (*)(List25 * self, Array<WeaponPoint *> * arg1)) 0x0;
+inline Enumerator20 * (*List25::ptr::ObjectEnumerator)(List25 * self) = (Enumerator20 * (*)(List25 * self)) 0x5ed480;
+inline void (*List25::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List25::ptr::CSTR_List25)(List25 * self) = (void (*)(List25 * self)) 0x5ed310;
 #endif
 
 #ifdef __linux__
 
-List25 * (*List25::ptr::_New)() = (List25 * (*)()) 0x819ae30;
-Node39 * (*List25::ptr::AddLast25)(List25 * self, WeaponPoint * data) = (Node39 * (*)(List25 * self, WeaponPoint * data)) 0x819b070;
-List25 * (*List25::ptr::_new2)(List25 * self, Array<WeaponPoint *> * arg1) = (List25 * (*)(List25 * self, Array<WeaponPoint *> * arg1)) 0x0;
-Enumerator20 * (*List25::ptr::ObjectEnumerator)(List25 * self) = (Enumerator20 * (*)(List25 * self)) 0x80b9b50;
-void (*List25::ptr::_mark)() = (void (*)()) 0x8082b60;
-void (*List25::ptr::CSTR_List25)(List25 * self) = (void (*)(List25 * self)) 0x819b1b0;
+inline List25 * (*List25::ptr::_New)() = (List25 * (*)()) 0x819ae30;
+inline Node39 * (*List25::ptr::AddLast25)(List25 * self, WeaponPoint * data) = (Node39 * (*)(List25 * self, WeaponPoint * data)) 0x819b070;
+inline List25 * (*List25::ptr::_new2)(List25 * self, Array<WeaponPoint *> * arg1) = (List25 * (*)(List25 * self, Array<WeaponPoint *> * arg1)) 0x0;
+inline Enumerator20 * (*List25::ptr::ObjectEnumerator)(List25 * self) = (Enumerator20 * (*)(List25 * self)) 0x80b9b50;
+inline void (*List25::ptr::_mark)() = (void (*)()) 0x8082b60;
+inline void (*List25::ptr::CSTR_List25)(List25 * self) = (void (*)(List25 * self)) 0x819b1b0;
 #endif
 #endif

@@ -58,37 +58,37 @@ public:
 
 #ifdef _WIN32
 
-TarMonster * (*TarMonster::ptr::New)(TarMonster * self, int xVal, int yVal, int l) = (TarMonster * (*)(TarMonster * self, int xVal, int yVal, int l)) 0x63f7c0;
-TarMonster * (*TarMonster::ptr::_new2)() = (TarMonster * (*)()) 0x0;
-bool (*TarMonster::ptr::CanBeDamaged)(TarMonster * self, bool phasing, bool piercing) = (bool (*)(TarMonster * self, bool phasing, bool piercing)) 0x63ff60;
-void (*TarMonster::ptr::Update)(TarMonster * self) = (void (*)(TarMonster * self)) 0x63ff90;
-void (*TarMonster::ptr::Render)(TarMonster * self) = (void (*)(TarMonster * self)) 0x640250;
-Point * (*TarMonster::ptr::GetMovementDirection)(TarMonster * self) = (Point * (*)(TarMonster * self)) 0x6402b0;
-void (*TarMonster::ptr::AttemptClamp)(TarMonster * self) = (void (*)(TarMonster * self)) 0x640c30;
-int (*TarMonster::ptr::PerformMovement)(TarMonster * self, int xVal, int yVal) = (int (*)(TarMonster * self, int xVal, int yVal)) 0x641020;
-void (*TarMonster::ptr::MoveSucceed)(TarMonster * self, bool hitPlayer, bool moveDelayed) = (void (*)(TarMonster * self, bool hitPlayer, bool moveDelayed)) 0x641400;
-bool (*TarMonster::ptr::_Hit)(TarMonster * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(TarMonster * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x0;
-bool (*TarMonster::ptr::DislodgeAttempt)(TarMonster * self) = (bool (*)(TarMonster * self)) 0x641510;
-void (*TarMonster::ptr::Die)(TarMonster * self) = (void (*)(TarMonster * self)) 0x6415e0;
-void (*TarMonster::ptr::mark)(TarMonster * self) = (void (*)(TarMonster * self)) 0x641620;
-void (*TarMonster::ptr::CSTR_TarMonster)(TarMonster * self) = (void (*)(TarMonster * self)) 0x63f720;
+inline TarMonster * (*TarMonster::ptr::New)(TarMonster * self, int xVal, int yVal, int l) = (TarMonster * (*)(TarMonster * self, int xVal, int yVal, int l)) 0x63f7c0;
+inline TarMonster * (*TarMonster::ptr::_new2)() = (TarMonster * (*)()) 0x0;
+inline bool (*TarMonster::ptr::CanBeDamaged)(TarMonster * self, bool phasing, bool piercing) = (bool (*)(TarMonster * self, bool phasing, bool piercing)) 0x63ff60;
+inline void (*TarMonster::ptr::Update)(TarMonster * self) = (void (*)(TarMonster * self)) 0x63ff90;
+inline void (*TarMonster::ptr::Render)(TarMonster * self) = (void (*)(TarMonster * self)) 0x640250;
+inline Point * (*TarMonster::ptr::GetMovementDirection)(TarMonster * self) = (Point * (*)(TarMonster * self)) 0x6402b0;
+inline void (*TarMonster::ptr::AttemptClamp)(TarMonster * self) = (void (*)(TarMonster * self)) 0x640c30;
+inline int (*TarMonster::ptr::PerformMovement)(TarMonster * self, int xVal, int yVal) = (int (*)(TarMonster * self, int xVal, int yVal)) 0x641020;
+inline void (*TarMonster::ptr::MoveSucceed)(TarMonster * self, bool hitPlayer, bool moveDelayed) = (void (*)(TarMonster * self, bool hitPlayer, bool moveDelayed)) 0x641400;
+inline bool (*TarMonster::ptr::_Hit)(TarMonster * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(TarMonster * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x0;
+inline bool (*TarMonster::ptr::DislodgeAttempt)(TarMonster * self) = (bool (*)(TarMonster * self)) 0x641510;
+inline void (*TarMonster::ptr::Die)(TarMonster * self) = (void (*)(TarMonster * self)) 0x6415e0;
+inline void (*TarMonster::ptr::mark)(TarMonster * self) = (void (*)(TarMonster * self)) 0x641620;
+inline void (*TarMonster::ptr::CSTR_TarMonster)(TarMonster * self) = (void (*)(TarMonster * self)) 0x63f720;
 #endif
 
 #ifdef __linux__
 
-TarMonster * (*TarMonster::ptr::New)(TarMonster * self, int xVal, int yVal, int l) = (TarMonster * (*)(TarMonster * self, int xVal, int yVal, int l)) 0x81c1f80;
-TarMonster * (*TarMonster::ptr::_new2)() = (TarMonster * (*)()) 0x81c25b0;
-bool (*TarMonster::ptr::CanBeDamaged)(TarMonster * self, bool phasing, bool piercing) = (bool (*)(TarMonster * self, bool phasing, bool piercing)) 0x807f700;
-void (*TarMonster::ptr::Update)(TarMonster * self) = (void (*)(TarMonster * self)) 0x8382550;
-void (*TarMonster::ptr::Render)(TarMonster * self) = (void (*)(TarMonster * self)) 0x830c0a0;
-Point * (*TarMonster::ptr::GetMovementDirection)(TarMonster * self) = (Point * (*)(TarMonster * self)) 0x8135ab0;
-void (*TarMonster::ptr::AttemptClamp)(TarMonster * self) = (void (*)(TarMonster * self)) 0x83a4c40;
-int (*TarMonster::ptr::PerformMovement)(TarMonster * self, int xVal, int yVal) = (int (*)(TarMonster * self, int xVal, int yVal)) 0x826aba0;
-void (*TarMonster::ptr::MoveSucceed)(TarMonster * self, bool hitPlayer, bool moveDelayed) = (void (*)(TarMonster * self, bool hitPlayer, bool moveDelayed)) 0x83a4f00;
-bool (*TarMonster::ptr::_Hit)(TarMonster * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(TarMonster * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x8398fe0;
-bool (*TarMonster::ptr::DislodgeAttempt)(TarMonster * self) = (bool (*)(TarMonster * self)) 0x80c71b0;
-void (*TarMonster::ptr::Die)(TarMonster * self) = (void (*)(TarMonster * self)) 0x83b62e0;
-void (*TarMonster::ptr::mark)(TarMonster * self) = (void (*)(TarMonster * self)) 0x80b1b20;
-void (*TarMonster::ptr::CSTR_TarMonster)(TarMonster * self) = (void (*)(TarMonster * self)) 0x81c1f20;
+inline TarMonster * (*TarMonster::ptr::New)(TarMonster * self, int xVal, int yVal, int l) = (TarMonster * (*)(TarMonster * self, int xVal, int yVal, int l)) 0x81c1f80;
+inline TarMonster * (*TarMonster::ptr::_new2)() = (TarMonster * (*)()) 0x81c25b0;
+inline bool (*TarMonster::ptr::CanBeDamaged)(TarMonster * self, bool phasing, bool piercing) = (bool (*)(TarMonster * self, bool phasing, bool piercing)) 0x807f700;
+inline void (*TarMonster::ptr::Update)(TarMonster * self) = (void (*)(TarMonster * self)) 0x8382550;
+inline void (*TarMonster::ptr::Render)(TarMonster * self) = (void (*)(TarMonster * self)) 0x830c0a0;
+inline Point * (*TarMonster::ptr::GetMovementDirection)(TarMonster * self) = (Point * (*)(TarMonster * self)) 0x8135ab0;
+inline void (*TarMonster::ptr::AttemptClamp)(TarMonster * self) = (void (*)(TarMonster * self)) 0x83a4c40;
+inline int (*TarMonster::ptr::PerformMovement)(TarMonster * self, int xVal, int yVal) = (int (*)(TarMonster * self, int xVal, int yVal)) 0x826aba0;
+inline void (*TarMonster::ptr::MoveSucceed)(TarMonster * self, bool hitPlayer, bool moveDelayed) = (void (*)(TarMonster * self, bool hitPlayer, bool moveDelayed)) 0x83a4f00;
+inline bool (*TarMonster::ptr::_Hit)(TarMonster * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(TarMonster * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x8398fe0;
+inline bool (*TarMonster::ptr::DislodgeAttempt)(TarMonster * self) = (bool (*)(TarMonster * self)) 0x80c71b0;
+inline void (*TarMonster::ptr::Die)(TarMonster * self) = (void (*)(TarMonster * self)) 0x83b62e0;
+inline void (*TarMonster::ptr::mark)(TarMonster * self) = (void (*)(TarMonster * self)) 0x80b1b20;
+inline void (*TarMonster::ptr::CSTR_TarMonster)(TarMonster * self) = (void (*)(TarMonster * self)) 0x81c1f20;
 #endif
 #endif

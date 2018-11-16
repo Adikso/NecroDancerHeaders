@@ -40,25 +40,25 @@ public:
 
 #ifdef _WIN32
 
-Toad * (*Toad::ptr::New)(Toad * self, int xVal, int yVal, int l) = (Toad * (*)(Toad * self, int xVal, int yVal, int l)) 0x684c70;
-Toad * (*Toad::ptr::_new2)() = (Toad * (*)()) 0x0;
-Point * (*Toad::ptr::GetMovementDirection)(Toad * self) = (Point * (*)(Toad * self)) 0x684d40;
-int (*Toad::ptr::MoveImmediate)(Toad * self, int xVal, int yVal, String * movementSource) = (int (*)(Toad * self, int xVal, int yVal, String * movementSource)) 0x6853a0;
-void (*Toad::ptr::MoveSucceed)(Toad * self, bool hitPlayer, bool moveDelayed) = (void (*)(Toad * self, bool hitPlayer, bool moveDelayed)) 0x685440;
-void (*Toad::ptr::Update)(Toad * self) = (void (*)(Toad * self)) 0x685520;
-void (*Toad::ptr::_mark)() = (void (*)()) 0x0;
-void (*Toad::ptr::CSTR_Toad)(Toad * self) = (void (*)(Toad * self)) 0x684bf0;
+inline Toad * (*Toad::ptr::New)(Toad * self, int xVal, int yVal, int l) = (Toad * (*)(Toad * self, int xVal, int yVal, int l)) 0x684c70;
+inline Toad * (*Toad::ptr::_new2)() = (Toad * (*)()) 0x0;
+inline Point * (*Toad::ptr::GetMovementDirection)(Toad * self) = (Point * (*)(Toad * self)) 0x684d40;
+inline int (*Toad::ptr::MoveImmediate)(Toad * self, int xVal, int yVal, String * movementSource) = (int (*)(Toad * self, int xVal, int yVal, String * movementSource)) 0x6853a0;
+inline void (*Toad::ptr::MoveSucceed)(Toad * self, bool hitPlayer, bool moveDelayed) = (void (*)(Toad * self, bool hitPlayer, bool moveDelayed)) 0x685440;
+inline void (*Toad::ptr::Update)(Toad * self) = (void (*)(Toad * self)) 0x685520;
+inline void (*Toad::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Toad::ptr::CSTR_Toad)(Toad * self) = (void (*)(Toad * self)) 0x684bf0;
 #endif
 
 #ifdef __linux__
 
-Toad * (*Toad::ptr::New)(Toad * self, int xVal, int yVal, int l) = (Toad * (*)(Toad * self, int xVal, int yVal, int l)) 0x81e0820;
-Toad * (*Toad::ptr::_new2)() = (Toad * (*)()) 0x81e0900;
-Point * (*Toad::ptr::GetMovementDirection)(Toad * self) = (Point * (*)(Toad * self)) 0x81b02b0;
-int (*Toad::ptr::MoveImmediate)(Toad * self, int xVal, int yVal, String * movementSource) = (int (*)(Toad * self, int xVal, int yVal, String * movementSource)) 0x8392870;
-void (*Toad::ptr::MoveSucceed)(Toad * self, bool hitPlayer, bool moveDelayed) = (void (*)(Toad * self, bool hitPlayer, bool moveDelayed)) 0x81a8610;
-void (*Toad::ptr::Update)(Toad * self) = (void (*)(Toad * self)) 0x837de40;
-void (*Toad::ptr::_mark)() = (void (*)()) 0x80afec0;
-void (*Toad::ptr::CSTR_Toad)(Toad * self) = (void (*)(Toad * self)) 0x81e07e0;
+inline Toad * (*Toad::ptr::New)(Toad * self, int xVal, int yVal, int l) = (Toad * (*)(Toad * self, int xVal, int yVal, int l)) 0x81e0820;
+inline Toad * (*Toad::ptr::_new2)() = (Toad * (*)()) 0x81e0900;
+inline Point * (*Toad::ptr::GetMovementDirection)(Toad * self) = (Point * (*)(Toad * self)) 0x81b02b0;
+inline int (*Toad::ptr::MoveImmediate)(Toad * self, int xVal, int yVal, String * movementSource) = (int (*)(Toad * self, int xVal, int yVal, String * movementSource)) 0x8392870;
+inline void (*Toad::ptr::MoveSucceed)(Toad * self, bool hitPlayer, bool moveDelayed) = (void (*)(Toad * self, bool hitPlayer, bool moveDelayed)) 0x81a8610;
+inline void (*Toad::ptr::Update)(Toad * self) = (void (*)(Toad * self)) 0x837de40;
+inline void (*Toad::ptr::_mark)() = (void (*)()) 0x80afec0;
+inline void (*Toad::ptr::CSTR_Toad)(Toad * self) = (void (*)(Toad * self)) 0x81e07e0;
 #endif
 #endif

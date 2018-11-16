@@ -39,25 +39,25 @@ public:
 
 #ifdef _WIN32
 
-List39 * (*List39::ptr::_New)() = (List39 * (*)()) 0x0;
-Node57 * (*List39::ptr::AddLast39)(List39 * self, Bomb * data) = (Node57 * (*)(List39 * self, Bomb * data)) 0x6294d0;
-List39 * (*List39::ptr::_new2)(List39 * self, Array<Bomb *> * arg1) = (List39 * (*)(List39 * self, Array<Bomb *> * arg1)) 0x0;
-Enumerator28 * (*List39::ptr::ObjectEnumerator)(List39 * self) = (Enumerator28 * (*)(List39 * self)) 0x629570;
-bool (*List39::ptr::_Equals24)(List39 * self, Bomb * arg1, Bomb * arg2) = (bool (*)(List39 * self, Bomb * arg1, Bomb * arg2)) 0x0;
-int (*List39::ptr::_RemoveEach21)(List39 * self, Bomb * arg1) = (int (*)(List39 * self, Bomb * arg1)) 0x0;
-void (*List39::ptr::_mark)() = (void (*)()) 0x0;
-void (*List39::ptr::CSTR_List39)(List39 * self) = (void (*)(List39 * self)) 0x629400;
+inline List39 * (*List39::ptr::_New)() = (List39 * (*)()) 0x0;
+inline Node57 * (*List39::ptr::AddLast39)(List39 * self, Bomb * data) = (Node57 * (*)(List39 * self, Bomb * data)) 0x6294d0;
+inline List39 * (*List39::ptr::_new2)(List39 * self, Array<Bomb *> * arg1) = (List39 * (*)(List39 * self, Array<Bomb *> * arg1)) 0x0;
+inline Enumerator28 * (*List39::ptr::ObjectEnumerator)(List39 * self) = (Enumerator28 * (*)(List39 * self)) 0x629570;
+inline bool (*List39::ptr::_Equals24)(List39 * self, Bomb * arg1, Bomb * arg2) = (bool (*)(List39 * self, Bomb * arg1, Bomb * arg2)) 0x0;
+inline int (*List39::ptr::_RemoveEach21)(List39 * self, Bomb * arg1) = (int (*)(List39 * self, Bomb * arg1)) 0x0;
+inline void (*List39::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List39::ptr::CSTR_List39)(List39 * self) = (void (*)(List39 * self)) 0x629400;
 #endif
 
 #ifdef __linux__
 
-List39 * (*List39::ptr::_New)() = (List39 * (*)()) 0x81b90d0;
-Node57 * (*List39::ptr::AddLast39)(List39 * self, Bomb * data) = (Node57 * (*)(List39 * self, Bomb * data)) 0x81b9310;
-List39 * (*List39::ptr::_new2)(List39 * self, Array<Bomb *> * arg1) = (List39 * (*)(List39 * self, Array<Bomb *> * arg1)) 0x0;
-Enumerator28 * (*List39::ptr::ObjectEnumerator)(List39 * self) = (Enumerator28 * (*)(List39 * self)) 0x80bafd0;
-bool (*List39::ptr::_Equals24)(List39 * self, Bomb * arg1, Bomb * arg2) = (bool (*)(List39 * self, Bomb * arg1, Bomb * arg2)) 0x8074fb0;
-int (*List39::ptr::_RemoveEach21)(List39 * self, Bomb * arg1) = (int (*)(List39 * self, Bomb * arg1)) 0x8074fc0;
-void (*List39::ptr::_mark)() = (void (*)()) 0x8089410;
-void (*List39::ptr::CSTR_List39)(List39 * self) = (void (*)(List39 * self)) 0x81b9450;
+inline List39 * (*List39::ptr::_New)() = (List39 * (*)()) 0x81b90d0;
+inline Node57 * (*List39::ptr::AddLast39)(List39 * self, Bomb * data) = (Node57 * (*)(List39 * self, Bomb * data)) 0x81b9310;
+inline List39 * (*List39::ptr::_new2)(List39 * self, Array<Bomb *> * arg1) = (List39 * (*)(List39 * self, Array<Bomb *> * arg1)) 0x0;
+inline Enumerator28 * (*List39::ptr::ObjectEnumerator)(List39 * self) = (Enumerator28 * (*)(List39 * self)) 0x80bafd0;
+inline bool (*List39::ptr::_Equals24)(List39 * self, Bomb * arg1, Bomb * arg2) = (bool (*)(List39 * self, Bomb * arg1, Bomb * arg2)) 0x8074fb0;
+inline int (*List39::ptr::_RemoveEach21)(List39 * self, Bomb * arg1) = (int (*)(List39 * self, Bomb * arg1)) 0x8074fc0;
+inline void (*List39::ptr::_mark)() = (void (*)()) 0x8089410;
+inline void (*List39::ptr::CSTR_List39)(List39 * self) = (void (*)(List39 * self)) 0x81b9450;
 #endif
 #endif

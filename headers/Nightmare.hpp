@@ -47,34 +47,34 @@ public:
 };
 
 #ifdef _WIN32
-Nightmare * * Nightmare::nightmare = (Nightmare* *) 0x8358c4;
+inline Nightmare * * Nightmare::nightmare = (Nightmare* *) 0x8358c4;
 
-Nightmare * (*Nightmare::ptr::New)(Nightmare * self, int xVal, int yVal, int l) = (Nightmare * (*)(Nightmare * self, int xVal, int yVal, int l)) 0x61af90;
-Nightmare * (*Nightmare::ptr::_new2)() = (Nightmare * (*)()) 0x0;
-void (*Nightmare::ptr::Update)(Nightmare * self) = (void (*)(Nightmare * self)) 0x61b330;
-bool (*Nightmare::ptr::Hit)(Nightmare * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Nightmare * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x61b3b0;
-bool (*Nightmare::ptr::IsVisible)(Nightmare * self) = (bool (*)(Nightmare * self)) 0x61b450;
-void (*Nightmare::ptr::Die)(Nightmare * self) = (void (*)(Nightmare * self)) 0x61b4f0;
-Point * (*Nightmare::ptr::GetMovementDirection)(Nightmare * self) = (Point * (*)(Nightmare * self)) 0x61b500;
-void (*Nightmare::ptr::MoveFail)(Nightmare * self) = (void (*)(Nightmare * self)) 0x61b530;
-void (*Nightmare::ptr::MoveSucceed)(Nightmare * self, bool hitPlayer, bool moveDelayed) = (void (*)(Nightmare * self, bool hitPlayer, bool moveDelayed)) 0x61b980;
-void (*Nightmare::ptr::_mark)() = (void (*)()) 0x0;
-void (*Nightmare::ptr::CSTR_Nightmare)(Nightmare * self) = (void (*)(Nightmare * self)) 0x61af20;
+inline Nightmare * (*Nightmare::ptr::New)(Nightmare * self, int xVal, int yVal, int l) = (Nightmare * (*)(Nightmare * self, int xVal, int yVal, int l)) 0x61af90;
+inline Nightmare * (*Nightmare::ptr::_new2)() = (Nightmare * (*)()) 0x0;
+inline void (*Nightmare::ptr::Update)(Nightmare * self) = (void (*)(Nightmare * self)) 0x61b330;
+inline bool (*Nightmare::ptr::Hit)(Nightmare * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Nightmare * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x61b3b0;
+inline bool (*Nightmare::ptr::IsVisible)(Nightmare * self) = (bool (*)(Nightmare * self)) 0x61b450;
+inline void (*Nightmare::ptr::Die)(Nightmare * self) = (void (*)(Nightmare * self)) 0x61b4f0;
+inline Point * (*Nightmare::ptr::GetMovementDirection)(Nightmare * self) = (Point * (*)(Nightmare * self)) 0x61b500;
+inline void (*Nightmare::ptr::MoveFail)(Nightmare * self) = (void (*)(Nightmare * self)) 0x61b530;
+inline void (*Nightmare::ptr::MoveSucceed)(Nightmare * self, bool hitPlayer, bool moveDelayed) = (void (*)(Nightmare * self, bool hitPlayer, bool moveDelayed)) 0x61b980;
+inline void (*Nightmare::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Nightmare::ptr::CSTR_Nightmare)(Nightmare * self) = (void (*)(Nightmare * self)) 0x61af20;
 #endif
 
 #ifdef __linux__
-Nightmare * * Nightmare::nightmare = (Nightmare* *) 0x856a3bc;
+inline Nightmare * * Nightmare::nightmare = (Nightmare* *) 0x856a3bc;
 
-Nightmare * (*Nightmare::ptr::New)(Nightmare * self, int xVal, int yVal, int l) = (Nightmare * (*)(Nightmare * self, int xVal, int yVal, int l)) 0x81b6d00;
-Nightmare * (*Nightmare::ptr::_new2)() = (Nightmare * (*)()) 0x81b6f80;
-void (*Nightmare::ptr::Update)(Nightmare * self) = (void (*)(Nightmare * self)) 0x8384a00;
-bool (*Nightmare::ptr::Hit)(Nightmare * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Nightmare * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x839afb0;
-bool (*Nightmare::ptr::IsVisible)(Nightmare * self) = (bool (*)(Nightmare * self)) 0x812de20;
-void (*Nightmare::ptr::Die)(Nightmare * self) = (void (*)(Nightmare * self)) 0x83b6870;
-Point * (*Nightmare::ptr::GetMovementDirection)(Nightmare * self) = (Point * (*)(Nightmare * self)) 0x807f520;
-void (*Nightmare::ptr::MoveFail)(Nightmare * self) = (void (*)(Nightmare * self)) 0x83ba770;
-void (*Nightmare::ptr::MoveSucceed)(Nightmare * self, bool hitPlayer, bool moveDelayed) = (void (*)(Nightmare * self, bool hitPlayer, bool moveDelayed)) 0x83a2e80;
-void (*Nightmare::ptr::_mark)() = (void (*)()) 0x80b0ba0;
-void (*Nightmare::ptr::CSTR_Nightmare)(Nightmare * self) = (void (*)(Nightmare * self)) 0x81b6cc0;
+inline Nightmare * (*Nightmare::ptr::New)(Nightmare * self, int xVal, int yVal, int l) = (Nightmare * (*)(Nightmare * self, int xVal, int yVal, int l)) 0x81b6d00;
+inline Nightmare * (*Nightmare::ptr::_new2)() = (Nightmare * (*)()) 0x81b6f80;
+inline void (*Nightmare::ptr::Update)(Nightmare * self) = (void (*)(Nightmare * self)) 0x8384a00;
+inline bool (*Nightmare::ptr::Hit)(Nightmare * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Nightmare * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x839afb0;
+inline bool (*Nightmare::ptr::IsVisible)(Nightmare * self) = (bool (*)(Nightmare * self)) 0x812de20;
+inline void (*Nightmare::ptr::Die)(Nightmare * self) = (void (*)(Nightmare * self)) 0x83b6870;
+inline Point * (*Nightmare::ptr::GetMovementDirection)(Nightmare * self) = (Point * (*)(Nightmare * self)) 0x807f520;
+inline void (*Nightmare::ptr::MoveFail)(Nightmare * self) = (void (*)(Nightmare * self)) 0x83ba770;
+inline void (*Nightmare::ptr::MoveSucceed)(Nightmare * self, bool hitPlayer, bool moveDelayed) = (void (*)(Nightmare * self, bool hitPlayer, bool moveDelayed)) 0x83a2e80;
+inline void (*Nightmare::ptr::_mark)() = (void (*)()) 0x80b0ba0;
+inline void (*Nightmare::ptr::CSTR_Nightmare)(Nightmare * self) = (void (*)(Nightmare * self)) 0x81b6cc0;
 #endif
 #endif

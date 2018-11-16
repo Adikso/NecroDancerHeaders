@@ -38,29 +38,29 @@ public:
 
 #ifdef _WIN32
 
-Stack4 * (*Stack4::ptr::_New)() = (Stack4 * (*)()) 0x0;
-Stack4 * (*Stack4::ptr::_new2)(Stack4 * self, Array<bool> * arg1) = (Stack4 * (*)(Stack4 * self, Array<bool> * arg1)) 0x0;
-int (*Stack4::ptr::Push10)(Stack4 * self, bool value) = (int (*)(Stack4 * self, bool value)) 0x65d600;
-int (*Stack4::ptr::Push11)(Stack4 * self, Array<bool> * values, int offset, int count) = (int (*)(Stack4 * self, Array<bool> * values, int offset, int count)) 0x65d650;
-int (*Stack4::ptr::Push12)(Stack4 * self, Array<bool> * values, int offset) = (int (*)(Stack4 * self, Array<bool> * values, int offset)) 0x65d690;
-int (*Stack4::ptr::_Length)() = (int (*)()) 0x0;
-bool (*Stack4::ptr::Get2)(Stack4 * self, int index) = (bool (*)(Stack4 * self, int index)) 0x65d6c0;
-int (*Stack4::ptr::_Set22)(Stack4 * self, int arg1, bool arg2) = (int (*)(Stack4 * self, int arg1, bool arg2)) 0x0;
-void (*Stack4::ptr::_mark)() = (void (*)()) 0x0;
-int (*Stack4::ptr::Set21)(Stack4 * self, int index, bool value) = (int (*)(Stack4 * self, int index, bool value)) 0x65d6e0;
+inline Stack4 * (*Stack4::ptr::_New)() = (Stack4 * (*)()) 0x0;
+inline Stack4 * (*Stack4::ptr::_new2)(Stack4 * self, Array<bool> * arg1) = (Stack4 * (*)(Stack4 * self, Array<bool> * arg1)) 0x0;
+inline int (*Stack4::ptr::Push10)(Stack4 * self, bool value) = (int (*)(Stack4 * self, bool value)) 0x65d600;
+inline int (*Stack4::ptr::Push11)(Stack4 * self, Array<bool> * values, int offset, int count) = (int (*)(Stack4 * self, Array<bool> * values, int offset, int count)) 0x65d650;
+inline int (*Stack4::ptr::Push12)(Stack4 * self, Array<bool> * values, int offset) = (int (*)(Stack4 * self, Array<bool> * values, int offset)) 0x65d690;
+inline int (*Stack4::ptr::_Length)() = (int (*)()) 0x0;
+inline bool (*Stack4::ptr::Get2)(Stack4 * self, int index) = (bool (*)(Stack4 * self, int index)) 0x65d6c0;
+inline int (*Stack4::ptr::_Set22)(Stack4 * self, int arg1, bool arg2) = (int (*)(Stack4 * self, int arg1, bool arg2)) 0x0;
+inline void (*Stack4::ptr::_mark)() = (void (*)()) 0x0;
+inline int (*Stack4::ptr::Set21)(Stack4 * self, int index, bool value) = (int (*)(Stack4 * self, int index, bool value)) 0x65d6e0;
 #endif
 
 #ifdef __linux__
 
-Stack4 * (*Stack4::ptr::_New)() = (Stack4 * (*)()) 0x81d3a80;
-Stack4 * (*Stack4::ptr::_new2)(Stack4 * self, Array<bool> * arg1) = (Stack4 * (*)(Stack4 * self, Array<bool> * arg1)) 0x81d3a90;
-int (*Stack4::ptr::Push10)(Stack4 * self, bool value) = (int (*)(Stack4 * self, bool value)) 0x80bff80;
-int (*Stack4::ptr::Push11)(Stack4 * self, Array<bool> * values, int offset, int count) = (int (*)(Stack4 * self, Array<bool> * values, int offset, int count)) 0x80768b0;
-int (*Stack4::ptr::Push12)(Stack4 * self, Array<bool> * values, int offset) = (int (*)(Stack4 * self, Array<bool> * values, int offset)) 0x8076900;
-int (*Stack4::ptr::_Length)() = (int (*)()) 0x8076950;
-bool (*Stack4::ptr::Get2)(Stack4 * self, int index) = (bool (*)(Stack4 * self, int index)) 0x8076960;
-int (*Stack4::ptr::_Set22)(Stack4 * self, int arg1, bool arg2) = (int (*)(Stack4 * self, int arg1, bool arg2)) 0x0;
-void (*Stack4::ptr::_mark)() = (void (*)()) 0x809a860;
-int (*Stack4::ptr::Set21)(Stack4 * self, int index, bool value) = (int (*)(Stack4 * self, int index, bool value)) 0x8076980;
+inline Stack4 * (*Stack4::ptr::_New)() = (Stack4 * (*)()) 0x81d3a80;
+inline Stack4 * (*Stack4::ptr::_new2)(Stack4 * self, Array<bool> * arg1) = (Stack4 * (*)(Stack4 * self, Array<bool> * arg1)) 0x81d3a90;
+inline int (*Stack4::ptr::Push10)(Stack4 * self, bool value) = (int (*)(Stack4 * self, bool value)) 0x80bff80;
+inline int (*Stack4::ptr::Push11)(Stack4 * self, Array<bool> * values, int offset, int count) = (int (*)(Stack4 * self, Array<bool> * values, int offset, int count)) 0x80768b0;
+inline int (*Stack4::ptr::Push12)(Stack4 * self, Array<bool> * values, int offset) = (int (*)(Stack4 * self, Array<bool> * values, int offset)) 0x8076900;
+inline int (*Stack4::ptr::_Length)() = (int (*)()) 0x8076950;
+inline bool (*Stack4::ptr::Get2)(Stack4 * self, int index) = (bool (*)(Stack4 * self, int index)) 0x8076960;
+inline int (*Stack4::ptr::_Set22)(Stack4 * self, int arg1, bool arg2) = (int (*)(Stack4 * self, int arg1, bool arg2)) 0x0;
+inline void (*Stack4::ptr::_mark)() = (void (*)()) 0x809a860;
+inline int (*Stack4::ptr::Set21)(Stack4 * self, int index, bool value) = (int (*)(Stack4 * self, int index, bool value)) 0x8076980;
 #endif
 #endif

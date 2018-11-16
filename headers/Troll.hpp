@@ -42,27 +42,27 @@ public:
 
 #ifdef _WIN32
 
-Troll * (*Troll::ptr::New)(Troll * self, int xVal, int yVal, int l) = (Troll * (*)(Troll * self, int xVal, int yVal, int l)) 0x686730;
-Troll * (*Troll::ptr::_new2)() = (Troll * (*)()) 0x0;
-void (*Troll::ptr::Update)(Troll * self) = (void (*)(Troll * self)) 0x686800;
-void (*Troll::ptr::_MoveFail)() = (void (*)()) 0x0;
-bool (*Troll::ptr::Hit)(Troll * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Troll * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x686b60;
-Point * (*Troll::ptr::GetMovementDirection)(Troll * self) = (Point * (*)(Troll * self)) 0x686e20;
-bool (*Troll::ptr::_CanBeLord)() = (bool (*)()) 0x0;
-void (*Troll::ptr::_mark)() = (void (*)()) 0x0;
-void (*Troll::ptr::CSTR_Troll)(Troll * self) = (void (*)(Troll * self)) 0x6866c0;
+inline Troll * (*Troll::ptr::New)(Troll * self, int xVal, int yVal, int l) = (Troll * (*)(Troll * self, int xVal, int yVal, int l)) 0x686730;
+inline Troll * (*Troll::ptr::_new2)() = (Troll * (*)()) 0x0;
+inline void (*Troll::ptr::Update)(Troll * self) = (void (*)(Troll * self)) 0x686800;
+inline void (*Troll::ptr::_MoveFail)() = (void (*)()) 0x0;
+inline bool (*Troll::ptr::Hit)(Troll * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Troll * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x686b60;
+inline Point * (*Troll::ptr::GetMovementDirection)(Troll * self) = (Point * (*)(Troll * self)) 0x686e20;
+inline bool (*Troll::ptr::_CanBeLord)() = (bool (*)()) 0x0;
+inline void (*Troll::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Troll::ptr::CSTR_Troll)(Troll * self) = (void (*)(Troll * self)) 0x6866c0;
 #endif
 
 #ifdef __linux__
 
-Troll * (*Troll::ptr::New)(Troll * self, int xVal, int yVal, int l) = (Troll * (*)(Troll * self, int xVal, int yVal, int l)) 0x81e0bb0;
-Troll * (*Troll::ptr::_new2)() = (Troll * (*)()) 0x81e0c90;
-void (*Troll::ptr::Update)(Troll * self) = (void (*)(Troll * self)) 0x837d670;
-void (*Troll::ptr::_MoveFail)() = (void (*)()) 0x81344f0;
-bool (*Troll::ptr::Hit)(Troll * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Troll * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8395c70;
-Point * (*Troll::ptr::GetMovementDirection)(Troll * self) = (Point * (*)(Troll * self)) 0x81027f0;
-bool (*Troll::ptr::_CanBeLord)() = (bool (*)()) 0x8078a90;
-void (*Troll::ptr::_mark)() = (void (*)()) 0x80afe40;
-void (*Troll::ptr::CSTR_Troll)(Troll * self) = (void (*)(Troll * self)) 0x81e0b80;
+inline Troll * (*Troll::ptr::New)(Troll * self, int xVal, int yVal, int l) = (Troll * (*)(Troll * self, int xVal, int yVal, int l)) 0x81e0bb0;
+inline Troll * (*Troll::ptr::_new2)() = (Troll * (*)()) 0x81e0c90;
+inline void (*Troll::ptr::Update)(Troll * self) = (void (*)(Troll * self)) 0x837d670;
+inline void (*Troll::ptr::_MoveFail)() = (void (*)()) 0x81344f0;
+inline bool (*Troll::ptr::Hit)(Troll * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Troll * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8395c70;
+inline Point * (*Troll::ptr::GetMovementDirection)(Troll * self) = (Point * (*)(Troll * self)) 0x81027f0;
+inline bool (*Troll::ptr::_CanBeLord)() = (bool (*)()) 0x8078a90;
+inline void (*Troll::ptr::_mark)() = (void (*)()) 0x80afe40;
+inline void (*Troll::ptr::CSTR_Troll)(Troll * self) = (void (*)(Troll * self)) 0x81e0b80;
 #endif
 #endif

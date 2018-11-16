@@ -27,17 +27,17 @@ public:
 
 #ifdef _WIN32
 
-StringMap10 * (*StringMap10::ptr::_New)() = (StringMap10 * (*)()) 0x0;
-int (*StringMap10::ptr::_Compare)(StringMap10 * self, String * arg1, String * arg2) = (int (*)(StringMap10 * self, String * arg1, String * arg2)) 0x0;
-void (*StringMap10::ptr::_mark)() = (void (*)()) 0x0;
-void (*StringMap10::ptr::CSTR_StringMap10)(StringMap10 * self) = (void (*)(StringMap10 * self)) 0x6801a0;
+inline StringMap10 * (*StringMap10::ptr::_New)() = (StringMap10 * (*)()) 0x0;
+inline int (*StringMap10::ptr::_Compare)(StringMap10 * self, String * arg1, String * arg2) = (int (*)(StringMap10 * self, String * arg1, String * arg2)) 0x0;
+inline void (*StringMap10::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*StringMap10::ptr::CSTR_StringMap10)(StringMap10 * self) = (void (*)(StringMap10 * self)) 0x6801a0;
 #endif
 
 #ifdef __linux__
 
-StringMap10 * (*StringMap10::ptr::_New)() = (StringMap10 * (*)()) 0x81deca0;
-int (*StringMap10::ptr::_Compare)(StringMap10 * self, String * arg1, String * arg2) = (int (*)(StringMap10 * self, String * arg1, String * arg2)) 0x8096770;
-void (*StringMap10::ptr::_mark)() = (void (*)()) 0x8082e00;
-void (*StringMap10::ptr::CSTR_StringMap10)(StringMap10 * self) = (void (*)(StringMap10 * self)) 0x81dec80;
+inline StringMap10 * (*StringMap10::ptr::_New)() = (StringMap10 * (*)()) 0x81deca0;
+inline int (*StringMap10::ptr::_Compare)(StringMap10 * self, String * arg1, String * arg2) = (int (*)(StringMap10 * self, String * arg1, String * arg2)) 0x8096770;
+inline void (*StringMap10::ptr::_mark)() = (void (*)()) 0x8082e00;
+inline void (*StringMap10::ptr::CSTR_StringMap10)(StringMap10 * self) = (void (*)(StringMap10 * self)) 0x81dec80;
 #endif
 #endif

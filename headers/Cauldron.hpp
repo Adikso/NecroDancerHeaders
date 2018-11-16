@@ -30,23 +30,23 @@ public:
 
 #ifdef _WIN32
 
-Cauldron * (*Cauldron::ptr::New)(Cauldron * self, int xVal, int yVal, int l) = (Cauldron * (*)(Cauldron * self, int xVal, int yVal, int l)) 0x649130;
-Cauldron * (*Cauldron::ptr::_new2)() = (Cauldron * (*)()) 0x0;
-Point * (*Cauldron::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
-void (*Cauldron::ptr::Update)(Cauldron * self) = (void (*)(Cauldron * self)) 0x649390;
-int (*Cauldron::ptr::_PerformMovement)(Cauldron * self, int arg1, int arg2) = (int (*)(Cauldron * self, int arg1, int arg2)) 0x0;
-void (*Cauldron::ptr::Die)(Cauldron * self) = (void (*)(Cauldron * self)) 0x649420;
-void (*Cauldron::ptr::_mark)() = (void (*)()) 0x0;
+inline Cauldron * (*Cauldron::ptr::New)(Cauldron * self, int xVal, int yVal, int l) = (Cauldron * (*)(Cauldron * self, int xVal, int yVal, int l)) 0x649130;
+inline Cauldron * (*Cauldron::ptr::_new2)() = (Cauldron * (*)()) 0x0;
+inline Point * (*Cauldron::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
+inline void (*Cauldron::ptr::Update)(Cauldron * self) = (void (*)(Cauldron * self)) 0x649390;
+inline int (*Cauldron::ptr::_PerformMovement)(Cauldron * self, int arg1, int arg2) = (int (*)(Cauldron * self, int arg1, int arg2)) 0x0;
+inline void (*Cauldron::ptr::Die)(Cauldron * self) = (void (*)(Cauldron * self)) 0x649420;
+inline void (*Cauldron::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Cauldron * (*Cauldron::ptr::New)(Cauldron * self, int xVal, int yVal, int l) = (Cauldron * (*)(Cauldron * self, int xVal, int yVal, int l)) 0x81c45d0;
-Cauldron * (*Cauldron::ptr::_new2)() = (Cauldron * (*)()) 0x81c48d0;
-Point * (*Cauldron::ptr::_GetMovementDirection)() = (Point * (*)()) 0x80b44d0;
-void (*Cauldron::ptr::Update)(Cauldron * self) = (void (*)(Cauldron * self)) 0x83810d0;
-int (*Cauldron::ptr::_PerformMovement)(Cauldron * self, int arg1, int arg2) = (int (*)(Cauldron * self, int arg1, int arg2)) 0x8076350;
-void (*Cauldron::ptr::Die)(Cauldron * self) = (void (*)(Cauldron * self)) 0x83b6130;
-void (*Cauldron::ptr::_mark)() = (void (*)()) 0x80b04e0;
+inline Cauldron * (*Cauldron::ptr::New)(Cauldron * self, int xVal, int yVal, int l) = (Cauldron * (*)(Cauldron * self, int xVal, int yVal, int l)) 0x81c45d0;
+inline Cauldron * (*Cauldron::ptr::_new2)() = (Cauldron * (*)()) 0x81c48d0;
+inline Point * (*Cauldron::ptr::_GetMovementDirection)() = (Point * (*)()) 0x80b44d0;
+inline void (*Cauldron::ptr::Update)(Cauldron * self) = (void (*)(Cauldron * self)) 0x83810d0;
+inline int (*Cauldron::ptr::_PerformMovement)(Cauldron * self, int arg1, int arg2) = (int (*)(Cauldron * self, int arg1, int arg2)) 0x8076350;
+inline void (*Cauldron::ptr::Die)(Cauldron * self) = (void (*)(Cauldron * self)) 0x83b6130;
+inline void (*Cauldron::ptr::_mark)() = (void (*)()) 0x80b04e0;
 #endif
 #endif

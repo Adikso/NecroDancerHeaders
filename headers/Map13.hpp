@@ -51,41 +51,41 @@ public:
 
 #ifdef _WIN32
 
-Map13 * (*Map13::ptr::_New)() = (Map13 * (*)()) 0x0;
-int (*Map13::ptr::_Clear)() = (int (*)()) 0x0;
-int (*Map13::ptr::_Compare)(Map13 * self, String * arg1, String * arg2) = (int (*)(Map13 * self, String * arg1, String * arg2)) 0x0;
-int (*Map13::ptr::_RotateLeft13)(Map13 * self, Node36 * arg1) = (int (*)(Map13 * self, Node36 * arg1)) 0x0;
-int (*Map13::ptr::_RotateRight13)(Map13 * self, Node36 * arg1) = (int (*)(Map13 * self, Node36 * arg1)) 0x0;
-int (*Map13::ptr::_InsertFixup13)(Map13 * self, Node36 * arg1) = (int (*)(Map13 * self, Node36 * arg1)) 0x0;
-bool (*Map13::ptr::Set14)(Map13 * self, String * key, Object * value) = (bool (*)(Map13 * self, String * key, Object * value)) 0x5e13f0;
-bool (*Map13::ptr::Insert7)(Map13 * self, String * key, Object * value) = (bool (*)(Map13 * self, String * key, Object * value)) 0x5e1540;
-Node36 * (*Map13::ptr::FindNode)(Map13 * self, String * key) = (Node36 * (*)(Map13 * self, String * key)) 0x5e03e0;
-int (*Map13::ptr::_DeleteFixup6)(Map13 * self, Node36 * arg1, Node36 * arg2) = (int (*)(Map13 * self, Node36 * arg1, Node36 * arg2)) 0x0;
-int (*Map13::ptr::_RemoveNode6)(Map13 * self, Node36 * arg1) = (int (*)(Map13 * self, Node36 * arg1)) 0x0;
-int (*Map13::ptr::Remove)(Map13 * self, String * key) = (int (*)(Map13 * self, String * key)) 0x5e17f0;
-bool (*Map13::ptr::Contains)(Map13 * self, String * key) = (bool (*)(Map13 * self, String * key)) 0x5e1890;
-void (*Map13::ptr::_mark)() = (void (*)()) 0x0;
-int (*Map13::ptr::_DeleteFixup6_2)(Map13 * self, Node37 * node, Node37 * parent) = (int (*)(Map13 * self, Node37 * node, Node37 * parent)) 0x5e15c0;
-int (*Map13::ptr::_RemoveNode6_2)(Map13 * self, Node37 * node) = (int (*)(Map13 * self, Node37 * node)) 0x5e1730;
+inline Map13 * (*Map13::ptr::_New)() = (Map13 * (*)()) 0x0;
+inline int (*Map13::ptr::_Clear)() = (int (*)()) 0x0;
+inline int (*Map13::ptr::_Compare)(Map13 * self, String * arg1, String * arg2) = (int (*)(Map13 * self, String * arg1, String * arg2)) 0x0;
+inline int (*Map13::ptr::_RotateLeft13)(Map13 * self, Node36 * arg1) = (int (*)(Map13 * self, Node36 * arg1)) 0x0;
+inline int (*Map13::ptr::_RotateRight13)(Map13 * self, Node36 * arg1) = (int (*)(Map13 * self, Node36 * arg1)) 0x0;
+inline int (*Map13::ptr::_InsertFixup13)(Map13 * self, Node36 * arg1) = (int (*)(Map13 * self, Node36 * arg1)) 0x0;
+inline bool (*Map13::ptr::Set14)(Map13 * self, String * key, Object * value) = (bool (*)(Map13 * self, String * key, Object * value)) 0x5e13f0;
+inline bool (*Map13::ptr::Insert7)(Map13 * self, String * key, Object * value) = (bool (*)(Map13 * self, String * key, Object * value)) 0x5e1540;
+inline Node36 * (*Map13::ptr::FindNode)(Map13 * self, String * key) = (Node36 * (*)(Map13 * self, String * key)) 0x5e03e0;
+inline int (*Map13::ptr::_DeleteFixup6)(Map13 * self, Node36 * arg1, Node36 * arg2) = (int (*)(Map13 * self, Node36 * arg1, Node36 * arg2)) 0x0;
+inline int (*Map13::ptr::_RemoveNode6)(Map13 * self, Node36 * arg1) = (int (*)(Map13 * self, Node36 * arg1)) 0x0;
+inline int (*Map13::ptr::Remove)(Map13 * self, String * key) = (int (*)(Map13 * self, String * key)) 0x5e17f0;
+inline bool (*Map13::ptr::Contains)(Map13 * self, String * key) = (bool (*)(Map13 * self, String * key)) 0x5e1890;
+inline void (*Map13::ptr::_mark)() = (void (*)()) 0x0;
+inline int (*Map13::ptr::_DeleteFixup6_2)(Map13 * self, Node37 * node, Node37 * parent) = (int (*)(Map13 * self, Node37 * node, Node37 * parent)) 0x5e15c0;
+inline int (*Map13::ptr::_RemoveNode6_2)(Map13 * self, Node37 * node) = (int (*)(Map13 * self, Node37 * node)) 0x5e1730;
 #endif
 
 #ifdef __linux__
 
-Map13 * (*Map13::ptr::_New)() = (Map13 * (*)()) 0x819a630;
-int (*Map13::ptr::_Clear)() = (int (*)()) 0x8072510;
-int (*Map13::ptr::_Compare)(Map13 * self, String * arg1, String * arg2) = (int (*)(Map13 * self, String * arg1, String * arg2)) 0x0;
-int (*Map13::ptr::_RotateLeft13)(Map13 * self, Node36 * arg1) = (int (*)(Map13 * self, Node36 * arg1)) 0x0;
-int (*Map13::ptr::_RotateRight13)(Map13 * self, Node36 * arg1) = (int (*)(Map13 * self, Node36 * arg1)) 0x0;
-int (*Map13::ptr::_InsertFixup13)(Map13 * self, Node36 * arg1) = (int (*)(Map13 * self, Node36 * arg1)) 0x0;
-bool (*Map13::ptr::Set14)(Map13 * self, String * key, Object * value) = (bool (*)(Map13 * self, String * key, Object * value)) 0x80dad10;
-bool (*Map13::ptr::Insert7)(Map13 * self, String * key, Object * value) = (bool (*)(Map13 * self, String * key, Object * value)) 0x80c34d0;
-Node36 * (*Map13::ptr::FindNode)(Map13 * self, String * key) = (Node36 * (*)(Map13 * self, String * key)) 0x80c3420;
-int (*Map13::ptr::_DeleteFixup6)(Map13 * self, Node36 * arg1, Node36 * arg2) = (int (*)(Map13 * self, Node36 * arg1, Node36 * arg2)) 0x0;
-int (*Map13::ptr::_RemoveNode6)(Map13 * self, Node36 * arg1) = (int (*)(Map13 * self, Node36 * arg1)) 0x0;
-int (*Map13::ptr::Remove)(Map13 * self, String * key) = (int (*)(Map13 * self, String * key)) 0x80c33b0;
-bool (*Map13::ptr::Contains)(Map13 * self, String * key) = (bool (*)(Map13 * self, String * key)) 0x80c3350;
-void (*Map13::ptr::_mark)() = (void (*)()) 0x808ce50;
-int (*Map13::ptr::_DeleteFixup6_2)(Map13 * self, Node37 * node, Node37 * parent) = (int (*)(Map13 * self, Node37 * node, Node37 * parent)) 0x0;
-int (*Map13::ptr::_RemoveNode6_2)(Map13 * self, Node37 * node) = (int (*)(Map13 * self, Node37 * node)) 0x0;
+inline Map13 * (*Map13::ptr::_New)() = (Map13 * (*)()) 0x819a630;
+inline int (*Map13::ptr::_Clear)() = (int (*)()) 0x8072510;
+inline int (*Map13::ptr::_Compare)(Map13 * self, String * arg1, String * arg2) = (int (*)(Map13 * self, String * arg1, String * arg2)) 0x0;
+inline int (*Map13::ptr::_RotateLeft13)(Map13 * self, Node36 * arg1) = (int (*)(Map13 * self, Node36 * arg1)) 0x0;
+inline int (*Map13::ptr::_RotateRight13)(Map13 * self, Node36 * arg1) = (int (*)(Map13 * self, Node36 * arg1)) 0x0;
+inline int (*Map13::ptr::_InsertFixup13)(Map13 * self, Node36 * arg1) = (int (*)(Map13 * self, Node36 * arg1)) 0x0;
+inline bool (*Map13::ptr::Set14)(Map13 * self, String * key, Object * value) = (bool (*)(Map13 * self, String * key, Object * value)) 0x80dad10;
+inline bool (*Map13::ptr::Insert7)(Map13 * self, String * key, Object * value) = (bool (*)(Map13 * self, String * key, Object * value)) 0x80c34d0;
+inline Node36 * (*Map13::ptr::FindNode)(Map13 * self, String * key) = (Node36 * (*)(Map13 * self, String * key)) 0x80c3420;
+inline int (*Map13::ptr::_DeleteFixup6)(Map13 * self, Node36 * arg1, Node36 * arg2) = (int (*)(Map13 * self, Node36 * arg1, Node36 * arg2)) 0x0;
+inline int (*Map13::ptr::_RemoveNode6)(Map13 * self, Node36 * arg1) = (int (*)(Map13 * self, Node36 * arg1)) 0x0;
+inline int (*Map13::ptr::Remove)(Map13 * self, String * key) = (int (*)(Map13 * self, String * key)) 0x80c33b0;
+inline bool (*Map13::ptr::Contains)(Map13 * self, String * key) = (bool (*)(Map13 * self, String * key)) 0x80c3350;
+inline void (*Map13::ptr::_mark)() = (void (*)()) 0x808ce50;
+inline int (*Map13::ptr::_DeleteFixup6_2)(Map13 * self, Node37 * node, Node37 * parent) = (int (*)(Map13 * self, Node37 * node, Node37 * parent)) 0x0;
+inline int (*Map13::ptr::_RemoveNode6_2)(Map13 * self, Node37 * node) = (int (*)(Map13 * self, Node37 * node)) 0x0;
 #endif
 #endif

@@ -21,15 +21,15 @@ public:
 
 #ifdef _WIN32
 
-Janitor * (*Janitor::ptr::New)(Janitor * self, int xVal, int yVal, int l, bool captv) = (Janitor * (*)(Janitor * self, int xVal, int yVal, int l, bool captv)) 0x66cc20;
-Janitor * (*Janitor::ptr::_new2)() = (Janitor * (*)()) 0x0;
-void (*Janitor::ptr::_mark)() = (void (*)()) 0x0;
+inline Janitor * (*Janitor::ptr::New)(Janitor * self, int xVal, int yVal, int l, bool captv) = (Janitor * (*)(Janitor * self, int xVal, int yVal, int l, bool captv)) 0x66cc20;
+inline Janitor * (*Janitor::ptr::_new2)() = (Janitor * (*)()) 0x0;
+inline void (*Janitor::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Janitor * (*Janitor::ptr::New)(Janitor * self, int xVal, int yVal, int l, bool captv) = (Janitor * (*)(Janitor * self, int xVal, int yVal, int l, bool captv)) 0x81dac50;
-Janitor * (*Janitor::ptr::_new2)() = (Janitor * (*)()) 0x81dad20;
-void (*Janitor::ptr::_mark)() = (void (*)()) 0x80b2a10;
+inline Janitor * (*Janitor::ptr::New)(Janitor * self, int xVal, int yVal, int l, bool captv) = (Janitor * (*)(Janitor * self, int xVal, int yVal, int l, bool captv)) 0x81dac50;
+inline Janitor * (*Janitor::ptr::_new2)() = (Janitor * (*)()) 0x81dad20;
+inline void (*Janitor::ptr::_mark)() = (void (*)()) 0x80b2a10;
 #endif
 #endif

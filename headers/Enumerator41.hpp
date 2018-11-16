@@ -29,19 +29,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator41 * (*Enumerator41::ptr::_New)(Enumerator41 * self, Stack6 * arg1) = (Enumerator41 * (*)(Enumerator41 * self, Stack6 * arg1)) 0x0;
-Enumerator41 * (*Enumerator41::ptr::_new2)() = (Enumerator41 * (*)()) 0x0;
-bool (*Enumerator41::ptr::_HasNext)() = (bool (*)()) 0x0;
-PortalSeg * (*Enumerator41::ptr::_NextObject)() = (PortalSeg * (*)()) 0x0;
-void (*Enumerator41::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator41 * (*Enumerator41::ptr::_New)(Enumerator41 * self, Stack6 * arg1) = (Enumerator41 * (*)(Enumerator41 * self, Stack6 * arg1)) 0x0;
+inline Enumerator41 * (*Enumerator41::ptr::_new2)() = (Enumerator41 * (*)()) 0x0;
+inline bool (*Enumerator41::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline PortalSeg * (*Enumerator41::ptr::_NextObject)() = (PortalSeg * (*)()) 0x0;
+inline void (*Enumerator41::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator41 * (*Enumerator41::ptr::_New)(Enumerator41 * self, Stack6 * arg1) = (Enumerator41 * (*)(Enumerator41 * self, Stack6 * arg1)) 0x0;
-Enumerator41 * (*Enumerator41::ptr::_new2)() = (Enumerator41 * (*)()) 0x81e2600;
-bool (*Enumerator41::ptr::_HasNext)() = (bool (*)()) 0x80941e0;
-PortalSeg * (*Enumerator41::ptr::_NextObject)() = (PortalSeg * (*)()) 0x8094170;
-void (*Enumerator41::ptr::_mark)() = (void (*)()) 0x8085120;
+inline Enumerator41 * (*Enumerator41::ptr::_New)(Enumerator41 * self, Stack6 * arg1) = (Enumerator41 * (*)(Enumerator41 * self, Stack6 * arg1)) 0x0;
+inline Enumerator41 * (*Enumerator41::ptr::_new2)() = (Enumerator41 * (*)()) 0x81e2600;
+inline bool (*Enumerator41::ptr::_HasNext)() = (bool (*)()) 0x80941e0;
+inline PortalSeg * (*Enumerator41::ptr::_NextObject)() = (PortalSeg * (*)()) 0x8094170;
+inline void (*Enumerator41::ptr::_mark)() = (void (*)()) 0x8085120;
 #endif
 #endif

@@ -27,17 +27,17 @@ public:
 
 #ifdef _WIN32
 
-Node11 * (*Node11::ptr::_New)(Node11 * self, Node11 * arg1, Node11 * arg2, RenderableObject * arg3) = (Node11 * (*)(Node11 * self, Node11 * arg1, Node11 * arg2, RenderableObject * arg3)) 0x0;
-Node11 * (*Node11::ptr::_new2)() = (Node11 * (*)()) 0x0;
-int (*Node11::ptr::_Remove3)() = (int (*)()) 0x0;
-void (*Node11::ptr::_mark)() = (void (*)()) 0x0;
+inline Node11 * (*Node11::ptr::_New)(Node11 * self, Node11 * arg1, Node11 * arg2, RenderableObject * arg3) = (Node11 * (*)(Node11 * self, Node11 * arg1, Node11 * arg2, RenderableObject * arg3)) 0x0;
+inline Node11 * (*Node11::ptr::_new2)() = (Node11 * (*)()) 0x0;
+inline int (*Node11::ptr::_Remove3)() = (int (*)()) 0x0;
+inline void (*Node11::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node11 * (*Node11::ptr::_New)(Node11 * self, Node11 * arg1, Node11 * arg2, RenderableObject * arg3) = (Node11 * (*)(Node11 * self, Node11 * arg1, Node11 * arg2, RenderableObject * arg3)) 0x0;
-Node11 * (*Node11::ptr::_new2)() = (Node11 * (*)()) 0x817f550;
-int (*Node11::ptr::_Remove3)() = (int (*)()) 0x809b4c0;
-void (*Node11::ptr::_mark)() = (void (*)()) 0x8090730;
+inline Node11 * (*Node11::ptr::_New)(Node11 * self, Node11 * arg1, Node11 * arg2, RenderableObject * arg3) = (Node11 * (*)(Node11 * self, Node11 * arg1, Node11 * arg2, RenderableObject * arg3)) 0x0;
+inline Node11 * (*Node11::ptr::_new2)() = (Node11 * (*)()) 0x817f550;
+inline int (*Node11::ptr::_Remove3)() = (int (*)()) 0x809b4c0;
+inline void (*Node11::ptr::_mark)() = (void (*)()) 0x8090730;
 #endif
 #endif

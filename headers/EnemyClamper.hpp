@@ -21,15 +21,15 @@ public:
 
 #ifdef _WIN32
 
-bool (*EnemyClamper::ptr::_DislodgeAttempt)() = (bool (*)()) 0x0;
-EnemyClamper * (*EnemyClamper::ptr::_New)() = (EnemyClamper * (*)()) 0x0;
-void (*EnemyClamper::ptr::_mark)() = (void (*)()) 0x0;
+inline bool (*EnemyClamper::ptr::_DislodgeAttempt)() = (bool (*)()) 0x0;
+inline EnemyClamper * (*EnemyClamper::ptr::_New)() = (EnemyClamper * (*)()) 0x0;
+inline void (*EnemyClamper::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-bool (*EnemyClamper::ptr::_DislodgeAttempt)() = (bool (*)()) 0x0;
-EnemyClamper * (*EnemyClamper::ptr::_New)() = (EnemyClamper * (*)()) 0x81a0620;
-void (*EnemyClamper::ptr::_mark)() = (void (*)()) 0x80b0de0;
+inline bool (*EnemyClamper::ptr::_DislodgeAttempt)() = (bool (*)()) 0x0;
+inline EnemyClamper * (*EnemyClamper::ptr::_New)() = (EnemyClamper * (*)()) 0x81a0620;
+inline void (*EnemyClamper::ptr::_mark)() = (void (*)()) 0x80b0de0;
 #endif
 #endif

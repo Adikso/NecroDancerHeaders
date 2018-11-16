@@ -31,21 +31,21 @@ public:
 
 #ifdef _WIN32
 
-Node29 * (*Node29::ptr::_New)(Node29 * self, Node29 * arg1, Node29 * arg2, Chest * arg3) = (Node29 * (*)(Node29 * self, Node29 * arg1, Node29 * arg2, Chest * arg3)) 0x0;
-Node29 * (*Node29::ptr::_new2)() = (Node29 * (*)()) 0x0;
-int (*Node29::ptr::_Remove2)() = (int (*)()) 0x0;
-Node29 * (*Node29::ptr::_GetNode)() = (Node29 * (*)()) 0x0;
-Node29 * (*Node29::ptr::_NextNode)() = (Node29 * (*)()) 0x0;
-void (*Node29::ptr::_mark)() = (void (*)()) 0x0;
+inline Node29 * (*Node29::ptr::_New)(Node29 * self, Node29 * arg1, Node29 * arg2, Chest * arg3) = (Node29 * (*)(Node29 * self, Node29 * arg1, Node29 * arg2, Chest * arg3)) 0x0;
+inline Node29 * (*Node29::ptr::_new2)() = (Node29 * (*)()) 0x0;
+inline int (*Node29::ptr::_Remove2)() = (int (*)()) 0x0;
+inline Node29 * (*Node29::ptr::_GetNode)() = (Node29 * (*)()) 0x0;
+inline Node29 * (*Node29::ptr::_NextNode)() = (Node29 * (*)()) 0x0;
+inline void (*Node29::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node29 * (*Node29::ptr::_New)(Node29 * self, Node29 * arg1, Node29 * arg2, Chest * arg3) = (Node29 * (*)(Node29 * self, Node29 * arg1, Node29 * arg2, Chest * arg3)) 0x0;
-Node29 * (*Node29::ptr::_new2)() = (Node29 * (*)()) 0x81a0880;
-int (*Node29::ptr::_Remove2)() = (int (*)()) 0x0;
-Node29 * (*Node29::ptr::_GetNode)() = (Node29 * (*)()) 0x80738d0;
-Node29 * (*Node29::ptr::_NextNode)() = (Node29 * (*)()) 0x80738e0;
-void (*Node29::ptr::_mark)() = (void (*)()) 0x808a3f0;
+inline Node29 * (*Node29::ptr::_New)(Node29 * self, Node29 * arg1, Node29 * arg2, Chest * arg3) = (Node29 * (*)(Node29 * self, Node29 * arg1, Node29 * arg2, Chest * arg3)) 0x0;
+inline Node29 * (*Node29::ptr::_new2)() = (Node29 * (*)()) 0x81a0880;
+inline int (*Node29::ptr::_Remove2)() = (int (*)()) 0x0;
+inline Node29 * (*Node29::ptr::_GetNode)() = (Node29 * (*)()) 0x80738d0;
+inline Node29 * (*Node29::ptr::_NextNode)() = (Node29 * (*)()) 0x80738e0;
+inline void (*Node29::ptr::_mark)() = (void (*)()) 0x808a3f0;
 #endif
 #endif

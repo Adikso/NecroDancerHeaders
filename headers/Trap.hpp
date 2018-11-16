@@ -65,46 +65,46 @@ public:
 };
 
 #ifdef _WIN32
-TrapList * * Trap::trapList = (TrapList* *) 0x83597c;
+inline TrapList * * Trap::trapList = (TrapList* *) 0x83597c;
 
-Trap * (*Trap::ptr::GetTrapAt)(int xVal, int yVal) = (Trap * (*)(int xVal, int yVal)) 0x5d7850;
-void (*Trap::ptr::Trigger)(Trap * self, Entity * ent) = (void (*)(Trap * self, Entity * ent)) 0x5d78a0;
-bool (*Trap::ptr::IsLive)(Trap * self) = (bool (*)(Trap * self)) 0x5d7910;
-bool (*Trap::ptr::IsLiveTrapAt)(int xVal, int yVal) = (bool (*)(int xVal, int yVal)) 0x5d7920;
-Trap * (*Trap::ptr::New)(Trap * self) = (Trap * (*)(Trap * self)) 0x5d7940;
-void (*Trap::ptr::_RemoveFromTrapList)(Trap * arg1) = (void (*)(Trap * arg1)) 0x0;
-void (*Trap::ptr::Die)(Trap * self) = (void (*)(Trap * self)) 0x5d79a0;
-void (*Trap::ptr::_ClearAll)() = (void (*)()) 0x0;
-int (*Trap::ptr::_GetTrapTypeAt)(int arg1, int arg2) = (int (*)(int arg1, int arg2)) 0x0;
-Trap * (*Trap::ptr::FindRandomTrap)() = (Trap * (*)()) 0x5d79c0;
-void (*Trap::ptr::Move)(Trap * self) = (void (*)(Trap * self)) 0x5d7a80;
-void (*Trap::ptr::_MoveAll)() = (void (*)()) 0x0;
-bool (*Trap::ptr::Hit)(Trap * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Trap * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x5d8410;
-void (*Trap::ptr::Update)(Trap * self) = (void (*)(Trap * self)) 0x5d84b0;
-void (*Trap::ptr::RemoveAll)() = (void (*)()) 0x5d8650;
-void (*Trap::ptr::mark)(Trap * self) = (void (*)(Trap * self)) 0x5d8690;
-void (*Trap::ptr::CSTR_Trap)(Trap * self) = (void (*)(Trap * self)) 0x5d77c0;
+inline Trap * (*Trap::ptr::GetTrapAt)(int xVal, int yVal) = (Trap * (*)(int xVal, int yVal)) 0x5d7850;
+inline void (*Trap::ptr::Trigger)(Trap * self, Entity * ent) = (void (*)(Trap * self, Entity * ent)) 0x5d78a0;
+inline bool (*Trap::ptr::IsLive)(Trap * self) = (bool (*)(Trap * self)) 0x5d7910;
+inline bool (*Trap::ptr::IsLiveTrapAt)(int xVal, int yVal) = (bool (*)(int xVal, int yVal)) 0x5d7920;
+inline Trap * (*Trap::ptr::New)(Trap * self) = (Trap * (*)(Trap * self)) 0x5d7940;
+inline void (*Trap::ptr::_RemoveFromTrapList)(Trap * arg1) = (void (*)(Trap * arg1)) 0x0;
+inline void (*Trap::ptr::Die)(Trap * self) = (void (*)(Trap * self)) 0x5d79a0;
+inline void (*Trap::ptr::_ClearAll)() = (void (*)()) 0x0;
+inline int (*Trap::ptr::_GetTrapTypeAt)(int arg1, int arg2) = (int (*)(int arg1, int arg2)) 0x0;
+inline Trap * (*Trap::ptr::FindRandomTrap)() = (Trap * (*)()) 0x5d79c0;
+inline void (*Trap::ptr::Move)(Trap * self) = (void (*)(Trap * self)) 0x5d7a80;
+inline void (*Trap::ptr::_MoveAll)() = (void (*)()) 0x0;
+inline bool (*Trap::ptr::Hit)(Trap * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Trap * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x5d8410;
+inline void (*Trap::ptr::Update)(Trap * self) = (void (*)(Trap * self)) 0x5d84b0;
+inline void (*Trap::ptr::RemoveAll)() = (void (*)()) 0x5d8650;
+inline void (*Trap::ptr::mark)(Trap * self) = (void (*)(Trap * self)) 0x5d8690;
+inline void (*Trap::ptr::CSTR_Trap)(Trap * self) = (void (*)(Trap * self)) 0x5d77c0;
 #endif
 
 #ifdef __linux__
-TrapList * * Trap::trapList = (TrapList* *) 0x856a49c;
+inline TrapList * * Trap::trapList = (TrapList* *) 0x856a49c;
 
-Trap * (*Trap::ptr::GetTrapAt)(int xVal, int yVal) = (Trap * (*)(int xVal, int yVal)) 0x8191af0;
-void (*Trap::ptr::Trigger)(Trap * self, Entity * ent) = (void (*)(Trap * self, Entity * ent)) 0x809a8c0;
-bool (*Trap::ptr::IsLive)(Trap * self) = (bool (*)(Trap * self)) 0x8071cf0;
-bool (*Trap::ptr::IsLiveTrapAt)(int xVal, int yVal) = (bool (*)(int xVal, int yVal)) 0x8192b00;
-Trap * (*Trap::ptr::New)(Trap * self) = (Trap * (*)(Trap * self)) 0x8192b60;
-void (*Trap::ptr::_RemoveFromTrapList)(Trap * arg1) = (void (*)(Trap * arg1)) 0x8192be0;
-void (*Trap::ptr::Die)(Trap * self) = (void (*)(Trap * self)) 0x80935f0;
-void (*Trap::ptr::_ClearAll)() = (void (*)()) 0x8192c00;
-int (*Trap::ptr::_GetTrapTypeAt)(int arg1, int arg2) = (int (*)(int arg1, int arg2)) 0x8192c20;
-Trap * (*Trap::ptr::FindRandomTrap)() = (Trap * (*)()) 0x8192c80;
-void (*Trap::ptr::Move)(Trap * self) = (void (*)(Trap * self)) 0x8263620;
-void (*Trap::ptr::_MoveAll)() = (void (*)()) 0x8192d00;
-bool (*Trap::ptr::Hit)(Trap * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Trap * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x80d52e0;
-void (*Trap::ptr::Update)(Trap * self) = (void (*)(Trap * self)) 0x812d650;
-void (*Trap::ptr::RemoveAll)() = (void (*)()) 0x8192d60;
-void (*Trap::ptr::mark)(Trap * self) = (void (*)(Trap * self)) 0x80a5420;
-void (*Trap::ptr::CSTR_Trap)(Trap * self) = (void (*)(Trap * self)) 0x8191a80;
+inline Trap * (*Trap::ptr::GetTrapAt)(int xVal, int yVal) = (Trap * (*)(int xVal, int yVal)) 0x8191af0;
+inline void (*Trap::ptr::Trigger)(Trap * self, Entity * ent) = (void (*)(Trap * self, Entity * ent)) 0x809a8c0;
+inline bool (*Trap::ptr::IsLive)(Trap * self) = (bool (*)(Trap * self)) 0x8071cf0;
+inline bool (*Trap::ptr::IsLiveTrapAt)(int xVal, int yVal) = (bool (*)(int xVal, int yVal)) 0x8192b00;
+inline Trap * (*Trap::ptr::New)(Trap * self) = (Trap * (*)(Trap * self)) 0x8192b60;
+inline void (*Trap::ptr::_RemoveFromTrapList)(Trap * arg1) = (void (*)(Trap * arg1)) 0x8192be0;
+inline void (*Trap::ptr::Die)(Trap * self) = (void (*)(Trap * self)) 0x80935f0;
+inline void (*Trap::ptr::_ClearAll)() = (void (*)()) 0x8192c00;
+inline int (*Trap::ptr::_GetTrapTypeAt)(int arg1, int arg2) = (int (*)(int arg1, int arg2)) 0x8192c20;
+inline Trap * (*Trap::ptr::FindRandomTrap)() = (Trap * (*)()) 0x8192c80;
+inline void (*Trap::ptr::Move)(Trap * self) = (void (*)(Trap * self)) 0x8263620;
+inline void (*Trap::ptr::_MoveAll)() = (void (*)()) 0x8192d00;
+inline bool (*Trap::ptr::Hit)(Trap * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Trap * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x80d52e0;
+inline void (*Trap::ptr::Update)(Trap * self) = (void (*)(Trap * self)) 0x812d650;
+inline void (*Trap::ptr::RemoveAll)() = (void (*)()) 0x8192d60;
+inline void (*Trap::ptr::mark)(Trap * self) = (void (*)(Trap * self)) 0x80a5420;
+inline void (*Trap::ptr::CSTR_Trap)(Trap * self) = (void (*)(Trap * self)) 0x8191a80;
 #endif
 #endif

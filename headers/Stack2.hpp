@@ -44,36 +44,36 @@ public:
 };
 
 #ifdef _WIN32
-Point * * Stack2::_NIL = (Point* *) 0x8355ac;
+inline Point * * Stack2::_NIL = (Point* *) 0x8355ac;
 
-Stack2 * (*Stack2::ptr::_New)() = (Stack2 * (*)()) 0x0;
-Stack2 * (*Stack2::ptr::_new2)(Stack2 * self, Array<Point *> * arg1) = (Stack2 * (*)(Stack2 * self, Array<Point *> * arg1)) 0x0;
-int (*Stack2::ptr::Push4)(Stack2 * self, Point * value) = (int (*)(Stack2 * self, Point * value)) 0x631340;
-int (*Stack2::ptr::_Push5)(Stack2 * self, Array<Point *> * values, int offset, int count) = (int (*)(Stack2 * self, Array<Point *> * values, int offset, int count)) 0x6050e0;
-int (*Stack2::ptr::_Push6)(Stack2 * self, Array<Point *> * values, int offset) = (int (*)(Stack2 * self, Array<Point *> * values, int offset)) 0x605120;
-Enumerator24 * (*Stack2::ptr::ObjectEnumerator)(Stack2 * self) = (Enumerator24 * (*)(Stack2 * self)) 0x6313e0;
-int (*Stack2::ptr::_Length)() = (int (*)()) 0x0;
-Point * (*Stack2::ptr::_Get2)(Stack2 * self, int arg1) = (Point * (*)(Stack2 * self, int arg1)) 0x0;
-int (*Stack2::ptr::_Set19)(Stack2 * self, int arg1, Point * arg2) = (int (*)(Stack2 * self, int arg1, Point * arg2)) 0x0;
-int (*Stack2::ptr::Remove5)(Stack2 * self, int index) = (int (*)(Stack2 * self, int index)) 0x631530;
-Point * (*Stack2::ptr::Pop)(Stack2 * self) = (Point * (*)(Stack2 * self)) 0x631620;
-void (*Stack2::ptr::_mark)() = (void (*)()) 0x0;
+inline Stack2 * (*Stack2::ptr::_New)() = (Stack2 * (*)()) 0x0;
+inline Stack2 * (*Stack2::ptr::_new2)(Stack2 * self, Array<Point *> * arg1) = (Stack2 * (*)(Stack2 * self, Array<Point *> * arg1)) 0x0;
+inline int (*Stack2::ptr::Push4)(Stack2 * self, Point * value) = (int (*)(Stack2 * self, Point * value)) 0x631340;
+inline int (*Stack2::ptr::_Push5)(Stack2 * self, Array<Point *> * values, int offset, int count) = (int (*)(Stack2 * self, Array<Point *> * values, int offset, int count)) 0x6050e0;
+inline int (*Stack2::ptr::_Push6)(Stack2 * self, Array<Point *> * values, int offset) = (int (*)(Stack2 * self, Array<Point *> * values, int offset)) 0x605120;
+inline Enumerator24 * (*Stack2::ptr::ObjectEnumerator)(Stack2 * self) = (Enumerator24 * (*)(Stack2 * self)) 0x6313e0;
+inline int (*Stack2::ptr::_Length)() = (int (*)()) 0x0;
+inline Point * (*Stack2::ptr::_Get2)(Stack2 * self, int arg1) = (Point * (*)(Stack2 * self, int arg1)) 0x0;
+inline int (*Stack2::ptr::_Set19)(Stack2 * self, int arg1, Point * arg2) = (int (*)(Stack2 * self, int arg1, Point * arg2)) 0x0;
+inline int (*Stack2::ptr::Remove5)(Stack2 * self, int index) = (int (*)(Stack2 * self, int index)) 0x631530;
+inline Point * (*Stack2::ptr::Pop)(Stack2 * self) = (Point * (*)(Stack2 * self)) 0x631620;
+inline void (*Stack2::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
-Point * * Stack2::_NIL = (Point* *) 0x0;
+inline Point * * Stack2::_NIL = (Point* *) 0x0;
 
-Stack2 * (*Stack2::ptr::_New)() = (Stack2 * (*)()) 0x81baf50;
-Stack2 * (*Stack2::ptr::_new2)(Stack2 * self, Array<Point *> * arg1) = (Stack2 * (*)(Stack2 * self, Array<Point *> * arg1)) 0x0;
-int (*Stack2::ptr::Push4)(Stack2 * self, Point * value) = (int (*)(Stack2 * self, Point * value)) 0x80be520;
-int (*Stack2::ptr::_Push5)(Stack2 * self, Array<Point *> * values, int offset, int count) = (int (*)(Stack2 * self, Array<Point *> * values, int offset, int count)) 0x0;
-int (*Stack2::ptr::_Push6)(Stack2 * self, Array<Point *> * values, int offset) = (int (*)(Stack2 * self, Array<Point *> * values, int offset)) 0x0;
-Enumerator24 * (*Stack2::ptr::ObjectEnumerator)(Stack2 * self) = (Enumerator24 * (*)(Stack2 * self)) 0x80ba8e0;
-int (*Stack2::ptr::_Length)() = (int (*)()) 0x8075650;
-Point * (*Stack2::ptr::_Get2)(Stack2 * self, int arg1) = (Point * (*)(Stack2 * self, int arg1)) 0x8075660;
-int (*Stack2::ptr::_Set19)(Stack2 * self, int arg1, Point * arg2) = (int (*)(Stack2 * self, int arg1, Point * arg2)) 0x80a1590;
-int (*Stack2::ptr::Remove5)(Stack2 * self, int index) = (int (*)(Stack2 * self, int index)) 0x80a14e0;
-Point * (*Stack2::ptr::Pop)(Stack2 * self) = (Point * (*)(Stack2 * self)) 0x8075670;
-void (*Stack2::ptr::_mark)() = (void (*)()) 0x8075690;
+inline Stack2 * (*Stack2::ptr::_New)() = (Stack2 * (*)()) 0x81baf50;
+inline Stack2 * (*Stack2::ptr::_new2)(Stack2 * self, Array<Point *> * arg1) = (Stack2 * (*)(Stack2 * self, Array<Point *> * arg1)) 0x0;
+inline int (*Stack2::ptr::Push4)(Stack2 * self, Point * value) = (int (*)(Stack2 * self, Point * value)) 0x80be520;
+inline int (*Stack2::ptr::_Push5)(Stack2 * self, Array<Point *> * values, int offset, int count) = (int (*)(Stack2 * self, Array<Point *> * values, int offset, int count)) 0x0;
+inline int (*Stack2::ptr::_Push6)(Stack2 * self, Array<Point *> * values, int offset) = (int (*)(Stack2 * self, Array<Point *> * values, int offset)) 0x0;
+inline Enumerator24 * (*Stack2::ptr::ObjectEnumerator)(Stack2 * self) = (Enumerator24 * (*)(Stack2 * self)) 0x80ba8e0;
+inline int (*Stack2::ptr::_Length)() = (int (*)()) 0x8075650;
+inline Point * (*Stack2::ptr::_Get2)(Stack2 * self, int arg1) = (Point * (*)(Stack2 * self, int arg1)) 0x8075660;
+inline int (*Stack2::ptr::_Set19)(Stack2 * self, int arg1, Point * arg2) = (int (*)(Stack2 * self, int arg1, Point * arg2)) 0x80a1590;
+inline int (*Stack2::ptr::Remove5)(Stack2 * self, int index) = (int (*)(Stack2 * self, int index)) 0x80a14e0;
+inline Point * (*Stack2::ptr::Pop)(Stack2 * self) = (Point * (*)(Stack2 * self)) 0x8075670;
+inline void (*Stack2::ptr::_mark)() = (void (*)()) 0x8075690;
 #endif
 #endif

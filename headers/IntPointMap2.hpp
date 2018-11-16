@@ -22,15 +22,15 @@ public:
 
 #ifdef _WIN32
 
-IntPointMap2 * (*IntPointMap2::ptr::_New)() = (IntPointMap2 * (*)()) 0x0;
-int (*IntPointMap2::ptr::_Compare6)(IntPointMap2 * self, Point * arg1, Point * arg2) = (int (*)(IntPointMap2 * self, Point * arg1, Point * arg2)) 0x0;
-void (*IntPointMap2::ptr::_mark)() = (void (*)()) 0x0;
+inline IntPointMap2 * (*IntPointMap2::ptr::_New)() = (IntPointMap2 * (*)()) 0x0;
+inline int (*IntPointMap2::ptr::_Compare6)(IntPointMap2 * self, Point * arg1, Point * arg2) = (int (*)(IntPointMap2 * self, Point * arg1, Point * arg2)) 0x0;
+inline void (*IntPointMap2::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-IntPointMap2 * (*IntPointMap2::ptr::_New)() = (IntPointMap2 * (*)()) 0x81bc640;
-int (*IntPointMap2::ptr::_Compare6)(IntPointMap2 * self, Point * arg1, Point * arg2) = (int (*)(IntPointMap2 * self, Point * arg1, Point * arg2)) 0x8087960;
-void (*IntPointMap2::ptr::_mark)() = (void (*)()) 0x8082d40;
+inline IntPointMap2 * (*IntPointMap2::ptr::_New)() = (IntPointMap2 * (*)()) 0x81bc640;
+inline int (*IntPointMap2::ptr::_Compare6)(IntPointMap2 * self, Point * arg1, Point * arg2) = (int (*)(IntPointMap2 * self, Point * arg1, Point * arg2)) 0x8087960;
+inline void (*IntPointMap2::ptr::_mark)() = (void (*)()) 0x8082d40;
 #endif
 #endif

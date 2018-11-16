@@ -56,37 +56,37 @@ public:
 
 #ifdef _WIN32
 
-int (*ToughSarcophagus::ptr::GetPerRoomCount)() = (int (*)()) 0x6604e0;
-ToughSarcophagus * (*ToughSarcophagus::ptr::New)(ToughSarcophagus * self, int xVal, int yVal, int etype) = (ToughSarcophagus * (*)(ToughSarcophagus * self, int xVal, int yVal, int etype)) 0x660590;
-ToughSarcophagus * (*ToughSarcophagus::ptr::_new2)() = (ToughSarcophagus * (*)()) 0x0;
-Point * (*ToughSarcophagus::ptr::GetMovementDirection)(ToughSarcophagus * self) = (Point * (*)(ToughSarcophagus * self)) 0x5fcb60;
-bool (*ToughSarcophagus::ptr::_CanBeDamaged)(ToughSarcophagus * self, bool arg1, bool arg2) = (bool (*)(ToughSarcophagus * self, bool arg1, bool arg2)) 0x0;
-bool (*ToughSarcophagus::ptr::Hit)(ToughSarcophagus * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(ToughSarcophagus * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x660790;
-void (*ToughSarcophagus::ptr::SpawnEnemy3)(ToughSarcophagus * self) = (void (*)(ToughSarcophagus * self)) 0x660850;
-int (*ToughSarcophagus::ptr::GetSpawnBeats)() = (int (*)()) 0x660b80;
-void (*ToughSarcophagus::ptr::MoveSucceed)(ToughSarcophagus * self, bool hitPlayer, bool moveDelayed) = (void (*)(ToughSarcophagus * self, bool hitPlayer, bool moveDelayed)) 0x660c30;
-void (*ToughSarcophagus::ptr::Update)(ToughSarcophagus * self) = (void (*)(ToughSarcophagus * self)) 0x660d60;
-bool (*ToughSarcophagus::ptr::_ImmuneToFear)() = (bool (*)()) 0x0;
-bool (*ToughSarcophagus::ptr::_CanBeLord)() = (bool (*)()) 0x0;
-void (*ToughSarcophagus::ptr::mark)(ToughSarcophagus * self) = (void (*)(ToughSarcophagus * self)) 0x660db0;
-void (*ToughSarcophagus::ptr::CSTR_ToughSarcophagus)(ToughSarcophagus * self) = (void (*)(ToughSarcophagus * self)) 0x660450;
+inline int (*ToughSarcophagus::ptr::GetPerRoomCount)() = (int (*)()) 0x6604e0;
+inline ToughSarcophagus * (*ToughSarcophagus::ptr::New)(ToughSarcophagus * self, int xVal, int yVal, int etype) = (ToughSarcophagus * (*)(ToughSarcophagus * self, int xVal, int yVal, int etype)) 0x660590;
+inline ToughSarcophagus * (*ToughSarcophagus::ptr::_new2)() = (ToughSarcophagus * (*)()) 0x0;
+inline Point * (*ToughSarcophagus::ptr::GetMovementDirection)(ToughSarcophagus * self) = (Point * (*)(ToughSarcophagus * self)) 0x5fcb60;
+inline bool (*ToughSarcophagus::ptr::_CanBeDamaged)(ToughSarcophagus * self, bool arg1, bool arg2) = (bool (*)(ToughSarcophagus * self, bool arg1, bool arg2)) 0x0;
+inline bool (*ToughSarcophagus::ptr::Hit)(ToughSarcophagus * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(ToughSarcophagus * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x660790;
+inline void (*ToughSarcophagus::ptr::SpawnEnemy3)(ToughSarcophagus * self) = (void (*)(ToughSarcophagus * self)) 0x660850;
+inline int (*ToughSarcophagus::ptr::GetSpawnBeats)() = (int (*)()) 0x660b80;
+inline void (*ToughSarcophagus::ptr::MoveSucceed)(ToughSarcophagus * self, bool hitPlayer, bool moveDelayed) = (void (*)(ToughSarcophagus * self, bool hitPlayer, bool moveDelayed)) 0x660c30;
+inline void (*ToughSarcophagus::ptr::Update)(ToughSarcophagus * self) = (void (*)(ToughSarcophagus * self)) 0x660d60;
+inline bool (*ToughSarcophagus::ptr::_ImmuneToFear)() = (bool (*)()) 0x0;
+inline bool (*ToughSarcophagus::ptr::_CanBeLord)() = (bool (*)()) 0x0;
+inline void (*ToughSarcophagus::ptr::mark)(ToughSarcophagus * self) = (void (*)(ToughSarcophagus * self)) 0x660db0;
+inline void (*ToughSarcophagus::ptr::CSTR_ToughSarcophagus)(ToughSarcophagus * self) = (void (*)(ToughSarcophagus * self)) 0x660450;
 #endif
 
 #ifdef __linux__
 
-int (*ToughSarcophagus::ptr::GetPerRoomCount)() = (int (*)()) 0x81d62d0;
-ToughSarcophagus * (*ToughSarcophagus::ptr::New)(ToughSarcophagus * self, int xVal, int yVal, int etype) = (ToughSarcophagus * (*)(ToughSarcophagus * self, int xVal, int yVal, int etype)) 0x81d6350;
-ToughSarcophagus * (*ToughSarcophagus::ptr::_new2)() = (ToughSarcophagus * (*)()) 0x81d64b0;
-Point * (*ToughSarcophagus::ptr::GetMovementDirection)(ToughSarcophagus * self) = (Point * (*)(ToughSarcophagus * self)) 0x80b3e50;
-bool (*ToughSarcophagus::ptr::_CanBeDamaged)(ToughSarcophagus * self, bool arg1, bool arg2) = (bool (*)(ToughSarcophagus * self, bool arg1, bool arg2)) 0x80774d0;
-bool (*ToughSarcophagus::ptr::Hit)(ToughSarcophagus * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(ToughSarcophagus * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83967b0;
-void (*ToughSarcophagus::ptr::SpawnEnemy3)(ToughSarcophagus * self) = (void (*)(ToughSarcophagus * self)) 0x83aa050;
-int (*ToughSarcophagus::ptr::GetSpawnBeats)() = (int (*)()) 0x81d64d0;
-void (*ToughSarcophagus::ptr::MoveSucceed)(ToughSarcophagus * self, bool hitPlayer, bool moveDelayed) = (void (*)(ToughSarcophagus * self, bool hitPlayer, bool moveDelayed)) 0x83aa290;
-void (*ToughSarcophagus::ptr::Update)(ToughSarcophagus * self) = (void (*)(ToughSarcophagus * self)) 0x837ed40;
-bool (*ToughSarcophagus::ptr::_ImmuneToFear)() = (bool (*)()) 0x80774e0;
-bool (*ToughSarcophagus::ptr::_CanBeLord)() = (bool (*)()) 0x80774f0;
-void (*ToughSarcophagus::ptr::mark)(ToughSarcophagus * self) = (void (*)(ToughSarcophagus * self)) 0x80b0140;
-void (*ToughSarcophagus::ptr::CSTR_ToughSarcophagus)(ToughSarcophagus * self) = (void (*)(ToughSarcophagus * self)) 0x81d6270;
+inline int (*ToughSarcophagus::ptr::GetPerRoomCount)() = (int (*)()) 0x81d62d0;
+inline ToughSarcophagus * (*ToughSarcophagus::ptr::New)(ToughSarcophagus * self, int xVal, int yVal, int etype) = (ToughSarcophagus * (*)(ToughSarcophagus * self, int xVal, int yVal, int etype)) 0x81d6350;
+inline ToughSarcophagus * (*ToughSarcophagus::ptr::_new2)() = (ToughSarcophagus * (*)()) 0x81d64b0;
+inline Point * (*ToughSarcophagus::ptr::GetMovementDirection)(ToughSarcophagus * self) = (Point * (*)(ToughSarcophagus * self)) 0x80b3e50;
+inline bool (*ToughSarcophagus::ptr::_CanBeDamaged)(ToughSarcophagus * self, bool arg1, bool arg2) = (bool (*)(ToughSarcophagus * self, bool arg1, bool arg2)) 0x80774d0;
+inline bool (*ToughSarcophagus::ptr::Hit)(ToughSarcophagus * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(ToughSarcophagus * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83967b0;
+inline void (*ToughSarcophagus::ptr::SpawnEnemy3)(ToughSarcophagus * self) = (void (*)(ToughSarcophagus * self)) 0x83aa050;
+inline int (*ToughSarcophagus::ptr::GetSpawnBeats)() = (int (*)()) 0x81d64d0;
+inline void (*ToughSarcophagus::ptr::MoveSucceed)(ToughSarcophagus * self, bool hitPlayer, bool moveDelayed) = (void (*)(ToughSarcophagus * self, bool hitPlayer, bool moveDelayed)) 0x83aa290;
+inline void (*ToughSarcophagus::ptr::Update)(ToughSarcophagus * self) = (void (*)(ToughSarcophagus * self)) 0x837ed40;
+inline bool (*ToughSarcophagus::ptr::_ImmuneToFear)() = (bool (*)()) 0x80774e0;
+inline bool (*ToughSarcophagus::ptr::_CanBeLord)() = (bool (*)()) 0x80774f0;
+inline void (*ToughSarcophagus::ptr::mark)(ToughSarcophagus * self) = (void (*)(ToughSarcophagus * self)) 0x80b0140;
+inline void (*ToughSarcophagus::ptr::CSTR_ToughSarcophagus)(ToughSarcophagus * self) = (void (*)(ToughSarcophagus * self)) 0x81d6270;
 #endif
 #endif

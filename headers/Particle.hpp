@@ -55,21 +55,21 @@ public:
 
 #ifdef _WIN32
 
-Particle * (*Particle::ptr::New)(Particle * self) = (Particle * (*)(Particle * self)) 0x5fa4e0;
-void (*Particle::ptr::_Init5)(Particle * self, ParticleSystem * arg1, float arg2, float arg3, float arg4, float arg5, float arg6, float arg7, int arg8, ParticleSystemData * arg9, String * arg10) = (void (*)(Particle * self, ParticleSystem * arg1, float arg2, float arg3, float arg4, float arg5, float arg6, float arg7, int arg8, ParticleSystemData * arg9, String * arg10)) 0x0;
-void (*Particle::ptr::Update3)(Particle * self, bool isOvular) = (void (*)(Particle * self, bool isOvular)) 0x5fa8f0;
-void (*Particle::ptr::_mark)() = (void (*)()) 0x0;
-void (*Particle::ptr::CSTR_Particle)(Particle * self) = (void (*)(Particle * self)) 0x5fa400;
-void (*Particle::ptr::Init4)(Particle * self, ParticleSystem * sys, float xVal, float yVal, float zVal, float xVelVal, float yVelVal, float zVelVal, int delayVal, ParticleSystemData * data, String * imagePath) = (void (*)(Particle * self, ParticleSystem * sys, float xVal, float yVal, float zVal, float xVelVal, float yVelVal, float zVelVal, int delayVal, ParticleSystemData * data, String * imagePath)) 0x5fa630;
+inline Particle * (*Particle::ptr::New)(Particle * self) = (Particle * (*)(Particle * self)) 0x5fa4e0;
+inline void (*Particle::ptr::_Init5)(Particle * self, ParticleSystem * arg1, float arg2, float arg3, float arg4, float arg5, float arg6, float arg7, int arg8, ParticleSystemData * arg9, String * arg10) = (void (*)(Particle * self, ParticleSystem * arg1, float arg2, float arg3, float arg4, float arg5, float arg6, float arg7, int arg8, ParticleSystemData * arg9, String * arg10)) 0x0;
+inline void (*Particle::ptr::Update3)(Particle * self, bool isOvular) = (void (*)(Particle * self, bool isOvular)) 0x5fa8f0;
+inline void (*Particle::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Particle::ptr::CSTR_Particle)(Particle * self) = (void (*)(Particle * self)) 0x5fa400;
+inline void (*Particle::ptr::Init4)(Particle * self, ParticleSystem * sys, float xVal, float yVal, float zVal, float xVelVal, float yVelVal, float zVelVal, int delayVal, ParticleSystemData * data, String * imagePath) = (void (*)(Particle * self, ParticleSystem * sys, float xVal, float yVal, float zVal, float xVelVal, float yVelVal, float zVelVal, int delayVal, ParticleSystemData * data, String * imagePath)) 0x5fa630;
 #endif
 
 #ifdef __linux__
 
-Particle * (*Particle::ptr::New)(Particle * self) = (Particle * (*)(Particle * self)) 0x81a3630;
-void (*Particle::ptr::_Init5)(Particle * self, ParticleSystem * arg1, float arg2, float arg3, float arg4, float arg5, float arg6, float arg7, int arg8, ParticleSystemData * arg9, String * arg10) = (void (*)(Particle * self, ParticleSystem * arg1, float arg2, float arg3, float arg4, float arg5, float arg6, float arg7, int arg8, ParticleSystemData * arg9, String * arg10)) 0x0;
-void (*Particle::ptr::Update3)(Particle * self, bool isOvular) = (void (*)(Particle * self, bool isOvular)) 0x812f280;
-void (*Particle::ptr::_mark)() = (void (*)()) 0x80a4f80;
-void (*Particle::ptr::CSTR_Particle)(Particle * self) = (void (*)(Particle * self)) 0x81a35c0;
-void (*Particle::ptr::Init4)(Particle * self, ParticleSystem * sys, float xVal, float yVal, float zVal, float xVelVal, float yVelVal, float zVelVal, int delayVal, ParticleSystemData * data, String * imagePath) = (void (*)(Particle * self, ParticleSystem * sys, float xVal, float yVal, float zVal, float xVelVal, float yVelVal, float zVelVal, int delayVal, ParticleSystemData * data, String * imagePath)) 0x8101f80;
+inline Particle * (*Particle::ptr::New)(Particle * self) = (Particle * (*)(Particle * self)) 0x81a3630;
+inline void (*Particle::ptr::_Init5)(Particle * self, ParticleSystem * arg1, float arg2, float arg3, float arg4, float arg5, float arg6, float arg7, int arg8, ParticleSystemData * arg9, String * arg10) = (void (*)(Particle * self, ParticleSystem * arg1, float arg2, float arg3, float arg4, float arg5, float arg6, float arg7, int arg8, ParticleSystemData * arg9, String * arg10)) 0x0;
+inline void (*Particle::ptr::Update3)(Particle * self, bool isOvular) = (void (*)(Particle * self, bool isOvular)) 0x812f280;
+inline void (*Particle::ptr::_mark)() = (void (*)()) 0x80a4f80;
+inline void (*Particle::ptr::CSTR_Particle)(Particle * self) = (void (*)(Particle * self)) 0x81a35c0;
+inline void (*Particle::ptr::Init4)(Particle * self, ParticleSystem * sys, float xVal, float yVal, float zVal, float xVelVal, float yVelVal, float zVelVal, int delayVal, ParticleSystemData * data, String * imagePath) = (void (*)(Particle * self, ParticleSystem * sys, float xVal, float yVal, float zVal, float xVelVal, float yVelVal, float zVelVal, int delayVal, ParticleSystemData * data, String * imagePath)) 0x8101f80;
 #endif
 #endif

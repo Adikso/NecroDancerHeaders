@@ -31,21 +31,21 @@ public:
 
 #ifdef _WIN32
 
-Node46 * (*Node46::ptr::_New)(Node46 * self, Node46 * arg1, Node46 * arg2, Particle * arg3) = (Node46 * (*)(Node46 * self, Node46 * arg1, Node46 * arg2, Particle * arg3)) 0x0;
-Node46 * (*Node46::ptr::_new2)() = (Node46 * (*)()) 0x0;
-Node46 * (*Node46::ptr::_GetNode)() = (Node46 * (*)()) 0x0;
-Node46 * (*Node46::ptr::_PrevNode)() = (Node46 * (*)()) 0x0;
-int (*Node46::ptr::_Remove3)() = (int (*)()) 0x0;
-void (*Node46::ptr::_mark)() = (void (*)()) 0x0;
+inline Node46 * (*Node46::ptr::_New)(Node46 * self, Node46 * arg1, Node46 * arg2, Particle * arg3) = (Node46 * (*)(Node46 * self, Node46 * arg1, Node46 * arg2, Particle * arg3)) 0x0;
+inline Node46 * (*Node46::ptr::_new2)() = (Node46 * (*)()) 0x0;
+inline Node46 * (*Node46::ptr::_GetNode)() = (Node46 * (*)()) 0x0;
+inline Node46 * (*Node46::ptr::_PrevNode)() = (Node46 * (*)()) 0x0;
+inline int (*Node46::ptr::_Remove3)() = (int (*)()) 0x0;
+inline void (*Node46::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node46 * (*Node46::ptr::_New)(Node46 * self, Node46 * arg1, Node46 * arg2, Particle * arg3) = (Node46 * (*)(Node46 * self, Node46 * arg1, Node46 * arg2, Particle * arg3)) 0x0;
-Node46 * (*Node46::ptr::_new2)() = (Node46 * (*)()) 0x81bdc40;
-Node46 * (*Node46::ptr::_GetNode)() = (Node46 * (*)()) 0x0;
-Node46 * (*Node46::ptr::_PrevNode)() = (Node46 * (*)()) 0x0;
-int (*Node46::ptr::_Remove3)() = (int (*)()) 0x0;
-void (*Node46::ptr::_mark)() = (void (*)()) 0x8088790;
+inline Node46 * (*Node46::ptr::_New)(Node46 * self, Node46 * arg1, Node46 * arg2, Particle * arg3) = (Node46 * (*)(Node46 * self, Node46 * arg1, Node46 * arg2, Particle * arg3)) 0x0;
+inline Node46 * (*Node46::ptr::_new2)() = (Node46 * (*)()) 0x81bdc40;
+inline Node46 * (*Node46::ptr::_GetNode)() = (Node46 * (*)()) 0x0;
+inline Node46 * (*Node46::ptr::_PrevNode)() = (Node46 * (*)()) 0x0;
+inline int (*Node46::ptr::_Remove3)() = (int (*)()) 0x0;
+inline void (*Node46::ptr::_mark)() = (void (*)()) 0x8088790;
 #endif
 #endif

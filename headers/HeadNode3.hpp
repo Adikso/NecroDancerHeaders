@@ -24,15 +24,15 @@ public:
 
 #ifdef _WIN32
 
-HeadNode3 * (*HeadNode3::ptr::_New)() = (HeadNode3 * (*)()) 0x0;
-void (*HeadNode3::ptr::_mark)() = (void (*)()) 0x0;
-void (*HeadNode3::ptr::CSTR_HeadNode3)(HeadNode3 * self) = (void (*)(HeadNode3 * self)) 0x542220;
+inline HeadNode3 * (*HeadNode3::ptr::_New)() = (HeadNode3 * (*)()) 0x0;
+inline void (*HeadNode3::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*HeadNode3::ptr::CSTR_HeadNode3)(HeadNode3 * self) = (void (*)(HeadNode3 * self)) 0x542220;
 #endif
 
 #ifdef __linux__
 
-HeadNode3 * (*HeadNode3::ptr::_New)() = (HeadNode3 * (*)()) 0x814bdc0;
-void (*HeadNode3::ptr::_mark)() = (void (*)()) 0x80a0aa0;
-void (*HeadNode3::ptr::CSTR_HeadNode3)(HeadNode3 * self) = (void (*)(HeadNode3 * self)) 0x814bca0;
+inline HeadNode3 * (*HeadNode3::ptr::_New)() = (HeadNode3 * (*)()) 0x814bdc0;
+inline void (*HeadNode3::ptr::_mark)() = (void (*)()) 0x80a0aa0;
+inline void (*HeadNode3::ptr::CSTR_HeadNode3)(HeadNode3 * self) = (void (*)(HeadNode3 * self)) 0x814bca0;
 #endif
 #endif

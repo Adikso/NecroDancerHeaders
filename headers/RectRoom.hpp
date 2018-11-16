@@ -44,31 +44,31 @@ public:
 
 #ifdef _WIN32
 
-RectRoom * (*RectRoom::ptr::_New)(RectRoom * self, Rect * arg1) = (RectRoom * (*)(RectRoom * self, Rect * arg1)) 0x0;
-RectRoom * (*RectRoom::ptr::new2)(RectRoom * self, RoomData * rd) = (RectRoom * (*)(RectRoom * self, RoomData * rd)) 0x65f780;
-RectRoom * (*RectRoom::ptr::_new3)() = (RectRoom * (*)()) 0x0;
-RoomData * (*RectRoom::ptr::ToRoomData)(RectRoom * self, int roomType) = (RoomData * (*)(RectRoom * self, int roomType)) 0x65f880;
-Rect * (*RectRoom::ptr::GetBounds)(RectRoom * self) = (Rect * (*)(RectRoom * self)) 0x65f950;
-bool (*RectRoom::ptr::IsWall2)(RectRoom * self, int x, int y) = (bool (*)(RectRoom * self, int x, int y)) 0x65f960;
-bool (*RectRoom::ptr::IsFloor2)(RectRoom * self, int x, int y) = (bool (*)(RectRoom * self, int x, int y)) 0x65f970;
-bool (*RectRoom::ptr::IsOutside)(RectRoom * self, int x, int y) = (bool (*)(RectRoom * self, int x, int y)) 0x65f9b0;
-Point * (*RectRoom::ptr::GetRandPoint)(RectRoom * self) = (Point * (*)(RectRoom * self)) 0x65f9d0;
-void (*RectRoom::ptr::_mark)() = (void (*)()) 0x0;
-void (*RectRoom::ptr::CSTR_RectRoom)(RectRoom * self) = (void (*)(RectRoom * self)) 0x65f700;
+inline RectRoom * (*RectRoom::ptr::_New)(RectRoom * self, Rect * arg1) = (RectRoom * (*)(RectRoom * self, Rect * arg1)) 0x0;
+inline RectRoom * (*RectRoom::ptr::new2)(RectRoom * self, RoomData * rd) = (RectRoom * (*)(RectRoom * self, RoomData * rd)) 0x65f780;
+inline RectRoom * (*RectRoom::ptr::_new3)() = (RectRoom * (*)()) 0x0;
+inline RoomData * (*RectRoom::ptr::ToRoomData)(RectRoom * self, int roomType) = (RoomData * (*)(RectRoom * self, int roomType)) 0x65f880;
+inline Rect * (*RectRoom::ptr::GetBounds)(RectRoom * self) = (Rect * (*)(RectRoom * self)) 0x65f950;
+inline bool (*RectRoom::ptr::IsWall2)(RectRoom * self, int x, int y) = (bool (*)(RectRoom * self, int x, int y)) 0x65f960;
+inline bool (*RectRoom::ptr::IsFloor2)(RectRoom * self, int x, int y) = (bool (*)(RectRoom * self, int x, int y)) 0x65f970;
+inline bool (*RectRoom::ptr::IsOutside)(RectRoom * self, int x, int y) = (bool (*)(RectRoom * self, int x, int y)) 0x65f9b0;
+inline Point * (*RectRoom::ptr::GetRandPoint)(RectRoom * self) = (Point * (*)(RectRoom * self)) 0x65f9d0;
+inline void (*RectRoom::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*RectRoom::ptr::CSTR_RectRoom)(RectRoom * self) = (void (*)(RectRoom * self)) 0x65f700;
 #endif
 
 #ifdef __linux__
 
-RectRoom * (*RectRoom::ptr::_New)(RectRoom * self, Rect * arg1) = (RectRoom * (*)(RectRoom * self, Rect * arg1)) 0x81d4df0;
-RectRoom * (*RectRoom::ptr::new2)(RectRoom * self, RoomData * rd) = (RectRoom * (*)(RectRoom * self, RoomData * rd)) 0x81d4e50;
-RectRoom * (*RectRoom::ptr::_new3)() = (RectRoom * (*)()) 0x81d4f00;
-RoomData * (*RectRoom::ptr::ToRoomData)(RectRoom * self, int roomType) = (RoomData * (*)(RectRoom * self, int roomType)) 0x80b5a80;
-Rect * (*RectRoom::ptr::GetBounds)(RectRoom * self) = (Rect * (*)(RectRoom * self)) 0x8076da0;
-bool (*RectRoom::ptr::IsWall2)(RectRoom * self, int x, int y) = (bool (*)(RectRoom * self, int x, int y)) 0x8076dc0;
-bool (*RectRoom::ptr::IsFloor2)(RectRoom * self, int x, int y) = (bool (*)(RectRoom * self, int x, int y)) 0x8076de0;
-bool (*RectRoom::ptr::IsOutside)(RectRoom * self, int x, int y) = (bool (*)(RectRoom * self, int x, int y)) 0x8076e50;
-Point * (*RectRoom::ptr::GetRandPoint)(RectRoom * self) = (Point * (*)(RectRoom * self)) 0x8100650;
-void (*RectRoom::ptr::_mark)() = (void (*)()) 0x8087350;
-void (*RectRoom::ptr::CSTR_RectRoom)(RectRoom * self) = (void (*)(RectRoom * self)) 0x81d4dd0;
+inline RectRoom * (*RectRoom::ptr::_New)(RectRoom * self, Rect * arg1) = (RectRoom * (*)(RectRoom * self, Rect * arg1)) 0x81d4df0;
+inline RectRoom * (*RectRoom::ptr::new2)(RectRoom * self, RoomData * rd) = (RectRoom * (*)(RectRoom * self, RoomData * rd)) 0x81d4e50;
+inline RectRoom * (*RectRoom::ptr::_new3)() = (RectRoom * (*)()) 0x81d4f00;
+inline RoomData * (*RectRoom::ptr::ToRoomData)(RectRoom * self, int roomType) = (RoomData * (*)(RectRoom * self, int roomType)) 0x80b5a80;
+inline Rect * (*RectRoom::ptr::GetBounds)(RectRoom * self) = (Rect * (*)(RectRoom * self)) 0x8076da0;
+inline bool (*RectRoom::ptr::IsWall2)(RectRoom * self, int x, int y) = (bool (*)(RectRoom * self, int x, int y)) 0x8076dc0;
+inline bool (*RectRoom::ptr::IsFloor2)(RectRoom * self, int x, int y) = (bool (*)(RectRoom * self, int x, int y)) 0x8076de0;
+inline bool (*RectRoom::ptr::IsOutside)(RectRoom * self, int x, int y) = (bool (*)(RectRoom * self, int x, int y)) 0x8076e50;
+inline Point * (*RectRoom::ptr::GetRandPoint)(RectRoom * self) = (Point * (*)(RectRoom * self)) 0x8100650;
+inline void (*RectRoom::ptr::_mark)() = (void (*)()) 0x8087350;
+inline void (*RectRoom::ptr::CSTR_RectRoom)(RectRoom * self) = (void (*)(RectRoom * self)) 0x81d4dd0;
 #endif
 #endif

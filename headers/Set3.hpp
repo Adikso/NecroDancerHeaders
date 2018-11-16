@@ -31,21 +31,21 @@ public:
 
 #ifdef _WIN32
 
-Set3 * (*Set3::ptr::_New)(Set3 * self, Map19 * arg1) = (Set3 * (*)(Set3 * self, Map19 * arg1)) 0x0;
-Set3 * (*Set3::ptr::_new2)() = (Set3 * (*)()) 0x0;
-int (*Set3::ptr::Insert8)(Set3 * self, Point * value) = (int (*)(Set3 * self, Point * value)) 0x632c90;
-bool (*Set3::ptr::Contains5)(Set3 * self, Point * value) = (bool (*)(Set3 * self, Point * value)) 0x632cb0;
-KeyEnumerator4 * (*Set3::ptr::ObjectEnumerator)(Set3 * self) = (KeyEnumerator4 * (*)(Set3 * self)) 0x632cc0;
-void (*Set3::ptr::_mark)() = (void (*)()) 0x0;
+inline Set3 * (*Set3::ptr::_New)(Set3 * self, Map19 * arg1) = (Set3 * (*)(Set3 * self, Map19 * arg1)) 0x0;
+inline Set3 * (*Set3::ptr::_new2)() = (Set3 * (*)()) 0x0;
+inline int (*Set3::ptr::Insert8)(Set3 * self, Point * value) = (int (*)(Set3 * self, Point * value)) 0x632c90;
+inline bool (*Set3::ptr::Contains5)(Set3 * self, Point * value) = (bool (*)(Set3 * self, Point * value)) 0x632cb0;
+inline KeyEnumerator4 * (*Set3::ptr::ObjectEnumerator)(Set3 * self) = (KeyEnumerator4 * (*)(Set3 * self)) 0x632cc0;
+inline void (*Set3::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Set3 * (*Set3::ptr::_New)(Set3 * self, Map19 * arg1) = (Set3 * (*)(Set3 * self, Map19 * arg1)) 0x81bc4f0;
-Set3 * (*Set3::ptr::_new2)() = (Set3 * (*)()) 0x81bc550;
-int (*Set3::ptr::Insert8)(Set3 * self, Point * value) = (int (*)(Set3 * self, Point * value)) 0x80759b0;
-bool (*Set3::ptr::Contains5)(Set3 * self, Point * value) = (bool (*)(Set3 * self, Point * value)) 0x80759e0;
-KeyEnumerator4 * (*Set3::ptr::ObjectEnumerator)(Set3 * self) = (KeyEnumerator4 * (*)(Set3 * self)) 0x8075a00;
-void (*Set3::ptr::_mark)() = (void (*)()) 0x8086c30;
+inline Set3 * (*Set3::ptr::_New)(Set3 * self, Map19 * arg1) = (Set3 * (*)(Set3 * self, Map19 * arg1)) 0x81bc4f0;
+inline Set3 * (*Set3::ptr::_new2)() = (Set3 * (*)()) 0x81bc550;
+inline int (*Set3::ptr::Insert8)(Set3 * self, Point * value) = (int (*)(Set3 * self, Point * value)) 0x80759b0;
+inline bool (*Set3::ptr::Contains5)(Set3 * self, Point * value) = (bool (*)(Set3 * self, Point * value)) 0x80759e0;
+inline KeyEnumerator4 * (*Set3::ptr::ObjectEnumerator)(Set3 * self) = (KeyEnumerator4 * (*)(Set3 * self)) 0x8075a00;
+inline void (*Set3::ptr::_mark)() = (void (*)()) 0x8086c30;
 #endif
 #endif

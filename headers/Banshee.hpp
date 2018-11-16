@@ -36,23 +36,23 @@ public:
 
 #ifdef _WIN32
 
-Banshee * (*Banshee::ptr::New)(Banshee * self, int xVal, int yVal, int l) = (Banshee * (*)(Banshee * self, int xVal, int yVal, int l)) 0x61a9b0;
-Banshee * (*Banshee::ptr::_new2)() = (Banshee * (*)()) 0x0;
-void (*Banshee::ptr::Update)(Banshee * self) = (void (*)(Banshee * self)) 0x61acd0;
-bool (*Banshee::ptr::Hit)(Banshee * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Banshee * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x61ad10;
-void (*Banshee::ptr::Die)(Banshee * self) = (void (*)(Banshee * self)) 0x61af10;
-void (*Banshee::ptr::_mark)() = (void (*)()) 0x0;
-void (*Banshee::ptr::CSTR_Banshee)(Banshee * self) = (void (*)(Banshee * self)) 0x61a950;
+inline Banshee * (*Banshee::ptr::New)(Banshee * self, int xVal, int yVal, int l) = (Banshee * (*)(Banshee * self, int xVal, int yVal, int l)) 0x61a9b0;
+inline Banshee * (*Banshee::ptr::_new2)() = (Banshee * (*)()) 0x0;
+inline void (*Banshee::ptr::Update)(Banshee * self) = (void (*)(Banshee * self)) 0x61acd0;
+inline bool (*Banshee::ptr::Hit)(Banshee * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Banshee * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x61ad10;
+inline void (*Banshee::ptr::Die)(Banshee * self) = (void (*)(Banshee * self)) 0x61af10;
+inline void (*Banshee::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Banshee::ptr::CSTR_Banshee)(Banshee * self) = (void (*)(Banshee * self)) 0x61a950;
 #endif
 
 #ifdef __linux__
 
-Banshee * (*Banshee::ptr::New)(Banshee * self, int xVal, int yVal, int l) = (Banshee * (*)(Banshee * self, int xVal, int yVal, int l)) 0x81b6ac0;
-Banshee * (*Banshee::ptr::_new2)() = (Banshee * (*)()) 0x81b6ca0;
-void (*Banshee::ptr::Update)(Banshee * self) = (void (*)(Banshee * self)) 0x8384ac0;
-bool (*Banshee::ptr::Hit)(Banshee * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Banshee * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x839ca60;
-void (*Banshee::ptr::Die)(Banshee * self) = (void (*)(Banshee * self)) 0x83b6890;
-void (*Banshee::ptr::_mark)() = (void (*)()) 0x80b0bb0;
-void (*Banshee::ptr::CSTR_Banshee)(Banshee * self) = (void (*)(Banshee * self)) 0x81b6a90;
+inline Banshee * (*Banshee::ptr::New)(Banshee * self, int xVal, int yVal, int l) = (Banshee * (*)(Banshee * self, int xVal, int yVal, int l)) 0x81b6ac0;
+inline Banshee * (*Banshee::ptr::_new2)() = (Banshee * (*)()) 0x81b6ca0;
+inline void (*Banshee::ptr::Update)(Banshee * self) = (void (*)(Banshee * self)) 0x8384ac0;
+inline bool (*Banshee::ptr::Hit)(Banshee * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Banshee * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x839ca60;
+inline void (*Banshee::ptr::Die)(Banshee * self) = (void (*)(Banshee * self)) 0x83b6890;
+inline void (*Banshee::ptr::_mark)() = (void (*)()) 0x80b0bb0;
+inline void (*Banshee::ptr::CSTR_Banshee)(Banshee * self) = (void (*)(Banshee * self)) 0x81b6a90;
 #endif
 #endif

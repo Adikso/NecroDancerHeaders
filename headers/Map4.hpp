@@ -37,27 +37,27 @@ public:
 
 #ifdef _WIN32
 
-Map4 * (*Map4::ptr::_New)() = (Map4 * (*)()) 0x0;
-int (*Map4::ptr::_Compare)(Map4 * self, String * arg1, String * arg2) = (int (*)(Map4 * self, String * arg1, String * arg2)) 0x0;
-int (*Map4::ptr::_RotateLeft4)(Map4 * self, Node5 * arg1) = (int (*)(Map4 * self, Node5 * arg1)) 0x0;
-int (*Map4::ptr::_RotateRight4)(Map4 * self, Node5 * arg1) = (int (*)(Map4 * self, Node5 * arg1)) 0x0;
-int (*Map4::ptr::_InsertFixup4)(Map4 * self, Node5 * arg1) = (int (*)(Map4 * self, Node5 * arg1)) 0x0;
-bool (*Map4::ptr::Set5)(Map4 * self, String * key, SpriteInitData * value) = (bool (*)(Map4 * self, String * key, SpriteInitData * value)) 0x53be40;
-Node5 * (*Map4::ptr::_FindNode)(Map4 * self, String * arg1) = (Node5 * (*)(Map4 * self, String * arg1)) 0x0;
-SpriteInitData * (*Map4::ptr::Get)(Map4 * self, String * key) = (SpriteInitData * (*)(Map4 * self, String * key)) 0x53bf90;
-void (*Map4::ptr::_mark)() = (void (*)()) 0x0;
+inline Map4 * (*Map4::ptr::_New)() = (Map4 * (*)()) 0x0;
+inline int (*Map4::ptr::_Compare)(Map4 * self, String * arg1, String * arg2) = (int (*)(Map4 * self, String * arg1, String * arg2)) 0x0;
+inline int (*Map4::ptr::_RotateLeft4)(Map4 * self, Node5 * arg1) = (int (*)(Map4 * self, Node5 * arg1)) 0x0;
+inline int (*Map4::ptr::_RotateRight4)(Map4 * self, Node5 * arg1) = (int (*)(Map4 * self, Node5 * arg1)) 0x0;
+inline int (*Map4::ptr::_InsertFixup4)(Map4 * self, Node5 * arg1) = (int (*)(Map4 * self, Node5 * arg1)) 0x0;
+inline bool (*Map4::ptr::Set5)(Map4 * self, String * key, SpriteInitData * value) = (bool (*)(Map4 * self, String * key, SpriteInitData * value)) 0x53be40;
+inline Node5 * (*Map4::ptr::_FindNode)(Map4 * self, String * arg1) = (Node5 * (*)(Map4 * self, String * arg1)) 0x0;
+inline SpriteInitData * (*Map4::ptr::Get)(Map4 * self, String * key) = (SpriteInitData * (*)(Map4 * self, String * key)) 0x53bf90;
+inline void (*Map4::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Map4 * (*Map4::ptr::_New)() = (Map4 * (*)()) 0x8145ba0;
-int (*Map4::ptr::_Compare)(Map4 * self, String * arg1, String * arg2) = (int (*)(Map4 * self, String * arg1, String * arg2)) 0x0;
-int (*Map4::ptr::_RotateLeft4)(Map4 * self, Node5 * arg1) = (int (*)(Map4 * self, Node5 * arg1)) 0x0;
-int (*Map4::ptr::_RotateRight4)(Map4 * self, Node5 * arg1) = (int (*)(Map4 * self, Node5 * arg1)) 0x0;
-int (*Map4::ptr::_InsertFixup4)(Map4 * self, Node5 * arg1) = (int (*)(Map4 * self, Node5 * arg1)) 0x0;
-bool (*Map4::ptr::Set5)(Map4 * self, String * key, SpriteInitData * value) = (bool (*)(Map4 * self, String * key, SpriteInitData * value)) 0x80dbdd0;
-Node5 * (*Map4::ptr::_FindNode)(Map4 * self, String * arg1) = (Node5 * (*)(Map4 * self, String * arg1)) 0x80c3ef0;
-SpriteInitData * (*Map4::ptr::Get)(Map4 * self, String * key) = (SpriteInitData * (*)(Map4 * self, String * key)) 0x80c3e80;
-void (*Map4::ptr::_mark)() = (void (*)()) 0x808bad0;
+inline Map4 * (*Map4::ptr::_New)() = (Map4 * (*)()) 0x8145ba0;
+inline int (*Map4::ptr::_Compare)(Map4 * self, String * arg1, String * arg2) = (int (*)(Map4 * self, String * arg1, String * arg2)) 0x0;
+inline int (*Map4::ptr::_RotateLeft4)(Map4 * self, Node5 * arg1) = (int (*)(Map4 * self, Node5 * arg1)) 0x0;
+inline int (*Map4::ptr::_RotateRight4)(Map4 * self, Node5 * arg1) = (int (*)(Map4 * self, Node5 * arg1)) 0x0;
+inline int (*Map4::ptr::_InsertFixup4)(Map4 * self, Node5 * arg1) = (int (*)(Map4 * self, Node5 * arg1)) 0x0;
+inline bool (*Map4::ptr::Set5)(Map4 * self, String * key, SpriteInitData * value) = (bool (*)(Map4 * self, String * key, SpriteInitData * value)) 0x80dbdd0;
+inline Node5 * (*Map4::ptr::_FindNode)(Map4 * self, String * arg1) = (Node5 * (*)(Map4 * self, String * arg1)) 0x80c3ef0;
+inline SpriteInitData * (*Map4::ptr::Get)(Map4 * self, String * key) = (SpriteInitData * (*)(Map4 * self, String * key)) 0x80c3e80;
+inline void (*Map4::ptr::_mark)() = (void (*)()) 0x808bad0;
 #endif
 #endif

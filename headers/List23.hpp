@@ -38,23 +38,23 @@ public:
 
 #ifdef _WIN32
 
-List23 * (*List23::ptr::_New)() = (List23 * (*)()) 0x0;
-Node33 * (*List23::ptr::_AddLast23)(List23 * self, ShrineObject * arg1) = (Node33 * (*)(List23 * self, ShrineObject * arg1)) 0x0;
-List23 * (*List23::ptr::_new2)(List23 * self, Array<ShrineObject *> * arg1) = (List23 * (*)(List23 * self, Array<ShrineObject *> * arg1)) 0x0;
-Enumerator37 * (*List23::ptr::ObjectEnumerator)(List23 * self) = (Enumerator37 * (*)(List23 * self)) 0x5df780;
-void (*List23::ptr::_mark)() = (void (*)()) 0x0;
-void (*List23::ptr::CSTR_List23)(List23 * self) = (void (*)(List23 * self)) 0x5df610;
-Node33 * (*List23::ptr::AddLast23)(List23 * self, Shrine * data) = (Node33 * (*)(List23 * self, Shrine * data)) 0x5df6e0;
+inline List23 * (*List23::ptr::_New)() = (List23 * (*)()) 0x0;
+inline Node33 * (*List23::ptr::_AddLast23)(List23 * self, ShrineObject * arg1) = (Node33 * (*)(List23 * self, ShrineObject * arg1)) 0x0;
+inline List23 * (*List23::ptr::_new2)(List23 * self, Array<ShrineObject *> * arg1) = (List23 * (*)(List23 * self, Array<ShrineObject *> * arg1)) 0x0;
+inline Enumerator37 * (*List23::ptr::ObjectEnumerator)(List23 * self) = (Enumerator37 * (*)(List23 * self)) 0x5df780;
+inline void (*List23::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List23::ptr::CSTR_List23)(List23 * self) = (void (*)(List23 * self)) 0x5df610;
+inline Node33 * (*List23::ptr::AddLast23)(List23 * self, Shrine * data) = (Node33 * (*)(List23 * self, Shrine * data)) 0x5df6e0;
 #endif
 
 #ifdef __linux__
 
-List23 * (*List23::ptr::_New)() = (List23 * (*)()) 0x8198250;
-Node33 * (*List23::ptr::_AddLast23)(List23 * self, ShrineObject * arg1) = (Node33 * (*)(List23 * self, ShrineObject * arg1)) 0x0;
-List23 * (*List23::ptr::_new2)(List23 * self, Array<ShrineObject *> * arg1) = (List23 * (*)(List23 * self, Array<ShrineObject *> * arg1)) 0x0;
-Enumerator37 * (*List23::ptr::ObjectEnumerator)(List23 * self) = (Enumerator37 * (*)(List23 * self)) 0x80b8430;
-void (*List23::ptr::_mark)() = (void (*)()) 0x808e760;
-void (*List23::ptr::CSTR_List23)(List23 * self) = (void (*)(List23 * self)) 0x81985d0;
-Node33 * (*List23::ptr::AddLast23)(List23 * self, Shrine * data) = (Node33 * (*)(List23 * self, Shrine * data)) 0x8198490;
+inline List23 * (*List23::ptr::_New)() = (List23 * (*)()) 0x8198250;
+inline Node33 * (*List23::ptr::_AddLast23)(List23 * self, ShrineObject * arg1) = (Node33 * (*)(List23 * self, ShrineObject * arg1)) 0x0;
+inline List23 * (*List23::ptr::_new2)(List23 * self, Array<ShrineObject *> * arg1) = (List23 * (*)(List23 * self, Array<ShrineObject *> * arg1)) 0x0;
+inline Enumerator37 * (*List23::ptr::ObjectEnumerator)(List23 * self) = (Enumerator37 * (*)(List23 * self)) 0x80b8430;
+inline void (*List23::ptr::_mark)() = (void (*)()) 0x808e760;
+inline void (*List23::ptr::CSTR_List23)(List23 * self) = (void (*)(List23 * self)) 0x81985d0;
+inline Node33 * (*List23::ptr::AddLast23)(List23 * self, Shrine * data) = (Node33 * (*)(List23 * self, Shrine * data)) 0x8198490;
 #endif
 #endif

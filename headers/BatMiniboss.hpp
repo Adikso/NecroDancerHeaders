@@ -33,21 +33,21 @@ public:
 
 #ifdef _WIN32
 
-BatMiniboss * (*BatMiniboss::ptr::New)(BatMiniboss * self, int xVal, int yVal, int l) = (BatMiniboss * (*)(BatMiniboss * self, int xVal, int yVal, int l)) 0x616390;
-BatMiniboss * (*BatMiniboss::ptr::_new2)() = (BatMiniboss * (*)()) 0x0;
-Point * (*BatMiniboss::ptr::GetMovementDirection)(BatMiniboss * self) = (Point * (*)(BatMiniboss * self)) 0x616620;
-void (*BatMiniboss::ptr::Update)(BatMiniboss * self) = (void (*)(BatMiniboss * self)) 0x616830;
-void (*BatMiniboss::ptr::_mark)() = (void (*)()) 0x0;
-void (*BatMiniboss::ptr::CSTR_BatMiniboss)(BatMiniboss * self) = (void (*)(BatMiniboss * self)) 0x616330;
+inline BatMiniboss * (*BatMiniboss::ptr::New)(BatMiniboss * self, int xVal, int yVal, int l) = (BatMiniboss * (*)(BatMiniboss * self, int xVal, int yVal, int l)) 0x616390;
+inline BatMiniboss * (*BatMiniboss::ptr::_new2)() = (BatMiniboss * (*)()) 0x0;
+inline Point * (*BatMiniboss::ptr::GetMovementDirection)(BatMiniboss * self) = (Point * (*)(BatMiniboss * self)) 0x616620;
+inline void (*BatMiniboss::ptr::Update)(BatMiniboss * self) = (void (*)(BatMiniboss * self)) 0x616830;
+inline void (*BatMiniboss::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*BatMiniboss::ptr::CSTR_BatMiniboss)(BatMiniboss * self) = (void (*)(BatMiniboss * self)) 0x616330;
 #endif
 
 #ifdef __linux__
 
-BatMiniboss * (*BatMiniboss::ptr::New)(BatMiniboss * self, int xVal, int yVal, int l) = (BatMiniboss * (*)(BatMiniboss * self, int xVal, int yVal, int l)) 0x81b5bb0;
-BatMiniboss * (*BatMiniboss::ptr::_new2)() = (BatMiniboss * (*)()) 0x81b5d50;
-Point * (*BatMiniboss::ptr::GetMovementDirection)(BatMiniboss * self) = (Point * (*)(BatMiniboss * self)) 0x825e460;
-void (*BatMiniboss::ptr::Update)(BatMiniboss * self) = (void (*)(BatMiniboss * self)) 0x83850f0;
-void (*BatMiniboss::ptr::_mark)() = (void (*)()) 0x80b0c60;
-void (*BatMiniboss::ptr::CSTR_BatMiniboss)(BatMiniboss * self) = (void (*)(BatMiniboss * self)) 0x81b5b80;
+inline BatMiniboss * (*BatMiniboss::ptr::New)(BatMiniboss * self, int xVal, int yVal, int l) = (BatMiniboss * (*)(BatMiniboss * self, int xVal, int yVal, int l)) 0x81b5bb0;
+inline BatMiniboss * (*BatMiniboss::ptr::_new2)() = (BatMiniboss * (*)()) 0x81b5d50;
+inline Point * (*BatMiniboss::ptr::GetMovementDirection)(BatMiniboss * self) = (Point * (*)(BatMiniboss * self)) 0x825e460;
+inline void (*BatMiniboss::ptr::Update)(BatMiniboss * self) = (void (*)(BatMiniboss * self)) 0x83850f0;
+inline void (*BatMiniboss::ptr::_mark)() = (void (*)()) 0x80b0c60;
+inline void (*BatMiniboss::ptr::CSTR_BatMiniboss)(BatMiniboss * self) = (void (*)(BatMiniboss * self)) 0x81b5b80;
 #endif
 #endif

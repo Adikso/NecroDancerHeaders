@@ -30,19 +30,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator24 * (*Enumerator24::ptr::_New)(Enumerator24 * self, List11 * arg1) = (Enumerator24 * (*)(Enumerator24 * self, List11 * arg1)) 0x0;
-Enumerator24 * (*Enumerator24::ptr::_new2)() = (Enumerator24 * (*)()) 0x0;
-bool (*Enumerator24::ptr::_HasNext)() = (bool (*)()) 0x0;
-String * (*Enumerator24::ptr::_NextObject)() = (String * (*)()) 0x0;
-void (*Enumerator24::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator24 * (*Enumerator24::ptr::_New)(Enumerator24 * self, List11 * arg1) = (Enumerator24 * (*)(Enumerator24 * self, List11 * arg1)) 0x0;
+inline Enumerator24 * (*Enumerator24::ptr::_new2)() = (Enumerator24 * (*)()) 0x0;
+inline bool (*Enumerator24::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline String * (*Enumerator24::ptr::_NextObject)() = (String * (*)()) 0x0;
+inline void (*Enumerator24::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator24 * (*Enumerator24::ptr::_New)(Enumerator24 * self, List11 * arg1) = (Enumerator24 * (*)(Enumerator24 * self, List11 * arg1)) 0x0;
-Enumerator24 * (*Enumerator24::ptr::_new2)() = (Enumerator24 * (*)()) 0x81bbe80;
-bool (*Enumerator24::ptr::_HasNext)() = (bool (*)()) 0x8091860;
-String * (*Enumerator24::ptr::_NextObject)() = (String * (*)()) 0x80917f0;
-void (*Enumerator24::ptr::_mark)() = (void (*)()) 0x8085260;
+inline Enumerator24 * (*Enumerator24::ptr::_New)(Enumerator24 * self, List11 * arg1) = (Enumerator24 * (*)(Enumerator24 * self, List11 * arg1)) 0x0;
+inline Enumerator24 * (*Enumerator24::ptr::_new2)() = (Enumerator24 * (*)()) 0x81bbe80;
+inline bool (*Enumerator24::ptr::_HasNext)() = (bool (*)()) 0x8091860;
+inline String * (*Enumerator24::ptr::_NextObject)() = (String * (*)()) 0x80917f0;
+inline void (*Enumerator24::ptr::_mark)() = (void (*)()) 0x8085260;
 #endif
 #endif

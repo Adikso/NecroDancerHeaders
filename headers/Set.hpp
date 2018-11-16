@@ -29,21 +29,21 @@ public:
 
 #ifdef _WIN32
 
-Set * (*Set::ptr::_New)(Set * self, Map6 * arg1) = (Set * (*)(Set * self, Map6 * arg1)) 0x0;
-Set * (*Set::ptr::_new2)() = (Set * (*)()) 0x0;
-int (*Set::ptr::Clear)(Set * self) = (int (*)(Set * self)) 0x57e030;
-bool (*Set::ptr::Contains2)(Set * self, int value) = (bool (*)(Set * self, int value)) 0x57e040;
-int (*Set::ptr::Insert3)(Set * self, int value) = (int (*)(Set * self, int value)) 0x57e050;
-void (*Set::ptr::_mark)() = (void (*)()) 0x0;
+inline Set * (*Set::ptr::_New)(Set * self, Map6 * arg1) = (Set * (*)(Set * self, Map6 * arg1)) 0x0;
+inline Set * (*Set::ptr::_new2)() = (Set * (*)()) 0x0;
+inline int (*Set::ptr::Clear)(Set * self) = (int (*)(Set * self)) 0x57e030;
+inline bool (*Set::ptr::Contains2)(Set * self, int value) = (bool (*)(Set * self, int value)) 0x57e040;
+inline int (*Set::ptr::Insert3)(Set * self, int value) = (int (*)(Set * self, int value)) 0x57e050;
+inline void (*Set::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Set * (*Set::ptr::_New)(Set * self, Map6 * arg1) = (Set * (*)(Set * self, Map6 * arg1)) 0x8158090;
-Set * (*Set::ptr::_new2)() = (Set * (*)()) 0x81580f0;
-int (*Set::ptr::Clear)(Set * self) = (int (*)(Set * self)) 0x806fbf0;
-bool (*Set::ptr::Contains2)(Set * self, int value) = (bool (*)(Set * self, int value)) 0x806fc10;
-int (*Set::ptr::Insert3)(Set * self, int value) = (int (*)(Set * self, int value)) 0x806fc30;
-void (*Set::ptr::_mark)() = (void (*)()) 0x806fc60;
+inline Set * (*Set::ptr::_New)(Set * self, Map6 * arg1) = (Set * (*)(Set * self, Map6 * arg1)) 0x8158090;
+inline Set * (*Set::ptr::_new2)() = (Set * (*)()) 0x81580f0;
+inline int (*Set::ptr::Clear)(Set * self) = (int (*)(Set * self)) 0x806fbf0;
+inline bool (*Set::ptr::Contains2)(Set * self, int value) = (bool (*)(Set * self, int value)) 0x806fc10;
+inline int (*Set::ptr::Insert3)(Set * self, int value) = (int (*)(Set * self, int value)) 0x806fc30;
+inline void (*Set::ptr::_mark)() = (void (*)()) 0x806fc60;
 #endif
 #endif

@@ -31,21 +31,21 @@ public:
 
 #ifdef _WIN32
 
-Node8 * (*Node8::ptr::_New)(Node8 * self, Node8 * succ, Node8 * pred, SubtitleData * data) = (Node8 * (*)(Node8 * self, Node8 * succ, Node8 * pred, SubtitleData * data)) 0x453f80;
-Node8 * (*Node8::ptr::_new2)() = (Node8 * (*)()) 0x0;
-Node8 * (*Node8::ptr::_GetNode)(Node8 * self) = (Node8 * (*)(Node8 * self)) 0x454110;
-Node8 * (*Node8::ptr::_NextNode)(Node8 * self) = (Node8 * (*)(Node8 * self)) 0x4541e0;
-int (*Node8::ptr::Remove3)(Node8 * self) = (int (*)(Node8 * self)) 0x454130;
-void (*Node8::ptr::mark)(Node8 * self) = (void (*)(Node8 * self)) 0x41e2a0;
+inline Node8 * (*Node8::ptr::_New)(Node8 * self, Node8 * succ, Node8 * pred, SubtitleData * data) = (Node8 * (*)(Node8 * self, Node8 * succ, Node8 * pred, SubtitleData * data)) 0x453f80;
+inline Node8 * (*Node8::ptr::_new2)() = (Node8 * (*)()) 0x0;
+inline Node8 * (*Node8::ptr::_GetNode)(Node8 * self) = (Node8 * (*)(Node8 * self)) 0x454110;
+inline Node8 * (*Node8::ptr::_NextNode)(Node8 * self) = (Node8 * (*)(Node8 * self)) 0x4541e0;
+inline int (*Node8::ptr::Remove3)(Node8 * self) = (int (*)(Node8 * self)) 0x454130;
+inline void (*Node8::ptr::mark)(Node8 * self) = (void (*)(Node8 * self)) 0x41e2a0;
 #endif
 
 #ifdef __linux__
 
-Node8 * (*Node8::ptr::_New)(Node8 * self, Node8 * succ, Node8 * pred, SubtitleData * data) = (Node8 * (*)(Node8 * self, Node8 * succ, Node8 * pred, SubtitleData * data)) 0x0;
-Node8 * (*Node8::ptr::_new2)() = (Node8 * (*)()) 0x815a530;
-Node8 * (*Node8::ptr::_GetNode)(Node8 * self) = (Node8 * (*)(Node8 * self)) 0x0;
-Node8 * (*Node8::ptr::_NextNode)(Node8 * self) = (Node8 * (*)(Node8 * self)) 0x0;
-int (*Node8::ptr::Remove3)(Node8 * self) = (int (*)(Node8 * self)) 0x8091130;
-void (*Node8::ptr::mark)(Node8 * self) = (void (*)(Node8 * self)) 0x808b370;
+inline Node8 * (*Node8::ptr::_New)(Node8 * self, Node8 * succ, Node8 * pred, SubtitleData * data) = (Node8 * (*)(Node8 * self, Node8 * succ, Node8 * pred, SubtitleData * data)) 0x0;
+inline Node8 * (*Node8::ptr::_new2)() = (Node8 * (*)()) 0x815a530;
+inline Node8 * (*Node8::ptr::_GetNode)(Node8 * self) = (Node8 * (*)(Node8 * self)) 0x0;
+inline Node8 * (*Node8::ptr::_NextNode)(Node8 * self) = (Node8 * (*)(Node8 * self)) 0x0;
+inline int (*Node8::ptr::Remove3)(Node8 * self) = (int (*)(Node8 * self)) 0x8091130;
+inline void (*Node8::ptr::mark)(Node8 * self) = (void (*)(Node8 * self)) 0x808b370;
 #endif
 #endif

@@ -51,31 +51,31 @@ public:
 
 #ifdef _WIN32
 
-Ghast * (*Ghast::ptr::New)(Ghast * self, int xVal, int yVal, int l) = (Ghast * (*)(Ghast * self, int xVal, int yVal, int l)) 0x648040;
-Ghast * (*Ghast::ptr::_new2)() = (Ghast * (*)()) 0x0;
-void (*Ghast::ptr::_Render)() = (void (*)()) 0x0;
-void (*Ghast::ptr::BecomeCorporeal)(Ghast * self, bool force) = (void (*)(Ghast * self, bool force)) 0x6482b0;
-void (*Ghast::ptr::_CheckCorporeality)() = (void (*)()) 0x0;
-void (*Ghast::ptr::Update)(Ghast * self) = (void (*)(Ghast * self)) 0x648580;
-bool (*Ghast::ptr::Hit)(Ghast * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Ghast * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x648920;
-bool (*Ghast::ptr::_CanBeDamaged)(Ghast * self, bool arg1, bool arg2) = (bool (*)(Ghast * self, bool arg1, bool arg2)) 0x0;
-Point * (*Ghast::ptr::GetMovementDirection)(Ghast * self) = (Point * (*)(Ghast * self)) 0x648a90;
-void (*Ghast::ptr::_mark)() = (void (*)()) 0x0;
-void (*Ghast::ptr::CSTR_Ghast)(Ghast * self) = (void (*)(Ghast * self)) 0x647fb0;
+inline Ghast * (*Ghast::ptr::New)(Ghast * self, int xVal, int yVal, int l) = (Ghast * (*)(Ghast * self, int xVal, int yVal, int l)) 0x648040;
+inline Ghast * (*Ghast::ptr::_new2)() = (Ghast * (*)()) 0x0;
+inline void (*Ghast::ptr::_Render)() = (void (*)()) 0x0;
+inline void (*Ghast::ptr::BecomeCorporeal)(Ghast * self, bool force) = (void (*)(Ghast * self, bool force)) 0x6482b0;
+inline void (*Ghast::ptr::_CheckCorporeality)() = (void (*)()) 0x0;
+inline void (*Ghast::ptr::Update)(Ghast * self) = (void (*)(Ghast * self)) 0x648580;
+inline bool (*Ghast::ptr::Hit)(Ghast * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Ghast * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x648920;
+inline bool (*Ghast::ptr::_CanBeDamaged)(Ghast * self, bool arg1, bool arg2) = (bool (*)(Ghast * self, bool arg1, bool arg2)) 0x0;
+inline Point * (*Ghast::ptr::GetMovementDirection)(Ghast * self) = (Point * (*)(Ghast * self)) 0x648a90;
+inline void (*Ghast::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Ghast::ptr::CSTR_Ghast)(Ghast * self) = (void (*)(Ghast * self)) 0x647fb0;
 #endif
 
 #ifdef __linux__
 
-Ghast * (*Ghast::ptr::New)(Ghast * self, int xVal, int yVal, int l) = (Ghast * (*)(Ghast * self, int xVal, int yVal, int l)) 0x81c41d0;
-Ghast * (*Ghast::ptr::_new2)() = (Ghast * (*)()) 0x81c43b0;
-void (*Ghast::ptr::_Render)() = (void (*)()) 0x830bd50;
-void (*Ghast::ptr::BecomeCorporeal)(Ghast * self, bool force) = (void (*)(Ghast * self, bool force)) 0x82648e0;
-void (*Ghast::ptr::_CheckCorporeality)() = (void (*)()) 0x8260a30;
-void (*Ghast::ptr::Update)(Ghast * self) = (void (*)(Ghast * self)) 0x8381300;
-bool (*Ghast::ptr::Hit)(Ghast * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Ghast * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83981f0;
-bool (*Ghast::ptr::_CanBeDamaged)(Ghast * self, bool arg1, bool arg2) = (bool (*)(Ghast * self, bool arg1, bool arg2)) 0x8076330;
-Point * (*Ghast::ptr::GetMovementDirection)(Ghast * self) = (Point * (*)(Ghast * self)) 0x80b4550;
-void (*Ghast::ptr::_mark)() = (void (*)()) 0x80b0500;
-void (*Ghast::ptr::CSTR_Ghast)(Ghast * self) = (void (*)(Ghast * self)) 0x81c4170;
+inline Ghast * (*Ghast::ptr::New)(Ghast * self, int xVal, int yVal, int l) = (Ghast * (*)(Ghast * self, int xVal, int yVal, int l)) 0x81c41d0;
+inline Ghast * (*Ghast::ptr::_new2)() = (Ghast * (*)()) 0x81c43b0;
+inline void (*Ghast::ptr::_Render)() = (void (*)()) 0x830bd50;
+inline void (*Ghast::ptr::BecomeCorporeal)(Ghast * self, bool force) = (void (*)(Ghast * self, bool force)) 0x82648e0;
+inline void (*Ghast::ptr::_CheckCorporeality)() = (void (*)()) 0x8260a30;
+inline void (*Ghast::ptr::Update)(Ghast * self) = (void (*)(Ghast * self)) 0x8381300;
+inline bool (*Ghast::ptr::Hit)(Ghast * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Ghast * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83981f0;
+inline bool (*Ghast::ptr::_CanBeDamaged)(Ghast * self, bool arg1, bool arg2) = (bool (*)(Ghast * self, bool arg1, bool arg2)) 0x8076330;
+inline Point * (*Ghast::ptr::GetMovementDirection)(Ghast * self) = (Point * (*)(Ghast * self)) 0x80b4550;
+inline void (*Ghast::ptr::_mark)() = (void (*)()) 0x80b0500;
+inline void (*Ghast::ptr::CSTR_Ghast)(Ghast * self) = (void (*)(Ghast * self)) 0x81c4170;
 #endif
 #endif

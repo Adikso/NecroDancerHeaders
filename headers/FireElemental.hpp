@@ -29,19 +29,19 @@ public:
 
 #ifdef _WIN32
 
-FireElemental * (*FireElemental::ptr::New)(FireElemental * self, int xVal, int yVal, int l) = (FireElemental * (*)(FireElemental * self, int xVal, int yVal, int l)) 0x645620;
-FireElemental * (*FireElemental::ptr::_new2)() = (FireElemental * (*)()) 0x0;
-void (*FireElemental::ptr::DropTile)(FireElemental * self) = (void (*)(FireElemental * self)) 0x6458a0;
-void (*FireElemental::ptr::_mark)() = (void (*)()) 0x0;
-void (*FireElemental::ptr::CSTR_FireElemental)(FireElemental * self) = (void (*)(FireElemental * self)) 0x6455b0;
+inline FireElemental * (*FireElemental::ptr::New)(FireElemental * self, int xVal, int yVal, int l) = (FireElemental * (*)(FireElemental * self, int xVal, int yVal, int l)) 0x645620;
+inline FireElemental * (*FireElemental::ptr::_new2)() = (FireElemental * (*)()) 0x0;
+inline void (*FireElemental::ptr::DropTile)(FireElemental * self) = (void (*)(FireElemental * self)) 0x6458a0;
+inline void (*FireElemental::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*FireElemental::ptr::CSTR_FireElemental)(FireElemental * self) = (void (*)(FireElemental * self)) 0x6455b0;
 #endif
 
 #ifdef __linux__
 
-FireElemental * (*FireElemental::ptr::New)(FireElemental * self, int xVal, int yVal, int l) = (FireElemental * (*)(FireElemental * self, int xVal, int yVal, int l)) 0x81c33f0;
-FireElemental * (*FireElemental::ptr::_new2)() = (FireElemental * (*)()) 0x81c3580;
-void (*FireElemental::ptr::DropTile)(FireElemental * self) = (void (*)(FireElemental * self)) 0x837ccd0;
-void (*FireElemental::ptr::_mark)() = (void (*)()) 0x80b0640;
-void (*FireElemental::ptr::CSTR_FireElemental)(FireElemental * self) = (void (*)(FireElemental * self)) 0x81c33d0;
+inline FireElemental * (*FireElemental::ptr::New)(FireElemental * self, int xVal, int yVal, int l) = (FireElemental * (*)(FireElemental * self, int xVal, int yVal, int l)) 0x81c33f0;
+inline FireElemental * (*FireElemental::ptr::_new2)() = (FireElemental * (*)()) 0x81c3580;
+inline void (*FireElemental::ptr::DropTile)(FireElemental * self) = (void (*)(FireElemental * self)) 0x837ccd0;
+inline void (*FireElemental::ptr::_mark)() = (void (*)()) 0x80b0640;
+inline void (*FireElemental::ptr::CSTR_FireElemental)(FireElemental * self) = (void (*)(FireElemental * self)) 0x81c33d0;
 #endif
 #endif

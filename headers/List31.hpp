@@ -39,25 +39,25 @@ public:
 
 #ifdef _WIN32
 
-List31 * (*List31::ptr::_New)() = (List31 * (*)()) 0x0;
-Node48 * (*List31::ptr::AddLast31)(List31 * self, SaleItem * data) = (Node48 * (*)(List31 * self, SaleItem * data)) 0x5fced0;
-List31 * (*List31::ptr::_new2)(List31 * self, Array<SaleItem *> * arg1) = (List31 * (*)(List31 * self, Array<SaleItem *> * arg1)) 0x0;
-Enumerator14 * (*List31::ptr::ObjectEnumerator)(List31 * self) = (Enumerator14 * (*)(List31 * self)) 0x5fcf70;
-bool (*List31::ptr::_Equals20)(List31 * self, SaleItem * arg1, SaleItem * arg2) = (bool (*)(List31 * self, SaleItem * arg1, SaleItem * arg2)) 0x0;
-int (*List31::ptr::_RemoveEach17)(List31 * self, SaleItem * arg1) = (int (*)(List31 * self, SaleItem * arg1)) 0x0;
-void (*List31::ptr::_mark)() = (void (*)()) 0x0;
-void (*List31::ptr::CSTR_List31)(List31 * self) = (void (*)(List31 * self)) 0x5fce00;
+inline List31 * (*List31::ptr::_New)() = (List31 * (*)()) 0x0;
+inline Node48 * (*List31::ptr::AddLast31)(List31 * self, SaleItem * data) = (Node48 * (*)(List31 * self, SaleItem * data)) 0x5fced0;
+inline List31 * (*List31::ptr::_new2)(List31 * self, Array<SaleItem *> * arg1) = (List31 * (*)(List31 * self, Array<SaleItem *> * arg1)) 0x0;
+inline Enumerator14 * (*List31::ptr::ObjectEnumerator)(List31 * self) = (Enumerator14 * (*)(List31 * self)) 0x5fcf70;
+inline bool (*List31::ptr::_Equals20)(List31 * self, SaleItem * arg1, SaleItem * arg2) = (bool (*)(List31 * self, SaleItem * arg1, SaleItem * arg2)) 0x0;
+inline int (*List31::ptr::_RemoveEach17)(List31 * self, SaleItem * arg1) = (int (*)(List31 * self, SaleItem * arg1)) 0x0;
+inline void (*List31::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List31::ptr::CSTR_List31)(List31 * self) = (void (*)(List31 * self)) 0x5fce00;
 #endif
 
 #ifdef __linux__
 
-List31 * (*List31::ptr::_New)() = (List31 * (*)()) 0x81a5180;
-Node48 * (*List31::ptr::AddLast31)(List31 * self, SaleItem * data) = (Node48 * (*)(List31 * self, SaleItem * data)) 0x81a53c0;
-List31 * (*List31::ptr::_new2)(List31 * self, Array<SaleItem *> * arg1) = (List31 * (*)(List31 * self, Array<SaleItem *> * arg1)) 0x0;
-Enumerator14 * (*List31::ptr::ObjectEnumerator)(List31 * self) = (Enumerator14 * (*)(List31 * self)) 0x80b94b0;
-bool (*List31::ptr::_Equals20)(List31 * self, SaleItem * arg1, SaleItem * arg2) = (bool (*)(List31 * self, SaleItem * arg1, SaleItem * arg2)) 0x8073b00;
-int (*List31::ptr::_RemoveEach17)(List31 * self, SaleItem * arg1) = (int (*)(List31 * self, SaleItem * arg1)) 0x8073b10;
-void (*List31::ptr::_mark)() = (void (*)()) 0x808a4f0;
-void (*List31::ptr::CSTR_List31)(List31 * self) = (void (*)(List31 * self)) 0x81a5500;
+inline List31 * (*List31::ptr::_New)() = (List31 * (*)()) 0x81a5180;
+inline Node48 * (*List31::ptr::AddLast31)(List31 * self, SaleItem * data) = (Node48 * (*)(List31 * self, SaleItem * data)) 0x81a53c0;
+inline List31 * (*List31::ptr::_new2)(List31 * self, Array<SaleItem *> * arg1) = (List31 * (*)(List31 * self, Array<SaleItem *> * arg1)) 0x0;
+inline Enumerator14 * (*List31::ptr::ObjectEnumerator)(List31 * self) = (Enumerator14 * (*)(List31 * self)) 0x80b94b0;
+inline bool (*List31::ptr::_Equals20)(List31 * self, SaleItem * arg1, SaleItem * arg2) = (bool (*)(List31 * self, SaleItem * arg1, SaleItem * arg2)) 0x8073b00;
+inline int (*List31::ptr::_RemoveEach17)(List31 * self, SaleItem * arg1) = (int (*)(List31 * self, SaleItem * arg1)) 0x8073b10;
+inline void (*List31::ptr::_mark)() = (void (*)()) 0x808a4f0;
+inline void (*List31::ptr::CSTR_List31)(List31 * self) = (void (*)(List31 * self)) 0x81a5500;
 #endif
 #endif

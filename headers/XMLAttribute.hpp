@@ -30,17 +30,17 @@ public:
 
 #ifdef _WIN32
 
-XMLAttribute * (*XMLAttribute::ptr::New)(XMLAttribute * self, String * id, String * value) = (XMLAttribute * (*)(XMLAttribute * self, String * id, String * value)) 0x446690;
-XMLAttribute * (*XMLAttribute::ptr::_new2)() = (XMLAttribute * (*)()) 0x0;
-void (*XMLAttribute::ptr::_mark)() = (void (*)()) 0x0;
-void (*XMLAttribute::ptr::CSTR_XMLAttribute)(XMLAttribute * self) = (void (*)(XMLAttribute * self)) 0x446570;
+inline XMLAttribute * (*XMLAttribute::ptr::New)(XMLAttribute * self, String * id, String * value) = (XMLAttribute * (*)(XMLAttribute * self, String * id, String * value)) 0x446690;
+inline XMLAttribute * (*XMLAttribute::ptr::_new2)() = (XMLAttribute * (*)()) 0x0;
+inline void (*XMLAttribute::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*XMLAttribute::ptr::CSTR_XMLAttribute)(XMLAttribute * self) = (void (*)(XMLAttribute * self)) 0x446570;
 #endif
 
 #ifdef __linux__
 
-XMLAttribute * (*XMLAttribute::ptr::New)(XMLAttribute * self, String * id, String * value) = (XMLAttribute * (*)(XMLAttribute * self, String * id, String * value)) 0x81182e0;
-XMLAttribute * (*XMLAttribute::ptr::_new2)() = (XMLAttribute * (*)()) 0x8118340;
-void (*XMLAttribute::ptr::_mark)() = (void (*)()) 0x806d670;
-void (*XMLAttribute::ptr::CSTR_XMLAttribute)(XMLAttribute * self) = (void (*)(XMLAttribute * self)) 0x8118250;
+inline XMLAttribute * (*XMLAttribute::ptr::New)(XMLAttribute * self, String * id, String * value) = (XMLAttribute * (*)(XMLAttribute * self, String * id, String * value)) 0x81182e0;
+inline XMLAttribute * (*XMLAttribute::ptr::_new2)() = (XMLAttribute * (*)()) 0x8118340;
+inline void (*XMLAttribute::ptr::_mark)() = (void (*)()) 0x806d670;
+inline void (*XMLAttribute::ptr::CSTR_XMLAttribute)(XMLAttribute * self) = (void (*)(XMLAttribute * self)) 0x8118250;
 #endif
 #endif

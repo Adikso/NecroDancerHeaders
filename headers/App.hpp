@@ -31,25 +31,25 @@ public:
 
 #ifdef _WIN32
 
-App * (*App::ptr::New)(App * self) = (App * (*)(App * self)) 0x41ce90;
-int (*App::ptr::_OnCreate)() = (int (*)()) 0x0;
-int (*App::ptr::_OnSuspend)() = (int (*)()) 0x0;
-int (*App::ptr::_OnResume)() = (int (*)()) 0x0;
-int (*App::ptr::_OnUpdate)() = (int (*)()) 0x0;
-int (*App::ptr::_OnLoading)() = (int (*)()) 0x0;
-int (*App::ptr::_OnRender)() = (int (*)()) 0x0;
-void (*App::ptr::_mark)() = (void (*)()) 0x0;
+inline App * (*App::ptr::New)(App * self) = (App * (*)(App * self)) 0x41ce90;
+inline int (*App::ptr::_OnCreate)() = (int (*)()) 0x0;
+inline int (*App::ptr::_OnSuspend)() = (int (*)()) 0x0;
+inline int (*App::ptr::_OnResume)() = (int (*)()) 0x0;
+inline int (*App::ptr::_OnUpdate)() = (int (*)()) 0x0;
+inline int (*App::ptr::_OnLoading)() = (int (*)()) 0x0;
+inline int (*App::ptr::_OnRender)() = (int (*)()) 0x0;
+inline void (*App::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-App * (*App::ptr::New)(App * self) = (App * (*)(App * self)) 0x80fdd20;
-int (*App::ptr::_OnCreate)() = (int (*)()) 0x806d240;
-int (*App::ptr::_OnSuspend)() = (int (*)()) 0x806d260;
-int (*App::ptr::_OnResume)() = (int (*)()) 0x806d270;
-int (*App::ptr::_OnUpdate)() = (int (*)()) 0x806d250;
-int (*App::ptr::_OnLoading)() = (int (*)()) 0x806d290;
-int (*App::ptr::_OnRender)() = (int (*)()) 0x806d280;
-void (*App::ptr::_mark)() = (void (*)()) 0x806d2a0;
+inline App * (*App::ptr::New)(App * self) = (App * (*)(App * self)) 0x80fdd20;
+inline int (*App::ptr::_OnCreate)() = (int (*)()) 0x806d240;
+inline int (*App::ptr::_OnSuspend)() = (int (*)()) 0x806d260;
+inline int (*App::ptr::_OnResume)() = (int (*)()) 0x806d270;
+inline int (*App::ptr::_OnUpdate)() = (int (*)()) 0x806d250;
+inline int (*App::ptr::_OnLoading)() = (int (*)()) 0x806d290;
+inline int (*App::ptr::_OnRender)() = (int (*)()) 0x806d280;
+inline void (*App::ptr::_mark)() = (void (*)()) 0x806d2a0;
 #endif
 #endif

@@ -28,15 +28,15 @@ public:
 
 #ifdef _WIN32
 
-MinibossTileData * (*MinibossTileData::ptr::_New)() = (MinibossTileData * (*)()) 0x0;
-void (*MinibossTileData::ptr::_mark)() = (void (*)()) 0x0;
-void (*MinibossTileData::ptr::CSTR_MinibossTileData)(MinibossTileData * self) = (void (*)(MinibossTileData * self)) 0x61ece0;
+inline MinibossTileData * (*MinibossTileData::ptr::_New)() = (MinibossTileData * (*)()) 0x0;
+inline void (*MinibossTileData::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*MinibossTileData::ptr::CSTR_MinibossTileData)(MinibossTileData * self) = (void (*)(MinibossTileData * self)) 0x61ece0;
 #endif
 
 #ifdef __linux__
 
-MinibossTileData * (*MinibossTileData::ptr::_New)() = (MinibossTileData * (*)()) 0x81b8000;
-void (*MinibossTileData::ptr::_mark)() = (void (*)()) 0x8074ef0;
-void (*MinibossTileData::ptr::CSTR_MinibossTileData)(MinibossTileData * self) = (void (*)(MinibossTileData * self)) 0x81b7fd0;
+inline MinibossTileData * (*MinibossTileData::ptr::_New)() = (MinibossTileData * (*)()) 0x81b8000;
+inline void (*MinibossTileData::ptr::_mark)() = (void (*)()) 0x8074ef0;
+inline void (*MinibossTileData::ptr::CSTR_MinibossTileData)(MinibossTileData * self) = (void (*)(MinibossTileData * self)) 0x81b7fd0;
 #endif
 #endif

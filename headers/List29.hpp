@@ -41,27 +41,27 @@ public:
 
 #ifdef _WIN32
 
-List29 * (*List29::ptr::_New)() = (List29 * (*)()) 0x0;
-Node46 * (*List29::ptr::AddLast29)(List29 * self, Particle * data) = (Node46 * (*)(List29 * self, Particle * data)) 0x5fad50;
-List29 * (*List29::ptr::_new2)(List29 * self, Array<Particle *> * arg1) = (List29 * (*)(List29 * self, Array<Particle *> * arg1)) 0x0;
-bool (*List29::ptr::_IsEmpty)() = (bool (*)()) 0x0;
-Particle * (*List29::ptr::_RemoveLast)() = (Particle * (*)()) 0x0;
-Enumerator13 * (*List29::ptr::ObjectEnumerator)(List29 * self) = (Enumerator13 * (*)(List29 * self)) 0x5fadf0;
-int (*List29::ptr::_Count)() = (int (*)()) 0x0;
-void (*List29::ptr::_mark)() = (void (*)()) 0x0;
-void (*List29::ptr::CSTR_List29)(List29 * self) = (void (*)(List29 * self)) 0x5fac80;
+inline List29 * (*List29::ptr::_New)() = (List29 * (*)()) 0x0;
+inline Node46 * (*List29::ptr::AddLast29)(List29 * self, Particle * data) = (Node46 * (*)(List29 * self, Particle * data)) 0x5fad50;
+inline List29 * (*List29::ptr::_new2)(List29 * self, Array<Particle *> * arg1) = (List29 * (*)(List29 * self, Array<Particle *> * arg1)) 0x0;
+inline bool (*List29::ptr::_IsEmpty)() = (bool (*)()) 0x0;
+inline Particle * (*List29::ptr::_RemoveLast)() = (Particle * (*)()) 0x0;
+inline Enumerator13 * (*List29::ptr::ObjectEnumerator)(List29 * self) = (Enumerator13 * (*)(List29 * self)) 0x5fadf0;
+inline int (*List29::ptr::_Count)() = (int (*)()) 0x0;
+inline void (*List29::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List29::ptr::CSTR_List29)(List29 * self) = (void (*)(List29 * self)) 0x5fac80;
 #endif
 
 #ifdef __linux__
 
-List29 * (*List29::ptr::_New)() = (List29 * (*)()) 0x81a3740;
-Node46 * (*List29::ptr::AddLast29)(List29 * self, Particle * data) = (Node46 * (*)(List29 * self, Particle * data)) 0x81a3980;
-List29 * (*List29::ptr::_new2)(List29 * self, Array<Particle *> * arg1) = (List29 * (*)(List29 * self, Array<Particle *> * arg1)) 0x0;
-bool (*List29::ptr::_IsEmpty)() = (bool (*)()) 0x8073920;
-Particle * (*List29::ptr::_RemoveLast)() = (Particle * (*)()) 0x8073930;
-Enumerator13 * (*List29::ptr::ObjectEnumerator)(List29 * self) = (Enumerator13 * (*)(List29 * self)) 0x80b93e0;
-int (*List29::ptr::_Count)() = (int (*)()) 0x8073970;
-void (*List29::ptr::_mark)() = (void (*)()) 0x808b770;
-void (*List29::ptr::CSTR_List29)(List29 * self) = (void (*)(List29 * self)) 0x81a3ac0;
+inline List29 * (*List29::ptr::_New)() = (List29 * (*)()) 0x81a3740;
+inline Node46 * (*List29::ptr::AddLast29)(List29 * self, Particle * data) = (Node46 * (*)(List29 * self, Particle * data)) 0x81a3980;
+inline List29 * (*List29::ptr::_new2)(List29 * self, Array<Particle *> * arg1) = (List29 * (*)(List29 * self, Array<Particle *> * arg1)) 0x0;
+inline bool (*List29::ptr::_IsEmpty)() = (bool (*)()) 0x8073920;
+inline Particle * (*List29::ptr::_RemoveLast)() = (Particle * (*)()) 0x8073930;
+inline Enumerator13 * (*List29::ptr::ObjectEnumerator)(List29 * self) = (Enumerator13 * (*)(List29 * self)) 0x80b93e0;
+inline int (*List29::ptr::_Count)() = (int (*)()) 0x8073970;
+inline void (*List29::ptr::_mark)() = (void (*)()) 0x808b770;
+inline void (*List29::ptr::CSTR_List29)(List29 * self) = (void (*)(List29 * self)) 0x81a3ac0;
 #endif
 #endif

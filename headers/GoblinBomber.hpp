@@ -37,25 +37,25 @@ public:
 
 #ifdef _WIN32
 
-GoblinBomber * (*GoblinBomber::ptr::New)(GoblinBomber * self, int xVal, int yVal, int l) = (GoblinBomber * (*)(GoblinBomber * self, int xVal, int yVal, int l)) 0x6494b0;
-GoblinBomber * (*GoblinBomber::ptr::_new2)() = (GoblinBomber * (*)()) 0x0;
-Point * (*GoblinBomber::ptr::GetMovementDirection)(GoblinBomber * self) = (Point * (*)(GoblinBomber * self)) 0x6496a0;
-void (*GoblinBomber::ptr::Update)(GoblinBomber * self) = (void (*)(GoblinBomber * self)) 0x6497a0;
-void (*GoblinBomber::ptr::AfterHitHook2)(GoblinBomber * self, int diffX, int diffY) = (void (*)(GoblinBomber * self, int diffX, int diffY)) 0x6497e0;
-void (*GoblinBomber::ptr::Die)(GoblinBomber * self) = (void (*)(GoblinBomber * self)) 0x649890;
-void (*GoblinBomber::ptr::_mark)() = (void (*)()) 0x0;
-void (*GoblinBomber::ptr::CSTR_GoblinBomber)(GoblinBomber * self) = (void (*)(GoblinBomber * self)) 0x649450;
+inline GoblinBomber * (*GoblinBomber::ptr::New)(GoblinBomber * self, int xVal, int yVal, int l) = (GoblinBomber * (*)(GoblinBomber * self, int xVal, int yVal, int l)) 0x6494b0;
+inline GoblinBomber * (*GoblinBomber::ptr::_new2)() = (GoblinBomber * (*)()) 0x0;
+inline Point * (*GoblinBomber::ptr::GetMovementDirection)(GoblinBomber * self) = (Point * (*)(GoblinBomber * self)) 0x6496a0;
+inline void (*GoblinBomber::ptr::Update)(GoblinBomber * self) = (void (*)(GoblinBomber * self)) 0x6497a0;
+inline void (*GoblinBomber::ptr::AfterHitHook2)(GoblinBomber * self, int diffX, int diffY) = (void (*)(GoblinBomber * self, int diffX, int diffY)) 0x6497e0;
+inline void (*GoblinBomber::ptr::Die)(GoblinBomber * self) = (void (*)(GoblinBomber * self)) 0x649890;
+inline void (*GoblinBomber::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*GoblinBomber::ptr::CSTR_GoblinBomber)(GoblinBomber * self) = (void (*)(GoblinBomber * self)) 0x649450;
 #endif
 
 #ifdef __linux__
 
-GoblinBomber * (*GoblinBomber::ptr::New)(GoblinBomber * self, int xVal, int yVal, int l) = (GoblinBomber * (*)(GoblinBomber * self, int xVal, int yVal, int l)) 0x81c4920;
-GoblinBomber * (*GoblinBomber::ptr::_new2)() = (GoblinBomber * (*)()) 0x81c4a70;
-Point * (*GoblinBomber::ptr::GetMovementDirection)(GoblinBomber * self) = (Point * (*)(GoblinBomber * self)) 0x812fa90;
-void (*GoblinBomber::ptr::Update)(GoblinBomber * self) = (void (*)(GoblinBomber * self)) 0x8381070;
-void (*GoblinBomber::ptr::AfterHitHook2)(GoblinBomber * self, int diffX, int diffY) = (void (*)(GoblinBomber * self, int diffX, int diffY)) 0x83ad5e0;
-void (*GoblinBomber::ptr::Die)(GoblinBomber * self) = (void (*)(GoblinBomber * self)) 0x83b5fb0;
-void (*GoblinBomber::ptr::_mark)() = (void (*)()) 0x80b04d0;
-void (*GoblinBomber::ptr::CSTR_GoblinBomber)(GoblinBomber * self) = (void (*)(GoblinBomber * self)) 0x81c48f0;
+inline GoblinBomber * (*GoblinBomber::ptr::New)(GoblinBomber * self, int xVal, int yVal, int l) = (GoblinBomber * (*)(GoblinBomber * self, int xVal, int yVal, int l)) 0x81c4920;
+inline GoblinBomber * (*GoblinBomber::ptr::_new2)() = (GoblinBomber * (*)()) 0x81c4a70;
+inline Point * (*GoblinBomber::ptr::GetMovementDirection)(GoblinBomber * self) = (Point * (*)(GoblinBomber * self)) 0x812fa90;
+inline void (*GoblinBomber::ptr::Update)(GoblinBomber * self) = (void (*)(GoblinBomber * self)) 0x8381070;
+inline void (*GoblinBomber::ptr::AfterHitHook2)(GoblinBomber * self, int diffX, int diffY) = (void (*)(GoblinBomber * self, int diffX, int diffY)) 0x83ad5e0;
+inline void (*GoblinBomber::ptr::Die)(GoblinBomber * self) = (void (*)(GoblinBomber * self)) 0x83b5fb0;
+inline void (*GoblinBomber::ptr::_mark)() = (void (*)()) 0x80b04d0;
+inline void (*GoblinBomber::ptr::CSTR_GoblinBomber)(GoblinBomber * self) = (void (*)(GoblinBomber * self)) 0x81c48f0;
 #endif
 #endif

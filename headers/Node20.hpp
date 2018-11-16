@@ -41,25 +41,25 @@ public:
 
 #ifdef _WIN32
 
-Node20 * (*Node20::ptr::_NextNode)() = (Node20 * (*)()) 0x0;
-IntMap4 * (*Node20::ptr::_Value)() = (IntMap4 * (*)()) 0x0;
-Node20 * (*Node20::ptr::_New)(Node20 * self, int arg1, IntMap4 * arg2, int arg3, Node20 * arg4) = (Node20 * (*)(Node20 * self, int arg1, IntMap4 * arg2, int arg3, Node20 * arg4)) 0x0;
-Node20 * (*Node20::ptr::_new2)() = (Node20 * (*)()) 0x0;
-int (*Node20::ptr::_Key)() = (int (*)()) 0x0;
-int (*Node20::ptr::_Count2)(Node20 * self, int arg1) = (int (*)(Node20 * self, int arg1)) 0x0;
-void (*Node20::ptr::_mark)() = (void (*)()) 0x0;
-void (*Node20::ptr::CSTR_Node20)(Node20 * self) = (void (*)(Node20 * self)) 0x5c9cf0;
+inline Node20 * (*Node20::ptr::_NextNode)() = (Node20 * (*)()) 0x0;
+inline IntMap4 * (*Node20::ptr::_Value)() = (IntMap4 * (*)()) 0x0;
+inline Node20 * (*Node20::ptr::_New)(Node20 * self, int arg1, IntMap4 * arg2, int arg3, Node20 * arg4) = (Node20 * (*)(Node20 * self, int arg1, IntMap4 * arg2, int arg3, Node20 * arg4)) 0x0;
+inline Node20 * (*Node20::ptr::_new2)() = (Node20 * (*)()) 0x0;
+inline int (*Node20::ptr::_Key)() = (int (*)()) 0x0;
+inline int (*Node20::ptr::_Count2)(Node20 * self, int arg1) = (int (*)(Node20 * self, int arg1)) 0x0;
+inline void (*Node20::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Node20::ptr::CSTR_Node20)(Node20 * self) = (void (*)(Node20 * self)) 0x5c9cf0;
 #endif
 
 #ifdef __linux__
 
-Node20 * (*Node20::ptr::_NextNode)() = (Node20 * (*)()) 0x80720f0;
-IntMap4 * (*Node20::ptr::_Value)() = (IntMap4 * (*)()) 0x0;
-Node20 * (*Node20::ptr::_New)(Node20 * self, int arg1, IntMap4 * arg2, int arg3, Node20 * arg4) = (Node20 * (*)(Node20 * self, int arg1, IntMap4 * arg2, int arg3, Node20 * arg4)) 0x0;
-Node20 * (*Node20::ptr::_new2)() = (Node20 * (*)()) 0x8196d30;
-int (*Node20::ptr::_Key)() = (int (*)()) 0x0;
-int (*Node20::ptr::_Count2)(Node20 * self, int arg1) = (int (*)(Node20 * self, int arg1)) 0x0;
-void (*Node20::ptr::_mark)() = (void (*)()) 0x8089fd0;
-void (*Node20::ptr::CSTR_Node20)(Node20 * self) = (void (*)(Node20 * self)) 0x8196af0;
+inline Node20 * (*Node20::ptr::_NextNode)() = (Node20 * (*)()) 0x80720f0;
+inline IntMap4 * (*Node20::ptr::_Value)() = (IntMap4 * (*)()) 0x0;
+inline Node20 * (*Node20::ptr::_New)(Node20 * self, int arg1, IntMap4 * arg2, int arg3, Node20 * arg4) = (Node20 * (*)(Node20 * self, int arg1, IntMap4 * arg2, int arg3, Node20 * arg4)) 0x0;
+inline Node20 * (*Node20::ptr::_new2)() = (Node20 * (*)()) 0x8196d30;
+inline int (*Node20::ptr::_Key)() = (int (*)()) 0x0;
+inline int (*Node20::ptr::_Count2)(Node20 * self, int arg1) = (int (*)(Node20 * self, int arg1)) 0x0;
+inline void (*Node20::ptr::_mark)() = (void (*)()) 0x8089fd0;
+inline void (*Node20::ptr::CSTR_Node20)(Node20 * self) = (void (*)(Node20 * self)) 0x8196af0;
 #endif
 #endif

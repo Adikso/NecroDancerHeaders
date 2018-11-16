@@ -33,23 +33,23 @@ public:
 
 #ifdef _WIN32
 
-Node54 * (*Node54::ptr::_New)(Node54 * self, Node54 * arg1, Node54 * arg2, Point * arg3) = (Node54 * (*)(Node54 * self, Node54 * arg1, Node54 * arg2, Point * arg3)) 0x0;
-Node54 * (*Node54::ptr::_new2)() = (Node54 * (*)()) 0x0;
-Node54 * (*Node54::ptr::_GetNode)() = (Node54 * (*)()) 0x0;
-Node54 * (*Node54::ptr::_NextNode)() = (Node54 * (*)()) 0x0;
-int (*Node54::ptr::_Remove3)() = (int (*)()) 0x0;
-Point * (*Node54::ptr::_Value)() = (Point * (*)()) 0x0;
-void (*Node54::ptr::_mark)() = (void (*)()) 0x0;
+inline Node54 * (*Node54::ptr::_New)(Node54 * self, Node54 * arg1, Node54 * arg2, Point * arg3) = (Node54 * (*)(Node54 * self, Node54 * arg1, Node54 * arg2, Point * arg3)) 0x0;
+inline Node54 * (*Node54::ptr::_new2)() = (Node54 * (*)()) 0x0;
+inline Node54 * (*Node54::ptr::_GetNode)() = (Node54 * (*)()) 0x0;
+inline Node54 * (*Node54::ptr::_NextNode)() = (Node54 * (*)()) 0x0;
+inline int (*Node54::ptr::_Remove3)() = (int (*)()) 0x0;
+inline Point * (*Node54::ptr::_Value)() = (Point * (*)()) 0x0;
+inline void (*Node54::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node54 * (*Node54::ptr::_New)(Node54 * self, Node54 * arg1, Node54 * arg2, Point * arg3) = (Node54 * (*)(Node54 * self, Node54 * arg1, Node54 * arg2, Point * arg3)) 0x0;
-Node54 * (*Node54::ptr::_new2)() = (Node54 * (*)()) 0x81db9e0;
-Node54 * (*Node54::ptr::_GetNode)() = (Node54 * (*)()) 0x8077fe0;
-Node54 * (*Node54::ptr::_NextNode)() = (Node54 * (*)()) 0x8077ff0;
-int (*Node54::ptr::_Remove3)() = (int (*)()) 0x808d0b0;
-Point * (*Node54::ptr::_Value)() = (Point * (*)()) 0x0;
-void (*Node54::ptr::_mark)() = (void (*)()) 0x8086b30;
+inline Node54 * (*Node54::ptr::_New)(Node54 * self, Node54 * arg1, Node54 * arg2, Point * arg3) = (Node54 * (*)(Node54 * self, Node54 * arg1, Node54 * arg2, Point * arg3)) 0x0;
+inline Node54 * (*Node54::ptr::_new2)() = (Node54 * (*)()) 0x81db9e0;
+inline Node54 * (*Node54::ptr::_GetNode)() = (Node54 * (*)()) 0x8077fe0;
+inline Node54 * (*Node54::ptr::_NextNode)() = (Node54 * (*)()) 0x8077ff0;
+inline int (*Node54::ptr::_Remove3)() = (int (*)()) 0x808d0b0;
+inline Point * (*Node54::ptr::_Value)() = (Point * (*)()) 0x0;
+inline void (*Node54::ptr::_mark)() = (void (*)()) 0x8086b30;
 #endif
 #endif

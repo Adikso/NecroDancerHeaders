@@ -59,33 +59,33 @@ public:
 
 #ifdef _WIN32
 
-void (*ControllerSoundtrack::ptr::ReloadSprites2)(ControllerSoundtrack * self, int characterID) = (void (*)(ControllerSoundtrack * self, int characterID)) 0x6a5080;
-bool (*ControllerSoundtrack::ptr::_IsCharUnlocked)(int arg1) = (bool (*)(int arg1)) 0x0;
-String * (*ControllerSoundtrack::ptr::ArtistToText)(ControllerSoundtrack * self, int id) = (String * (*)(ControllerSoundtrack * self, int id)) 0x6a5290;
-void (*ControllerSoundtrack::ptr::ReloadLabel)(ControllerSoundtrack * self, int characterID) = (void (*)(ControllerSoundtrack * self, int characterID)) 0x6a5410;
-ControllerSoundtrack * (*ControllerSoundtrack::ptr::New)(ControllerSoundtrack * self, Controller * game) = (ControllerSoundtrack * (*)(ControllerSoundtrack * self, Controller * game)) 0x6a55c0;
-void (*ControllerSoundtrack::ptr::Update)(ControllerSoundtrack * self) = (void (*)(ControllerSoundtrack * self)) 0x6935a0;
-void (*ControllerSoundtrack::ptr::Render)(ControllerSoundtrack * self) = (void (*)(ControllerSoundtrack * self)) 0x6a5990;
-void (*ControllerSoundtrack::ptr::_RegainFocus)() = (void (*)()) 0x0;
-void (*ControllerSoundtrack::ptr::GUICallback)(ControllerSoundtrack * self, int index, bool left) = (void (*)(ControllerSoundtrack * self, int index, bool left)) 0x6a5d00;
-void (*ControllerSoundtrack::ptr::Destructor)(ControllerSoundtrack * self) = (void (*)(ControllerSoundtrack * self)) 0x6a5d60;
-void (*ControllerSoundtrack::ptr::mark)(ControllerSoundtrack * self) = (void (*)(ControllerSoundtrack * self)) 0x6a5db0;
-void (*ControllerSoundtrack::ptr::CSTR_ControllerSoundtrack)(ControllerSoundtrack * self) = (void (*)(ControllerSoundtrack * self)) 0x6a4db0;
+inline void (*ControllerSoundtrack::ptr::ReloadSprites2)(ControllerSoundtrack * self, int characterID) = (void (*)(ControllerSoundtrack * self, int characterID)) 0x6a5080;
+inline bool (*ControllerSoundtrack::ptr::_IsCharUnlocked)(int arg1) = (bool (*)(int arg1)) 0x0;
+inline String * (*ControllerSoundtrack::ptr::ArtistToText)(ControllerSoundtrack * self, int id) = (String * (*)(ControllerSoundtrack * self, int id)) 0x6a5290;
+inline void (*ControllerSoundtrack::ptr::ReloadLabel)(ControllerSoundtrack * self, int characterID) = (void (*)(ControllerSoundtrack * self, int characterID)) 0x6a5410;
+inline ControllerSoundtrack * (*ControllerSoundtrack::ptr::New)(ControllerSoundtrack * self, Controller * game) = (ControllerSoundtrack * (*)(ControllerSoundtrack * self, Controller * game)) 0x6a55c0;
+inline void (*ControllerSoundtrack::ptr::Update)(ControllerSoundtrack * self) = (void (*)(ControllerSoundtrack * self)) 0x6935a0;
+inline void (*ControllerSoundtrack::ptr::Render)(ControllerSoundtrack * self) = (void (*)(ControllerSoundtrack * self)) 0x6a5990;
+inline void (*ControllerSoundtrack::ptr::_RegainFocus)() = (void (*)()) 0x0;
+inline void (*ControllerSoundtrack::ptr::GUICallback)(ControllerSoundtrack * self, int index, bool left) = (void (*)(ControllerSoundtrack * self, int index, bool left)) 0x6a5d00;
+inline void (*ControllerSoundtrack::ptr::Destructor)(ControllerSoundtrack * self) = (void (*)(ControllerSoundtrack * self)) 0x6a5d60;
+inline void (*ControllerSoundtrack::ptr::mark)(ControllerSoundtrack * self) = (void (*)(ControllerSoundtrack * self)) 0x6a5db0;
+inline void (*ControllerSoundtrack::ptr::CSTR_ControllerSoundtrack)(ControllerSoundtrack * self) = (void (*)(ControllerSoundtrack * self)) 0x6a4db0;
 #endif
 
 #ifdef __linux__
 
-void (*ControllerSoundtrack::ptr::ReloadSprites2)(ControllerSoundtrack * self, int characterID) = (void (*)(ControllerSoundtrack * self, int characterID)) 0x8127270;
-bool (*ControllerSoundtrack::ptr::_IsCharUnlocked)(int arg1) = (bool (*)(int arg1)) 0x81f08f0;
-String * (*ControllerSoundtrack::ptr::ArtistToText)(ControllerSoundtrack * self, int id) = (String * (*)(ControllerSoundtrack * self, int id)) 0x80c1e60;
-void (*ControllerSoundtrack::ptr::ReloadLabel)(ControllerSoundtrack * self, int characterID) = (void (*)(ControllerSoundtrack * self, int characterID)) 0x8247120;
-ControllerSoundtrack * (*ControllerSoundtrack::ptr::New)(ControllerSoundtrack * self, Controller * game) = (ControllerSoundtrack * (*)(ControllerSoundtrack * self, Controller * game)) 0x81f0920;
-void (*ControllerSoundtrack::ptr::Update)(ControllerSoundtrack * self) = (void (*)(ControllerSoundtrack * self)) 0x807a0e0;
-void (*ControllerSoundtrack::ptr::Render)(ControllerSoundtrack * self) = (void (*)(ControllerSoundtrack * self)) 0x8107b50;
-void (*ControllerSoundtrack::ptr::_RegainFocus)() = (void (*)()) 0x807a100;
-void (*ControllerSoundtrack::ptr::GUICallback)(ControllerSoundtrack * self, int index, bool left) = (void (*)(ControllerSoundtrack * self, int index, bool left)) 0x82db2f0;
-void (*ControllerSoundtrack::ptr::Destructor)(ControllerSoundtrack * self) = (void (*)(ControllerSoundtrack * self)) 0x807a110;
-void (*ControllerSoundtrack::ptr::mark)(ControllerSoundtrack * self) = (void (*)(ControllerSoundtrack * self)) 0x80ad270;
-void (*ControllerSoundtrack::ptr::CSTR_ControllerSoundtrack)(ControllerSoundtrack * self) = (void (*)(ControllerSoundtrack * self)) 0x81f02b0;
+inline void (*ControllerSoundtrack::ptr::ReloadSprites2)(ControllerSoundtrack * self, int characterID) = (void (*)(ControllerSoundtrack * self, int characterID)) 0x8127270;
+inline bool (*ControllerSoundtrack::ptr::_IsCharUnlocked)(int arg1) = (bool (*)(int arg1)) 0x81f08f0;
+inline String * (*ControllerSoundtrack::ptr::ArtistToText)(ControllerSoundtrack * self, int id) = (String * (*)(ControllerSoundtrack * self, int id)) 0x80c1e60;
+inline void (*ControllerSoundtrack::ptr::ReloadLabel)(ControllerSoundtrack * self, int characterID) = (void (*)(ControllerSoundtrack * self, int characterID)) 0x8247120;
+inline ControllerSoundtrack * (*ControllerSoundtrack::ptr::New)(ControllerSoundtrack * self, Controller * game) = (ControllerSoundtrack * (*)(ControllerSoundtrack * self, Controller * game)) 0x81f0920;
+inline void (*ControllerSoundtrack::ptr::Update)(ControllerSoundtrack * self) = (void (*)(ControllerSoundtrack * self)) 0x807a0e0;
+inline void (*ControllerSoundtrack::ptr::Render)(ControllerSoundtrack * self) = (void (*)(ControllerSoundtrack * self)) 0x8107b50;
+inline void (*ControllerSoundtrack::ptr::_RegainFocus)() = (void (*)()) 0x807a100;
+inline void (*ControllerSoundtrack::ptr::GUICallback)(ControllerSoundtrack * self, int index, bool left) = (void (*)(ControllerSoundtrack * self, int index, bool left)) 0x82db2f0;
+inline void (*ControllerSoundtrack::ptr::Destructor)(ControllerSoundtrack * self) = (void (*)(ControllerSoundtrack * self)) 0x807a110;
+inline void (*ControllerSoundtrack::ptr::mark)(ControllerSoundtrack * self) = (void (*)(ControllerSoundtrack * self)) 0x80ad270;
+inline void (*ControllerSoundtrack::ptr::CSTR_ControllerSoundtrack)(ControllerSoundtrack * self) = (void (*)(ControllerSoundtrack * self)) 0x81f02b0;
 #endif
 #endif

@@ -33,23 +33,23 @@ public:
 
 #ifdef _WIN32
 
-Node52 * (*Node52::ptr::_New)(Node52 * self, Node52 * arg1, Node52 * arg2, Arrow * arg3) = (Node52 * (*)(Node52 * self, Node52 * arg1, Node52 * arg2, Arrow * arg3)) 0x0;
-Node52 * (*Node52::ptr::_new2)() = (Node52 * (*)()) 0x0;
-Node52 * (*Node52::ptr::_GetNode)() = (Node52 * (*)()) 0x0;
-Node52 * (*Node52::ptr::_NextNode)() = (Node52 * (*)()) 0x0;
-Arrow * (*Node52::ptr::_Value)() = (Arrow * (*)()) 0x0;
-int (*Node52::ptr::_Remove3)() = (int (*)()) 0x0;
-void (*Node52::ptr::_mark)() = (void (*)()) 0x0;
+inline Node52 * (*Node52::ptr::_New)(Node52 * self, Node52 * arg1, Node52 * arg2, Arrow * arg3) = (Node52 * (*)(Node52 * self, Node52 * arg1, Node52 * arg2, Arrow * arg3)) 0x0;
+inline Node52 * (*Node52::ptr::_new2)() = (Node52 * (*)()) 0x0;
+inline Node52 * (*Node52::ptr::_GetNode)() = (Node52 * (*)()) 0x0;
+inline Node52 * (*Node52::ptr::_NextNode)() = (Node52 * (*)()) 0x0;
+inline Arrow * (*Node52::ptr::_Value)() = (Arrow * (*)()) 0x0;
+inline int (*Node52::ptr::_Remove3)() = (int (*)()) 0x0;
+inline void (*Node52::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node52 * (*Node52::ptr::_New)(Node52 * self, Node52 * arg1, Node52 * arg2, Arrow * arg3) = (Node52 * (*)(Node52 * self, Node52 * arg1, Node52 * arg2, Arrow * arg3)) 0x0;
-Node52 * (*Node52::ptr::_new2)() = (Node52 * (*)()) 0x81d4630;
-Node52 * (*Node52::ptr::_GetNode)() = (Node52 * (*)()) 0x0;
-Node52 * (*Node52::ptr::_NextNode)() = (Node52 * (*)()) 0x0;
-Arrow * (*Node52::ptr::_Value)() = (Arrow * (*)()) 0x0;
-int (*Node52::ptr::_Remove3)() = (int (*)()) 0x80915a0;
-void (*Node52::ptr::_mark)() = (void (*)()) 0x80888f0;
+inline Node52 * (*Node52::ptr::_New)(Node52 * self, Node52 * arg1, Node52 * arg2, Arrow * arg3) = (Node52 * (*)(Node52 * self, Node52 * arg1, Node52 * arg2, Arrow * arg3)) 0x0;
+inline Node52 * (*Node52::ptr::_new2)() = (Node52 * (*)()) 0x81d4630;
+inline Node52 * (*Node52::ptr::_GetNode)() = (Node52 * (*)()) 0x0;
+inline Node52 * (*Node52::ptr::_NextNode)() = (Node52 * (*)()) 0x0;
+inline Arrow * (*Node52::ptr::_Value)() = (Arrow * (*)()) 0x0;
+inline int (*Node52::ptr::_Remove3)() = (int (*)()) 0x80915a0;
+inline void (*Node52::ptr::_mark)() = (void (*)()) 0x80888f0;
 #endif
 #endif

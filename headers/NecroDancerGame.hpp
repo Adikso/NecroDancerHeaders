@@ -35,34 +35,34 @@ public:
 };
 
 #ifdef _WIN32
-int * NecroDancerGame::lastViewMultiplier = (int*) 0x835c80;
-int * NecroDancerGame::lastDeviceHeight = (int*) 0x835c7c;
-int * NecroDancerGame::lastDeviceWidth = (int*) 0x835c78;
-Image * * NecroDancerGame::textFont = (Image* *) 0x835c38;
+inline int * NecroDancerGame::lastViewMultiplier = (int*) 0x835c80;
+inline int * NecroDancerGame::lastDeviceHeight = (int*) 0x835c7c;
+inline int * NecroDancerGame::lastDeviceWidth = (int*) 0x835c78;
+inline Image * * NecroDancerGame::textFont = (Image* *) 0x835c38;
 
-NecroDancerGame * (*NecroDancerGame::ptr::_New)() = (NecroDancerGame * (*)()) 0x0;
-void (*NecroDancerGame::ptr::UpdateScreenSize)(bool force) = (void (*)(bool force)) 0x41d030;
-int (*NecroDancerGame::ptr::OnCreate)(NecroDancerGame * self) = (int (*)(NecroDancerGame * self)) 0x41d380;
-int (*NecroDancerGame::ptr::OnUpdate)(NecroDancerGame * self) = (int (*)(NecroDancerGame * self)) 0x41dbe0;
-int (*NecroDancerGame::ptr::OnRender)(NecroDancerGame * self) = (int (*)(NecroDancerGame * self)) 0x41dcd0;
-int (*NecroDancerGame::ptr::OnSuspend)(NecroDancerGame * self) = (int (*)(NecroDancerGame * self)) 0x41ddf0;
-int (*NecroDancerGame::ptr::OnResume)(NecroDancerGame * self) = (int (*)(NecroDancerGame * self)) 0x41de10;
-void (*NecroDancerGame::ptr::_mark)() = (void (*)()) 0x0;
+inline NecroDancerGame * (*NecroDancerGame::ptr::_New)() = (NecroDancerGame * (*)()) 0x0;
+inline void (*NecroDancerGame::ptr::UpdateScreenSize)(bool force) = (void (*)(bool force)) 0x41d030;
+inline int (*NecroDancerGame::ptr::OnCreate)(NecroDancerGame * self) = (int (*)(NecroDancerGame * self)) 0x41d380;
+inline int (*NecroDancerGame::ptr::OnUpdate)(NecroDancerGame * self) = (int (*)(NecroDancerGame * self)) 0x41dbe0;
+inline int (*NecroDancerGame::ptr::OnRender)(NecroDancerGame * self) = (int (*)(NecroDancerGame * self)) 0x41dcd0;
+inline int (*NecroDancerGame::ptr::OnSuspend)(NecroDancerGame * self) = (int (*)(NecroDancerGame * self)) 0x41ddf0;
+inline int (*NecroDancerGame::ptr::OnResume)(NecroDancerGame * self) = (int (*)(NecroDancerGame * self)) 0x41de10;
+inline void (*NecroDancerGame::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
-int * NecroDancerGame::lastViewMultiplier = (int*) 0x856abd0;
-int * NecroDancerGame::lastDeviceHeight = (int*) 0x856abcc;
-int * NecroDancerGame::lastDeviceWidth = (int*) 0x856abc8;
-Image * * NecroDancerGame::textFont = (Image* *) 0x856abc4;
+inline int * NecroDancerGame::lastViewMultiplier = (int*) 0x856abd0;
+inline int * NecroDancerGame::lastDeviceHeight = (int*) 0x856abcc;
+inline int * NecroDancerGame::lastDeviceWidth = (int*) 0x856abc8;
+inline Image * * NecroDancerGame::textFont = (Image* *) 0x856abc4;
 
-NecroDancerGame * (*NecroDancerGame::ptr::_New)() = (NecroDancerGame * (*)()) 0x80fddd0;
-void (*NecroDancerGame::ptr::UpdateScreenSize)(bool force) = (void (*)(bool force)) 0x8247450;
-int (*NecroDancerGame::ptr::OnCreate)(NecroDancerGame * self) = (int (*)(NecroDancerGame * self)) 0x83e0f00;
-int (*NecroDancerGame::ptr::OnUpdate)(NecroDancerGame * self) = (int (*)(NecroDancerGame * self)) 0x8367560;
-int (*NecroDancerGame::ptr::OnRender)(NecroDancerGame * self) = (int (*)(NecroDancerGame * self)) 0x8247810;
-int (*NecroDancerGame::ptr::OnSuspend)(NecroDancerGame * self) = (int (*)(NecroDancerGame * self)) 0x806d2b0;
-int (*NecroDancerGame::ptr::OnResume)(NecroDancerGame * self) = (int (*)(NecroDancerGame * self)) 0x82473e0;
-void (*NecroDancerGame::ptr::_mark)() = (void (*)()) 0x806d2d0;
+inline NecroDancerGame * (*NecroDancerGame::ptr::_New)() = (NecroDancerGame * (*)()) 0x80fddd0;
+inline void (*NecroDancerGame::ptr::UpdateScreenSize)(bool force) = (void (*)(bool force)) 0x8247450;
+inline int (*NecroDancerGame::ptr::OnCreate)(NecroDancerGame * self) = (int (*)(NecroDancerGame * self)) 0x83e0f00;
+inline int (*NecroDancerGame::ptr::OnUpdate)(NecroDancerGame * self) = (int (*)(NecroDancerGame * self)) 0x8367560;
+inline int (*NecroDancerGame::ptr::OnRender)(NecroDancerGame * self) = (int (*)(NecroDancerGame * self)) 0x8247810;
+inline int (*NecroDancerGame::ptr::OnSuspend)(NecroDancerGame * self) = (int (*)(NecroDancerGame * self)) 0x806d2b0;
+inline int (*NecroDancerGame::ptr::OnResume)(NecroDancerGame * self) = (int (*)(NecroDancerGame * self)) 0x82473e0;
+inline void (*NecroDancerGame::ptr::_mark)() = (void (*)()) 0x806d2d0;
 #endif
 #endif

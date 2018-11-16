@@ -30,19 +30,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator15 * (*Enumerator15::ptr::_New)(Enumerator15 * self, List32 * arg1) = (Enumerator15 * (*)(Enumerator15 * self, List32 * arg1)) 0x0;
-Enumerator15 * (*Enumerator15::ptr::_new2)() = (Enumerator15 * (*)()) 0x0;
-bool (*Enumerator15::ptr::_HasNext)() = (bool (*)()) 0x0;
-SaleChest * (*Enumerator15::ptr::_NextObject)() = (SaleChest * (*)()) 0x0;
-void (*Enumerator15::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator15 * (*Enumerator15::ptr::_New)(Enumerator15 * self, List32 * arg1) = (Enumerator15 * (*)(Enumerator15 * self, List32 * arg1)) 0x0;
+inline Enumerator15 * (*Enumerator15::ptr::_new2)() = (Enumerator15 * (*)()) 0x0;
+inline bool (*Enumerator15::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline SaleChest * (*Enumerator15::ptr::_NextObject)() = (SaleChest * (*)()) 0x0;
+inline void (*Enumerator15::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator15 * (*Enumerator15::ptr::_New)(Enumerator15 * self, List32 * arg1) = (Enumerator15 * (*)(Enumerator15 * self, List32 * arg1)) 0x81a5a40;
-Enumerator15 * (*Enumerator15::ptr::_new2)() = (Enumerator15 * (*)()) 0x81a5af0;
-bool (*Enumerator15::ptr::_HasNext)() = (bool (*)()) 0x8091ee0;
-SaleChest * (*Enumerator15::ptr::_NextObject)() = (SaleChest * (*)()) 0x8091e70;
-void (*Enumerator15::ptr::_mark)() = (void (*)()) 0x8084820;
+inline Enumerator15 * (*Enumerator15::ptr::_New)(Enumerator15 * self, List32 * arg1) = (Enumerator15 * (*)(Enumerator15 * self, List32 * arg1)) 0x81a5a40;
+inline Enumerator15 * (*Enumerator15::ptr::_new2)() = (Enumerator15 * (*)()) 0x81a5af0;
+inline bool (*Enumerator15::ptr::_HasNext)() = (bool (*)()) 0x8091ee0;
+inline SaleChest * (*Enumerator15::ptr::_NextObject)() = (SaleChest * (*)()) 0x8091e70;
+inline void (*Enumerator15::ptr::_mark)() = (void (*)()) 0x8084820;
 #endif
 #endif

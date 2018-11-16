@@ -35,25 +35,25 @@ public:
 
 #ifdef _WIN32
 
-Point * (*ElectricOrb::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
-bool (*ElectricOrb::ptr::Hit)(ElectricOrb * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(ElectricOrb * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x637e90;
-bool (*ElectricOrb::ptr::CanBeDamaged)(ElectricOrb * self, bool phasing, bool piercing) = (bool (*)(ElectricOrb * self, bool phasing, bool piercing)) 0x637f30;
-void (*ElectricOrb::ptr::MoveFail)(ElectricOrb * self) = (void (*)(ElectricOrb * self)) 0x637f40;
-void (*ElectricOrb::ptr::MoveSucceed)(ElectricOrb * self, bool hitPlayer, bool moveDelayed) = (void (*)(ElectricOrb * self, bool hitPlayer, bool moveDelayed)) 0x6380e0;
-ElectricOrb * (*ElectricOrb::ptr::New)(ElectricOrb * self, int xVal, int yVal, int l, int dir_) = (ElectricOrb * (*)(ElectricOrb * self, int xVal, int yVal, int l, int dir_)) 0x638110;
-ElectricOrb * (*ElectricOrb::ptr::_new2)() = (ElectricOrb * (*)()) 0x0;
-void (*ElectricOrb::ptr::_mark)() = (void (*)()) 0x0;
+inline Point * (*ElectricOrb::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
+inline bool (*ElectricOrb::ptr::Hit)(ElectricOrb * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(ElectricOrb * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x637e90;
+inline bool (*ElectricOrb::ptr::CanBeDamaged)(ElectricOrb * self, bool phasing, bool piercing) = (bool (*)(ElectricOrb * self, bool phasing, bool piercing)) 0x637f30;
+inline void (*ElectricOrb::ptr::MoveFail)(ElectricOrb * self) = (void (*)(ElectricOrb * self)) 0x637f40;
+inline void (*ElectricOrb::ptr::MoveSucceed)(ElectricOrb * self, bool hitPlayer, bool moveDelayed) = (void (*)(ElectricOrb * self, bool hitPlayer, bool moveDelayed)) 0x6380e0;
+inline ElectricOrb * (*ElectricOrb::ptr::New)(ElectricOrb * self, int xVal, int yVal, int l, int dir_) = (ElectricOrb * (*)(ElectricOrb * self, int xVal, int yVal, int l, int dir_)) 0x638110;
+inline ElectricOrb * (*ElectricOrb::ptr::_new2)() = (ElectricOrb * (*)()) 0x0;
+inline void (*ElectricOrb::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Point * (*ElectricOrb::ptr::_GetMovementDirection)() = (Point * (*)()) 0x81029c0;
-bool (*ElectricOrb::ptr::Hit)(ElectricOrb * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(ElectricOrb * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83997e0;
-bool (*ElectricOrb::ptr::CanBeDamaged)(ElectricOrb * self, bool phasing, bool piercing) = (bool (*)(ElectricOrb * self, bool phasing, bool piercing)) 0x8075de0;
-void (*ElectricOrb::ptr::MoveFail)(ElectricOrb * self) = (void (*)(ElectricOrb * self)) 0x83a3bc0;
-void (*ElectricOrb::ptr::MoveSucceed)(ElectricOrb * self, bool hitPlayer, bool moveDelayed) = (void (*)(ElectricOrb * self, bool hitPlayer, bool moveDelayed)) 0x807f670;
-ElectricOrb * (*ElectricOrb::ptr::New)(ElectricOrb * self, int xVal, int yVal, int l, int dir_) = (ElectricOrb * (*)(ElectricOrb * self, int xVal, int yVal, int l, int dir_)) 0x81be750;
-ElectricOrb * (*ElectricOrb::ptr::_new2)() = (ElectricOrb * (*)()) 0x81be880;
-void (*ElectricOrb::ptr::_mark)() = (void (*)()) 0x80b0820;
+inline Point * (*ElectricOrb::ptr::_GetMovementDirection)() = (Point * (*)()) 0x81029c0;
+inline bool (*ElectricOrb::ptr::Hit)(ElectricOrb * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(ElectricOrb * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83997e0;
+inline bool (*ElectricOrb::ptr::CanBeDamaged)(ElectricOrb * self, bool phasing, bool piercing) = (bool (*)(ElectricOrb * self, bool phasing, bool piercing)) 0x8075de0;
+inline void (*ElectricOrb::ptr::MoveFail)(ElectricOrb * self) = (void (*)(ElectricOrb * self)) 0x83a3bc0;
+inline void (*ElectricOrb::ptr::MoveSucceed)(ElectricOrb * self, bool hitPlayer, bool moveDelayed) = (void (*)(ElectricOrb * self, bool hitPlayer, bool moveDelayed)) 0x807f670;
+inline ElectricOrb * (*ElectricOrb::ptr::New)(ElectricOrb * self, int xVal, int yVal, int l, int dir_) = (ElectricOrb * (*)(ElectricOrb * self, int xVal, int yVal, int l, int dir_)) 0x81be750;
+inline ElectricOrb * (*ElectricOrb::ptr::_new2)() = (ElectricOrb * (*)()) 0x81be880;
+inline void (*ElectricOrb::ptr::_mark)() = (void (*)()) 0x80b0820;
 #endif
 #endif

@@ -29,19 +29,19 @@ public:
 
 #ifdef _WIN32
 
-ShrineObject * (*ShrineObject::ptr::_New)(ShrineObject * self, int arg1, int arg2, int arg3) = (ShrineObject * (*)(ShrineObject * self, int arg1, int arg2, int arg3)) 0x0;
-ShrineObject * (*ShrineObject::ptr::new2)(ShrineObject * self, XMLNode * fromXML) = (ShrineObject * (*)(ShrineObject * self, XMLNode * fromXML)) 0x5df810;
-ShrineObject * (*ShrineObject::ptr::_new3)() = (ShrineObject * (*)()) 0x0;
-void (*ShrineObject::ptr::AddToXML)(ShrineObject * self, XMLNode * xml) = (void (*)(ShrineObject * self, XMLNode * xml)) 0x5df9a0;
-void (*ShrineObject::ptr::_mark)() = (void (*)()) 0x0;
+inline ShrineObject * (*ShrineObject::ptr::_New)(ShrineObject * self, int arg1, int arg2, int arg3) = (ShrineObject * (*)(ShrineObject * self, int arg1, int arg2, int arg3)) 0x0;
+inline ShrineObject * (*ShrineObject::ptr::new2)(ShrineObject * self, XMLNode * fromXML) = (ShrineObject * (*)(ShrineObject * self, XMLNode * fromXML)) 0x5df810;
+inline ShrineObject * (*ShrineObject::ptr::_new3)() = (ShrineObject * (*)()) 0x0;
+inline void (*ShrineObject::ptr::AddToXML)(ShrineObject * self, XMLNode * xml) = (void (*)(ShrineObject * self, XMLNode * xml)) 0x5df9a0;
+inline void (*ShrineObject::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-ShrineObject * (*ShrineObject::ptr::_New)(ShrineObject * self, int arg1, int arg2, int arg3) = (ShrineObject * (*)(ShrineObject * self, int arg1, int arg2, int arg3)) 0x8198730;
-ShrineObject * (*ShrineObject::ptr::new2)(ShrineObject * self, XMLNode * fromXML) = (ShrineObject * (*)(ShrineObject * self, XMLNode * fromXML)) 0x8198750;
-ShrineObject * (*ShrineObject::ptr::_new3)() = (ShrineObject * (*)()) 0x8199a90;
-void (*ShrineObject::ptr::AddToXML)(ShrineObject * self, XMLNode * xml) = (void (*)(ShrineObject * self, XMLNode * xml)) 0x80c73c0;
-void (*ShrineObject::ptr::_mark)() = (void (*)()) 0x80721b0;
+inline ShrineObject * (*ShrineObject::ptr::_New)(ShrineObject * self, int arg1, int arg2, int arg3) = (ShrineObject * (*)(ShrineObject * self, int arg1, int arg2, int arg3)) 0x8198730;
+inline ShrineObject * (*ShrineObject::ptr::new2)(ShrineObject * self, XMLNode * fromXML) = (ShrineObject * (*)(ShrineObject * self, XMLNode * fromXML)) 0x8198750;
+inline ShrineObject * (*ShrineObject::ptr::_new3)() = (ShrineObject * (*)()) 0x8199a90;
+inline void (*ShrineObject::ptr::AddToXML)(ShrineObject * self, XMLNode * xml) = (void (*)(ShrineObject * self, XMLNode * xml)) 0x80c73c0;
+inline void (*ShrineObject::ptr::_mark)() = (void (*)()) 0x80721b0;
 #endif
 #endif

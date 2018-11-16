@@ -37,23 +37,23 @@ public:
 
 #ifdef _WIN32
 
-Gorgon * (*Gorgon::ptr::New)(Gorgon * self, int xVal, int yVal, int l) = (Gorgon * (*)(Gorgon * self, int xVal, int yVal, int l)) 0x658240;
-Gorgon * (*Gorgon::ptr::_new2)() = (Gorgon * (*)()) 0x0;
-void (*Gorgon::ptr::Die)(Gorgon * self) = (void (*)(Gorgon * self)) 0x658450;
-void (*Gorgon::ptr::AfterHitPlayer)(Gorgon * self, Player * p) = (void (*)(Gorgon * self, Player * p)) 0x658610;
-bool (*Gorgon::ptr::_Hit)(Gorgon * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(Gorgon * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x0;
-void (*Gorgon::ptr::_mark)() = (void (*)()) 0x0;
-void (*Gorgon::ptr::CSTR_Gorgon)(Gorgon * self) = (void (*)(Gorgon * self)) 0x6581e0;
+inline Gorgon * (*Gorgon::ptr::New)(Gorgon * self, int xVal, int yVal, int l) = (Gorgon * (*)(Gorgon * self, int xVal, int yVal, int l)) 0x658240;
+inline Gorgon * (*Gorgon::ptr::_new2)() = (Gorgon * (*)()) 0x0;
+inline void (*Gorgon::ptr::Die)(Gorgon * self) = (void (*)(Gorgon * self)) 0x658450;
+inline void (*Gorgon::ptr::AfterHitPlayer)(Gorgon * self, Player * p) = (void (*)(Gorgon * self, Player * p)) 0x658610;
+inline bool (*Gorgon::ptr::_Hit)(Gorgon * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(Gorgon * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x0;
+inline void (*Gorgon::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Gorgon::ptr::CSTR_Gorgon)(Gorgon * self) = (void (*)(Gorgon * self)) 0x6581e0;
 #endif
 
 #ifdef __linux__
 
-Gorgon * (*Gorgon::ptr::New)(Gorgon * self, int xVal, int yVal, int l) = (Gorgon * (*)(Gorgon * self, int xVal, int yVal, int l)) 0x81c9ce0;
-Gorgon * (*Gorgon::ptr::_new2)() = (Gorgon * (*)()) 0x81c9e40;
-void (*Gorgon::ptr::Die)(Gorgon * self) = (void (*)(Gorgon * self)) 0x83b5be0;
-void (*Gorgon::ptr::AfterHitPlayer)(Gorgon * self, Player * p) = (void (*)(Gorgon * self, Player * p)) 0x8318c90;
-bool (*Gorgon::ptr::_Hit)(Gorgon * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(Gorgon * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x8397010;
-void (*Gorgon::ptr::_mark)() = (void (*)()) 0x80b0200;
-void (*Gorgon::ptr::CSTR_Gorgon)(Gorgon * self) = (void (*)(Gorgon * self)) 0x81c9cb0;
+inline Gorgon * (*Gorgon::ptr::New)(Gorgon * self, int xVal, int yVal, int l) = (Gorgon * (*)(Gorgon * self, int xVal, int yVal, int l)) 0x81c9ce0;
+inline Gorgon * (*Gorgon::ptr::_new2)() = (Gorgon * (*)()) 0x81c9e40;
+inline void (*Gorgon::ptr::Die)(Gorgon * self) = (void (*)(Gorgon * self)) 0x83b5be0;
+inline void (*Gorgon::ptr::AfterHitPlayer)(Gorgon * self, Player * p) = (void (*)(Gorgon * self, Player * p)) 0x8318c90;
+inline bool (*Gorgon::ptr::_Hit)(Gorgon * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(Gorgon * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x8397010;
+inline void (*Gorgon::ptr::_mark)() = (void (*)()) 0x80b0200;
+inline void (*Gorgon::ptr::CSTR_Gorgon)(Gorgon * self) = (void (*)(Gorgon * self)) 0x81c9cb0;
 #endif
 #endif

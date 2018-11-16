@@ -35,23 +35,23 @@ public:
 
 #ifdef _WIN32
 
-Mummy * (*Mummy::ptr::New)(Mummy * self, int xVal, int yVal, int l) = (Mummy * (*)(Mummy * self, int xVal, int yVal, int l)) 0x64fe10;
-Mummy * (*Mummy::ptr::_new2)() = (Mummy * (*)()) 0x0;
-Point * (*Mummy::ptr::GetMovementDirection)(Mummy * self) = (Point * (*)(Mummy * self)) 0x650070;
-void (*Mummy::ptr::Update)(Mummy * self) = (void (*)(Mummy * self)) 0x650120;
-void (*Mummy::ptr::MoveSucceed)(Mummy * self, bool hitPlayer, bool moveDelayed) = (void (*)(Mummy * self, bool hitPlayer, bool moveDelayed)) 0x650150;
-void (*Mummy::ptr::_mark)() = (void (*)()) 0x0;
-void (*Mummy::ptr::CSTR_Mummy)(Mummy * self) = (void (*)(Mummy * self)) 0x64fdb0;
+inline Mummy * (*Mummy::ptr::New)(Mummy * self, int xVal, int yVal, int l) = (Mummy * (*)(Mummy * self, int xVal, int yVal, int l)) 0x64fe10;
+inline Mummy * (*Mummy::ptr::_new2)() = (Mummy * (*)()) 0x0;
+inline Point * (*Mummy::ptr::GetMovementDirection)(Mummy * self) = (Point * (*)(Mummy * self)) 0x650070;
+inline void (*Mummy::ptr::Update)(Mummy * self) = (void (*)(Mummy * self)) 0x650120;
+inline void (*Mummy::ptr::MoveSucceed)(Mummy * self, bool hitPlayer, bool moveDelayed) = (void (*)(Mummy * self, bool hitPlayer, bool moveDelayed)) 0x650150;
+inline void (*Mummy::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Mummy::ptr::CSTR_Mummy)(Mummy * self) = (void (*)(Mummy * self)) 0x64fdb0;
 #endif
 
 #ifdef __linux__
 
-Mummy * (*Mummy::ptr::New)(Mummy * self, int xVal, int yVal, int l) = (Mummy * (*)(Mummy * self, int xVal, int yVal, int l)) 0x81c6bc0;
-Mummy * (*Mummy::ptr::_new2)() = (Mummy * (*)()) 0x81c6db0;
-Point * (*Mummy::ptr::GetMovementDirection)(Mummy * self) = (Point * (*)(Mummy * self)) 0x80b43e0;
-void (*Mummy::ptr::Update)(Mummy * self) = (void (*)(Mummy * self)) 0x837fef0;
-void (*Mummy::ptr::MoveSucceed)(Mummy * self, bool hitPlayer, bool moveDelayed) = (void (*)(Mummy * self, bool hitPlayer, bool moveDelayed)) 0x80764c0;
-void (*Mummy::ptr::_mark)() = (void (*)()) 0x80b0400;
-void (*Mummy::ptr::CSTR_Mummy)(Mummy * self) = (void (*)(Mummy * self)) 0x81c6b90;
+inline Mummy * (*Mummy::ptr::New)(Mummy * self, int xVal, int yVal, int l) = (Mummy * (*)(Mummy * self, int xVal, int yVal, int l)) 0x81c6bc0;
+inline Mummy * (*Mummy::ptr::_new2)() = (Mummy * (*)()) 0x81c6db0;
+inline Point * (*Mummy::ptr::GetMovementDirection)(Mummy * self) = (Point * (*)(Mummy * self)) 0x80b43e0;
+inline void (*Mummy::ptr::Update)(Mummy * self) = (void (*)(Mummy * self)) 0x837fef0;
+inline void (*Mummy::ptr::MoveSucceed)(Mummy * self, bool hitPlayer, bool moveDelayed) = (void (*)(Mummy * self, bool hitPlayer, bool moveDelayed)) 0x80764c0;
+inline void (*Mummy::ptr::_mark)() = (void (*)()) 0x80b0400;
+inline void (*Mummy::ptr::CSTR_Mummy)(Mummy * self) = (void (*)(Mummy * self)) 0x81c6b90;
 #endif
 #endif

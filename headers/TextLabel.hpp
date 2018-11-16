@@ -55,39 +55,39 @@ public:
 
 #ifdef _WIN32
 
-String * (*TextLabel::ptr::SelectifyText)(TextLabel * self, String * t) = (String * (*)(TextLabel * self, String * t)) 0x541680;
-TextLabel * (*TextLabel::ptr::New)(TextLabel * self, String * t, int j, float sc, bool left) = (TextLabel * (*)(TextLabel * self, String * t, int j, float sc, bool left)) 0x541840;
-TextLabel * (*TextLabel::ptr::_new2)() = (TextLabel * (*)()) 0x0;
-TextLabel * (*TextLabel::ptr::SetText2)(TextLabel * self, String * t) = (TextLabel * (*)(TextLabel * self, String * t)) 0x541a30;
-void (*TextLabel::ptr::SetActive)(TextLabel * self, bool a) = (void (*)(TextLabel * self, bool a)) 0x541af0;
-int (*TextLabel::ptr::GetLocalizationXOffset)(TextLabel * self) = (int (*)(TextLabel * self)) 0x541b00;
-int (*TextLabel::ptr::GetLocalizationYOffset)(TextLabel * self) = (int (*)(TextLabel * self)) 0x541b10;
-void (*TextLabel::ptr::SetLocalizationOffset)(TextLabel * self, int xOff, int yOff) = (void (*)(TextLabel * self, int xOff, int yOff)) 0x541b20;
-void (*TextLabel::ptr::Draw2)(TextLabel * self, float x, float y, int frameOverride) = (void (*)(TextLabel * self, float x, float y, int frameOverride)) 0x541b50;
-void (*TextLabel::ptr::Discard)(TextLabel * self) = (void (*)(TextLabel * self)) 0x541b90;
-bool (*TextLabel::ptr::Left)(TextLabel * self) = (bool (*)(TextLabel * self)) 0x541bb0;
-String * (*TextLabel::ptr::GetText)(TextLabel * self) = (String * (*)(TextLabel * self)) 0x541bc0;
-bool (*TextLabel::ptr::IsActive)(TextLabel * self) = (bool (*)(TextLabel * self)) 0x403c70;
-void (*TextLabel::ptr::mark)(TextLabel * self) = (void (*)(TextLabel * self)) 0x541c50;
-void (*TextLabel::ptr::CSTR_TextLabel)(TextLabel * self) = (void (*)(TextLabel * self)) 0x5414f0;
+inline String * (*TextLabel::ptr::SelectifyText)(TextLabel * self, String * t) = (String * (*)(TextLabel * self, String * t)) 0x541680;
+inline TextLabel * (*TextLabel::ptr::New)(TextLabel * self, String * t, int j, float sc, bool left) = (TextLabel * (*)(TextLabel * self, String * t, int j, float sc, bool left)) 0x541840;
+inline TextLabel * (*TextLabel::ptr::_new2)() = (TextLabel * (*)()) 0x0;
+inline TextLabel * (*TextLabel::ptr::SetText2)(TextLabel * self, String * t) = (TextLabel * (*)(TextLabel * self, String * t)) 0x541a30;
+inline void (*TextLabel::ptr::SetActive)(TextLabel * self, bool a) = (void (*)(TextLabel * self, bool a)) 0x541af0;
+inline int (*TextLabel::ptr::GetLocalizationXOffset)(TextLabel * self) = (int (*)(TextLabel * self)) 0x541b00;
+inline int (*TextLabel::ptr::GetLocalizationYOffset)(TextLabel * self) = (int (*)(TextLabel * self)) 0x541b10;
+inline void (*TextLabel::ptr::SetLocalizationOffset)(TextLabel * self, int xOff, int yOff) = (void (*)(TextLabel * self, int xOff, int yOff)) 0x541b20;
+inline void (*TextLabel::ptr::Draw2)(TextLabel * self, float x, float y, int frameOverride) = (void (*)(TextLabel * self, float x, float y, int frameOverride)) 0x541b50;
+inline void (*TextLabel::ptr::Discard)(TextLabel * self) = (void (*)(TextLabel * self)) 0x541b90;
+inline bool (*TextLabel::ptr::Left)(TextLabel * self) = (bool (*)(TextLabel * self)) 0x541bb0;
+inline String * (*TextLabel::ptr::GetText)(TextLabel * self) = (String * (*)(TextLabel * self)) 0x541bc0;
+inline bool (*TextLabel::ptr::IsActive)(TextLabel * self) = (bool (*)(TextLabel * self)) 0x403c70;
+inline void (*TextLabel::ptr::mark)(TextLabel * self) = (void (*)(TextLabel * self)) 0x541c50;
+inline void (*TextLabel::ptr::CSTR_TextLabel)(TextLabel * self) = (void (*)(TextLabel * self)) 0x5414f0;
 #endif
 
 #ifdef __linux__
 
-String * (*TextLabel::ptr::SelectifyText)(TextLabel * self, String * t) = (String * (*)(TextLabel * self, String * t)) 0x80c98f0;
-TextLabel * (*TextLabel::ptr::New)(TextLabel * self, String * t, int j, float sc, bool left) = (TextLabel * (*)(TextLabel * self, String * t, int j, float sc, bool left)) 0x81468d0;
-TextLabel * (*TextLabel::ptr::_new2)() = (TextLabel * (*)()) 0x8145e60;
-TextLabel * (*TextLabel::ptr::SetText2)(TextLabel * self, String * t) = (TextLabel * (*)(TextLabel * self, String * t)) 0x80c3da0;
-void (*TextLabel::ptr::SetActive)(TextLabel * self, bool a) = (void (*)(TextLabel * self, bool a)) 0x806f4e0;
-int (*TextLabel::ptr::GetLocalizationXOffset)(TextLabel * self) = (int (*)(TextLabel * self)) 0x806f4f0;
-int (*TextLabel::ptr::GetLocalizationYOffset)(TextLabel * self) = (int (*)(TextLabel * self)) 0x806f500;
-void (*TextLabel::ptr::SetLocalizationOffset)(TextLabel * self, int xOff, int yOff) = (void (*)(TextLabel * self, int xOff, int yOff)) 0x806f510;
-void (*TextLabel::ptr::Draw2)(TextLabel * self, float x, float y, int frameOverride) = (void (*)(TextLabel * self, float x, float y, int frameOverride)) 0x807e640;
-void (*TextLabel::ptr::Discard)(TextLabel * self) = (void (*)(TextLabel * self)) 0x806f540;
-bool (*TextLabel::ptr::Left)(TextLabel * self) = (bool (*)(TextLabel * self)) 0x806f570;
-String * (*TextLabel::ptr::GetText)(TextLabel * self) = (String * (*)(TextLabel * self)) 0x80c1e10;
-bool (*TextLabel::ptr::IsActive)(TextLabel * self) = (bool (*)(TextLabel * self)) 0x806f580;
-void (*TextLabel::ptr::mark)(TextLabel * self) = (void (*)(TextLabel * self)) 0x80a33c0;
-void (*TextLabel::ptr::CSTR_TextLabel)(TextLabel * self) = (void (*)(TextLabel * self)) 0x8145e30;
+inline String * (*TextLabel::ptr::SelectifyText)(TextLabel * self, String * t) = (String * (*)(TextLabel * self, String * t)) 0x80c98f0;
+inline TextLabel * (*TextLabel::ptr::New)(TextLabel * self, String * t, int j, float sc, bool left) = (TextLabel * (*)(TextLabel * self, String * t, int j, float sc, bool left)) 0x81468d0;
+inline TextLabel * (*TextLabel::ptr::_new2)() = (TextLabel * (*)()) 0x8145e60;
+inline TextLabel * (*TextLabel::ptr::SetText2)(TextLabel * self, String * t) = (TextLabel * (*)(TextLabel * self, String * t)) 0x80c3da0;
+inline void (*TextLabel::ptr::SetActive)(TextLabel * self, bool a) = (void (*)(TextLabel * self, bool a)) 0x806f4e0;
+inline int (*TextLabel::ptr::GetLocalizationXOffset)(TextLabel * self) = (int (*)(TextLabel * self)) 0x806f4f0;
+inline int (*TextLabel::ptr::GetLocalizationYOffset)(TextLabel * self) = (int (*)(TextLabel * self)) 0x806f500;
+inline void (*TextLabel::ptr::SetLocalizationOffset)(TextLabel * self, int xOff, int yOff) = (void (*)(TextLabel * self, int xOff, int yOff)) 0x806f510;
+inline void (*TextLabel::ptr::Draw2)(TextLabel * self, float x, float y, int frameOverride) = (void (*)(TextLabel * self, float x, float y, int frameOverride)) 0x807e640;
+inline void (*TextLabel::ptr::Discard)(TextLabel * self) = (void (*)(TextLabel * self)) 0x806f540;
+inline bool (*TextLabel::ptr::Left)(TextLabel * self) = (bool (*)(TextLabel * self)) 0x806f570;
+inline String * (*TextLabel::ptr::GetText)(TextLabel * self) = (String * (*)(TextLabel * self)) 0x80c1e10;
+inline bool (*TextLabel::ptr::IsActive)(TextLabel * self) = (bool (*)(TextLabel * self)) 0x806f580;
+inline void (*TextLabel::ptr::mark)(TextLabel * self) = (void (*)(TextLabel * self)) 0x80a33c0;
+inline void (*TextLabel::ptr::CSTR_TextLabel)(TextLabel * self) = (void (*)(TextLabel * self)) 0x8145e30;
 #endif
 #endif

@@ -45,35 +45,35 @@ public:
 
 #ifdef _WIN32
 
-Map11 * (*Map11::ptr::_New)() = (Map11 * (*)()) 0x0;
-int (*Map11::ptr::_Clear)() = (int (*)()) 0x0;
-int (*Map11::ptr::_Compare)(Map11 * self, String * arg1, String * arg2) = (int (*)(Map11 * self, String * arg1, String * arg2)) 0x0;
-Node34 * (*Map11::ptr::_FindNode)(Map11 * self, String * arg1) = (Node34 * (*)(Map11 * self, String * arg1)) 0x0;
-bool (*Map11::ptr::_Contains)(Map11 * self, String * arg1) = (bool (*)(Map11 * self, String * arg1)) 0x0;
-String * (*Map11::ptr::Get)(Map11 * self, String * key) = (String * (*)(Map11 * self, String * key)) 0x5e0510;
-int (*Map11::ptr::_RotateLeft11)(Map11 * self, Node34 * arg1) = (int (*)(Map11 * self, Node34 * arg1)) 0x0;
-int (*Map11::ptr::_RotateRight11)(Map11 * self, Node34 * arg1) = (int (*)(Map11 * self, Node34 * arg1)) 0x0;
-int (*Map11::ptr::_InsertFixup11)(Map11 * self, Node34 * arg1) = (int (*)(Map11 * self, Node34 * arg1)) 0x0;
-bool (*Map11::ptr::Set12)(Map11 * self, String * key, String * value) = (bool (*)(Map11 * self, String * key, String * value)) 0x5e06a0;
-Node34 * (*Map11::ptr::_FirstNode)() = (Node34 * (*)()) 0x0;
-NodeEnumerator4 * (*Map11::ptr::ObjectEnumerator)(Map11 * self) = (NodeEnumerator4 * (*)(Map11 * self)) 0x5e0830;
-void (*Map11::ptr::_mark)() = (void (*)()) 0x0;
+inline Map11 * (*Map11::ptr::_New)() = (Map11 * (*)()) 0x0;
+inline int (*Map11::ptr::_Clear)() = (int (*)()) 0x0;
+inline int (*Map11::ptr::_Compare)(Map11 * self, String * arg1, String * arg2) = (int (*)(Map11 * self, String * arg1, String * arg2)) 0x0;
+inline Node34 * (*Map11::ptr::_FindNode)(Map11 * self, String * arg1) = (Node34 * (*)(Map11 * self, String * arg1)) 0x0;
+inline bool (*Map11::ptr::_Contains)(Map11 * self, String * arg1) = (bool (*)(Map11 * self, String * arg1)) 0x0;
+inline String * (*Map11::ptr::Get)(Map11 * self, String * key) = (String * (*)(Map11 * self, String * key)) 0x5e0510;
+inline int (*Map11::ptr::_RotateLeft11)(Map11 * self, Node34 * arg1) = (int (*)(Map11 * self, Node34 * arg1)) 0x0;
+inline int (*Map11::ptr::_RotateRight11)(Map11 * self, Node34 * arg1) = (int (*)(Map11 * self, Node34 * arg1)) 0x0;
+inline int (*Map11::ptr::_InsertFixup11)(Map11 * self, Node34 * arg1) = (int (*)(Map11 * self, Node34 * arg1)) 0x0;
+inline bool (*Map11::ptr::Set12)(Map11 * self, String * key, String * value) = (bool (*)(Map11 * self, String * key, String * value)) 0x5e06a0;
+inline Node34 * (*Map11::ptr::_FirstNode)() = (Node34 * (*)()) 0x0;
+inline NodeEnumerator4 * (*Map11::ptr::ObjectEnumerator)(Map11 * self) = (NodeEnumerator4 * (*)(Map11 * self)) 0x5e0830;
+inline void (*Map11::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Map11 * (*Map11::ptr::_New)() = (Map11 * (*)()) 0x819a1b0;
-int (*Map11::ptr::_Clear)() = (int (*)()) 0x8072210;
-int (*Map11::ptr::_Compare)(Map11 * self, String * arg1, String * arg2) = (int (*)(Map11 * self, String * arg1, String * arg2)) 0x0;
-Node34 * (*Map11::ptr::_FindNode)(Map11 * self, String * arg1) = (Node34 * (*)(Map11 * self, String * arg1)) 0x80c3820;
-bool (*Map11::ptr::_Contains)(Map11 * self, String * arg1) = (bool (*)(Map11 * self, String * arg1)) 0x80c37c0;
-String * (*Map11::ptr::Get)(Map11 * self, String * key) = (String * (*)(Map11 * self, String * key)) 0x80c4ed0;
-int (*Map11::ptr::_RotateLeft11)(Map11 * self, Node34 * arg1) = (int (*)(Map11 * self, Node34 * arg1)) 0x0;
-int (*Map11::ptr::_RotateRight11)(Map11 * self, Node34 * arg1) = (int (*)(Map11 * self, Node34 * arg1)) 0x0;
-int (*Map11::ptr::_InsertFixup11)(Map11 * self, Node34 * arg1) = (int (*)(Map11 * self, Node34 * arg1)) 0x0;
-bool (*Map11::ptr::Set12)(Map11 * self, String * key, String * value) = (bool (*)(Map11 * self, String * key, String * value)) 0x80e0190;
-Node34 * (*Map11::ptr::_FirstNode)() = (Node34 * (*)()) 0x8072320;
-NodeEnumerator4 * (*Map11::ptr::ObjectEnumerator)(Map11 * self) = (NodeEnumerator4 * (*)(Map11 * self)) 0x80b8500;
-void (*Map11::ptr::_mark)() = (void (*)()) 0x808d840;
+inline Map11 * (*Map11::ptr::_New)() = (Map11 * (*)()) 0x819a1b0;
+inline int (*Map11::ptr::_Clear)() = (int (*)()) 0x8072210;
+inline int (*Map11::ptr::_Compare)(Map11 * self, String * arg1, String * arg2) = (int (*)(Map11 * self, String * arg1, String * arg2)) 0x0;
+inline Node34 * (*Map11::ptr::_FindNode)(Map11 * self, String * arg1) = (Node34 * (*)(Map11 * self, String * arg1)) 0x80c3820;
+inline bool (*Map11::ptr::_Contains)(Map11 * self, String * arg1) = (bool (*)(Map11 * self, String * arg1)) 0x80c37c0;
+inline String * (*Map11::ptr::Get)(Map11 * self, String * key) = (String * (*)(Map11 * self, String * key)) 0x80c4ed0;
+inline int (*Map11::ptr::_RotateLeft11)(Map11 * self, Node34 * arg1) = (int (*)(Map11 * self, Node34 * arg1)) 0x0;
+inline int (*Map11::ptr::_RotateRight11)(Map11 * self, Node34 * arg1) = (int (*)(Map11 * self, Node34 * arg1)) 0x0;
+inline int (*Map11::ptr::_InsertFixup11)(Map11 * self, Node34 * arg1) = (int (*)(Map11 * self, Node34 * arg1)) 0x0;
+inline bool (*Map11::ptr::Set12)(Map11 * self, String * key, String * value) = (bool (*)(Map11 * self, String * key, String * value)) 0x80e0190;
+inline Node34 * (*Map11::ptr::_FirstNode)() = (Node34 * (*)()) 0x8072320;
+inline NodeEnumerator4 * (*Map11::ptr::ObjectEnumerator)(Map11 * self) = (NodeEnumerator4 * (*)(Map11 * self)) 0x80b8500;
+inline void (*Map11::ptr::_mark)() = (void (*)()) 0x808d840;
 #endif
 #endif

@@ -34,17 +34,17 @@ public:
 
 #ifdef _WIN32
 
-Node40 * (*Node40::ptr::_New)(Node40 * self, String * arg1, Sprite * arg2, int arg3, Node40 * arg4) = (Node40 * (*)(Node40 * self, String * arg1, Sprite * arg2, int arg3, Node40 * arg4)) 0x0;
-Node40 * (*Node40::ptr::_new2)() = (Node40 * (*)()) 0x0;
-void (*Node40::ptr::_mark)() = (void (*)()) 0x0;
-void (*Node40::ptr::CSTR_Node40)(Node40 * self) = (void (*)(Node40 * self)) 0x5f2da0;
+inline Node40 * (*Node40::ptr::_New)(Node40 * self, String * arg1, Sprite * arg2, int arg3, Node40 * arg4) = (Node40 * (*)(Node40 * self, String * arg1, Sprite * arg2, int arg3, Node40 * arg4)) 0x0;
+inline Node40 * (*Node40::ptr::_new2)() = (Node40 * (*)()) 0x0;
+inline void (*Node40::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Node40::ptr::CSTR_Node40)(Node40 * self) = (void (*)(Node40 * self)) 0x5f2da0;
 #endif
 
 #ifdef __linux__
 
-Node40 * (*Node40::ptr::_New)(Node40 * self, String * arg1, Sprite * arg2, int arg3, Node40 * arg4) = (Node40 * (*)(Node40 * self, String * arg1, Sprite * arg2, int arg3, Node40 * arg4)) 0x0;
-Node40 * (*Node40::ptr::_new2)() = (Node40 * (*)()) 0x81b9370;
-void (*Node40::ptr::_mark)() = (void (*)()) 0x8089470;
-void (*Node40::ptr::CSTR_Node40)(Node40 * self) = (void (*)(Node40 * self)) 0x81b9130;
+inline Node40 * (*Node40::ptr::_New)(Node40 * self, String * arg1, Sprite * arg2, int arg3, Node40 * arg4) = (Node40 * (*)(Node40 * self, String * arg1, Sprite * arg2, int arg3, Node40 * arg4)) 0x0;
+inline Node40 * (*Node40::ptr::_new2)() = (Node40 * (*)()) 0x81b9370;
+inline void (*Node40::ptr::_mark)() = (void (*)()) 0x8089470;
+inline void (*Node40::ptr::CSTR_Node40)(Node40 * self) = (void (*)(Node40 * self)) 0x81b9130;
 #endif
 #endif

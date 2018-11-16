@@ -43,29 +43,29 @@ public:
 
 #ifdef _WIN32
 
-List30 * (*List30::ptr::_New)() = (List30 * (*)()) 0x0;
-Node47 * (*List30::ptr::AddLast30)(List30 * self, ParticleSystem * data) = (Node47 * (*)(List30 * self, ParticleSystem * data)) 0x5faf50;
-List30 * (*List30::ptr::_new2)(List30 * self, Array<ParticleSystem *> * arg1) = (List30 * (*)(List30 * self, Array<ParticleSystem *> * arg1)) 0x0;
-int (*List30::ptr::_Clear)() = (int (*)()) 0x0;
-Enumerator49 * (*List30::ptr::ObjectEnumerator)(List30 * self) = (Enumerator49 * (*)(List30 * self)) 0x5faff0;
-bool (*List30::ptr::_Equals19)(List30 * self, ParticleSystem * arg1, ParticleSystem * arg2) = (bool (*)(List30 * self, ParticleSystem * arg1, ParticleSystem * arg2)) 0x0;
-int (*List30::ptr::RemoveEach16)(List30 * self, ParticleSystem * value) = (int (*)(List30 * self, ParticleSystem * value)) 0x5dba30;
-int (*List30::ptr::Remove8)(List30 * self, ParticleSystem * value) = (int (*)(List30 * self, ParticleSystem * value)) 0x5fb080;
-void (*List30::ptr::_mark)() = (void (*)()) 0x0;
-void (*List30::ptr::CSTR_List30)(List30 * self) = (void (*)(List30 * self)) 0x5fae80;
+inline List30 * (*List30::ptr::_New)() = (List30 * (*)()) 0x0;
+inline Node47 * (*List30::ptr::AddLast30)(List30 * self, ParticleSystem * data) = (Node47 * (*)(List30 * self, ParticleSystem * data)) 0x5faf50;
+inline List30 * (*List30::ptr::_new2)(List30 * self, Array<ParticleSystem *> * arg1) = (List30 * (*)(List30 * self, Array<ParticleSystem *> * arg1)) 0x0;
+inline int (*List30::ptr::_Clear)() = (int (*)()) 0x0;
+inline Enumerator49 * (*List30::ptr::ObjectEnumerator)(List30 * self) = (Enumerator49 * (*)(List30 * self)) 0x5faff0;
+inline bool (*List30::ptr::_Equals19)(List30 * self, ParticleSystem * arg1, ParticleSystem * arg2) = (bool (*)(List30 * self, ParticleSystem * arg1, ParticleSystem * arg2)) 0x0;
+inline int (*List30::ptr::RemoveEach16)(List30 * self, ParticleSystem * value) = (int (*)(List30 * self, ParticleSystem * value)) 0x5dba30;
+inline int (*List30::ptr::Remove8)(List30 * self, ParticleSystem * value) = (int (*)(List30 * self, ParticleSystem * value)) 0x5fb080;
+inline void (*List30::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List30::ptr::CSTR_List30)(List30 * self) = (void (*)(List30 * self)) 0x5fae80;
 #endif
 
 #ifdef __linux__
 
-List30 * (*List30::ptr::_New)() = (List30 * (*)()) 0x81a4610;
-Node47 * (*List30::ptr::AddLast30)(List30 * self, ParticleSystem * data) = (Node47 * (*)(List30 * self, ParticleSystem * data)) 0x81a4850;
-List30 * (*List30::ptr::_new2)(List30 * self, Array<ParticleSystem *> * arg1) = (List30 * (*)(List30 * self, Array<ParticleSystem *> * arg1)) 0x0;
-int (*List30::ptr::_Clear)() = (int (*)()) 0x8094310;
-Enumerator49 * (*List30::ptr::ObjectEnumerator)(List30 * self) = (Enumerator49 * (*)(List30 * self)) 0x80bc420;
-bool (*List30::ptr::_Equals19)(List30 * self, ParticleSystem * arg1, ParticleSystem * arg2) = (bool (*)(List30 * self, ParticleSystem * arg1, ParticleSystem * arg2)) 0x80739d0;
-int (*List30::ptr::RemoveEach16)(List30 * self, ParticleSystem * value) = (int (*)(List30 * self, ParticleSystem * value)) 0x80739e0;
-int (*List30::ptr::Remove8)(List30 * self, ParticleSystem * value) = (int (*)(List30 * self, ParticleSystem * value)) 0x8073a40;
-void (*List30::ptr::_mark)() = (void (*)()) 0x808a8b0;
-void (*List30::ptr::CSTR_List30)(List30 * self) = (void (*)(List30 * self)) 0x81a4990;
+inline List30 * (*List30::ptr::_New)() = (List30 * (*)()) 0x81a4610;
+inline Node47 * (*List30::ptr::AddLast30)(List30 * self, ParticleSystem * data) = (Node47 * (*)(List30 * self, ParticleSystem * data)) 0x81a4850;
+inline List30 * (*List30::ptr::_new2)(List30 * self, Array<ParticleSystem *> * arg1) = (List30 * (*)(List30 * self, Array<ParticleSystem *> * arg1)) 0x0;
+inline int (*List30::ptr::_Clear)() = (int (*)()) 0x8094310;
+inline Enumerator49 * (*List30::ptr::ObjectEnumerator)(List30 * self) = (Enumerator49 * (*)(List30 * self)) 0x80bc420;
+inline bool (*List30::ptr::_Equals19)(List30 * self, ParticleSystem * arg1, ParticleSystem * arg2) = (bool (*)(List30 * self, ParticleSystem * arg1, ParticleSystem * arg2)) 0x80739d0;
+inline int (*List30::ptr::RemoveEach16)(List30 * self, ParticleSystem * value) = (int (*)(List30 * self, ParticleSystem * value)) 0x80739e0;
+inline int (*List30::ptr::Remove8)(List30 * self, ParticleSystem * value) = (int (*)(List30 * self, ParticleSystem * value)) 0x8073a40;
+inline void (*List30::ptr::_mark)() = (void (*)()) 0x808a8b0;
+inline void (*List30::ptr::CSTR_List30)(List30 * self) = (void (*)(List30 * self)) 0x81a4990;
 #endif
 #endif

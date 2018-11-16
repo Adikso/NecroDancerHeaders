@@ -44,29 +44,29 @@ public:
 
 #ifdef _WIN32
 
-MotherSlime * (*MotherSlime::ptr::New)(MotherSlime * self, int xVal, int yVal, int l) = (MotherSlime * (*)(MotherSlime * self, int xVal, int yVal, int l)) 0x686f50;
-MotherSlime * (*MotherSlime::ptr::_new2)() = (MotherSlime * (*)()) 0x0;
-Point * (*MotherSlime::ptr::GetMovementDirection)(MotherSlime * self) = (Point * (*)(MotherSlime * self)) 0x687330;
-bool (*MotherSlime::ptr::_CanBeLord)() = (bool (*)()) 0x0;
-void (*MotherSlime::ptr::MoveSucceed)(MotherSlime * self, bool hitPlayer, bool moveDelayed) = (void (*)(MotherSlime * self, bool hitPlayer, bool moveDelayed)) 0x687430;
-void (*MotherSlime::ptr::MoveFail)(MotherSlime * self) = (void (*)(MotherSlime * self)) 0x687460;
-bool (*MotherSlime::ptr::Hit)(MotherSlime * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(MotherSlime * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x687580;
-void (*MotherSlime::ptr::Die)(MotherSlime * self) = (void (*)(MotherSlime * self)) 0x687850;
-void (*MotherSlime::ptr::_mark)() = (void (*)()) 0x0;
-void (*MotherSlime::ptr::CSTR_MotherSlime)(MotherSlime * self) = (void (*)(MotherSlime * self)) 0x686e80;
+inline MotherSlime * (*MotherSlime::ptr::New)(MotherSlime * self, int xVal, int yVal, int l) = (MotherSlime * (*)(MotherSlime * self, int xVal, int yVal, int l)) 0x686f50;
+inline MotherSlime * (*MotherSlime::ptr::_new2)() = (MotherSlime * (*)()) 0x0;
+inline Point * (*MotherSlime::ptr::GetMovementDirection)(MotherSlime * self) = (Point * (*)(MotherSlime * self)) 0x687330;
+inline bool (*MotherSlime::ptr::_CanBeLord)() = (bool (*)()) 0x0;
+inline void (*MotherSlime::ptr::MoveSucceed)(MotherSlime * self, bool hitPlayer, bool moveDelayed) = (void (*)(MotherSlime * self, bool hitPlayer, bool moveDelayed)) 0x687430;
+inline void (*MotherSlime::ptr::MoveFail)(MotherSlime * self) = (void (*)(MotherSlime * self)) 0x687460;
+inline bool (*MotherSlime::ptr::Hit)(MotherSlime * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(MotherSlime * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x687580;
+inline void (*MotherSlime::ptr::Die)(MotherSlime * self) = (void (*)(MotherSlime * self)) 0x687850;
+inline void (*MotherSlime::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*MotherSlime::ptr::CSTR_MotherSlime)(MotherSlime * self) = (void (*)(MotherSlime * self)) 0x686e80;
 #endif
 
 #ifdef __linux__
 
-MotherSlime * (*MotherSlime::ptr::New)(MotherSlime * self, int xVal, int yVal, int l) = (MotherSlime * (*)(MotherSlime * self, int xVal, int yVal, int l)) 0x81e0d20;
-MotherSlime * (*MotherSlime::ptr::_new2)() = (MotherSlime * (*)()) 0x81e1150;
-Point * (*MotherSlime::ptr::GetMovementDirection)(MotherSlime * self) = (Point * (*)(MotherSlime * self)) 0x80b3a50;
-bool (*MotherSlime::ptr::_CanBeLord)() = (bool (*)()) 0x8078aa0;
-void (*MotherSlime::ptr::MoveSucceed)(MotherSlime * self, bool hitPlayer, bool moveDelayed) = (void (*)(MotherSlime * self, bool hitPlayer, bool moveDelayed)) 0x8078ab0;
-void (*MotherSlime::ptr::MoveFail)(MotherSlime * self) = (void (*)(MotherSlime * self)) 0x8134320;
-bool (*MotherSlime::ptr::Hit)(MotherSlime * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(MotherSlime * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8395a00;
-void (*MotherSlime::ptr::Die)(MotherSlime * self) = (void (*)(MotherSlime * self)) 0x83b5610;
-void (*MotherSlime::ptr::_mark)() = (void (*)()) 0x80afdd0;
-void (*MotherSlime::ptr::CSTR_MotherSlime)(MotherSlime * self) = (void (*)(MotherSlime * self)) 0x81e0cb0;
+inline MotherSlime * (*MotherSlime::ptr::New)(MotherSlime * self, int xVal, int yVal, int l) = (MotherSlime * (*)(MotherSlime * self, int xVal, int yVal, int l)) 0x81e0d20;
+inline MotherSlime * (*MotherSlime::ptr::_new2)() = (MotherSlime * (*)()) 0x81e1150;
+inline Point * (*MotherSlime::ptr::GetMovementDirection)(MotherSlime * self) = (Point * (*)(MotherSlime * self)) 0x80b3a50;
+inline bool (*MotherSlime::ptr::_CanBeLord)() = (bool (*)()) 0x8078aa0;
+inline void (*MotherSlime::ptr::MoveSucceed)(MotherSlime * self, bool hitPlayer, bool moveDelayed) = (void (*)(MotherSlime * self, bool hitPlayer, bool moveDelayed)) 0x8078ab0;
+inline void (*MotherSlime::ptr::MoveFail)(MotherSlime * self) = (void (*)(MotherSlime * self)) 0x8134320;
+inline bool (*MotherSlime::ptr::Hit)(MotherSlime * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(MotherSlime * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8395a00;
+inline void (*MotherSlime::ptr::Die)(MotherSlime * self) = (void (*)(MotherSlime * self)) 0x83b5610;
+inline void (*MotherSlime::ptr::_mark)() = (void (*)()) 0x80afdd0;
+inline void (*MotherSlime::ptr::CSTR_MotherSlime)(MotherSlime * self) = (void (*)(MotherSlime * self)) 0x81e0cb0;
 #endif
 #endif

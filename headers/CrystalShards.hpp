@@ -38,32 +38,32 @@ public:
 };
 
 #ifdef _WIN32
-List47 * * CrystalShards::shardsList = (List47* *) 0x835590;
+inline List47 * * CrystalShards::shardsList = (List47* *) 0x835590;
 
-bool (*CrystalShards::ptr::AnyAt)(int x, int y) = (bool (*)(int x, int y)) 0x638280;
-void (*CrystalShards::ptr::Die)(CrystalShards * self) = (void (*)(CrystalShards * self)) 0x6382d0;
-void (*CrystalShards::ptr::Move)(CrystalShards * self) = (void (*)(CrystalShards * self)) 0x6382f0;
-void (*CrystalShards::ptr::_MoveAll)() = (void (*)()) 0x0;
-CrystalShards * (*CrystalShards::ptr::New)(CrystalShards * self, int x_, int y_) = (CrystalShards * (*)(CrystalShards * self, int x_, int y_)) 0x638300;
-CrystalShards * (*CrystalShards::ptr::_new2)() = (CrystalShards * (*)()) 0x0;
-void (*CrystalShards::ptr::Render)(CrystalShards * self) = (void (*)(CrystalShards * self)) 0x6384b0;
-bool (*CrystalShards::ptr::_Hit)(CrystalShards * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(CrystalShards * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x0;
-bool (*CrystalShards::ptr::_CanBeDamaged)(CrystalShards * self, bool arg1, bool arg2) = (bool (*)(CrystalShards * self, bool arg1, bool arg2)) 0x0;
-void (*CrystalShards::ptr::_mark)() = (void (*)()) 0x0;
+inline bool (*CrystalShards::ptr::AnyAt)(int x, int y) = (bool (*)(int x, int y)) 0x638280;
+inline void (*CrystalShards::ptr::Die)(CrystalShards * self) = (void (*)(CrystalShards * self)) 0x6382d0;
+inline void (*CrystalShards::ptr::Move)(CrystalShards * self) = (void (*)(CrystalShards * self)) 0x6382f0;
+inline void (*CrystalShards::ptr::_MoveAll)() = (void (*)()) 0x0;
+inline CrystalShards * (*CrystalShards::ptr::New)(CrystalShards * self, int x_, int y_) = (CrystalShards * (*)(CrystalShards * self, int x_, int y_)) 0x638300;
+inline CrystalShards * (*CrystalShards::ptr::_new2)() = (CrystalShards * (*)()) 0x0;
+inline void (*CrystalShards::ptr::Render)(CrystalShards * self) = (void (*)(CrystalShards * self)) 0x6384b0;
+inline bool (*CrystalShards::ptr::_Hit)(CrystalShards * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(CrystalShards * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x0;
+inline bool (*CrystalShards::ptr::_CanBeDamaged)(CrystalShards * self, bool arg1, bool arg2) = (bool (*)(CrystalShards * self, bool arg1, bool arg2)) 0x0;
+inline void (*CrystalShards::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
-List47 * * CrystalShards::shardsList = (List47* *) 0x856a374;
+inline List47 * * CrystalShards::shardsList = (List47* *) 0x856a374;
 
-bool (*CrystalShards::ptr::AnyAt)(int x, int y) = (bool (*)(int x, int y)) 0x81be8d0;
-void (*CrystalShards::ptr::Die)(CrystalShards * self) = (void (*)(CrystalShards * self)) 0x80946d0;
-void (*CrystalShards::ptr::Move)(CrystalShards * self) = (void (*)(CrystalShards * self)) 0x807f6d0;
-void (*CrystalShards::ptr::_MoveAll)() = (void (*)()) 0x81be920;
-CrystalShards * (*CrystalShards::ptr::New)(CrystalShards * self, int x_, int y_) = (CrystalShards * (*)(CrystalShards * self, int x_, int y_)) 0x81be970;
-CrystalShards * (*CrystalShards::ptr::_new2)() = (CrystalShards * (*)()) 0x81beb00;
-void (*CrystalShards::ptr::Render)(CrystalShards * self) = (void (*)(CrystalShards * self)) 0x8081880;
-bool (*CrystalShards::ptr::_Hit)(CrystalShards * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(CrystalShards * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x8075df0;
-bool (*CrystalShards::ptr::_CanBeDamaged)(CrystalShards * self, bool arg1, bool arg2) = (bool (*)(CrystalShards * self, bool arg1, bool arg2)) 0x8075e00;
-void (*CrystalShards::ptr::_mark)() = (void (*)()) 0x80a5210;
+inline bool (*CrystalShards::ptr::AnyAt)(int x, int y) = (bool (*)(int x, int y)) 0x81be8d0;
+inline void (*CrystalShards::ptr::Die)(CrystalShards * self) = (void (*)(CrystalShards * self)) 0x80946d0;
+inline void (*CrystalShards::ptr::Move)(CrystalShards * self) = (void (*)(CrystalShards * self)) 0x807f6d0;
+inline void (*CrystalShards::ptr::_MoveAll)() = (void (*)()) 0x81be920;
+inline CrystalShards * (*CrystalShards::ptr::New)(CrystalShards * self, int x_, int y_) = (CrystalShards * (*)(CrystalShards * self, int x_, int y_)) 0x81be970;
+inline CrystalShards * (*CrystalShards::ptr::_new2)() = (CrystalShards * (*)()) 0x81beb00;
+inline void (*CrystalShards::ptr::Render)(CrystalShards * self) = (void (*)(CrystalShards * self)) 0x8081880;
+inline bool (*CrystalShards::ptr::_Hit)(CrystalShards * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(CrystalShards * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x8075df0;
+inline bool (*CrystalShards::ptr::_CanBeDamaged)(CrystalShards * self, bool arg1, bool arg2) = (bool (*)(CrystalShards * self, bool arg1, bool arg2)) 0x8075e00;
+inline void (*CrystalShards::ptr::_mark)() = (void (*)()) 0x80a5210;
 #endif
 #endif

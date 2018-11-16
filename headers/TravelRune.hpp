@@ -38,23 +38,23 @@ public:
 
 #ifdef _WIN32
 
-TravelRune * (*TravelRune::ptr::New)(TravelRune * self, int xVal, int yVal, int toX, int toY, int runeNum) = (TravelRune * (*)(TravelRune * self, int xVal, int yVal, int toX, int toY, int runeNum)) 0x5da4c0;
-TravelRune * (*TravelRune::ptr::_new2)() = (TravelRune * (*)()) 0x0;
-void (*TravelRune::ptr::TravelTo)(Entity * ent, int toX, int toY) = (void (*)(Entity * ent, int toX, int toY)) 0x5da760;
-void (*TravelRune::ptr::Update)(TravelRune * self) = (void (*)(TravelRune * self)) 0x5da9b0;
-void (*TravelRune::ptr::Trigger)(TravelRune * self, Entity * ent) = (void (*)(TravelRune * self, Entity * ent)) 0x5daa00;
-void (*TravelRune::ptr::mark)(TravelRune * self) = (void (*)(TravelRune * self)) 0x5da430;
-void (*TravelRune::ptr::CSTR_TravelRune)(TravelRune * self) = (void (*)(TravelRune * self)) 0x5da440;
+inline TravelRune * (*TravelRune::ptr::New)(TravelRune * self, int xVal, int yVal, int toX, int toY, int runeNum) = (TravelRune * (*)(TravelRune * self, int xVal, int yVal, int toX, int toY, int runeNum)) 0x5da4c0;
+inline TravelRune * (*TravelRune::ptr::_new2)() = (TravelRune * (*)()) 0x0;
+inline void (*TravelRune::ptr::TravelTo)(Entity * ent, int toX, int toY) = (void (*)(Entity * ent, int toX, int toY)) 0x5da760;
+inline void (*TravelRune::ptr::Update)(TravelRune * self) = (void (*)(TravelRune * self)) 0x5da9b0;
+inline void (*TravelRune::ptr::Trigger)(TravelRune * self, Entity * ent) = (void (*)(TravelRune * self, Entity * ent)) 0x5daa00;
+inline void (*TravelRune::ptr::mark)(TravelRune * self) = (void (*)(TravelRune * self)) 0x5da430;
+inline void (*TravelRune::ptr::CSTR_TravelRune)(TravelRune * self) = (void (*)(TravelRune * self)) 0x5da440;
 #endif
 
 #ifdef __linux__
 
-TravelRune * (*TravelRune::ptr::New)(TravelRune * self, int xVal, int yVal, int toX, int toY, int runeNum) = (TravelRune * (*)(TravelRune * self, int xVal, int yVal, int toX, int toY, int runeNum)) 0x8193d10;
-TravelRune * (*TravelRune::ptr::_new2)() = (TravelRune * (*)()) 0x8193fb0;
-void (*TravelRune::ptr::TravelTo)(Entity * ent, int toX, int toY) = (void (*)(Entity * ent, int toX, int toY)) 0x83d3aa0;
-void (*TravelRune::ptr::Update)(TravelRune * self) = (void (*)(TravelRune * self)) 0x812db00;
-void (*TravelRune::ptr::Trigger)(TravelRune * self, Entity * ent) = (void (*)(TravelRune * self, Entity * ent)) 0x83d3da0;
-void (*TravelRune::ptr::mark)(TravelRune * self) = (void (*)(TravelRune * self)) 0x80a5770;
-void (*TravelRune::ptr::CSTR_TravelRune)(TravelRune * self) = (void (*)(TravelRune * self)) 0x8193c70;
+inline TravelRune * (*TravelRune::ptr::New)(TravelRune * self, int xVal, int yVal, int toX, int toY, int runeNum) = (TravelRune * (*)(TravelRune * self, int xVal, int yVal, int toX, int toY, int runeNum)) 0x8193d10;
+inline TravelRune * (*TravelRune::ptr::_new2)() = (TravelRune * (*)()) 0x8193fb0;
+inline void (*TravelRune::ptr::TravelTo)(Entity * ent, int toX, int toY) = (void (*)(Entity * ent, int toX, int toY)) 0x83d3aa0;
+inline void (*TravelRune::ptr::Update)(TravelRune * self) = (void (*)(TravelRune * self)) 0x812db00;
+inline void (*TravelRune::ptr::Trigger)(TravelRune * self, Entity * ent) = (void (*)(TravelRune * self, Entity * ent)) 0x83d3da0;
+inline void (*TravelRune::ptr::mark)(TravelRune * self) = (void (*)(TravelRune * self)) 0x80a5770;
+inline void (*TravelRune::ptr::CSTR_TravelRune)(TravelRune * self) = (void (*)(TravelRune * self)) 0x8193c70;
 #endif
 #endif

@@ -30,19 +30,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator36 * (*Enumerator36::ptr::_New)(Enumerator36 * self, List19 * arg1) = (Enumerator36 * (*)(Enumerator36 * self, List19 * arg1)) 0x0;
-Enumerator36 * (*Enumerator36::ptr::_new2)() = (Enumerator36 * (*)()) 0x0;
-bool (*Enumerator36::ptr::_HasNext)() = (bool (*)()) 0x0;
-ItemObject * (*Enumerator36::ptr::_NextObject)() = (ItemObject * (*)()) 0x0;
-void (*Enumerator36::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator36 * (*Enumerator36::ptr::_New)(Enumerator36 * self, List19 * arg1) = (Enumerator36 * (*)(Enumerator36 * self, List19 * arg1)) 0x0;
+inline Enumerator36 * (*Enumerator36::ptr::_new2)() = (Enumerator36 * (*)()) 0x0;
+inline bool (*Enumerator36::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline ItemObject * (*Enumerator36::ptr::_NextObject)() = (ItemObject * (*)()) 0x0;
+inline void (*Enumerator36::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator36 * (*Enumerator36::ptr::_New)(Enumerator36 * self, List19 * arg1) = (Enumerator36 * (*)(Enumerator36 * self, List19 * arg1)) 0x0;
-Enumerator36 * (*Enumerator36::ptr::_new2)() = (Enumerator36 * (*)()) 0x81d5cb0;
-bool (*Enumerator36::ptr::_HasNext)() = (bool (*)()) 0x8093cd0;
-ItemObject * (*Enumerator36::ptr::_NextObject)() = (ItemObject * (*)()) 0x8093c60;
-void (*Enumerator36::ptr::_mark)() = (void (*)()) 0x80848c0;
+inline Enumerator36 * (*Enumerator36::ptr::_New)(Enumerator36 * self, List19 * arg1) = (Enumerator36 * (*)(Enumerator36 * self, List19 * arg1)) 0x0;
+inline Enumerator36 * (*Enumerator36::ptr::_new2)() = (Enumerator36 * (*)()) 0x81d5cb0;
+inline bool (*Enumerator36::ptr::_HasNext)() = (bool (*)()) 0x8093cd0;
+inline ItemObject * (*Enumerator36::ptr::_NextObject)() = (ItemObject * (*)()) 0x8093c60;
+inline void (*Enumerator36::ptr::_mark)() = (void (*)()) 0x80848c0;
 #endif
 #endif

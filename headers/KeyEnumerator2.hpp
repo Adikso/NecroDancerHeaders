@@ -28,19 +28,19 @@ public:
 
 #ifdef _WIN32
 
-KeyEnumerator2 * (*KeyEnumerator2::ptr::_New)(KeyEnumerator2 * self, Node60 * arg1) = (KeyEnumerator2 * (*)(KeyEnumerator2 * self, Node60 * arg1)) 0x0;
-KeyEnumerator2 * (*KeyEnumerator2::ptr::_new2)() = (KeyEnumerator2 * (*)()) 0x0;
-bool (*KeyEnumerator2::ptr::_HasNext)() = (bool (*)()) 0x0;
-Point * (*KeyEnumerator2::ptr::_NextObject)() = (Point * (*)()) 0x0;
-void (*KeyEnumerator2::ptr::_mark)() = (void (*)()) 0x0;
+inline KeyEnumerator2 * (*KeyEnumerator2::ptr::_New)(KeyEnumerator2 * self, Node60 * arg1) = (KeyEnumerator2 * (*)(KeyEnumerator2 * self, Node60 * arg1)) 0x0;
+inline KeyEnumerator2 * (*KeyEnumerator2::ptr::_new2)() = (KeyEnumerator2 * (*)()) 0x0;
+inline bool (*KeyEnumerator2::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline Point * (*KeyEnumerator2::ptr::_NextObject)() = (Point * (*)()) 0x0;
+inline void (*KeyEnumerator2::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-KeyEnumerator2 * (*KeyEnumerator2::ptr::_New)(KeyEnumerator2 * self, Node60 * arg1) = (KeyEnumerator2 * (*)(KeyEnumerator2 * self, Node60 * arg1)) 0x0;
-KeyEnumerator2 * (*KeyEnumerator2::ptr::_new2)() = (KeyEnumerator2 * (*)()) 0x81bc760;
-bool (*KeyEnumerator2::ptr::_HasNext)() = (bool (*)()) 0x8075c20;
-Point * (*KeyEnumerator2::ptr::_NextObject)() = (Point * (*)()) 0x809cc80;
-void (*KeyEnumerator2::ptr::_mark)() = (void (*)()) 0x808d7e0;
+inline KeyEnumerator2 * (*KeyEnumerator2::ptr::_New)(KeyEnumerator2 * self, Node60 * arg1) = (KeyEnumerator2 * (*)(KeyEnumerator2 * self, Node60 * arg1)) 0x0;
+inline KeyEnumerator2 * (*KeyEnumerator2::ptr::_new2)() = (KeyEnumerator2 * (*)()) 0x81bc760;
+inline bool (*KeyEnumerator2::ptr::_HasNext)() = (bool (*)()) 0x8075c20;
+inline Point * (*KeyEnumerator2::ptr::_NextObject)() = (Point * (*)()) 0x809cc80;
+inline void (*KeyEnumerator2::ptr::_mark)() = (void (*)()) 0x808d7e0;
 #endif
 #endif

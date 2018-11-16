@@ -35,21 +35,21 @@ public:
 
 #ifdef _WIN32
 
-Node15 * (*Node15::ptr::_New)(Node15 * self, Node15 * arg1, Node15 * arg2, FamiliarFixed * arg3) = (Node15 * (*)(Node15 * self, Node15 * arg1, Node15 * arg2, FamiliarFixed * arg3)) 0x0;
-Node15 * (*Node15::ptr::_new2)() = (Node15 * (*)()) 0x0;
-int (*Node15::ptr::_Remove2)() = (int (*)()) 0x0;
-void (*Node15::ptr::_mark)() = (void (*)()) 0x0;
-void (*Node15::ptr::CSTR_Node15)(Node15 * self) = (void (*)(Node15 * self)) 0x580fe0;
-Node15 * (*Node15::ptr::_New_2)(Node15 * self, String * key, int value, int color, Node15 * parent) = (Node15 * (*)(Node15 * self, String * key, int value, int color, Node15 * parent)) 0x5810d0;
+inline Node15 * (*Node15::ptr::_New)(Node15 * self, Node15 * arg1, Node15 * arg2, FamiliarFixed * arg3) = (Node15 * (*)(Node15 * self, Node15 * arg1, Node15 * arg2, FamiliarFixed * arg3)) 0x0;
+inline Node15 * (*Node15::ptr::_new2)() = (Node15 * (*)()) 0x0;
+inline int (*Node15::ptr::_Remove2)() = (int (*)()) 0x0;
+inline void (*Node15::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Node15::ptr::CSTR_Node15)(Node15 * self) = (void (*)(Node15 * self)) 0x580fe0;
+inline Node15 * (*Node15::ptr::_New_2)(Node15 * self, String * key, int value, int color, Node15 * parent) = (Node15 * (*)(Node15 * self, String * key, int value, int color, Node15 * parent)) 0x5810d0;
 #endif
 
 #ifdef __linux__
 
-Node15 * (*Node15::ptr::_New)(Node15 * self, Node15 * arg1, Node15 * arg2, FamiliarFixed * arg3) = (Node15 * (*)(Node15 * self, Node15 * arg1, Node15 * arg2, FamiliarFixed * arg3)) 0x0;
-Node15 * (*Node15::ptr::_new2)() = (Node15 * (*)()) 0x81945c0;
-int (*Node15::ptr::_Remove2)() = (int (*)()) 0x0;
-void (*Node15::ptr::_mark)() = (void (*)()) 0x808ab10;
-void (*Node15::ptr::CSTR_Node15)(Node15 * self) = (void (*)(Node15 * self)) 0x8194380;
-Node15 * (*Node15::ptr::_New_2)(Node15 * self, String * key, int value, int color, Node15 * parent) = (Node15 * (*)(Node15 * self, String * key, int value, int color, Node15 * parent)) 0x0;
+inline Node15 * (*Node15::ptr::_New)(Node15 * self, Node15 * arg1, Node15 * arg2, FamiliarFixed * arg3) = (Node15 * (*)(Node15 * self, Node15 * arg1, Node15 * arg2, FamiliarFixed * arg3)) 0x0;
+inline Node15 * (*Node15::ptr::_new2)() = (Node15 * (*)()) 0x81945c0;
+inline int (*Node15::ptr::_Remove2)() = (int (*)()) 0x0;
+inline void (*Node15::ptr::_mark)() = (void (*)()) 0x808ab10;
+inline void (*Node15::ptr::CSTR_Node15)(Node15 * self) = (void (*)(Node15 * self)) 0x8194380;
+inline Node15 * (*Node15::ptr::_New_2)(Node15 * self, String * key, int value, int color, Node15 * parent) = (Node15 * (*)(Node15 * self, String * key, int value, int color, Node15 * parent)) 0x0;
 #endif
 #endif

@@ -39,28 +39,28 @@ public:
 };
 
 #ifdef _WIN32
-List41 * * Switch::switches = (List41* *) 0x8355b0;
+inline List41 * * Switch::switches = (List41* *) 0x8355b0;
 
-void (*Switch::ptr::Die)(Switch * self) = (void (*)(Switch * self)) 0x629670;
-void (*Switch::ptr::RemoveAll)() = (void (*)()) 0x6296a0;
-Switch * (*Switch::ptr::New)(Switch * self, int xVal, int yVal, int triggerNum, Switch * pair) = (Switch * (*)(Switch * self, int xVal, int yVal, int triggerNum, Switch * pair)) 0x6296e0;
-Switch * (*Switch::ptr::_new2)() = (Switch * (*)()) 0x0;
-void (*Switch::ptr::Update)(Switch * self) = (void (*)(Switch * self)) 0x6298f0;
-void (*Switch::ptr::Trigger)(Switch * self, Entity * ent) = (void (*)(Switch * self, Entity * ent)) 0x629940;
-void (*Switch::ptr::mark)(Switch * self) = (void (*)(Switch * self)) 0x629a60;
-void (*Switch::ptr::CSTR_Switch)(Switch * self) = (void (*)(Switch * self)) 0x629600;
+inline void (*Switch::ptr::Die)(Switch * self) = (void (*)(Switch * self)) 0x629670;
+inline void (*Switch::ptr::RemoveAll)() = (void (*)()) 0x6296a0;
+inline Switch * (*Switch::ptr::New)(Switch * self, int xVal, int yVal, int triggerNum, Switch * pair) = (Switch * (*)(Switch * self, int xVal, int yVal, int triggerNum, Switch * pair)) 0x6296e0;
+inline Switch * (*Switch::ptr::_new2)() = (Switch * (*)()) 0x0;
+inline void (*Switch::ptr::Update)(Switch * self) = (void (*)(Switch * self)) 0x6298f0;
+inline void (*Switch::ptr::Trigger)(Switch * self, Entity * ent) = (void (*)(Switch * self, Entity * ent)) 0x629940;
+inline void (*Switch::ptr::mark)(Switch * self) = (void (*)(Switch * self)) 0x629a60;
+inline void (*Switch::ptr::CSTR_Switch)(Switch * self) = (void (*)(Switch * self)) 0x629600;
 #endif
 
 #ifdef __linux__
-List41 * * Switch::switches = (List41* *) 0x856a39c;
+inline List41 * * Switch::switches = (List41* *) 0x856a39c;
 
-void (*Switch::ptr::Die)(Switch * self) = (void (*)(Switch * self)) 0x8093560;
-void (*Switch::ptr::RemoveAll)() = (void (*)()) 0x81b9540;
-Switch * (*Switch::ptr::New)(Switch * self, int xVal, int yVal, int triggerNum, Switch * pair) = (Switch * (*)(Switch * self, int xVal, int yVal, int triggerNum, Switch * pair)) 0x81b9580;
-Switch * (*Switch::ptr::_new2)() = (Switch * (*)()) 0x81b97b0;
-void (*Switch::ptr::Update)(Switch * self) = (void (*)(Switch * self)) 0x812dc40;
-void (*Switch::ptr::Trigger)(Switch * self, Entity * ent) = (void (*)(Switch * self, Entity * ent)) 0x83b2390;
-void (*Switch::ptr::mark)(Switch * self) = (void (*)(Switch * self)) 0x80a60b0;
-void (*Switch::ptr::CSTR_Switch)(Switch * self) = (void (*)(Switch * self)) 0x81b94b0;
+inline void (*Switch::ptr::Die)(Switch * self) = (void (*)(Switch * self)) 0x8093560;
+inline void (*Switch::ptr::RemoveAll)() = (void (*)()) 0x81b9540;
+inline Switch * (*Switch::ptr::New)(Switch * self, int xVal, int yVal, int triggerNum, Switch * pair) = (Switch * (*)(Switch * self, int xVal, int yVal, int triggerNum, Switch * pair)) 0x81b9580;
+inline Switch * (*Switch::ptr::_new2)() = (Switch * (*)()) 0x81b97b0;
+inline void (*Switch::ptr::Update)(Switch * self) = (void (*)(Switch * self)) 0x812dc40;
+inline void (*Switch::ptr::Trigger)(Switch * self, Entity * ent) = (void (*)(Switch * self, Entity * ent)) 0x83b2390;
+inline void (*Switch::ptr::mark)(Switch * self) = (void (*)(Switch * self)) 0x80a60b0;
+inline void (*Switch::ptr::CSTR_Switch)(Switch * self) = (void (*)(Switch * self)) 0x81b94b0;
 #endif
 #endif

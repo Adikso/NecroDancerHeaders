@@ -37,27 +37,27 @@ public:
 
 #ifdef _WIN32
 
-RoomBase * (*RoomBase::ptr::_New)() = (RoomBase * (*)()) 0x0;
-bool (*RoomBase::ptr::_IsWall2)(RoomBase * self, int arg1, int arg2) = (bool (*)(RoomBase * self, int arg1, int arg2)) 0x0;
-bool (*RoomBase::ptr::_IsOutside)(RoomBase * self, int arg1, int arg2) = (bool (*)(RoomBase * self, int arg1, int arg2)) 0x0;
-Rect * (*RoomBase::ptr::_GetBounds)() = (Rect * (*)()) 0x0;
-bool (*RoomBase::ptr::_IsFloor2)(RoomBase * self, int arg1, int arg2) = (bool (*)(RoomBase * self, int arg1, int arg2)) 0x0;
-StackEx3 * (*RoomBase::ptr::GetPortalSegs)(RoomBase * self) = (StackEx3 * (*)(RoomBase * self)) 0x65e290;
-IntPointStack * (*RoomBase::ptr::GetFloor)(RoomBase * self) = (IntPointStack * (*)(RoomBase * self)) 0x65e780;
-Point * (*RoomBase::ptr::GetRandPoint)(RoomBase * self) = (Point * (*)(RoomBase * self)) 0x65e8d0;
-void (*RoomBase::ptr::_mark)() = (void (*)()) 0x0;
+inline RoomBase * (*RoomBase::ptr::_New)() = (RoomBase * (*)()) 0x0;
+inline bool (*RoomBase::ptr::_IsWall2)(RoomBase * self, int arg1, int arg2) = (bool (*)(RoomBase * self, int arg1, int arg2)) 0x0;
+inline bool (*RoomBase::ptr::_IsOutside)(RoomBase * self, int arg1, int arg2) = (bool (*)(RoomBase * self, int arg1, int arg2)) 0x0;
+inline Rect * (*RoomBase::ptr::_GetBounds)() = (Rect * (*)()) 0x0;
+inline bool (*RoomBase::ptr::_IsFloor2)(RoomBase * self, int arg1, int arg2) = (bool (*)(RoomBase * self, int arg1, int arg2)) 0x0;
+inline StackEx3 * (*RoomBase::ptr::GetPortalSegs)(RoomBase * self) = (StackEx3 * (*)(RoomBase * self)) 0x65e290;
+inline IntPointStack * (*RoomBase::ptr::GetFloor)(RoomBase * self) = (IntPointStack * (*)(RoomBase * self)) 0x65e780;
+inline Point * (*RoomBase::ptr::GetRandPoint)(RoomBase * self) = (Point * (*)(RoomBase * self)) 0x65e8d0;
+inline void (*RoomBase::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-RoomBase * (*RoomBase::ptr::_New)() = (RoomBase * (*)()) 0x81d4780;
-bool (*RoomBase::ptr::_IsWall2)(RoomBase * self, int arg1, int arg2) = (bool (*)(RoomBase * self, int arg1, int arg2)) 0x0;
-bool (*RoomBase::ptr::_IsOutside)(RoomBase * self, int arg1, int arg2) = (bool (*)(RoomBase * self, int arg1, int arg2)) 0x0;
-Rect * (*RoomBase::ptr::_GetBounds)() = (Rect * (*)()) 0x0;
-bool (*RoomBase::ptr::_IsFloor2)(RoomBase * self, int arg1, int arg2) = (bool (*)(RoomBase * self, int arg1, int arg2)) 0x0;
-StackEx3 * (*RoomBase::ptr::GetPortalSegs)(RoomBase * self) = (StackEx3 * (*)(RoomBase * self)) 0x80bf620;
-IntPointStack * (*RoomBase::ptr::GetFloor)(RoomBase * self) = (IntPointStack * (*)(RoomBase * self)) 0x81ba970;
-Point * (*RoomBase::ptr::GetRandPoint)(RoomBase * self) = (Point * (*)(RoomBase * self)) 0x8076a60;
-void (*RoomBase::ptr::_mark)() = (void (*)()) 0x8076a90;
+inline RoomBase * (*RoomBase::ptr::_New)() = (RoomBase * (*)()) 0x81d4780;
+inline bool (*RoomBase::ptr::_IsWall2)(RoomBase * self, int arg1, int arg2) = (bool (*)(RoomBase * self, int arg1, int arg2)) 0x0;
+inline bool (*RoomBase::ptr::_IsOutside)(RoomBase * self, int arg1, int arg2) = (bool (*)(RoomBase * self, int arg1, int arg2)) 0x0;
+inline Rect * (*RoomBase::ptr::_GetBounds)() = (Rect * (*)()) 0x0;
+inline bool (*RoomBase::ptr::_IsFloor2)(RoomBase * self, int arg1, int arg2) = (bool (*)(RoomBase * self, int arg1, int arg2)) 0x0;
+inline StackEx3 * (*RoomBase::ptr::GetPortalSegs)(RoomBase * self) = (StackEx3 * (*)(RoomBase * self)) 0x80bf620;
+inline IntPointStack * (*RoomBase::ptr::GetFloor)(RoomBase * self) = (IntPointStack * (*)(RoomBase * self)) 0x81ba970;
+inline Point * (*RoomBase::ptr::GetRandPoint)(RoomBase * self) = (Point * (*)(RoomBase * self)) 0x8076a60;
+inline void (*RoomBase::ptr::_mark)() = (void (*)()) 0x8076a90;
 #endif
 #endif

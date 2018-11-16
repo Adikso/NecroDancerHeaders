@@ -27,17 +27,17 @@ public:
 
 #ifdef _WIN32
 
-Node26 * (*Node26::ptr::_New)(Node26 * self, Node26 * arg1, Node26 * arg2, Enemy * arg3) = (Node26 * (*)(Node26 * self, Node26 * arg1, Node26 * arg2, Enemy * arg3)) 0x0;
-Node26 * (*Node26::ptr::_new2)() = (Node26 * (*)()) 0x0;
-int (*Node26::ptr::_Remove3)() = (int (*)()) 0x0;
-void (*Node26::ptr::_mark)() = (void (*)()) 0x0;
+inline Node26 * (*Node26::ptr::_New)(Node26 * self, Node26 * arg1, Node26 * arg2, Enemy * arg3) = (Node26 * (*)(Node26 * self, Node26 * arg1, Node26 * arg2, Enemy * arg3)) 0x0;
+inline Node26 * (*Node26::ptr::_new2)() = (Node26 * (*)()) 0x0;
+inline int (*Node26::ptr::_Remove3)() = (int (*)()) 0x0;
+inline void (*Node26::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node26 * (*Node26::ptr::_New)(Node26 * self, Node26 * arg1, Node26 * arg2, Enemy * arg3) = (Node26 * (*)(Node26 * self, Node26 * arg1, Node26 * arg2, Enemy * arg3)) 0x0;
-Node26 * (*Node26::ptr::_new2)() = (Node26 * (*)()) 0x819f340;
-int (*Node26::ptr::_Remove3)() = (int (*)()) 0x0;
-void (*Node26::ptr::_mark)() = (void (*)()) 0x808be90;
+inline Node26 * (*Node26::ptr::_New)(Node26 * self, Node26 * arg1, Node26 * arg2, Enemy * arg3) = (Node26 * (*)(Node26 * self, Node26 * arg1, Node26 * arg2, Enemy * arg3)) 0x0;
+inline Node26 * (*Node26::ptr::_new2)() = (Node26 * (*)()) 0x819f340;
+inline int (*Node26::ptr::_Remove3)() = (int (*)()) 0x0;
+inline void (*Node26::ptr::_mark)() = (void (*)()) 0x808be90;
 #endif
 #endif

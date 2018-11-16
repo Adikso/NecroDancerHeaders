@@ -24,15 +24,15 @@ public:
 
 #ifdef _WIN32
 
-IntPointStack * (*IntPointStack::ptr::_New)() = (IntPointStack * (*)()) 0x0;
-void (*IntPointStack::ptr::_mark)() = (void (*)()) 0x0;
-void (*IntPointStack::ptr::CSTR_IntPointStack)(IntPointStack * self) = (void (*)(IntPointStack * self)) 0x631830;
+inline IntPointStack * (*IntPointStack::ptr::_New)() = (IntPointStack * (*)()) 0x0;
+inline void (*IntPointStack::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*IntPointStack::ptr::CSTR_IntPointStack)(IntPointStack * self) = (void (*)(IntPointStack * self)) 0x631830;
 #endif
 
 #ifdef __linux__
 
-IntPointStack * (*IntPointStack::ptr::_New)() = (IntPointStack * (*)()) 0x81bb150;
-void (*IntPointStack::ptr::_mark)() = (void (*)()) 0x808ba70;
-void (*IntPointStack::ptr::CSTR_IntPointStack)(IntPointStack * self) = (void (*)(IntPointStack * self)) 0x81bb130;
+inline IntPointStack * (*IntPointStack::ptr::_New)() = (IntPointStack * (*)()) 0x81bb150;
+inline void (*IntPointStack::ptr::_mark)() = (void (*)()) 0x808ba70;
+inline void (*IntPointStack::ptr::CSTR_IntPointStack)(IntPointStack * self) = (void (*)(IntPointStack * self)) 0x81bb130;
 #endif
 #endif

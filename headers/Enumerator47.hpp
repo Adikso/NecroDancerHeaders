@@ -30,19 +30,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator47 * (*Enumerator47::ptr::_New)(Enumerator47 * self, List27 * arg1) = (Enumerator47 * (*)(Enumerator47 * self, List27 * arg1)) 0x0;
-Enumerator47 * (*Enumerator47::ptr::_new2)() = (Enumerator47 * (*)()) 0x0;
-bool (*Enumerator47::ptr::_HasNext)() = (bool (*)()) 0x0;
-SoundData * (*Enumerator47::ptr::_NextObject)() = (SoundData * (*)()) 0x0;
-void (*Enumerator47::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator47 * (*Enumerator47::ptr::_New)(Enumerator47 * self, List27 * arg1) = (Enumerator47 * (*)(Enumerator47 * self, List27 * arg1)) 0x0;
+inline Enumerator47 * (*Enumerator47::ptr::_new2)() = (Enumerator47 * (*)()) 0x0;
+inline bool (*Enumerator47::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline SoundData * (*Enumerator47::ptr::_NextObject)() = (SoundData * (*)()) 0x0;
+inline void (*Enumerator47::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator47 * (*Enumerator47::ptr::_New)(Enumerator47 * self, List27 * arg1) = (Enumerator47 * (*)(Enumerator47 * self, List27 * arg1)) 0x0;
-Enumerator47 * (*Enumerator47::ptr::_new2)() = (Enumerator47 * (*)()) 0x81e5380;
-bool (*Enumerator47::ptr::_HasNext)() = (bool (*)()) 0x808f170;
-SoundData * (*Enumerator47::ptr::_NextObject)() = (SoundData * (*)()) 0x808f100;
-void (*Enumerator47::ptr::_mark)() = (void (*)()) 0x8089310;
+inline Enumerator47 * (*Enumerator47::ptr::_New)(Enumerator47 * self, List27 * arg1) = (Enumerator47 * (*)(Enumerator47 * self, List27 * arg1)) 0x0;
+inline Enumerator47 * (*Enumerator47::ptr::_new2)() = (Enumerator47 * (*)()) 0x81e5380;
+inline bool (*Enumerator47::ptr::_HasNext)() = (bool (*)()) 0x808f170;
+inline SoundData * (*Enumerator47::ptr::_NextObject)() = (SoundData * (*)()) 0x808f100;
+inline void (*Enumerator47::ptr::_mark)() = (void (*)()) 0x8089310;
 #endif
 #endif

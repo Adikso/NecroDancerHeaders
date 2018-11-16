@@ -72,31 +72,31 @@ public:
 
 #ifdef _WIN32
 
-ControllerCalibration * (*ControllerCalibration::ptr::New)(ControllerCalibration * self) = (ControllerCalibration * (*)(ControllerCalibration * self)) 0x67dff0;
-void (*ControllerCalibration::ptr::RegainFocus)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x67e320;
-float (*ControllerCalibration::ptr::GetAudioLatency)(ControllerCalibration * self) = (float (*)(ControllerCalibration * self)) 0x67e330;
-float (*ControllerCalibration::ptr::GetVideoLatency)(ControllerCalibration * self) = (float (*)(ControllerCalibration * self)) 0x67e370;
-bool (*ControllerCalibration::ptr::UpWasHit)(ControllerCalibration * self) = (bool (*)(ControllerCalibration * self)) 0x67e3b0;
-void (*ControllerCalibration::ptr::DoBounce)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x67e450;
-void (*ControllerCalibration::ptr::Update)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x67e4a0;
-void (*ControllerCalibration::ptr::Render)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x67ea70;
-void (*ControllerCalibration::ptr::Destructor)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x67f090;
-void (*ControllerCalibration::ptr::mark)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x67f100;
-void (*ControllerCalibration::ptr::CSTR_ControllerCalibration)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x67d7e0;
+inline ControllerCalibration * (*ControllerCalibration::ptr::New)(ControllerCalibration * self) = (ControllerCalibration * (*)(ControllerCalibration * self)) 0x67dff0;
+inline void (*ControllerCalibration::ptr::RegainFocus)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x67e320;
+inline float (*ControllerCalibration::ptr::GetAudioLatency)(ControllerCalibration * self) = (float (*)(ControllerCalibration * self)) 0x67e330;
+inline float (*ControllerCalibration::ptr::GetVideoLatency)(ControllerCalibration * self) = (float (*)(ControllerCalibration * self)) 0x67e370;
+inline bool (*ControllerCalibration::ptr::UpWasHit)(ControllerCalibration * self) = (bool (*)(ControllerCalibration * self)) 0x67e3b0;
+inline void (*ControllerCalibration::ptr::DoBounce)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x67e450;
+inline void (*ControllerCalibration::ptr::Update)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x67e4a0;
+inline void (*ControllerCalibration::ptr::Render)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x67ea70;
+inline void (*ControllerCalibration::ptr::Destructor)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x67f090;
+inline void (*ControllerCalibration::ptr::mark)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x67f100;
+inline void (*ControllerCalibration::ptr::CSTR_ControllerCalibration)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x67d7e0;
 #endif
 
 #ifdef __linux__
 
-ControllerCalibration * (*ControllerCalibration::ptr::New)(ControllerCalibration * self) = (ControllerCalibration * (*)(ControllerCalibration * self)) 0x83142a0;
-void (*ControllerCalibration::ptr::RegainFocus)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x8078110;
-float (*ControllerCalibration::ptr::GetAudioLatency)(ControllerCalibration * self) = (float (*)(ControllerCalibration * self)) 0x8078120;
-float (*ControllerCalibration::ptr::GetVideoLatency)(ControllerCalibration * self) = (float (*)(ControllerCalibration * self)) 0x8078140;
-bool (*ControllerCalibration::ptr::UpWasHit)(ControllerCalibration * self) = (bool (*)(ControllerCalibration * self)) 0x81118b0;
-void (*ControllerCalibration::ptr::DoBounce)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x8078160;
-void (*ControllerCalibration::ptr::Update)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x8316f00;
-void (*ControllerCalibration::ptr::Render)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x8407be0;
-void (*ControllerCalibration::ptr::Destructor)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x80781d0;
-void (*ControllerCalibration::ptr::mark)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x80a6ec0;
-void (*ControllerCalibration::ptr::CSTR_ControllerCalibration)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x81dd7e0;
+inline ControllerCalibration * (*ControllerCalibration::ptr::New)(ControllerCalibration * self) = (ControllerCalibration * (*)(ControllerCalibration * self)) 0x83142a0;
+inline void (*ControllerCalibration::ptr::RegainFocus)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x8078110;
+inline float (*ControllerCalibration::ptr::GetAudioLatency)(ControllerCalibration * self) = (float (*)(ControllerCalibration * self)) 0x8078120;
+inline float (*ControllerCalibration::ptr::GetVideoLatency)(ControllerCalibration * self) = (float (*)(ControllerCalibration * self)) 0x8078140;
+inline bool (*ControllerCalibration::ptr::UpWasHit)(ControllerCalibration * self) = (bool (*)(ControllerCalibration * self)) 0x81118b0;
+inline void (*ControllerCalibration::ptr::DoBounce)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x8078160;
+inline void (*ControllerCalibration::ptr::Update)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x8316f00;
+inline void (*ControllerCalibration::ptr::Render)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x8407be0;
+inline void (*ControllerCalibration::ptr::Destructor)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x80781d0;
+inline void (*ControllerCalibration::ptr::mark)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x80a6ec0;
+inline void (*ControllerCalibration::ptr::CSTR_ControllerCalibration)(ControllerCalibration * self) = (void (*)(ControllerCalibration * self)) 0x81dd7e0;
 #endif
 #endif

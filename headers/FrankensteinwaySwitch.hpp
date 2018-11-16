@@ -28,19 +28,19 @@ public:
 
 #ifdef _WIN32
 
-FrankensteinwaySwitch * (*FrankensteinwaySwitch::ptr::New)(FrankensteinwaySwitch * self, int xVal, int yVal) = (FrankensteinwaySwitch * (*)(FrankensteinwaySwitch * self, int xVal, int yVal)) 0x66c250;
-FrankensteinwaySwitch * (*FrankensteinwaySwitch::ptr::_new2)() = (FrankensteinwaySwitch * (*)()) 0x0;
-void (*FrankensteinwaySwitch::ptr::_Update)() = (void (*)()) 0x0;
-void (*FrankensteinwaySwitch::ptr::Trigger)(FrankensteinwaySwitch * self, Entity * ent) = (void (*)(FrankensteinwaySwitch * self, Entity * ent)) 0x66c3f0;
-void (*FrankensteinwaySwitch::ptr::mark)(FrankensteinwaySwitch * self) = (void (*)(FrankensteinwaySwitch * self)) 0x66c4f0;
+inline FrankensteinwaySwitch * (*FrankensteinwaySwitch::ptr::New)(FrankensteinwaySwitch * self, int xVal, int yVal) = (FrankensteinwaySwitch * (*)(FrankensteinwaySwitch * self, int xVal, int yVal)) 0x66c250;
+inline FrankensteinwaySwitch * (*FrankensteinwaySwitch::ptr::_new2)() = (FrankensteinwaySwitch * (*)()) 0x0;
+inline void (*FrankensteinwaySwitch::ptr::_Update)() = (void (*)()) 0x0;
+inline void (*FrankensteinwaySwitch::ptr::Trigger)(FrankensteinwaySwitch * self, Entity * ent) = (void (*)(FrankensteinwaySwitch * self, Entity * ent)) 0x66c3f0;
+inline void (*FrankensteinwaySwitch::ptr::mark)(FrankensteinwaySwitch * self) = (void (*)(FrankensteinwaySwitch * self)) 0x66c4f0;
 #endif
 
 #ifdef __linux__
 
-FrankensteinwaySwitch * (*FrankensteinwaySwitch::ptr::New)(FrankensteinwaySwitch * self, int xVal, int yVal) = (FrankensteinwaySwitch * (*)(FrankensteinwaySwitch * self, int xVal, int yVal)) 0x81da3b0;
-FrankensteinwaySwitch * (*FrankensteinwaySwitch::ptr::_new2)() = (FrankensteinwaySwitch * (*)()) 0x81da750;
-void (*FrankensteinwaySwitch::ptr::_Update)() = (void (*)()) 0x812db70;
-void (*FrankensteinwaySwitch::ptr::Trigger)(FrankensteinwaySwitch * self, Entity * ent) = (void (*)(FrankensteinwaySwitch * self, Entity * ent)) 0x83ab450;
-void (*FrankensteinwaySwitch::ptr::mark)(FrankensteinwaySwitch * self) = (void (*)(FrankensteinwaySwitch * self)) 0x80a5fb0;
+inline FrankensteinwaySwitch * (*FrankensteinwaySwitch::ptr::New)(FrankensteinwaySwitch * self, int xVal, int yVal) = (FrankensteinwaySwitch * (*)(FrankensteinwaySwitch * self, int xVal, int yVal)) 0x81da3b0;
+inline FrankensteinwaySwitch * (*FrankensteinwaySwitch::ptr::_new2)() = (FrankensteinwaySwitch * (*)()) 0x81da750;
+inline void (*FrankensteinwaySwitch::ptr::_Update)() = (void (*)()) 0x812db70;
+inline void (*FrankensteinwaySwitch::ptr::Trigger)(FrankensteinwaySwitch * self, Entity * ent) = (void (*)(FrankensteinwaySwitch * self, Entity * ent)) 0x83ab450;
+inline void (*FrankensteinwaySwitch::ptr::mark)(FrankensteinwaySwitch * self) = (void (*)(FrankensteinwaySwitch * self)) 0x80a5fb0;
 #endif
 #endif

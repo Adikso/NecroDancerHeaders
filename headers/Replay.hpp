@@ -75,50 +75,50 @@ public:
 };
 
 #ifdef _WIN32
-String * * Replay::lastSavedReplayFile = (String* *) 0x833fc0;
+inline String * * Replay::lastSavedReplayFile = (String* *) 0x833fc0;
 
-int (*Replay::ptr::GetRand)(Replay * self, int channel) = (int (*)(Replay * self, int channel)) 0x5f3bc0;
-void (*Replay::ptr::RecordRand)(Replay * self, int channel, int num) = (void (*)(Replay * self, int channel, int num)) 0x5f3c70;
-void (*Replay::ptr::NextLevel)(Replay * self) = (void (*)(Replay * self)) 0x5f3ca0;
-String * (*Replay::ptr::SaveReplayToString)(Replay * replay) = (String * (*)(Replay * replay)) 0x5f3cf0;
-void (*Replay::ptr::SaveReplayToFile)(Replay * replay) = (void (*)(Replay * replay)) 0x5f5b10;
-void (*Replay::ptr::Save)(Replay * self) = (void (*)(Replay * self)) 0x5f61a0;
-Replay * (*Replay::ptr::New)(Replay * self) = (Replay * (*)(Replay * self)) 0x5f61b0;
-void (*Replay::ptr::NewLevel)(Replay * self, int randSeed) = (void (*)(Replay * self, int randSeed)) 0x5f61f0;
-List26 * (*Replay::ptr::GetDirectionsHitForBeat)(Replay * self, int playerNum, int closestBeat, float percentDist) = (List26 * (*)(Replay * self, int playerNum, int closestBeat, float percentDist)) 0x5f6460;
-void (*Replay::ptr::LoadReplayFromString)(String * data, Replay * replay) = (void (*)(String * data, Replay * replay)) 0x5f6620;
-void (*Replay::ptr::LoadReplayFromFile)(String * filename, Replay * replay) = (void (*)(String * filename, Replay * replay)) 0x5f7190;
-void (*Replay::ptr::Load)(Replay * self, String * filename) = (void (*)(Replay * self, String * filename)) 0x5f7310;
-void (*Replay::ptr::Reset)(Replay * self) = (void (*)(Replay * self)) 0x5f7390;
-void (*Replay::ptr::RecordBeat)(Replay * self, int beatNum) = (void (*)(Replay * self, int beatNum)) 0x5f7420;
-void (*Replay::ptr::RecordMove)(Replay * self, int playerNum, int move, int beatNum, bool isOffbeat) = (void (*)(Replay * self, int playerNum, int move, int beatNum, bool isOffbeat)) 0x5f7450;
-void (*Replay::ptr::RecordMissedBeat)(Replay * self, int playerNum, int beatNum) = (void (*)(Replay * self, int playerNum, int beatNum)) 0x5f7510;
-int (*Replay::ptr::GetNumBeats)(Replay * self) = (int (*)(Replay * self)) 0x5f7560;
-void (*Replay::ptr::mark)(Replay * self) = (void (*)(Replay * self)) 0x5f7580;
-void (*Replay::ptr::CSTR_Replay)(Replay * self) = (void (*)(Replay * self)) 0x5f3910;
+inline int (*Replay::ptr::GetRand)(Replay * self, int channel) = (int (*)(Replay * self, int channel)) 0x5f3bc0;
+inline void (*Replay::ptr::RecordRand)(Replay * self, int channel, int num) = (void (*)(Replay * self, int channel, int num)) 0x5f3c70;
+inline void (*Replay::ptr::NextLevel)(Replay * self) = (void (*)(Replay * self)) 0x5f3ca0;
+inline String * (*Replay::ptr::SaveReplayToString)(Replay * replay) = (String * (*)(Replay * replay)) 0x5f3cf0;
+inline void (*Replay::ptr::SaveReplayToFile)(Replay * replay) = (void (*)(Replay * replay)) 0x5f5b10;
+inline void (*Replay::ptr::Save)(Replay * self) = (void (*)(Replay * self)) 0x5f61a0;
+inline Replay * (*Replay::ptr::New)(Replay * self) = (Replay * (*)(Replay * self)) 0x5f61b0;
+inline void (*Replay::ptr::NewLevel)(Replay * self, int randSeed) = (void (*)(Replay * self, int randSeed)) 0x5f61f0;
+inline List26 * (*Replay::ptr::GetDirectionsHitForBeat)(Replay * self, int playerNum, int closestBeat, float percentDist) = (List26 * (*)(Replay * self, int playerNum, int closestBeat, float percentDist)) 0x5f6460;
+inline void (*Replay::ptr::LoadReplayFromString)(String * data, Replay * replay) = (void (*)(String * data, Replay * replay)) 0x5f6620;
+inline void (*Replay::ptr::LoadReplayFromFile)(String * filename, Replay * replay) = (void (*)(String * filename, Replay * replay)) 0x5f7190;
+inline void (*Replay::ptr::Load)(Replay * self, String * filename) = (void (*)(Replay * self, String * filename)) 0x5f7310;
+inline void (*Replay::ptr::Reset)(Replay * self) = (void (*)(Replay * self)) 0x5f7390;
+inline void (*Replay::ptr::RecordBeat)(Replay * self, int beatNum) = (void (*)(Replay * self, int beatNum)) 0x5f7420;
+inline void (*Replay::ptr::RecordMove)(Replay * self, int playerNum, int move, int beatNum, bool isOffbeat) = (void (*)(Replay * self, int playerNum, int move, int beatNum, bool isOffbeat)) 0x5f7450;
+inline void (*Replay::ptr::RecordMissedBeat)(Replay * self, int playerNum, int beatNum) = (void (*)(Replay * self, int playerNum, int beatNum)) 0x5f7510;
+inline int (*Replay::ptr::GetNumBeats)(Replay * self) = (int (*)(Replay * self)) 0x5f7560;
+inline void (*Replay::ptr::mark)(Replay * self) = (void (*)(Replay * self)) 0x5f7580;
+inline void (*Replay::ptr::CSTR_Replay)(Replay * self) = (void (*)(Replay * self)) 0x5f3910;
 #endif
 
 #ifdef __linux__
-String * * Replay::lastSavedReplayFile = (String* *) 0x856a448;
+inline String * * Replay::lastSavedReplayFile = (String* *) 0x856a448;
 
-int (*Replay::ptr::GetRand)(Replay * self, int channel) = (int (*)(Replay * self, int channel)) 0x82a4020;
-void (*Replay::ptr::RecordRand)(Replay * self, int channel, int num) = (void (*)(Replay * self, int channel, int num)) 0x807f190;
-void (*Replay::ptr::NextLevel)(Replay * self) = (void (*)(Replay * self)) 0x807a5d0;
-String * (*Replay::ptr::SaveReplayToString)(Replay * replay) = (String * (*)(Replay * replay)) 0x819db90;
-void (*Replay::ptr::SaveReplayToFile)(Replay * replay) = (void (*)(Replay * replay)) 0x82d8d20;
-void (*Replay::ptr::Save)(Replay * self) = (void (*)(Replay * self)) 0x82d94e0;
-Replay * (*Replay::ptr::New)(Replay * self) = (Replay * (*)(Replay * self)) 0x819f0c0;
-void (*Replay::ptr::NewLevel)(Replay * self, int randSeed) = (void (*)(Replay * self, int randSeed)) 0x819fb20;
-List26 * (*Replay::ptr::GetDirectionsHitForBeat)(Replay * self, int playerNum, int closestBeat, float percentDist) = (List26 * (*)(Replay * self, int playerNum, int closestBeat, float percentDist)) 0x8328860;
-void (*Replay::ptr::LoadReplayFromString)(String * data, Replay * replay) = (void (*)(String * data, Replay * replay)) 0x81f7630;
-void (*Replay::ptr::LoadReplayFromFile)(String * filename, Replay * replay) = (void (*)(String * filename, Replay * replay)) 0x81fd740;
-void (*Replay::ptr::Load)(Replay * self, String * filename) = (void (*)(Replay * self, String * filename)) 0x81fd580;
-void (*Replay::ptr::Reset)(Replay * self) = (void (*)(Replay * self)) 0x8093850;
-void (*Replay::ptr::RecordBeat)(Replay * self, int beatNum) = (void (*)(Replay * self, int beatNum)) 0x80733e0;
-void (*Replay::ptr::RecordMove)(Replay * self, int playerNum, int move, int beatNum, bool isOffbeat) = (void (*)(Replay * self, int playerNum, int move, int beatNum, bool isOffbeat)) 0x8073420;
-void (*Replay::ptr::RecordMissedBeat)(Replay * self, int playerNum, int beatNum) = (void (*)(Replay * self, int playerNum, int beatNum)) 0x8073510;
-int (*Replay::ptr::GetNumBeats)(Replay * self) = (int (*)(Replay * self)) 0x807f1e0;
-void (*Replay::ptr::mark)(Replay * self) = (void (*)(Replay * self)) 0x80a0cb0;
-void (*Replay::ptr::CSTR_Replay)(Replay * self) = (void (*)(Replay * self)) 0x81d7bf0;
+inline int (*Replay::ptr::GetRand)(Replay * self, int channel) = (int (*)(Replay * self, int channel)) 0x82a4020;
+inline void (*Replay::ptr::RecordRand)(Replay * self, int channel, int num) = (void (*)(Replay * self, int channel, int num)) 0x807f190;
+inline void (*Replay::ptr::NextLevel)(Replay * self) = (void (*)(Replay * self)) 0x807a5d0;
+inline String * (*Replay::ptr::SaveReplayToString)(Replay * replay) = (String * (*)(Replay * replay)) 0x819db90;
+inline void (*Replay::ptr::SaveReplayToFile)(Replay * replay) = (void (*)(Replay * replay)) 0x82d8d20;
+inline void (*Replay::ptr::Save)(Replay * self) = (void (*)(Replay * self)) 0x82d94e0;
+inline Replay * (*Replay::ptr::New)(Replay * self) = (Replay * (*)(Replay * self)) 0x819f0c0;
+inline void (*Replay::ptr::NewLevel)(Replay * self, int randSeed) = (void (*)(Replay * self, int randSeed)) 0x819fb20;
+inline List26 * (*Replay::ptr::GetDirectionsHitForBeat)(Replay * self, int playerNum, int closestBeat, float percentDist) = (List26 * (*)(Replay * self, int playerNum, int closestBeat, float percentDist)) 0x8328860;
+inline void (*Replay::ptr::LoadReplayFromString)(String * data, Replay * replay) = (void (*)(String * data, Replay * replay)) 0x81f7630;
+inline void (*Replay::ptr::LoadReplayFromFile)(String * filename, Replay * replay) = (void (*)(String * filename, Replay * replay)) 0x81fd740;
+inline void (*Replay::ptr::Load)(Replay * self, String * filename) = (void (*)(Replay * self, String * filename)) 0x81fd580;
+inline void (*Replay::ptr::Reset)(Replay * self) = (void (*)(Replay * self)) 0x8093850;
+inline void (*Replay::ptr::RecordBeat)(Replay * self, int beatNum) = (void (*)(Replay * self, int beatNum)) 0x80733e0;
+inline void (*Replay::ptr::RecordMove)(Replay * self, int playerNum, int move, int beatNum, bool isOffbeat) = (void (*)(Replay * self, int playerNum, int move, int beatNum, bool isOffbeat)) 0x8073420;
+inline void (*Replay::ptr::RecordMissedBeat)(Replay * self, int playerNum, int beatNum) = (void (*)(Replay * self, int playerNum, int beatNum)) 0x8073510;
+inline int (*Replay::ptr::GetNumBeats)(Replay * self) = (int (*)(Replay * self)) 0x807f1e0;
+inline void (*Replay::ptr::mark)(Replay * self) = (void (*)(Replay * self)) 0x80a0cb0;
+inline void (*Replay::ptr::CSTR_Replay)(Replay * self) = (void (*)(Replay * self)) 0x81d7bf0;
 #endif
 #endif

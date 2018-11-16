@@ -27,17 +27,17 @@ public:
 
 #ifdef _WIN32
 
-Node12 * (*Node12::ptr::_New)(Node12 * self, Node12 * arg1, Node12 * arg2, Entity * arg3) = (Node12 * (*)(Node12 * self, Node12 * arg1, Node12 * arg2, Entity * arg3)) 0x0;
-Node12 * (*Node12::ptr::_new2)() = (Node12 * (*)()) 0x0;
-int (*Node12::ptr::_Remove3)() = (int (*)()) 0x0;
-void (*Node12::ptr::_mark)() = (void (*)()) 0x0;
+inline Node12 * (*Node12::ptr::_New)(Node12 * self, Node12 * arg1, Node12 * arg2, Entity * arg3) = (Node12 * (*)(Node12 * self, Node12 * arg1, Node12 * arg2, Entity * arg3)) 0x0;
+inline Node12 * (*Node12::ptr::_new2)() = (Node12 * (*)()) 0x0;
+inline int (*Node12::ptr::_Remove3)() = (int (*)()) 0x0;
+inline void (*Node12::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node12 * (*Node12::ptr::_New)(Node12 * self, Node12 * arg1, Node12 * arg2, Entity * arg3) = (Node12 * (*)(Node12 * self, Node12 * arg1, Node12 * arg2, Entity * arg3)) 0x0;
-Node12 * (*Node12::ptr::_new2)() = (Node12 * (*)()) 0x8187b00;
-int (*Node12::ptr::_Remove3)() = (int (*)()) 0x8092650;
-void (*Node12::ptr::_mark)() = (void (*)()) 0x808a290;
+inline Node12 * (*Node12::ptr::_New)(Node12 * self, Node12 * arg1, Node12 * arg2, Entity * arg3) = (Node12 * (*)(Node12 * self, Node12 * arg1, Node12 * arg2, Entity * arg3)) 0x0;
+inline Node12 * (*Node12::ptr::_new2)() = (Node12 * (*)()) 0x8187b00;
+inline int (*Node12::ptr::_Remove3)() = (int (*)()) 0x8092650;
+inline void (*Node12::ptr::_mark)() = (void (*)()) 0x808a290;
 #endif
 #endif

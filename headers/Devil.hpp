@@ -37,23 +37,23 @@ public:
 
 #ifdef _WIN32
 
-Devil * (*Devil::ptr::New)(Devil * self, int xVal, int yVal, int l) = (Devil * (*)(Devil * self, int xVal, int yVal, int l)) 0x65a7e0;
-Devil * (*Devil::ptr::_new2)() = (Devil * (*)()) 0x0;
-void (*Devil::ptr::Update)(Devil * self) = (void (*)(Devil * self)) 0x65aa80;
-Point * (*Devil::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
-bool (*Devil::ptr::Hit)(Devil * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Devil * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x65aac0;
-void (*Devil::ptr::_mark)() = (void (*)()) 0x0;
-void (*Devil::ptr::CSTR_Devil)(Devil * self) = (void (*)(Devil * self)) 0x65a780;
+inline Devil * (*Devil::ptr::New)(Devil * self, int xVal, int yVal, int l) = (Devil * (*)(Devil * self, int xVal, int yVal, int l)) 0x65a7e0;
+inline Devil * (*Devil::ptr::_new2)() = (Devil * (*)()) 0x0;
+inline void (*Devil::ptr::Update)(Devil * self) = (void (*)(Devil * self)) 0x65aa80;
+inline Point * (*Devil::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
+inline bool (*Devil::ptr::Hit)(Devil * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Devil * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x65aac0;
+inline void (*Devil::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Devil::ptr::CSTR_Devil)(Devil * self) = (void (*)(Devil * self)) 0x65a780;
 #endif
 
 #ifdef __linux__
 
-Devil * (*Devil::ptr::New)(Devil * self, int xVal, int yVal, int l) = (Devil * (*)(Devil * self, int xVal, int yVal, int l)) 0x81cae50;
-Devil * (*Devil::ptr::_new2)() = (Devil * (*)()) 0x81d0bc0;
-void (*Devil::ptr::Update)(Devil * self) = (void (*)(Devil * self)) 0x837ee00;
-Point * (*Devil::ptr::_GetMovementDirection)() = (Point * (*)()) 0x8076710;
-bool (*Devil::ptr::Hit)(Devil * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Devil * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8396880;
-void (*Devil::ptr::_mark)() = (void (*)()) 0x80b01c0;
-void (*Devil::ptr::CSTR_Devil)(Devil * self) = (void (*)(Devil * self)) 0x81cae20;
+inline Devil * (*Devil::ptr::New)(Devil * self, int xVal, int yVal, int l) = (Devil * (*)(Devil * self, int xVal, int yVal, int l)) 0x81cae50;
+inline Devil * (*Devil::ptr::_new2)() = (Devil * (*)()) 0x81d0bc0;
+inline void (*Devil::ptr::Update)(Devil * self) = (void (*)(Devil * self)) 0x837ee00;
+inline Point * (*Devil::ptr::_GetMovementDirection)() = (Point * (*)()) 0x8076710;
+inline bool (*Devil::ptr::Hit)(Devil * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Devil * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8396880;
+inline void (*Devil::ptr::_mark)() = (void (*)()) 0x80b01c0;
+inline void (*Devil::ptr::CSTR_Devil)(Devil * self) = (void (*)(Devil * self)) 0x81cae20;
 #endif
 #endif

@@ -51,39 +51,39 @@ public:
 
 #ifdef _WIN32
 
-Point * (*Point::ptr::_New)(Point * self, int arg1, int arg2) = (Point * (*)(Point * self, int arg1, int arg2)) 0x0;
-Point * (*Point::ptr::_new2)() = (Point * (*)()) 0x0;
-Point * (*Point::ptr::Add)(Point * a, Point * b) = (Point * (*)(Point * a, Point * b)) 0x5ecd90;
-Point * (*Point::ptr::Add7)(Point * self, Point * other) = (Point * (*)(Point * self, Point * other)) 0x5ece30;
-Point * (*Point::ptr::Add8)(Point * self, int dx, int dy) = (Point * (*)(Point * self, int dx, int dy)) 0x5ece40;
-bool (*Point::ptr::_Equals)(Point * arg1, Point * arg2) = (bool (*)(Point * arg1, Point * arg2)) 0x0;
-bool (*Point::ptr::_Equals13)(Point * self, Point * arg1) = (bool (*)(Point * self, Point * arg1)) 0x0;
-Point * (*Point::ptr::RotateCWAbout)(Point * self, Point * origin) = (Point * (*)(Point * self, Point * origin)) 0x5ecf10;
-Point * (*Point::ptr::Scale)(Point * self, int scalar) = (Point * (*)(Point * self, int scalar)) 0x5ecfc0;
-String * (*Point::ptr::ToString)(Point * self) = (String * (*)(Point * self)) 0x5ed060;
-int (*Point::ptr::_Compare)(Point * arg1, Point * arg2) = (int (*)(Point * arg1, Point * arg2)) 0x0;
-int (*Point::ptr::Compare5)(Point * self, Point * other) = (int (*)(Point * self, Point * other)) 0x5ed2d0;
-void (*Point::ptr::_mark)() = (void (*)()) 0x0;
-void (*Point::ptr::CSTR_Point)(Point * self) = (void (*)(Point * self)) 0x5ecd20;
-bool (*Point::ptr::Equals15)(Point * self, Point * other) = (bool (*)(Point * self, Point * other)) 0x5ecee0;
+inline Point * (*Point::ptr::_New)(Point * self, int arg1, int arg2) = (Point * (*)(Point * self, int arg1, int arg2)) 0x0;
+inline Point * (*Point::ptr::_new2)() = (Point * (*)()) 0x0;
+inline Point * (*Point::ptr::Add)(Point * a, Point * b) = (Point * (*)(Point * a, Point * b)) 0x5ecd90;
+inline Point * (*Point::ptr::Add7)(Point * self, Point * other) = (Point * (*)(Point * self, Point * other)) 0x5ece30;
+inline Point * (*Point::ptr::Add8)(Point * self, int dx, int dy) = (Point * (*)(Point * self, int dx, int dy)) 0x5ece40;
+inline bool (*Point::ptr::_Equals)(Point * arg1, Point * arg2) = (bool (*)(Point * arg1, Point * arg2)) 0x0;
+inline bool (*Point::ptr::_Equals13)(Point * self, Point * arg1) = (bool (*)(Point * self, Point * arg1)) 0x0;
+inline Point * (*Point::ptr::RotateCWAbout)(Point * self, Point * origin) = (Point * (*)(Point * self, Point * origin)) 0x5ecf10;
+inline Point * (*Point::ptr::Scale)(Point * self, int scalar) = (Point * (*)(Point * self, int scalar)) 0x5ecfc0;
+inline String * (*Point::ptr::ToString)(Point * self) = (String * (*)(Point * self)) 0x5ed060;
+inline int (*Point::ptr::_Compare)(Point * arg1, Point * arg2) = (int (*)(Point * arg1, Point * arg2)) 0x0;
+inline int (*Point::ptr::Compare5)(Point * self, Point * other) = (int (*)(Point * self, Point * other)) 0x5ed2d0;
+inline void (*Point::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Point::ptr::CSTR_Point)(Point * self) = (void (*)(Point * self)) 0x5ecd20;
+inline bool (*Point::ptr::Equals15)(Point * self, Point * other) = (bool (*)(Point * self, Point * other)) 0x5ecee0;
 #endif
 
 #ifdef __linux__
 
-Point * (*Point::ptr::_New)(Point * self, int arg1, int arg2) = (Point * (*)(Point * self, int arg1, int arg2)) 0x819ad40;
-Point * (*Point::ptr::_new2)() = (Point * (*)()) 0x819ad60;
-Point * (*Point::ptr::Add)(Point * a, Point * b) = (Point * (*)(Point * a, Point * b)) 0x819ad70;
-Point * (*Point::ptr::Add7)(Point * self, Point * other) = (Point * (*)(Point * self, Point * other)) 0x80bf5d0;
-Point * (*Point::ptr::Add8)(Point * self, int dx, int dy) = (Point * (*)(Point * self, int dx, int dy)) 0x80b50f0;
-bool (*Point::ptr::_Equals)(Point * arg1, Point * arg2) = (bool (*)(Point * arg1, Point * arg2)) 0x819adc0;
-bool (*Point::ptr::_Equals13)(Point * self, Point * arg1) = (bool (*)(Point * self, Point * arg1)) 0x0;
-Point * (*Point::ptr::RotateCWAbout)(Point * self, Point * origin) = (Point * (*)(Point * self, Point * origin)) 0x80b50a0;
-Point * (*Point::ptr::Scale)(Point * self, int scalar) = (Point * (*)(Point * self, int scalar)) 0x80b5050;
-String * (*Point::ptr::ToString)(Point * self) = (String * (*)(Point * self)) 0x80c95f0;
-int (*Point::ptr::_Compare)(Point * arg1, Point * arg2) = (int (*)(Point * arg1, Point * arg2)) 0x819adf0;
-int (*Point::ptr::Compare5)(Point * self, Point * other) = (int (*)(Point * self, Point * other)) 0x8087a60;
-void (*Point::ptr::_mark)() = (void (*)()) 0x8072b50;
-void (*Point::ptr::CSTR_Point)(Point * self) = (void (*)(Point * self)) 0x819ad20;
-bool (*Point::ptr::Equals15)(Point * self, Point * other) = (bool (*)(Point * self, Point * other)) 0x8072b20;
+inline Point * (*Point::ptr::_New)(Point * self, int arg1, int arg2) = (Point * (*)(Point * self, int arg1, int arg2)) 0x819ad40;
+inline Point * (*Point::ptr::_new2)() = (Point * (*)()) 0x819ad60;
+inline Point * (*Point::ptr::Add)(Point * a, Point * b) = (Point * (*)(Point * a, Point * b)) 0x819ad70;
+inline Point * (*Point::ptr::Add7)(Point * self, Point * other) = (Point * (*)(Point * self, Point * other)) 0x80bf5d0;
+inline Point * (*Point::ptr::Add8)(Point * self, int dx, int dy) = (Point * (*)(Point * self, int dx, int dy)) 0x80b50f0;
+inline bool (*Point::ptr::_Equals)(Point * arg1, Point * arg2) = (bool (*)(Point * arg1, Point * arg2)) 0x819adc0;
+inline bool (*Point::ptr::_Equals13)(Point * self, Point * arg1) = (bool (*)(Point * self, Point * arg1)) 0x0;
+inline Point * (*Point::ptr::RotateCWAbout)(Point * self, Point * origin) = (Point * (*)(Point * self, Point * origin)) 0x80b50a0;
+inline Point * (*Point::ptr::Scale)(Point * self, int scalar) = (Point * (*)(Point * self, int scalar)) 0x80b5050;
+inline String * (*Point::ptr::ToString)(Point * self) = (String * (*)(Point * self)) 0x80c95f0;
+inline int (*Point::ptr::_Compare)(Point * arg1, Point * arg2) = (int (*)(Point * arg1, Point * arg2)) 0x819adf0;
+inline int (*Point::ptr::Compare5)(Point * self, Point * other) = (int (*)(Point * self, Point * other)) 0x8087a60;
+inline void (*Point::ptr::_mark)() = (void (*)()) 0x8072b50;
+inline void (*Point::ptr::CSTR_Point)(Point * self) = (void (*)(Point * self)) 0x819ad20;
+inline bool (*Point::ptr::Equals15)(Point * self, Point * other) = (bool (*)(Point * self, Point * other)) 0x8072b20;
 #endif
 #endif

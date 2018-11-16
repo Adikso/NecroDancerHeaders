@@ -35,21 +35,21 @@ public:
 
 #ifdef _WIN32
 
-List22 * (*List22::ptr::_New)() = (List22 * (*)()) 0x0;
-Node32 * (*List22::ptr::AddLast22)(List22 * self, CrateObject * data) = (Node32 * (*)(List22 * self, CrateObject * data)) 0x5df4e0;
-List22 * (*List22::ptr::_new2)(List22 * self, Array<CrateObject *> * arg1) = (List22 * (*)(List22 * self, Array<CrateObject *> * arg1)) 0x0;
-Enumerator38 * (*List22::ptr::ObjectEnumerator)(List22 * self) = (Enumerator38 * (*)(List22 * self)) 0x5df580;
-void (*List22::ptr::_mark)() = (void (*)()) 0x0;
-void (*List22::ptr::CSTR_List22)(List22 * self) = (void (*)(List22 * self)) 0x5df410;
+inline List22 * (*List22::ptr::_New)() = (List22 * (*)()) 0x0;
+inline Node32 * (*List22::ptr::AddLast22)(List22 * self, CrateObject * data) = (Node32 * (*)(List22 * self, CrateObject * data)) 0x5df4e0;
+inline List22 * (*List22::ptr::_new2)(List22 * self, Array<CrateObject *> * arg1) = (List22 * (*)(List22 * self, Array<CrateObject *> * arg1)) 0x0;
+inline Enumerator38 * (*List22::ptr::ObjectEnumerator)(List22 * self) = (Enumerator38 * (*)(List22 * self)) 0x5df580;
+inline void (*List22::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List22::ptr::CSTR_List22)(List22 * self) = (void (*)(List22 * self)) 0x5df410;
 #endif
 
 #ifdef __linux__
 
-List22 * (*List22::ptr::_New)() = (List22 * (*)()) 0x8197e70;
-Node32 * (*List22::ptr::AddLast22)(List22 * self, CrateObject * data) = (Node32 * (*)(List22 * self, CrateObject * data)) 0x81980b0;
-List22 * (*List22::ptr::_new2)(List22 * self, Array<CrateObject *> * arg1) = (List22 * (*)(List22 * self, Array<CrateObject *> * arg1)) 0x0;
-Enumerator38 * (*List22::ptr::ObjectEnumerator)(List22 * self) = (Enumerator38 * (*)(List22 * self)) 0x80bb9e0;
-void (*List22::ptr::_mark)() = (void (*)()) 0x8089710;
-void (*List22::ptr::CSTR_List22)(List22 * self) = (void (*)(List22 * self)) 0x81981f0;
+inline List22 * (*List22::ptr::_New)() = (List22 * (*)()) 0x8197e70;
+inline Node32 * (*List22::ptr::AddLast22)(List22 * self, CrateObject * data) = (Node32 * (*)(List22 * self, CrateObject * data)) 0x81980b0;
+inline List22 * (*List22::ptr::_new2)(List22 * self, Array<CrateObject *> * arg1) = (List22 * (*)(List22 * self, Array<CrateObject *> * arg1)) 0x0;
+inline Enumerator38 * (*List22::ptr::ObjectEnumerator)(List22 * self) = (Enumerator38 * (*)(List22 * self)) 0x80bb9e0;
+inline void (*List22::ptr::_mark)() = (void (*)()) 0x8089710;
+inline void (*List22::ptr::CSTR_List22)(List22 * self) = (void (*)(List22 * self)) 0x81981f0;
 #endif
 #endif

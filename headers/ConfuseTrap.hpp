@@ -33,21 +33,21 @@ public:
 
 #ifdef _WIN32
 
-ConfuseTrap * (*ConfuseTrap::ptr::New)(ConfuseTrap * self, int xVal, int yVal) = (ConfuseTrap * (*)(ConfuseTrap * self, int xVal, int yVal)) 0x65b490;
-ConfuseTrap * (*ConfuseTrap::ptr::_new2)() = (ConfuseTrap * (*)()) 0x0;
-void (*ConfuseTrap::ptr::_Update)() = (void (*)()) 0x0;
-void (*ConfuseTrap::ptr::Trigger)(ConfuseTrap * self, Entity * ent) = (void (*)(ConfuseTrap * self, Entity * ent)) 0x65b660;
-void (*ConfuseTrap::ptr::_mark)() = (void (*)()) 0x0;
-void (*ConfuseTrap::ptr::CSTR_ConfuseTrap)(ConfuseTrap * self) = (void (*)(ConfuseTrap * self)) 0x65b430;
+inline ConfuseTrap * (*ConfuseTrap::ptr::New)(ConfuseTrap * self, int xVal, int yVal) = (ConfuseTrap * (*)(ConfuseTrap * self, int xVal, int yVal)) 0x65b490;
+inline ConfuseTrap * (*ConfuseTrap::ptr::_new2)() = (ConfuseTrap * (*)()) 0x0;
+inline void (*ConfuseTrap::ptr::_Update)() = (void (*)()) 0x0;
+inline void (*ConfuseTrap::ptr::Trigger)(ConfuseTrap * self, Entity * ent) = (void (*)(ConfuseTrap * self, Entity * ent)) 0x65b660;
+inline void (*ConfuseTrap::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*ConfuseTrap::ptr::CSTR_ConfuseTrap)(ConfuseTrap * self) = (void (*)(ConfuseTrap * self)) 0x65b430;
 #endif
 
 #ifdef __linux__
 
-ConfuseTrap * (*ConfuseTrap::ptr::New)(ConfuseTrap * self, int xVal, int yVal) = (ConfuseTrap * (*)(ConfuseTrap * self, int xVal, int yVal)) 0x81d1380;
-ConfuseTrap * (*ConfuseTrap::ptr::_new2)() = (ConfuseTrap * (*)()) 0x81d1530;
-void (*ConfuseTrap::ptr::_Update)() = (void (*)()) 0x812d940;
-void (*ConfuseTrap::ptr::Trigger)(ConfuseTrap * self, Entity * ent) = (void (*)(ConfuseTrap * self, Entity * ent)) 0x83a9240;
-void (*ConfuseTrap::ptr::_mark)() = (void (*)()) 0x80a5ae0;
-void (*ConfuseTrap::ptr::CSTR_ConfuseTrap)(ConfuseTrap * self) = (void (*)(ConfuseTrap * self)) 0x81d1300;
+inline ConfuseTrap * (*ConfuseTrap::ptr::New)(ConfuseTrap * self, int xVal, int yVal) = (ConfuseTrap * (*)(ConfuseTrap * self, int xVal, int yVal)) 0x81d1380;
+inline ConfuseTrap * (*ConfuseTrap::ptr::_new2)() = (ConfuseTrap * (*)()) 0x81d1530;
+inline void (*ConfuseTrap::ptr::_Update)() = (void (*)()) 0x812d940;
+inline void (*ConfuseTrap::ptr::Trigger)(ConfuseTrap * self, Entity * ent) = (void (*)(ConfuseTrap * self, Entity * ent)) 0x83a9240;
+inline void (*ConfuseTrap::ptr::_mark)() = (void (*)()) 0x80a5ae0;
+inline void (*ConfuseTrap::ptr::CSTR_ConfuseTrap)(ConfuseTrap * self) = (void (*)(ConfuseTrap * self)) 0x81d1300;
 #endif
 #endif

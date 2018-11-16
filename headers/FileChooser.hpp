@@ -66,35 +66,35 @@ public:
 
 #ifdef _WIN32
 
-String * (*FileChooser::ptr::SlashPadPath)(FileChooser * self, String * p) = (String * (*)(FileChooser * self, String * p)) 0x69bdb0;
-void (*FileChooser::ptr::Refresh)(FileChooser * self) = (void (*)(FileChooser * self)) 0x69bf70;
-void (*FileChooser::ptr::Reload)(FileChooser * self) = (void (*)(FileChooser * self)) 0x69c190;
-FileChooser * (*FileChooser::ptr::New)(FileChooser * self, GuiContainer * c) = (FileChooser * (*)(FileChooser * self, GuiContainer * c)) 0x69c770;
-FileChooser * (*FileChooser::ptr::_new2)() = (FileChooser * (*)()) 0x0;
-void (*FileChooser::ptr::SetVisible)(FileChooser * self, bool v) = (void (*)(FileChooser * self, bool v)) 0x69cb90;
-void (*FileChooser::ptr::PollInput)(FileChooser * self) = (void (*)(FileChooser * self)) 0x69cba0;
-String * (*FileChooser::ptr::GetFilename)(FileChooser * self) = (String * (*)(FileChooser * self)) 0x69cbb0;
-void (*FileChooser::ptr::Draw4)(FileChooser * self, float x, float y) = (void (*)(FileChooser * self, float x, float y)) 0x69cc80;
-void (*FileChooser::ptr::Discard)(FileChooser * self) = (void (*)(FileChooser * self)) 0x69cdb0;
-void (*FileChooser::ptr::GUICallback)(FileChooser * self, int index, bool left) = (void (*)(FileChooser * self, int index, bool left)) 0x69ce00;
-void (*FileChooser::ptr::mark)(FileChooser * self) = (void (*)(FileChooser * self)) 0x69d420;
-void (*FileChooser::ptr::CSTR_FileChooser)(FileChooser * self) = (void (*)(FileChooser * self)) 0x69b820;
+inline String * (*FileChooser::ptr::SlashPadPath)(FileChooser * self, String * p) = (String * (*)(FileChooser * self, String * p)) 0x69bdb0;
+inline void (*FileChooser::ptr::Refresh)(FileChooser * self) = (void (*)(FileChooser * self)) 0x69bf70;
+inline void (*FileChooser::ptr::Reload)(FileChooser * self) = (void (*)(FileChooser * self)) 0x69c190;
+inline FileChooser * (*FileChooser::ptr::New)(FileChooser * self, GuiContainer * c) = (FileChooser * (*)(FileChooser * self, GuiContainer * c)) 0x69c770;
+inline FileChooser * (*FileChooser::ptr::_new2)() = (FileChooser * (*)()) 0x0;
+inline void (*FileChooser::ptr::SetVisible)(FileChooser * self, bool v) = (void (*)(FileChooser * self, bool v)) 0x69cb90;
+inline void (*FileChooser::ptr::PollInput)(FileChooser * self) = (void (*)(FileChooser * self)) 0x69cba0;
+inline String * (*FileChooser::ptr::GetFilename)(FileChooser * self) = (String * (*)(FileChooser * self)) 0x69cbb0;
+inline void (*FileChooser::ptr::Draw4)(FileChooser * self, float x, float y) = (void (*)(FileChooser * self, float x, float y)) 0x69cc80;
+inline void (*FileChooser::ptr::Discard)(FileChooser * self) = (void (*)(FileChooser * self)) 0x69cdb0;
+inline void (*FileChooser::ptr::GUICallback)(FileChooser * self, int index, bool left) = (void (*)(FileChooser * self, int index, bool left)) 0x69ce00;
+inline void (*FileChooser::ptr::mark)(FileChooser * self) = (void (*)(FileChooser * self)) 0x69d420;
+inline void (*FileChooser::ptr::CSTR_FileChooser)(FileChooser * self) = (void (*)(FileChooser * self)) 0x69b820;
 #endif
 
 #ifdef __linux__
 
-String * (*FileChooser::ptr::SlashPadPath)(FileChooser * self, String * p) = (String * (*)(FileChooser * self, String * p)) 0x80cde80;
-void (*FileChooser::ptr::Refresh)(FileChooser * self) = (void (*)(FileChooser * self)) 0x80d82b0;
-void (*FileChooser::ptr::Reload)(FileChooser * self) = (void (*)(FileChooser * self)) 0x80dd4d0;
-FileChooser * (*FileChooser::ptr::New)(FileChooser * self, GuiContainer * c) = (FileChooser * (*)(FileChooser * self, GuiContainer * c)) 0x81eb0a0;
-FileChooser * (*FileChooser::ptr::_new2)() = (FileChooser * (*)()) 0x81ec6c0;
-void (*FileChooser::ptr::SetVisible)(FileChooser * self, bool v) = (void (*)(FileChooser * self, bool v)) 0x8079b60;
-void (*FileChooser::ptr::PollInput)(FileChooser * self) = (void (*)(FileChooser * self)) 0x8079b70;
-String * (*FileChooser::ptr::GetFilename)(FileChooser * self) = (String * (*)(FileChooser * self)) 0x80c23f0;
-void (*FileChooser::ptr::Draw4)(FileChooser * self, float x, float y) = (void (*)(FileChooser * self, float x, float y)) 0x8082610;
-void (*FileChooser::ptr::Discard)(FileChooser * self) = (void (*)(FileChooser * self)) 0x8079b90;
-void (*FileChooser::ptr::GUICallback)(FileChooser * self, int index, bool left) = (void (*)(FileChooser * self, int index, bool left)) 0x80e9940;
-void (*FileChooser::ptr::mark)(FileChooser * self) = (void (*)(FileChooser * self)) 0x80a3000;
-void (*FileChooser::ptr::CSTR_FileChooser)(FileChooser * self) = (void (*)(FileChooser * self)) 0x81eaa10;
+inline String * (*FileChooser::ptr::SlashPadPath)(FileChooser * self, String * p) = (String * (*)(FileChooser * self, String * p)) 0x80cde80;
+inline void (*FileChooser::ptr::Refresh)(FileChooser * self) = (void (*)(FileChooser * self)) 0x80d82b0;
+inline void (*FileChooser::ptr::Reload)(FileChooser * self) = (void (*)(FileChooser * self)) 0x80dd4d0;
+inline FileChooser * (*FileChooser::ptr::New)(FileChooser * self, GuiContainer * c) = (FileChooser * (*)(FileChooser * self, GuiContainer * c)) 0x81eb0a0;
+inline FileChooser * (*FileChooser::ptr::_new2)() = (FileChooser * (*)()) 0x81ec6c0;
+inline void (*FileChooser::ptr::SetVisible)(FileChooser * self, bool v) = (void (*)(FileChooser * self, bool v)) 0x8079b60;
+inline void (*FileChooser::ptr::PollInput)(FileChooser * self) = (void (*)(FileChooser * self)) 0x8079b70;
+inline String * (*FileChooser::ptr::GetFilename)(FileChooser * self) = (String * (*)(FileChooser * self)) 0x80c23f0;
+inline void (*FileChooser::ptr::Draw4)(FileChooser * self, float x, float y) = (void (*)(FileChooser * self, float x, float y)) 0x8082610;
+inline void (*FileChooser::ptr::Discard)(FileChooser * self) = (void (*)(FileChooser * self)) 0x8079b90;
+inline void (*FileChooser::ptr::GUICallback)(FileChooser * self, int index, bool left) = (void (*)(FileChooser * self, int index, bool left)) 0x80e9940;
+inline void (*FileChooser::ptr::mark)(FileChooser * self) = (void (*)(FileChooser * self)) 0x80a3000;
+inline void (*FileChooser::ptr::CSTR_FileChooser)(FileChooser * self) = (void (*)(FileChooser * self)) 0x81eaa10;
 #endif
 #endif

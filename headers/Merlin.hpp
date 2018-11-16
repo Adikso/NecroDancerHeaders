@@ -27,17 +27,17 @@ public:
 
 #ifdef _WIN32
 
-Merlin * (*Merlin::ptr::New)(Merlin * self, int xVal, int yVal, int l, bool captv) = (Merlin * (*)(Merlin * self, int xVal, int yVal, int l, bool captv)) 0x661650;
-Merlin * (*Merlin::ptr::_new2)() = (Merlin * (*)()) 0x0;
-void (*Merlin::ptr::_mark)() = (void (*)()) 0x0;
-void (*Merlin::ptr::CSTR_Merlin)(Merlin * self) = (void (*)(Merlin * self)) 0x6615f0;
+inline Merlin * (*Merlin::ptr::New)(Merlin * self, int xVal, int yVal, int l, bool captv) = (Merlin * (*)(Merlin * self, int xVal, int yVal, int l, bool captv)) 0x661650;
+inline Merlin * (*Merlin::ptr::_new2)() = (Merlin * (*)()) 0x0;
+inline void (*Merlin::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Merlin::ptr::CSTR_Merlin)(Merlin * self) = (void (*)(Merlin * self)) 0x6615f0;
 #endif
 
 #ifdef __linux__
 
-Merlin * (*Merlin::ptr::New)(Merlin * self, int xVal, int yVal, int l, bool captv) = (Merlin * (*)(Merlin * self, int xVal, int yVal, int l, bool captv)) 0x81d6eb0;
-Merlin * (*Merlin::ptr::_new2)() = (Merlin * (*)()) 0x81d6f70;
-void (*Merlin::ptr::_mark)() = (void (*)()) 0x80b2f20;
-void (*Merlin::ptr::CSTR_Merlin)(Merlin * self) = (void (*)(Merlin * self)) 0x81d6e40;
+inline Merlin * (*Merlin::ptr::New)(Merlin * self, int xVal, int yVal, int l, bool captv) = (Merlin * (*)(Merlin * self, int xVal, int yVal, int l, bool captv)) 0x81d6eb0;
+inline Merlin * (*Merlin::ptr::_new2)() = (Merlin * (*)()) 0x81d6f70;
+inline void (*Merlin::ptr::_mark)() = (void (*)()) 0x80b2f20;
+inline void (*Merlin::ptr::CSTR_Merlin)(Merlin * self) = (void (*)(Merlin * self)) 0x81d6e40;
 #endif
 #endif

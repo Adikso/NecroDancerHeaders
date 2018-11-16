@@ -39,25 +39,25 @@ public:
 
 #ifdef _WIN32
 
-List5 * (*List5::ptr::_New)() = (List5 * (*)()) 0x0;
-Node11 * (*List5::ptr::AddLast5)(List5 * self, RenderableObject * data) = (Node11 * (*)(List5 * self, RenderableObject * data)) 0x57e6a0;
-List5 * (*List5::ptr::_new2)(List5 * self, Array<RenderableObject *> * arg1) = (List5 * (*)(List5 * self, Array<RenderableObject *> * arg1)) 0x0;
-bool (*List5::ptr::_Equals)(List5 * self, RenderableObject * arg1, RenderableObject * arg2) = (bool (*)(List5 * self, RenderableObject * arg1, RenderableObject * arg2)) 0x0;
-int (*List5::ptr::_RemoveEach)(List5 * self, RenderableObject * arg1) = (int (*)(List5 * self, RenderableObject * arg1)) 0x0;
-Enumerator16 * (*List5::ptr::ObjectEnumerator)(List5 * self) = (Enumerator16 * (*)(List5 * self)) 0x57e780;
-void (*List5::ptr::_mark)() = (void (*)()) 0x0;
-void (*List5::ptr::CSTR_List5)(List5 * self) = (void (*)(List5 * self)) 0x57e5d0;
+inline List5 * (*List5::ptr::_New)() = (List5 * (*)()) 0x0;
+inline Node11 * (*List5::ptr::AddLast5)(List5 * self, RenderableObject * data) = (Node11 * (*)(List5 * self, RenderableObject * data)) 0x57e6a0;
+inline List5 * (*List5::ptr::_new2)(List5 * self, Array<RenderableObject *> * arg1) = (List5 * (*)(List5 * self, Array<RenderableObject *> * arg1)) 0x0;
+inline bool (*List5::ptr::_Equals)(List5 * self, RenderableObject * arg1, RenderableObject * arg2) = (bool (*)(List5 * self, RenderableObject * arg1, RenderableObject * arg2)) 0x0;
+inline int (*List5::ptr::_RemoveEach)(List5 * self, RenderableObject * arg1) = (int (*)(List5 * self, RenderableObject * arg1)) 0x0;
+inline Enumerator16 * (*List5::ptr::ObjectEnumerator)(List5 * self) = (Enumerator16 * (*)(List5 * self)) 0x57e780;
+inline void (*List5::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List5::ptr::CSTR_List5)(List5 * self) = (void (*)(List5 * self)) 0x57e5d0;
 #endif
 
 #ifdef __linux__
 
-List5 * (*List5::ptr::_New)() = (List5 * (*)()) 0x81583f0;
-Node11 * (*List5::ptr::AddLast5)(List5 * self, RenderableObject * data) = (Node11 * (*)(List5 * self, RenderableObject * data)) 0x8158630;
-List5 * (*List5::ptr::_new2)(List5 * self, Array<RenderableObject *> * arg1) = (List5 * (*)(List5 * self, Array<RenderableObject *> * arg1)) 0x0;
-bool (*List5::ptr::_Equals)(List5 * self, RenderableObject * arg1, RenderableObject * arg2) = (bool (*)(List5 * self, RenderableObject * arg1, RenderableObject * arg2)) 0x0;
-int (*List5::ptr::_RemoveEach)(List5 * self, RenderableObject * arg1) = (int (*)(List5 * self, RenderableObject * arg1)) 0x0;
-Enumerator16 * (*List5::ptr::ObjectEnumerator)(List5 * self) = (Enumerator16 * (*)(List5 * self)) 0x80b9650;
-void (*List5::ptr::_mark)() = (void (*)()) 0x808a9b0;
-void (*List5::ptr::CSTR_List5)(List5 * self) = (void (*)(List5 * self)) 0x8158770;
+inline List5 * (*List5::ptr::_New)() = (List5 * (*)()) 0x81583f0;
+inline Node11 * (*List5::ptr::AddLast5)(List5 * self, RenderableObject * data) = (Node11 * (*)(List5 * self, RenderableObject * data)) 0x8158630;
+inline List5 * (*List5::ptr::_new2)(List5 * self, Array<RenderableObject *> * arg1) = (List5 * (*)(List5 * self, Array<RenderableObject *> * arg1)) 0x0;
+inline bool (*List5::ptr::_Equals)(List5 * self, RenderableObject * arg1, RenderableObject * arg2) = (bool (*)(List5 * self, RenderableObject * arg1, RenderableObject * arg2)) 0x0;
+inline int (*List5::ptr::_RemoveEach)(List5 * self, RenderableObject * arg1) = (int (*)(List5 * self, RenderableObject * arg1)) 0x0;
+inline Enumerator16 * (*List5::ptr::ObjectEnumerator)(List5 * self) = (Enumerator16 * (*)(List5 * self)) 0x80b9650;
+inline void (*List5::ptr::_mark)() = (void (*)()) 0x808a9b0;
+inline void (*List5::ptr::CSTR_List5)(List5 * self) = (void (*)(List5 * self)) 0x8158770;
 #endif
 #endif

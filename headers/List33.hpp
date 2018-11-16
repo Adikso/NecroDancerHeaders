@@ -41,27 +41,27 @@ public:
 
 #ifdef _WIN32
 
-List33 * (*List33::ptr::_New)() = (List33 * (*)()) 0x0;
-Node50 * (*List33::ptr::AddLast33)(List33 * self, Player * data) = (Node50 * (*)(List33 * self, Player * data)) 0x603210;
-List33 * (*List33::ptr::_new2)(List33 * self, Array<Player *> * arg1) = (List33 * (*)(List33 * self, Array<Player *> * arg1)) 0x0;
-int (*List33::ptr::_Count)() = (int (*)()) 0x0;
-Enumerator19 * (*List33::ptr::ObjectEnumerator)(List33 * self) = (Enumerator19 * (*)(List33 * self)) 0x6032b0;
-bool (*List33::ptr::_IsEmpty)() = (bool (*)()) 0x0;
-Player * (*List33::ptr::_First)() = (Player * (*)()) 0x0;
-void (*List33::ptr::_mark)() = (void (*)()) 0x0;
-void (*List33::ptr::CSTR_List33)(List33 * self) = (void (*)(List33 * self)) 0x603140;
+inline List33 * (*List33::ptr::_New)() = (List33 * (*)()) 0x0;
+inline Node50 * (*List33::ptr::AddLast33)(List33 * self, Player * data) = (Node50 * (*)(List33 * self, Player * data)) 0x603210;
+inline List33 * (*List33::ptr::_new2)(List33 * self, Array<Player *> * arg1) = (List33 * (*)(List33 * self, Array<Player *> * arg1)) 0x0;
+inline int (*List33::ptr::_Count)() = (int (*)()) 0x0;
+inline Enumerator19 * (*List33::ptr::ObjectEnumerator)(List33 * self) = (Enumerator19 * (*)(List33 * self)) 0x6032b0;
+inline bool (*List33::ptr::_IsEmpty)() = (bool (*)()) 0x0;
+inline Player * (*List33::ptr::_First)() = (Player * (*)()) 0x0;
+inline void (*List33::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List33::ptr::CSTR_List33)(List33 * self) = (void (*)(List33 * self)) 0x603140;
 #endif
 
 #ifdef __linux__
 
-List33 * (*List33::ptr::_New)() = (List33 * (*)()) 0x81a7b70;
-Node50 * (*List33::ptr::AddLast33)(List33 * self, Player * data) = (Node50 * (*)(List33 * self, Player * data)) 0x80b9720;
-List33 * (*List33::ptr::_new2)(List33 * self, Array<Player *> * arg1) = (List33 * (*)(List33 * self, Array<Player *> * arg1)) 0x0;
-int (*List33::ptr::_Count)() = (int (*)()) 0x8073d20;
-Enumerator19 * (*List33::ptr::ObjectEnumerator)(List33 * self) = (Enumerator19 * (*)(List33 * self)) 0x80b9a80;
-bool (*List33::ptr::_IsEmpty)() = (bool (*)()) 0x8073d40;
-Player * (*List33::ptr::_First)() = (Player * (*)()) 0x8073d50;
-void (*List33::ptr::_mark)() = (void (*)()) 0x808dfb0;
-void (*List33::ptr::CSTR_List33)(List33 * self) = (void (*)(List33 * self)) 0x81a7fe0;
+inline List33 * (*List33::ptr::_New)() = (List33 * (*)()) 0x81a7b70;
+inline Node50 * (*List33::ptr::AddLast33)(List33 * self, Player * data) = (Node50 * (*)(List33 * self, Player * data)) 0x80b9720;
+inline List33 * (*List33::ptr::_new2)(List33 * self, Array<Player *> * arg1) = (List33 * (*)(List33 * self, Array<Player *> * arg1)) 0x0;
+inline int (*List33::ptr::_Count)() = (int (*)()) 0x8073d20;
+inline Enumerator19 * (*List33::ptr::ObjectEnumerator)(List33 * self) = (Enumerator19 * (*)(List33 * self)) 0x80b9a80;
+inline bool (*List33::ptr::_IsEmpty)() = (bool (*)()) 0x8073d40;
+inline Player * (*List33::ptr::_First)() = (Player * (*)()) 0x8073d50;
+inline void (*List33::ptr::_mark)() = (void (*)()) 0x808dfb0;
+inline void (*List33::ptr::CSTR_List33)(List33 * self) = (void (*)(List33 * self)) 0x81a7fe0;
 #endif
 #endif

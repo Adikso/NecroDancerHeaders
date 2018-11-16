@@ -54,37 +54,37 @@ public:
 
 #ifdef _WIN32
 
-void (*Mole::ptr::UnoccupyDirt)(Mole * self) = (void (*)(Mole * self)) 0x641740;
-void (*Mole::ptr::PutDirt)(Mole * self) = (void (*)(Mole * self)) 0x641770;
-Mole * (*Mole::ptr::New)(Mole * self, int xVal, int yVal, int l) = (Mole * (*)(Mole * self, int xVal, int yVal, int l)) 0x641860;
-Mole * (*Mole::ptr::_new2)() = (Mole * (*)()) 0x0;
-void (*Mole::ptr::Update)(Mole * self) = (void (*)(Mole * self)) 0x641ab0;
-void (*Mole::ptr::Render)(Mole * self) = (void (*)(Mole * self)) 0x641d80;
-void (*Mole::ptr::MoveSucceed)(Mole * self, bool hitPlayer, bool moveDelayed) = (void (*)(Mole * self, bool hitPlayer, bool moveDelayed)) 0x641da0;
-void (*Mole::ptr::MoveFail)(Mole * self) = (void (*)(Mole * self)) 0x641f50;
-bool (*Mole::ptr::CanBeDamaged)(Mole * self, bool phasing, bool piercing) = (bool (*)(Mole * self, bool phasing, bool piercing)) 0x641f60;
-bool (*Mole::ptr::Hit)(Mole * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Mole * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x63b710;
-Point * (*Mole::ptr::GetMovementDirection)(Mole * self) = (Point * (*)(Mole * self)) 0x641f80;
-void (*Mole::ptr::Delete)(Mole * self) = (void (*)(Mole * self)) 0x642180;
-void (*Mole::ptr::_mark)() = (void (*)()) 0x0;
-void (*Mole::ptr::CSTR_Mole)(Mole * self) = (void (*)(Mole * self)) 0x6416d0;
+inline void (*Mole::ptr::UnoccupyDirt)(Mole * self) = (void (*)(Mole * self)) 0x641740;
+inline void (*Mole::ptr::PutDirt)(Mole * self) = (void (*)(Mole * self)) 0x641770;
+inline Mole * (*Mole::ptr::New)(Mole * self, int xVal, int yVal, int l) = (Mole * (*)(Mole * self, int xVal, int yVal, int l)) 0x641860;
+inline Mole * (*Mole::ptr::_new2)() = (Mole * (*)()) 0x0;
+inline void (*Mole::ptr::Update)(Mole * self) = (void (*)(Mole * self)) 0x641ab0;
+inline void (*Mole::ptr::Render)(Mole * self) = (void (*)(Mole * self)) 0x641d80;
+inline void (*Mole::ptr::MoveSucceed)(Mole * self, bool hitPlayer, bool moveDelayed) = (void (*)(Mole * self, bool hitPlayer, bool moveDelayed)) 0x641da0;
+inline void (*Mole::ptr::MoveFail)(Mole * self) = (void (*)(Mole * self)) 0x641f50;
+inline bool (*Mole::ptr::CanBeDamaged)(Mole * self, bool phasing, bool piercing) = (bool (*)(Mole * self, bool phasing, bool piercing)) 0x641f60;
+inline bool (*Mole::ptr::Hit)(Mole * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Mole * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x63b710;
+inline Point * (*Mole::ptr::GetMovementDirection)(Mole * self) = (Point * (*)(Mole * self)) 0x641f80;
+inline void (*Mole::ptr::Delete)(Mole * self) = (void (*)(Mole * self)) 0x642180;
+inline void (*Mole::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Mole::ptr::CSTR_Mole)(Mole * self) = (void (*)(Mole * self)) 0x6416d0;
 #endif
 
 #ifdef __linux__
 
-void (*Mole::ptr::UnoccupyDirt)(Mole * self) = (void (*)(Mole * self)) 0x80760f0;
-void (*Mole::ptr::PutDirt)(Mole * self) = (void (*)(Mole * self)) 0x81c2bb0;
-Mole * (*Mole::ptr::New)(Mole * self, int xVal, int yVal, int l) = (Mole * (*)(Mole * self, int xVal, int yVal, int l)) 0x81c2610;
-Mole * (*Mole::ptr::_new2)() = (Mole * (*)()) 0x81c27d0;
-void (*Mole::ptr::Update)(Mole * self) = (void (*)(Mole * self)) 0x8382350;
-void (*Mole::ptr::Render)(Mole * self) = (void (*)(Mole * self)) 0x830c070;
-void (*Mole::ptr::MoveSucceed)(Mole * self, bool hitPlayer, bool moveDelayed) = (void (*)(Mole * self, bool hitPlayer, bool moveDelayed)) 0x83a5090;
-void (*Mole::ptr::MoveFail)(Mole * self) = (void (*)(Mole * self)) 0x8135230;
-bool (*Mole::ptr::CanBeDamaged)(Mole * self, bool phasing, bool piercing) = (bool (*)(Mole * self, bool phasing, bool piercing)) 0x8076120;
-bool (*Mole::ptr::Hit)(Mole * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Mole * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8398f10;
-Point * (*Mole::ptr::GetMovementDirection)(Mole * self) = (Point * (*)(Mole * self)) 0x81335a0;
-void (*Mole::ptr::Delete)(Mole * self) = (void (*)(Mole * self)) 0x8093710;
-void (*Mole::ptr::_mark)() = (void (*)()) 0x80b06d0;
-void (*Mole::ptr::CSTR_Mole)(Mole * self) = (void (*)(Mole * self)) 0x81c25d0;
+inline void (*Mole::ptr::UnoccupyDirt)(Mole * self) = (void (*)(Mole * self)) 0x80760f0;
+inline void (*Mole::ptr::PutDirt)(Mole * self) = (void (*)(Mole * self)) 0x81c2bb0;
+inline Mole * (*Mole::ptr::New)(Mole * self, int xVal, int yVal, int l) = (Mole * (*)(Mole * self, int xVal, int yVal, int l)) 0x81c2610;
+inline Mole * (*Mole::ptr::_new2)() = (Mole * (*)()) 0x81c27d0;
+inline void (*Mole::ptr::Update)(Mole * self) = (void (*)(Mole * self)) 0x8382350;
+inline void (*Mole::ptr::Render)(Mole * self) = (void (*)(Mole * self)) 0x830c070;
+inline void (*Mole::ptr::MoveSucceed)(Mole * self, bool hitPlayer, bool moveDelayed) = (void (*)(Mole * self, bool hitPlayer, bool moveDelayed)) 0x83a5090;
+inline void (*Mole::ptr::MoveFail)(Mole * self) = (void (*)(Mole * self)) 0x8135230;
+inline bool (*Mole::ptr::CanBeDamaged)(Mole * self, bool phasing, bool piercing) = (bool (*)(Mole * self, bool phasing, bool piercing)) 0x8076120;
+inline bool (*Mole::ptr::Hit)(Mole * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Mole * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8398f10;
+inline Point * (*Mole::ptr::GetMovementDirection)(Mole * self) = (Point * (*)(Mole * self)) 0x81335a0;
+inline void (*Mole::ptr::Delete)(Mole * self) = (void (*)(Mole * self)) 0x8093710;
+inline void (*Mole::ptr::_mark)() = (void (*)()) 0x80b06d0;
+inline void (*Mole::ptr::CSTR_Mole)(Mole * self) = (void (*)(Mole * self)) 0x81c25d0;
 #endif
 #endif

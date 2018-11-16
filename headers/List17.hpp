@@ -35,21 +35,21 @@ public:
 
 #ifdef _WIN32
 
-List17 * (*List17::ptr::_New)() = (List17 * (*)()) 0x0;
-Node27 * (*List17::ptr::AddLast17)(List17 * self, EnemyObject * data) = (Node27 * (*)(List17 * self, EnemyObject * data)) 0x5dc440;
-List17 * (*List17::ptr::_new2)(List17 * self, Array<EnemyObject *> * arg1) = (List17 * (*)(List17 * self, Array<EnemyObject *> * arg1)) 0x0;
-Enumerator35 * (*List17::ptr::ObjectEnumerator)(List17 * self) = (Enumerator35 * (*)(List17 * self)) 0x5dc4e0;
-void (*List17::ptr::_mark)() = (void (*)()) 0x0;
-void (*List17::ptr::CSTR_List17)(List17 * self) = (void (*)(List17 * self)) 0x5dc370;
+inline List17 * (*List17::ptr::_New)() = (List17 * (*)()) 0x0;
+inline Node27 * (*List17::ptr::AddLast17)(List17 * self, EnemyObject * data) = (Node27 * (*)(List17 * self, EnemyObject * data)) 0x5dc440;
+inline List17 * (*List17::ptr::_new2)(List17 * self, Array<EnemyObject *> * arg1) = (List17 * (*)(List17 * self, Array<EnemyObject *> * arg1)) 0x0;
+inline Enumerator35 * (*List17::ptr::ObjectEnumerator)(List17 * self) = (Enumerator35 * (*)(List17 * self)) 0x5dc4e0;
+inline void (*List17::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List17::ptr::CSTR_List17)(List17 * self) = (void (*)(List17 * self)) 0x5dc370;
 #endif
 
 #ifdef __linux__
 
-List17 * (*List17::ptr::_New)() = (List17 * (*)()) 0x8195140;
-Node27 * (*List17::ptr::AddLast17)(List17 * self, EnemyObject * data) = (Node27 * (*)(List17 * self, EnemyObject * data)) 0x8195380;
-List17 * (*List17::ptr::_new2)(List17 * self, Array<EnemyObject *> * arg1) = (List17 * (*)(List17 * self, Array<EnemyObject *> * arg1)) 0x0;
-Enumerator35 * (*List17::ptr::ObjectEnumerator)(List17 * self) = (Enumerator35 * (*)(List17 * self)) 0x80bb770;
-void (*List17::ptr::_mark)() = (void (*)()) 0x8089010;
-void (*List17::ptr::CSTR_List17)(List17 * self) = (void (*)(List17 * self)) 0x81954c0;
+inline List17 * (*List17::ptr::_New)() = (List17 * (*)()) 0x8195140;
+inline Node27 * (*List17::ptr::AddLast17)(List17 * self, EnemyObject * data) = (Node27 * (*)(List17 * self, EnemyObject * data)) 0x8195380;
+inline List17 * (*List17::ptr::_new2)(List17 * self, Array<EnemyObject *> * arg1) = (List17 * (*)(List17 * self, Array<EnemyObject *> * arg1)) 0x0;
+inline Enumerator35 * (*List17::ptr::ObjectEnumerator)(List17 * self) = (Enumerator35 * (*)(List17 * self)) 0x80bb770;
+inline void (*List17::ptr::_mark)() = (void (*)()) 0x8089010;
+inline void (*List17::ptr::CSTR_List17)(List17 * self) = (void (*)(List17 * self)) 0x81954c0;
 #endif
 #endif

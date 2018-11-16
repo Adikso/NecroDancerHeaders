@@ -38,23 +38,23 @@ public:
 
 #ifdef _WIN32
 
-List44 * (*List44::ptr::_New)() = (List44 * (*)()) 0x0;
-Node64 * (*List44::ptr::_AddLast44)(List44 * self, FireballData * arg1) = (Node64 * (*)(List44 * self, FireballData * arg1)) 0x0;
-List44 * (*List44::ptr::_new2)(List44 * self, Array<FireballData *> * arg1) = (List44 * (*)(List44 * self, Array<FireballData *> * arg1)) 0x0;
-Enumerator52 * (*List44::ptr::ObjectEnumerator)(List44 * self) = (Enumerator52 * (*)(List44 * self)) 0x633620;
-void (*List44::ptr::_mark)() = (void (*)()) 0x0;
-void (*List44::ptr::CSTR_List44)(List44 * self) = (void (*)(List44 * self)) 0x6334b0;
-Node64 * (*List44::ptr::AddLast44)(List44 * self, NPC * data) = (Node64 * (*)(List44 * self, NPC * data)) 0x633580;
+inline List44 * (*List44::ptr::_New)() = (List44 * (*)()) 0x0;
+inline Node64 * (*List44::ptr::_AddLast44)(List44 * self, FireballData * arg1) = (Node64 * (*)(List44 * self, FireballData * arg1)) 0x0;
+inline List44 * (*List44::ptr::_new2)(List44 * self, Array<FireballData *> * arg1) = (List44 * (*)(List44 * self, Array<FireballData *> * arg1)) 0x0;
+inline Enumerator52 * (*List44::ptr::ObjectEnumerator)(List44 * self) = (Enumerator52 * (*)(List44 * self)) 0x633620;
+inline void (*List44::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List44::ptr::CSTR_List44)(List44 * self) = (void (*)(List44 * self)) 0x6334b0;
+inline Node64 * (*List44::ptr::AddLast44)(List44 * self, NPC * data) = (Node64 * (*)(List44 * self, NPC * data)) 0x633580;
 #endif
 
 #ifdef __linux__
 
-List44 * (*List44::ptr::_New)() = (List44 * (*)()) 0x81bc8c0;
-Node64 * (*List44::ptr::_AddLast44)(List44 * self, FireballData * arg1) = (Node64 * (*)(List44 * self, FireballData * arg1)) 0x0;
-List44 * (*List44::ptr::_new2)(List44 * self, Array<FireballData *> * arg1) = (List44 * (*)(List44 * self, Array<FireballData *> * arg1)) 0x0;
-Enumerator52 * (*List44::ptr::ObjectEnumerator)(List44 * self) = (Enumerator52 * (*)(List44 * self)) 0x80baf00;
-void (*List44::ptr::_mark)() = (void (*)()) 0x80883d0;
-void (*List44::ptr::CSTR_List44)(List44 * self) = (void (*)(List44 * self)) 0x81bcc40;
-Node64 * (*List44::ptr::AddLast44)(List44 * self, NPC * data) = (Node64 * (*)(List44 * self, NPC * data)) 0x81bcb00;
+inline List44 * (*List44::ptr::_New)() = (List44 * (*)()) 0x81bc8c0;
+inline Node64 * (*List44::ptr::_AddLast44)(List44 * self, FireballData * arg1) = (Node64 * (*)(List44 * self, FireballData * arg1)) 0x0;
+inline List44 * (*List44::ptr::_new2)(List44 * self, Array<FireballData *> * arg1) = (List44 * (*)(List44 * self, Array<FireballData *> * arg1)) 0x0;
+inline Enumerator52 * (*List44::ptr::ObjectEnumerator)(List44 * self) = (Enumerator52 * (*)(List44 * self)) 0x80baf00;
+inline void (*List44::ptr::_mark)() = (void (*)()) 0x80883d0;
+inline void (*List44::ptr::CSTR_List44)(List44 * self) = (void (*)(List44 * self)) 0x81bcc40;
+inline Node64 * (*List44::ptr::AddLast44)(List44 * self, NPC * data) = (Node64 * (*)(List44 * self, NPC * data)) 0x81bcb00;
 #endif
 #endif

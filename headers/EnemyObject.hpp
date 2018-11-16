@@ -31,19 +31,19 @@ public:
 
 #ifdef _WIN32
 
-EnemyObject * (*EnemyObject::ptr::_New)(EnemyObject * self, int arg1, int arg2, int arg3, int arg4, bool arg5) = (EnemyObject * (*)(EnemyObject * self, int arg1, int arg2, int arg3, int arg4, bool arg5)) 0x0;
-EnemyObject * (*EnemyObject::ptr::new2)(EnemyObject * self, XMLNode * fromXML) = (EnemyObject * (*)(EnemyObject * self, XMLNode * fromXML)) 0x5dbe20;
-EnemyObject * (*EnemyObject::ptr::_new3)() = (EnemyObject * (*)()) 0x0;
-void (*EnemyObject::ptr::AddToXML)(EnemyObject * self, XMLNode * xml) = (void (*)(EnemyObject * self, XMLNode * xml)) 0x5dc090;
-void (*EnemyObject::ptr::_mark)() = (void (*)()) 0x0;
+inline EnemyObject * (*EnemyObject::ptr::_New)(EnemyObject * self, int arg1, int arg2, int arg3, int arg4, bool arg5) = (EnemyObject * (*)(EnemyObject * self, int arg1, int arg2, int arg3, int arg4, bool arg5)) 0x0;
+inline EnemyObject * (*EnemyObject::ptr::new2)(EnemyObject * self, XMLNode * fromXML) = (EnemyObject * (*)(EnemyObject * self, XMLNode * fromXML)) 0x5dbe20;
+inline EnemyObject * (*EnemyObject::ptr::_new3)() = (EnemyObject * (*)()) 0x0;
+inline void (*EnemyObject::ptr::AddToXML)(EnemyObject * self, XMLNode * xml) = (void (*)(EnemyObject * self, XMLNode * xml)) 0x5dc090;
+inline void (*EnemyObject::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-EnemyObject * (*EnemyObject::ptr::_New)(EnemyObject * self, int arg1, int arg2, int arg3, int arg4, bool arg5) = (EnemyObject * (*)(EnemyObject * self, int arg1, int arg2, int arg3, int arg4, bool arg5)) 0x8194f30;
-EnemyObject * (*EnemyObject::ptr::new2)(EnemyObject * self, XMLNode * fromXML) = (EnemyObject * (*)(EnemyObject * self, XMLNode * fromXML)) 0x8194f60;
-EnemyObject * (*EnemyObject::ptr::_new3)() = (EnemyObject * (*)()) 0x8195130;
-void (*EnemyObject::ptr::AddToXML)(EnemyObject * self, XMLNode * xml) = (void (*)(EnemyObject * self, XMLNode * xml)) 0x80c7d80;
-void (*EnemyObject::ptr::_mark)() = (void (*)()) 0x8071f90;
+inline EnemyObject * (*EnemyObject::ptr::_New)(EnemyObject * self, int arg1, int arg2, int arg3, int arg4, bool arg5) = (EnemyObject * (*)(EnemyObject * self, int arg1, int arg2, int arg3, int arg4, bool arg5)) 0x8194f30;
+inline EnemyObject * (*EnemyObject::ptr::new2)(EnemyObject * self, XMLNode * fromXML) = (EnemyObject * (*)(EnemyObject * self, XMLNode * fromXML)) 0x8194f60;
+inline EnemyObject * (*EnemyObject::ptr::_new3)() = (EnemyObject * (*)()) 0x8195130;
+inline void (*EnemyObject::ptr::AddToXML)(EnemyObject * self, XMLNode * xml) = (void (*)(EnemyObject * self, XMLNode * xml)) 0x80c7d80;
+inline void (*EnemyObject::ptr::_mark)() = (void (*)()) 0x8071f90;
 #endif
 #endif

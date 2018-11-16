@@ -39,23 +39,23 @@ public:
 
 #ifdef _WIN32
 
-List12 * (*List12::ptr::_New)() = (List12 * (*)()) 0x0;
-Node22 * (*List12::ptr::_AddLast12)(List12 * self, TileObject * arg1) = (Node22 * (*)(List12 * self, TileObject * arg1)) 0x0;
-List12 * (*List12::ptr::_new2)(List12 * self, Array<TileObject *> * arg1) = (List12 * (*)(List12 * self, Array<TileObject *> * arg1)) 0x0;
-Enumerator30 * (*List12::ptr::ObjectEnumerator)(List12 * self) = (Enumerator30 * (*)(List12 * self)) 0x5c6380;
-void (*List12::ptr::_mark)() = (void (*)()) 0x0;
-void (*List12::ptr::CSTR_List12)(List12 * self) = (void (*)(List12 * self)) 0x5c6210;
-Node19 * (*List12::ptr::AddLast12)(List12 * self, Flyaway * data) = (Node19 * (*)(List12 * self, Flyaway * data)) 0x5c62e0;
+inline List12 * (*List12::ptr::_New)() = (List12 * (*)()) 0x0;
+inline Node22 * (*List12::ptr::_AddLast12)(List12 * self, TileObject * arg1) = (Node22 * (*)(List12 * self, TileObject * arg1)) 0x0;
+inline List12 * (*List12::ptr::_new2)(List12 * self, Array<TileObject *> * arg1) = (List12 * (*)(List12 * self, Array<TileObject *> * arg1)) 0x0;
+inline Enumerator30 * (*List12::ptr::ObjectEnumerator)(List12 * self) = (Enumerator30 * (*)(List12 * self)) 0x5c6380;
+inline void (*List12::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List12::ptr::CSTR_List12)(List12 * self) = (void (*)(List12 * self)) 0x5c6210;
+inline Node19 * (*List12::ptr::AddLast12)(List12 * self, Flyaway * data) = (Node19 * (*)(List12 * self, Flyaway * data)) 0x5c62e0;
 #endif
 
 #ifdef __linux__
 
-List12 * (*List12::ptr::_New)() = (List12 * (*)()) 0x8187860;
-Node22 * (*List12::ptr::_AddLast12)(List12 * self, TileObject * arg1) = (Node22 * (*)(List12 * self, TileObject * arg1)) 0x0;
-List12 * (*List12::ptr::_new2)(List12 * self, Array<TileObject *> * arg1) = (List12 * (*)(List12 * self, Array<TileObject *> * arg1)) 0x0;
-Enumerator30 * (*List12::ptr::ObjectEnumerator)(List12 * self) = (Enumerator30 * (*)(List12 * self)) 0x80b74f0;
-void (*List12::ptr::_mark)() = (void (*)()) 0x808a230;
-void (*List12::ptr::CSTR_List12)(List12 * self) = (void (*)(List12 * self)) 0x8187be0;
-Node19 * (*List12::ptr::AddLast12)(List12 * self, Flyaway * data) = (Node19 * (*)(List12 * self, Flyaway * data)) 0x8187aa0;
+inline List12 * (*List12::ptr::_New)() = (List12 * (*)()) 0x8187860;
+inline Node22 * (*List12::ptr::_AddLast12)(List12 * self, TileObject * arg1) = (Node22 * (*)(List12 * self, TileObject * arg1)) 0x0;
+inline List12 * (*List12::ptr::_new2)(List12 * self, Array<TileObject *> * arg1) = (List12 * (*)(List12 * self, Array<TileObject *> * arg1)) 0x0;
+inline Enumerator30 * (*List12::ptr::ObjectEnumerator)(List12 * self) = (Enumerator30 * (*)(List12 * self)) 0x80b74f0;
+inline void (*List12::ptr::_mark)() = (void (*)()) 0x808a230;
+inline void (*List12::ptr::CSTR_List12)(List12 * self) = (void (*)(List12 * self)) 0x8187be0;
+inline Node19 * (*List12::ptr::AddLast12)(List12 * self, Flyaway * data) = (Node19 * (*)(List12 * self, Flyaway * data)) 0x8187aa0;
 #endif
 #endif

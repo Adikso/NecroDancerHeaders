@@ -30,19 +30,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator7 * (*Enumerator7::ptr::_New)(Enumerator7 * self, List13 * arg1) = (Enumerator7 * (*)(Enumerator7 * self, List13 * arg1)) 0x0;
-Enumerator7 * (*Enumerator7::ptr::_new2)() = (Enumerator7 * (*)()) 0x0;
-bool (*Enumerator7::ptr::_HasNext)() = (bool (*)()) 0x0;
-Trap * (*Enumerator7::ptr::_NextObject)() = (Trap * (*)()) 0x0;
-void (*Enumerator7::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator7 * (*Enumerator7::ptr::_New)(Enumerator7 * self, List13 * arg1) = (Enumerator7 * (*)(Enumerator7 * self, List13 * arg1)) 0x0;
+inline Enumerator7 * (*Enumerator7::ptr::_new2)() = (Enumerator7 * (*)()) 0x0;
+inline bool (*Enumerator7::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline Trap * (*Enumerator7::ptr::_NextObject)() = (Trap * (*)()) 0x0;
+inline void (*Enumerator7::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator7 * (*Enumerator7::ptr::_New)(Enumerator7 * self, List13 * arg1) = (Enumerator7 * (*)(Enumerator7 * self, List13 * arg1)) 0x0;
-Enumerator7 * (*Enumerator7::ptr::_new2)() = (Enumerator7 * (*)()) 0x81932c0;
-bool (*Enumerator7::ptr::_HasNext)() = (bool (*)()) 0x80956f0;
-Trap * (*Enumerator7::ptr::_NextObject)() = (Trap * (*)()) 0x8095680;
-void (*Enumerator7::ptr::_mark)() = (void (*)()) 0x8082940;
+inline Enumerator7 * (*Enumerator7::ptr::_New)(Enumerator7 * self, List13 * arg1) = (Enumerator7 * (*)(Enumerator7 * self, List13 * arg1)) 0x0;
+inline Enumerator7 * (*Enumerator7::ptr::_new2)() = (Enumerator7 * (*)()) 0x81932c0;
+inline bool (*Enumerator7::ptr::_HasNext)() = (bool (*)()) 0x80956f0;
+inline Trap * (*Enumerator7::ptr::_NextObject)() = (Trap * (*)()) 0x8095680;
+inline void (*Enumerator7::ptr::_mark)() = (void (*)()) 0x8082940;
 #endif
 #endif

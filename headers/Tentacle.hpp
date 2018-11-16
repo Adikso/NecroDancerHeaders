@@ -78,43 +78,43 @@ public:
 
 #ifdef _WIN32
 
-Tentacle * (*Tentacle::ptr::New)(Tentacle * self, int xVal, int yVal, int l) = (Tentacle * (*)(Tentacle * self, int xVal, int yVal, int l)) 0x6683d0;
-Tentacle * (*Tentacle::ptr::_new2)() = (Tentacle * (*)()) 0x0;
-void (*Tentacle::ptr::Render)(Tentacle * self) = (void (*)(Tentacle * self)) 0x6687a0;
-int (*Tentacle::ptr::GetTentacleLevelNumber)(Tentacle * self) = (int (*)(Tentacle * self)) 0x668860;
-void (*Tentacle::ptr::Update)(Tentacle * self) = (void (*)(Tentacle * self)) 0x668870;
-void (*Tentacle::ptr::SubmergeTo)(Tentacle * self, int xVal, int yVal) = (void (*)(Tentacle * self, int xVal, int yVal)) 0x668b60;
-void (*Tentacle::ptr::SubmergeTo2)(Tentacle * self, Point * p) = (void (*)(Tentacle * self, Point * p)) 0x668f10;
-Point * (*Tentacle::ptr::GetPhase5Offset)(Tentacle * self) = (Point * (*)(Tentacle * self)) 0x668fa0;
-Point * (*Tentacle::ptr::GetPhase6Offset)(Tentacle * self) = (Point * (*)(Tentacle * self)) 0x669160;
-void (*Tentacle::ptr::GoHome)(Tentacle * self) = (void (*)(Tentacle * self)) 0x669310;
-Point * (*Tentacle::ptr::GetMovementDirection)(Tentacle * self) = (Point * (*)(Tentacle * self)) 0x669810;
-void (*Tentacle::ptr::_Knockback)(Tentacle * self, int arg1) = (void (*)(Tentacle * self, int arg1)) 0x0;
-bool (*Tentacle::ptr::CanBeDamaged)(Tentacle * self, bool phasing, bool piercing) = (bool (*)(Tentacle * self, bool phasing, bool piercing)) 0x669e00;
-bool (*Tentacle::ptr::Hit)(Tentacle * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Tentacle * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x669e10;
-void (*Tentacle::ptr::MoveSucceed)(Tentacle * self, bool hitPlayer, bool moveDelayed) = (void (*)(Tentacle * self, bool hitPlayer, bool moveDelayed)) 0x669ec0;
-void (*Tentacle::ptr::mark)(Tentacle * self) = (void (*)(Tentacle * self)) 0x66a520;
-void (*Tentacle::ptr::CSTR_Tentacle)(Tentacle * self) = (void (*)(Tentacle * self)) 0x668270;
+inline Tentacle * (*Tentacle::ptr::New)(Tentacle * self, int xVal, int yVal, int l) = (Tentacle * (*)(Tentacle * self, int xVal, int yVal, int l)) 0x6683d0;
+inline Tentacle * (*Tentacle::ptr::_new2)() = (Tentacle * (*)()) 0x0;
+inline void (*Tentacle::ptr::Render)(Tentacle * self) = (void (*)(Tentacle * self)) 0x6687a0;
+inline int (*Tentacle::ptr::GetTentacleLevelNumber)(Tentacle * self) = (int (*)(Tentacle * self)) 0x668860;
+inline void (*Tentacle::ptr::Update)(Tentacle * self) = (void (*)(Tentacle * self)) 0x668870;
+inline void (*Tentacle::ptr::SubmergeTo)(Tentacle * self, int xVal, int yVal) = (void (*)(Tentacle * self, int xVal, int yVal)) 0x668b60;
+inline void (*Tentacle::ptr::SubmergeTo2)(Tentacle * self, Point * p) = (void (*)(Tentacle * self, Point * p)) 0x668f10;
+inline Point * (*Tentacle::ptr::GetPhase5Offset)(Tentacle * self) = (Point * (*)(Tentacle * self)) 0x668fa0;
+inline Point * (*Tentacle::ptr::GetPhase6Offset)(Tentacle * self) = (Point * (*)(Tentacle * self)) 0x669160;
+inline void (*Tentacle::ptr::GoHome)(Tentacle * self) = (void (*)(Tentacle * self)) 0x669310;
+inline Point * (*Tentacle::ptr::GetMovementDirection)(Tentacle * self) = (Point * (*)(Tentacle * self)) 0x669810;
+inline void (*Tentacle::ptr::_Knockback)(Tentacle * self, int arg1) = (void (*)(Tentacle * self, int arg1)) 0x0;
+inline bool (*Tentacle::ptr::CanBeDamaged)(Tentacle * self, bool phasing, bool piercing) = (bool (*)(Tentacle * self, bool phasing, bool piercing)) 0x669e00;
+inline bool (*Tentacle::ptr::Hit)(Tentacle * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Tentacle * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x669e10;
+inline void (*Tentacle::ptr::MoveSucceed)(Tentacle * self, bool hitPlayer, bool moveDelayed) = (void (*)(Tentacle * self, bool hitPlayer, bool moveDelayed)) 0x669ec0;
+inline void (*Tentacle::ptr::mark)(Tentacle * self) = (void (*)(Tentacle * self)) 0x66a520;
+inline void (*Tentacle::ptr::CSTR_Tentacle)(Tentacle * self) = (void (*)(Tentacle * self)) 0x668270;
 #endif
 
 #ifdef __linux__
 
-Tentacle * (*Tentacle::ptr::New)(Tentacle * self, int xVal, int yVal, int l) = (Tentacle * (*)(Tentacle * self, int xVal, int yVal, int l)) 0x81d8980;
-Tentacle * (*Tentacle::ptr::_new2)() = (Tentacle * (*)()) 0x81d9930;
-void (*Tentacle::ptr::Render)(Tentacle * self) = (void (*)(Tentacle * self)) 0x830b090;
-int (*Tentacle::ptr::GetTentacleLevelNumber)(Tentacle * self) = (int (*)(Tentacle * self)) 0x8077a70;
-void (*Tentacle::ptr::Update)(Tentacle * self) = (void (*)(Tentacle * self)) 0x837e150;
-void (*Tentacle::ptr::SubmergeTo)(Tentacle * self, int xVal, int yVal) = (void (*)(Tentacle * self, int xVal, int yVal)) 0x83aa400;
-void (*Tentacle::ptr::SubmergeTo2)(Tentacle * self, Point * p) = (void (*)(Tentacle * self, Point * p)) 0x81045c0;
-Point * (*Tentacle::ptr::GetPhase5Offset)(Tentacle * self) = (Point * (*)(Tentacle * self)) 0x80b3d80;
-Point * (*Tentacle::ptr::GetPhase6Offset)(Tentacle * self) = (Point * (*)(Tentacle * self)) 0x80b3cb0;
-void (*Tentacle::ptr::GoHome)(Tentacle * self) = (void (*)(Tentacle * self)) 0x83aa610;
-Point * (*Tentacle::ptr::GetMovementDirection)(Tentacle * self) = (Point * (*)(Tentacle * self)) 0x8269d20;
-void (*Tentacle::ptr::_Knockback)(Tentacle * self, int arg1) = (void (*)(Tentacle * self, int arg1)) 0x8077a90;
-bool (*Tentacle::ptr::CanBeDamaged)(Tentacle * self, bool phasing, bool piercing) = (bool (*)(Tentacle * self, bool phasing, bool piercing)) 0x8077aa0;
-bool (*Tentacle::ptr::Hit)(Tentacle * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Tentacle * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8396640;
-void (*Tentacle::ptr::MoveSucceed)(Tentacle * self, bool hitPlayer, bool moveDelayed) = (void (*)(Tentacle * self, bool hitPlayer, bool moveDelayed)) 0x83aaaa0;
-void (*Tentacle::ptr::mark)(Tentacle * self) = (void (*)(Tentacle * self)) 0x80b0f60;
-void (*Tentacle::ptr::CSTR_Tentacle)(Tentacle * self) = (void (*)(Tentacle * self)) 0x81d8870;
+inline Tentacle * (*Tentacle::ptr::New)(Tentacle * self, int xVal, int yVal, int l) = (Tentacle * (*)(Tentacle * self, int xVal, int yVal, int l)) 0x81d8980;
+inline Tentacle * (*Tentacle::ptr::_new2)() = (Tentacle * (*)()) 0x81d9930;
+inline void (*Tentacle::ptr::Render)(Tentacle * self) = (void (*)(Tentacle * self)) 0x830b090;
+inline int (*Tentacle::ptr::GetTentacleLevelNumber)(Tentacle * self) = (int (*)(Tentacle * self)) 0x8077a70;
+inline void (*Tentacle::ptr::Update)(Tentacle * self) = (void (*)(Tentacle * self)) 0x837e150;
+inline void (*Tentacle::ptr::SubmergeTo)(Tentacle * self, int xVal, int yVal) = (void (*)(Tentacle * self, int xVal, int yVal)) 0x83aa400;
+inline void (*Tentacle::ptr::SubmergeTo2)(Tentacle * self, Point * p) = (void (*)(Tentacle * self, Point * p)) 0x81045c0;
+inline Point * (*Tentacle::ptr::GetPhase5Offset)(Tentacle * self) = (Point * (*)(Tentacle * self)) 0x80b3d80;
+inline Point * (*Tentacle::ptr::GetPhase6Offset)(Tentacle * self) = (Point * (*)(Tentacle * self)) 0x80b3cb0;
+inline void (*Tentacle::ptr::GoHome)(Tentacle * self) = (void (*)(Tentacle * self)) 0x83aa610;
+inline Point * (*Tentacle::ptr::GetMovementDirection)(Tentacle * self) = (Point * (*)(Tentacle * self)) 0x8269d20;
+inline void (*Tentacle::ptr::_Knockback)(Tentacle * self, int arg1) = (void (*)(Tentacle * self, int arg1)) 0x8077a90;
+inline bool (*Tentacle::ptr::CanBeDamaged)(Tentacle * self, bool phasing, bool piercing) = (bool (*)(Tentacle * self, bool phasing, bool piercing)) 0x8077aa0;
+inline bool (*Tentacle::ptr::Hit)(Tentacle * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Tentacle * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8396640;
+inline void (*Tentacle::ptr::MoveSucceed)(Tentacle * self, bool hitPlayer, bool moveDelayed) = (void (*)(Tentacle * self, bool hitPlayer, bool moveDelayed)) 0x83aaaa0;
+inline void (*Tentacle::ptr::mark)(Tentacle * self) = (void (*)(Tentacle * self)) 0x80b0f60;
+inline void (*Tentacle::ptr::CSTR_Tentacle)(Tentacle * self) = (void (*)(Tentacle * self)) 0x81d8870;
 #endif
 #endif

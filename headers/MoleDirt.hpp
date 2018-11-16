@@ -48,29 +48,29 @@ public:
 
 #ifdef _WIN32
 
-void (*MoleDirt::ptr::Unoccupy)(MoleDirt * self) = (void (*)(MoleDirt * self)) 0x642250;
-MoleDirt * (*MoleDirt::ptr::New)(MoleDirt * self, int xVal, int yVal) = (MoleDirt * (*)(MoleDirt * self, int xVal, int yVal)) 0x642260;
-MoleDirt * (*MoleDirt::ptr::_new2)() = (MoleDirt * (*)()) 0x0;
-void (*MoleDirt::ptr::UpdateFade)(MoleDirt * self) = (void (*)(MoleDirt * self)) 0x642470;
-void (*MoleDirt::ptr::Update)(MoleDirt * self) = (void (*)(MoleDirt * self)) 0x6424e0;
-void (*MoleDirt::ptr::Render)(MoleDirt * self) = (void (*)(MoleDirt * self)) 0x642550;
-bool (*MoleDirt::ptr::_Hit)(MoleDirt * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(MoleDirt * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x0;
-bool (*MoleDirt::ptr::_CanBeDamaged)(MoleDirt * self, bool arg1, bool arg2) = (bool (*)(MoleDirt * self, bool arg1, bool arg2)) 0x0;
-void (*MoleDirt::ptr::_mark)() = (void (*)()) 0x0;
-void (*MoleDirt::ptr::CSTR_MoleDirt)(MoleDirt * self) = (void (*)(MoleDirt * self)) 0x6421b0;
+inline void (*MoleDirt::ptr::Unoccupy)(MoleDirt * self) = (void (*)(MoleDirt * self)) 0x642250;
+inline MoleDirt * (*MoleDirt::ptr::New)(MoleDirt * self, int xVal, int yVal) = (MoleDirt * (*)(MoleDirt * self, int xVal, int yVal)) 0x642260;
+inline MoleDirt * (*MoleDirt::ptr::_new2)() = (MoleDirt * (*)()) 0x0;
+inline void (*MoleDirt::ptr::UpdateFade)(MoleDirt * self) = (void (*)(MoleDirt * self)) 0x642470;
+inline void (*MoleDirt::ptr::Update)(MoleDirt * self) = (void (*)(MoleDirt * self)) 0x6424e0;
+inline void (*MoleDirt::ptr::Render)(MoleDirt * self) = (void (*)(MoleDirt * self)) 0x642550;
+inline bool (*MoleDirt::ptr::_Hit)(MoleDirt * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(MoleDirt * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x0;
+inline bool (*MoleDirt::ptr::_CanBeDamaged)(MoleDirt * self, bool arg1, bool arg2) = (bool (*)(MoleDirt * self, bool arg1, bool arg2)) 0x0;
+inline void (*MoleDirt::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*MoleDirt::ptr::CSTR_MoleDirt)(MoleDirt * self) = (void (*)(MoleDirt * self)) 0x6421b0;
 #endif
 
 #ifdef __linux__
 
-void (*MoleDirt::ptr::Unoccupy)(MoleDirt * self) = (void (*)(MoleDirt * self)) 0x8076140;
-MoleDirt * (*MoleDirt::ptr::New)(MoleDirt * self, int xVal, int yVal) = (MoleDirt * (*)(MoleDirt * self, int xVal, int yVal)) 0x81c2860;
-MoleDirt * (*MoleDirt::ptr::_new2)() = (MoleDirt * (*)()) 0x81c2ce0;
-void (*MoleDirt::ptr::UpdateFade)(MoleDirt * self) = (void (*)(MoleDirt * self)) 0x807f740;
-void (*MoleDirt::ptr::Update)(MoleDirt * self) = (void (*)(MoleDirt * self)) 0x812cc40;
-void (*MoleDirt::ptr::Render)(MoleDirt * self) = (void (*)(MoleDirt * self)) 0x8076150;
-bool (*MoleDirt::ptr::_Hit)(MoleDirt * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(MoleDirt * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x80761f0;
-bool (*MoleDirt::ptr::_CanBeDamaged)(MoleDirt * self, bool arg1, bool arg2) = (bool (*)(MoleDirt * self, bool arg1, bool arg2)) 0x8076200;
-void (*MoleDirt::ptr::_mark)() = (void (*)()) 0x80a5200;
-void (*MoleDirt::ptr::CSTR_MoleDirt)(MoleDirt * self) = (void (*)(MoleDirt * self)) 0x81c27f0;
+inline void (*MoleDirt::ptr::Unoccupy)(MoleDirt * self) = (void (*)(MoleDirt * self)) 0x8076140;
+inline MoleDirt * (*MoleDirt::ptr::New)(MoleDirt * self, int xVal, int yVal) = (MoleDirt * (*)(MoleDirt * self, int xVal, int yVal)) 0x81c2860;
+inline MoleDirt * (*MoleDirt::ptr::_new2)() = (MoleDirt * (*)()) 0x81c2ce0;
+inline void (*MoleDirt::ptr::UpdateFade)(MoleDirt * self) = (void (*)(MoleDirt * self)) 0x807f740;
+inline void (*MoleDirt::ptr::Update)(MoleDirt * self) = (void (*)(MoleDirt * self)) 0x812cc40;
+inline void (*MoleDirt::ptr::Render)(MoleDirt * self) = (void (*)(MoleDirt * self)) 0x8076150;
+inline bool (*MoleDirt::ptr::_Hit)(MoleDirt * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(MoleDirt * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x80761f0;
+inline bool (*MoleDirt::ptr::_CanBeDamaged)(MoleDirt * self, bool arg1, bool arg2) = (bool (*)(MoleDirt * self, bool arg1, bool arg2)) 0x8076200;
+inline void (*MoleDirt::ptr::_mark)() = (void (*)()) 0x80a5200;
+inline void (*MoleDirt::ptr::CSTR_MoleDirt)(MoleDirt * self) = (void (*)(MoleDirt * self)) 0x81c27f0;
 #endif
 #endif

@@ -55,40 +55,40 @@ public:
 };
 
 #ifdef _WIN32
-List7 * * FamiliarFixed::familiarList = (List7* *) 0x8356e4;
-bool * FamiliarFixed::debugTouchDamage = (bool*) 0x83576b;
+inline List7 * * FamiliarFixed::familiarList = (List7* *) 0x8356e4;
+inline bool * FamiliarFixed::debugTouchDamage = (bool*) 0x83576b;
 
-void (*FamiliarFixed::ptr::Die)(FamiliarFixed * self) = (void (*)(FamiliarFixed * self)) 0x57f3b0;
-FamiliarFixed * (*FamiliarFixed::ptr::New)(FamiliarFixed * self) = (FamiliarFixed * (*)(FamiliarFixed * self)) 0x57f3d0;
-void (*FamiliarFixed::ptr::Init2)(FamiliarFixed * self, int x_, int y_, int type_) = (void (*)(FamiliarFixed * self, int x_, int y_, int type_)) 0x57f430;
-bool (*FamiliarFixed::ptr::_ApplyEffect)(FamiliarFixed * self, int arg1) = (bool (*)(FamiliarFixed * self, int arg1)) 0x0;
-void (*FamiliarFixed::ptr::MoveTo)(FamiliarFixed * self, int x_, int y_) = (void (*)(FamiliarFixed * self, int x_, int y_)) 0x57f590;
-FamiliarFixed * (*FamiliarFixed::ptr::GetFamiliarAt)(int x, int y) = (FamiliarFixed * (*)(int x, int y)) 0x57f640;
-void (*FamiliarFixed::ptr::_TryPickup)() = (void (*)()) 0x0;
-void (*FamiliarFixed::ptr::WarpTo)(FamiliarFixed * self, int x_, int y_) = (void (*)(FamiliarFixed * self, int x_, int y_)) 0x57f690;
-bool (*FamiliarFixed::ptr::_IsSoul)() = (bool (*)()) 0x0;
-void (*FamiliarFixed::ptr::Update)(FamiliarFixed * self) = (void (*)(FamiliarFixed * self)) 0x57f6c0;
-bool (*FamiliarFixed::ptr::_Hit)(FamiliarFixed * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(FamiliarFixed * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x0;
-void (*FamiliarFixed::ptr::mark)(FamiliarFixed * self) = (void (*)(FamiliarFixed * self)) 0x57f750;
-void (*FamiliarFixed::ptr::CSTR_FamiliarFixed)(FamiliarFixed * self) = (void (*)(FamiliarFixed * self)) 0x57f320;
+inline void (*FamiliarFixed::ptr::Die)(FamiliarFixed * self) = (void (*)(FamiliarFixed * self)) 0x57f3b0;
+inline FamiliarFixed * (*FamiliarFixed::ptr::New)(FamiliarFixed * self) = (FamiliarFixed * (*)(FamiliarFixed * self)) 0x57f3d0;
+inline void (*FamiliarFixed::ptr::Init2)(FamiliarFixed * self, int x_, int y_, int type_) = (void (*)(FamiliarFixed * self, int x_, int y_, int type_)) 0x57f430;
+inline bool (*FamiliarFixed::ptr::_ApplyEffect)(FamiliarFixed * self, int arg1) = (bool (*)(FamiliarFixed * self, int arg1)) 0x0;
+inline void (*FamiliarFixed::ptr::MoveTo)(FamiliarFixed * self, int x_, int y_) = (void (*)(FamiliarFixed * self, int x_, int y_)) 0x57f590;
+inline FamiliarFixed * (*FamiliarFixed::ptr::GetFamiliarAt)(int x, int y) = (FamiliarFixed * (*)(int x, int y)) 0x57f640;
+inline void (*FamiliarFixed::ptr::_TryPickup)() = (void (*)()) 0x0;
+inline void (*FamiliarFixed::ptr::WarpTo)(FamiliarFixed * self, int x_, int y_) = (void (*)(FamiliarFixed * self, int x_, int y_)) 0x57f690;
+inline bool (*FamiliarFixed::ptr::_IsSoul)() = (bool (*)()) 0x0;
+inline void (*FamiliarFixed::ptr::Update)(FamiliarFixed * self) = (void (*)(FamiliarFixed * self)) 0x57f6c0;
+inline bool (*FamiliarFixed::ptr::_Hit)(FamiliarFixed * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(FamiliarFixed * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x0;
+inline void (*FamiliarFixed::ptr::mark)(FamiliarFixed * self) = (void (*)(FamiliarFixed * self)) 0x57f750;
+inline void (*FamiliarFixed::ptr::CSTR_FamiliarFixed)(FamiliarFixed * self) = (void (*)(FamiliarFixed * self)) 0x57f320;
 #endif
 
 #ifdef __linux__
-List7 * * FamiliarFixed::familiarList = (List7* *) 0x856a664;
-bool * FamiliarFixed::debugTouchDamage = (bool*) 0x856a660;
+inline List7 * * FamiliarFixed::familiarList = (List7* *) 0x856a664;
+inline bool * FamiliarFixed::debugTouchDamage = (bool*) 0x856a660;
 
-void (*FamiliarFixed::ptr::Die)(FamiliarFixed * self) = (void (*)(FamiliarFixed * self)) 0x8093480;
-FamiliarFixed * (*FamiliarFixed::ptr::New)(FamiliarFixed * self) = (FamiliarFixed * (*)(FamiliarFixed * self)) 0x8159330;
-void (*FamiliarFixed::ptr::Init2)(FamiliarFixed * self, int x_, int y_, int type_) = (void (*)(FamiliarFixed * self, int x_, int y_, int type_)) 0x8102200;
-bool (*FamiliarFixed::ptr::_ApplyEffect)(FamiliarFixed * self, int arg1) = (bool (*)(FamiliarFixed * self, int arg1)) 0x8070040;
-void (*FamiliarFixed::ptr::MoveTo)(FamiliarFixed * self, int x_, int y_) = (void (*)(FamiliarFixed * self, int x_, int y_)) 0x812f080;
-FamiliarFixed * (*FamiliarFixed::ptr::GetFamiliarAt)(int x, int y) = (FamiliarFixed * (*)(int x, int y)) 0x81593a0;
-void (*FamiliarFixed::ptr::_TryPickup)() = (void (*)()) 0x8070050;
-void (*FamiliarFixed::ptr::WarpTo)(FamiliarFixed * self, int x_, int y_) = (void (*)(FamiliarFixed * self, int x_, int y_)) 0x8070060;
-bool (*FamiliarFixed::ptr::_IsSoul)() = (bool (*)()) 0x8070090;
-void (*FamiliarFixed::ptr::Update)(FamiliarFixed * self) = (void (*)(FamiliarFixed * self)) 0x812ccb0;
-bool (*FamiliarFixed::ptr::_Hit)(FamiliarFixed * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(FamiliarFixed * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x80700a0;
-void (*FamiliarFixed::ptr::mark)(FamiliarFixed * self) = (void (*)(FamiliarFixed * self)) 0x80a53b0;
-void (*FamiliarFixed::ptr::CSTR_FamiliarFixed)(FamiliarFixed * self) = (void (*)(FamiliarFixed * self)) 0x81592d0;
+inline void (*FamiliarFixed::ptr::Die)(FamiliarFixed * self) = (void (*)(FamiliarFixed * self)) 0x8093480;
+inline FamiliarFixed * (*FamiliarFixed::ptr::New)(FamiliarFixed * self) = (FamiliarFixed * (*)(FamiliarFixed * self)) 0x8159330;
+inline void (*FamiliarFixed::ptr::Init2)(FamiliarFixed * self, int x_, int y_, int type_) = (void (*)(FamiliarFixed * self, int x_, int y_, int type_)) 0x8102200;
+inline bool (*FamiliarFixed::ptr::_ApplyEffect)(FamiliarFixed * self, int arg1) = (bool (*)(FamiliarFixed * self, int arg1)) 0x8070040;
+inline void (*FamiliarFixed::ptr::MoveTo)(FamiliarFixed * self, int x_, int y_) = (void (*)(FamiliarFixed * self, int x_, int y_)) 0x812f080;
+inline FamiliarFixed * (*FamiliarFixed::ptr::GetFamiliarAt)(int x, int y) = (FamiliarFixed * (*)(int x, int y)) 0x81593a0;
+inline void (*FamiliarFixed::ptr::_TryPickup)() = (void (*)()) 0x8070050;
+inline void (*FamiliarFixed::ptr::WarpTo)(FamiliarFixed * self, int x_, int y_) = (void (*)(FamiliarFixed * self, int x_, int y_)) 0x8070060;
+inline bool (*FamiliarFixed::ptr::_IsSoul)() = (bool (*)()) 0x8070090;
+inline void (*FamiliarFixed::ptr::Update)(FamiliarFixed * self) = (void (*)(FamiliarFixed * self)) 0x812ccb0;
+inline bool (*FamiliarFixed::ptr::_Hit)(FamiliarFixed * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(FamiliarFixed * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x80700a0;
+inline void (*FamiliarFixed::ptr::mark)(FamiliarFixed * self) = (void (*)(FamiliarFixed * self)) 0x80a53b0;
+inline void (*FamiliarFixed::ptr::CSTR_FamiliarFixed)(FamiliarFixed * self) = (void (*)(FamiliarFixed * self)) 0x81592d0;
 #endif
 #endif

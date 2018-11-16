@@ -47,27 +47,27 @@ public:
 
 #ifdef _WIN32
 
-Ogre * (*Ogre::ptr::New)(Ogre * self, int xVal, int yVal, int l) = (Ogre * (*)(Ogre * self, int xVal, int yVal, int l)) 0x650840;
-Ogre * (*Ogre::ptr::_new2)() = (Ogre * (*)()) 0x0;
-void (*Ogre::ptr::Update)(Ogre * self) = (void (*)(Ogre * self)) 0x650e40;
-void (*Ogre::ptr::_MoveFail)() = (void (*)()) 0x0;
-void (*Ogre::ptr::MoveSucceed)(Ogre * self, bool hitPlayer, bool moveDelayed) = (void (*)(Ogre * self, bool hitPlayer, bool moveDelayed)) 0x6510c0;
-Point * (*Ogre::ptr::GetMovementDirection)(Ogre * self) = (Point * (*)(Ogre * self)) 0x651660;
-bool (*Ogre::ptr::_CanBeLord)() = (bool (*)()) 0x0;
-void (*Ogre::ptr::mark)(Ogre * self) = (void (*)(Ogre * self)) 0x651970;
-void (*Ogre::ptr::CSTR_Ogre)(Ogre * self) = (void (*)(Ogre * self)) 0x650790;
+inline Ogre * (*Ogre::ptr::New)(Ogre * self, int xVal, int yVal, int l) = (Ogre * (*)(Ogre * self, int xVal, int yVal, int l)) 0x650840;
+inline Ogre * (*Ogre::ptr::_new2)() = (Ogre * (*)()) 0x0;
+inline void (*Ogre::ptr::Update)(Ogre * self) = (void (*)(Ogre * self)) 0x650e40;
+inline void (*Ogre::ptr::_MoveFail)() = (void (*)()) 0x0;
+inline void (*Ogre::ptr::MoveSucceed)(Ogre * self, bool hitPlayer, bool moveDelayed) = (void (*)(Ogre * self, bool hitPlayer, bool moveDelayed)) 0x6510c0;
+inline Point * (*Ogre::ptr::GetMovementDirection)(Ogre * self) = (Point * (*)(Ogre * self)) 0x651660;
+inline bool (*Ogre::ptr::_CanBeLord)() = (bool (*)()) 0x0;
+inline void (*Ogre::ptr::mark)(Ogre * self) = (void (*)(Ogre * self)) 0x651970;
+inline void (*Ogre::ptr::CSTR_Ogre)(Ogre * self) = (void (*)(Ogre * self)) 0x650790;
 #endif
 
 #ifdef __linux__
 
-Ogre * (*Ogre::ptr::New)(Ogre * self, int xVal, int yVal, int l) = (Ogre * (*)(Ogre * self, int xVal, int yVal, int l)) 0x81c7020;
-Ogre * (*Ogre::ptr::_new2)() = (Ogre * (*)()) 0x81c74e0;
-void (*Ogre::ptr::Update)(Ogre * self) = (void (*)(Ogre * self)) 0x837f670;
-void (*Ogre::ptr::_MoveFail)() = (void (*)()) 0x8134a40;
-void (*Ogre::ptr::MoveSucceed)(Ogre * self, bool hitPlayer, bool moveDelayed) = (void (*)(Ogre * self, bool hitPlayer, bool moveDelayed)) 0x83b9db0;
-Point * (*Ogre::ptr::GetMovementDirection)(Ogre * self) = (Point * (*)(Ogre * self)) 0x83a7a50;
-bool (*Ogre::ptr::_CanBeLord)() = (bool (*)()) 0x8076520;
-void (*Ogre::ptr::mark)(Ogre * self) = (void (*)(Ogre * self)) 0x80b10d0;
-void (*Ogre::ptr::CSTR_Ogre)(Ogre * self) = (void (*)(Ogre * self)) 0x81c6fb0;
+inline Ogre * (*Ogre::ptr::New)(Ogre * self, int xVal, int yVal, int l) = (Ogre * (*)(Ogre * self, int xVal, int yVal, int l)) 0x81c7020;
+inline Ogre * (*Ogre::ptr::_new2)() = (Ogre * (*)()) 0x81c74e0;
+inline void (*Ogre::ptr::Update)(Ogre * self) = (void (*)(Ogre * self)) 0x837f670;
+inline void (*Ogre::ptr::_MoveFail)() = (void (*)()) 0x8134a40;
+inline void (*Ogre::ptr::MoveSucceed)(Ogre * self, bool hitPlayer, bool moveDelayed) = (void (*)(Ogre * self, bool hitPlayer, bool moveDelayed)) 0x83b9db0;
+inline Point * (*Ogre::ptr::GetMovementDirection)(Ogre * self) = (Point * (*)(Ogre * self)) 0x83a7a50;
+inline bool (*Ogre::ptr::_CanBeLord)() = (bool (*)()) 0x8076520;
+inline void (*Ogre::ptr::mark)(Ogre * self) = (void (*)(Ogre * self)) 0x80b10d0;
+inline void (*Ogre::ptr::CSTR_Ogre)(Ogre * self) = (void (*)(Ogre * self)) 0x81c6fb0;
 #endif
 #endif

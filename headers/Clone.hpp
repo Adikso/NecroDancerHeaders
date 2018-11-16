@@ -32,21 +32,21 @@ public:
 
 #ifdef _WIN32
 
-Clone * (*Clone::ptr::New)(Clone * self, int xVal, int yVal, int l) = (Clone * (*)(Clone * self, int xVal, int yVal, int l)) 0x63f080;
-Clone * (*Clone::ptr::_new2)() = (Clone * (*)()) 0x0;
-Point * (*Clone::ptr::GetMovementDirection)(Clone * self) = (Point * (*)(Clone * self)) 0x63f690;
-bool (*Clone::ptr::_CanBeLord)() = (bool (*)()) 0x0;
-void (*Clone::ptr::_mark)() = (void (*)()) 0x0;
-void (*Clone::ptr::CSTR_Clone)(Clone * self) = (void (*)(Clone * self)) 0x63f020;
+inline Clone * (*Clone::ptr::New)(Clone * self, int xVal, int yVal, int l) = (Clone * (*)(Clone * self, int xVal, int yVal, int l)) 0x63f080;
+inline Clone * (*Clone::ptr::_new2)() = (Clone * (*)()) 0x0;
+inline Point * (*Clone::ptr::GetMovementDirection)(Clone * self) = (Point * (*)(Clone * self)) 0x63f690;
+inline bool (*Clone::ptr::_CanBeLord)() = (bool (*)()) 0x0;
+inline void (*Clone::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Clone::ptr::CSTR_Clone)(Clone * self) = (void (*)(Clone * self)) 0x63f020;
 #endif
 
 #ifdef __linux__
 
-Clone * (*Clone::ptr::New)(Clone * self, int xVal, int yVal, int l) = (Clone * (*)(Clone * self, int xVal, int yVal, int l)) 0x81c1220;
-Clone * (*Clone::ptr::_new2)() = (Clone * (*)()) 0x81c1f00;
-Point * (*Clone::ptr::GetMovementDirection)(Clone * self) = (Point * (*)(Clone * self)) 0x8103260;
-bool (*Clone::ptr::_CanBeLord)() = (bool (*)()) 0x80760e0;
-void (*Clone::ptr::_mark)() = (void (*)()) 0x80b0740;
-void (*Clone::ptr::CSTR_Clone)(Clone * self) = (void (*)(Clone * self)) 0x81c1200;
+inline Clone * (*Clone::ptr::New)(Clone * self, int xVal, int yVal, int l) = (Clone * (*)(Clone * self, int xVal, int yVal, int l)) 0x81c1220;
+inline Clone * (*Clone::ptr::_new2)() = (Clone * (*)()) 0x81c1f00;
+inline Point * (*Clone::ptr::GetMovementDirection)(Clone * self) = (Point * (*)(Clone * self)) 0x8103260;
+inline bool (*Clone::ptr::_CanBeLord)() = (bool (*)()) 0x80760e0;
+inline void (*Clone::ptr::_mark)() = (void (*)()) 0x80b0740;
+inline void (*Clone::ptr::CSTR_Clone)(Clone * self) = (void (*)(Clone * self)) 0x81c1200;
 #endif
 #endif

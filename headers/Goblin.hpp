@@ -46,29 +46,29 @@ public:
 
 #ifdef _WIN32
 
-Goblin * (*Goblin::ptr::New)(Goblin * self, int xVal, int yVal, int l) = (Goblin * (*)(Goblin * self, int xVal, int yVal, int l)) 0x645c80;
-Goblin * (*Goblin::ptr::_new2)() = (Goblin * (*)()) 0x0;
-void (*Goblin::ptr::ProcessDistanceChanges)(Goblin * self) = (void (*)(Goblin * self)) 0x645f50;
-void (*Goblin::ptr::Update)(Goblin * self) = (void (*)(Goblin * self)) 0x646030;
-int (*Goblin::ptr::Move)(Goblin * self) = (int (*)(Goblin * self)) 0x6460c0;
-bool (*Goblin::ptr::_Hit)(Goblin * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(Goblin * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x0;
-int (*Goblin::ptr::MoveImmediate)(Goblin * self, int xVal, int yVal, String * movementSource) = (int (*)(Goblin * self, int xVal, int yVal, String * movementSource)) 0x63b5f0;
-Point * (*Goblin::ptr::GetMovementDirection)(Goblin * self) = (Point * (*)(Goblin * self)) 0x646720;
-void (*Goblin::ptr::_mark)() = (void (*)()) 0x0;
-void (*Goblin::ptr::CSTR_Goblin)(Goblin * self) = (void (*)(Goblin * self)) 0x645bb0;
+inline Goblin * (*Goblin::ptr::New)(Goblin * self, int xVal, int yVal, int l) = (Goblin * (*)(Goblin * self, int xVal, int yVal, int l)) 0x645c80;
+inline Goblin * (*Goblin::ptr::_new2)() = (Goblin * (*)()) 0x0;
+inline void (*Goblin::ptr::ProcessDistanceChanges)(Goblin * self) = (void (*)(Goblin * self)) 0x645f50;
+inline void (*Goblin::ptr::Update)(Goblin * self) = (void (*)(Goblin * self)) 0x646030;
+inline int (*Goblin::ptr::Move)(Goblin * self) = (int (*)(Goblin * self)) 0x6460c0;
+inline bool (*Goblin::ptr::_Hit)(Goblin * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(Goblin * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x0;
+inline int (*Goblin::ptr::MoveImmediate)(Goblin * self, int xVal, int yVal, String * movementSource) = (int (*)(Goblin * self, int xVal, int yVal, String * movementSource)) 0x63b5f0;
+inline Point * (*Goblin::ptr::GetMovementDirection)(Goblin * self) = (Point * (*)(Goblin * self)) 0x646720;
+inline void (*Goblin::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Goblin::ptr::CSTR_Goblin)(Goblin * self) = (void (*)(Goblin * self)) 0x645bb0;
 #endif
 
 #ifdef __linux__
 
-Goblin * (*Goblin::ptr::New)(Goblin * self, int xVal, int yVal, int l) = (Goblin * (*)(Goblin * self, int xVal, int yVal, int l)) 0x81c38f0;
-Goblin * (*Goblin::ptr::_new2)() = (Goblin * (*)()) 0x81c3ac0;
-void (*Goblin::ptr::ProcessDistanceChanges)(Goblin * self) = (void (*)(Goblin * self)) 0x81047c0;
-void (*Goblin::ptr::Update)(Goblin * self) = (void (*)(Goblin * self)) 0x8381ce0;
-int (*Goblin::ptr::Move)(Goblin * self) = (int (*)(Goblin * self)) 0x83a5970;
-bool (*Goblin::ptr::_Hit)(Goblin * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(Goblin * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x8398450;
-int (*Goblin::ptr::MoveImmediate)(Goblin * self, int xVal, int yVal, String * movementSource) = (int (*)(Goblin * self, int xVal, int yVal, String * movementSource)) 0x83939d0;
-Point * (*Goblin::ptr::GetMovementDirection)(Goblin * self) = (Point * (*)(Goblin * self)) 0x807f8a0;
-void (*Goblin::ptr::_mark)() = (void (*)()) 0x80b05b0;
-void (*Goblin::ptr::CSTR_Goblin)(Goblin * self) = (void (*)(Goblin * self)) 0x81c3770;
+inline Goblin * (*Goblin::ptr::New)(Goblin * self, int xVal, int yVal, int l) = (Goblin * (*)(Goblin * self, int xVal, int yVal, int l)) 0x81c38f0;
+inline Goblin * (*Goblin::ptr::_new2)() = (Goblin * (*)()) 0x81c3ac0;
+inline void (*Goblin::ptr::ProcessDistanceChanges)(Goblin * self) = (void (*)(Goblin * self)) 0x81047c0;
+inline void (*Goblin::ptr::Update)(Goblin * self) = (void (*)(Goblin * self)) 0x8381ce0;
+inline int (*Goblin::ptr::Move)(Goblin * self) = (int (*)(Goblin * self)) 0x83a5970;
+inline bool (*Goblin::ptr::_Hit)(Goblin * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(Goblin * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x8398450;
+inline int (*Goblin::ptr::MoveImmediate)(Goblin * self, int xVal, int yVal, String * movementSource) = (int (*)(Goblin * self, int xVal, int yVal, String * movementSource)) 0x83939d0;
+inline Point * (*Goblin::ptr::GetMovementDirection)(Goblin * self) = (Point * (*)(Goblin * self)) 0x807f8a0;
+inline void (*Goblin::ptr::_mark)() = (void (*)()) 0x80b05b0;
+inline void (*Goblin::ptr::CSTR_Goblin)(Goblin * self) = (void (*)(Goblin * self)) 0x81c3770;
 #endif
 #endif

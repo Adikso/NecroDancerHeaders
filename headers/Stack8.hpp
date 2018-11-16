@@ -38,27 +38,27 @@ public:
 
 #ifdef _WIN32
 
-Stack8 * (*Stack8::ptr::_New)() = (Stack8 * (*)()) 0x0;
-Stack8 * (*Stack8::ptr::_new2)(Stack8 * self, Array<RoomBase *> * arg1) = (Stack8 * (*)(Stack8 * self, Array<RoomBase *> * arg1)) 0x0;
-int (*Stack8::ptr::Push22)(Stack8 * self, RoomBase * value) = (int (*)(Stack8 * self, RoomBase * value)) 0x660250;
-int (*Stack8::ptr::_Push23)(Stack8 * self, Array<RoomBase *> * arg1, int arg2, int arg3) = (int (*)(Stack8 * self, Array<RoomBase *> * arg1, int arg2, int arg3)) 0x0;
-int (*Stack8::ptr::_Push24)(Stack8 * self, Array<RoomBase *> * arg1, int arg2) = (int (*)(Stack8 * self, Array<RoomBase *> * arg1, int arg2)) 0x0;
-Enumerator42 * (*Stack8::ptr::ObjectEnumerator)(Stack8 * self) = (Enumerator42 * (*)(Stack8 * self)) 0x6602f0;
-int (*Stack8::ptr::_Length)() = (int (*)()) 0x0;
-RoomBase * (*Stack8::ptr::_Get2)(Stack8 * self, int arg1) = (RoomBase * (*)(Stack8 * self, int arg1)) 0x0;
-void (*Stack8::ptr::_mark)() = (void (*)()) 0x0;
+inline Stack8 * (*Stack8::ptr::_New)() = (Stack8 * (*)()) 0x0;
+inline Stack8 * (*Stack8::ptr::_new2)(Stack8 * self, Array<RoomBase *> * arg1) = (Stack8 * (*)(Stack8 * self, Array<RoomBase *> * arg1)) 0x0;
+inline int (*Stack8::ptr::Push22)(Stack8 * self, RoomBase * value) = (int (*)(Stack8 * self, RoomBase * value)) 0x660250;
+inline int (*Stack8::ptr::_Push23)(Stack8 * self, Array<RoomBase *> * arg1, int arg2, int arg3) = (int (*)(Stack8 * self, Array<RoomBase *> * arg1, int arg2, int arg3)) 0x0;
+inline int (*Stack8::ptr::_Push24)(Stack8 * self, Array<RoomBase *> * arg1, int arg2) = (int (*)(Stack8 * self, Array<RoomBase *> * arg1, int arg2)) 0x0;
+inline Enumerator42 * (*Stack8::ptr::ObjectEnumerator)(Stack8 * self) = (Enumerator42 * (*)(Stack8 * self)) 0x6602f0;
+inline int (*Stack8::ptr::_Length)() = (int (*)()) 0x0;
+inline RoomBase * (*Stack8::ptr::_Get2)(Stack8 * self, int arg1) = (RoomBase * (*)(Stack8 * self, int arg1)) 0x0;
+inline void (*Stack8::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Stack8 * (*Stack8::ptr::_New)() = (Stack8 * (*)()) 0x81d59a0;
-Stack8 * (*Stack8::ptr::_new2)(Stack8 * self, Array<RoomBase *> * arg1) = (Stack8 * (*)(Stack8 * self, Array<RoomBase *> * arg1)) 0x0;
-int (*Stack8::ptr::Push22)(Stack8 * self, RoomBase * value) = (int (*)(Stack8 * self, RoomBase * value)) 0x80bee80;
-int (*Stack8::ptr::_Push23)(Stack8 * self, Array<RoomBase *> * arg1, int arg2, int arg3) = (int (*)(Stack8 * self, Array<RoomBase *> * arg1, int arg2, int arg3)) 0x0;
-int (*Stack8::ptr::_Push24)(Stack8 * self, Array<RoomBase *> * arg1, int arg2) = (int (*)(Stack8 * self, Array<RoomBase *> * arg1, int arg2)) 0x0;
-Enumerator42 * (*Stack8::ptr::ObjectEnumerator)(Stack8 * self) = (Enumerator42 * (*)(Stack8 * self)) 0x80bbc80;
-int (*Stack8::ptr::_Length)() = (int (*)()) 0x8077390;
-RoomBase * (*Stack8::ptr::_Get2)(Stack8 * self, int arg1) = (RoomBase * (*)(Stack8 * self, int arg1)) 0x80773a0;
-void (*Stack8::ptr::_mark)() = (void (*)()) 0x80773b0;
+inline Stack8 * (*Stack8::ptr::_New)() = (Stack8 * (*)()) 0x81d59a0;
+inline Stack8 * (*Stack8::ptr::_new2)(Stack8 * self, Array<RoomBase *> * arg1) = (Stack8 * (*)(Stack8 * self, Array<RoomBase *> * arg1)) 0x0;
+inline int (*Stack8::ptr::Push22)(Stack8 * self, RoomBase * value) = (int (*)(Stack8 * self, RoomBase * value)) 0x80bee80;
+inline int (*Stack8::ptr::_Push23)(Stack8 * self, Array<RoomBase *> * arg1, int arg2, int arg3) = (int (*)(Stack8 * self, Array<RoomBase *> * arg1, int arg2, int arg3)) 0x0;
+inline int (*Stack8::ptr::_Push24)(Stack8 * self, Array<RoomBase *> * arg1, int arg2) = (int (*)(Stack8 * self, Array<RoomBase *> * arg1, int arg2)) 0x0;
+inline Enumerator42 * (*Stack8::ptr::ObjectEnumerator)(Stack8 * self) = (Enumerator42 * (*)(Stack8 * self)) 0x80bbc80;
+inline int (*Stack8::ptr::_Length)() = (int (*)()) 0x8077390;
+inline RoomBase * (*Stack8::ptr::_Get2)(Stack8 * self, int arg1) = (RoomBase * (*)(Stack8 * self, int arg1)) 0x80773a0;
+inline void (*Stack8::ptr::_mark)() = (void (*)()) 0x80773b0;
 #endif
 #endif

@@ -30,19 +30,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator27 * (*Enumerator27::ptr::_New)(Enumerator27 * self, List44 * arg1) = (Enumerator27 * (*)(Enumerator27 * self, List44 * arg1)) 0x0;
-Enumerator27 * (*Enumerator27::ptr::_new2)() = (Enumerator27 * (*)()) 0x0;
-bool (*Enumerator27::ptr::_HasNext)() = (bool (*)()) 0x0;
-NPC * (*Enumerator27::ptr::_NextObject)() = (NPC * (*)()) 0x0;
-void (*Enumerator27::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator27 * (*Enumerator27::ptr::_New)(Enumerator27 * self, List44 * arg1) = (Enumerator27 * (*)(Enumerator27 * self, List44 * arg1)) 0x0;
+inline Enumerator27 * (*Enumerator27::ptr::_new2)() = (Enumerator27 * (*)()) 0x0;
+inline bool (*Enumerator27::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline NPC * (*Enumerator27::ptr::_NextObject)() = (NPC * (*)()) 0x0;
+inline void (*Enumerator27::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator27 * (*Enumerator27::ptr::_New)(Enumerator27 * self, List44 * arg1) = (Enumerator27 * (*)(Enumerator27 * self, List44 * arg1)) 0x0;
-Enumerator27 * (*Enumerator27::ptr::_new2)() = (Enumerator27 * (*)()) 0x81be4b0;
-bool (*Enumerator27::ptr::_HasNext)() = (bool (*)()) 0x8094e20;
-NPC * (*Enumerator27::ptr::_NextObject)() = (NPC * (*)()) 0x8094db0;
-void (*Enumerator27::ptr::_mark)() = (void (*)()) 0x8090210;
+inline Enumerator27 * (*Enumerator27::ptr::_New)(Enumerator27 * self, List44 * arg1) = (Enumerator27 * (*)(Enumerator27 * self, List44 * arg1)) 0x0;
+inline Enumerator27 * (*Enumerator27::ptr::_new2)() = (Enumerator27 * (*)()) 0x81be4b0;
+inline bool (*Enumerator27::ptr::_HasNext)() = (bool (*)()) 0x8094e20;
+inline NPC * (*Enumerator27::ptr::_NextObject)() = (NPC * (*)()) 0x8094db0;
+inline void (*Enumerator27::ptr::_mark)() = (void (*)()) 0x8090210;
 #endif
 #endif

@@ -29,19 +29,19 @@ public:
 
 #ifdef _WIN32
 
-IntStack * (*IntStack::ptr::_New)(IntStack * self, Array<int> * arg1) = (IntStack * (*)(IntStack * self, Array<int> * arg1)) 0x0;
-IntStack * (*IntStack::ptr::_new2)() = (IntStack * (*)()) 0x0;
-bool (*IntStack::ptr::_Equals14)(IntStack * self, int arg1, int arg2) = (bool (*)(IntStack * self, int arg1, int arg2)) 0x0;
-void (*IntStack::ptr::_mark)() = (void (*)()) 0x0;
-void (*IntStack::ptr::CSTR_IntStack)(IntStack * self) = (void (*)(IntStack * self)) 0x6603d0;
+inline IntStack * (*IntStack::ptr::_New)(IntStack * self, Array<int> * arg1) = (IntStack * (*)(IntStack * self, Array<int> * arg1)) 0x0;
+inline IntStack * (*IntStack::ptr::_new2)() = (IntStack * (*)()) 0x0;
+inline bool (*IntStack::ptr::_Equals14)(IntStack * self, int arg1, int arg2) = (bool (*)(IntStack * self, int arg1, int arg2)) 0x0;
+inline void (*IntStack::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*IntStack::ptr::CSTR_IntStack)(IntStack * self) = (void (*)(IntStack * self)) 0x6603d0;
 #endif
 
 #ifdef __linux__
 
-IntStack * (*IntStack::ptr::_New)(IntStack * self, Array<int> * arg1) = (IntStack * (*)(IntStack * self, Array<int> * arg1)) 0x0;
-IntStack * (*IntStack::ptr::_new2)() = (IntStack * (*)()) 0x0;
-bool (*IntStack::ptr::_Equals14)(IntStack * self, int arg1, int arg2) = (bool (*)(IntStack * self, int arg1, int arg2)) 0x0;
-void (*IntStack::ptr::_mark)() = (void (*)()) 0x80a0bf0;
-void (*IntStack::ptr::CSTR_IntStack)(IntStack * self) = (void (*)(IntStack * self)) 0x81d6150;
+inline IntStack * (*IntStack::ptr::_New)(IntStack * self, Array<int> * arg1) = (IntStack * (*)(IntStack * self, Array<int> * arg1)) 0x0;
+inline IntStack * (*IntStack::ptr::_new2)() = (IntStack * (*)()) 0x0;
+inline bool (*IntStack::ptr::_Equals14)(IntStack * self, int arg1, int arg2) = (bool (*)(IntStack * self, int arg1, int arg2)) 0x0;
+inline void (*IntStack::ptr::_mark)() = (void (*)()) 0x80a0bf0;
+inline void (*IntStack::ptr::CSTR_IntStack)(IntStack * self) = (void (*)(IntStack * self)) 0x81d6150;
 #endif
 #endif

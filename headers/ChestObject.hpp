@@ -39,21 +39,21 @@ public:
 
 #ifdef _WIN32
 
-ChestObject * (*ChestObject::ptr::_New)(ChestObject * self, int arg1, int arg2, int arg3, String * arg4, bool arg5, bool arg6, int arg7) = (ChestObject * (*)(ChestObject * self, int arg1, int arg2, int arg3, String * arg4, bool arg5, bool arg6, int arg7)) 0x0;
-ChestObject * (*ChestObject::ptr::new2)(ChestObject * self, XMLNode * fromXML) = (ChestObject * (*)(ChestObject * self, XMLNode * fromXML)) 0x5dd5b0;
-ChestObject * (*ChestObject::ptr::_new3)() = (ChestObject * (*)()) 0x0;
-void (*ChestObject::ptr::AddToXML)(ChestObject * self, XMLNode * xml) = (void (*)(ChestObject * self, XMLNode * xml)) 0x5dd950;
-void (*ChestObject::ptr::_mark)() = (void (*)()) 0x0;
-void (*ChestObject::ptr::CSTR_ChestObject)(ChestObject * self) = (void (*)(ChestObject * self)) 0x5dd410;
+inline ChestObject * (*ChestObject::ptr::_New)(ChestObject * self, int arg1, int arg2, int arg3, String * arg4, bool arg5, bool arg6, int arg7) = (ChestObject * (*)(ChestObject * self, int arg1, int arg2, int arg3, String * arg4, bool arg5, bool arg6, int arg7)) 0x0;
+inline ChestObject * (*ChestObject::ptr::new2)(ChestObject * self, XMLNode * fromXML) = (ChestObject * (*)(ChestObject * self, XMLNode * fromXML)) 0x5dd5b0;
+inline ChestObject * (*ChestObject::ptr::_new3)() = (ChestObject * (*)()) 0x0;
+inline void (*ChestObject::ptr::AddToXML)(ChestObject * self, XMLNode * xml) = (void (*)(ChestObject * self, XMLNode * xml)) 0x5dd950;
+inline void (*ChestObject::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*ChestObject::ptr::CSTR_ChestObject)(ChestObject * self) = (void (*)(ChestObject * self)) 0x5dd410;
 #endif
 
 #ifdef __linux__
 
-ChestObject * (*ChestObject::ptr::_New)(ChestObject * self, int arg1, int arg2, int arg3, String * arg4, bool arg5, bool arg6, int arg7) = (ChestObject * (*)(ChestObject * self, int arg1, int arg2, int arg3, String * arg4, bool arg5, bool arg6, int arg7)) 0x8196fc0;
-ChestObject * (*ChestObject::ptr::new2)(ChestObject * self, XMLNode * fromXML) = (ChestObject * (*)(ChestObject * self, XMLNode * fromXML)) 0x8197040;
-ChestObject * (*ChestObject::ptr::_new3)() = (ChestObject * (*)()) 0x8197310;
-void (*ChestObject::ptr::AddToXML)(ChestObject * self, XMLNode * xml) = (void (*)(ChestObject * self, XMLNode * xml)) 0x80c7780;
-void (*ChestObject::ptr::_mark)() = (void (*)()) 0x8072120;
-void (*ChestObject::ptr::CSTR_ChestObject)(ChestObject * self) = (void (*)(ChestObject * self)) 0x8196f50;
+inline ChestObject * (*ChestObject::ptr::_New)(ChestObject * self, int arg1, int arg2, int arg3, String * arg4, bool arg5, bool arg6, int arg7) = (ChestObject * (*)(ChestObject * self, int arg1, int arg2, int arg3, String * arg4, bool arg5, bool arg6, int arg7)) 0x8196fc0;
+inline ChestObject * (*ChestObject::ptr::new2)(ChestObject * self, XMLNode * fromXML) = (ChestObject * (*)(ChestObject * self, XMLNode * fromXML)) 0x8197040;
+inline ChestObject * (*ChestObject::ptr::_new3)() = (ChestObject * (*)()) 0x8197310;
+inline void (*ChestObject::ptr::AddToXML)(ChestObject * self, XMLNode * xml) = (void (*)(ChestObject * self, XMLNode * xml)) 0x80c7780;
+inline void (*ChestObject::ptr::_mark)() = (void (*)()) 0x8072120;
+inline void (*ChestObject::ptr::CSTR_ChestObject)(ChestObject * self) = (void (*)(ChestObject * self)) 0x8196f50;
 #endif
 #endif

@@ -79,43 +79,43 @@ public:
 
 #ifdef _WIN32
 
-SteamLeaderboardEntryData * (*CSteamLeaderboards::ptr::FindLeaderboardEntryWithUGCHandle)(CSteamLeaderboards * self, unsigned long long hnd) = (SteamLeaderboardEntryData * (*)(CSteamLeaderboards * self, unsigned long long hnd)) 0x412770;
-void (*CSteamLeaderboards::ptr::CheckIfAllScoresDownloaded)(CSteamLeaderboards * self) = (void (*)(CSteamLeaderboards * self)) 0x411f90;
-void (*CSteamLeaderboards::ptr::FindLeaderboarddown)(CSteamLeaderboards * self, const char * pchLeaderboardName) = (void (*)(CSteamLeaderboards * self, const char * pchLeaderboardName)) 0x410b50;
-void (*CSteamLeaderboards::ptr::FindLeaderboardup)(CSteamLeaderboards * self, const char * pchLeaderboardName) = (void (*)(CSteamLeaderboards * self, const char * pchLeaderboardName)) 0x410d60;
-bool (*CSteamLeaderboards::ptr::UploadScore)(CSteamLeaderboards * self, int score, int zoneVal, int levelVal, String * dt) = (bool (*)(CSteamLeaderboards * self, int score, int zoneVal, int levelVal, String * dt)) 0x410f70;
-bool (*CSteamLeaderboards::ptr::DownloadScores)(CSteamLeaderboards * self, int startEntry, int endEntry, bool friends) = (bool (*)(CSteamLeaderboards * self, int startEntry, int endEntry, bool friends)) 0x411570;
-bool (*CSteamLeaderboards::ptr::DownloadPlayersScore)(CSteamLeaderboards * self) = (bool (*)(CSteamLeaderboards * self)) 0x412a90;
-void (*CSteamLeaderboards::ptr::OnFindLeaderboarddown)(CSteamLeaderboards * self, LeaderboardFindResult_t * pCallback, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, LeaderboardFindResult_t * pCallback, bool bIOFailure)) 0x410c80;
-void (*CSteamLeaderboards::ptr::OnFindLeaderboardup)(CSteamLeaderboards * self, LeaderboardFindResult_t * pCallback, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, LeaderboardFindResult_t * pCallback, bool bIOFailure)) 0x410e90;
-void (*CSteamLeaderboards::ptr::OnUploadScore)(CSteamLeaderboards * self, LeaderboardScoreUploaded_t * pCallback, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, LeaderboardScoreUploaded_t * pCallback, bool bIOFailure)) 0x4111c0;
-void (*CSteamLeaderboards::ptr::OnUploadLeaderboardUGC)(CSteamLeaderboards * self, RemoteStorageFileShareResult_t * pResult, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, RemoteStorageFileShareResult_t * pResult, bool bIOFailure)) 0x411450;
-void (*CSteamLeaderboards::ptr::OnDownloadScore)(CSteamLeaderboards * self, LeaderboardScoresDownloaded_t * pCallback, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, LeaderboardScoresDownloaded_t * pCallback, bool bIOFailure)) 0x411680;
-void (*CSteamLeaderboards::ptr::OnDownloadFriendScore)(CSteamLeaderboards * self, LeaderboardScoresDownloaded_t * pCallback, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, LeaderboardScoresDownloaded_t * pCallback, bool bIOFailure)) 0x411b00;
-void (*CSteamLeaderboards::ptr::OnRemoteStorageDownloadUGCResult)(CSteamLeaderboards * self, RemoteStorageDownloadUGCResult_t * pResult, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, RemoteStorageDownloadUGCResult_t * pResult, bool bIOFailure)) 0x4127f0;
-void (*CSteamLeaderboards::ptr::OnDownloadPlayersScore)(CSteamLeaderboards * self, LeaderboardScoresDownloaded_t * pCallback, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, LeaderboardScoresDownloaded_t * pCallback, bool bIOFailure)) 0x412b90;
-void (*CSteamLeaderboards::ptr::OnGetCurrentPlayers)(CSteamLeaderboards * self, NumberOfCurrentPlayers_t * pResult, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, NumberOfCurrentPlayers_t * pResult, bool bIOFailure)) 0x410b20;
-void (*CSteamLeaderboards::ptr::CSTR_CSteamLeaderboards)(CSteamLeaderboards * self) = (void (*)(CSteamLeaderboards * self)) 0x410570;
+inline SteamLeaderboardEntryData * (*CSteamLeaderboards::ptr::FindLeaderboardEntryWithUGCHandle)(CSteamLeaderboards * self, unsigned long long hnd) = (SteamLeaderboardEntryData * (*)(CSteamLeaderboards * self, unsigned long long hnd)) 0x412770;
+inline void (*CSteamLeaderboards::ptr::CheckIfAllScoresDownloaded)(CSteamLeaderboards * self) = (void (*)(CSteamLeaderboards * self)) 0x411f90;
+inline void (*CSteamLeaderboards::ptr::FindLeaderboarddown)(CSteamLeaderboards * self, const char * pchLeaderboardName) = (void (*)(CSteamLeaderboards * self, const char * pchLeaderboardName)) 0x410b50;
+inline void (*CSteamLeaderboards::ptr::FindLeaderboardup)(CSteamLeaderboards * self, const char * pchLeaderboardName) = (void (*)(CSteamLeaderboards * self, const char * pchLeaderboardName)) 0x410d60;
+inline bool (*CSteamLeaderboards::ptr::UploadScore)(CSteamLeaderboards * self, int score, int zoneVal, int levelVal, String * dt) = (bool (*)(CSteamLeaderboards * self, int score, int zoneVal, int levelVal, String * dt)) 0x410f70;
+inline bool (*CSteamLeaderboards::ptr::DownloadScores)(CSteamLeaderboards * self, int startEntry, int endEntry, bool friends) = (bool (*)(CSteamLeaderboards * self, int startEntry, int endEntry, bool friends)) 0x411570;
+inline bool (*CSteamLeaderboards::ptr::DownloadPlayersScore)(CSteamLeaderboards * self) = (bool (*)(CSteamLeaderboards * self)) 0x412a90;
+inline void (*CSteamLeaderboards::ptr::OnFindLeaderboarddown)(CSteamLeaderboards * self, LeaderboardFindResult_t * pCallback, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, LeaderboardFindResult_t * pCallback, bool bIOFailure)) 0x410c80;
+inline void (*CSteamLeaderboards::ptr::OnFindLeaderboardup)(CSteamLeaderboards * self, LeaderboardFindResult_t * pCallback, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, LeaderboardFindResult_t * pCallback, bool bIOFailure)) 0x410e90;
+inline void (*CSteamLeaderboards::ptr::OnUploadScore)(CSteamLeaderboards * self, LeaderboardScoreUploaded_t * pCallback, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, LeaderboardScoreUploaded_t * pCallback, bool bIOFailure)) 0x4111c0;
+inline void (*CSteamLeaderboards::ptr::OnUploadLeaderboardUGC)(CSteamLeaderboards * self, RemoteStorageFileShareResult_t * pResult, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, RemoteStorageFileShareResult_t * pResult, bool bIOFailure)) 0x411450;
+inline void (*CSteamLeaderboards::ptr::OnDownloadScore)(CSteamLeaderboards * self, LeaderboardScoresDownloaded_t * pCallback, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, LeaderboardScoresDownloaded_t * pCallback, bool bIOFailure)) 0x411680;
+inline void (*CSteamLeaderboards::ptr::OnDownloadFriendScore)(CSteamLeaderboards * self, LeaderboardScoresDownloaded_t * pCallback, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, LeaderboardScoresDownloaded_t * pCallback, bool bIOFailure)) 0x411b00;
+inline void (*CSteamLeaderboards::ptr::OnRemoteStorageDownloadUGCResult)(CSteamLeaderboards * self, RemoteStorageDownloadUGCResult_t * pResult, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, RemoteStorageDownloadUGCResult_t * pResult, bool bIOFailure)) 0x4127f0;
+inline void (*CSteamLeaderboards::ptr::OnDownloadPlayersScore)(CSteamLeaderboards * self, LeaderboardScoresDownloaded_t * pCallback, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, LeaderboardScoresDownloaded_t * pCallback, bool bIOFailure)) 0x412b90;
+inline void (*CSteamLeaderboards::ptr::OnGetCurrentPlayers)(CSteamLeaderboards * self, NumberOfCurrentPlayers_t * pResult, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, NumberOfCurrentPlayers_t * pResult, bool bIOFailure)) 0x410b20;
+inline void (*CSteamLeaderboards::ptr::CSTR_CSteamLeaderboards)(CSteamLeaderboards * self) = (void (*)(CSteamLeaderboards * self)) 0x410570;
 #endif
 
 #ifdef __linux__
 
-SteamLeaderboardEntryData * (*CSteamLeaderboards::ptr::FindLeaderboardEntryWithUGCHandle)(CSteamLeaderboards * self, unsigned long long hnd) = (SteamLeaderboardEntryData * (*)(CSteamLeaderboards * self, unsigned long long hnd)) 0x80f8eb0;
-void (*CSteamLeaderboards::ptr::CheckIfAllScoresDownloaded)(CSteamLeaderboards * self) = (void (*)(CSteamLeaderboards * self)) 0x84019c0;
-void (*CSteamLeaderboards::ptr::FindLeaderboarddown)(CSteamLeaderboards * self, const char * pchLeaderboardName) = (void (*)(CSteamLeaderboards * self, const char * pchLeaderboardName)) 0x8279e80;
-void (*CSteamLeaderboards::ptr::FindLeaderboardup)(CSteamLeaderboards * self, const char * pchLeaderboardName) = (void (*)(CSteamLeaderboards * self, const char * pchLeaderboardName)) 0x8279720;
-bool (*CSteamLeaderboards::ptr::UploadScore)(CSteamLeaderboards * self, int score, int zoneVal, int levelVal, String * dt) = (bool (*)(CSteamLeaderboards * self, int score, int zoneVal, int levelVal, String * dt)) 0x8279040;
-bool (*CSteamLeaderboards::ptr::DownloadScores)(CSteamLeaderboards * self, int startEntry, int endEntry, bool friends) = (bool (*)(CSteamLeaderboards * self, int startEntry, int endEntry, bool friends)) 0x8302690;
-bool (*CSteamLeaderboards::ptr::DownloadPlayersScore)(CSteamLeaderboards * self) = (bool (*)(CSteamLeaderboards * self)) 0x8278820;
-void (*CSteamLeaderboards::ptr::OnFindLeaderboarddown)(CSteamLeaderboards * self, LeaderboardFindResult_t * pCallback, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, LeaderboardFindResult_t * pCallback, bool bIOFailure)) 0x8279b60;
-void (*CSteamLeaderboards::ptr::OnFindLeaderboardup)(CSteamLeaderboards * self, LeaderboardFindResult_t * pCallback, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, LeaderboardFindResult_t * pCallback, bool bIOFailure)) 0x8279400;
-void (*CSteamLeaderboards::ptr::OnUploadScore)(CSteamLeaderboards * self, LeaderboardScoreUploaded_t * pCallback, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, LeaderboardScoreUploaded_t * pCallback, bool bIOFailure)) 0x83e3ac0;
-void (*CSteamLeaderboards::ptr::OnUploadLeaderboardUGC)(CSteamLeaderboards * self, RemoteStorageFileShareResult_t * pResult, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, RemoteStorageFileShareResult_t * pResult, bool bIOFailure)) 0x8278b20;
-void (*CSteamLeaderboards::ptr::OnDownloadScore)(CSteamLeaderboards * self, LeaderboardScoresDownloaded_t * pCallback, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, LeaderboardScoresDownloaded_t * pCallback, bool bIOFailure)) 0x8404f60;
-void (*CSteamLeaderboards::ptr::OnDownloadFriendScore)(CSteamLeaderboards * self, LeaderboardScoresDownloaded_t * pCallback, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, LeaderboardScoresDownloaded_t * pCallback, bool bIOFailure)) 0x8402970;
-void (*CSteamLeaderboards::ptr::OnRemoteStorageDownloadUGCResult)(CSteamLeaderboards * self, RemoteStorageDownloadUGCResult_t * pResult, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, RemoteStorageDownloadUGCResult_t * pResult, bool bIOFailure)) 0x8402040;
-void (*CSteamLeaderboards::ptr::OnDownloadPlayersScore)(CSteamLeaderboards * self, LeaderboardScoresDownloaded_t * pCallback, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, LeaderboardScoresDownloaded_t * pCallback, bool bIOFailure)) 0x82785c0;
-void (*CSteamLeaderboards::ptr::OnGetCurrentPlayers)(CSteamLeaderboards * self, NumberOfCurrentPlayers_t * pResult, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, NumberOfCurrentPlayers_t * pResult, bool bIOFailure)) 0x807dd90;
-void (*CSteamLeaderboards::ptr::CSTR_CSteamLeaderboards)(CSteamLeaderboards * self) = (void (*)(CSteamLeaderboards * self)) 0x83decc0;
+inline SteamLeaderboardEntryData * (*CSteamLeaderboards::ptr::FindLeaderboardEntryWithUGCHandle)(CSteamLeaderboards * self, unsigned long long hnd) = (SteamLeaderboardEntryData * (*)(CSteamLeaderboards * self, unsigned long long hnd)) 0x80f8eb0;
+inline void (*CSteamLeaderboards::ptr::CheckIfAllScoresDownloaded)(CSteamLeaderboards * self) = (void (*)(CSteamLeaderboards * self)) 0x84019c0;
+inline void (*CSteamLeaderboards::ptr::FindLeaderboarddown)(CSteamLeaderboards * self, const char * pchLeaderboardName) = (void (*)(CSteamLeaderboards * self, const char * pchLeaderboardName)) 0x8279e80;
+inline void (*CSteamLeaderboards::ptr::FindLeaderboardup)(CSteamLeaderboards * self, const char * pchLeaderboardName) = (void (*)(CSteamLeaderboards * self, const char * pchLeaderboardName)) 0x8279720;
+inline bool (*CSteamLeaderboards::ptr::UploadScore)(CSteamLeaderboards * self, int score, int zoneVal, int levelVal, String * dt) = (bool (*)(CSteamLeaderboards * self, int score, int zoneVal, int levelVal, String * dt)) 0x8279040;
+inline bool (*CSteamLeaderboards::ptr::DownloadScores)(CSteamLeaderboards * self, int startEntry, int endEntry, bool friends) = (bool (*)(CSteamLeaderboards * self, int startEntry, int endEntry, bool friends)) 0x8302690;
+inline bool (*CSteamLeaderboards::ptr::DownloadPlayersScore)(CSteamLeaderboards * self) = (bool (*)(CSteamLeaderboards * self)) 0x8278820;
+inline void (*CSteamLeaderboards::ptr::OnFindLeaderboarddown)(CSteamLeaderboards * self, LeaderboardFindResult_t * pCallback, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, LeaderboardFindResult_t * pCallback, bool bIOFailure)) 0x8279b60;
+inline void (*CSteamLeaderboards::ptr::OnFindLeaderboardup)(CSteamLeaderboards * self, LeaderboardFindResult_t * pCallback, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, LeaderboardFindResult_t * pCallback, bool bIOFailure)) 0x8279400;
+inline void (*CSteamLeaderboards::ptr::OnUploadScore)(CSteamLeaderboards * self, LeaderboardScoreUploaded_t * pCallback, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, LeaderboardScoreUploaded_t * pCallback, bool bIOFailure)) 0x83e3ac0;
+inline void (*CSteamLeaderboards::ptr::OnUploadLeaderboardUGC)(CSteamLeaderboards * self, RemoteStorageFileShareResult_t * pResult, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, RemoteStorageFileShareResult_t * pResult, bool bIOFailure)) 0x8278b20;
+inline void (*CSteamLeaderboards::ptr::OnDownloadScore)(CSteamLeaderboards * self, LeaderboardScoresDownloaded_t * pCallback, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, LeaderboardScoresDownloaded_t * pCallback, bool bIOFailure)) 0x8404f60;
+inline void (*CSteamLeaderboards::ptr::OnDownloadFriendScore)(CSteamLeaderboards * self, LeaderboardScoresDownloaded_t * pCallback, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, LeaderboardScoresDownloaded_t * pCallback, bool bIOFailure)) 0x8402970;
+inline void (*CSteamLeaderboards::ptr::OnRemoteStorageDownloadUGCResult)(CSteamLeaderboards * self, RemoteStorageDownloadUGCResult_t * pResult, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, RemoteStorageDownloadUGCResult_t * pResult, bool bIOFailure)) 0x8402040;
+inline void (*CSteamLeaderboards::ptr::OnDownloadPlayersScore)(CSteamLeaderboards * self, LeaderboardScoresDownloaded_t * pCallback, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, LeaderboardScoresDownloaded_t * pCallback, bool bIOFailure)) 0x82785c0;
+inline void (*CSteamLeaderboards::ptr::OnGetCurrentPlayers)(CSteamLeaderboards * self, NumberOfCurrentPlayers_t * pResult, bool bIOFailure) = (void (*)(CSteamLeaderboards * self, NumberOfCurrentPlayers_t * pResult, bool bIOFailure)) 0x807dd90;
+inline void (*CSteamLeaderboards::ptr::CSTR_CSteamLeaderboards)(CSteamLeaderboards * self) = (void (*)(CSteamLeaderboards * self)) 0x83decc0;
 #endif
 #endif

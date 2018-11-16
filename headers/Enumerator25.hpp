@@ -30,19 +30,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator25 * (*Enumerator25::ptr::_New)(Enumerator25 * self, List42 * arg1) = (Enumerator25 * (*)(Enumerator25 * self, List42 * arg1)) 0x0;
-Enumerator25 * (*Enumerator25::ptr::_new2)() = (Enumerator25 * (*)()) 0x0;
-bool (*Enumerator25::ptr::_HasNext)() = (bool (*)()) 0x0;
-ConductorBattery * (*Enumerator25::ptr::_NextObject)() = (ConductorBattery * (*)()) 0x0;
-void (*Enumerator25::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator25 * (*Enumerator25::ptr::_New)(Enumerator25 * self, List42 * arg1) = (Enumerator25 * (*)(Enumerator25 * self, List42 * arg1)) 0x0;
+inline Enumerator25 * (*Enumerator25::ptr::_new2)() = (Enumerator25 * (*)()) 0x0;
+inline bool (*Enumerator25::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline ConductorBattery * (*Enumerator25::ptr::_NextObject)() = (ConductorBattery * (*)()) 0x0;
+inline void (*Enumerator25::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator25 * (*Enumerator25::ptr::_New)(Enumerator25 * self, List42 * arg1) = (Enumerator25 * (*)(Enumerator25 * self, List42 * arg1)) 0x0;
-Enumerator25 * (*Enumerator25::ptr::_new2)() = (Enumerator25 * (*)()) 0x81bcd70;
-bool (*Enumerator25::ptr::_HasNext)() = (bool (*)()) 0x8091a00;
-ConductorBattery * (*Enumerator25::ptr::_NextObject)() = (ConductorBattery * (*)()) 0x8091990;
-void (*Enumerator25::ptr::_mark)() = (void (*)()) 0x8084780;
+inline Enumerator25 * (*Enumerator25::ptr::_New)(Enumerator25 * self, List42 * arg1) = (Enumerator25 * (*)(Enumerator25 * self, List42 * arg1)) 0x0;
+inline Enumerator25 * (*Enumerator25::ptr::_new2)() = (Enumerator25 * (*)()) 0x81bcd70;
+inline bool (*Enumerator25::ptr::_HasNext)() = (bool (*)()) 0x8091a00;
+inline ConductorBattery * (*Enumerator25::ptr::_NextObject)() = (ConductorBattery * (*)()) 0x8091990;
+inline void (*Enumerator25::ptr::_mark)() = (void (*)()) 0x8084780;
 #endif
 #endif

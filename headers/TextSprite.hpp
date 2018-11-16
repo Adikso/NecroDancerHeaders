@@ -75,48 +75,48 @@ public:
 };
 
 #ifdef _WIN32
-XMLDoc * * TextSprite::localizationXML = (XMLDoc* *) 0x835850;
+inline XMLDoc * * TextSprite::localizationXML = (XMLDoc* *) 0x835850;
 
-void (*TextSprite::ptr::Init)() = (void (*)()) 0x535a00;
-TextSprite * (*TextSprite::ptr::New)(TextSprite * self, int j, float sc, int c, int z, bool shad, int shadC, int sOffX, int sOffY) = (TextSprite * (*)(TextSprite * self, int j, float sc, int c, int z, bool shad, int shadC, int sOffX, int sOffY)) 0x536320;
-void (*TextSprite::ptr::SetText)(TextSprite * self, String * t, bool force) = (void (*)(TextSprite * self, String * t, bool force)) 0x5363e0;
-void (*TextSprite::ptr::InWorld)(TextSprite * self, bool b) = (void (*)(TextSprite * self, bool b)) 0x5384f0;
-float (*TextSprite::ptr::DrawSprites)(TextSprite * self, List2 * sprites, float x, float y, int frameOverride, bool dryRun) = (float (*)(TextSprite * self, List2 * sprites, float x, float y, int frameOverride, bool dryRun)) 0x538570;
-float (*TextSprite::ptr::ScaledWidth)(TextSprite * self) = (float (*)(TextSprite * self)) 0x538690;
-void (*TextSprite::ptr::Discard)(TextSprite * self) = (void (*)(TextSprite * self)) 0x5386c0;
-void (*TextSprite::ptr::SetAlphaValue)(TextSprite * self, float a) = (void (*)(TextSprite * self, float a)) 0x538730;
-void (*TextSprite::ptr::HideInReplays)(TextSprite * self) = (void (*)(TextSprite * self)) 0x5387c0;
-void (*TextSprite::ptr::Draw2)(TextSprite * self, float x, float y, int frameOverride) = (void (*)(TextSprite * self, float x, float y, int frameOverride)) 0x538830;
-void (*TextSprite::ptr::DrawText)(TextSprite * self, String * t, float x, float y, bool force, bool hideInReplays) = (void (*)(TextSprite * self, String * t, float x, float y, bool force, bool hideInReplays)) 0x538900;
-int (*TextSprite::ptr::Height)(TextSprite * self) = (int (*)(TextSprite * self)) 0x5389b0;
-void (*TextSprite::ptr::SetAlphaTweenFromCurrent)(TextSprite * self, float finalVal, int duration) = (void (*)(TextSprite * self, float finalVal, int duration)) 0x5389e0;
-String * (*TextSprite::ptr::GetText)(TextSprite * self) = (String * (*)(TextSprite * self)) 0x538a80;
-void (*TextSprite::ptr::SetZOff2)(TextSprite * self, int zOff) = (void (*)(TextSprite * self, int zOff)) 0x538ae0;
-int (*TextSprite::ptr::GetWidthOffset)(TextSprite * self) = (int (*)(TextSprite * self)) 0x538b90;
-void (*TextSprite::ptr::mark)(TextSprite * self) = (void (*)(TextSprite * self)) 0x538be0;
-void (*TextSprite::ptr::CSTR_TextSprite)(TextSprite * self) = (void (*)(TextSprite * self)) 0x535730;
+inline void (*TextSprite::ptr::Init)() = (void (*)()) 0x535a00;
+inline TextSprite * (*TextSprite::ptr::New)(TextSprite * self, int j, float sc, int c, int z, bool shad, int shadC, int sOffX, int sOffY) = (TextSprite * (*)(TextSprite * self, int j, float sc, int c, int z, bool shad, int shadC, int sOffX, int sOffY)) 0x536320;
+inline void (*TextSprite::ptr::SetText)(TextSprite * self, String * t, bool force) = (void (*)(TextSprite * self, String * t, bool force)) 0x5363e0;
+inline void (*TextSprite::ptr::InWorld)(TextSprite * self, bool b) = (void (*)(TextSprite * self, bool b)) 0x5384f0;
+inline float (*TextSprite::ptr::DrawSprites)(TextSprite * self, List2 * sprites, float x, float y, int frameOverride, bool dryRun) = (float (*)(TextSprite * self, List2 * sprites, float x, float y, int frameOverride, bool dryRun)) 0x538570;
+inline float (*TextSprite::ptr::ScaledWidth)(TextSprite * self) = (float (*)(TextSprite * self)) 0x538690;
+inline void (*TextSprite::ptr::Discard)(TextSprite * self) = (void (*)(TextSprite * self)) 0x5386c0;
+inline void (*TextSprite::ptr::SetAlphaValue)(TextSprite * self, float a) = (void (*)(TextSprite * self, float a)) 0x538730;
+inline void (*TextSprite::ptr::HideInReplays)(TextSprite * self) = (void (*)(TextSprite * self)) 0x5387c0;
+inline void (*TextSprite::ptr::Draw2)(TextSprite * self, float x, float y, int frameOverride) = (void (*)(TextSprite * self, float x, float y, int frameOverride)) 0x538830;
+inline void (*TextSprite::ptr::DrawText)(TextSprite * self, String * t, float x, float y, bool force, bool hideInReplays) = (void (*)(TextSprite * self, String * t, float x, float y, bool force, bool hideInReplays)) 0x538900;
+inline int (*TextSprite::ptr::Height)(TextSprite * self) = (int (*)(TextSprite * self)) 0x5389b0;
+inline void (*TextSprite::ptr::SetAlphaTweenFromCurrent)(TextSprite * self, float finalVal, int duration) = (void (*)(TextSprite * self, float finalVal, int duration)) 0x5389e0;
+inline String * (*TextSprite::ptr::GetText)(TextSprite * self) = (String * (*)(TextSprite * self)) 0x538a80;
+inline void (*TextSprite::ptr::SetZOff2)(TextSprite * self, int zOff) = (void (*)(TextSprite * self, int zOff)) 0x538ae0;
+inline int (*TextSprite::ptr::GetWidthOffset)(TextSprite * self) = (int (*)(TextSprite * self)) 0x538b90;
+inline void (*TextSprite::ptr::mark)(TextSprite * self) = (void (*)(TextSprite * self)) 0x538be0;
+inline void (*TextSprite::ptr::CSTR_TextSprite)(TextSprite * self) = (void (*)(TextSprite * self)) 0x535730;
 #endif
 
 #ifdef __linux__
-XMLDoc * * TextSprite::localizationXML = (XMLDoc* *) 0x856a864;
+inline XMLDoc * * TextSprite::localizationXML = (XMLDoc* *) 0x856a864;
 
-void (*TextSprite::ptr::Init)() = (void (*)()) 0x8144160;
-TextSprite * (*TextSprite::ptr::New)(TextSprite * self, int j, float sc, int c, int z, bool shad, int shadC, int sOffX, int sOffY) = (TextSprite * (*)(TextSprite * self, int j, float sc, int c, int z, bool shad, int shadC, int sOffX, int sOffY)) 0x8144c80;
-void (*TextSprite::ptr::SetText)(TextSprite * self, String * t, bool force) = (void (*)(TextSprite * self, String * t, bool force)) 0x820dc50;
-void (*TextSprite::ptr::InWorld)(TextSprite * self, bool b) = (void (*)(TextSprite * self, bool b)) 0x806e9e0;
-float (*TextSprite::ptr::DrawSprites)(TextSprite * self, List2 * sprites, float x, float y, int frameOverride, bool dryRun) = (float (*)(TextSprite * self, List2 * sprites, float x, float y, int frameOverride, bool dryRun)) 0x806ea70;
-float (*TextSprite::ptr::ScaledWidth)(TextSprite * self) = (float (*)(TextSprite * self)) 0x806eb90;
-void (*TextSprite::ptr::Discard)(TextSprite * self) = (void (*)(TextSprite * self)) 0x806ebd0;
-void (*TextSprite::ptr::SetAlphaValue)(TextSprite * self, float a) = (void (*)(TextSprite * self, float a)) 0x806ec40;
-void (*TextSprite::ptr::HideInReplays)(TextSprite * self) = (void (*)(TextSprite * self)) 0x806ecc0;
-void (*TextSprite::ptr::Draw2)(TextSprite * self, float x, float y, int frameOverride) = (void (*)(TextSprite * self, float x, float y, int frameOverride)) 0x806ed30;
-void (*TextSprite::ptr::DrawText)(TextSprite * self, String * t, float x, float y, bool force, bool hideInReplays) = (void (*)(TextSprite * self, String * t, float x, float y, bool force, bool hideInReplays)) 0x80c4190;
-int (*TextSprite::ptr::Height)(TextSprite * self) = (int (*)(TextSprite * self)) 0x807e510;
-void (*TextSprite::ptr::SetAlphaTweenFromCurrent)(TextSprite * self, float finalVal, int duration) = (void (*)(TextSprite * self, float finalVal, int duration)) 0x806ee10;
-String * (*TextSprite::ptr::GetText)(TextSprite * self) = (String * (*)(TextSprite * self)) 0x806eea0;
-void (*TextSprite::ptr::SetZOff2)(TextSprite * self, int zOff) = (void (*)(TextSprite * self, int zOff)) 0x806eec0;
-int (*TextSprite::ptr::GetWidthOffset)(TextSprite * self) = (int (*)(TextSprite * self)) 0x807e550;
-void (*TextSprite::ptr::mark)(TextSprite * self) = (void (*)(TextSprite * self)) 0x8086ef0;
-void (*TextSprite::ptr::CSTR_TextSprite)(TextSprite * self) = (void (*)(TextSprite * self)) 0x81461f0;
+inline void (*TextSprite::ptr::Init)() = (void (*)()) 0x8144160;
+inline TextSprite * (*TextSprite::ptr::New)(TextSprite * self, int j, float sc, int c, int z, bool shad, int shadC, int sOffX, int sOffY) = (TextSprite * (*)(TextSprite * self, int j, float sc, int c, int z, bool shad, int shadC, int sOffX, int sOffY)) 0x8144c80;
+inline void (*TextSprite::ptr::SetText)(TextSprite * self, String * t, bool force) = (void (*)(TextSprite * self, String * t, bool force)) 0x820dc50;
+inline void (*TextSprite::ptr::InWorld)(TextSprite * self, bool b) = (void (*)(TextSprite * self, bool b)) 0x806e9e0;
+inline float (*TextSprite::ptr::DrawSprites)(TextSprite * self, List2 * sprites, float x, float y, int frameOverride, bool dryRun) = (float (*)(TextSprite * self, List2 * sprites, float x, float y, int frameOverride, bool dryRun)) 0x806ea70;
+inline float (*TextSprite::ptr::ScaledWidth)(TextSprite * self) = (float (*)(TextSprite * self)) 0x806eb90;
+inline void (*TextSprite::ptr::Discard)(TextSprite * self) = (void (*)(TextSprite * self)) 0x806ebd0;
+inline void (*TextSprite::ptr::SetAlphaValue)(TextSprite * self, float a) = (void (*)(TextSprite * self, float a)) 0x806ec40;
+inline void (*TextSprite::ptr::HideInReplays)(TextSprite * self) = (void (*)(TextSprite * self)) 0x806ecc0;
+inline void (*TextSprite::ptr::Draw2)(TextSprite * self, float x, float y, int frameOverride) = (void (*)(TextSprite * self, float x, float y, int frameOverride)) 0x806ed30;
+inline void (*TextSprite::ptr::DrawText)(TextSprite * self, String * t, float x, float y, bool force, bool hideInReplays) = (void (*)(TextSprite * self, String * t, float x, float y, bool force, bool hideInReplays)) 0x80c4190;
+inline int (*TextSprite::ptr::Height)(TextSprite * self) = (int (*)(TextSprite * self)) 0x807e510;
+inline void (*TextSprite::ptr::SetAlphaTweenFromCurrent)(TextSprite * self, float finalVal, int duration) = (void (*)(TextSprite * self, float finalVal, int duration)) 0x806ee10;
+inline String * (*TextSprite::ptr::GetText)(TextSprite * self) = (String * (*)(TextSprite * self)) 0x806eea0;
+inline void (*TextSprite::ptr::SetZOff2)(TextSprite * self, int zOff) = (void (*)(TextSprite * self, int zOff)) 0x806eec0;
+inline int (*TextSprite::ptr::GetWidthOffset)(TextSprite * self) = (int (*)(TextSprite * self)) 0x807e550;
+inline void (*TextSprite::ptr::mark)(TextSprite * self) = (void (*)(TextSprite * self)) 0x8086ef0;
+inline void (*TextSprite::ptr::CSTR_TextSprite)(TextSprite * self) = (void (*)(TextSprite * self)) 0x81461f0;
 #endif
 #endif

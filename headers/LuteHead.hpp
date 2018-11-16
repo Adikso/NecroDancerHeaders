@@ -74,49 +74,49 @@ public:
 
 #ifdef _WIN32
 
-LuteHead * (*LuteHead::ptr::New)(LuteHead * self, LuteDragon * d, int xVal, int yVal, int l) = (LuteHead * (*)(LuteHead * self, LuteDragon * d, int xVal, int yVal, int l)) 0x6136f0;
-LuteHead * (*LuteHead::ptr::_new2)() = (LuteHead * (*)()) 0x0;
-bool (*LuteHead::ptr::IsAngry)(LuteHead * self) = (bool (*)(LuteHead * self)) 0x613940;
-Enemy * (*LuteHead::ptr::SummonEnemy)(LuteHead * self, int enemyType) = (Enemy * (*)(LuteHead * self, int enemyType)) 0x613b40;
-void (*LuteHead::ptr::CastSpell2)(LuteHead * self) = (void (*)(LuteHead * self)) 0x6140a0;
-void (*LuteHead::ptr::DoShot)(LuteHead * self) = (void (*)(LuteHead * self)) 0x6146c0;
-void (*LuteHead::ptr::Update)(LuteHead * self) = (void (*)(LuteHead * self)) 0x6149a0;
-bool (*LuteHead::ptr::_IsConfused)() = (bool (*)()) 0x0;
-bool (*LuteHead::ptr::IsValidMove)(LuteHead * self, int dir) = (bool (*)(LuteHead * self, int dir)) 0x614dc0;
-Point * (*LuteHead::ptr::GetMovementDirection)(LuteHead * self) = (Point * (*)(LuteHead * self)) 0x614ef0;
-int (*LuteHead::ptr::PerformMovement)(LuteHead * self, int xVal, int yVal) = (int (*)(LuteHead * self, int xVal, int yVal)) 0x615330;
-Player * (*LuteHead::ptr::ClearShot)(LuteHead * self) = (Player * (*)(LuteHead * self)) 0x615380;
-void (*LuteHead::ptr::MoveSucceed)(LuteHead * self, bool hitPlayer, bool moveDelayed) = (void (*)(LuteHead * self, bool hitPlayer, bool moveDelayed)) 0x6154d0;
-bool (*LuteHead::ptr::Hit)(LuteHead * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(LuteHead * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x615670;
-bool (*LuteHead::ptr::_ImmuneToFear)() = (bool (*)()) 0x0;
-void (*LuteHead::ptr::Die)(LuteHead * self) = (void (*)(LuteHead * self)) 0x615fa0;
-void (*LuteHead::ptr::PerformTween)(LuteHead * self, int xVal, int yVal, int oldX, int oldY, int tweenType, int shadowTweenType, bool bufferTween) = (void (*)(LuteHead * self, int xVal, int yVal, int oldX, int oldY, int tweenType, int shadowTweenType, bool bufferTween)) 0x615fb0;
-void (*LuteHead::ptr::_Knockback)(LuteHead * self, int arg1) = (void (*)(LuteHead * self, int arg1)) 0x0;
-void (*LuteHead::ptr::_mark)() = (void (*)()) 0x0;
-void (*LuteHead::ptr::CSTR_LuteHead)(LuteHead * self) = (void (*)(LuteHead * self)) 0x613640;
+inline LuteHead * (*LuteHead::ptr::New)(LuteHead * self, LuteDragon * d, int xVal, int yVal, int l) = (LuteHead * (*)(LuteHead * self, LuteDragon * d, int xVal, int yVal, int l)) 0x6136f0;
+inline LuteHead * (*LuteHead::ptr::_new2)() = (LuteHead * (*)()) 0x0;
+inline bool (*LuteHead::ptr::IsAngry)(LuteHead * self) = (bool (*)(LuteHead * self)) 0x613940;
+inline Enemy * (*LuteHead::ptr::SummonEnemy)(LuteHead * self, int enemyType) = (Enemy * (*)(LuteHead * self, int enemyType)) 0x613b40;
+inline void (*LuteHead::ptr::CastSpell2)(LuteHead * self) = (void (*)(LuteHead * self)) 0x6140a0;
+inline void (*LuteHead::ptr::DoShot)(LuteHead * self) = (void (*)(LuteHead * self)) 0x6146c0;
+inline void (*LuteHead::ptr::Update)(LuteHead * self) = (void (*)(LuteHead * self)) 0x6149a0;
+inline bool (*LuteHead::ptr::_IsConfused)() = (bool (*)()) 0x0;
+inline bool (*LuteHead::ptr::IsValidMove)(LuteHead * self, int dir) = (bool (*)(LuteHead * self, int dir)) 0x614dc0;
+inline Point * (*LuteHead::ptr::GetMovementDirection)(LuteHead * self) = (Point * (*)(LuteHead * self)) 0x614ef0;
+inline int (*LuteHead::ptr::PerformMovement)(LuteHead * self, int xVal, int yVal) = (int (*)(LuteHead * self, int xVal, int yVal)) 0x615330;
+inline Player * (*LuteHead::ptr::ClearShot)(LuteHead * self) = (Player * (*)(LuteHead * self)) 0x615380;
+inline void (*LuteHead::ptr::MoveSucceed)(LuteHead * self, bool hitPlayer, bool moveDelayed) = (void (*)(LuteHead * self, bool hitPlayer, bool moveDelayed)) 0x6154d0;
+inline bool (*LuteHead::ptr::Hit)(LuteHead * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(LuteHead * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x615670;
+inline bool (*LuteHead::ptr::_ImmuneToFear)() = (bool (*)()) 0x0;
+inline void (*LuteHead::ptr::Die)(LuteHead * self) = (void (*)(LuteHead * self)) 0x615fa0;
+inline void (*LuteHead::ptr::PerformTween)(LuteHead * self, int xVal, int yVal, int oldX, int oldY, int tweenType, int shadowTweenType, bool bufferTween) = (void (*)(LuteHead * self, int xVal, int yVal, int oldX, int oldY, int tweenType, int shadowTweenType, bool bufferTween)) 0x615fb0;
+inline void (*LuteHead::ptr::_Knockback)(LuteHead * self, int arg1) = (void (*)(LuteHead * self, int arg1)) 0x0;
+inline void (*LuteHead::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*LuteHead::ptr::CSTR_LuteHead)(LuteHead * self) = (void (*)(LuteHead * self)) 0x613640;
 #endif
 
 #ifdef __linux__
 
-LuteHead * (*LuteHead::ptr::New)(LuteHead * self, LuteDragon * d, int xVal, int yVal, int l) = (LuteHead * (*)(LuteHead * self, LuteDragon * d, int xVal, int yVal, int l)) 0x81b4750;
-LuteHead * (*LuteHead::ptr::_new2)() = (LuteHead * (*)()) 0x81b5990;
-bool (*LuteHead::ptr::IsAngry)(LuteHead * self) = (bool (*)(LuteHead * self)) 0x825e520;
-Enemy * (*LuteHead::ptr::SummonEnemy)(LuteHead * self, int enemyType) = (Enemy * (*)(LuteHead * self, int enemyType)) 0x81d0560;
-void (*LuteHead::ptr::CastSpell2)(LuteHead * self) = (void (*)(LuteHead * self)) 0x83a2150;
-void (*LuteHead::ptr::DoShot)(LuteHead * self) = (void (*)(LuteHead * self)) 0x83be900;
-void (*LuteHead::ptr::Update)(LuteHead * self) = (void (*)(LuteHead * self)) 0x8385230;
-bool (*LuteHead::ptr::_IsConfused)() = (bool (*)()) 0x8074c30;
-bool (*LuteHead::ptr::IsValidMove)(LuteHead * self, int dir) = (bool (*)(LuteHead * self, int dir)) 0x8133450;
-Point * (*LuteHead::ptr::GetMovementDirection)(LuteHead * self) = (Point * (*)(LuteHead * self)) 0x819fd80;
-int (*LuteHead::ptr::PerformMovement)(LuteHead * self, int xVal, int yVal) = (int (*)(LuteHead * self, int xVal, int yVal)) 0x81a8d10;
-Player * (*LuteHead::ptr::ClearShot)(LuteHead * self) = (Player * (*)(LuteHead * self)) 0x812e2b0;
-void (*LuteHead::ptr::MoveSucceed)(LuteHead * self, bool hitPlayer, bool moveDelayed) = (void (*)(LuteHead * self, bool hitPlayer, bool moveDelayed)) 0x8319610;
-bool (*LuteHead::ptr::Hit)(LuteHead * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(LuteHead * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x839bcf0;
-bool (*LuteHead::ptr::_ImmuneToFear)() = (bool (*)()) 0x8074c40;
-void (*LuteHead::ptr::Die)(LuteHead * self) = (void (*)(LuteHead * self)) 0x83b6a90;
-void (*LuteHead::ptr::PerformTween)(LuteHead * self, int xVal, int yVal, int oldX, int oldY, int tweenType, int shadowTweenType, bool bufferTween) = (void (*)(LuteHead * self, int xVal, int yVal, int oldX, int oldY, int tweenType, int shadowTweenType, bool bufferTween)) 0x8082160;
-void (*LuteHead::ptr::_Knockback)(LuteHead * self, int arg1) = (void (*)(LuteHead * self, int arg1)) 0x8074c50;
-void (*LuteHead::ptr::_mark)() = (void (*)()) 0x80b0c70;
-void (*LuteHead::ptr::CSTR_LuteHead)(LuteHead * self) = (void (*)(LuteHead * self)) 0x81b46d0;
+inline LuteHead * (*LuteHead::ptr::New)(LuteHead * self, LuteDragon * d, int xVal, int yVal, int l) = (LuteHead * (*)(LuteHead * self, LuteDragon * d, int xVal, int yVal, int l)) 0x81b4750;
+inline LuteHead * (*LuteHead::ptr::_new2)() = (LuteHead * (*)()) 0x81b5990;
+inline bool (*LuteHead::ptr::IsAngry)(LuteHead * self) = (bool (*)(LuteHead * self)) 0x825e520;
+inline Enemy * (*LuteHead::ptr::SummonEnemy)(LuteHead * self, int enemyType) = (Enemy * (*)(LuteHead * self, int enemyType)) 0x81d0560;
+inline void (*LuteHead::ptr::CastSpell2)(LuteHead * self) = (void (*)(LuteHead * self)) 0x83a2150;
+inline void (*LuteHead::ptr::DoShot)(LuteHead * self) = (void (*)(LuteHead * self)) 0x83be900;
+inline void (*LuteHead::ptr::Update)(LuteHead * self) = (void (*)(LuteHead * self)) 0x8385230;
+inline bool (*LuteHead::ptr::_IsConfused)() = (bool (*)()) 0x8074c30;
+inline bool (*LuteHead::ptr::IsValidMove)(LuteHead * self, int dir) = (bool (*)(LuteHead * self, int dir)) 0x8133450;
+inline Point * (*LuteHead::ptr::GetMovementDirection)(LuteHead * self) = (Point * (*)(LuteHead * self)) 0x819fd80;
+inline int (*LuteHead::ptr::PerformMovement)(LuteHead * self, int xVal, int yVal) = (int (*)(LuteHead * self, int xVal, int yVal)) 0x81a8d10;
+inline Player * (*LuteHead::ptr::ClearShot)(LuteHead * self) = (Player * (*)(LuteHead * self)) 0x812e2b0;
+inline void (*LuteHead::ptr::MoveSucceed)(LuteHead * self, bool hitPlayer, bool moveDelayed) = (void (*)(LuteHead * self, bool hitPlayer, bool moveDelayed)) 0x8319610;
+inline bool (*LuteHead::ptr::Hit)(LuteHead * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(LuteHead * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x839bcf0;
+inline bool (*LuteHead::ptr::_ImmuneToFear)() = (bool (*)()) 0x8074c40;
+inline void (*LuteHead::ptr::Die)(LuteHead * self) = (void (*)(LuteHead * self)) 0x83b6a90;
+inline void (*LuteHead::ptr::PerformTween)(LuteHead * self, int xVal, int yVal, int oldX, int oldY, int tweenType, int shadowTweenType, bool bufferTween) = (void (*)(LuteHead * self, int xVal, int yVal, int oldX, int oldY, int tweenType, int shadowTweenType, bool bufferTween)) 0x8082160;
+inline void (*LuteHead::ptr::_Knockback)(LuteHead * self, int arg1) = (void (*)(LuteHead * self, int arg1)) 0x8074c50;
+inline void (*LuteHead::ptr::_mark)() = (void (*)()) 0x80b0c70;
+inline void (*LuteHead::ptr::CSTR_LuteHead)(LuteHead * self) = (void (*)(LuteHead * self)) 0x81b46d0;
 #endif
 #endif

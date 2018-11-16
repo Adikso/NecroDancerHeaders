@@ -55,38 +55,38 @@ public:
 };
 
 #ifdef _WIN32
-int * Image::DefaultFlags = (int*) 0x835c30;
+inline int * Image::DefaultFlags = (int*) 0x835c30;
 
-Image * (*Image::ptr::_New)() = (Image * (*)()) 0x0;
-int (*Image::ptr::SetHandle)(Image * self, float tx, float ty) = (int (*)(Image * self, float tx, float ty)) 0x41e520;
-int (*Image::ptr::ApplyFlags)(Image * self, int iflags) = (int (*)(Image * self, int iflags)) 0x41e550;
-Image * (*Image::ptr::Init)(Image * self, gxtkSurface * surf, int nframes, int iflags) = (Image * (*)(Image * self, gxtkSurface * surf, int nframes, int iflags)) 0x41e630;
-Image * (*Image::ptr::Grab)(Image * self, int x, int y, int iwidth, int iheight, int nframes, int iflags, Image * source) = (Image * (*)(Image * self, int x, int y, int iwidth, int iheight, int nframes, int iflags, Image * source)) 0x41e7e0;
-Image * (*Image::ptr::GrabImage)(Image * self, int x, int y, int width, int height, int frames, int flags) = (Image * (*)(Image * self, int x, int y, int width, int height, int frames, int flags)) 0x41ea80;
-int (*Image::ptr::Width)(Image * self) = (int (*)(Image * self)) 0x408080;
-int (*Image::ptr::_Height)() = (int (*)()) 0x0;
-int (*Image::ptr::Discard)(Image * self) = (int (*)(Image * self)) 0x41eb20;
-int (*Image::ptr::WritePixels)(Image * self, Array<int> * pixels, int x, int y, int width, int height, int offset, int pitch) = (int (*)(Image * self, Array<int> * pixels, int x, int y, int width, int height, int offset, int pitch)) 0x41eb40;
-int (*Image::ptr::Frames)(Image * self) = (int (*)(Image * self)) 0x41eb80;
-void (*Image::ptr::mark)(Image * self) = (void (*)(Image * self)) 0x41eb90;
-void (*Image::ptr::CSTR_Image)(Image * self) = (void (*)(Image * self)) 0x41e480;
+inline Image * (*Image::ptr::_New)() = (Image * (*)()) 0x0;
+inline int (*Image::ptr::SetHandle)(Image * self, float tx, float ty) = (int (*)(Image * self, float tx, float ty)) 0x41e520;
+inline int (*Image::ptr::ApplyFlags)(Image * self, int iflags) = (int (*)(Image * self, int iflags)) 0x41e550;
+inline Image * (*Image::ptr::Init)(Image * self, gxtkSurface * surf, int nframes, int iflags) = (Image * (*)(Image * self, gxtkSurface * surf, int nframes, int iflags)) 0x41e630;
+inline Image * (*Image::ptr::Grab)(Image * self, int x, int y, int iwidth, int iheight, int nframes, int iflags, Image * source) = (Image * (*)(Image * self, int x, int y, int iwidth, int iheight, int nframes, int iflags, Image * source)) 0x41e7e0;
+inline Image * (*Image::ptr::GrabImage)(Image * self, int x, int y, int width, int height, int frames, int flags) = (Image * (*)(Image * self, int x, int y, int width, int height, int frames, int flags)) 0x41ea80;
+inline int (*Image::ptr::Width)(Image * self) = (int (*)(Image * self)) 0x408080;
+inline int (*Image::ptr::_Height)() = (int (*)()) 0x0;
+inline int (*Image::ptr::Discard)(Image * self) = (int (*)(Image * self)) 0x41eb20;
+inline int (*Image::ptr::WritePixels)(Image * self, Array<int> * pixels, int x, int y, int width, int height, int offset, int pitch) = (int (*)(Image * self, Array<int> * pixels, int x, int y, int width, int height, int offset, int pitch)) 0x41eb40;
+inline int (*Image::ptr::Frames)(Image * self) = (int (*)(Image * self)) 0x41eb80;
+inline void (*Image::ptr::mark)(Image * self) = (void (*)(Image * self)) 0x41eb90;
+inline void (*Image::ptr::CSTR_Image)(Image * self) = (void (*)(Image * self)) 0x41e480;
 #endif
 
 #ifdef __linux__
-int * Image::DefaultFlags = (int*) 0x856abb0;
+inline int * Image::DefaultFlags = (int*) 0x856abb0;
 
-Image * (*Image::ptr::_New)() = (Image * (*)()) 0x80fe340;
-int (*Image::ptr::SetHandle)(Image * self, float tx, float ty) = (int (*)(Image * self, float tx, float ty)) 0x806d3a0;
-int (*Image::ptr::ApplyFlags)(Image * self, int iflags) = (int (*)(Image * self, int iflags)) 0x806d3c0;
-Image * (*Image::ptr::Init)(Image * self, gxtkSurface * surf, int nframes, int iflags) = (Image * (*)(Image * self, gxtkSurface * surf, int nframes, int iflags)) 0x80bfd50;
-Image * (*Image::ptr::Grab)(Image * self, int x, int y, int iwidth, int iheight, int nframes, int iflags, Image * source) = (Image * (*)(Image * self, int x, int y, int iwidth, int iheight, int nframes, int iflags, Image * source)) 0x81f7320;
-Image * (*Image::ptr::GrabImage)(Image * self, int x, int y, int width, int height, int frames, int flags) = (Image * (*)(Image * self, int x, int y, int width, int height, int frames, int flags)) 0x80fe090;
-int (*Image::ptr::Width)(Image * self) = (int (*)(Image * self)) 0x806d4b0;
-int (*Image::ptr::_Height)() = (int (*)()) 0x806d4c0;
-int (*Image::ptr::Discard)(Image * self) = (int (*)(Image * self)) 0x807ddd0;
-int (*Image::ptr::WritePixels)(Image * self, Array<int> * pixels, int x, int y, int width, int height, int offset, int pitch) = (int (*)(Image * self, Array<int> * pixels, int x, int y, int width, int height, int offset, int pitch)) 0x806d4d0;
-int (*Image::ptr::Frames)(Image * self) = (int (*)(Image * self)) 0x806d540;
-void (*Image::ptr::mark)(Image * self) = (void (*)(Image * self)) 0x8092cb0;
-void (*Image::ptr::CSTR_Image)(Image * self) = (void (*)(Image * self)) 0x80fdf50;
+inline Image * (*Image::ptr::_New)() = (Image * (*)()) 0x80fe340;
+inline int (*Image::ptr::SetHandle)(Image * self, float tx, float ty) = (int (*)(Image * self, float tx, float ty)) 0x806d3a0;
+inline int (*Image::ptr::ApplyFlags)(Image * self, int iflags) = (int (*)(Image * self, int iflags)) 0x806d3c0;
+inline Image * (*Image::ptr::Init)(Image * self, gxtkSurface * surf, int nframes, int iflags) = (Image * (*)(Image * self, gxtkSurface * surf, int nframes, int iflags)) 0x80bfd50;
+inline Image * (*Image::ptr::Grab)(Image * self, int x, int y, int iwidth, int iheight, int nframes, int iflags, Image * source) = (Image * (*)(Image * self, int x, int y, int iwidth, int iheight, int nframes, int iflags, Image * source)) 0x81f7320;
+inline Image * (*Image::ptr::GrabImage)(Image * self, int x, int y, int width, int height, int frames, int flags) = (Image * (*)(Image * self, int x, int y, int width, int height, int frames, int flags)) 0x80fe090;
+inline int (*Image::ptr::Width)(Image * self) = (int (*)(Image * self)) 0x806d4b0;
+inline int (*Image::ptr::_Height)() = (int (*)()) 0x806d4c0;
+inline int (*Image::ptr::Discard)(Image * self) = (int (*)(Image * self)) 0x807ddd0;
+inline int (*Image::ptr::WritePixels)(Image * self, Array<int> * pixels, int x, int y, int width, int height, int offset, int pitch) = (int (*)(Image * self, Array<int> * pixels, int x, int y, int width, int height, int offset, int pitch)) 0x806d4d0;
+inline int (*Image::ptr::Frames)(Image * self) = (int (*)(Image * self)) 0x806d540;
+inline void (*Image::ptr::mark)(Image * self) = (void (*)(Image * self)) 0x8092cb0;
+inline void (*Image::ptr::CSTR_Image)(Image * self) = (void (*)(Image * self)) 0x80fdf50;
 #endif
 #endif

@@ -42,31 +42,31 @@ public:
 
 #ifdef _WIN32
 
-ShopkeeperGhost * (*ShopkeeperGhost::ptr::New)(ShopkeeperGhost * self, int xVal, int yVal, int l) = (ShopkeeperGhost * (*)(ShopkeeperGhost * self, int xVal, int yVal, int l)) 0x6376d0;
-ShopkeeperGhost * (*ShopkeeperGhost::ptr::_new2)() = (ShopkeeperGhost * (*)()) 0x0;
-float (*ShopkeeperGhost::ptr::FindVolume)(ShopkeeperGhost * self) = (float (*)(ShopkeeperGhost * self)) 0x6378d0;
-float (*ShopkeeperGhost::ptr::FindPan)(ShopkeeperGhost * self) = (float (*)(ShopkeeperGhost * self)) 0x6379e0;
-void (*ShopkeeperGhost::ptr::Update)(ShopkeeperGhost * self) = (void (*)(ShopkeeperGhost * self)) 0x637a50;
-void (*ShopkeeperGhost::ptr::MoveSucceed)(ShopkeeperGhost * self, bool hitPlayer, bool moveDelayed) = (void (*)(ShopkeeperGhost * self, bool hitPlayer, bool moveDelayed)) 0x637c40;
-bool (*ShopkeeperGhost::ptr::IsVisible)(ShopkeeperGhost * self) = (bool (*)(ShopkeeperGhost * self)) 0x5bd390;
-void (*ShopkeeperGhost::ptr::Render)(ShopkeeperGhost * self) = (void (*)(ShopkeeperGhost * self)) 0x637db0;
-void (*ShopkeeperGhost::ptr::Die)(ShopkeeperGhost * self) = (void (*)(ShopkeeperGhost * self)) 0x637dc0;
-void (*ShopkeeperGhost::ptr::_mark)() = (void (*)()) 0x0;
-void (*ShopkeeperGhost::ptr::CSTR_ShopkeeperGhost)(ShopkeeperGhost * self) = (void (*)(ShopkeeperGhost * self)) 0x637670;
+inline ShopkeeperGhost * (*ShopkeeperGhost::ptr::New)(ShopkeeperGhost * self, int xVal, int yVal, int l) = (ShopkeeperGhost * (*)(ShopkeeperGhost * self, int xVal, int yVal, int l)) 0x6376d0;
+inline ShopkeeperGhost * (*ShopkeeperGhost::ptr::_new2)() = (ShopkeeperGhost * (*)()) 0x0;
+inline float (*ShopkeeperGhost::ptr::FindVolume)(ShopkeeperGhost * self) = (float (*)(ShopkeeperGhost * self)) 0x6378d0;
+inline float (*ShopkeeperGhost::ptr::FindPan)(ShopkeeperGhost * self) = (float (*)(ShopkeeperGhost * self)) 0x6379e0;
+inline void (*ShopkeeperGhost::ptr::Update)(ShopkeeperGhost * self) = (void (*)(ShopkeeperGhost * self)) 0x637a50;
+inline void (*ShopkeeperGhost::ptr::MoveSucceed)(ShopkeeperGhost * self, bool hitPlayer, bool moveDelayed) = (void (*)(ShopkeeperGhost * self, bool hitPlayer, bool moveDelayed)) 0x637c40;
+inline bool (*ShopkeeperGhost::ptr::IsVisible)(ShopkeeperGhost * self) = (bool (*)(ShopkeeperGhost * self)) 0x5bd390;
+inline void (*ShopkeeperGhost::ptr::Render)(ShopkeeperGhost * self) = (void (*)(ShopkeeperGhost * self)) 0x637db0;
+inline void (*ShopkeeperGhost::ptr::Die)(ShopkeeperGhost * self) = (void (*)(ShopkeeperGhost * self)) 0x637dc0;
+inline void (*ShopkeeperGhost::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*ShopkeeperGhost::ptr::CSTR_ShopkeeperGhost)(ShopkeeperGhost * self) = (void (*)(ShopkeeperGhost * self)) 0x637670;
 #endif
 
 #ifdef __linux__
 
-ShopkeeperGhost * (*ShopkeeperGhost::ptr::New)(ShopkeeperGhost * self, int xVal, int yVal, int l) = (ShopkeeperGhost * (*)(ShopkeeperGhost * self, int xVal, int yVal, int l)) 0x81be4f0;
-ShopkeeperGhost * (*ShopkeeperGhost::ptr::_new2)() = (ShopkeeperGhost * (*)()) 0x81be700;
-float (*ShopkeeperGhost::ptr::FindVolume)(ShopkeeperGhost * self) = (float (*)(ShopkeeperGhost * self)) 0x81096e0;
-float (*ShopkeeperGhost::ptr::FindPan)(ShopkeeperGhost * self) = (float (*)(ShopkeeperGhost * self)) 0x80964d0;
-void (*ShopkeeperGhost::ptr::Update)(ShopkeeperGhost * self) = (void (*)(ShopkeeperGhost * self)) 0x8383380;
-void (*ShopkeeperGhost::ptr::MoveSucceed)(ShopkeeperGhost * self, bool hitPlayer, bool moveDelayed) = (void (*)(ShopkeeperGhost * self, bool hitPlayer, bool moveDelayed)) 0x8311ab0;
-bool (*ShopkeeperGhost::ptr::IsVisible)(ShopkeeperGhost * self) = (bool (*)(ShopkeeperGhost * self)) 0x8075dd0;
-void (*ShopkeeperGhost::ptr::Render)(ShopkeeperGhost * self) = (void (*)(ShopkeeperGhost * self)) 0x830c260;
-void (*ShopkeeperGhost::ptr::Die)(ShopkeeperGhost * self) = (void (*)(ShopkeeperGhost * self)) 0x83b64c0;
-void (*ShopkeeperGhost::ptr::_mark)() = (void (*)()) 0x80b0830;
-void (*ShopkeeperGhost::ptr::CSTR_ShopkeeperGhost)(ShopkeeperGhost * self) = (void (*)(ShopkeeperGhost * self)) 0x81be4c0;
+inline ShopkeeperGhost * (*ShopkeeperGhost::ptr::New)(ShopkeeperGhost * self, int xVal, int yVal, int l) = (ShopkeeperGhost * (*)(ShopkeeperGhost * self, int xVal, int yVal, int l)) 0x81be4f0;
+inline ShopkeeperGhost * (*ShopkeeperGhost::ptr::_new2)() = (ShopkeeperGhost * (*)()) 0x81be700;
+inline float (*ShopkeeperGhost::ptr::FindVolume)(ShopkeeperGhost * self) = (float (*)(ShopkeeperGhost * self)) 0x81096e0;
+inline float (*ShopkeeperGhost::ptr::FindPan)(ShopkeeperGhost * self) = (float (*)(ShopkeeperGhost * self)) 0x80964d0;
+inline void (*ShopkeeperGhost::ptr::Update)(ShopkeeperGhost * self) = (void (*)(ShopkeeperGhost * self)) 0x8383380;
+inline void (*ShopkeeperGhost::ptr::MoveSucceed)(ShopkeeperGhost * self, bool hitPlayer, bool moveDelayed) = (void (*)(ShopkeeperGhost * self, bool hitPlayer, bool moveDelayed)) 0x8311ab0;
+inline bool (*ShopkeeperGhost::ptr::IsVisible)(ShopkeeperGhost * self) = (bool (*)(ShopkeeperGhost * self)) 0x8075dd0;
+inline void (*ShopkeeperGhost::ptr::Render)(ShopkeeperGhost * self) = (void (*)(ShopkeeperGhost * self)) 0x830c260;
+inline void (*ShopkeeperGhost::ptr::Die)(ShopkeeperGhost * self) = (void (*)(ShopkeeperGhost * self)) 0x83b64c0;
+inline void (*ShopkeeperGhost::ptr::_mark)() = (void (*)()) 0x80b0830;
+inline void (*ShopkeeperGhost::ptr::CSTR_ShopkeeperGhost)(ShopkeeperGhost * self) = (void (*)(ShopkeeperGhost * self)) 0x81be4c0;
 #endif
 #endif

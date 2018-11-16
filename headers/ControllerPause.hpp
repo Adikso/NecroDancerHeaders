@@ -64,29 +64,29 @@ public:
 
 #ifdef _WIN32
 
-ControllerPause * (*ControllerPause::ptr::New)(ControllerPause * self, ControllerGame * game) = (ControllerPause * (*)(ControllerPause * self, ControllerGame * game)) 0x68a250;
-ControllerPause * (*ControllerPause::ptr::_new2)() = (ControllerPause * (*)()) 0x0;
-void (*ControllerPause::ptr::Update)(ControllerPause * self) = (void (*)(ControllerPause * self)) 0x68a620;
-void (*ControllerPause::ptr::Render)(ControllerPause * self) = (void (*)(ControllerPause * self)) 0x68a640;
-void (*ControllerPause::ptr::_RegainFocus)() = (void (*)()) 0x0;
-void (*ControllerPause::ptr::ExitGame)(ControllerPause * self) = (void (*)(ControllerPause * self)) 0x68ab40;
-void (*ControllerPause::ptr::GUICallback)(ControllerPause * self, int index, bool left) = (void (*)(ControllerPause * self, int index, bool left)) 0x68ac10;
-void (*ControllerPause::ptr::Destructor)(ControllerPause * self) = (void (*)(ControllerPause * self)) 0x68ae70;
-void (*ControllerPause::ptr::mark)(ControllerPause * self) = (void (*)(ControllerPause * self)) 0x68af00;
-void (*ControllerPause::ptr::CSTR_ControllerPause)(ControllerPause * self) = (void (*)(ControllerPause * self)) 0x689b70;
+inline ControllerPause * (*ControllerPause::ptr::New)(ControllerPause * self, ControllerGame * game) = (ControllerPause * (*)(ControllerPause * self, ControllerGame * game)) 0x68a250;
+inline ControllerPause * (*ControllerPause::ptr::_new2)() = (ControllerPause * (*)()) 0x0;
+inline void (*ControllerPause::ptr::Update)(ControllerPause * self) = (void (*)(ControllerPause * self)) 0x68a620;
+inline void (*ControllerPause::ptr::Render)(ControllerPause * self) = (void (*)(ControllerPause * self)) 0x68a640;
+inline void (*ControllerPause::ptr::_RegainFocus)() = (void (*)()) 0x0;
+inline void (*ControllerPause::ptr::ExitGame)(ControllerPause * self) = (void (*)(ControllerPause * self)) 0x68ab40;
+inline void (*ControllerPause::ptr::GUICallback)(ControllerPause * self, int index, bool left) = (void (*)(ControllerPause * self, int index, bool left)) 0x68ac10;
+inline void (*ControllerPause::ptr::Destructor)(ControllerPause * self) = (void (*)(ControllerPause * self)) 0x68ae70;
+inline void (*ControllerPause::ptr::mark)(ControllerPause * self) = (void (*)(ControllerPause * self)) 0x68af00;
+inline void (*ControllerPause::ptr::CSTR_ControllerPause)(ControllerPause * self) = (void (*)(ControllerPause * self)) 0x689b70;
 #endif
 
 #ifdef __linux__
 
-ControllerPause * (*ControllerPause::ptr::New)(ControllerPause * self, ControllerGame * game) = (ControllerPause * (*)(ControllerPause * self, ControllerGame * game)) 0x82313e0;
-ControllerPause * (*ControllerPause::ptr::_new2)() = (ControllerPause * (*)()) 0x81e23a0;
-void (*ControllerPause::ptr::Update)(ControllerPause * self) = (void (*)(ControllerPause * self)) 0x83148c0;
-void (*ControllerPause::ptr::Render)(ControllerPause * self) = (void (*)(ControllerPause * self)) 0x80c6b90;
-void (*ControllerPause::ptr::_RegainFocus)() = (void (*)()) 0x8078ba0;
-void (*ControllerPause::ptr::ExitGame)(ControllerPause * self) = (void (*)(ControllerPause * self)) 0x830a0d0;
-void (*ControllerPause::ptr::GUICallback)(ControllerPause * self, int index, bool left) = (void (*)(ControllerPause * self, int index, bool left)) 0x8363ef0;
-void (*ControllerPause::ptr::Destructor)(ControllerPause * self) = (void (*)(ControllerPause * self)) 0x8078bb0;
-void (*ControllerPause::ptr::mark)(ControllerPause * self) = (void (*)(ControllerPause * self)) 0x80a8c40;
-void (*ControllerPause::ptr::CSTR_ControllerPause)(ControllerPause * self) = (void (*)(ControllerPause * self)) 0x81e1a00;
+inline ControllerPause * (*ControllerPause::ptr::New)(ControllerPause * self, ControllerGame * game) = (ControllerPause * (*)(ControllerPause * self, ControllerGame * game)) 0x82313e0;
+inline ControllerPause * (*ControllerPause::ptr::_new2)() = (ControllerPause * (*)()) 0x81e23a0;
+inline void (*ControllerPause::ptr::Update)(ControllerPause * self) = (void (*)(ControllerPause * self)) 0x83148c0;
+inline void (*ControllerPause::ptr::Render)(ControllerPause * self) = (void (*)(ControllerPause * self)) 0x80c6b90;
+inline void (*ControllerPause::ptr::_RegainFocus)() = (void (*)()) 0x8078ba0;
+inline void (*ControllerPause::ptr::ExitGame)(ControllerPause * self) = (void (*)(ControllerPause * self)) 0x830a0d0;
+inline void (*ControllerPause::ptr::GUICallback)(ControllerPause * self, int index, bool left) = (void (*)(ControllerPause * self, int index, bool left)) 0x8363ef0;
+inline void (*ControllerPause::ptr::Destructor)(ControllerPause * self) = (void (*)(ControllerPause * self)) 0x8078bb0;
+inline void (*ControllerPause::ptr::mark)(ControllerPause * self) = (void (*)(ControllerPause * self)) 0x80a8c40;
+inline void (*ControllerPause::ptr::CSTR_ControllerPause)(ControllerPause * self) = (void (*)(ControllerPause * self)) 0x81e1a00;
 #endif
 #endif

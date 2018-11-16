@@ -25,15 +25,15 @@ public:
 
 #ifdef _WIN32
 
-Node53 * (*Node53::ptr::_New)(Node53 * self, Node53 * arg1, Node53 * arg2, TileData * arg3) = (Node53 * (*)(Node53 * self, Node53 * arg1, Node53 * arg2, TileData * arg3)) 0x0;
-Node53 * (*Node53::ptr::_new2)() = (Node53 * (*)()) 0x0;
-void (*Node53::ptr::_mark)() = (void (*)()) 0x0;
+inline Node53 * (*Node53::ptr::_New)(Node53 * self, Node53 * arg1, Node53 * arg2, TileData * arg3) = (Node53 * (*)(Node53 * self, Node53 * arg1, Node53 * arg2, TileData * arg3)) 0x0;
+inline Node53 * (*Node53::ptr::_new2)() = (Node53 * (*)()) 0x0;
+inline void (*Node53::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node53 * (*Node53::ptr::_New)(Node53 * self, Node53 * arg1, Node53 * arg2, TileData * arg3) = (Node53 * (*)(Node53 * self, Node53 * arg1, Node53 * arg2, TileData * arg3)) 0x0;
-Node53 * (*Node53::ptr::_new2)() = (Node53 * (*)()) 0x81d9df0;
-void (*Node53::ptr::_mark)() = (void (*)()) 0x8088a50;
+inline Node53 * (*Node53::ptr::_New)(Node53 * self, Node53 * arg1, Node53 * arg2, TileData * arg3) = (Node53 * (*)(Node53 * self, Node53 * arg1, Node53 * arg2, TileData * arg3)) 0x0;
+inline Node53 * (*Node53::ptr::_new2)() = (Node53 * (*)()) 0x81d9df0;
+inline void (*Node53::ptr::_mark)() = (void (*)()) 0x8088a50;
 #endif
 #endif

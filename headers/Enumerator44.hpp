@@ -30,19 +30,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator44 * (*Enumerator44::ptr::_New)(Enumerator44 * self, List52 * arg1) = (Enumerator44 * (*)(Enumerator44 * self, List52 * arg1)) 0x0;
-Enumerator44 * (*Enumerator44::ptr::_new2)() = (Enumerator44 * (*)()) 0x0;
-bool (*Enumerator44::ptr::_HasNext)() = (bool (*)()) 0x0;
-ReplayData * (*Enumerator44::ptr::_NextObject)() = (ReplayData * (*)()) 0x0;
-void (*Enumerator44::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator44 * (*Enumerator44::ptr::_New)(Enumerator44 * self, List52 * arg1) = (Enumerator44 * (*)(Enumerator44 * self, List52 * arg1)) 0x0;
+inline Enumerator44 * (*Enumerator44::ptr::_new2)() = (Enumerator44 * (*)()) 0x0;
+inline bool (*Enumerator44::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline ReplayData * (*Enumerator44::ptr::_NextObject)() = (ReplayData * (*)()) 0x0;
+inline void (*Enumerator44::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator44 * (*Enumerator44::ptr::_New)(Enumerator44 * self, List52 * arg1) = (Enumerator44 * (*)(Enumerator44 * self, List52 * arg1)) 0x0;
-Enumerator44 * (*Enumerator44::ptr::_new2)() = (Enumerator44 * (*)()) 0x81e2d10;
-bool (*Enumerator44::ptr::_HasNext)() = (bool (*)()) 0x8090f50;
-ReplayData * (*Enumerator44::ptr::_NextObject)() = (ReplayData * (*)()) 0x80948b0;
-void (*Enumerator44::ptr::_mark)() = (void (*)()) 0x808a910;
+inline Enumerator44 * (*Enumerator44::ptr::_New)(Enumerator44 * self, List52 * arg1) = (Enumerator44 * (*)(Enumerator44 * self, List52 * arg1)) 0x0;
+inline Enumerator44 * (*Enumerator44::ptr::_new2)() = (Enumerator44 * (*)()) 0x81e2d10;
+inline bool (*Enumerator44::ptr::_HasNext)() = (bool (*)()) 0x8090f50;
+inline ReplayData * (*Enumerator44::ptr::_NextObject)() = (ReplayData * (*)()) 0x80948b0;
+inline void (*Enumerator44::ptr::_mark)() = (void (*)()) 0x808a910;
 #endif
 #endif

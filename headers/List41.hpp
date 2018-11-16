@@ -38,25 +38,25 @@ public:
 
 #ifdef _WIN32
 
-List41 * (*List41::ptr::_New)() = (List41 * (*)()) 0x0;
-Node60 * (*List41::ptr::AddLast41)(List41 * self, Weapon * data) = (Node60 * (*)(List41 * self, Weapon * data)) 0x631260;
-List41 * (*List41::ptr::_new2)(List41 * self, Array<Weapon *> * arg1) = (List41 * (*)(List41 * self, Array<Weapon *> * arg1)) 0x0;
-bool (*List41::ptr::_Equals26)(List41 * self, Weapon * arg1, Weapon * arg2) = (bool (*)(List41 * self, Weapon * arg1, Weapon * arg2)) 0x0;
-bool (*List41::ptr::Contains8)(List41 * self, Weapon * value) = (bool (*)(List41 * self, Weapon * value)) 0x631300;
-Node60 * (*List41::ptr::_FirstNode)() = (Node60 * (*)()) 0x0;
-void (*List41::ptr::_mark)() = (void (*)()) 0x0;
-void (*List41::ptr::CSTR_List41)(List41 * self) = (void (*)(List41 * self)) 0x631190;
+inline List41 * (*List41::ptr::_New)() = (List41 * (*)()) 0x0;
+inline Node60 * (*List41::ptr::AddLast41)(List41 * self, Weapon * data) = (Node60 * (*)(List41 * self, Weapon * data)) 0x631260;
+inline List41 * (*List41::ptr::_new2)(List41 * self, Array<Weapon *> * arg1) = (List41 * (*)(List41 * self, Array<Weapon *> * arg1)) 0x0;
+inline bool (*List41::ptr::_Equals26)(List41 * self, Weapon * arg1, Weapon * arg2) = (bool (*)(List41 * self, Weapon * arg1, Weapon * arg2)) 0x0;
+inline bool (*List41::ptr::Contains8)(List41 * self, Weapon * value) = (bool (*)(List41 * self, Weapon * value)) 0x631300;
+inline Node60 * (*List41::ptr::_FirstNode)() = (Node60 * (*)()) 0x0;
+inline void (*List41::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List41::ptr::CSTR_List41)(List41 * self) = (void (*)(List41 * self)) 0x631190;
 #endif
 
 #ifdef __linux__
 
-List41 * (*List41::ptr::_New)() = (List41 * (*)()) 0x81ba310;
-Node60 * (*List41::ptr::AddLast41)(List41 * self, Weapon * data) = (Node60 * (*)(List41 * self, Weapon * data)) 0x80ba720;
-List41 * (*List41::ptr::_new2)(List41 * self, Array<Weapon *> * arg1) = (List41 * (*)(List41 * self, Array<Weapon *> * arg1)) 0x0;
-bool (*List41::ptr::_Equals26)(List41 * self, Weapon * arg1, Weapon * arg2) = (bool (*)(List41 * self, Weapon * arg1, Weapon * arg2)) 0x80754e0;
-bool (*List41::ptr::Contains8)(List41 * self, Weapon * value) = (bool (*)(List41 * self, Weapon * value)) 0x80754f0;
-Node60 * (*List41::ptr::_FirstNode)() = (Node60 * (*)()) 0x8075540;
-void (*List41::ptr::_mark)() = (void (*)()) 0x8086ad0;
-void (*List41::ptr::CSTR_List41)(List41 * self) = (void (*)(List41 * self)) 0x81ba630;
+inline List41 * (*List41::ptr::_New)() = (List41 * (*)()) 0x81ba310;
+inline Node60 * (*List41::ptr::AddLast41)(List41 * self, Weapon * data) = (Node60 * (*)(List41 * self, Weapon * data)) 0x80ba720;
+inline List41 * (*List41::ptr::_new2)(List41 * self, Array<Weapon *> * arg1) = (List41 * (*)(List41 * self, Array<Weapon *> * arg1)) 0x0;
+inline bool (*List41::ptr::_Equals26)(List41 * self, Weapon * arg1, Weapon * arg2) = (bool (*)(List41 * self, Weapon * arg1, Weapon * arg2)) 0x80754e0;
+inline bool (*List41::ptr::Contains8)(List41 * self, Weapon * value) = (bool (*)(List41 * self, Weapon * value)) 0x80754f0;
+inline Node60 * (*List41::ptr::_FirstNode)() = (Node60 * (*)()) 0x8075540;
+inline void (*List41::ptr::_mark)() = (void (*)()) 0x8086ad0;
+inline void (*List41::ptr::CSTR_List41)(List41 * self) = (void (*)(List41 * self)) 0x81ba630;
 #endif
 #endif

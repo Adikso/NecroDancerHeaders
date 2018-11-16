@@ -41,27 +41,27 @@ public:
 
 #ifdef _WIN32
 
-List42 * (*List42::ptr::_New)() = (List42 * (*)()) 0x0;
-Node61 * (*List42::ptr::AddLast42)(List42 * self, ConductorBattery * data) = (Node61 * (*)(List42 * self, ConductorBattery * data)) 0x632100;
-List42 * (*List42::ptr::_new2)(List42 * self, Array<ConductorBattery *> * arg1) = (List42 * (*)(List42 * self, Array<ConductorBattery *> * arg1)) 0x0;
-Enumerator25 * (*List42::ptr::ObjectEnumerator)(List42 * self) = (Enumerator25 * (*)(List42 * self)) 0x6321a0;
-bool (*List42::ptr::_Equals27)(List42 * self, ConductorBattery * arg1, ConductorBattery * arg2) = (bool (*)(List42 * self, ConductorBattery * arg1, ConductorBattery * arg2)) 0x0;
-int (*List42::ptr::_RemoveEach23)(List42 * self, ConductorBattery * arg1) = (int (*)(List42 * self, ConductorBattery * arg1)) 0x0;
-int (*List42::ptr::_Remove10)(List42 * self, ConductorBattery * arg1) = (int (*)(List42 * self, ConductorBattery * arg1)) 0x0;
-void (*List42::ptr::_mark)() = (void (*)()) 0x0;
-void (*List42::ptr::CSTR_List42)(List42 * self) = (void (*)(List42 * self)) 0x632030;
+inline List42 * (*List42::ptr::_New)() = (List42 * (*)()) 0x0;
+inline Node61 * (*List42::ptr::AddLast42)(List42 * self, ConductorBattery * data) = (Node61 * (*)(List42 * self, ConductorBattery * data)) 0x632100;
+inline List42 * (*List42::ptr::_new2)(List42 * self, Array<ConductorBattery *> * arg1) = (List42 * (*)(List42 * self, Array<ConductorBattery *> * arg1)) 0x0;
+inline Enumerator25 * (*List42::ptr::ObjectEnumerator)(List42 * self) = (Enumerator25 * (*)(List42 * self)) 0x6321a0;
+inline bool (*List42::ptr::_Equals27)(List42 * self, ConductorBattery * arg1, ConductorBattery * arg2) = (bool (*)(List42 * self, ConductorBattery * arg1, ConductorBattery * arg2)) 0x0;
+inline int (*List42::ptr::_RemoveEach23)(List42 * self, ConductorBattery * arg1) = (int (*)(List42 * self, ConductorBattery * arg1)) 0x0;
+inline int (*List42::ptr::_Remove10)(List42 * self, ConductorBattery * arg1) = (int (*)(List42 * self, ConductorBattery * arg1)) 0x0;
+inline void (*List42::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List42::ptr::CSTR_List42)(List42 * self) = (void (*)(List42 * self)) 0x632030;
 #endif
 
 #ifdef __linux__
 
-List42 * (*List42::ptr::_New)() = (List42 * (*)()) 0x81bb9d0;
-Node61 * (*List42::ptr::AddLast42)(List42 * self, ConductorBattery * data) = (Node61 * (*)(List42 * self, ConductorBattery * data)) 0x81bbc10;
-List42 * (*List42::ptr::_new2)(List42 * self, Array<ConductorBattery *> * arg1) = (List42 * (*)(List42 * self, Array<ConductorBattery *> * arg1)) 0x0;
-Enumerator25 * (*List42::ptr::ObjectEnumerator)(List42 * self) = (Enumerator25 * (*)(List42 * self)) 0x80ba960;
-bool (*List42::ptr::_Equals27)(List42 * self, ConductorBattery * arg1, ConductorBattery * arg2) = (bool (*)(List42 * self, ConductorBattery * arg1, ConductorBattery * arg2)) 0x80757c0;
-int (*List42::ptr::_RemoveEach23)(List42 * self, ConductorBattery * arg1) = (int (*)(List42 * self, ConductorBattery * arg1)) 0x80757d0;
-int (*List42::ptr::_Remove10)(List42 * self, ConductorBattery * arg1) = (int (*)(List42 * self, ConductorBattery * arg1)) 0x8075830;
-void (*List42::ptr::_mark)() = (void (*)()) 0x8089770;
-void (*List42::ptr::CSTR_List42)(List42 * self) = (void (*)(List42 * self)) 0x81bbd50;
+inline List42 * (*List42::ptr::_New)() = (List42 * (*)()) 0x81bb9d0;
+inline Node61 * (*List42::ptr::AddLast42)(List42 * self, ConductorBattery * data) = (Node61 * (*)(List42 * self, ConductorBattery * data)) 0x81bbc10;
+inline List42 * (*List42::ptr::_new2)(List42 * self, Array<ConductorBattery *> * arg1) = (List42 * (*)(List42 * self, Array<ConductorBattery *> * arg1)) 0x0;
+inline Enumerator25 * (*List42::ptr::ObjectEnumerator)(List42 * self) = (Enumerator25 * (*)(List42 * self)) 0x80ba960;
+inline bool (*List42::ptr::_Equals27)(List42 * self, ConductorBattery * arg1, ConductorBattery * arg2) = (bool (*)(List42 * self, ConductorBattery * arg1, ConductorBattery * arg2)) 0x80757c0;
+inline int (*List42::ptr::_RemoveEach23)(List42 * self, ConductorBattery * arg1) = (int (*)(List42 * self, ConductorBattery * arg1)) 0x80757d0;
+inline int (*List42::ptr::_Remove10)(List42 * self, ConductorBattery * arg1) = (int (*)(List42 * self, ConductorBattery * arg1)) 0x8075830;
+inline void (*List42::ptr::_mark)() = (void (*)()) 0x8089770;
+inline void (*List42::ptr::CSTR_List42)(List42 * self) = (void (*)(List42 * self)) 0x81bbd50;
 #endif
 #endif

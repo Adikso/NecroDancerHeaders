@@ -25,15 +25,15 @@ public:
 
 #ifdef _WIN32
 
-StringSet * (*StringSet::ptr::New)(StringSet * self) = (StringSet * (*)(StringSet * self)) 0x5e1220;
-void (*StringSet::ptr::_mark)() = (void (*)()) 0x0;
-void (*StringSet::ptr::CSTR_StringSet)(StringSet * self) = (void (*)(StringSet * self)) 0x5e11a0;
+inline StringSet * (*StringSet::ptr::New)(StringSet * self) = (StringSet * (*)(StringSet * self)) 0x5e1220;
+inline void (*StringSet::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*StringSet::ptr::CSTR_StringSet)(StringSet * self) = (void (*)(StringSet * self)) 0x5e11a0;
 #endif
 
 #ifdef __linux__
 
-StringSet * (*StringSet::ptr::New)(StringSet * self) = (StringSet * (*)(StringSet * self)) 0x819a5a0;
-void (*StringSet::ptr::_mark)() = (void (*)()) 0x8087840;
-void (*StringSet::ptr::CSTR_StringSet)(StringSet * self) = (void (*)(StringSet * self)) 0x819a580;
+inline StringSet * (*StringSet::ptr::New)(StringSet * self) = (StringSet * (*)(StringSet * self)) 0x819a5a0;
+inline void (*StringSet::ptr::_mark)() = (void (*)()) 0x8087840;
+inline void (*StringSet::ptr::CSTR_StringSet)(StringSet * self) = (void (*)(StringSet * self)) 0x819a580;
 #endif
 #endif

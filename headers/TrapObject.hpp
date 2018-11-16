@@ -30,19 +30,19 @@ public:
 
 #ifdef _WIN32
 
-TrapObject * (*TrapObject::ptr::_New)(TrapObject * self, int arg1, int arg2, int arg3) = (TrapObject * (*)(TrapObject * self, int arg1, int arg2, int arg3)) 0x0;
-TrapObject * (*TrapObject::ptr::new2)(TrapObject * self, XMLNode * fromXML) = (TrapObject * (*)(TrapObject * self, XMLNode * fromXML)) 0x5d8d40;
-TrapObject * (*TrapObject::ptr::_new3)() = (TrapObject * (*)()) 0x0;
-void (*TrapObject::ptr::AddToXML)(TrapObject * self, XMLNode * xml) = (void (*)(TrapObject * self, XMLNode * xml)) 0x5d8f40;
-void (*TrapObject::ptr::_mark)() = (void (*)()) 0x0;
+inline TrapObject * (*TrapObject::ptr::_New)(TrapObject * self, int arg1, int arg2, int arg3) = (TrapObject * (*)(TrapObject * self, int arg1, int arg2, int arg3)) 0x0;
+inline TrapObject * (*TrapObject::ptr::new2)(TrapObject * self, XMLNode * fromXML) = (TrapObject * (*)(TrapObject * self, XMLNode * fromXML)) 0x5d8d40;
+inline TrapObject * (*TrapObject::ptr::_new3)() = (TrapObject * (*)()) 0x0;
+inline void (*TrapObject::ptr::AddToXML)(TrapObject * self, XMLNode * xml) = (void (*)(TrapObject * self, XMLNode * xml)) 0x5d8f40;
+inline void (*TrapObject::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-TrapObject * (*TrapObject::ptr::_New)(TrapObject * self, int arg1, int arg2, int arg3) = (TrapObject * (*)(TrapObject * self, int arg1, int arg2, int arg3)) 0x8193300;
-TrapObject * (*TrapObject::ptr::new2)(TrapObject * self, XMLNode * fromXML) = (TrapObject * (*)(TrapObject * self, XMLNode * fromXML)) 0x8193320;
-TrapObject * (*TrapObject::ptr::_new3)() = (TrapObject * (*)()) 0x81934a0;
-void (*TrapObject::ptr::AddToXML)(TrapObject * self, XMLNode * xml) = (void (*)(TrapObject * self, XMLNode * xml)) 0x80c7fe0;
-void (*TrapObject::ptr::_mark)() = (void (*)()) 0x8071d90;
+inline TrapObject * (*TrapObject::ptr::_New)(TrapObject * self, int arg1, int arg2, int arg3) = (TrapObject * (*)(TrapObject * self, int arg1, int arg2, int arg3)) 0x8193300;
+inline TrapObject * (*TrapObject::ptr::new2)(TrapObject * self, XMLNode * fromXML) = (TrapObject * (*)(TrapObject * self, XMLNode * fromXML)) 0x8193320;
+inline TrapObject * (*TrapObject::ptr::_new3)() = (TrapObject * (*)()) 0x81934a0;
+inline void (*TrapObject::ptr::AddToXML)(TrapObject * self, XMLNode * xml) = (void (*)(TrapObject * self, XMLNode * xml)) 0x80c7fe0;
+inline void (*TrapObject::ptr::_mark)() = (void (*)()) 0x8071d90;
 #endif
 #endif

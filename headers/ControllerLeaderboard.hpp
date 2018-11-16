@@ -73,29 +73,29 @@ public:
 
 #ifdef _WIN32
 
-ControllerLeaderboard * (*ControllerLeaderboard::ptr::New)(ControllerLeaderboard * self, ControllerGame * game, bool speed, bool hard, bool seeded) = (ControllerLeaderboard * (*)(ControllerLeaderboard * self, ControllerGame * game, bool speed, bool hard, bool seeded)) 0x68eb70;
-ControllerLeaderboard * (*ControllerLeaderboard::ptr::_new2)() = (ControllerLeaderboard * (*)()) 0x0;
-void (*ControllerLeaderboard::ptr::Update)(ControllerLeaderboard * self) = (void (*)(ControllerLeaderboard * self)) 0x68f420;
-void (*ControllerLeaderboard::ptr::Render)(ControllerLeaderboard * self) = (void (*)(ControllerLeaderboard * self)) 0x68f430;
-void (*ControllerLeaderboard::ptr::_RegainFocus)() = (void (*)()) 0x0;
-void (*ControllerLeaderboard::ptr::RefreshScores)(ControllerLeaderboard * self) = (void (*)(ControllerLeaderboard * self)) 0x691a50;
-void (*ControllerLeaderboard::ptr::GUICallback)(ControllerLeaderboard * self, int index, bool left) = (void (*)(ControllerLeaderboard * self, int index, bool left)) 0x691b80;
-void (*ControllerLeaderboard::ptr::Destructor)(ControllerLeaderboard * self) = (void (*)(ControllerLeaderboard * self)) 0x692040;
-void (*ControllerLeaderboard::ptr::mark)(ControllerLeaderboard * self) = (void (*)(ControllerLeaderboard * self)) 0x6920b0;
-void (*ControllerLeaderboard::ptr::CSTR_ControllerLeaderboard)(ControllerLeaderboard * self) = (void (*)(ControllerLeaderboard * self)) 0x68e4b0;
+inline ControllerLeaderboard * (*ControllerLeaderboard::ptr::New)(ControllerLeaderboard * self, ControllerGame * game, bool speed, bool hard, bool seeded) = (ControllerLeaderboard * (*)(ControllerLeaderboard * self, ControllerGame * game, bool speed, bool hard, bool seeded)) 0x68eb70;
+inline ControllerLeaderboard * (*ControllerLeaderboard::ptr::_new2)() = (ControllerLeaderboard * (*)()) 0x0;
+inline void (*ControllerLeaderboard::ptr::Update)(ControllerLeaderboard * self) = (void (*)(ControllerLeaderboard * self)) 0x68f420;
+inline void (*ControllerLeaderboard::ptr::Render)(ControllerLeaderboard * self) = (void (*)(ControllerLeaderboard * self)) 0x68f430;
+inline void (*ControllerLeaderboard::ptr::_RegainFocus)() = (void (*)()) 0x0;
+inline void (*ControllerLeaderboard::ptr::RefreshScores)(ControllerLeaderboard * self) = (void (*)(ControllerLeaderboard * self)) 0x691a50;
+inline void (*ControllerLeaderboard::ptr::GUICallback)(ControllerLeaderboard * self, int index, bool left) = (void (*)(ControllerLeaderboard * self, int index, bool left)) 0x691b80;
+inline void (*ControllerLeaderboard::ptr::Destructor)(ControllerLeaderboard * self) = (void (*)(ControllerLeaderboard * self)) 0x692040;
+inline void (*ControllerLeaderboard::ptr::mark)(ControllerLeaderboard * self) = (void (*)(ControllerLeaderboard * self)) 0x6920b0;
+inline void (*ControllerLeaderboard::ptr::CSTR_ControllerLeaderboard)(ControllerLeaderboard * self) = (void (*)(ControllerLeaderboard * self)) 0x68e4b0;
 #endif
 
 #ifdef __linux__
 
-ControllerLeaderboard * (*ControllerLeaderboard::ptr::New)(ControllerLeaderboard * self, ControllerGame * game, bool speed, bool hard, bool seeded) = (ControllerLeaderboard * (*)(ControllerLeaderboard * self, ControllerGame * game, bool speed, bool hard, bool seeded)) 0x83e1f30;
-ControllerLeaderboard * (*ControllerLeaderboard::ptr::_new2)() = (ControllerLeaderboard * (*)()) 0x81e5950;
-void (*ControllerLeaderboard::ptr::Update)(ControllerLeaderboard * self) = (void (*)(ControllerLeaderboard * self)) 0x80796e0;
-void (*ControllerLeaderboard::ptr::Render)(ControllerLeaderboard * self) = (void (*)(ControllerLeaderboard * self)) 0x83fd980;
-void (*ControllerLeaderboard::ptr::_RegainFocus)() = (void (*)()) 0x8079700;
-void (*ControllerLeaderboard::ptr::RefreshScores)(ControllerLeaderboard * self) = (void (*)(ControllerLeaderboard * self)) 0x83e3760;
-void (*ControllerLeaderboard::ptr::GUICallback)(ControllerLeaderboard * self, int index, bool left) = (void (*)(ControllerLeaderboard * self, int index, bool left)) 0x83fd550;
-void (*ControllerLeaderboard::ptr::Destructor)(ControllerLeaderboard * self) = (void (*)(ControllerLeaderboard * self)) 0x8079710;
-void (*ControllerLeaderboard::ptr::mark)(ControllerLeaderboard * self) = (void (*)(ControllerLeaderboard * self)) 0x80b2210;
-void (*ControllerLeaderboard::ptr::CSTR_ControllerLeaderboard)(ControllerLeaderboard * self) = (void (*)(ControllerLeaderboard * self)) 0x81e6140;
+inline ControllerLeaderboard * (*ControllerLeaderboard::ptr::New)(ControllerLeaderboard * self, ControllerGame * game, bool speed, bool hard, bool seeded) = (ControllerLeaderboard * (*)(ControllerLeaderboard * self, ControllerGame * game, bool speed, bool hard, bool seeded)) 0x83e1f30;
+inline ControllerLeaderboard * (*ControllerLeaderboard::ptr::_new2)() = (ControllerLeaderboard * (*)()) 0x81e5950;
+inline void (*ControllerLeaderboard::ptr::Update)(ControllerLeaderboard * self) = (void (*)(ControllerLeaderboard * self)) 0x80796e0;
+inline void (*ControllerLeaderboard::ptr::Render)(ControllerLeaderboard * self) = (void (*)(ControllerLeaderboard * self)) 0x83fd980;
+inline void (*ControllerLeaderboard::ptr::_RegainFocus)() = (void (*)()) 0x8079700;
+inline void (*ControllerLeaderboard::ptr::RefreshScores)(ControllerLeaderboard * self) = (void (*)(ControllerLeaderboard * self)) 0x83e3760;
+inline void (*ControllerLeaderboard::ptr::GUICallback)(ControllerLeaderboard * self, int index, bool left) = (void (*)(ControllerLeaderboard * self, int index, bool left)) 0x83fd550;
+inline void (*ControllerLeaderboard::ptr::Destructor)(ControllerLeaderboard * self) = (void (*)(ControllerLeaderboard * self)) 0x8079710;
+inline void (*ControllerLeaderboard::ptr::mark)(ControllerLeaderboard * self) = (void (*)(ControllerLeaderboard * self)) 0x80b2210;
+inline void (*ControllerLeaderboard::ptr::CSTR_ControllerLeaderboard)(ControllerLeaderboard * self) = (void (*)(ControllerLeaderboard * self)) 0x81e6140;
 #endif
 #endif

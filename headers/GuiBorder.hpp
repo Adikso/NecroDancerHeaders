@@ -49,19 +49,19 @@ public:
 
 #ifdef _WIN32
 
-GuiBorder * (*GuiBorder::ptr::New)(GuiBorder * self, int wVal, int hVal, int hGapW, int yO) = (GuiBorder * (*)(GuiBorder * self, int wVal, int hVal, int hGapW, int yO)) 0x680d60;
-GuiBorder * (*GuiBorder::ptr::_new2)() = (GuiBorder * (*)()) 0x0;
-void (*GuiBorder::ptr::Render)(GuiBorder * self) = (void (*)(GuiBorder * self)) 0x681930;
-void (*GuiBorder::ptr::mark)(GuiBorder * self) = (void (*)(GuiBorder * self)) 0x681d20;
-void (*GuiBorder::ptr::CSTR_GuiBorder)(GuiBorder * self) = (void (*)(GuiBorder * self)) 0x680c70;
+inline GuiBorder * (*GuiBorder::ptr::New)(GuiBorder * self, int wVal, int hVal, int hGapW, int yO) = (GuiBorder * (*)(GuiBorder * self, int wVal, int hVal, int hGapW, int yO)) 0x680d60;
+inline GuiBorder * (*GuiBorder::ptr::_new2)() = (GuiBorder * (*)()) 0x0;
+inline void (*GuiBorder::ptr::Render)(GuiBorder * self) = (void (*)(GuiBorder * self)) 0x681930;
+inline void (*GuiBorder::ptr::mark)(GuiBorder * self) = (void (*)(GuiBorder * self)) 0x681d20;
+inline void (*GuiBorder::ptr::CSTR_GuiBorder)(GuiBorder * self) = (void (*)(GuiBorder * self)) 0x680c70;
 #endif
 
 #ifdef __linux__
 
-GuiBorder * (*GuiBorder::ptr::New)(GuiBorder * self, int wVal, int hVal, int hGapW, int yO) = (GuiBorder * (*)(GuiBorder * self, int wVal, int hVal, int hGapW, int yO)) 0x81df390;
-GuiBorder * (*GuiBorder::ptr::_new2)() = (GuiBorder * (*)()) 0x81dff10;
-void (*GuiBorder::ptr::Render)(GuiBorder * self) = (void (*)(GuiBorder * self)) 0x8078460;
-void (*GuiBorder::ptr::mark)(GuiBorder * self) = (void (*)(GuiBorder * self)) 0x80a4650;
-void (*GuiBorder::ptr::CSTR_GuiBorder)(GuiBorder * self) = (void (*)(GuiBorder * self)) 0x81df300;
+inline GuiBorder * (*GuiBorder::ptr::New)(GuiBorder * self, int wVal, int hVal, int hGapW, int yO) = (GuiBorder * (*)(GuiBorder * self, int wVal, int hVal, int hGapW, int yO)) 0x81df390;
+inline GuiBorder * (*GuiBorder::ptr::_new2)() = (GuiBorder * (*)()) 0x81dff10;
+inline void (*GuiBorder::ptr::Render)(GuiBorder * self) = (void (*)(GuiBorder * self)) 0x8078460;
+inline void (*GuiBorder::ptr::mark)(GuiBorder * self) = (void (*)(GuiBorder * self)) 0x80a4650;
+inline void (*GuiBorder::ptr::CSTR_GuiBorder)(GuiBorder * self) = (void (*)(GuiBorder * self)) 0x81df300;
 #endif
 #endif

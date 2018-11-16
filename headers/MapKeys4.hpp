@@ -26,17 +26,17 @@ public:
 
 #ifdef _WIN32
 
-MapKeys4 * (*MapKeys4::ptr::_New)(MapKeys4 * self, Map19 * arg1) = (MapKeys4 * (*)(MapKeys4 * self, Map19 * arg1)) 0x0;
-MapKeys4 * (*MapKeys4::ptr::_new2)() = (MapKeys4 * (*)()) 0x0;
-KeyEnumerator4 * (*MapKeys4::ptr::ObjectEnumerator)(MapKeys4 * self) = (KeyEnumerator4 * (*)(MapKeys4 * self)) 0x65f420;
-void (*MapKeys4::ptr::_mark)() = (void (*)()) 0x0;
+inline MapKeys4 * (*MapKeys4::ptr::_New)(MapKeys4 * self, Map19 * arg1) = (MapKeys4 * (*)(MapKeys4 * self, Map19 * arg1)) 0x0;
+inline MapKeys4 * (*MapKeys4::ptr::_new2)() = (MapKeys4 * (*)()) 0x0;
+inline KeyEnumerator4 * (*MapKeys4::ptr::ObjectEnumerator)(MapKeys4 * self) = (KeyEnumerator4 * (*)(MapKeys4 * self)) 0x65f420;
+inline void (*MapKeys4::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-MapKeys4 * (*MapKeys4::ptr::_New)(MapKeys4 * self, Map19 * arg1) = (MapKeys4 * (*)(MapKeys4 * self, Map19 * arg1)) 0x81d48f0;
-MapKeys4 * (*MapKeys4::ptr::_new2)() = (MapKeys4 * (*)()) 0x81d4950;
-KeyEnumerator4 * (*MapKeys4::ptr::ObjectEnumerator)(MapKeys4 * self) = (KeyEnumerator4 * (*)(MapKeys4 * self)) 0x80baab0;
-void (*MapKeys4::ptr::_mark)() = (void (*)()) 0x8084bb0;
+inline MapKeys4 * (*MapKeys4::ptr::_New)(MapKeys4 * self, Map19 * arg1) = (MapKeys4 * (*)(MapKeys4 * self, Map19 * arg1)) 0x81d48f0;
+inline MapKeys4 * (*MapKeys4::ptr::_new2)() = (MapKeys4 * (*)()) 0x81d4950;
+inline KeyEnumerator4 * (*MapKeys4::ptr::ObjectEnumerator)(MapKeys4 * self) = (KeyEnumerator4 * (*)(MapKeys4 * self)) 0x80baab0;
+inline void (*MapKeys4::ptr::_mark)() = (void (*)()) 0x8084bb0;
 #endif
 #endif

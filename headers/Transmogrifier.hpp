@@ -47,31 +47,31 @@ public:
 
 #ifdef _WIN32
 
-int (*Transmogrifier::ptr::GetCost)(Transmogrifier * self) = (int (*)(Transmogrifier * self)) 0x5fc000;
-void (*Transmogrifier::ptr::DisplayCost)(Transmogrifier * self) = (void (*)(Transmogrifier * self)) 0x5fc020;
-void (*Transmogrifier::ptr::IncreaseCost)(Transmogrifier * self) = (void (*)(Transmogrifier * self)) 0x5fc220;
-Transmogrifier * (*Transmogrifier::ptr::New)(Transmogrifier * self, int xVal, int yVal, int l, bool captv) = (Transmogrifier * (*)(Transmogrifier * self, int xVal, int yVal, int l, bool captv)) 0x5fc250;
-Transmogrifier * (*Transmogrifier::ptr::_new2)() = (Transmogrifier * (*)()) 0x0;
-bool (*Transmogrifier::ptr::Hit)(Transmogrifier * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Transmogrifier * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x5fc460;
-Point * (*Transmogrifier::ptr::GetMovementDirection)(Transmogrifier * self) = (Point * (*)(Transmogrifier * self)) 0x5fc5c0;
-bool (*Transmogrifier::ptr::CanBeDamaged)(Transmogrifier * self, bool phasing, bool piercing) = (bool (*)(Transmogrifier * self, bool phasing, bool piercing)) 0x5fc670;
-void (*Transmogrifier::ptr::Die)(Transmogrifier * self) = (void (*)(Transmogrifier * self)) 0x5fc690;
-void (*Transmogrifier::ptr::_mark)() = (void (*)()) 0x0;
-void (*Transmogrifier::ptr::CSTR_Transmogrifier)(Transmogrifier * self) = (void (*)(Transmogrifier * self)) 0x5fbee0;
+inline int (*Transmogrifier::ptr::GetCost)(Transmogrifier * self) = (int (*)(Transmogrifier * self)) 0x5fc000;
+inline void (*Transmogrifier::ptr::DisplayCost)(Transmogrifier * self) = (void (*)(Transmogrifier * self)) 0x5fc020;
+inline void (*Transmogrifier::ptr::IncreaseCost)(Transmogrifier * self) = (void (*)(Transmogrifier * self)) 0x5fc220;
+inline Transmogrifier * (*Transmogrifier::ptr::New)(Transmogrifier * self, int xVal, int yVal, int l, bool captv) = (Transmogrifier * (*)(Transmogrifier * self, int xVal, int yVal, int l, bool captv)) 0x5fc250;
+inline Transmogrifier * (*Transmogrifier::ptr::_new2)() = (Transmogrifier * (*)()) 0x0;
+inline bool (*Transmogrifier::ptr::Hit)(Transmogrifier * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Transmogrifier * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x5fc460;
+inline Point * (*Transmogrifier::ptr::GetMovementDirection)(Transmogrifier * self) = (Point * (*)(Transmogrifier * self)) 0x5fc5c0;
+inline bool (*Transmogrifier::ptr::CanBeDamaged)(Transmogrifier * self, bool phasing, bool piercing) = (bool (*)(Transmogrifier * self, bool phasing, bool piercing)) 0x5fc670;
+inline void (*Transmogrifier::ptr::Die)(Transmogrifier * self) = (void (*)(Transmogrifier * self)) 0x5fc690;
+inline void (*Transmogrifier::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Transmogrifier::ptr::CSTR_Transmogrifier)(Transmogrifier * self) = (void (*)(Transmogrifier * self)) 0x5fbee0;
 #endif
 
 #ifdef __linux__
 
-int (*Transmogrifier::ptr::GetCost)(Transmogrifier * self) = (int (*)(Transmogrifier * self)) 0x816be50;
-void (*Transmogrifier::ptr::DisplayCost)(Transmogrifier * self) = (void (*)(Transmogrifier * self)) 0x812d4d0;
-void (*Transmogrifier::ptr::IncreaseCost)(Transmogrifier * self) = (void (*)(Transmogrifier * self)) 0x8073a70;
-Transmogrifier * (*Transmogrifier::ptr::New)(Transmogrifier * self, int xVal, int yVal, int l, bool captv) = (Transmogrifier * (*)(Transmogrifier * self, int xVal, int yVal, int l, bool captv)) 0x81a4c20;
-Transmogrifier * (*Transmogrifier::ptr::_new2)() = (Transmogrifier * (*)()) 0x81a4e00;
-bool (*Transmogrifier::ptr::Hit)(Transmogrifier * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Transmogrifier * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x839c6c0;
-Point * (*Transmogrifier::ptr::GetMovementDirection)(Transmogrifier * self) = (Point * (*)(Transmogrifier * self)) 0x80b5000;
-bool (*Transmogrifier::ptr::CanBeDamaged)(Transmogrifier * self, bool phasing, bool piercing) = (bool (*)(Transmogrifier * self, bool phasing, bool piercing)) 0x8073aa0;
-void (*Transmogrifier::ptr::Die)(Transmogrifier * self) = (void (*)(Transmogrifier * self)) 0x83b7270;
-void (*Transmogrifier::ptr::_mark)() = (void (*)()) 0x80b2fd0;
-void (*Transmogrifier::ptr::CSTR_Transmogrifier)(Transmogrifier * self) = (void (*)(Transmogrifier * self)) 0x81a4b90;
+inline int (*Transmogrifier::ptr::GetCost)(Transmogrifier * self) = (int (*)(Transmogrifier * self)) 0x816be50;
+inline void (*Transmogrifier::ptr::DisplayCost)(Transmogrifier * self) = (void (*)(Transmogrifier * self)) 0x812d4d0;
+inline void (*Transmogrifier::ptr::IncreaseCost)(Transmogrifier * self) = (void (*)(Transmogrifier * self)) 0x8073a70;
+inline Transmogrifier * (*Transmogrifier::ptr::New)(Transmogrifier * self, int xVal, int yVal, int l, bool captv) = (Transmogrifier * (*)(Transmogrifier * self, int xVal, int yVal, int l, bool captv)) 0x81a4c20;
+inline Transmogrifier * (*Transmogrifier::ptr::_new2)() = (Transmogrifier * (*)()) 0x81a4e00;
+inline bool (*Transmogrifier::ptr::Hit)(Transmogrifier * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Transmogrifier * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x839c6c0;
+inline Point * (*Transmogrifier::ptr::GetMovementDirection)(Transmogrifier * self) = (Point * (*)(Transmogrifier * self)) 0x80b5000;
+inline bool (*Transmogrifier::ptr::CanBeDamaged)(Transmogrifier * self, bool phasing, bool piercing) = (bool (*)(Transmogrifier * self, bool phasing, bool piercing)) 0x8073aa0;
+inline void (*Transmogrifier::ptr::Die)(Transmogrifier * self) = (void (*)(Transmogrifier * self)) 0x83b7270;
+inline void (*Transmogrifier::ptr::_mark)() = (void (*)()) 0x80b2fd0;
+inline void (*Transmogrifier::ptr::CSTR_Transmogrifier)(Transmogrifier * self) = (void (*)(Transmogrifier * self)) 0x81a4b90;
 #endif
 #endif

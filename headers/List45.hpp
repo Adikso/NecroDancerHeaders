@@ -35,21 +35,21 @@ public:
 
 #ifdef _WIN32
 
-List45 * (*List45::ptr::_New)() = (List45 * (*)()) 0x0;
-Node65 * (*List45::ptr::AddLast45)(List45 * self, FireballData * data) = (Node65 * (*)(List45 * self, FireballData * data)) 0x636c90;
-List45 * (*List45::ptr::_new2)(List45 * self, Array<FireballData *> * arg1) = (List45 * (*)(List45 * self, Array<FireballData *> * arg1)) 0x0;
-Enumerator53 * (*List45::ptr::ObjectEnumerator)(List45 * self) = (Enumerator53 * (*)(List45 * self)) 0x636d30;
-void (*List45::ptr::_mark)() = (void (*)()) 0x0;
-void (*List45::ptr::CSTR_List45)(List45 * self) = (void (*)(List45 * self)) 0x636bc0;
+inline List45 * (*List45::ptr::_New)() = (List45 * (*)()) 0x0;
+inline Node65 * (*List45::ptr::AddLast45)(List45 * self, FireballData * data) = (Node65 * (*)(List45 * self, FireballData * data)) 0x636c90;
+inline List45 * (*List45::ptr::_new2)(List45 * self, Array<FireballData *> * arg1) = (List45 * (*)(List45 * self, Array<FireballData *> * arg1)) 0x0;
+inline Enumerator53 * (*List45::ptr::ObjectEnumerator)(List45 * self) = (Enumerator53 * (*)(List45 * self)) 0x636d30;
+inline void (*List45::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List45::ptr::CSTR_List45)(List45 * self) = (void (*)(List45 * self)) 0x636bc0;
 #endif
 
 #ifdef __linux__
 
-List45 * (*List45::ptr::_New)() = (List45 * (*)()) 0x81bd9a0;
-Node65 * (*List45::ptr::AddLast45)(List45 * self, FireballData * data) = (Node65 * (*)(List45 * self, FireballData * data)) 0x81bdbe0;
-List45 * (*List45::ptr::_new2)(List45 * self, Array<FireballData *> * arg1) = (List45 * (*)(List45 * self, Array<FireballData *> * arg1)) 0x0;
-Enumerator53 * (*List45::ptr::ObjectEnumerator)(List45 * self) = (Enumerator53 * (*)(List45 * self)) 0x80bcab0;
-void (*List45::ptr::_mark)() = (void (*)()) 0x8088730;
-void (*List45::ptr::CSTR_List45)(List45 * self) = (void (*)(List45 * self)) 0x81bdd20;
+inline List45 * (*List45::ptr::_New)() = (List45 * (*)()) 0x81bd9a0;
+inline Node65 * (*List45::ptr::AddLast45)(List45 * self, FireballData * data) = (Node65 * (*)(List45 * self, FireballData * data)) 0x81bdbe0;
+inline List45 * (*List45::ptr::_new2)(List45 * self, Array<FireballData *> * arg1) = (List45 * (*)(List45 * self, Array<FireballData *> * arg1)) 0x0;
+inline Enumerator53 * (*List45::ptr::ObjectEnumerator)(List45 * self) = (Enumerator53 * (*)(List45 * self)) 0x80bcab0;
+inline void (*List45::ptr::_mark)() = (void (*)()) 0x8088730;
+inline void (*List45::ptr::CSTR_List45)(List45 * self) = (void (*)(List45 * self)) 0x81bdd20;
 #endif
 #endif

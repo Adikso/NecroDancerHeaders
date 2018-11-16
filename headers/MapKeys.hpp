@@ -26,17 +26,17 @@ public:
 
 #ifdef _WIN32
 
-MapKeys * (*MapKeys::ptr::_New)(MapKeys * self, Map * arg1) = (MapKeys * (*)(MapKeys * self, Map * arg1)) 0x0;
-MapKeys * (*MapKeys::ptr::_new2)() = (MapKeys * (*)()) 0x0;
-KeyEnumerator * (*MapKeys::ptr::ObjectEnumerator)(MapKeys * self) = (KeyEnumerator * (*)(MapKeys * self)) 0x453950;
-void (*MapKeys::ptr::_mark)() = (void (*)()) 0x0;
+inline MapKeys * (*MapKeys::ptr::_New)(MapKeys * self, Map * arg1) = (MapKeys * (*)(MapKeys * self, Map * arg1)) 0x0;
+inline MapKeys * (*MapKeys::ptr::_new2)() = (MapKeys * (*)()) 0x0;
+inline KeyEnumerator * (*MapKeys::ptr::ObjectEnumerator)(MapKeys * self) = (KeyEnumerator * (*)(MapKeys * self)) 0x453950;
+inline void (*MapKeys::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-MapKeys * (*MapKeys::ptr::_New)(MapKeys * self, Map * arg1) = (MapKeys * (*)(MapKeys * self, Map * arg1)) 0x8128080;
-MapKeys * (*MapKeys::ptr::_new2)() = (MapKeys * (*)()) 0x81280e0;
-KeyEnumerator * (*MapKeys::ptr::ObjectEnumerator)(MapKeys * self) = (KeyEnumerator * (*)(MapKeys * self)) 0x80b5c30;
-void (*MapKeys::ptr::_mark)() = (void (*)()) 0x806dd10;
+inline MapKeys * (*MapKeys::ptr::_New)(MapKeys * self, Map * arg1) = (MapKeys * (*)(MapKeys * self, Map * arg1)) 0x8128080;
+inline MapKeys * (*MapKeys::ptr::_new2)() = (MapKeys * (*)()) 0x81280e0;
+inline KeyEnumerator * (*MapKeys::ptr::ObjectEnumerator)(MapKeys * self) = (KeyEnumerator * (*)(MapKeys * self)) 0x80b5c30;
+inline void (*MapKeys::ptr::_mark)() = (void (*)()) 0x806dd10;
 #endif
 #endif

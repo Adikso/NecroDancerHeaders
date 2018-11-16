@@ -36,21 +36,21 @@ public:
 
 #ifdef _WIN32
 
-XMLError * (*XMLError::ptr::_New)() = (XMLError * (*)()) 0x0;
-void (*XMLError::ptr::Reset)(XMLError * self) = (void (*)(XMLError * self)) 0x453260;
-void (*XMLError::ptr::Set2)(XMLError * self, String * message, int line, int column, int offset) = (void (*)(XMLError * self, String * message, int line, int column, int offset)) 0x453310;
-String * (*XMLError::ptr::ToString)(XMLError * self) = (String * (*)(XMLError * self)) 0x4533b0;
-void (*XMLError::ptr::_mark)() = (void (*)()) 0x0;
-void (*XMLError::ptr::CSTR_XMLError)(XMLError * self) = (void (*)(XMLError * self)) 0x4530d0;
+inline XMLError * (*XMLError::ptr::_New)() = (XMLError * (*)()) 0x0;
+inline void (*XMLError::ptr::Reset)(XMLError * self) = (void (*)(XMLError * self)) 0x453260;
+inline void (*XMLError::ptr::Set2)(XMLError * self, String * message, int line, int column, int offset) = (void (*)(XMLError * self, String * message, int line, int column, int offset)) 0x453310;
+inline String * (*XMLError::ptr::ToString)(XMLError * self) = (String * (*)(XMLError * self)) 0x4533b0;
+inline void (*XMLError::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*XMLError::ptr::CSTR_XMLError)(XMLError * self) = (void (*)(XMLError * self)) 0x4530d0;
 #endif
 
 #ifdef __linux__
 
-XMLError * (*XMLError::ptr::_New)() = (XMLError * (*)()) 0x8127fb0;
-void (*XMLError::ptr::Reset)(XMLError * self) = (void (*)(XMLError * self)) 0x80d8c70;
-void (*XMLError::ptr::Set2)(XMLError * self, String * message, int line, int column, int offset) = (void (*)(XMLError * self, String * message, int line, int column, int offset)) 0x80d8bb0;
-String * (*XMLError::ptr::ToString)(XMLError * self) = (String * (*)(XMLError * self)) 0x80df330;
-void (*XMLError::ptr::_mark)() = (void (*)()) 0x806dd00;
-void (*XMLError::ptr::CSTR_XMLError)(XMLError * self) = (void (*)(XMLError * self)) 0x8127f40;
+inline XMLError * (*XMLError::ptr::_New)() = (XMLError * (*)()) 0x8127fb0;
+inline void (*XMLError::ptr::Reset)(XMLError * self) = (void (*)(XMLError * self)) 0x80d8c70;
+inline void (*XMLError::ptr::Set2)(XMLError * self, String * message, int line, int column, int offset) = (void (*)(XMLError * self, String * message, int line, int column, int offset)) 0x80d8bb0;
+inline String * (*XMLError::ptr::ToString)(XMLError * self) = (String * (*)(XMLError * self)) 0x80df330;
+inline void (*XMLError::ptr::_mark)() = (void (*)()) 0x806dd00;
+inline void (*XMLError::ptr::CSTR_XMLError)(XMLError * self) = (void (*)(XMLError * self)) 0x8127f40;
 #endif
 #endif

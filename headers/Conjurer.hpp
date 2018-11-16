@@ -45,29 +45,29 @@ public:
 
 #ifdef _WIN32
 
-int (*Conjurer::ptr::_GetCost)() = (int (*)()) 0x0;
-void (*Conjurer::ptr::_DisplayCost)() = (void (*)()) 0x0;
-void (*Conjurer::ptr::IncreaseCost)(Conjurer * self) = (void (*)(Conjurer * self)) 0x5fc830;
-Conjurer * (*Conjurer::ptr::New)(Conjurer * self, int xVal, int yVal, int l, bool captv) = (Conjurer * (*)(Conjurer * self, int xVal, int yVal, int l, bool captv)) 0x5fc860;
-Conjurer * (*Conjurer::ptr::_new2)() = (Conjurer * (*)()) 0x0;
-bool (*Conjurer::ptr::_CanBeDamaged)(Conjurer * self, bool arg1, bool arg2) = (bool (*)(Conjurer * self, bool arg1, bool arg2)) 0x0;
-Point * (*Conjurer::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
-void (*Conjurer::ptr::Die)(Conjurer * self) = (void (*)(Conjurer * self)) 0x5fcbf0;
-void (*Conjurer::ptr::mark)(Conjurer * self) = (void (*)(Conjurer * self)) 0x5fcda0;
-void (*Conjurer::ptr::CSTR_Conjurer)(Conjurer * self) = (void (*)(Conjurer * self)) 0x5fc7b0;
+inline int (*Conjurer::ptr::_GetCost)() = (int (*)()) 0x0;
+inline void (*Conjurer::ptr::_DisplayCost)() = (void (*)()) 0x0;
+inline void (*Conjurer::ptr::IncreaseCost)(Conjurer * self) = (void (*)(Conjurer * self)) 0x5fc830;
+inline Conjurer * (*Conjurer::ptr::New)(Conjurer * self, int xVal, int yVal, int l, bool captv) = (Conjurer * (*)(Conjurer * self, int xVal, int yVal, int l, bool captv)) 0x5fc860;
+inline Conjurer * (*Conjurer::ptr::_new2)() = (Conjurer * (*)()) 0x0;
+inline bool (*Conjurer::ptr::_CanBeDamaged)(Conjurer * self, bool arg1, bool arg2) = (bool (*)(Conjurer * self, bool arg1, bool arg2)) 0x0;
+inline Point * (*Conjurer::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
+inline void (*Conjurer::ptr::Die)(Conjurer * self) = (void (*)(Conjurer * self)) 0x5fcbf0;
+inline void (*Conjurer::ptr::mark)(Conjurer * self) = (void (*)(Conjurer * self)) 0x5fcda0;
+inline void (*Conjurer::ptr::CSTR_Conjurer)(Conjurer * self) = (void (*)(Conjurer * self)) 0x5fc7b0;
 #endif
 
 #ifdef __linux__
 
-int (*Conjurer::ptr::_GetCost)() = (int (*)()) 0x816be10;
-void (*Conjurer::ptr::_DisplayCost)() = (void (*)()) 0x812d350;
-void (*Conjurer::ptr::IncreaseCost)(Conjurer * self) = (void (*)(Conjurer * self)) 0x8073ac0;
-Conjurer * (*Conjurer::ptr::New)(Conjurer * self, int xVal, int yVal, int l, bool captv) = (Conjurer * (*)(Conjurer * self, int xVal, int yVal, int l, bool captv)) 0x81a4ec0;
-Conjurer * (*Conjurer::ptr::_new2)() = (Conjurer * (*)()) 0x81a5160;
-bool (*Conjurer::ptr::_CanBeDamaged)(Conjurer * self, bool arg1, bool arg2) = (bool (*)(Conjurer * self, bool arg1, bool arg2)) 0x8073af0;
-Point * (*Conjurer::ptr::_GetMovementDirection)() = (Point * (*)()) 0x80b4fd0;
-void (*Conjurer::ptr::Die)(Conjurer * self) = (void (*)(Conjurer * self)) 0x83b6e30;
-void (*Conjurer::ptr::mark)(Conjurer * self) = (void (*)(Conjurer * self)) 0x80b3340;
-void (*Conjurer::ptr::CSTR_Conjurer)(Conjurer * self) = (void (*)(Conjurer * self)) 0x81a4e20;
+inline int (*Conjurer::ptr::_GetCost)() = (int (*)()) 0x816be10;
+inline void (*Conjurer::ptr::_DisplayCost)() = (void (*)()) 0x812d350;
+inline void (*Conjurer::ptr::IncreaseCost)(Conjurer * self) = (void (*)(Conjurer * self)) 0x8073ac0;
+inline Conjurer * (*Conjurer::ptr::New)(Conjurer * self, int xVal, int yVal, int l, bool captv) = (Conjurer * (*)(Conjurer * self, int xVal, int yVal, int l, bool captv)) 0x81a4ec0;
+inline Conjurer * (*Conjurer::ptr::_new2)() = (Conjurer * (*)()) 0x81a5160;
+inline bool (*Conjurer::ptr::_CanBeDamaged)(Conjurer * self, bool arg1, bool arg2) = (bool (*)(Conjurer * self, bool arg1, bool arg2)) 0x8073af0;
+inline Point * (*Conjurer::ptr::_GetMovementDirection)() = (Point * (*)()) 0x80b4fd0;
+inline void (*Conjurer::ptr::Die)(Conjurer * self) = (void (*)(Conjurer * self)) 0x83b6e30;
+inline void (*Conjurer::ptr::mark)(Conjurer * self) = (void (*)(Conjurer * self)) 0x80b3340;
+inline void (*Conjurer::ptr::CSTR_Conjurer)(Conjurer * self) = (void (*)(Conjurer * self)) 0x81a4e20;
 #endif
 #endif

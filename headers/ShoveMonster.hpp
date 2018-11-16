@@ -31,21 +31,21 @@ public:
 
 #ifdef _WIN32
 
-ShoveMonster * (*ShoveMonster::ptr::New)(ShoveMonster * self, int xVal, int yVal, int l) = (ShoveMonster * (*)(ShoveMonster * self, int xVal, int yVal, int l)) 0x647260;
-ShoveMonster * (*ShoveMonster::ptr::_new2)() = (ShoveMonster * (*)()) 0x0;
-void (*ShoveMonster::ptr::Update)(ShoveMonster * self) = (void (*)(ShoveMonster * self)) 0x6453b0;
-void (*ShoveMonster::ptr::MoveSucceed)(ShoveMonster * self, bool hitPlayer, bool moveDelayed) = (void (*)(ShoveMonster * self, bool hitPlayer, bool moveDelayed)) 0x6473e0;
-void (*ShoveMonster::ptr::_mark)() = (void (*)()) 0x0;
-void (*ShoveMonster::ptr::CSTR_ShoveMonster)(ShoveMonster * self) = (void (*)(ShoveMonster * self)) 0x647200;
+inline ShoveMonster * (*ShoveMonster::ptr::New)(ShoveMonster * self, int xVal, int yVal, int l) = (ShoveMonster * (*)(ShoveMonster * self, int xVal, int yVal, int l)) 0x647260;
+inline ShoveMonster * (*ShoveMonster::ptr::_new2)() = (ShoveMonster * (*)()) 0x0;
+inline void (*ShoveMonster::ptr::Update)(ShoveMonster * self) = (void (*)(ShoveMonster * self)) 0x6453b0;
+inline void (*ShoveMonster::ptr::MoveSucceed)(ShoveMonster * self, bool hitPlayer, bool moveDelayed) = (void (*)(ShoveMonster * self, bool hitPlayer, bool moveDelayed)) 0x6473e0;
+inline void (*ShoveMonster::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*ShoveMonster::ptr::CSTR_ShoveMonster)(ShoveMonster * self) = (void (*)(ShoveMonster * self)) 0x647200;
 #endif
 
 #ifdef __linux__
 
-ShoveMonster * (*ShoveMonster::ptr::New)(ShoveMonster * self, int xVal, int yVal, int l) = (ShoveMonster * (*)(ShoveMonster * self, int xVal, int yVal, int l)) 0x81c3e70;
-ShoveMonster * (*ShoveMonster::ptr::_new2)() = (ShoveMonster * (*)()) 0x81c3fb0;
-void (*ShoveMonster::ptr::Update)(ShoveMonster * self) = (void (*)(ShoveMonster * self)) 0x8381c00;
-void (*ShoveMonster::ptr::MoveSucceed)(ShoveMonster * self, bool hitPlayer, bool moveDelayed) = (void (*)(ShoveMonster * self, bool hitPlayer, bool moveDelayed)) 0x83a5c00;
-void (*ShoveMonster::ptr::_mark)() = (void (*)()) 0x80b0580;
-void (*ShoveMonster::ptr::CSTR_ShoveMonster)(ShoveMonster * self) = (void (*)(ShoveMonster * self)) 0x81c3e50;
+inline ShoveMonster * (*ShoveMonster::ptr::New)(ShoveMonster * self, int xVal, int yVal, int l) = (ShoveMonster * (*)(ShoveMonster * self, int xVal, int yVal, int l)) 0x81c3e70;
+inline ShoveMonster * (*ShoveMonster::ptr::_new2)() = (ShoveMonster * (*)()) 0x81c3fb0;
+inline void (*ShoveMonster::ptr::Update)(ShoveMonster * self) = (void (*)(ShoveMonster * self)) 0x8381c00;
+inline void (*ShoveMonster::ptr::MoveSucceed)(ShoveMonster * self, bool hitPlayer, bool moveDelayed) = (void (*)(ShoveMonster * self, bool hitPlayer, bool moveDelayed)) 0x83a5c00;
+inline void (*ShoveMonster::ptr::_mark)() = (void (*)()) 0x80b0580;
+inline void (*ShoveMonster::ptr::CSTR_ShoveMonster)(ShoveMonster * self) = (void (*)(ShoveMonster * self)) 0x81c3e50;
 #endif
 #endif

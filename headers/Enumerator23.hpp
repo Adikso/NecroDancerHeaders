@@ -30,19 +30,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator23 * (*Enumerator23::ptr::_New)(Enumerator23 * self, List11 * arg1) = (Enumerator23 * (*)(Enumerator23 * self, List11 * arg1)) 0x0;
-Enumerator23 * (*Enumerator23::ptr::_new2)() = (Enumerator23 * (*)()) 0x0;
-bool (*Enumerator23::ptr::_HasNext)() = (bool (*)()) 0x0;
-String * (*Enumerator23::ptr::NextObject)(Enumerator23 * self) = (String * (*)(Enumerator23 * self)) 0x61fb00;
-void (*Enumerator23::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator23 * (*Enumerator23::ptr::_New)(Enumerator23 * self, List11 * arg1) = (Enumerator23 * (*)(Enumerator23 * self, List11 * arg1)) 0x0;
+inline Enumerator23 * (*Enumerator23::ptr::_new2)() = (Enumerator23 * (*)()) 0x0;
+inline bool (*Enumerator23::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline String * (*Enumerator23::ptr::NextObject)(Enumerator23 * self) = (String * (*)(Enumerator23 * self)) 0x61fb00;
+inline void (*Enumerator23::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator23 * (*Enumerator23::ptr::_New)(Enumerator23 * self, List11 * arg1) = (Enumerator23 * (*)(Enumerator23 * self, List11 * arg1)) 0x81b8640;
-Enumerator23 * (*Enumerator23::ptr::_new2)() = (Enumerator23 * (*)()) 0x81b86f0;
-bool (*Enumerator23::ptr::_HasNext)() = (bool (*)()) 0x809b440;
-String * (*Enumerator23::ptr::NextObject)(Enumerator23 * self) = (String * (*)(Enumerator23 * self)) 0x809b3d0;
-void (*Enumerator23::ptr::_mark)() = (void (*)()) 0x8096600;
+inline Enumerator23 * (*Enumerator23::ptr::_New)(Enumerator23 * self, List11 * arg1) = (Enumerator23 * (*)(Enumerator23 * self, List11 * arg1)) 0x81b8640;
+inline Enumerator23 * (*Enumerator23::ptr::_new2)() = (Enumerator23 * (*)()) 0x81b86f0;
+inline bool (*Enumerator23::ptr::_HasNext)() = (bool (*)()) 0x809b440;
+inline String * (*Enumerator23::ptr::NextObject)(Enumerator23 * self) = (String * (*)(Enumerator23 * self)) 0x809b3d0;
+inline void (*Enumerator23::ptr::_mark)() = (void (*)()) 0x8096600;
 #endif
 #endif

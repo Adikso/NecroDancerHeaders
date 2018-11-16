@@ -32,19 +32,19 @@ public:
 
 #ifdef _WIN32
 
-TileObject * (*TileObject::ptr::_New)(TileObject * self, int arg1, int arg2, int arg3, int arg4, bool arg5, bool arg6) = (TileObject * (*)(TileObject * self, int arg1, int arg2, int arg3, int arg4, bool arg5, bool arg6)) 0x0;
-TileObject * (*TileObject::ptr::new2)(TileObject * self, XMLNode * fromXML) = (TileObject * (*)(TileObject * self, XMLNode * fromXML)) 0x5d6fa0;
-TileObject * (*TileObject::ptr::_new3)() = (TileObject * (*)()) 0x0;
-void (*TileObject::ptr::AddToXML)(TileObject * self, XMLNode * xml) = (void (*)(TileObject * self, XMLNode * xml)) 0x5d7280;
-void (*TileObject::ptr::_mark)() = (void (*)()) 0x0;
+inline TileObject * (*TileObject::ptr::_New)(TileObject * self, int arg1, int arg2, int arg3, int arg4, bool arg5, bool arg6) = (TileObject * (*)(TileObject * self, int arg1, int arg2, int arg3, int arg4, bool arg5, bool arg6)) 0x0;
+inline TileObject * (*TileObject::ptr::new2)(TileObject * self, XMLNode * fromXML) = (TileObject * (*)(TileObject * self, XMLNode * fromXML)) 0x5d6fa0;
+inline TileObject * (*TileObject::ptr::_new3)() = (TileObject * (*)()) 0x0;
+inline void (*TileObject::ptr::AddToXML)(TileObject * self, XMLNode * xml) = (void (*)(TileObject * self, XMLNode * xml)) 0x5d7280;
+inline void (*TileObject::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-TileObject * (*TileObject::ptr::_New)(TileObject * self, int arg1, int arg2, int arg3, int arg4, bool arg5, bool arg6) = (TileObject * (*)(TileObject * self, int arg1, int arg2, int arg3, int arg4, bool arg5, bool arg6)) 0x8191430;
-TileObject * (*TileObject::ptr::new2)(TileObject * self, XMLNode * fromXML) = (TileObject * (*)(TileObject * self, XMLNode * fromXML)) 0x8191460;
-TileObject * (*TileObject::ptr::_new3)() = (TileObject * (*)()) 0x8191690;
-void (*TileObject::ptr::AddToXML)(TileObject * self, XMLNode * xml) = (void (*)(TileObject * self, XMLNode * xml)) 0x80c81e0;
-void (*TileObject::ptr::_mark)() = (void (*)()) 0x8071ce0;
+inline TileObject * (*TileObject::ptr::_New)(TileObject * self, int arg1, int arg2, int arg3, int arg4, bool arg5, bool arg6) = (TileObject * (*)(TileObject * self, int arg1, int arg2, int arg3, int arg4, bool arg5, bool arg6)) 0x8191430;
+inline TileObject * (*TileObject::ptr::new2)(TileObject * self, XMLNode * fromXML) = (TileObject * (*)(TileObject * self, XMLNode * fromXML)) 0x8191460;
+inline TileObject * (*TileObject::ptr::_new3)() = (TileObject * (*)()) 0x8191690;
+inline void (*TileObject::ptr::AddToXML)(TileObject * self, XMLNode * xml) = (void (*)(TileObject * self, XMLNode * xml)) 0x80c81e0;
+inline void (*TileObject::ptr::_mark)() = (void (*)()) 0x8071ce0;
 #endif
 #endif

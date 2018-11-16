@@ -52,37 +52,37 @@ public:
 
 #ifdef _WIN32
 
-List9 * (*List9::ptr::_New)() = (List9 * (*)()) 0x0;
-Node16 * (*List9::ptr::_AddLast9)(List9 * self, Gargoyle * arg1) = (Node16 * (*)(List9 * self, Gargoyle * arg1)) 0x0;
-List9 * (*List9::ptr::_new2)(List9 * self, Array<Gargoyle *> * arg1) = (List9 * (*)(List9 * self, Array<Gargoyle *> * arg1)) 0x0;
-int (*List9::ptr::_Clear)() = (int (*)()) 0x0;
-int (*List9::ptr::_Count)() = (int (*)()) 0x0;
-Gargoyle * (*List9::ptr::RemoveFirst)(List9 * self) = (Gargoyle * (*)(List9 * self)) 0x557420;
-bool (*List9::ptr::_Equals5)(List9 * self, Gargoyle * arg1, Gargoyle * arg2) = (bool (*)(List9 * self, Gargoyle * arg1, Gargoyle * arg2)) 0x0;
-bool (*List9::ptr::_Contains4)(List9 * self, Gargoyle * arg1) = (bool (*)(List9 * self, Gargoyle * arg1)) 0x0;
-void (*List9::ptr::_mark)() = (void (*)()) 0x0;
-void (*List9::ptr::CSTR_List9)(List9 * self) = (void (*)(List9 * self)) 0x5c1510;
-Node16 * (*List9::ptr::AddLast9)(List9 * self, Crate * data) = (Node16 * (*)(List9 * self, Crate * data)) 0x5c15e0;
-Enumerator11 * (*List9::ptr::ObjectEnumerator)(List9 * self) = (Enumerator11 * (*)(List9 * self)) 0x5c1680;
-bool (*List9::ptr::Contains3)(List9 * self, Crate * value) = (bool (*)(List9 * self, Crate * value)) 0x5c1710;
-int (*List9::ptr::RemoveEach6)(List9 * self, Crate * value) = (int (*)(List9 * self, Crate * value)) 0x5c1750;
+inline List9 * (*List9::ptr::_New)() = (List9 * (*)()) 0x0;
+inline Node16 * (*List9::ptr::_AddLast9)(List9 * self, Gargoyle * arg1) = (Node16 * (*)(List9 * self, Gargoyle * arg1)) 0x0;
+inline List9 * (*List9::ptr::_new2)(List9 * self, Array<Gargoyle *> * arg1) = (List9 * (*)(List9 * self, Array<Gargoyle *> * arg1)) 0x0;
+inline int (*List9::ptr::_Clear)() = (int (*)()) 0x0;
+inline int (*List9::ptr::_Count)() = (int (*)()) 0x0;
+inline Gargoyle * (*List9::ptr::RemoveFirst)(List9 * self) = (Gargoyle * (*)(List9 * self)) 0x557420;
+inline bool (*List9::ptr::_Equals5)(List9 * self, Gargoyle * arg1, Gargoyle * arg2) = (bool (*)(List9 * self, Gargoyle * arg1, Gargoyle * arg2)) 0x0;
+inline bool (*List9::ptr::_Contains4)(List9 * self, Gargoyle * arg1) = (bool (*)(List9 * self, Gargoyle * arg1)) 0x0;
+inline void (*List9::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List9::ptr::CSTR_List9)(List9 * self) = (void (*)(List9 * self)) 0x5c1510;
+inline Node16 * (*List9::ptr::AddLast9)(List9 * self, Crate * data) = (Node16 * (*)(List9 * self, Crate * data)) 0x5c15e0;
+inline Enumerator11 * (*List9::ptr::ObjectEnumerator)(List9 * self) = (Enumerator11 * (*)(List9 * self)) 0x5c1680;
+inline bool (*List9::ptr::Contains3)(List9 * self, Crate * value) = (bool (*)(List9 * self, Crate * value)) 0x5c1710;
+inline int (*List9::ptr::RemoveEach6)(List9 * self, Crate * value) = (int (*)(List9 * self, Crate * value)) 0x5c1750;
 #endif
 
 #ifdef __linux__
 
-List9 * (*List9::ptr::_New)() = (List9 * (*)()) 0x817e590;
-Node16 * (*List9::ptr::_AddLast9)(List9 * self, Gargoyle * arg1) = (Node16 * (*)(List9 * self, Gargoyle * arg1)) 0x0;
-List9 * (*List9::ptr::_new2)(List9 * self, Array<Gargoyle *> * arg1) = (List9 * (*)(List9 * self, Array<Gargoyle *> * arg1)) 0x0;
-int (*List9::ptr::_Clear)() = (int (*)()) 0x8094050;
-int (*List9::ptr::_Count)() = (int (*)()) 0x80709b0;
-Gargoyle * (*List9::ptr::RemoveFirst)(List9 * self) = (Gargoyle * (*)(List9 * self)) 0x80709d0;
-bool (*List9::ptr::_Equals5)(List9 * self, Gargoyle * arg1, Gargoyle * arg2) = (bool (*)(List9 * self, Gargoyle * arg1, Gargoyle * arg2)) 0x0;
-bool (*List9::ptr::_Contains4)(List9 * self, Gargoyle * arg1) = (bool (*)(List9 * self, Gargoyle * arg1)) 0x0;
-void (*List9::ptr::_mark)() = (void (*)()) 0x8087c50;
-void (*List9::ptr::CSTR_List9)(List9 * self) = (void (*)(List9 * self)) 0x817e910;
-Node16 * (*List9::ptr::AddLast9)(List9 * self, Crate * data) = (Node16 * (*)(List9 * self, Crate * data)) 0x817e7d0;
-Enumerator11 * (*List9::ptr::ObjectEnumerator)(List9 * self) = (Enumerator11 * (*)(List9 * self)) 0x80b7280;
-bool (*List9::ptr::Contains3)(List9 * self, Crate * value) = (bool (*)(List9 * self, Crate * value)) 0x8070a20;
-int (*List9::ptr::RemoveEach6)(List9 * self, Crate * value) = (int (*)(List9 * self, Crate * value)) 0x8070a70;
+inline List9 * (*List9::ptr::_New)() = (List9 * (*)()) 0x817e590;
+inline Node16 * (*List9::ptr::_AddLast9)(List9 * self, Gargoyle * arg1) = (Node16 * (*)(List9 * self, Gargoyle * arg1)) 0x0;
+inline List9 * (*List9::ptr::_new2)(List9 * self, Array<Gargoyle *> * arg1) = (List9 * (*)(List9 * self, Array<Gargoyle *> * arg1)) 0x0;
+inline int (*List9::ptr::_Clear)() = (int (*)()) 0x8094050;
+inline int (*List9::ptr::_Count)() = (int (*)()) 0x80709b0;
+inline Gargoyle * (*List9::ptr::RemoveFirst)(List9 * self) = (Gargoyle * (*)(List9 * self)) 0x80709d0;
+inline bool (*List9::ptr::_Equals5)(List9 * self, Gargoyle * arg1, Gargoyle * arg2) = (bool (*)(List9 * self, Gargoyle * arg1, Gargoyle * arg2)) 0x0;
+inline bool (*List9::ptr::_Contains4)(List9 * self, Gargoyle * arg1) = (bool (*)(List9 * self, Gargoyle * arg1)) 0x0;
+inline void (*List9::ptr::_mark)() = (void (*)()) 0x8087c50;
+inline void (*List9::ptr::CSTR_List9)(List9 * self) = (void (*)(List9 * self)) 0x817e910;
+inline Node16 * (*List9::ptr::AddLast9)(List9 * self, Crate * data) = (Node16 * (*)(List9 * self, Crate * data)) 0x817e7d0;
+inline Enumerator11 * (*List9::ptr::ObjectEnumerator)(List9 * self) = (Enumerator11 * (*)(List9 * self)) 0x80b7280;
+inline bool (*List9::ptr::Contains3)(List9 * self, Crate * value) = (bool (*)(List9 * self, Crate * value)) 0x8070a20;
+inline int (*List9::ptr::RemoveEach6)(List9 * self, Crate * value) = (int (*)(List9 * self, Crate * value)) 0x8070a70;
 #endif
 #endif

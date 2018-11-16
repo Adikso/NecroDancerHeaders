@@ -23,13 +23,13 @@ public:
 
 #ifdef _WIN32
 
-void (*UncertaintyRingPredicate::ptr::CSTR_UncertaintyRingPredicate)(UncertaintyRingPredicate * self) = (void (*)(UncertaintyRingPredicate * self)) 0x61d1e0;
-bool (*UncertaintyRingPredicate::ptr::Call)(UncertaintyRingPredicate * self, XMLNode * n) = (bool (*)(UncertaintyRingPredicate * self, XMLNode * n)) 0x61d2d0;
+inline void (*UncertaintyRingPredicate::ptr::CSTR_UncertaintyRingPredicate)(UncertaintyRingPredicate * self) = (void (*)(UncertaintyRingPredicate * self)) 0x61d1e0;
+inline bool (*UncertaintyRingPredicate::ptr::Call)(UncertaintyRingPredicate * self, XMLNode * n) = (bool (*)(UncertaintyRingPredicate * self, XMLNode * n)) 0x61d2d0;
 #endif
 
 #ifdef __linux__
 
-void (*UncertaintyRingPredicate::ptr::CSTR_UncertaintyRingPredicate)(UncertaintyRingPredicate * self) = (void (*)(UncertaintyRingPredicate * self)) 0x81b78f0;
-bool (*UncertaintyRingPredicate::ptr::Call)(UncertaintyRingPredicate * self, XMLNode * n) = (bool (*)(UncertaintyRingPredicate * self, XMLNode * n)) 0x80c9ca0;
+inline void (*UncertaintyRingPredicate::ptr::CSTR_UncertaintyRingPredicate)(UncertaintyRingPredicate * self) = (void (*)(UncertaintyRingPredicate * self)) 0x81b78f0;
+inline bool (*UncertaintyRingPredicate::ptr::Call)(UncertaintyRingPredicate * self, XMLNode * n) = (bool (*)(UncertaintyRingPredicate * self, XMLNode * n)) 0x80c9ca0;
 #endif
 #endif

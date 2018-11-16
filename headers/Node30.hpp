@@ -31,21 +31,21 @@ public:
 
 #ifdef _WIN32
 
-Node30 * (*Node30::ptr::_New)(Node30 * self, Node30 * arg1, Node30 * arg2, Chest * arg3) = (Node30 * (*)(Node30 * self, Node30 * arg1, Node30 * arg2, Chest * arg3)) 0x0;
-Node30 * (*Node30::ptr::_new2)() = (Node30 * (*)()) 0x0;
-int (*Node30::ptr::_Remove3)() = (int (*)()) 0x0;
-Node30 * (*Node30::ptr::_GetNode)() = (Node30 * (*)()) 0x0;
-Node30 * (*Node30::ptr::_NextNode)() = (Node30 * (*)()) 0x0;
-void (*Node30::ptr::_mark)() = (void (*)()) 0x0;
+inline Node30 * (*Node30::ptr::_New)(Node30 * self, Node30 * arg1, Node30 * arg2, Chest * arg3) = (Node30 * (*)(Node30 * self, Node30 * arg1, Node30 * arg2, Chest * arg3)) 0x0;
+inline Node30 * (*Node30::ptr::_new2)() = (Node30 * (*)()) 0x0;
+inline int (*Node30::ptr::_Remove3)() = (int (*)()) 0x0;
+inline Node30 * (*Node30::ptr::_GetNode)() = (Node30 * (*)()) 0x0;
+inline Node30 * (*Node30::ptr::_NextNode)() = (Node30 * (*)()) 0x0;
+inline void (*Node30::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node30 * (*Node30::ptr::_New)(Node30 * self, Node30 * arg1, Node30 * arg2, Chest * arg3) = (Node30 * (*)(Node30 * self, Node30 * arg1, Node30 * arg2, Chest * arg3)) 0x0;
-Node30 * (*Node30::ptr::_new2)() = (Node30 * (*)()) 0x81a39e0;
-int (*Node30::ptr::_Remove3)() = (int (*)()) 0x8092920;
-Node30 * (*Node30::ptr::_GetNode)() = (Node30 * (*)()) 0x8073990;
-Node30 * (*Node30::ptr::_NextNode)() = (Node30 * (*)()) 0x0;
-void (*Node30::ptr::_mark)() = (void (*)()) 0x808b5d0;
+inline Node30 * (*Node30::ptr::_New)(Node30 * self, Node30 * arg1, Node30 * arg2, Chest * arg3) = (Node30 * (*)(Node30 * self, Node30 * arg1, Node30 * arg2, Chest * arg3)) 0x0;
+inline Node30 * (*Node30::ptr::_new2)() = (Node30 * (*)()) 0x81a39e0;
+inline int (*Node30::ptr::_Remove3)() = (int (*)()) 0x8092920;
+inline Node30 * (*Node30::ptr::_GetNode)() = (Node30 * (*)()) 0x8073990;
+inline Node30 * (*Node30::ptr::_NextNode)() = (Node30 * (*)()) 0x0;
+inline void (*Node30::ptr::_mark)() = (void (*)()) 0x808b5d0;
 #endif
 #endif

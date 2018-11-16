@@ -37,17 +37,17 @@ public:
 
 #ifdef _WIN32
 
-LeaderboardRow * (*LeaderboardRow::ptr::_New)() = (LeaderboardRow * (*)()) 0x0;
-void (*LeaderboardRow::ptr::Discard)(LeaderboardRow * self) = (void (*)(LeaderboardRow * self)) 0x692840;
-void (*LeaderboardRow::ptr::mark)(LeaderboardRow * self) = (void (*)(LeaderboardRow * self)) 0x692880;
-void (*LeaderboardRow::ptr::CSTR_LeaderboardRow)(LeaderboardRow * self) = (void (*)(LeaderboardRow * self)) 0x692590;
+inline LeaderboardRow * (*LeaderboardRow::ptr::_New)() = (LeaderboardRow * (*)()) 0x0;
+inline void (*LeaderboardRow::ptr::Discard)(LeaderboardRow * self) = (void (*)(LeaderboardRow * self)) 0x692840;
+inline void (*LeaderboardRow::ptr::mark)(LeaderboardRow * self) = (void (*)(LeaderboardRow * self)) 0x692880;
+inline void (*LeaderboardRow::ptr::CSTR_LeaderboardRow)(LeaderboardRow * self) = (void (*)(LeaderboardRow * self)) 0x692590;
 #endif
 
 #ifdef __linux__
 
-LeaderboardRow * (*LeaderboardRow::ptr::_New)() = (LeaderboardRow * (*)()) 0x81e6aa0;
-void (*LeaderboardRow::ptr::Discard)(LeaderboardRow * self) = (void (*)(LeaderboardRow * self)) 0x8079810;
-void (*LeaderboardRow::ptr::mark)(LeaderboardRow * self) = (void (*)(LeaderboardRow * self)) 0x80a3460;
-void (*LeaderboardRow::ptr::CSTR_LeaderboardRow)(LeaderboardRow * self) = (void (*)(LeaderboardRow * self)) 0x81e5a00;
+inline LeaderboardRow * (*LeaderboardRow::ptr::_New)() = (LeaderboardRow * (*)()) 0x81e6aa0;
+inline void (*LeaderboardRow::ptr::Discard)(LeaderboardRow * self) = (void (*)(LeaderboardRow * self)) 0x8079810;
+inline void (*LeaderboardRow::ptr::mark)(LeaderboardRow * self) = (void (*)(LeaderboardRow * self)) 0x80a3460;
+inline void (*LeaderboardRow::ptr::CSTR_LeaderboardRow)(LeaderboardRow * self) = (void (*)(LeaderboardRow * self)) 0x81e5a00;
 #endif
 #endif

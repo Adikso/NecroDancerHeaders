@@ -33,21 +33,21 @@ public:
 
 #ifdef _WIN32
 
-Pawn * (*Pawn::ptr::New)(Pawn * self, int xVal, int yVal, int l) = (Pawn * (*)(Pawn * self, int xVal, int yVal, int l)) 0x654d90;
-Pawn * (*Pawn::ptr::_new2)() = (Pawn * (*)()) 0x0;
-void (*Pawn::ptr::MoveSucceed)(Pawn * self, bool hitPlayer, bool moveDelayed) = (void (*)(Pawn * self, bool hitPlayer, bool moveDelayed)) 0x655000;
-bool (*Pawn::ptr::Hit)(Pawn * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Pawn * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x655340;
-Point * (*Pawn::ptr::GetMovementDirection)(Pawn * self) = (Point * (*)(Pawn * self)) 0x655400;
-void (*Pawn::ptr::_mark)() = (void (*)()) 0x0;
+inline Pawn * (*Pawn::ptr::New)(Pawn * self, int xVal, int yVal, int l) = (Pawn * (*)(Pawn * self, int xVal, int yVal, int l)) 0x654d90;
+inline Pawn * (*Pawn::ptr::_new2)() = (Pawn * (*)()) 0x0;
+inline void (*Pawn::ptr::MoveSucceed)(Pawn * self, bool hitPlayer, bool moveDelayed) = (void (*)(Pawn * self, bool hitPlayer, bool moveDelayed)) 0x655000;
+inline bool (*Pawn::ptr::Hit)(Pawn * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Pawn * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x655340;
+inline Point * (*Pawn::ptr::GetMovementDirection)(Pawn * self) = (Point * (*)(Pawn * self)) 0x655400;
+inline void (*Pawn::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Pawn * (*Pawn::ptr::New)(Pawn * self, int xVal, int yVal, int l) = (Pawn * (*)(Pawn * self, int xVal, int yVal, int l)) 0x81c8600;
-Pawn * (*Pawn::ptr::_new2)() = (Pawn * (*)()) 0x81c87e0;
-void (*Pawn::ptr::MoveSucceed)(Pawn * self, bool hitPlayer, bool moveDelayed) = (void (*)(Pawn * self, bool hitPlayer, bool moveDelayed)) 0x811cdd0;
-bool (*Pawn::ptr::Hit)(Pawn * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Pawn * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8397190;
-Point * (*Pawn::ptr::GetMovementDirection)(Pawn * self) = (Point * (*)(Pawn * self)) 0x81b23c0;
-void (*Pawn::ptr::_mark)() = (void (*)()) 0x80b0260;
+inline Pawn * (*Pawn::ptr::New)(Pawn * self, int xVal, int yVal, int l) = (Pawn * (*)(Pawn * self, int xVal, int yVal, int l)) 0x81c8600;
+inline Pawn * (*Pawn::ptr::_new2)() = (Pawn * (*)()) 0x81c87e0;
+inline void (*Pawn::ptr::MoveSucceed)(Pawn * self, bool hitPlayer, bool moveDelayed) = (void (*)(Pawn * self, bool hitPlayer, bool moveDelayed)) 0x811cdd0;
+inline bool (*Pawn::ptr::Hit)(Pawn * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Pawn * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8397190;
+inline Point * (*Pawn::ptr::GetMovementDirection)(Pawn * self) = (Point * (*)(Pawn * self)) 0x81b23c0;
+inline void (*Pawn::ptr::_mark)() = (void (*)()) 0x80b0260;
 #endif
 #endif

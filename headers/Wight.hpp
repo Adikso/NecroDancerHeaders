@@ -46,31 +46,31 @@ public:
 
 #ifdef _WIN32
 
-Wight * (*Wight::ptr::New)(Wight * self, int xVal, int yVal, int l) = (Wight * (*)(Wight * self, int xVal, int yVal, int l)) 0x642620;
-Wight * (*Wight::ptr::_new2)() = (Wight * (*)()) 0x0;
-void (*Wight::ptr::_Render)() = (void (*)()) 0x0;
-void (*Wight::ptr::BecomeCorporeal)(Wight * self, bool force) = (void (*)(Wight * self, bool force)) 0x642890;
-void (*Wight::ptr::CheckCorporeality)(Wight * self) = (void (*)(Wight * self)) 0x642b50;
-void (*Wight::ptr::Update)(Wight * self) = (void (*)(Wight * self)) 0x642ee0;
-bool (*Wight::ptr::_Hit)(Wight * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(Wight * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x0;
-bool (*Wight::ptr::_CanBeDamaged)(Wight * self, bool arg1, bool arg2) = (bool (*)(Wight * self, bool arg1, bool arg2)) 0x0;
-Point * (*Wight::ptr::GetMovementDirection)(Wight * self) = (Point * (*)(Wight * self)) 0x642ff0;
-void (*Wight::ptr::_mark)() = (void (*)()) 0x0;
-void (*Wight::ptr::CSTR_Wight)(Wight * self) = (void (*)(Wight * self)) 0x6425c0;
+inline Wight * (*Wight::ptr::New)(Wight * self, int xVal, int yVal, int l) = (Wight * (*)(Wight * self, int xVal, int yVal, int l)) 0x642620;
+inline Wight * (*Wight::ptr::_new2)() = (Wight * (*)()) 0x0;
+inline void (*Wight::ptr::_Render)() = (void (*)()) 0x0;
+inline void (*Wight::ptr::BecomeCorporeal)(Wight * self, bool force) = (void (*)(Wight * self, bool force)) 0x642890;
+inline void (*Wight::ptr::CheckCorporeality)(Wight * self) = (void (*)(Wight * self)) 0x642b50;
+inline void (*Wight::ptr::Update)(Wight * self) = (void (*)(Wight * self)) 0x642ee0;
+inline bool (*Wight::ptr::_Hit)(Wight * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(Wight * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x0;
+inline bool (*Wight::ptr::_CanBeDamaged)(Wight * self, bool arg1, bool arg2) = (bool (*)(Wight * self, bool arg1, bool arg2)) 0x0;
+inline Point * (*Wight::ptr::GetMovementDirection)(Wight * self) = (Point * (*)(Wight * self)) 0x642ff0;
+inline void (*Wight::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Wight::ptr::CSTR_Wight)(Wight * self) = (void (*)(Wight * self)) 0x6425c0;
 #endif
 
 #ifdef __linux__
 
-Wight * (*Wight::ptr::New)(Wight * self, int xVal, int yVal, int l) = (Wight * (*)(Wight * self, int xVal, int yVal, int l)) 0x81c2d70;
-Wight * (*Wight::ptr::_new2)() = (Wight * (*)()) 0x81c2f50;
-void (*Wight::ptr::_Render)() = (void (*)()) 0x830bf50;
-void (*Wight::ptr::BecomeCorporeal)(Wight * self, bool force) = (void (*)(Wight * self, bool force)) 0x8264c00;
-void (*Wight::ptr::CheckCorporeality)(Wight * self) = (void (*)(Wight * self)) 0x8260de0;
-void (*Wight::ptr::Update)(Wight * self) = (void (*)(Wight * self)) 0x8382140;
-bool (*Wight::ptr::_Hit)(Wight * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(Wight * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x8398e70;
-bool (*Wight::ptr::_CanBeDamaged)(Wight * self, bool arg1, bool arg2) = (bool (*)(Wight * self, bool arg1, bool arg2)) 0x8076210;
-Point * (*Wight::ptr::GetMovementDirection)(Wight * self) = (Point * (*)(Wight * self)) 0x80b45f0;
-void (*Wight::ptr::_mark)() = (void (*)()) 0x80b06c0;
-void (*Wight::ptr::CSTR_Wight)(Wight * self) = (void (*)(Wight * self)) 0x81c2d40;
+inline Wight * (*Wight::ptr::New)(Wight * self, int xVal, int yVal, int l) = (Wight * (*)(Wight * self, int xVal, int yVal, int l)) 0x81c2d70;
+inline Wight * (*Wight::ptr::_new2)() = (Wight * (*)()) 0x81c2f50;
+inline void (*Wight::ptr::_Render)() = (void (*)()) 0x830bf50;
+inline void (*Wight::ptr::BecomeCorporeal)(Wight * self, bool force) = (void (*)(Wight * self, bool force)) 0x8264c00;
+inline void (*Wight::ptr::CheckCorporeality)(Wight * self) = (void (*)(Wight * self)) 0x8260de0;
+inline void (*Wight::ptr::Update)(Wight * self) = (void (*)(Wight * self)) 0x8382140;
+inline bool (*Wight::ptr::_Hit)(Wight * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(Wight * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x8398e70;
+inline bool (*Wight::ptr::_CanBeDamaged)(Wight * self, bool arg1, bool arg2) = (bool (*)(Wight * self, bool arg1, bool arg2)) 0x8076210;
+inline Point * (*Wight::ptr::GetMovementDirection)(Wight * self) = (Point * (*)(Wight * self)) 0x80b45f0;
+inline void (*Wight::ptr::_mark)() = (void (*)()) 0x80b06c0;
+inline void (*Wight::ptr::CSTR_Wight)(Wight * self) = (void (*)(Wight * self)) 0x81c2d40;
 #endif
 #endif

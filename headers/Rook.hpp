@@ -29,21 +29,21 @@ public:
 
 #ifdef _WIN32
 
-Rook * (*Rook::ptr::New)(Rook * self, int xVal, int yVal, int l) = (Rook * (*)(Rook * self, int xVal, int yVal, int l)) 0x656c80;
-Rook * (*Rook::ptr::_new2)() = (Rook * (*)()) 0x0;
-void (*Rook::ptr::Update)(Rook * self) = (void (*)(Rook * self)) 0x656ef0;
-void (*Rook::ptr::MoveSucceed)(Rook * self, bool hitPlayer, bool moveDelayed) = (void (*)(Rook * self, bool hitPlayer, bool moveDelayed)) 0x656f00;
-Point * (*Rook::ptr::GetMovementDirection)(Rook * self) = (Point * (*)(Rook * self)) 0x656f30;
-void (*Rook::ptr::_mark)() = (void (*)()) 0x0;
+inline Rook * (*Rook::ptr::New)(Rook * self, int xVal, int yVal, int l) = (Rook * (*)(Rook * self, int xVal, int yVal, int l)) 0x656c80;
+inline Rook * (*Rook::ptr::_new2)() = (Rook * (*)()) 0x0;
+inline void (*Rook::ptr::Update)(Rook * self) = (void (*)(Rook * self)) 0x656ef0;
+inline void (*Rook::ptr::MoveSucceed)(Rook * self, bool hitPlayer, bool moveDelayed) = (void (*)(Rook * self, bool hitPlayer, bool moveDelayed)) 0x656f00;
+inline Point * (*Rook::ptr::GetMovementDirection)(Rook * self) = (Point * (*)(Rook * self)) 0x656f30;
+inline void (*Rook::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Rook * (*Rook::ptr::New)(Rook * self, int xVal, int yVal, int l) = (Rook * (*)(Rook * self, int xVal, int yVal, int l)) 0x81c8e30;
-Rook * (*Rook::ptr::_new2)() = (Rook * (*)()) 0x81c9010;
-void (*Rook::ptr::Update)(Rook * self) = (void (*)(Rook * self)) 0x837f320;
-void (*Rook::ptr::MoveSucceed)(Rook * self, bool hitPlayer, bool moveDelayed) = (void (*)(Rook * self, bool hitPlayer, bool moveDelayed)) 0x80765a0;
-Point * (*Rook::ptr::GetMovementDirection)(Rook * self) = (Point * (*)(Rook * self)) 0x816e440;
-void (*Rook::ptr::_mark)() = (void (*)()) 0x80b0240;
+inline Rook * (*Rook::ptr::New)(Rook * self, int xVal, int yVal, int l) = (Rook * (*)(Rook * self, int xVal, int yVal, int l)) 0x81c8e30;
+inline Rook * (*Rook::ptr::_new2)() = (Rook * (*)()) 0x81c9010;
+inline void (*Rook::ptr::Update)(Rook * self) = (void (*)(Rook * self)) 0x837f320;
+inline void (*Rook::ptr::MoveSucceed)(Rook * self, bool hitPlayer, bool moveDelayed) = (void (*)(Rook * self, bool hitPlayer, bool moveDelayed)) 0x80765a0;
+inline Point * (*Rook::ptr::GetMovementDirection)(Rook * self) = (Point * (*)(Rook * self)) 0x816e440;
+inline void (*Rook::ptr::_mark)() = (void (*)()) 0x80b0240;
 #endif
 #endif

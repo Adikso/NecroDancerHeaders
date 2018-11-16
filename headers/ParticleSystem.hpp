@@ -51,34 +51,34 @@ public:
 };
 
 #ifdef _WIN32
-List28 * * ParticleSystem::particlePool = (List28* *) 0x8356ec;
-List29 * * ParticleSystem::systems = (List29* *) 0x8356e8;
+inline List28 * * ParticleSystem::particlePool = (List28* *) 0x8356ec;
+inline List29 * * ParticleSystem::systems = (List29* *) 0x8356e8;
 
-void (*ParticleSystem::ptr::InitOvularParticles)(ParticleSystem * self) = (void (*)(ParticleSystem * self)) 0x57e8b0;
-ParticleSystem * (*ParticleSystem::ptr::New)(ParticleSystem * self, int xVal, int yVal, ParticleSystemData * data, int dir, String * imagePath) = (ParticleSystem * (*)(ParticleSystem * self, int xVal, int yVal, ParticleSystemData * data, int dir, String * imagePath)) 0x57e930;
-ParticleSystem * (*ParticleSystem::ptr::_new2)() = (ParticleSystem * (*)()) 0x0;
-void (*ParticleSystem::ptr::_Clear)() = (void (*)()) 0x0;
-void (*ParticleSystem::ptr::Init)() = (void (*)()) 0x57edc0;
-void (*ParticleSystem::ptr::Update)(ParticleSystem * self) = (void (*)(ParticleSystem * self)) 0x57ee50;
-void (*ParticleSystem::ptr::UpdateAll)() = (void (*)()) 0x57eee0;
-void (*ParticleSystem::ptr::Render)() = (void (*)()) 0x57ef70;
-void (*ParticleSystem::ptr::mark)(ParticleSystem * self) = (void (*)(ParticleSystem * self)) 0x57f0d0;
-void (*ParticleSystem::ptr::CSTR_ParticleSystem)(ParticleSystem * self) = (void (*)(ParticleSystem * self)) 0x57e810;
+inline void (*ParticleSystem::ptr::InitOvularParticles)(ParticleSystem * self) = (void (*)(ParticleSystem * self)) 0x57e8b0;
+inline ParticleSystem * (*ParticleSystem::ptr::New)(ParticleSystem * self, int xVal, int yVal, ParticleSystemData * data, int dir, String * imagePath) = (ParticleSystem * (*)(ParticleSystem * self, int xVal, int yVal, ParticleSystemData * data, int dir, String * imagePath)) 0x57e930;
+inline ParticleSystem * (*ParticleSystem::ptr::_new2)() = (ParticleSystem * (*)()) 0x0;
+inline void (*ParticleSystem::ptr::_Clear)() = (void (*)()) 0x0;
+inline void (*ParticleSystem::ptr::Init)() = (void (*)()) 0x57edc0;
+inline void (*ParticleSystem::ptr::Update)(ParticleSystem * self) = (void (*)(ParticleSystem * self)) 0x57ee50;
+inline void (*ParticleSystem::ptr::UpdateAll)() = (void (*)()) 0x57eee0;
+inline void (*ParticleSystem::ptr::Render)() = (void (*)()) 0x57ef70;
+inline void (*ParticleSystem::ptr::mark)(ParticleSystem * self) = (void (*)(ParticleSystem * self)) 0x57f0d0;
+inline void (*ParticleSystem::ptr::CSTR_ParticleSystem)(ParticleSystem * self) = (void (*)(ParticleSystem * self)) 0x57e810;
 #endif
 
 #ifdef __linux__
-List28 * * ParticleSystem::particlePool = (List28* *) 0x856a66c;
-List29 * * ParticleSystem::systems = (List29* *) 0x856a668;
+inline List28 * * ParticleSystem::particlePool = (List28* *) 0x856a66c;
+inline List29 * * ParticleSystem::systems = (List29* *) 0x856a668;
 
-void (*ParticleSystem::ptr::InitOvularParticles)(ParticleSystem * self) = (void (*)(ParticleSystem * self)) 0x806ff60;
-ParticleSystem * (*ParticleSystem::ptr::New)(ParticleSystem * self, int xVal, int yVal, ParticleSystemData * data, int dir, String * imagePath) = (ParticleSystem * (*)(ParticleSystem * self, int xVal, int yVal, ParticleSystemData * data, int dir, String * imagePath)) 0x81587d0;
-ParticleSystem * (*ParticleSystem::ptr::_new2)() = (ParticleSystem * (*)()) 0x8158d60;
-void (*ParticleSystem::ptr::_Clear)() = (void (*)()) 0x8158d70;
-void (*ParticleSystem::ptr::Init)() = (void (*)()) 0x81a33f0;
-void (*ParticleSystem::ptr::Update)(ParticleSystem * self) = (void (*)(ParticleSystem * self)) 0x807e870;
-void (*ParticleSystem::ptr::UpdateAll)() = (void (*)()) 0x8158d90;
-void (*ParticleSystem::ptr::Render)() = (void (*)()) 0x8158e30;
-void (*ParticleSystem::ptr::mark)(ParticleSystem * self) = (void (*)(ParticleSystem * self)) 0x8084c70;
-void (*ParticleSystem::ptr::CSTR_ParticleSystem)(ParticleSystem * self) = (void (*)(ParticleSystem * self)) 0x81a3b20;
+inline void (*ParticleSystem::ptr::InitOvularParticles)(ParticleSystem * self) = (void (*)(ParticleSystem * self)) 0x806ff60;
+inline ParticleSystem * (*ParticleSystem::ptr::New)(ParticleSystem * self, int xVal, int yVal, ParticleSystemData * data, int dir, String * imagePath) = (ParticleSystem * (*)(ParticleSystem * self, int xVal, int yVal, ParticleSystemData * data, int dir, String * imagePath)) 0x81587d0;
+inline ParticleSystem * (*ParticleSystem::ptr::_new2)() = (ParticleSystem * (*)()) 0x8158d60;
+inline void (*ParticleSystem::ptr::_Clear)() = (void (*)()) 0x8158d70;
+inline void (*ParticleSystem::ptr::Init)() = (void (*)()) 0x81a33f0;
+inline void (*ParticleSystem::ptr::Update)(ParticleSystem * self) = (void (*)(ParticleSystem * self)) 0x807e870;
+inline void (*ParticleSystem::ptr::UpdateAll)() = (void (*)()) 0x8158d90;
+inline void (*ParticleSystem::ptr::Render)() = (void (*)()) 0x8158e30;
+inline void (*ParticleSystem::ptr::mark)(ParticleSystem * self) = (void (*)(ParticleSystem * self)) 0x8084c70;
+inline void (*ParticleSystem::ptr::CSTR_ParticleSystem)(ParticleSystem * self) = (void (*)(ParticleSystem * self)) 0x81a3b20;
 #endif
 #endif

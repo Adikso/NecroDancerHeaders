@@ -37,23 +37,23 @@ public:
 
 #ifdef _WIN32
 
-List38 * (*List38::ptr::_New)() = (List38 * (*)()) 0x0;
-Node56 * (*List38::ptr::AddLast38)(List38 * self, MinibossTileData * data) = (Node56 * (*)(List38 * self, MinibossTileData * data)) 0x61ee30;
-List38 * (*List38::ptr::_new2)(List38 * self, Array<MinibossTileData *> * arg1) = (List38 * (*)(List38 * self, Array<MinibossTileData *> * arg1)) 0x0;
-Enumerator22 * (*List38::ptr::ObjectEnumerator)(List38 * self) = (Enumerator22 * (*)(List38 * self)) 0x61eed0;
-int (*List38::ptr::_Clear)() = (int (*)()) 0x0;
-void (*List38::ptr::_mark)() = (void (*)()) 0x0;
-void (*List38::ptr::CSTR_List38)(List38 * self) = (void (*)(List38 * self)) 0x61ed60;
+inline List38 * (*List38::ptr::_New)() = (List38 * (*)()) 0x0;
+inline Node56 * (*List38::ptr::AddLast38)(List38 * self, MinibossTileData * data) = (Node56 * (*)(List38 * self, MinibossTileData * data)) 0x61ee30;
+inline List38 * (*List38::ptr::_new2)(List38 * self, Array<MinibossTileData *> * arg1) = (List38 * (*)(List38 * self, Array<MinibossTileData *> * arg1)) 0x0;
+inline Enumerator22 * (*List38::ptr::ObjectEnumerator)(List38 * self) = (Enumerator22 * (*)(List38 * self)) 0x61eed0;
+inline int (*List38::ptr::_Clear)() = (int (*)()) 0x0;
+inline void (*List38::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List38::ptr::CSTR_List38)(List38 * self) = (void (*)(List38 * self)) 0x61ed60;
 #endif
 
 #ifdef __linux__
 
-List38 * (*List38::ptr::_New)() = (List38 * (*)()) 0x81b8010;
-Node56 * (*List38::ptr::AddLast38)(List38 * self, MinibossTileData * data) = (Node56 * (*)(List38 * self, MinibossTileData * data)) 0x81b8250;
-List38 * (*List38::ptr::_new2)(List38 * self, Array<MinibossTileData *> * arg1) = (List38 * (*)(List38 * self, Array<MinibossTileData *> * arg1)) 0x0;
-Enumerator22 * (*List38::ptr::ObjectEnumerator)(List38 * self) = (Enumerator22 * (*)(List38 * self)) 0x80ba180;
-int (*List38::ptr::_Clear)() = (int (*)()) 0x8091260;
-void (*List38::ptr::_mark)() = (void (*)()) 0x8088eb0;
-void (*List38::ptr::CSTR_List38)(List38 * self) = (void (*)(List38 * self)) 0x81b8390;
+inline List38 * (*List38::ptr::_New)() = (List38 * (*)()) 0x81b8010;
+inline Node56 * (*List38::ptr::AddLast38)(List38 * self, MinibossTileData * data) = (Node56 * (*)(List38 * self, MinibossTileData * data)) 0x81b8250;
+inline List38 * (*List38::ptr::_new2)(List38 * self, Array<MinibossTileData *> * arg1) = (List38 * (*)(List38 * self, Array<MinibossTileData *> * arg1)) 0x0;
+inline Enumerator22 * (*List38::ptr::ObjectEnumerator)(List38 * self) = (Enumerator22 * (*)(List38 * self)) 0x80ba180;
+inline int (*List38::ptr::_Clear)() = (int (*)()) 0x8091260;
+inline void (*List38::ptr::_mark)() = (void (*)()) 0x8088eb0;
+inline void (*List38::ptr::CSTR_List38)(List38 * self) = (void (*)(List38 * self)) 0x81b8390;
 #endif
 #endif

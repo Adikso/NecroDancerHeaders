@@ -36,21 +36,21 @@ public:
 
 #ifdef _WIN32
 
-Node9 * (*Node9::ptr::_New)(Node9 * self, int key, int value, int color, Node9 * parent) = (Node9 * (*)(Node9 * self, int key, int value, int color, Node9 * parent)) 0x5767d0;
-Node9 * (*Node9::ptr::_new2)() = (Node9 * (*)()) 0x0;
-int (*Node9::ptr::_Count2)(Node9 * self, int n) = (int (*)(Node9 * self, int n)) 0x576840;
-Node9 * (*Node9::ptr::NextNode)(Node9 * self) = (Node9 * (*)(Node9 * self)) 0x53bda0;
-void (*Node9::ptr::mark)(Node9 * self) = (void (*)(Node9 * self)) 0x576880;
-void (*Node9::ptr::CSTR_Node9)(Node9 * self) = (void (*)(Node9 * self)) 0x576740;
+inline Node9 * (*Node9::ptr::_New)(Node9 * self, int key, int value, int color, Node9 * parent) = (Node9 * (*)(Node9 * self, int key, int value, int color, Node9 * parent)) 0x5767d0;
+inline Node9 * (*Node9::ptr::_new2)() = (Node9 * (*)()) 0x0;
+inline int (*Node9::ptr::_Count2)(Node9 * self, int n) = (int (*)(Node9 * self, int n)) 0x576840;
+inline Node9 * (*Node9::ptr::NextNode)(Node9 * self) = (Node9 * (*)(Node9 * self)) 0x53bda0;
+inline void (*Node9::ptr::mark)(Node9 * self) = (void (*)(Node9 * self)) 0x576880;
+inline void (*Node9::ptr::CSTR_Node9)(Node9 * self) = (void (*)(Node9 * self)) 0x576740;
 #endif
 
 #ifdef __linux__
 
-Node9 * (*Node9::ptr::_New)(Node9 * self, int key, int value, int color, Node9 * parent) = (Node9 * (*)(Node9 * self, int key, int value, int color, Node9 * parent)) 0x0;
-Node9 * (*Node9::ptr::_new2)() = (Node9 * (*)()) 0x817e830;
-int (*Node9::ptr::_Count2)(Node9 * self, int n) = (int (*)(Node9 * self, int n)) 0x0;
-Node9 * (*Node9::ptr::NextNode)(Node9 * self) = (Node9 * (*)(Node9 * self)) 0x8070ae0;
-void (*Node9::ptr::mark)(Node9 * self) = (void (*)(Node9 * self)) 0x8087cb0;
-void (*Node9::ptr::CSTR_Node9)(Node9 * self) = (void (*)(Node9 * self)) 0x817e5f0;
+inline Node9 * (*Node9::ptr::_New)(Node9 * self, int key, int value, int color, Node9 * parent) = (Node9 * (*)(Node9 * self, int key, int value, int color, Node9 * parent)) 0x0;
+inline Node9 * (*Node9::ptr::_new2)() = (Node9 * (*)()) 0x817e830;
+inline int (*Node9::ptr::_Count2)(Node9 * self, int n) = (int (*)(Node9 * self, int n)) 0x0;
+inline Node9 * (*Node9::ptr::NextNode)(Node9 * self) = (Node9 * (*)(Node9 * self)) 0x8070ae0;
+inline void (*Node9::ptr::mark)(Node9 * self) = (void (*)(Node9 * self)) 0x8087cb0;
+inline void (*Node9::ptr::CSTR_Node9)(Node9 * self) = (void (*)(Node9 * self)) 0x817e5f0;
 #endif
 #endif

@@ -39,25 +39,25 @@ public:
 
 #ifdef _WIN32
 
-Golem * (*Golem::ptr::New)(Golem * self, int xVal, int yVal, int l) = (Golem * (*)(Golem * self, int xVal, int yVal, int l)) 0x63d5a0;
-Golem * (*Golem::ptr::_new2)() = (Golem * (*)()) 0x0;
-void (*Golem::ptr::Update)(Golem * self) = (void (*)(Golem * self)) 0x63d8d0;
-void (*Golem::ptr::_MoveFail)() = (void (*)()) 0x0;
-bool (*Golem::ptr::_CanBeLord)() = (bool (*)()) 0x0;
-bool (*Golem::ptr::Hit)(Golem * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Golem * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x63daf0;
-void (*Golem::ptr::_mark)() = (void (*)()) 0x0;
-void (*Golem::ptr::CSTR_Golem)(Golem * self) = (void (*)(Golem * self)) 0x63d530;
+inline Golem * (*Golem::ptr::New)(Golem * self, int xVal, int yVal, int l) = (Golem * (*)(Golem * self, int xVal, int yVal, int l)) 0x63d5a0;
+inline Golem * (*Golem::ptr::_new2)() = (Golem * (*)()) 0x0;
+inline void (*Golem::ptr::Update)(Golem * self) = (void (*)(Golem * self)) 0x63d8d0;
+inline void (*Golem::ptr::_MoveFail)() = (void (*)()) 0x0;
+inline bool (*Golem::ptr::_CanBeLord)() = (bool (*)()) 0x0;
+inline bool (*Golem::ptr::Hit)(Golem * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Golem * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x63daf0;
+inline void (*Golem::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Golem::ptr::CSTR_Golem)(Golem * self) = (void (*)(Golem * self)) 0x63d530;
 #endif
 
 #ifdef __linux__
 
-Golem * (*Golem::ptr::New)(Golem * self, int xVal, int yVal, int l) = (Golem * (*)(Golem * self, int xVal, int yVal, int l)) 0x81c0df0;
-Golem * (*Golem::ptr::_new2)() = (Golem * (*)()) 0x81c0fe0;
-void (*Golem::ptr::Update)(Golem * self) = (void (*)(Golem * self)) 0x8382be0;
-void (*Golem::ptr::_MoveFail)() = (void (*)()) 0x8135240;
-bool (*Golem::ptr::_CanBeLord)() = (bool (*)()) 0x80760c0;
-bool (*Golem::ptr::Hit)(Golem * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Golem * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83992f0;
-void (*Golem::ptr::_mark)() = (void (*)()) 0x80b0760;
-void (*Golem::ptr::CSTR_Golem)(Golem * self) = (void (*)(Golem * self)) 0x81c0dc0;
+inline Golem * (*Golem::ptr::New)(Golem * self, int xVal, int yVal, int l) = (Golem * (*)(Golem * self, int xVal, int yVal, int l)) 0x81c0df0;
+inline Golem * (*Golem::ptr::_new2)() = (Golem * (*)()) 0x81c0fe0;
+inline void (*Golem::ptr::Update)(Golem * self) = (void (*)(Golem * self)) 0x8382be0;
+inline void (*Golem::ptr::_MoveFail)() = (void (*)()) 0x8135240;
+inline bool (*Golem::ptr::_CanBeLord)() = (bool (*)()) 0x80760c0;
+inline bool (*Golem::ptr::Hit)(Golem * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Golem * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83992f0;
+inline void (*Golem::ptr::_mark)() = (void (*)()) 0x80b0760;
+inline void (*Golem::ptr::CSTR_Golem)(Golem * self) = (void (*)(Golem * self)) 0x81c0dc0;
 #endif
 #endif

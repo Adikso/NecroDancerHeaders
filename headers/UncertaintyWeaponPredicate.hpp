@@ -23,13 +23,13 @@ public:
 
 #ifdef _WIN32
 
-void (*UncertaintyWeaponPredicate::ptr::CSTR_UncertaintyWeaponPredicate)(UncertaintyWeaponPredicate * self) = (void (*)(UncertaintyWeaponPredicate * self)) 0x61ce60;
-bool (*UncertaintyWeaponPredicate::ptr::Call)(UncertaintyWeaponPredicate * self, XMLNode * n) = (bool (*)(UncertaintyWeaponPredicate * self, XMLNode * n)) 0x61cf50;
+inline void (*UncertaintyWeaponPredicate::ptr::CSTR_UncertaintyWeaponPredicate)(UncertaintyWeaponPredicate * self) = (void (*)(UncertaintyWeaponPredicate * self)) 0x61ce60;
+inline bool (*UncertaintyWeaponPredicate::ptr::Call)(UncertaintyWeaponPredicate * self, XMLNode * n) = (bool (*)(UncertaintyWeaponPredicate * self, XMLNode * n)) 0x61cf50;
 #endif
 
 #ifdef __linux__
 
-void (*UncertaintyWeaponPredicate::ptr::CSTR_UncertaintyWeaponPredicate)(UncertaintyWeaponPredicate * self) = (void (*)(UncertaintyWeaponPredicate * self)) 0x81b78c0;
-bool (*UncertaintyWeaponPredicate::ptr::Call)(UncertaintyWeaponPredicate * self, XMLNode * n) = (bool (*)(UncertaintyWeaponPredicate * self, XMLNode * n)) 0x80d4d30;
+inline void (*UncertaintyWeaponPredicate::ptr::CSTR_UncertaintyWeaponPredicate)(UncertaintyWeaponPredicate * self) = (void (*)(UncertaintyWeaponPredicate * self)) 0x81b78c0;
+inline bool (*UncertaintyWeaponPredicate::ptr::Call)(UncertaintyWeaponPredicate * self, XMLNode * n) = (bool (*)(UncertaintyWeaponPredicate * self, XMLNode * n)) 0x80d4d30;
 #endif
 #endif

@@ -30,19 +30,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator13 * (*Enumerator13::ptr::_New)(Enumerator13 * self, List29 * arg1) = (Enumerator13 * (*)(Enumerator13 * self, List29 * arg1)) 0x0;
-Enumerator13 * (*Enumerator13::ptr::_new2)() = (Enumerator13 * (*)()) 0x0;
-bool (*Enumerator13::ptr::_HasNext)() = (bool (*)()) 0x0;
-Particle * (*Enumerator13::ptr::_NextObject)() = (Particle * (*)()) 0x0;
-void (*Enumerator13::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator13 * (*Enumerator13::ptr::_New)(Enumerator13 * self, List29 * arg1) = (Enumerator13 * (*)(Enumerator13 * self, List29 * arg1)) 0x0;
+inline Enumerator13 * (*Enumerator13::ptr::_new2)() = (Enumerator13 * (*)()) 0x0;
+inline bool (*Enumerator13::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline Particle * (*Enumerator13::ptr::_NextObject)() = (Particle * (*)()) 0x0;
+inline void (*Enumerator13::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator13 * (*Enumerator13::ptr::_New)(Enumerator13 * self, List29 * arg1) = (Enumerator13 * (*)(Enumerator13 * self, List29 * arg1)) 0x81a4550;
-Enumerator13 * (*Enumerator13::ptr::_new2)() = (Enumerator13 * (*)()) 0x81a4600;
-bool (*Enumerator13::ptr::_HasNext)() = (bool (*)()) 0x80928a0;
-Particle * (*Enumerator13::ptr::_NextObject)() = (Particle * (*)()) 0x8092830;
-void (*Enumerator13::ptr::_mark)() = (void (*)()) 0x808b6d0;
+inline Enumerator13 * (*Enumerator13::ptr::_New)(Enumerator13 * self, List29 * arg1) = (Enumerator13 * (*)(Enumerator13 * self, List29 * arg1)) 0x81a4550;
+inline Enumerator13 * (*Enumerator13::ptr::_new2)() = (Enumerator13 * (*)()) 0x81a4600;
+inline bool (*Enumerator13::ptr::_HasNext)() = (bool (*)()) 0x80928a0;
+inline Particle * (*Enumerator13::ptr::_NextObject)() = (Particle * (*)()) 0x8092830;
+inline void (*Enumerator13::ptr::_mark)() = (void (*)()) 0x808b6d0;
 #endif
 #endif

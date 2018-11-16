@@ -40,24 +40,24 @@ public:
 };
 
 #ifdef _WIN32
-List35 * * Arrow::arrowList = (List35* *) 0x8355cc;
+inline List35 * * Arrow::arrowList = (List35* *) 0x8355cc;
 
-Arrow * (*Arrow::ptr::New)(Arrow * self, int origX, int origY, int xOff, int yOff, int tmpDir, int type_) = (Arrow * (*)(Arrow * self, int origX, int origY, int xOff, int yOff, int tmpDir, int type_)) 0x6062f0;
-Arrow * (*Arrow::ptr::_new2)() = (Arrow * (*)()) 0x0;
-void (*Arrow::ptr::Render)(Arrow * self) = (void (*)(Arrow * self)) 0x606580;
-void (*Arrow::ptr::RenderAll)() = (void (*)()) 0x606730;
-void (*Arrow::ptr::mark)(Arrow * self) = (void (*)(Arrow * self)) 0x606780;
-void (*Arrow::ptr::CSTR_Arrow)(Arrow * self) = (void (*)(Arrow * self)) 0x606260;
+inline Arrow * (*Arrow::ptr::New)(Arrow * self, int origX, int origY, int xOff, int yOff, int tmpDir, int type_) = (Arrow * (*)(Arrow * self, int origX, int origY, int xOff, int yOff, int tmpDir, int type_)) 0x6062f0;
+inline Arrow * (*Arrow::ptr::_new2)() = (Arrow * (*)()) 0x0;
+inline void (*Arrow::ptr::Render)(Arrow * self) = (void (*)(Arrow * self)) 0x606580;
+inline void (*Arrow::ptr::RenderAll)() = (void (*)()) 0x606730;
+inline void (*Arrow::ptr::mark)(Arrow * self) = (void (*)(Arrow * self)) 0x606780;
+inline void (*Arrow::ptr::CSTR_Arrow)(Arrow * self) = (void (*)(Arrow * self)) 0x606260;
 #endif
 
 #ifdef __linux__
-List35 * * Arrow::arrowList = (List35* *) 0x856a3d0;
+inline List35 * * Arrow::arrowList = (List35* *) 0x856a3d0;
 
-Arrow * (*Arrow::ptr::New)(Arrow * self, int origX, int origY, int xOff, int yOff, int tmpDir, int type_) = (Arrow * (*)(Arrow * self, int origX, int origY, int xOff, int yOff, int tmpDir, int type_)) 0x81a9c70;
-Arrow * (*Arrow::ptr::_new2)() = (Arrow * (*)()) 0x81a9f60;
-void (*Arrow::ptr::Render)(Arrow * self) = (void (*)(Arrow * self)) 0x830a870;
-void (*Arrow::ptr::RenderAll)() = (void (*)()) 0x81a9f70;
-void (*Arrow::ptr::mark)(Arrow * self) = (void (*)(Arrow * self)) 0x80a7db0;
-void (*Arrow::ptr::CSTR_Arrow)(Arrow * self) = (void (*)(Arrow * self)) 0x81a9c30;
+inline Arrow * (*Arrow::ptr::New)(Arrow * self, int origX, int origY, int xOff, int yOff, int tmpDir, int type_) = (Arrow * (*)(Arrow * self, int origX, int origY, int xOff, int yOff, int tmpDir, int type_)) 0x81a9c70;
+inline Arrow * (*Arrow::ptr::_new2)() = (Arrow * (*)()) 0x81a9f60;
+inline void (*Arrow::ptr::Render)(Arrow * self) = (void (*)(Arrow * self)) 0x830a870;
+inline void (*Arrow::ptr::RenderAll)() = (void (*)()) 0x81a9f70;
+inline void (*Arrow::ptr::mark)(Arrow * self) = (void (*)(Arrow * self)) 0x80a7db0;
+inline void (*Arrow::ptr::CSTR_Arrow)(Arrow * self) = (void (*)(Arrow * self)) 0x81a9c30;
 #endif
 #endif

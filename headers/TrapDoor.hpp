@@ -33,21 +33,21 @@ public:
 
 #ifdef _WIN32
 
-TrapDoor * (*TrapDoor::ptr::New)(TrapDoor * self, int xVal, int yVal) = (TrapDoor * (*)(TrapDoor * self, int xVal, int yVal)) 0x61cab0;
-TrapDoor * (*TrapDoor::ptr::_new2)() = (TrapDoor * (*)()) 0x0;
-void (*TrapDoor::ptr::Trigger)(TrapDoor * self, Entity * ent) = (void (*)(TrapDoor * self, Entity * ent)) 0x61cc30;
-void (*TrapDoor::ptr::Update)(TrapDoor * self) = (void (*)(TrapDoor * self)) 0x61ce10;
-void (*TrapDoor::ptr::_mark)() = (void (*)()) 0x0;
-void (*TrapDoor::ptr::CSTR_TrapDoor)(TrapDoor * self) = (void (*)(TrapDoor * self)) 0x61ca50;
+inline TrapDoor * (*TrapDoor::ptr::New)(TrapDoor * self, int xVal, int yVal) = (TrapDoor * (*)(TrapDoor * self, int xVal, int yVal)) 0x61cab0;
+inline TrapDoor * (*TrapDoor::ptr::_new2)() = (TrapDoor * (*)()) 0x0;
+inline void (*TrapDoor::ptr::Trigger)(TrapDoor * self, Entity * ent) = (void (*)(TrapDoor * self, Entity * ent)) 0x61cc30;
+inline void (*TrapDoor::ptr::Update)(TrapDoor * self) = (void (*)(TrapDoor * self)) 0x61ce10;
+inline void (*TrapDoor::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*TrapDoor::ptr::CSTR_TrapDoor)(TrapDoor * self) = (void (*)(TrapDoor * self)) 0x61ca50;
 #endif
 
 #ifdef __linux__
 
-TrapDoor * (*TrapDoor::ptr::New)(TrapDoor * self, int xVal, int yVal) = (TrapDoor * (*)(TrapDoor * self, int xVal, int yVal)) 0x81b7410;
-TrapDoor * (*TrapDoor::ptr::_new2)() = (TrapDoor * (*)()) 0x81b7800;
-void (*TrapDoor::ptr::Trigger)(TrapDoor * self, Entity * ent) = (void (*)(TrapDoor * self, Entity * ent)) 0x83a3000;
-void (*TrapDoor::ptr::Update)(TrapDoor * self) = (void (*)(TrapDoor * self)) 0x812da80;
-void (*TrapDoor::ptr::_mark)() = (void (*)()) 0x80a5da0;
-void (*TrapDoor::ptr::CSTR_TrapDoor)(TrapDoor * self) = (void (*)(TrapDoor * self)) 0x81b7390;
+inline TrapDoor * (*TrapDoor::ptr::New)(TrapDoor * self, int xVal, int yVal) = (TrapDoor * (*)(TrapDoor * self, int xVal, int yVal)) 0x81b7410;
+inline TrapDoor * (*TrapDoor::ptr::_new2)() = (TrapDoor * (*)()) 0x81b7800;
+inline void (*TrapDoor::ptr::Trigger)(TrapDoor * self, Entity * ent) = (void (*)(TrapDoor * self, Entity * ent)) 0x83a3000;
+inline void (*TrapDoor::ptr::Update)(TrapDoor * self) = (void (*)(TrapDoor * self)) 0x812da80;
+inline void (*TrapDoor::ptr::_mark)() = (void (*)()) 0x80a5da0;
+inline void (*TrapDoor::ptr::CSTR_TrapDoor)(TrapDoor * self) = (void (*)(TrapDoor * self)) 0x81b7390;
 #endif
 #endif

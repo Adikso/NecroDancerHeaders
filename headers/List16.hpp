@@ -47,33 +47,33 @@ public:
 
 #ifdef _WIN32
 
-List16 * (*List16::ptr::_New)() = (List16 * (*)()) 0x0;
-Node26 * (*List16::ptr::AddLast16)(List16 * self, Enemy * data) = (Node26 * (*)(List16 * self, Enemy * data)) 0x5db900;
-List16 * (*List16::ptr::_new2)(List16 * self, Array<Enemy *> * arg1) = (List16 * (*)(List16 * self, Array<Enemy *> * arg1)) 0x0;
-Enumerator8 * (*List16::ptr::ObjectEnumerator)(List16 * self) = (Enumerator8 * (*)(List16 * self)) 0x5db9a0;
-int (*List16::ptr::_Count)() = (int (*)()) 0x0;
-bool (*List16::ptr::_Equals10)(List16 * self, Enemy * arg1, Enemy * arg2) = (bool (*)(List16 * self, Enemy * arg1, Enemy * arg2)) 0x0;
-int (*List16::ptr::_RemoveEach9)(List16 * self, Enemy * arg1) = (int (*)(List16 * self, Enemy * arg1)) 0x0;
-Array<Enemy *> * (*List16::ptr::ToArray)(List16 * self) = (Array<Enemy *> * (*)(List16 * self)) 0x5dba70;
-int (*List16::ptr::Compare4)(List16 * self, Enemy * lhs, Enemy * rhs) = (int (*)(List16 * self, Enemy * lhs, Enemy * rhs)) 0x5d8a10;
-int (*List16::ptr::Sort)(List16 * self, int ascending) = (int (*)(List16 * self, int ascending)) 0x5dbb40;
-void (*List16::ptr::_mark)() = (void (*)()) 0x0;
-void (*List16::ptr::CSTR_List16)(List16 * self) = (void (*)(List16 * self)) 0x5db830;
+inline List16 * (*List16::ptr::_New)() = (List16 * (*)()) 0x0;
+inline Node26 * (*List16::ptr::AddLast16)(List16 * self, Enemy * data) = (Node26 * (*)(List16 * self, Enemy * data)) 0x5db900;
+inline List16 * (*List16::ptr::_new2)(List16 * self, Array<Enemy *> * arg1) = (List16 * (*)(List16 * self, Array<Enemy *> * arg1)) 0x0;
+inline Enumerator8 * (*List16::ptr::ObjectEnumerator)(List16 * self) = (Enumerator8 * (*)(List16 * self)) 0x5db9a0;
+inline int (*List16::ptr::_Count)() = (int (*)()) 0x0;
+inline bool (*List16::ptr::_Equals10)(List16 * self, Enemy * arg1, Enemy * arg2) = (bool (*)(List16 * self, Enemy * arg1, Enemy * arg2)) 0x0;
+inline int (*List16::ptr::_RemoveEach9)(List16 * self, Enemy * arg1) = (int (*)(List16 * self, Enemy * arg1)) 0x0;
+inline Array<Enemy *> * (*List16::ptr::ToArray)(List16 * self) = (Array<Enemy *> * (*)(List16 * self)) 0x5dba70;
+inline int (*List16::ptr::Compare4)(List16 * self, Enemy * lhs, Enemy * rhs) = (int (*)(List16 * self, Enemy * lhs, Enemy * rhs)) 0x5d8a10;
+inline int (*List16::ptr::Sort)(List16 * self, int ascending) = (int (*)(List16 * self, int ascending)) 0x5dbb40;
+inline void (*List16::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List16::ptr::CSTR_List16)(List16 * self) = (void (*)(List16 * self)) 0x5db830;
 #endif
 
 #ifdef __linux__
 
-List16 * (*List16::ptr::_New)() = (List16 * (*)()) 0x8194700;
-Node26 * (*List16::ptr::AddLast16)(List16 * self, Enemy * data) = (Node26 * (*)(List16 * self, Enemy * data)) 0x80b8000;
-List16 * (*List16::ptr::_new2)(List16 * self, Array<Enemy *> * arg1) = (List16 * (*)(List16 * self, Array<Enemy *> * arg1)) 0x0;
-Enumerator8 * (*List16::ptr::ObjectEnumerator)(List16 * self) = (Enumerator8 * (*)(List16 * self)) 0x80b81c0;
-int (*List16::ptr::_Count)() = (int (*)()) 0x8071f00;
-bool (*List16::ptr::_Equals10)(List16 * self, Enemy * arg1, Enemy * arg2) = (bool (*)(List16 * self, Enemy * arg1, Enemy * arg2)) 0x0;
-int (*List16::ptr::_RemoveEach9)(List16 * self, Enemy * arg1) = (int (*)(List16 * self, Enemy * arg1)) 0x0;
-Array<Enemy *> * (*List16::ptr::ToArray)(List16 * self) = (Array<Enemy *> * (*)(List16 * self)) 0x80c01b0;
-int (*List16::ptr::Compare4)(List16 * self, Enemy * lhs, Enemy * rhs) = (int (*)(List16 * self, Enemy * lhs, Enemy * rhs)) 0x81f7260;
-int (*List16::ptr::Sort)(List16 * self, int ascending) = (int (*)(List16 * self, int ascending)) 0x8095fa0;
-void (*List16::ptr::_mark)() = (void (*)()) 0x808fc10;
-void (*List16::ptr::CSTR_List16)(List16 * self) = (void (*)(List16 * self)) 0x8194a30;
+inline List16 * (*List16::ptr::_New)() = (List16 * (*)()) 0x8194700;
+inline Node26 * (*List16::ptr::AddLast16)(List16 * self, Enemy * data) = (Node26 * (*)(List16 * self, Enemy * data)) 0x80b8000;
+inline List16 * (*List16::ptr::_new2)(List16 * self, Array<Enemy *> * arg1) = (List16 * (*)(List16 * self, Array<Enemy *> * arg1)) 0x0;
+inline Enumerator8 * (*List16::ptr::ObjectEnumerator)(List16 * self) = (Enumerator8 * (*)(List16 * self)) 0x80b81c0;
+inline int (*List16::ptr::_Count)() = (int (*)()) 0x8071f00;
+inline bool (*List16::ptr::_Equals10)(List16 * self, Enemy * arg1, Enemy * arg2) = (bool (*)(List16 * self, Enemy * arg1, Enemy * arg2)) 0x0;
+inline int (*List16::ptr::_RemoveEach9)(List16 * self, Enemy * arg1) = (int (*)(List16 * self, Enemy * arg1)) 0x0;
+inline Array<Enemy *> * (*List16::ptr::ToArray)(List16 * self) = (Array<Enemy *> * (*)(List16 * self)) 0x80c01b0;
+inline int (*List16::ptr::Compare4)(List16 * self, Enemy * lhs, Enemy * rhs) = (int (*)(List16 * self, Enemy * lhs, Enemy * rhs)) 0x81f7260;
+inline int (*List16::ptr::Sort)(List16 * self, int ascending) = (int (*)(List16 * self, int ascending)) 0x8095fa0;
+inline void (*List16::ptr::_mark)() = (void (*)()) 0x808fc10;
+inline void (*List16::ptr::CSTR_List16)(List16 * self) = (void (*)(List16 * self)) 0x8194a30;
 #endif
 #endif

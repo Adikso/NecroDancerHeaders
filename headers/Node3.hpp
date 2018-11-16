@@ -34,17 +34,17 @@ public:
 
 #ifdef _WIN32
 
-Node3 * (*Node3::ptr::_New)(Node3 * self, String * arg1, List * arg2, int arg3, Node3 * arg4) = (Node3 * (*)(Node3 * self, String * arg1, List * arg2, int arg3, Node3 * arg4)) 0x0;
-Node3 * (*Node3::ptr::_new2)() = (Node3 * (*)()) 0x0;
-void (*Node3::ptr::_mark)() = (void (*)()) 0x0;
-void (*Node3::ptr::CSTR_Node3)(Node3 * self) = (void (*)(Node3 * self)) 0x4f7e30;
+inline Node3 * (*Node3::ptr::_New)(Node3 * self, String * arg1, List * arg2, int arg3, Node3 * arg4) = (Node3 * (*)(Node3 * self, String * arg1, List * arg2, int arg3, Node3 * arg4)) 0x0;
+inline Node3 * (*Node3::ptr::_new2)() = (Node3 * (*)()) 0x0;
+inline void (*Node3::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Node3::ptr::CSTR_Node3)(Node3 * self) = (void (*)(Node3 * self)) 0x4f7e30;
 #endif
 
 #ifdef __linux__
 
-Node3 * (*Node3::ptr::_New)(Node3 * self, String * arg1, List * arg2, int arg3, Node3 * arg4) = (Node3 * (*)(Node3 * self, String * arg1, List * arg2, int arg3, Node3 * arg4)) 0x0;
-Node3 * (*Node3::ptr::_new2)() = (Node3 * (*)()) 0x814bc90;
-void (*Node3::ptr::_mark)() = (void (*)()) 0x80a0da0;
-void (*Node3::ptr::CSTR_Node3)(Node3 * self) = (void (*)(Node3 * self)) 0x814b990;
+inline Node3 * (*Node3::ptr::_New)(Node3 * self, String * arg1, List * arg2, int arg3, Node3 * arg4) = (Node3 * (*)(Node3 * self, String * arg1, List * arg2, int arg3, Node3 * arg4)) 0x0;
+inline Node3 * (*Node3::ptr::_new2)() = (Node3 * (*)()) 0x814bc90;
+inline void (*Node3::ptr::_mark)() = (void (*)()) 0x80a0da0;
+inline void (*Node3::ptr::CSTR_Node3)(Node3 * self) = (void (*)(Node3 * self)) 0x814b990;
 #endif
 #endif

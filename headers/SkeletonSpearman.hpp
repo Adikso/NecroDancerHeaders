@@ -52,29 +52,29 @@ public:
 
 #ifdef _WIN32
 
-SkeletonSpearman * (*SkeletonSpearman::ptr::New)(SkeletonSpearman * self, int xVal, int yVal, int l) = (SkeletonSpearman * (*)(SkeletonSpearman * self, int xVal, int yVal, int l)) 0x683bd0;
-SkeletonSpearman * (*SkeletonSpearman::ptr::_new2)() = (SkeletonSpearman * (*)()) 0x0;
-Point * (*SkeletonSpearman::ptr::GetMovementDirection)(SkeletonSpearman * self) = (Point * (*)(SkeletonSpearman * self)) 0x683f70;
-void (*SkeletonSpearman::ptr::InitSpearSwipe)(SkeletonSpearman * self, int origX, int origY, int tmpXOff, int tmpYOff, int tmpDir) = (void (*)(SkeletonSpearman * self, int origX, int origY, int tmpXOff, int tmpYOff, int tmpDir)) 0x684090;
-int (*SkeletonSpearman::ptr::MoveImmediate)(SkeletonSpearman * self, int xVal, int yVal, String * movementSource) = (int (*)(SkeletonSpearman * self, int xVal, int yVal, String * movementSource)) 0x684270;
-bool (*SkeletonSpearman::ptr::Hit)(SkeletonSpearman * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(SkeletonSpearman * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x684650;
-void (*SkeletonSpearman::ptr::Update)(SkeletonSpearman * self) = (void (*)(SkeletonSpearman * self)) 0x684900;
-void (*SkeletonSpearman::ptr::Render)(SkeletonSpearman * self) = (void (*)(SkeletonSpearman * self)) 0x684920;
-void (*SkeletonSpearman::ptr::mark)(SkeletonSpearman * self) = (void (*)(SkeletonSpearman * self)) 0x684af0;
-void (*SkeletonSpearman::ptr::CSTR_SkeletonSpearman)(SkeletonSpearman * self) = (void (*)(SkeletonSpearman * self)) 0x683b20;
+inline SkeletonSpearman * (*SkeletonSpearman::ptr::New)(SkeletonSpearman * self, int xVal, int yVal, int l) = (SkeletonSpearman * (*)(SkeletonSpearman * self, int xVal, int yVal, int l)) 0x683bd0;
+inline SkeletonSpearman * (*SkeletonSpearman::ptr::_new2)() = (SkeletonSpearman * (*)()) 0x0;
+inline Point * (*SkeletonSpearman::ptr::GetMovementDirection)(SkeletonSpearman * self) = (Point * (*)(SkeletonSpearman * self)) 0x683f70;
+inline void (*SkeletonSpearman::ptr::InitSpearSwipe)(SkeletonSpearman * self, int origX, int origY, int tmpXOff, int tmpYOff, int tmpDir) = (void (*)(SkeletonSpearman * self, int origX, int origY, int tmpXOff, int tmpYOff, int tmpDir)) 0x684090;
+inline int (*SkeletonSpearman::ptr::MoveImmediate)(SkeletonSpearman * self, int xVal, int yVal, String * movementSource) = (int (*)(SkeletonSpearman * self, int xVal, int yVal, String * movementSource)) 0x684270;
+inline bool (*SkeletonSpearman::ptr::Hit)(SkeletonSpearman * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(SkeletonSpearman * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x684650;
+inline void (*SkeletonSpearman::ptr::Update)(SkeletonSpearman * self) = (void (*)(SkeletonSpearman * self)) 0x684900;
+inline void (*SkeletonSpearman::ptr::Render)(SkeletonSpearman * self) = (void (*)(SkeletonSpearman * self)) 0x684920;
+inline void (*SkeletonSpearman::ptr::mark)(SkeletonSpearman * self) = (void (*)(SkeletonSpearman * self)) 0x684af0;
+inline void (*SkeletonSpearman::ptr::CSTR_SkeletonSpearman)(SkeletonSpearman * self) = (void (*)(SkeletonSpearman * self)) 0x683b20;
 #endif
 
 #ifdef __linux__
 
-SkeletonSpearman * (*SkeletonSpearman::ptr::New)(SkeletonSpearman * self, int xVal, int yVal, int l) = (SkeletonSpearman * (*)(SkeletonSpearman * self, int xVal, int yVal, int l)) 0x81e0530;
-SkeletonSpearman * (*SkeletonSpearman::ptr::_new2)() = (SkeletonSpearman * (*)()) 0x81e07c0;
-Point * (*SkeletonSpearman::ptr::GetMovementDirection)(SkeletonSpearman * self) = (Point * (*)(SkeletonSpearman * self)) 0x80b3ba0;
-void (*SkeletonSpearman::ptr::InitSpearSwipe)(SkeletonSpearman * self, int origX, int origY, int tmpXOff, int tmpYOff, int tmpDir) = (void (*)(SkeletonSpearman * self, int origX, int origY, int tmpXOff, int tmpYOff, int tmpDir)) 0x80b7120;
-int (*SkeletonSpearman::ptr::MoveImmediate)(SkeletonSpearman * self, int xVal, int yVal, String * movementSource) = (int (*)(SkeletonSpearman * self, int xVal, int yVal, String * movementSource)) 0x83928f0;
-bool (*SkeletonSpearman::ptr::Hit)(SkeletonSpearman * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(SkeletonSpearman * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8395fb0;
-void (*SkeletonSpearman::ptr::Update)(SkeletonSpearman * self) = (void (*)(SkeletonSpearman * self)) 0x837de80;
-void (*SkeletonSpearman::ptr::Render)(SkeletonSpearman * self) = (void (*)(SkeletonSpearman * self)) 0x830e130;
-void (*SkeletonSpearman::ptr::mark)(SkeletonSpearman * self) = (void (*)(SkeletonSpearman * self)) 0x80b0e60;
-void (*SkeletonSpearman::ptr::CSTR_SkeletonSpearman)(SkeletonSpearman * self) = (void (*)(SkeletonSpearman * self)) 0x81e04c0;
+inline SkeletonSpearman * (*SkeletonSpearman::ptr::New)(SkeletonSpearman * self, int xVal, int yVal, int l) = (SkeletonSpearman * (*)(SkeletonSpearman * self, int xVal, int yVal, int l)) 0x81e0530;
+inline SkeletonSpearman * (*SkeletonSpearman::ptr::_new2)() = (SkeletonSpearman * (*)()) 0x81e07c0;
+inline Point * (*SkeletonSpearman::ptr::GetMovementDirection)(SkeletonSpearman * self) = (Point * (*)(SkeletonSpearman * self)) 0x80b3ba0;
+inline void (*SkeletonSpearman::ptr::InitSpearSwipe)(SkeletonSpearman * self, int origX, int origY, int tmpXOff, int tmpYOff, int tmpDir) = (void (*)(SkeletonSpearman * self, int origX, int origY, int tmpXOff, int tmpYOff, int tmpDir)) 0x80b7120;
+inline int (*SkeletonSpearman::ptr::MoveImmediate)(SkeletonSpearman * self, int xVal, int yVal, String * movementSource) = (int (*)(SkeletonSpearman * self, int xVal, int yVal, String * movementSource)) 0x83928f0;
+inline bool (*SkeletonSpearman::ptr::Hit)(SkeletonSpearman * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(SkeletonSpearman * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8395fb0;
+inline void (*SkeletonSpearman::ptr::Update)(SkeletonSpearman * self) = (void (*)(SkeletonSpearman * self)) 0x837de80;
+inline void (*SkeletonSpearman::ptr::Render)(SkeletonSpearman * self) = (void (*)(SkeletonSpearman * self)) 0x830e130;
+inline void (*SkeletonSpearman::ptr::mark)(SkeletonSpearman * self) = (void (*)(SkeletonSpearman * self)) 0x80b0e60;
+inline void (*SkeletonSpearman::ptr::CSTR_SkeletonSpearman)(SkeletonSpearman * self) = (void (*)(SkeletonSpearman * self)) 0x81e04c0;
 #endif
 #endif

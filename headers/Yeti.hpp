@@ -39,27 +39,27 @@ public:
 
 #ifdef _WIN32
 
-Yeti * (*Yeti::ptr::New)(Yeti * self, int xVal, int yVal, int l) = (Yeti * (*)(Yeti * self, int xVal, int yVal, int l)) 0x647710;
-Yeti * (*Yeti::ptr::_new2)() = (Yeti * (*)()) 0x0;
-void (*Yeti::ptr::MoveFail)(Yeti * self) = (void (*)(Yeti * self)) 0x63d930;
-void (*Yeti::ptr::Update)(Yeti * self) = (void (*)(Yeti * self)) 0x647900;
-void (*Yeti::ptr::MoveSucceed)(Yeti * self, bool hitPlayer, bool moveDelayed) = (void (*)(Yeti * self, bool hitPlayer, bool moveDelayed)) 0x647ad0;
-bool (*Yeti::ptr::_CanBeLord)() = (bool (*)()) 0x0;
-void (*Yeti::ptr::Die)(Yeti * self) = (void (*)(Yeti * self)) 0x647f90;
-void (*Yeti::ptr::_mark)() = (void (*)()) 0x0;
-void (*Yeti::ptr::CSTR_Yeti)(Yeti * self) = (void (*)(Yeti * self)) 0x6476a0;
+inline Yeti * (*Yeti::ptr::New)(Yeti * self, int xVal, int yVal, int l) = (Yeti * (*)(Yeti * self, int xVal, int yVal, int l)) 0x647710;
+inline Yeti * (*Yeti::ptr::_new2)() = (Yeti * (*)()) 0x0;
+inline void (*Yeti::ptr::MoveFail)(Yeti * self) = (void (*)(Yeti * self)) 0x63d930;
+inline void (*Yeti::ptr::Update)(Yeti * self) = (void (*)(Yeti * self)) 0x647900;
+inline void (*Yeti::ptr::MoveSucceed)(Yeti * self, bool hitPlayer, bool moveDelayed) = (void (*)(Yeti * self, bool hitPlayer, bool moveDelayed)) 0x647ad0;
+inline bool (*Yeti::ptr::_CanBeLord)() = (bool (*)()) 0x0;
+inline void (*Yeti::ptr::Die)(Yeti * self) = (void (*)(Yeti * self)) 0x647f90;
+inline void (*Yeti::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Yeti::ptr::CSTR_Yeti)(Yeti * self) = (void (*)(Yeti * self)) 0x6476a0;
 #endif
 
 #ifdef __linux__
 
-Yeti * (*Yeti::ptr::New)(Yeti * self, int xVal, int yVal, int l) = (Yeti * (*)(Yeti * self, int xVal, int yVal, int l)) 0x81c4000;
-Yeti * (*Yeti::ptr::_new2)() = (Yeti * (*)()) 0x81c4150;
-void (*Yeti::ptr::MoveFail)(Yeti * self) = (void (*)(Yeti * self)) 0x8134cf0;
-void (*Yeti::ptr::Update)(Yeti * self) = (void (*)(Yeti * self)) 0x8381960;
-void (*Yeti::ptr::MoveSucceed)(Yeti * self, bool hitPlayer, bool moveDelayed) = (void (*)(Yeti * self, bool hitPlayer, bool moveDelayed)) 0x83a5ed0;
-bool (*Yeti::ptr::_CanBeLord)() = (bool (*)()) 0x8076320;
-void (*Yeti::ptr::Die)(Yeti * self) = (void (*)(Yeti * self)) 0x83b61e0;
-void (*Yeti::ptr::_mark)() = (void (*)()) 0x80b0570;
-void (*Yeti::ptr::CSTR_Yeti)(Yeti * self) = (void (*)(Yeti * self)) 0x81c3fd0;
+inline Yeti * (*Yeti::ptr::New)(Yeti * self, int xVal, int yVal, int l) = (Yeti * (*)(Yeti * self, int xVal, int yVal, int l)) 0x81c4000;
+inline Yeti * (*Yeti::ptr::_new2)() = (Yeti * (*)()) 0x81c4150;
+inline void (*Yeti::ptr::MoveFail)(Yeti * self) = (void (*)(Yeti * self)) 0x8134cf0;
+inline void (*Yeti::ptr::Update)(Yeti * self) = (void (*)(Yeti * self)) 0x8381960;
+inline void (*Yeti::ptr::MoveSucceed)(Yeti * self, bool hitPlayer, bool moveDelayed) = (void (*)(Yeti * self, bool hitPlayer, bool moveDelayed)) 0x83a5ed0;
+inline bool (*Yeti::ptr::_CanBeLord)() = (bool (*)()) 0x8076320;
+inline void (*Yeti::ptr::Die)(Yeti * self) = (void (*)(Yeti * self)) 0x83b61e0;
+inline void (*Yeti::ptr::_mark)() = (void (*)()) 0x80b0570;
+inline void (*Yeti::ptr::CSTR_Yeti)(Yeti * self) = (void (*)(Yeti * self)) 0x81c3fd0;
 #endif
 #endif

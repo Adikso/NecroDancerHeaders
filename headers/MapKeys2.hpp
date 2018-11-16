@@ -26,17 +26,17 @@ public:
 
 #ifdef _WIN32
 
-MapKeys2 * (*MapKeys2::ptr::_New)(MapKeys2 * self, Map18 * arg1) = (MapKeys2 * (*)(MapKeys2 * self, Map18 * arg1)) 0x0;
-MapKeys2 * (*MapKeys2::ptr::_new2)() = (MapKeys2 * (*)()) 0x0;
-KeyEnumerator2 * (*MapKeys2::ptr::ObjectEnumerator)(MapKeys2 * self) = (KeyEnumerator2 * (*)(MapKeys2 * self)) 0x633050;
-void (*MapKeys2::ptr::_mark)() = (void (*)()) 0x0;
+inline MapKeys2 * (*MapKeys2::ptr::_New)(MapKeys2 * self, Map18 * arg1) = (MapKeys2 * (*)(MapKeys2 * self, Map18 * arg1)) 0x0;
+inline MapKeys2 * (*MapKeys2::ptr::_new2)() = (MapKeys2 * (*)()) 0x0;
+inline KeyEnumerator2 * (*MapKeys2::ptr::ObjectEnumerator)(MapKeys2 * self) = (KeyEnumerator2 * (*)(MapKeys2 * self)) 0x633050;
+inline void (*MapKeys2::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-MapKeys2 * (*MapKeys2::ptr::_New)(MapKeys2 * self, Map18 * arg1) = (MapKeys2 * (*)(MapKeys2 * self, Map18 * arg1)) 0x81bc670;
-MapKeys2 * (*MapKeys2::ptr::_new2)() = (MapKeys2 * (*)()) 0x81bc6d0;
-KeyEnumerator2 * (*MapKeys2::ptr::ObjectEnumerator)(MapKeys2 * self) = (KeyEnumerator2 * (*)(MapKeys2 * self)) 0x80ba410;
-void (*MapKeys2::ptr::_mark)() = (void (*)()) 0x8075bc0;
+inline MapKeys2 * (*MapKeys2::ptr::_New)(MapKeys2 * self, Map18 * arg1) = (MapKeys2 * (*)(MapKeys2 * self, Map18 * arg1)) 0x81bc670;
+inline MapKeys2 * (*MapKeys2::ptr::_new2)() = (MapKeys2 * (*)()) 0x81bc6d0;
+inline KeyEnumerator2 * (*MapKeys2::ptr::ObjectEnumerator)(MapKeys2 * self) = (KeyEnumerator2 * (*)(MapKeys2 * self)) 0x80ba410;
+inline void (*MapKeys2::ptr::_mark)() = (void (*)()) 0x8075bc0;
 #endif
 #endif

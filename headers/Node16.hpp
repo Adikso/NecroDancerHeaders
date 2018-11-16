@@ -31,21 +31,21 @@ public:
 
 #ifdef _WIN32
 
-Node16 * (*Node16::ptr::_New)(Node16 * self, Node16 * arg1, Node16 * arg2, Crate * arg3) = (Node16 * (*)(Node16 * self, Node16 * arg1, Node16 * arg2, Crate * arg3)) 0x0;
-Node16 * (*Node16::ptr::_new2)() = (Node16 * (*)()) 0x0;
-Node16 * (*Node16::ptr::_GetNode)() = (Node16 * (*)()) 0x0;
-Node16 * (*Node16::ptr::_NextNode)() = (Node16 * (*)()) 0x0;
-int (*Node16::ptr::_Remove3)() = (int (*)()) 0x0;
-void (*Node16::ptr::_mark)() = (void (*)()) 0x0;
+inline Node16 * (*Node16::ptr::_New)(Node16 * self, Node16 * arg1, Node16 * arg2, Crate * arg3) = (Node16 * (*)(Node16 * self, Node16 * arg1, Node16 * arg2, Crate * arg3)) 0x0;
+inline Node16 * (*Node16::ptr::_new2)() = (Node16 * (*)()) 0x0;
+inline Node16 * (*Node16::ptr::_GetNode)() = (Node16 * (*)()) 0x0;
+inline Node16 * (*Node16::ptr::_NextNode)() = (Node16 * (*)()) 0x0;
+inline int (*Node16::ptr::_Remove3)() = (int (*)()) 0x0;
+inline void (*Node16::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node16 * (*Node16::ptr::_New)(Node16 * self, Node16 * arg1, Node16 * arg2, Crate * arg3) = (Node16 * (*)(Node16 * self, Node16 * arg1, Node16 * arg2, Crate * arg3)) 0x0;
-Node16 * (*Node16::ptr::_new2)() = (Node16 * (*)()) 0x8194950;
-Node16 * (*Node16::ptr::_GetNode)() = (Node16 * (*)()) 0x0;
-Node16 * (*Node16::ptr::_NextNode)() = (Node16 * (*)()) 0x0;
-int (*Node16::ptr::_Remove3)() = (int (*)()) 0x8095ef0;
-void (*Node16::ptr::_mark)() = (void (*)()) 0x808fcd0;
+inline Node16 * (*Node16::ptr::_New)(Node16 * self, Node16 * arg1, Node16 * arg2, Crate * arg3) = (Node16 * (*)(Node16 * self, Node16 * arg1, Node16 * arg2, Crate * arg3)) 0x0;
+inline Node16 * (*Node16::ptr::_new2)() = (Node16 * (*)()) 0x8194950;
+inline Node16 * (*Node16::ptr::_GetNode)() = (Node16 * (*)()) 0x0;
+inline Node16 * (*Node16::ptr::_NextNode)() = (Node16 * (*)()) 0x0;
+inline int (*Node16::ptr::_Remove3)() = (int (*)()) 0x8095ef0;
+inline void (*Node16::ptr::_mark)() = (void (*)()) 0x808fcd0;
 #endif
 #endif

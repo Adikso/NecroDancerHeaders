@@ -33,21 +33,21 @@ public:
 
 #ifdef _WIN32
 
-BombTrap * (*BombTrap::ptr::New)(BombTrap * self, int xVal, int yVal) = (BombTrap * (*)(BombTrap * self, int xVal, int yVal)) 0x628f20;
-BombTrap * (*BombTrap::ptr::_new2)() = (BombTrap * (*)()) 0x0;
-void (*BombTrap::ptr::_Update)() = (void (*)()) 0x0;
-void (*BombTrap::ptr::Trigger)(BombTrap * self, Entity * ent) = (void (*)(BombTrap * self, Entity * ent)) 0x6290f0;
-void (*BombTrap::ptr::_mark)() = (void (*)()) 0x0;
-void (*BombTrap::ptr::CSTR_BombTrap)(BombTrap * self) = (void (*)(BombTrap * self)) 0x628ec0;
+inline BombTrap * (*BombTrap::ptr::New)(BombTrap * self, int xVal, int yVal) = (BombTrap * (*)(BombTrap * self, int xVal, int yVal)) 0x628f20;
+inline BombTrap * (*BombTrap::ptr::_new2)() = (BombTrap * (*)()) 0x0;
+inline void (*BombTrap::ptr::_Update)() = (void (*)()) 0x0;
+inline void (*BombTrap::ptr::Trigger)(BombTrap * self, Entity * ent) = (void (*)(BombTrap * self, Entity * ent)) 0x6290f0;
+inline void (*BombTrap::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*BombTrap::ptr::CSTR_BombTrap)(BombTrap * self) = (void (*)(BombTrap * self)) 0x628ec0;
 #endif
 
 #ifdef __linux__
 
-BombTrap * (*BombTrap::ptr::New)(BombTrap * self, int xVal, int yVal) = (BombTrap * (*)(BombTrap * self, int xVal, int yVal)) 0x81b8ca0;
-BombTrap * (*BombTrap::ptr::_new2)() = (BombTrap * (*)()) 0x81b8e50;
-void (*BombTrap::ptr::_Update)() = (void (*)()) 0x812da10;
-void (*BombTrap::ptr::Trigger)(BombTrap * self, Entity * ent) = (void (*)(BombTrap * self, Entity * ent)) 0x83ad380;
-void (*BombTrap::ptr::_mark)() = (void (*)()) 0x80a5cf0;
-void (*BombTrap::ptr::CSTR_BombTrap)(BombTrap * self) = (void (*)(BombTrap * self)) 0x81b8c20;
+inline BombTrap * (*BombTrap::ptr::New)(BombTrap * self, int xVal, int yVal) = (BombTrap * (*)(BombTrap * self, int xVal, int yVal)) 0x81b8ca0;
+inline BombTrap * (*BombTrap::ptr::_new2)() = (BombTrap * (*)()) 0x81b8e50;
+inline void (*BombTrap::ptr::_Update)() = (void (*)()) 0x812da10;
+inline void (*BombTrap::ptr::Trigger)(BombTrap * self, Entity * ent) = (void (*)(BombTrap * self, Entity * ent)) 0x83ad380;
+inline void (*BombTrap::ptr::_mark)() = (void (*)()) 0x80a5cf0;
+inline void (*BombTrap::ptr::CSTR_BombTrap)(BombTrap * self) = (void (*)(BombTrap * self)) 0x81b8c20;
 #endif
 #endif

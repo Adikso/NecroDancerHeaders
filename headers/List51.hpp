@@ -39,25 +39,25 @@ public:
 
 #ifdef _WIN32
 
-List51 * (*List51::ptr::_New)() = (List51 * (*)()) 0x0;
-Node71 * (*List51::ptr::AddLast51)(List51 * self, SwarmSarcophagus * data) = (Node71 * (*)(List51 * self, SwarmSarcophagus * data)) 0x65e160;
-List51 * (*List51::ptr::_new2)(List51 * self, Array<SwarmSarcophagus *> * arg1) = (List51 * (*)(List51 * self, Array<SwarmSarcophagus *> * arg1)) 0x0;
-Enumerator51 * (*List51::ptr::ObjectEnumerator)(List51 * self) = (Enumerator51 * (*)(List51 * self)) 0x65e200;
-bool (*List51::ptr::_Equals31)(List51 * self, SwarmSarcophagus * arg1, SwarmSarcophagus * arg2) = (bool (*)(List51 * self, SwarmSarcophagus * arg1, SwarmSarcophagus * arg2)) 0x0;
-int (*List51::ptr::_RemoveEach27)(List51 * self, SwarmSarcophagus * arg1) = (int (*)(List51 * self, SwarmSarcophagus * arg1)) 0x0;
-void (*List51::ptr::_mark)() = (void (*)()) 0x0;
-void (*List51::ptr::CSTR_List51)(List51 * self) = (void (*)(List51 * self)) 0x65e090;
+inline List51 * (*List51::ptr::_New)() = (List51 * (*)()) 0x0;
+inline Node71 * (*List51::ptr::AddLast51)(List51 * self, SwarmSarcophagus * data) = (Node71 * (*)(List51 * self, SwarmSarcophagus * data)) 0x65e160;
+inline List51 * (*List51::ptr::_new2)(List51 * self, Array<SwarmSarcophagus *> * arg1) = (List51 * (*)(List51 * self, Array<SwarmSarcophagus *> * arg1)) 0x0;
+inline Enumerator51 * (*List51::ptr::ObjectEnumerator)(List51 * self) = (Enumerator51 * (*)(List51 * self)) 0x65e200;
+inline bool (*List51::ptr::_Equals31)(List51 * self, SwarmSarcophagus * arg1, SwarmSarcophagus * arg2) = (bool (*)(List51 * self, SwarmSarcophagus * arg1, SwarmSarcophagus * arg2)) 0x0;
+inline int (*List51::ptr::_RemoveEach27)(List51 * self, SwarmSarcophagus * arg1) = (int (*)(List51 * self, SwarmSarcophagus * arg1)) 0x0;
+inline void (*List51::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List51::ptr::CSTR_List51)(List51 * self) = (void (*)(List51 * self)) 0x65e090;
 #endif
 
 #ifdef __linux__
 
-List51 * (*List51::ptr::_New)() = (List51 * (*)()) 0x81d4390;
-Node71 * (*List51::ptr::AddLast51)(List51 * self, SwarmSarcophagus * data) = (Node71 * (*)(List51 * self, SwarmSarcophagus * data)) 0x81d45d0;
-List51 * (*List51::ptr::_new2)(List51 * self, Array<SwarmSarcophagus *> * arg1) = (List51 * (*)(List51 * self, Array<SwarmSarcophagus *> * arg1)) 0x0;
-Enumerator51 * (*List51::ptr::ObjectEnumerator)(List51 * self) = (Enumerator51 * (*)(List51 * self)) 0x80bc5c0;
-bool (*List51::ptr::_Equals31)(List51 * self, SwarmSarcophagus * arg1, SwarmSarcophagus * arg2) = (bool (*)(List51 * self, SwarmSarcophagus * arg1, SwarmSarcophagus * arg2)) 0x80769f0;
-int (*List51::ptr::_RemoveEach27)(List51 * self, SwarmSarcophagus * arg1) = (int (*)(List51 * self, SwarmSarcophagus * arg1)) 0x8076a00;
-void (*List51::ptr::_mark)() = (void (*)()) 0x8088890;
-void (*List51::ptr::CSTR_List51)(List51 * self) = (void (*)(List51 * self)) 0x81d4710;
+inline List51 * (*List51::ptr::_New)() = (List51 * (*)()) 0x81d4390;
+inline Node71 * (*List51::ptr::AddLast51)(List51 * self, SwarmSarcophagus * data) = (Node71 * (*)(List51 * self, SwarmSarcophagus * data)) 0x81d45d0;
+inline List51 * (*List51::ptr::_new2)(List51 * self, Array<SwarmSarcophagus *> * arg1) = (List51 * (*)(List51 * self, Array<SwarmSarcophagus *> * arg1)) 0x0;
+inline Enumerator51 * (*List51::ptr::ObjectEnumerator)(List51 * self) = (Enumerator51 * (*)(List51 * self)) 0x80bc5c0;
+inline bool (*List51::ptr::_Equals31)(List51 * self, SwarmSarcophagus * arg1, SwarmSarcophagus * arg2) = (bool (*)(List51 * self, SwarmSarcophagus * arg1, SwarmSarcophagus * arg2)) 0x80769f0;
+inline int (*List51::ptr::_RemoveEach27)(List51 * self, SwarmSarcophagus * arg1) = (int (*)(List51 * self, SwarmSarcophagus * arg1)) 0x8076a00;
+inline void (*List51::ptr::_mark)() = (void (*)()) 0x8088890;
+inline void (*List51::ptr::CSTR_List51)(List51 * self) = (void (*)(List51 * self)) 0x81d4710;
 #endif
 #endif

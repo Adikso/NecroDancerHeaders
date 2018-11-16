@@ -21,15 +21,15 @@ public:
 
 #ifdef _WIN32
 
-HeadNode52 * (*HeadNode52::ptr::New)(HeadNode52 * self) = (HeadNode52 * (*)(HeadNode52 * self)) 0x663e80;
-Node42 * (*HeadNode52::ptr::_GetNode)() = (Node42 * (*)()) 0x0;
-void (*HeadNode52::ptr::_mark)() = (void (*)()) 0x0;
+inline HeadNode52 * (*HeadNode52::ptr::New)(HeadNode52 * self) = (HeadNode52 * (*)(HeadNode52 * self)) 0x663e80;
+inline Node42 * (*HeadNode52::ptr::_GetNode)() = (Node42 * (*)()) 0x0;
+inline void (*HeadNode52::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-HeadNode52 * (*HeadNode52::ptr::New)(HeadNode52 * self) = (HeadNode52 * (*)(HeadNode52 * self)) 0x81d7ae0;
-Node42 * (*HeadNode52::ptr::_GetNode)() = (Node42 * (*)()) 0x80778a0;
-void (*HeadNode52::ptr::_mark)() = (void (*)()) 0x808bf80;
+inline HeadNode52 * (*HeadNode52::ptr::New)(HeadNode52 * self) = (HeadNode52 * (*)(HeadNode52 * self)) 0x81d7ae0;
+inline Node42 * (*HeadNode52::ptr::_GetNode)() = (Node42 * (*)()) 0x80778a0;
+inline void (*HeadNode52::ptr::_mark)() = (void (*)()) 0x808bf80;
 #endif
 #endif

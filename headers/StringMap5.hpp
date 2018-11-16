@@ -22,15 +22,15 @@ public:
 
 #ifdef _WIN32
 
-StringMap5 * (*StringMap5::ptr::_New)() = (StringMap5 * (*)()) 0x0;
-int (*StringMap5::ptr::_Compare)(StringMap5 * self, String * arg1, String * arg2) = (int (*)(StringMap5 * self, String * arg1, String * arg2)) 0x0;
-void (*StringMap5::ptr::_mark)() = (void (*)()) 0x0;
+inline StringMap5 * (*StringMap5::ptr::_New)() = (StringMap5 * (*)()) 0x0;
+inline int (*StringMap5::ptr::_Compare)(StringMap5 * self, String * arg1, String * arg2) = (int (*)(StringMap5 * self, String * arg1, String * arg2)) 0x0;
+inline void (*StringMap5::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-StringMap5 * (*StringMap5::ptr::_New)() = (StringMap5 * (*)()) 0x815a6c0;
-int (*StringMap5::ptr::_Compare)(StringMap5 * self, String * arg1, String * arg2) = (int (*)(StringMap5 * self, String * arg1, String * arg2)) 0x8096950;
-void (*StringMap5::ptr::_mark)() = (void (*)()) 0x80828e0;
+inline StringMap5 * (*StringMap5::ptr::_New)() = (StringMap5 * (*)()) 0x815a6c0;
+inline int (*StringMap5::ptr::_Compare)(StringMap5 * self, String * arg1, String * arg2) = (int (*)(StringMap5 * self, String * arg1, String * arg2)) 0x8096950;
+inline void (*StringMap5::ptr::_mark)() = (void (*)()) 0x80828e0;
 #endif
 #endif

@@ -35,21 +35,21 @@ public:
 
 #ifdef _WIN32
 
-List36 * (*List36::ptr::_New)() = (List36 * (*)()) 0x0;
-Node53 * (*List36::ptr::AddLast36)(List36 * self, TileData * data) = (Node53 * (*)(List36 * self, TileData * data)) 0x608480;
-List36 * (*List36::ptr::_new2)(List36 * self, Array<TileData *> * arg1) = (List36 * (*)(List36 * self, Array<TileData *> * arg1)) 0x0;
-Enumerator21 * (*List36::ptr::ObjectEnumerator)(List36 * self) = (Enumerator21 * (*)(List36 * self)) 0x608520;
-void (*List36::ptr::_mark)() = (void (*)()) 0x0;
-void (*List36::ptr::CSTR_List36)(List36 * self) = (void (*)(List36 * self)) 0x6083b0;
+inline List36 * (*List36::ptr::_New)() = (List36 * (*)()) 0x0;
+inline Node53 * (*List36::ptr::AddLast36)(List36 * self, TileData * data) = (Node53 * (*)(List36 * self, TileData * data)) 0x608480;
+inline List36 * (*List36::ptr::_new2)(List36 * self, Array<TileData *> * arg1) = (List36 * (*)(List36 * self, Array<TileData *> * arg1)) 0x0;
+inline Enumerator21 * (*List36::ptr::ObjectEnumerator)(List36 * self) = (Enumerator21 * (*)(List36 * self)) 0x608520;
+inline void (*List36::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List36::ptr::CSTR_List36)(List36 * self) = (void (*)(List36 * self)) 0x6083b0;
 #endif
 
 #ifdef __linux__
 
-List36 * (*List36::ptr::_New)() = (List36 * (*)()) 0x81adf10;
-Node53 * (*List36::ptr::AddLast36)(List36 * self, TileData * data) = (Node53 * (*)(List36 * self, TileData * data)) 0x81ae150;
-List36 * (*List36::ptr::_new2)(List36 * self, Array<TileData *> * arg1) = (List36 * (*)(List36 * self, Array<TileData *> * arg1)) 0x0;
-Enumerator21 * (*List36::ptr::ObjectEnumerator)(List36 * self) = (Enumerator21 * (*)(List36 * self)) 0x80b9c20;
-void (*List36::ptr::_mark)() = (void (*)()) 0x8088bf0;
-void (*List36::ptr::CSTR_List36)(List36 * self) = (void (*)(List36 * self)) 0x81ae290;
+inline List36 * (*List36::ptr::_New)() = (List36 * (*)()) 0x81adf10;
+inline Node53 * (*List36::ptr::AddLast36)(List36 * self, TileData * data) = (Node53 * (*)(List36 * self, TileData * data)) 0x81ae150;
+inline List36 * (*List36::ptr::_new2)(List36 * self, Array<TileData *> * arg1) = (List36 * (*)(List36 * self, Array<TileData *> * arg1)) 0x0;
+inline Enumerator21 * (*List36::ptr::ObjectEnumerator)(List36 * self) = (Enumerator21 * (*)(List36 * self)) 0x80b9c20;
+inline void (*List36::ptr::_mark)() = (void (*)()) 0x8088bf0;
+inline void (*List36::ptr::CSTR_List36)(List36 * self) = (void (*)(List36 * self)) 0x81ae290;
 #endif
 #endif

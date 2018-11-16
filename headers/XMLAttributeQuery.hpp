@@ -36,19 +36,19 @@ public:
 
 #ifdef _WIN32
 
-XMLAttributeQuery * (*XMLAttributeQuery::ptr::New)(XMLAttributeQuery * self, String * query) = (XMLAttributeQuery * (*)(XMLAttributeQuery * self, String * query)) 0x445420;
-XMLAttributeQuery * (*XMLAttributeQuery::ptr::_new2)() = (XMLAttributeQuery * (*)()) 0x0;
-bool (*XMLAttributeQuery::ptr::Test)(XMLAttributeQuery * self, XMLNode * node) = (bool (*)(XMLAttributeQuery * self, XMLNode * node)) 0x4458a0;
-void (*XMLAttributeQuery::ptr::mark)(XMLAttributeQuery * self) = (void (*)(XMLAttributeQuery * self)) 0x445af0;
-void (*XMLAttributeQuery::ptr::CSTR_XMLAttributeQuery)(XMLAttributeQuery * self) = (void (*)(XMLAttributeQuery * self)) 0x4453a0;
+inline XMLAttributeQuery * (*XMLAttributeQuery::ptr::New)(XMLAttributeQuery * self, String * query) = (XMLAttributeQuery * (*)(XMLAttributeQuery * self, String * query)) 0x445420;
+inline XMLAttributeQuery * (*XMLAttributeQuery::ptr::_new2)() = (XMLAttributeQuery * (*)()) 0x0;
+inline bool (*XMLAttributeQuery::ptr::Test)(XMLAttributeQuery * self, XMLNode * node) = (bool (*)(XMLAttributeQuery * self, XMLNode * node)) 0x4458a0;
+inline void (*XMLAttributeQuery::ptr::mark)(XMLAttributeQuery * self) = (void (*)(XMLAttributeQuery * self)) 0x445af0;
+inline void (*XMLAttributeQuery::ptr::CSTR_XMLAttributeQuery)(XMLAttributeQuery * self) = (void (*)(XMLAttributeQuery * self)) 0x4453a0;
 #endif
 
 #ifdef __linux__
 
-XMLAttributeQuery * (*XMLAttributeQuery::ptr::New)(XMLAttributeQuery * self, String * query) = (XMLAttributeQuery * (*)(XMLAttributeQuery * self, String * query)) 0x81177a0;
-XMLAttributeQuery * (*XMLAttributeQuery::ptr::_new2)() = (XMLAttributeQuery * (*)()) 0x8117fc0;
-bool (*XMLAttributeQuery::ptr::Test)(XMLAttributeQuery * self, XMLNode * node) = (bool (*)(XMLAttributeQuery * self, XMLNode * node)) 0x80ce3f0;
-void (*XMLAttributeQuery::ptr::mark)(XMLAttributeQuery * self) = (void (*)(XMLAttributeQuery * self)) 0x806d5f0;
-void (*XMLAttributeQuery::ptr::CSTR_XMLAttributeQuery)(XMLAttributeQuery * self) = (void (*)(XMLAttributeQuery * self)) 0x8117690;
+inline XMLAttributeQuery * (*XMLAttributeQuery::ptr::New)(XMLAttributeQuery * self, String * query) = (XMLAttributeQuery * (*)(XMLAttributeQuery * self, String * query)) 0x81177a0;
+inline XMLAttributeQuery * (*XMLAttributeQuery::ptr::_new2)() = (XMLAttributeQuery * (*)()) 0x8117fc0;
+inline bool (*XMLAttributeQuery::ptr::Test)(XMLAttributeQuery * self, XMLNode * node) = (bool (*)(XMLAttributeQuery * self, XMLNode * node)) 0x80ce3f0;
+inline void (*XMLAttributeQuery::ptr::mark)(XMLAttributeQuery * self) = (void (*)(XMLAttributeQuery * self)) 0x806d5f0;
+inline void (*XMLAttributeQuery::ptr::CSTR_XMLAttributeQuery)(XMLAttributeQuery * self) = (void (*)(XMLAttributeQuery * self)) 0x8117690;
 #endif
 #endif

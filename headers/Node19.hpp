@@ -27,17 +27,17 @@ public:
 
 #ifdef _WIN32
 
-Node19 * (*Node19::ptr::_New)(Node19 * self, Node19 * arg1, Node19 * arg2, Flyaway * arg3) = (Node19 * (*)(Node19 * self, Node19 * arg1, Node19 * arg2, Flyaway * arg3)) 0x0;
-Node19 * (*Node19::ptr::_new2)() = (Node19 * (*)()) 0x0;
-int (*Node19::ptr::_Remove3)() = (int (*)()) 0x0;
-void (*Node19::ptr::_mark)() = (void (*)()) 0x0;
+inline Node19 * (*Node19::ptr::_New)(Node19 * self, Node19 * arg1, Node19 * arg2, Flyaway * arg3) = (Node19 * (*)(Node19 * self, Node19 * arg1, Node19 * arg2, Flyaway * arg3)) 0x0;
+inline Node19 * (*Node19::ptr::_new2)() = (Node19 * (*)()) 0x0;
+inline int (*Node19::ptr::_Remove3)() = (int (*)()) 0x0;
+inline void (*Node19::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node19 * (*Node19::ptr::_New)(Node19 * self, Node19 * arg1, Node19 * arg2, Flyaway * arg3) = (Node19 * (*)(Node19 * self, Node19 * arg1, Node19 * arg2, Flyaway * arg3)) 0x0;
-Node19 * (*Node19::ptr::_new2)() = (Node19 * (*)()) 0x8196950;
-int (*Node19::ptr::_Remove3)() = (int (*)()) 0x0;
-void (*Node19::ptr::_mark)() = (void (*)()) 0x8087f10;
+inline Node19 * (*Node19::ptr::_New)(Node19 * self, Node19 * arg1, Node19 * arg2, Flyaway * arg3) = (Node19 * (*)(Node19 * self, Node19 * arg1, Node19 * arg2, Flyaway * arg3)) 0x0;
+inline Node19 * (*Node19::ptr::_new2)() = (Node19 * (*)()) 0x8196950;
+inline int (*Node19::ptr::_Remove3)() = (int (*)()) 0x0;
+inline void (*Node19::ptr::_mark)() = (void (*)()) 0x8087f10;
 #endif
 #endif

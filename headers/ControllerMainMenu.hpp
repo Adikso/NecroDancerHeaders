@@ -62,30 +62,30 @@ public:
 };
 
 #ifdef _WIN32
-bool * ControllerMainMenu::waitingForScore = (bool*) 0x835bc1;
+inline bool * ControllerMainMenu::waitingForScore = (bool*) 0x835bc1;
 
-ControllerMainMenu * (*ControllerMainMenu::ptr::New)(ControllerMainMenu * self) = (ControllerMainMenu * (*)(ControllerMainMenu * self)) 0x449480;
-void (*ControllerMainMenu::ptr::PassFocusToNextController)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x449e40;
-void (*ControllerMainMenu::ptr::RegainFocus)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x449f70;
-void (*ControllerMainMenu::ptr::LoadGame)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x44a0b0;
-void (*ControllerMainMenu::ptr::Update)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x44ae10;
-void (*ControllerMainMenu::ptr::Render)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x44b350;
-void (*ControllerMainMenu::ptr::Destructor)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x44b550;
-void (*ControllerMainMenu::ptr::mark)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x44b590;
-void (*ControllerMainMenu::ptr::CSTR_ControllerMainMenu)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x449140;
+inline ControllerMainMenu * (*ControllerMainMenu::ptr::New)(ControllerMainMenu * self) = (ControllerMainMenu * (*)(ControllerMainMenu * self)) 0x449480;
+inline void (*ControllerMainMenu::ptr::PassFocusToNextController)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x449e40;
+inline void (*ControllerMainMenu::ptr::RegainFocus)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x449f70;
+inline void (*ControllerMainMenu::ptr::LoadGame)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x44a0b0;
+inline void (*ControllerMainMenu::ptr::Update)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x44ae10;
+inline void (*ControllerMainMenu::ptr::Render)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x44b350;
+inline void (*ControllerMainMenu::ptr::Destructor)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x44b550;
+inline void (*ControllerMainMenu::ptr::mark)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x44b590;
+inline void (*ControllerMainMenu::ptr::CSTR_ControllerMainMenu)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x449140;
 #endif
 
 #ifdef __linux__
-bool * ControllerMainMenu::waitingForScore = (bool*) 0x856ab14;
+inline bool * ControllerMainMenu::waitingForScore = (bool*) 0x856ab14;
 
-ControllerMainMenu * (*ControllerMainMenu::ptr::New)(ControllerMainMenu * self) = (ControllerMainMenu * (*)(ControllerMainMenu * self)) 0x83e04c0;
-void (*ControllerMainMenu::ptr::PassFocusToNextController)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x8365520;
-void (*ControllerMainMenu::ptr::RegainFocus)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x8378750;
-void (*ControllerMainMenu::ptr::LoadGame)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x8315560;
-void (*ControllerMainMenu::ptr::Update)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x83d9890;
-void (*ControllerMainMenu::ptr::Render)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x8422540;
-void (*ControllerMainMenu::ptr::Destructor)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x806d9e0;
-void (*ControllerMainMenu::ptr::mark)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x80a4d10;
-void (*ControllerMainMenu::ptr::CSTR_ControllerMainMenu)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x8147720;
+inline ControllerMainMenu * (*ControllerMainMenu::ptr::New)(ControllerMainMenu * self) = (ControllerMainMenu * (*)(ControllerMainMenu * self)) 0x83e04c0;
+inline void (*ControllerMainMenu::ptr::PassFocusToNextController)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x8365520;
+inline void (*ControllerMainMenu::ptr::RegainFocus)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x8378750;
+inline void (*ControllerMainMenu::ptr::LoadGame)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x8315560;
+inline void (*ControllerMainMenu::ptr::Update)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x83d9890;
+inline void (*ControllerMainMenu::ptr::Render)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x8422540;
+inline void (*ControllerMainMenu::ptr::Destructor)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x806d9e0;
+inline void (*ControllerMainMenu::ptr::mark)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x80a4d10;
+inline void (*ControllerMainMenu::ptr::CSTR_ControllerMainMenu)(ControllerMainMenu * self) = (void (*)(ControllerMainMenu * self)) 0x8147720;
 #endif
 #endif

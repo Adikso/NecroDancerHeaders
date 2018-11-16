@@ -33,17 +33,17 @@ public:
 
 #ifdef _WIN32
 
-Node37 * (*Node37::ptr::_New)(Node37 * self, String * arg1, Object * arg2, int arg3, Node37 * arg4) = (Node37 * (*)(Node37 * self, String * arg1, Object * arg2, int arg3, Node37 * arg4)) 0x0;
-Node37 * (*Node37::ptr::_new2)() = (Node37 * (*)()) 0x0;
-void (*Node37::ptr::_mark)() = (void (*)()) 0x0;
-void (*Node37::ptr::CSTR_Node37)(Node37 * self) = (void (*)(Node37 * self)) 0x5e1910;
+inline Node37 * (*Node37::ptr::_New)(Node37 * self, String * arg1, Object * arg2, int arg3, Node37 * arg4) = (Node37 * (*)(Node37 * self, String * arg1, Object * arg2, int arg3, Node37 * arg4)) 0x0;
+inline Node37 * (*Node37::ptr::_new2)() = (Node37 * (*)()) 0x0;
+inline void (*Node37::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Node37::ptr::CSTR_Node37)(Node37 * self) = (void (*)(Node37 * self)) 0x5e1910;
 #endif
 
 #ifdef __linux__
 
-Node37 * (*Node37::ptr::_New)(Node37 * self, String * arg1, Object * arg2, int arg3, Node37 * arg4) = (Node37 * (*)(Node37 * self, String * arg1, Object * arg2, int arg3, Node37 * arg4)) 0x0;
-Node37 * (*Node37::ptr::_new2)() = (Node37 * (*)()) 0x81ae1b0;
-void (*Node37::ptr::_mark)() = (void (*)()) 0x8088c50;
-void (*Node37::ptr::CSTR_Node37)(Node37 * self) = (void (*)(Node37 * self)) 0x81adf70;
+inline Node37 * (*Node37::ptr::_New)(Node37 * self, String * arg1, Object * arg2, int arg3, Node37 * arg4) = (Node37 * (*)(Node37 * self, String * arg1, Object * arg2, int arg3, Node37 * arg4)) 0x0;
+inline Node37 * (*Node37::ptr::_new2)() = (Node37 * (*)()) 0x81ae1b0;
+inline void (*Node37::ptr::_mark)() = (void (*)()) 0x8088c50;
+inline void (*Node37::ptr::CSTR_Node37)(Node37 * self) = (void (*)(Node37 * self)) 0x81adf70;
 #endif
 #endif

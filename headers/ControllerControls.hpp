@@ -64,33 +64,33 @@ public:
 
 #ifdef _WIN32
 
-String * (*ControllerControls::ptr::GetControlName)(ControllerControls * self, int index) = (String * (*)(ControllerControls * self, int index)) 0x6a3a50;
-int (*ControllerControls::ptr::KeyFromProfile)(ControllerControls * self, int key) = (int (*)(ControllerControls * self, int key)) 0x6a3990;
-bool (*ControllerControls::ptr::AllCombosBound)(ControllerControls * self) = (bool (*)(ControllerControls * self)) 0x6a39b0;
-ControllerControls * (*ControllerControls::ptr::New)(ControllerControls * self, Controller * game) = (ControllerControls * (*)(ControllerControls * self, Controller * game)) 0x6a3e30;
-void (*ControllerControls::ptr::Update)(ControllerControls * self) = (void (*)(ControllerControls * self)) 0x6a4220;
-void (*ControllerControls::ptr::Render)(ControllerControls * self) = (void (*)(ControllerControls * self)) 0x6a43f0;
-void (*ControllerControls::ptr::_RegainFocus)() = (void (*)()) 0x0;
-void (*ControllerControls::ptr::GUICallback)(ControllerControls * self, int index, bool left) = (void (*)(ControllerControls * self, int index, bool left)) 0x6a4750;
-void (*ControllerControls::ptr::Destructor)(ControllerControls * self) = (void (*)(ControllerControls * self)) 0x6a49d0;
-void (*ControllerControls::ptr::mark)(ControllerControls * self) = (void (*)(ControllerControls * self)) 0x6a4a30;
-void (*ControllerControls::ptr::CSTR_ControllerControls)(ControllerControls * self) = (void (*)(ControllerControls * self)) 0x6a34e0;
-void (*ControllerControls::ptr::RefreshControlText)(ControllerControls * self) = (void (*)(ControllerControls * self)) 0x6a3c70;
+inline String * (*ControllerControls::ptr::GetControlName)(ControllerControls * self, int index) = (String * (*)(ControllerControls * self, int index)) 0x6a3a50;
+inline int (*ControllerControls::ptr::KeyFromProfile)(ControllerControls * self, int key) = (int (*)(ControllerControls * self, int key)) 0x6a3990;
+inline bool (*ControllerControls::ptr::AllCombosBound)(ControllerControls * self) = (bool (*)(ControllerControls * self)) 0x6a39b0;
+inline ControllerControls * (*ControllerControls::ptr::New)(ControllerControls * self, Controller * game) = (ControllerControls * (*)(ControllerControls * self, Controller * game)) 0x6a3e30;
+inline void (*ControllerControls::ptr::Update)(ControllerControls * self) = (void (*)(ControllerControls * self)) 0x6a4220;
+inline void (*ControllerControls::ptr::Render)(ControllerControls * self) = (void (*)(ControllerControls * self)) 0x6a43f0;
+inline void (*ControllerControls::ptr::_RegainFocus)() = (void (*)()) 0x0;
+inline void (*ControllerControls::ptr::GUICallback)(ControllerControls * self, int index, bool left) = (void (*)(ControllerControls * self, int index, bool left)) 0x6a4750;
+inline void (*ControllerControls::ptr::Destructor)(ControllerControls * self) = (void (*)(ControllerControls * self)) 0x6a49d0;
+inline void (*ControllerControls::ptr::mark)(ControllerControls * self) = (void (*)(ControllerControls * self)) 0x6a4a30;
+inline void (*ControllerControls::ptr::CSTR_ControllerControls)(ControllerControls * self) = (void (*)(ControllerControls * self)) 0x6a34e0;
+inline void (*ControllerControls::ptr::RefreshControlText)(ControllerControls * self) = (void (*)(ControllerControls * self)) 0x6a3c70;
 #endif
 
 #ifdef __linux__
 
-String * (*ControllerControls::ptr::GetControlName)(ControllerControls * self, int index) = (String * (*)(ControllerControls * self, int index)) 0x80c1fd0;
-int (*ControllerControls::ptr::KeyFromProfile)(ControllerControls * self, int key) = (int (*)(ControllerControls * self, int key)) 0x8079f70;
-bool (*ControllerControls::ptr::AllCombosBound)(ControllerControls * self) = (bool (*)(ControllerControls * self)) 0x81111e0;
-ControllerControls * (*ControllerControls::ptr::New)(ControllerControls * self, Controller * game) = (ControllerControls * (*)(ControllerControls * self, Controller * game)) 0x81efe50;
-void (*ControllerControls::ptr::Update)(ControllerControls * self) = (void (*)(ControllerControls * self)) 0x8155470;
-void (*ControllerControls::ptr::Render)(ControllerControls * self) = (void (*)(ControllerControls * self)) 0x80ceda0;
-void (*ControllerControls::ptr::_RegainFocus)() = (void (*)()) 0x8079f90;
-void (*ControllerControls::ptr::GUICallback)(ControllerControls * self, int index, bool left) = (void (*)(ControllerControls * self, int index, bool left)) 0x82db390;
-void (*ControllerControls::ptr::Destructor)(ControllerControls * self) = (void (*)(ControllerControls * self)) 0x8079fa0;
-void (*ControllerControls::ptr::mark)(ControllerControls * self) = (void (*)(ControllerControls * self)) 0x80ad570;
-void (*ControllerControls::ptr::CSTR_ControllerControls)(ControllerControls * self) = (void (*)(ControllerControls * self)) 0x81ef7e0;
-void (*ControllerControls::ptr::RefreshControlText)(ControllerControls * self) = (void (*)(ControllerControls * self)) 0x8155710;
+inline String * (*ControllerControls::ptr::GetControlName)(ControllerControls * self, int index) = (String * (*)(ControllerControls * self, int index)) 0x80c1fd0;
+inline int (*ControllerControls::ptr::KeyFromProfile)(ControllerControls * self, int key) = (int (*)(ControllerControls * self, int key)) 0x8079f70;
+inline bool (*ControllerControls::ptr::AllCombosBound)(ControllerControls * self) = (bool (*)(ControllerControls * self)) 0x81111e0;
+inline ControllerControls * (*ControllerControls::ptr::New)(ControllerControls * self, Controller * game) = (ControllerControls * (*)(ControllerControls * self, Controller * game)) 0x81efe50;
+inline void (*ControllerControls::ptr::Update)(ControllerControls * self) = (void (*)(ControllerControls * self)) 0x8155470;
+inline void (*ControllerControls::ptr::Render)(ControllerControls * self) = (void (*)(ControllerControls * self)) 0x80ceda0;
+inline void (*ControllerControls::ptr::_RegainFocus)() = (void (*)()) 0x8079f90;
+inline void (*ControllerControls::ptr::GUICallback)(ControllerControls * self, int index, bool left) = (void (*)(ControllerControls * self, int index, bool left)) 0x82db390;
+inline void (*ControllerControls::ptr::Destructor)(ControllerControls * self) = (void (*)(ControllerControls * self)) 0x8079fa0;
+inline void (*ControllerControls::ptr::mark)(ControllerControls * self) = (void (*)(ControllerControls * self)) 0x80ad570;
+inline void (*ControllerControls::ptr::CSTR_ControllerControls)(ControllerControls * self) = (void (*)(ControllerControls * self)) 0x81ef7e0;
+inline void (*ControllerControls::ptr::RefreshControlText)(ControllerControls * self) = (void (*)(ControllerControls * self)) 0x8155710;
 #endif
 #endif

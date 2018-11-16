@@ -50,17 +50,17 @@ public:
 
 #ifdef _WIN32
 
-GraphicsContext * (*GraphicsContext::ptr::_New)() = (GraphicsContext * (*)()) 0x0;
-int (*GraphicsContext::ptr::Validate)(GraphicsContext * self) = (int (*)(GraphicsContext * self)) 0x41ede0;
-void (*GraphicsContext::ptr::mark)(GraphicsContext * self) = (void (*)(GraphicsContext * self)) 0x41ee50;
-void (*GraphicsContext::ptr::CSTR_GraphicsContext)(GraphicsContext * self) = (void (*)(GraphicsContext * self)) 0x41ec80;
+inline GraphicsContext * (*GraphicsContext::ptr::_New)() = (GraphicsContext * (*)()) 0x0;
+inline int (*GraphicsContext::ptr::Validate)(GraphicsContext * self) = (int (*)(GraphicsContext * self)) 0x41ede0;
+inline void (*GraphicsContext::ptr::mark)(GraphicsContext * self) = (void (*)(GraphicsContext * self)) 0x41ee50;
+inline void (*GraphicsContext::ptr::CSTR_GraphicsContext)(GraphicsContext * self) = (void (*)(GraphicsContext * self)) 0x41ec80;
 #endif
 
 #ifdef __linux__
 
-GraphicsContext * (*GraphicsContext::ptr::_New)() = (GraphicsContext * (*)()) 0x80fe540;
-int (*GraphicsContext::ptr::Validate)(GraphicsContext * self) = (int (*)(GraphicsContext * self)) 0x807de10;
-void (*GraphicsContext::ptr::mark)(GraphicsContext * self) = (void (*)(GraphicsContext * self)) 0x80947c0;
-void (*GraphicsContext::ptr::CSTR_GraphicsContext)(GraphicsContext * self) = (void (*)(GraphicsContext * self)) 0x80fe350;
+inline GraphicsContext * (*GraphicsContext::ptr::_New)() = (GraphicsContext * (*)()) 0x80fe540;
+inline int (*GraphicsContext::ptr::Validate)(GraphicsContext * self) = (int (*)(GraphicsContext * self)) 0x807de10;
+inline void (*GraphicsContext::ptr::mark)(GraphicsContext * self) = (void (*)(GraphicsContext * self)) 0x80947c0;
+inline void (*GraphicsContext::ptr::CSTR_GraphicsContext)(GraphicsContext * self) = (void (*)(GraphicsContext * self)) 0x80fe350;
 #endif
 #endif

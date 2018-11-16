@@ -36,23 +36,23 @@ public:
 
 #ifdef _WIN32
 
-Bat * (*Bat::ptr::New)(Bat * self, int xVal, int yVal, int l) = (Bat * (*)(Bat * self, int xVal, int yVal, int l)) 0x616970;
-Bat * (*Bat::ptr::_new2)() = (Bat * (*)()) 0x0;
-Point * (*Bat::ptr::GetMovementDirection)(Bat * self) = (Point * (*)(Bat * self)) 0x616ca0;
-void (*Bat::ptr::Update)(Bat * self) = (void (*)(Bat * self)) 0x6170a0;
-bool (*Bat::ptr::Hit)(Bat * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Bat * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x6170e0;
-void (*Bat::ptr::_mark)() = (void (*)()) 0x0;
-void (*Bat::ptr::CSTR_Bat)(Bat * self) = (void (*)(Bat * self)) 0x616910;
+inline Bat * (*Bat::ptr::New)(Bat * self, int xVal, int yVal, int l) = (Bat * (*)(Bat * self, int xVal, int yVal, int l)) 0x616970;
+inline Bat * (*Bat::ptr::_new2)() = (Bat * (*)()) 0x0;
+inline Point * (*Bat::ptr::GetMovementDirection)(Bat * self) = (Point * (*)(Bat * self)) 0x616ca0;
+inline void (*Bat::ptr::Update)(Bat * self) = (void (*)(Bat * self)) 0x6170a0;
+inline bool (*Bat::ptr::Hit)(Bat * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Bat * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x6170e0;
+inline void (*Bat::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Bat::ptr::CSTR_Bat)(Bat * self) = (void (*)(Bat * self)) 0x616910;
 #endif
 
 #ifdef __linux__
 
-Bat * (*Bat::ptr::New)(Bat * self, int xVal, int yVal, int l) = (Bat * (*)(Bat * self, int xVal, int yVal, int l)) 0x81b5d90;
-Bat * (*Bat::ptr::_new2)() = (Bat * (*)()) 0x81b6020;
-Point * (*Bat::ptr::GetMovementDirection)(Bat * self) = (Point * (*)(Bat * self)) 0x825ffe0;
-void (*Bat::ptr::Update)(Bat * self) = (void (*)(Bat * self)) 0x8385080;
-bool (*Bat::ptr::Hit)(Bat * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Bat * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x839bb10;
-void (*Bat::ptr::_mark)() = (void (*)()) 0x80b0c50;
-void (*Bat::ptr::CSTR_Bat)(Bat * self) = (void (*)(Bat * self)) 0x81b5d70;
+inline Bat * (*Bat::ptr::New)(Bat * self, int xVal, int yVal, int l) = (Bat * (*)(Bat * self, int xVal, int yVal, int l)) 0x81b5d90;
+inline Bat * (*Bat::ptr::_new2)() = (Bat * (*)()) 0x81b6020;
+inline Point * (*Bat::ptr::GetMovementDirection)(Bat * self) = (Point * (*)(Bat * self)) 0x825ffe0;
+inline void (*Bat::ptr::Update)(Bat * self) = (void (*)(Bat * self)) 0x8385080;
+inline bool (*Bat::ptr::Hit)(Bat * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Bat * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x839bb10;
+inline void (*Bat::ptr::_mark)() = (void (*)()) 0x80b0c50;
+inline void (*Bat::ptr::CSTR_Bat)(Bat * self) = (void (*)(Bat * self)) 0x81b5d70;
 #endif
 #endif

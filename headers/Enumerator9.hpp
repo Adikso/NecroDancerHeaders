@@ -30,19 +30,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator9 * (*Enumerator9::ptr::_New)(Enumerator9 * self, List17 * arg1) = (Enumerator9 * (*)(Enumerator9 * self, List17 * arg1)) 0x0;
-Enumerator9 * (*Enumerator9::ptr::_new2)() = (Enumerator9 * (*)()) 0x0;
-bool (*Enumerator9::ptr::_HasNext)() = (bool (*)()) 0x0;
-Item * (*Enumerator9::ptr::_NextObject)() = (Item * (*)()) 0x0;
-void (*Enumerator9::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator9 * (*Enumerator9::ptr::_New)(Enumerator9 * self, List17 * arg1) = (Enumerator9 * (*)(Enumerator9 * self, List17 * arg1)) 0x0;
+inline Enumerator9 * (*Enumerator9::ptr::_new2)() = (Enumerator9 * (*)()) 0x0;
+inline bool (*Enumerator9::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline Item * (*Enumerator9::ptr::_NextObject)() = (Item * (*)()) 0x0;
+inline void (*Enumerator9::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator9 * (*Enumerator9::ptr::_New)(Enumerator9 * self, List17 * arg1) = (Enumerator9 * (*)(Enumerator9 * self, List17 * arg1)) 0x0;
-Enumerator9 * (*Enumerator9::ptr::_new2)() = (Enumerator9 * (*)()) 0x8196320;
-bool (*Enumerator9::ptr::_HasNext)() = (bool (*)()) 0x8090db0;
-Item * (*Enumerator9::ptr::_NextObject)() = (Item * (*)()) 0x8090e30;
-void (*Enumerator9::ptr::_mark)() = (void (*)()) 0x8084960;
+inline Enumerator9 * (*Enumerator9::ptr::_New)(Enumerator9 * self, List17 * arg1) = (Enumerator9 * (*)(Enumerator9 * self, List17 * arg1)) 0x0;
+inline Enumerator9 * (*Enumerator9::ptr::_new2)() = (Enumerator9 * (*)()) 0x8196320;
+inline bool (*Enumerator9::ptr::_HasNext)() = (bool (*)()) 0x8090db0;
+inline Item * (*Enumerator9::ptr::_NextObject)() = (Item * (*)()) 0x8090e30;
+inline void (*Enumerator9::ptr::_mark)() = (void (*)()) 0x8084960;
 #endif
 #endif

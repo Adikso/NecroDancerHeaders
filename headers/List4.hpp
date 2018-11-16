@@ -38,25 +38,25 @@ public:
 
 #ifdef _WIN32
 
-List4 * (*List4::ptr::_New)() = (List4 * (*)()) 0x0;
-Node8 * (*List4::ptr::AddLast4)(List4 * self, SubtitleData * data) = (Node8 * (*)(List4 * self, SubtitleData * data)) 0x557380;
-List4 * (*List4::ptr::_new2)(List4 * self, Array<SubtitleData *> * arg1) = (List4 * (*)(List4 * self, Array<SubtitleData *> * arg1)) 0x0;
-int (*List4::ptr::_Count)() = (int (*)()) 0x0;
-SubtitleData * (*List4::ptr::_First)() = (SubtitleData * (*)()) 0x0;
-SubtitleData * (*List4::ptr::_RemoveFirst)() = (SubtitleData * (*)()) 0x0;
-void (*List4::ptr::_mark)() = (void (*)()) 0x0;
-void (*List4::ptr::CSTR_List4)(List4 * self) = (void (*)(List4 * self)) 0x5572b0;
+inline List4 * (*List4::ptr::_New)() = (List4 * (*)()) 0x0;
+inline Node8 * (*List4::ptr::AddLast4)(List4 * self, SubtitleData * data) = (Node8 * (*)(List4 * self, SubtitleData * data)) 0x557380;
+inline List4 * (*List4::ptr::_new2)(List4 * self, Array<SubtitleData *> * arg1) = (List4 * (*)(List4 * self, Array<SubtitleData *> * arg1)) 0x0;
+inline int (*List4::ptr::_Count)() = (int (*)()) 0x0;
+inline SubtitleData * (*List4::ptr::_First)() = (SubtitleData * (*)()) 0x0;
+inline SubtitleData * (*List4::ptr::_RemoveFirst)() = (SubtitleData * (*)()) 0x0;
+inline void (*List4::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List4::ptr::CSTR_List4)(List4 * self) = (void (*)(List4 * self)) 0x5572b0;
 #endif
 
 #ifdef __linux__
 
-List4 * (*List4::ptr::_New)() = (List4 * (*)()) 0x8150ff0;
-Node8 * (*List4::ptr::AddLast4)(List4 * self, SubtitleData * data) = (Node8 * (*)(List4 * self, SubtitleData * data)) 0x80b66b0;
-List4 * (*List4::ptr::_new2)(List4 * self, Array<SubtitleData *> * arg1) = (List4 * (*)(List4 * self, Array<SubtitleData *> * arg1)) 0x0;
-int (*List4::ptr::_Count)() = (int (*)()) 0x806f6d0;
-SubtitleData * (*List4::ptr::_First)() = (SubtitleData * (*)()) 0x806f6f0;
-SubtitleData * (*List4::ptr::_RemoveFirst)() = (SubtitleData * (*)()) 0x806f710;
-void (*List4::ptr::_mark)() = (void (*)()) 0x8087190;
-void (*List4::ptr::CSTR_List4)(List4 * self) = (void (*)(List4 * self)) 0x8151310;
+inline List4 * (*List4::ptr::_New)() = (List4 * (*)()) 0x8150ff0;
+inline Node8 * (*List4::ptr::AddLast4)(List4 * self, SubtitleData * data) = (Node8 * (*)(List4 * self, SubtitleData * data)) 0x80b66b0;
+inline List4 * (*List4::ptr::_new2)(List4 * self, Array<SubtitleData *> * arg1) = (List4 * (*)(List4 * self, Array<SubtitleData *> * arg1)) 0x0;
+inline int (*List4::ptr::_Count)() = (int (*)()) 0x806f6d0;
+inline SubtitleData * (*List4::ptr::_First)() = (SubtitleData * (*)()) 0x806f6f0;
+inline SubtitleData * (*List4::ptr::_RemoveFirst)() = (SubtitleData * (*)()) 0x806f710;
+inline void (*List4::ptr::_mark)() = (void (*)()) 0x8087190;
+inline void (*List4::ptr::CSTR_List4)(List4 * self) = (void (*)(List4 * self)) 0x8151310;
 #endif
 #endif

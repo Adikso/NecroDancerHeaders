@@ -23,17 +23,17 @@ public:
 
 #ifdef _WIN32
 
-IceSpirit * (*IceSpirit::ptr::New)(IceSpirit * self, int x_, int y_) = (IceSpirit * (*)(IceSpirit * self, int x_, int y_)) 0x602670;
-IceSpirit * (*IceSpirit::ptr::_new2)() = (IceSpirit * (*)()) 0x0;
-bool (*IceSpirit::ptr::ApplyEffect)(IceSpirit * self, int dir) = (bool (*)(IceSpirit * self, int dir)) 0x6027e0;
-void (*IceSpirit::ptr::_mark)() = (void (*)()) 0x0;
+inline IceSpirit * (*IceSpirit::ptr::New)(IceSpirit * self, int x_, int y_) = (IceSpirit * (*)(IceSpirit * self, int x_, int y_)) 0x602670;
+inline IceSpirit * (*IceSpirit::ptr::_new2)() = (IceSpirit * (*)()) 0x0;
+inline bool (*IceSpirit::ptr::ApplyEffect)(IceSpirit * self, int dir) = (bool (*)(IceSpirit * self, int dir)) 0x6027e0;
+inline void (*IceSpirit::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-IceSpirit * (*IceSpirit::ptr::New)(IceSpirit * self, int x_, int y_) = (IceSpirit * (*)(IceSpirit * self, int x_, int y_)) 0x81a7160;
-IceSpirit * (*IceSpirit::ptr::_new2)() = (IceSpirit * (*)()) 0x81a72f0;
-bool (*IceSpirit::ptr::ApplyEffect)(IceSpirit * self, int dir) = (bool (*)(IceSpirit * self, int dir)) 0x8319bc0;
-void (*IceSpirit::ptr::_mark)() = (void (*)()) 0x80a5690;
+inline IceSpirit * (*IceSpirit::ptr::New)(IceSpirit * self, int x_, int y_) = (IceSpirit * (*)(IceSpirit * self, int x_, int y_)) 0x81a7160;
+inline IceSpirit * (*IceSpirit::ptr::_new2)() = (IceSpirit * (*)()) 0x81a72f0;
+inline bool (*IceSpirit::ptr::ApplyEffect)(IceSpirit * self, int dir) = (bool (*)(IceSpirit * self, int dir)) 0x8319bc0;
+inline void (*IceSpirit::ptr::_mark)() = (void (*)()) 0x80a5690;
 #endif
 #endif

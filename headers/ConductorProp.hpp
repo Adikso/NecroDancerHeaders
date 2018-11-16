@@ -57,33 +57,33 @@ public:
 
 #ifdef _WIN32
 
-ConductorProp * (*ConductorProp::ptr::New)(ConductorProp * self, int xVal, int yVal, int l) = (ConductorProp * (*)(ConductorProp * self, int xVal, int yVal, int l)) 0x635f90;
-ConductorProp * (*ConductorProp::ptr::_new2)() = (ConductorProp * (*)()) 0x0;
-Tile * (*ConductorProp::ptr::AddWireAt)(ConductorProp * self, int wireX, int wireY) = (Tile * (*)(ConductorProp * self, int wireX, int wireY)) 0x6361c0;
-bool (*ConductorProp::ptr::_ImmuneToEarth)() = (bool (*)()) 0x0;
-bool (*ConductorProp::ptr::_ImmuneToFear)() = (bool (*)()) 0x0;
-bool (*ConductorProp::ptr::Hit)(ConductorProp * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(ConductorProp * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x636340;
-void (*ConductorProp::ptr::Die)(ConductorProp * self) = (void (*)(ConductorProp * self)) 0x636600;
-bool (*ConductorProp::ptr::IsShielded)(ConductorProp * self) = (bool (*)(ConductorProp * self)) 0x636630;
-void (*ConductorProp::ptr::Update)(ConductorProp * self) = (void (*)(ConductorProp * self)) 0x636730;
-void (*ConductorProp::ptr::Render)(ConductorProp * self) = (void (*)(ConductorProp * self)) 0x6367a0;
-void (*ConductorProp::ptr::mark)(ConductorProp * self) = (void (*)(ConductorProp * self)) 0x6368e0;
-void (*ConductorProp::ptr::CSTR_ConductorProp)(ConductorProp * self) = (void (*)(ConductorProp * self)) 0x635ea0;
+inline ConductorProp * (*ConductorProp::ptr::New)(ConductorProp * self, int xVal, int yVal, int l) = (ConductorProp * (*)(ConductorProp * self, int xVal, int yVal, int l)) 0x635f90;
+inline ConductorProp * (*ConductorProp::ptr::_new2)() = (ConductorProp * (*)()) 0x0;
+inline Tile * (*ConductorProp::ptr::AddWireAt)(ConductorProp * self, int wireX, int wireY) = (Tile * (*)(ConductorProp * self, int wireX, int wireY)) 0x6361c0;
+inline bool (*ConductorProp::ptr::_ImmuneToEarth)() = (bool (*)()) 0x0;
+inline bool (*ConductorProp::ptr::_ImmuneToFear)() = (bool (*)()) 0x0;
+inline bool (*ConductorProp::ptr::Hit)(ConductorProp * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(ConductorProp * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x636340;
+inline void (*ConductorProp::ptr::Die)(ConductorProp * self) = (void (*)(ConductorProp * self)) 0x636600;
+inline bool (*ConductorProp::ptr::IsShielded)(ConductorProp * self) = (bool (*)(ConductorProp * self)) 0x636630;
+inline void (*ConductorProp::ptr::Update)(ConductorProp * self) = (void (*)(ConductorProp * self)) 0x636730;
+inline void (*ConductorProp::ptr::Render)(ConductorProp * self) = (void (*)(ConductorProp * self)) 0x6367a0;
+inline void (*ConductorProp::ptr::mark)(ConductorProp * self) = (void (*)(ConductorProp * self)) 0x6368e0;
+inline void (*ConductorProp::ptr::CSTR_ConductorProp)(ConductorProp * self) = (void (*)(ConductorProp * self)) 0x635ea0;
 #endif
 
 #ifdef __linux__
 
-ConductorProp * (*ConductorProp::ptr::New)(ConductorProp * self, int xVal, int yVal, int l) = (ConductorProp * (*)(ConductorProp * self, int xVal, int yVal, int l)) 0x81bd0d0;
-ConductorProp * (*ConductorProp::ptr::_new2)() = (ConductorProp * (*)()) 0x81bd8a0;
-Tile * (*ConductorProp::ptr::AddWireAt)(ConductorProp * self, int wireX, int wireY) = (Tile * (*)(ConductorProp * self, int wireX, int wireY)) 0x818d990;
-bool (*ConductorProp::ptr::_ImmuneToEarth)() = (bool (*)()) 0x8075cf0;
-bool (*ConductorProp::ptr::_ImmuneToFear)() = (bool (*)()) 0x8075d00;
-bool (*ConductorProp::ptr::Hit)(ConductorProp * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(ConductorProp * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8399880;
-void (*ConductorProp::ptr::Die)(ConductorProp * self) = (void (*)(ConductorProp * self)) 0x83b6530;
-bool (*ConductorProp::ptr::IsShielded)(ConductorProp * self) = (bool (*)(ConductorProp * self)) 0x80a12c0;
-void (*ConductorProp::ptr::Update)(ConductorProp * self) = (void (*)(ConductorProp * self)) 0x8383500;
-void (*ConductorProp::ptr::Render)(ConductorProp * self) = (void (*)(ConductorProp * self)) 0x830c270;
-void (*ConductorProp::ptr::mark)(ConductorProp * self) = (void (*)(ConductorProp * self)) 0x80b1460;
-void (*ConductorProp::ptr::CSTR_ConductorProp)(ConductorProp * self) = (void (*)(ConductorProp * self)) 0x81bcfb0;
+inline ConductorProp * (*ConductorProp::ptr::New)(ConductorProp * self, int xVal, int yVal, int l) = (ConductorProp * (*)(ConductorProp * self, int xVal, int yVal, int l)) 0x81bd0d0;
+inline ConductorProp * (*ConductorProp::ptr::_new2)() = (ConductorProp * (*)()) 0x81bd8a0;
+inline Tile * (*ConductorProp::ptr::AddWireAt)(ConductorProp * self, int wireX, int wireY) = (Tile * (*)(ConductorProp * self, int wireX, int wireY)) 0x818d990;
+inline bool (*ConductorProp::ptr::_ImmuneToEarth)() = (bool (*)()) 0x8075cf0;
+inline bool (*ConductorProp::ptr::_ImmuneToFear)() = (bool (*)()) 0x8075d00;
+inline bool (*ConductorProp::ptr::Hit)(ConductorProp * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(ConductorProp * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8399880;
+inline void (*ConductorProp::ptr::Die)(ConductorProp * self) = (void (*)(ConductorProp * self)) 0x83b6530;
+inline bool (*ConductorProp::ptr::IsShielded)(ConductorProp * self) = (bool (*)(ConductorProp * self)) 0x80a12c0;
+inline void (*ConductorProp::ptr::Update)(ConductorProp * self) = (void (*)(ConductorProp * self)) 0x8383500;
+inline void (*ConductorProp::ptr::Render)(ConductorProp * self) = (void (*)(ConductorProp * self)) 0x830c270;
+inline void (*ConductorProp::ptr::mark)(ConductorProp * self) = (void (*)(ConductorProp * self)) 0x80b1460;
+inline void (*ConductorProp::ptr::CSTR_ConductorProp)(ConductorProp * self) = (void (*)(ConductorProp * self)) 0x81bcfb0;
 #endif
 #endif

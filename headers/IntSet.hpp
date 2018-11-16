@@ -19,13 +19,13 @@ public:
 
 #ifdef _WIN32
 
-IntSet * (*IntSet::ptr::New)(IntSet * self) = (IntSet * (*)(IntSet * self)) 0x57e070;
-void (*IntSet::ptr::_mark)() = (void (*)()) 0x0;
+inline IntSet * (*IntSet::ptr::New)(IntSet * self) = (IntSet * (*)(IntSet * self)) 0x57e070;
+inline void (*IntSet::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-IntSet * (*IntSet::ptr::New)(IntSet * self) = (IntSet * (*)(IntSet * self)) 0x8158120;
-void (*IntSet::ptr::_mark)() = (void (*)()) 0x8087780;
+inline IntSet * (*IntSet::ptr::New)(IntSet * self) = (IntSet * (*)(IntSet * self)) 0x8158120;
+inline void (*IntSet::ptr::_mark)() = (void (*)()) 0x8087780;
 #endif
 #endif

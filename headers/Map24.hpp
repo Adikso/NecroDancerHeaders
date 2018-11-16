@@ -36,27 +36,27 @@ public:
 
 #ifdef _WIN32
 
-Map24 * (*Map24::ptr::_New)() = (Map24 * (*)()) 0x0;
-int (*Map24::ptr::_Compare2)(Map24 * self, int arg1, int arg2) = (int (*)(Map24 * self, int arg1, int arg2)) 0x0;
-Node81 * (*Map24::ptr::_FindNode2)(Map24 * self, int arg1) = (Node81 * (*)(Map24 * self, int arg1)) 0x0;
-FloorPulse * (*Map24::ptr::_Get2)(Map24 * self, int arg1) = (FloorPulse * (*)(Map24 * self, int arg1)) 0x0;
-int (*Map24::ptr::_RotateLeft24)(Map24 * self, Node81 * arg1) = (int (*)(Map24 * self, Node81 * arg1)) 0x0;
-int (*Map24::ptr::_RotateRight24)(Map24 * self, Node81 * arg1) = (int (*)(Map24 * self, Node81 * arg1)) 0x0;
-int (*Map24::ptr::_InsertFixup24)(Map24 * self, Node81 * arg1) = (int (*)(Map24 * self, Node81 * arg1)) 0x0;
-bool (*Map24::ptr::Set28)(Map24 * self, int key, FloorPulse * value) = (bool (*)(Map24 * self, int key, FloorPulse * value)) 0x68dfd0;
-void (*Map24::ptr::_mark)() = (void (*)()) 0x0;
+inline Map24 * (*Map24::ptr::_New)() = (Map24 * (*)()) 0x0;
+inline int (*Map24::ptr::_Compare2)(Map24 * self, int arg1, int arg2) = (int (*)(Map24 * self, int arg1, int arg2)) 0x0;
+inline Node81 * (*Map24::ptr::_FindNode2)(Map24 * self, int arg1) = (Node81 * (*)(Map24 * self, int arg1)) 0x0;
+inline FloorPulse * (*Map24::ptr::_Get2)(Map24 * self, int arg1) = (FloorPulse * (*)(Map24 * self, int arg1)) 0x0;
+inline int (*Map24::ptr::_RotateLeft24)(Map24 * self, Node81 * arg1) = (int (*)(Map24 * self, Node81 * arg1)) 0x0;
+inline int (*Map24::ptr::_RotateRight24)(Map24 * self, Node81 * arg1) = (int (*)(Map24 * self, Node81 * arg1)) 0x0;
+inline int (*Map24::ptr::_InsertFixup24)(Map24 * self, Node81 * arg1) = (int (*)(Map24 * self, Node81 * arg1)) 0x0;
+inline bool (*Map24::ptr::Set28)(Map24 * self, int key, FloorPulse * value) = (bool (*)(Map24 * self, int key, FloorPulse * value)) 0x68dfd0;
+inline void (*Map24::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Map24 * (*Map24::ptr::_New)() = (Map24 * (*)()) 0x81e5490;
-int (*Map24::ptr::_Compare2)(Map24 * self, int arg1, int arg2) = (int (*)(Map24 * self, int arg1, int arg2)) 0x0;
-Node81 * (*Map24::ptr::_FindNode2)(Map24 * self, int arg1) = (Node81 * (*)(Map24 * self, int arg1)) 0x80791c0;
-FloorPulse * (*Map24::ptr::_Get2)(Map24 * self, int arg1) = (FloorPulse * (*)(Map24 * self, int arg1)) 0x8079210;
-int (*Map24::ptr::_RotateLeft24)(Map24 * self, Node81 * arg1) = (int (*)(Map24 * self, Node81 * arg1)) 0x0;
-int (*Map24::ptr::_RotateRight24)(Map24 * self, Node81 * arg1) = (int (*)(Map24 * self, Node81 * arg1)) 0x0;
-int (*Map24::ptr::_InsertFixup24)(Map24 * self, Node81 * arg1) = (int (*)(Map24 * self, Node81 * arg1)) 0x0;
-bool (*Map24::ptr::Set28)(Map24 * self, int key, FloorPulse * value) = (bool (*)(Map24 * self, int key, FloorPulse * value)) 0x80bcdf0;
-void (*Map24::ptr::_mark)() = (void (*)()) 0x808c8b0;
+inline Map24 * (*Map24::ptr::_New)() = (Map24 * (*)()) 0x81e5490;
+inline int (*Map24::ptr::_Compare2)(Map24 * self, int arg1, int arg2) = (int (*)(Map24 * self, int arg1, int arg2)) 0x0;
+inline Node81 * (*Map24::ptr::_FindNode2)(Map24 * self, int arg1) = (Node81 * (*)(Map24 * self, int arg1)) 0x80791c0;
+inline FloorPulse * (*Map24::ptr::_Get2)(Map24 * self, int arg1) = (FloorPulse * (*)(Map24 * self, int arg1)) 0x8079210;
+inline int (*Map24::ptr::_RotateLeft24)(Map24 * self, Node81 * arg1) = (int (*)(Map24 * self, Node81 * arg1)) 0x0;
+inline int (*Map24::ptr::_RotateRight24)(Map24 * self, Node81 * arg1) = (int (*)(Map24 * self, Node81 * arg1)) 0x0;
+inline int (*Map24::ptr::_InsertFixup24)(Map24 * self, Node81 * arg1) = (int (*)(Map24 * self, Node81 * arg1)) 0x0;
+inline bool (*Map24::ptr::Set28)(Map24 * self, int key, FloorPulse * value) = (bool (*)(Map24 * self, int key, FloorPulse * value)) 0x80bcdf0;
+inline void (*Map24::ptr::_mark)() = (void (*)()) 0x808c8b0;
 #endif
 #endif

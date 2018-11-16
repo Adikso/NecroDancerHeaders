@@ -61,27 +61,27 @@ public:
 
 #ifdef _WIN32
 
-ControllerResolution * (*ControllerResolution::ptr::New)(ControllerResolution * self, Controller * game) = (ControllerResolution * (*)(ControllerResolution * self, Controller * game)) 0x6adb00;
-ControllerResolution * (*ControllerResolution::ptr::_new2)() = (ControllerResolution * (*)()) 0x0;
-void (*ControllerResolution::ptr::GUICallback)(ControllerResolution * self, int index, bool left) = (void (*)(ControllerResolution * self, int index, bool left)) 0x6ae110;
-void (*ControllerResolution::ptr::Update)(ControllerResolution * self) = (void (*)(ControllerResolution * self)) 0x6ae6d0;
-void (*ControllerResolution::ptr::Render)(ControllerResolution * self) = (void (*)(ControllerResolution * self)) 0x6ae950;
-void (*ControllerResolution::ptr::_RegainFocus)() = (void (*)()) 0x0;
-void (*ControllerResolution::ptr::Destructor)(ControllerResolution * self) = (void (*)(ControllerResolution * self)) 0x6aecb0;
-void (*ControllerResolution::ptr::mark)(ControllerResolution * self) = (void (*)(ControllerResolution * self)) 0x6aece0;
-void (*ControllerResolution::ptr::CSTR_ControllerResolution)(ControllerResolution * self) = (void (*)(ControllerResolution * self)) 0x6ad790;
+inline ControllerResolution * (*ControllerResolution::ptr::New)(ControllerResolution * self, Controller * game) = (ControllerResolution * (*)(ControllerResolution * self, Controller * game)) 0x6adb00;
+inline ControllerResolution * (*ControllerResolution::ptr::_new2)() = (ControllerResolution * (*)()) 0x0;
+inline void (*ControllerResolution::ptr::GUICallback)(ControllerResolution * self, int index, bool left) = (void (*)(ControllerResolution * self, int index, bool left)) 0x6ae110;
+inline void (*ControllerResolution::ptr::Update)(ControllerResolution * self) = (void (*)(ControllerResolution * self)) 0x6ae6d0;
+inline void (*ControllerResolution::ptr::Render)(ControllerResolution * self) = (void (*)(ControllerResolution * self)) 0x6ae950;
+inline void (*ControllerResolution::ptr::_RegainFocus)() = (void (*)()) 0x0;
+inline void (*ControllerResolution::ptr::Destructor)(ControllerResolution * self) = (void (*)(ControllerResolution * self)) 0x6aecb0;
+inline void (*ControllerResolution::ptr::mark)(ControllerResolution * self) = (void (*)(ControllerResolution * self)) 0x6aece0;
+inline void (*ControllerResolution::ptr::CSTR_ControllerResolution)(ControllerResolution * self) = (void (*)(ControllerResolution * self)) 0x6ad790;
 #endif
 
 #ifdef __linux__
 
-ControllerResolution * (*ControllerResolution::ptr::New)(ControllerResolution * self, Controller * game) = (ControllerResolution * (*)(ControllerResolution * self, Controller * game)) 0x820d0f0;
-ControllerResolution * (*ControllerResolution::ptr::_new2)() = (ControllerResolution * (*)()) 0x81f5480;
-void (*ControllerResolution::ptr::GUICallback)(ControllerResolution * self, int index, bool left) = (void (*)(ControllerResolution * self, int index, bool left)) 0x81fd8e0;
-void (*ControllerResolution::ptr::Update)(ControllerResolution * self) = (void (*)(ControllerResolution * self)) 0x8155910;
-void (*ControllerResolution::ptr::Render)(ControllerResolution * self) = (void (*)(ControllerResolution * self)) 0x80e06a0;
-void (*ControllerResolution::ptr::_RegainFocus)() = (void (*)()) 0x807a500;
-void (*ControllerResolution::ptr::Destructor)(ControllerResolution * self) = (void (*)(ControllerResolution * self)) 0x807a510;
-void (*ControllerResolution::ptr::mark)(ControllerResolution * self) = (void (*)(ControllerResolution * self)) 0x80a9920;
-void (*ControllerResolution::ptr::CSTR_ControllerResolution)(ControllerResolution * self) = (void (*)(ControllerResolution * self)) 0x81f4f60;
+inline ControllerResolution * (*ControllerResolution::ptr::New)(ControllerResolution * self, Controller * game) = (ControllerResolution * (*)(ControllerResolution * self, Controller * game)) 0x820d0f0;
+inline ControllerResolution * (*ControllerResolution::ptr::_new2)() = (ControllerResolution * (*)()) 0x81f5480;
+inline void (*ControllerResolution::ptr::GUICallback)(ControllerResolution * self, int index, bool left) = (void (*)(ControllerResolution * self, int index, bool left)) 0x81fd8e0;
+inline void (*ControllerResolution::ptr::Update)(ControllerResolution * self) = (void (*)(ControllerResolution * self)) 0x8155910;
+inline void (*ControllerResolution::ptr::Render)(ControllerResolution * self) = (void (*)(ControllerResolution * self)) 0x80e06a0;
+inline void (*ControllerResolution::ptr::_RegainFocus)() = (void (*)()) 0x807a500;
+inline void (*ControllerResolution::ptr::Destructor)(ControllerResolution * self) = (void (*)(ControllerResolution * self)) 0x807a510;
+inline void (*ControllerResolution::ptr::mark)(ControllerResolution * self) = (void (*)(ControllerResolution * self)) 0x80a9920;
+inline void (*ControllerResolution::ptr::CSTR_ControllerResolution)(ControllerResolution * self) = (void (*)(ControllerResolution * self)) 0x81f4f60;
 #endif
 #endif

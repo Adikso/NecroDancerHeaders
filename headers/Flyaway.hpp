@@ -57,34 +57,34 @@ public:
 };
 
 #ifdef _WIN32
-List13 * * Flyaway::activeFlyaways = (List13* *) 0x835698;
-int * Flyaway::temporarilyDisableNewFlyaways = (int*) 0x835694;
+inline List13 * * Flyaway::activeFlyaways = (List13* *) 0x835698;
+inline int * Flyaway::temporarilyDisableNewFlyaways = (int*) 0x835694;
 
-void (*Flyaway::ptr::_StopRenderingOfAllCurrentFlyaways)() = (void (*)()) 0x0;
-Flyaway * (*Flyaway::ptr::New)(Flyaway * self, String * filename, int xVal, int yVal, int tempXOff, int tempYOff, bool inWrld, float xSpd, float ySpd, bool textString, int dur) = (Flyaway * (*)(Flyaway * self, String * filename, int xVal, int yVal, int tempXOff, int tempYOff, bool inWrld, float xSpd, float ySpd, bool textString, int dur)) 0x5c5ce0;
-Flyaway * (*Flyaway::ptr::_new2)() = (Flyaway * (*)()) 0x0;
-void (*Flyaway::ptr::CenterX)(Flyaway * self) = (void (*)(Flyaway * self)) 0x5c5ec0;
-void (*Flyaway::ptr::Update)(Flyaway * self) = (void (*)(Flyaway * self)) 0x5c5f30;
-void (*Flyaway::ptr::UpdateAll)() = (void (*)()) 0x5c5f90;
-void (*Flyaway::ptr::Render)(Flyaway * self) = (void (*)(Flyaway * self)) 0x5c5fe0;
-void (*Flyaway::ptr::RenderAll)() = (void (*)()) 0x5c6130;
-void (*Flyaway::ptr::mark)(Flyaway * self) = (void (*)(Flyaway * self)) 0x5c6170;
-void (*Flyaway::ptr::CSTR_Flyaway)(Flyaway * self) = (void (*)(Flyaway * self)) 0x5c5c20;
+inline void (*Flyaway::ptr::_StopRenderingOfAllCurrentFlyaways)() = (void (*)()) 0x0;
+inline Flyaway * (*Flyaway::ptr::New)(Flyaway * self, String * filename, int xVal, int yVal, int tempXOff, int tempYOff, bool inWrld, float xSpd, float ySpd, bool textString, int dur) = (Flyaway * (*)(Flyaway * self, String * filename, int xVal, int yVal, int tempXOff, int tempYOff, bool inWrld, float xSpd, float ySpd, bool textString, int dur)) 0x5c5ce0;
+inline Flyaway * (*Flyaway::ptr::_new2)() = (Flyaway * (*)()) 0x0;
+inline void (*Flyaway::ptr::CenterX)(Flyaway * self) = (void (*)(Flyaway * self)) 0x5c5ec0;
+inline void (*Flyaway::ptr::Update)(Flyaway * self) = (void (*)(Flyaway * self)) 0x5c5f30;
+inline void (*Flyaway::ptr::UpdateAll)() = (void (*)()) 0x5c5f90;
+inline void (*Flyaway::ptr::Render)(Flyaway * self) = (void (*)(Flyaway * self)) 0x5c5fe0;
+inline void (*Flyaway::ptr::RenderAll)() = (void (*)()) 0x5c6130;
+inline void (*Flyaway::ptr::mark)(Flyaway * self) = (void (*)(Flyaway * self)) 0x5c6170;
+inline void (*Flyaway::ptr::CSTR_Flyaway)(Flyaway * self) = (void (*)(Flyaway * self)) 0x5c5c20;
 #endif
 
 #ifdef __linux__
-List13 * * Flyaway::activeFlyaways = (List13* *) 0x856a548;
-int * Flyaway::temporarilyDisableNewFlyaways = (int*) 0x856a544;
+inline List13 * * Flyaway::activeFlyaways = (List13* *) 0x856a548;
+inline int * Flyaway::temporarilyDisableNewFlyaways = (int*) 0x856a544;
 
-void (*Flyaway::ptr::_StopRenderingOfAllCurrentFlyaways)() = (void (*)()) 0x8187410;
-Flyaway * (*Flyaway::ptr::New)(Flyaway * self, String * filename, int xVal, int yVal, int tempXOff, int tempYOff, bool inWrld, float xSpd, float ySpd, bool textString, int dur) = (Flyaway * (*)(Flyaway * self, String * filename, int xVal, int yVal, int tempXOff, int tempYOff, bool inWrld, float xSpd, float ySpd, bool textString, int dur)) 0x8187450;
-Flyaway * (*Flyaway::ptr::_new2)() = (Flyaway * (*)()) 0x81877c0;
-void (*Flyaway::ptr::CenterX)(Flyaway * self) = (void (*)(Flyaway * self)) 0x8070d20;
-void (*Flyaway::ptr::Update)(Flyaway * self) = (void (*)(Flyaway * self)) 0x807eab0;
-void (*Flyaway::ptr::UpdateAll)() = (void (*)()) 0x81877d0;
-void (*Flyaway::ptr::Render)(Flyaway * self) = (void (*)(Flyaway * self)) 0x807eb20;
-void (*Flyaway::ptr::RenderAll)() = (void (*)()) 0x8187820;
-void (*Flyaway::ptr::mark)(Flyaway * self) = (void (*)(Flyaway * self)) 0x80a4950;
-void (*Flyaway::ptr::CSTR_Flyaway)(Flyaway * self) = (void (*)(Flyaway * self)) 0x81873b0;
+inline void (*Flyaway::ptr::_StopRenderingOfAllCurrentFlyaways)() = (void (*)()) 0x8187410;
+inline Flyaway * (*Flyaway::ptr::New)(Flyaway * self, String * filename, int xVal, int yVal, int tempXOff, int tempYOff, bool inWrld, float xSpd, float ySpd, bool textString, int dur) = (Flyaway * (*)(Flyaway * self, String * filename, int xVal, int yVal, int tempXOff, int tempYOff, bool inWrld, float xSpd, float ySpd, bool textString, int dur)) 0x8187450;
+inline Flyaway * (*Flyaway::ptr::_new2)() = (Flyaway * (*)()) 0x81877c0;
+inline void (*Flyaway::ptr::CenterX)(Flyaway * self) = (void (*)(Flyaway * self)) 0x8070d20;
+inline void (*Flyaway::ptr::Update)(Flyaway * self) = (void (*)(Flyaway * self)) 0x807eab0;
+inline void (*Flyaway::ptr::UpdateAll)() = (void (*)()) 0x81877d0;
+inline void (*Flyaway::ptr::Render)(Flyaway * self) = (void (*)(Flyaway * self)) 0x807eb20;
+inline void (*Flyaway::ptr::RenderAll)() = (void (*)()) 0x8187820;
+inline void (*Flyaway::ptr::mark)(Flyaway * self) = (void (*)(Flyaway * self)) 0x80a4950;
+inline void (*Flyaway::ptr::CSTR_Flyaway)(Flyaway * self) = (void (*)(Flyaway * self)) 0x81873b0;
 #endif
 #endif

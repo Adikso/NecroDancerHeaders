@@ -25,19 +25,19 @@ public:
 
 #ifdef _WIN32
 
-Rat * (*Rat::ptr::New)(Rat * self, int x_, int y_) = (Rat * (*)(Rat * self, int x_, int y_)) 0x602130;
-Rat * (*Rat::ptr::_new2)() = (Rat * (*)()) 0x0;
-void (*Rat::ptr::Update)(Rat * self) = (void (*)(Rat * self)) 0x6022a0;
-bool (*Rat::ptr::ApplyEffect)(Rat * self, int dir) = (bool (*)(Rat * self, int dir)) 0x6022e0;
-void (*Rat::ptr::_mark)() = (void (*)()) 0x0;
+inline Rat * (*Rat::ptr::New)(Rat * self, int x_, int y_) = (Rat * (*)(Rat * self, int x_, int y_)) 0x602130;
+inline Rat * (*Rat::ptr::_new2)() = (Rat * (*)()) 0x0;
+inline void (*Rat::ptr::Update)(Rat * self) = (void (*)(Rat * self)) 0x6022a0;
+inline bool (*Rat::ptr::ApplyEffect)(Rat * self, int dir) = (bool (*)(Rat * self, int dir)) 0x6022e0;
+inline void (*Rat::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Rat * (*Rat::ptr::New)(Rat * self, int x_, int y_) = (Rat * (*)(Rat * self, int x_, int y_)) 0x81a6db0;
-Rat * (*Rat::ptr::_new2)() = (Rat * (*)()) 0x81a6f40;
-void (*Rat::ptr::Update)(Rat * self) = (void (*)(Rat * self)) 0x82575f0;
-bool (*Rat::ptr::ApplyEffect)(Rat * self, int dir) = (bool (*)(Rat * self, int dir)) 0x83bd4b0;
-void (*Rat::ptr::_mark)() = (void (*)()) 0x80a5700;
+inline Rat * (*Rat::ptr::New)(Rat * self, int x_, int y_) = (Rat * (*)(Rat * self, int x_, int y_)) 0x81a6db0;
+inline Rat * (*Rat::ptr::_new2)() = (Rat * (*)()) 0x81a6f40;
+inline void (*Rat::ptr::Update)(Rat * self) = (void (*)(Rat * self)) 0x82575f0;
+inline bool (*Rat::ptr::ApplyEffect)(Rat * self, int dir) = (bool (*)(Rat * self, int dir)) 0x83bd4b0;
+inline void (*Rat::ptr::_mark)() = (void (*)()) 0x80a5700;
 #endif
 #endif

@@ -35,19 +35,19 @@ public:
 
 #ifdef _WIN32
 
-String * (*XMLDoc::ptr::Export)(XMLDoc * self, int options) = (String * (*)(XMLDoc * self, int options)) 0x444d70;
-XMLDoc * (*XMLDoc::ptr::New)(XMLDoc * self, String * name, String * version, String * encoding) = (XMLDoc * (*)(XMLDoc * self, String * name, String * version, String * encoding)) 0x445020;
-XMLDoc * (*XMLDoc::ptr::_new2)() = (XMLDoc * (*)()) 0x0;
-void (*XMLDoc::ptr::mark)(XMLDoc * self) = (void (*)(XMLDoc * self)) 0x4452f0;
-void (*XMLDoc::ptr::CSTR_XMLDoc)(XMLDoc * self) = (void (*)(XMLDoc * self)) 0x444b30;
+inline String * (*XMLDoc::ptr::Export)(XMLDoc * self, int options) = (String * (*)(XMLDoc * self, int options)) 0x444d70;
+inline XMLDoc * (*XMLDoc::ptr::New)(XMLDoc * self, String * name, String * version, String * encoding) = (XMLDoc * (*)(XMLDoc * self, String * name, String * version, String * encoding)) 0x445020;
+inline XMLDoc * (*XMLDoc::ptr::_new2)() = (XMLDoc * (*)()) 0x0;
+inline void (*XMLDoc::ptr::mark)(XMLDoc * self) = (void (*)(XMLDoc * self)) 0x4452f0;
+inline void (*XMLDoc::ptr::CSTR_XMLDoc)(XMLDoc * self) = (void (*)(XMLDoc * self)) 0x444b30;
 #endif
 
 #ifdef __linux__
 
-String * (*XMLDoc::ptr::Export)(XMLDoc * self, int options) = (String * (*)(XMLDoc * self, int options)) 0x80e3190;
-XMLDoc * (*XMLDoc::ptr::New)(XMLDoc * self, String * name, String * version, String * encoding) = (XMLDoc * (*)(XMLDoc * self, String * name, String * version, String * encoding)) 0x81288e0;
-XMLDoc * (*XMLDoc::ptr::_new2)() = (XMLDoc * (*)()) 0x8117680;
-void (*XMLDoc::ptr::mark)(XMLDoc * self) = (void (*)(XMLDoc * self)) 0x8093150;
-void (*XMLDoc::ptr::CSTR_XMLDoc)(XMLDoc * self) = (void (*)(XMLDoc * self)) 0x8128800;
+inline String * (*XMLDoc::ptr::Export)(XMLDoc * self, int options) = (String * (*)(XMLDoc * self, int options)) 0x80e3190;
+inline XMLDoc * (*XMLDoc::ptr::New)(XMLDoc * self, String * name, String * version, String * encoding) = (XMLDoc * (*)(XMLDoc * self, String * name, String * version, String * encoding)) 0x81288e0;
+inline XMLDoc * (*XMLDoc::ptr::_new2)() = (XMLDoc * (*)()) 0x8117680;
+inline void (*XMLDoc::ptr::mark)(XMLDoc * self) = (void (*)(XMLDoc * self)) 0x8093150;
+inline void (*XMLDoc::ptr::CSTR_XMLDoc)(XMLDoc * self) = (void (*)(XMLDoc * self)) 0x8128800;
 #endif
 #endif

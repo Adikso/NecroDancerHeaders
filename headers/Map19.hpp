@@ -43,33 +43,33 @@ public:
 
 #ifdef _WIN32
 
-Map19 * (*Map19::ptr::_New)() = (Map19 * (*)()) 0x0;
-int (*Map19::ptr::_Compare6)(Map19 * self, Point * arg1, Point * arg2) = (int (*)(Map19 * self, Point * arg1, Point * arg2)) 0x0;
-int (*Map19::ptr::_RotateLeft19)(Map19 * self, Node63 * arg1) = (int (*)(Map19 * self, Node63 * arg1)) 0x0;
-int (*Map19::ptr::_RotateRight19)(Map19 * self, Node63 * arg1) = (int (*)(Map19 * self, Node63 * arg1)) 0x0;
-int (*Map19::ptr::_InsertFixup19)(Map19 * self, Node63 * arg1) = (int (*)(Map19 * self, Node63 * arg1)) 0x0;
-bool (*Map19::ptr::Set20)(Map19 * self, Point * key, Object * value) = (bool (*)(Map19 * self, Point * key, Object * value)) 0x632e30;
-bool (*Map19::ptr::Insert9)(Map19 * self, Point * key, Object * value) = (bool (*)(Map19 * self, Point * key, Object * value)) 0x632f40;
-Node63 * (*Map19::ptr::FindNode3)(Map19 * self, Point * key) = (Node63 * (*)(Map19 * self, Point * key)) 0x5c9840;
-bool (*Map19::ptr::Contains5)(Map19 * self, Point * key) = (bool (*)(Map19 * self, Point * key)) 0x632f50;
-MapKeys4 * (*Map19::ptr::Keys)(Map19 * self) = (MapKeys4 * (*)(Map19 * self)) 0x632f70;
-Node63 * (*Map19::ptr::_FirstNode)() = (Node63 * (*)()) 0x0;
-void (*Map19::ptr::_mark)() = (void (*)()) 0x0;
+inline Map19 * (*Map19::ptr::_New)() = (Map19 * (*)()) 0x0;
+inline int (*Map19::ptr::_Compare6)(Map19 * self, Point * arg1, Point * arg2) = (int (*)(Map19 * self, Point * arg1, Point * arg2)) 0x0;
+inline int (*Map19::ptr::_RotateLeft19)(Map19 * self, Node63 * arg1) = (int (*)(Map19 * self, Node63 * arg1)) 0x0;
+inline int (*Map19::ptr::_RotateRight19)(Map19 * self, Node63 * arg1) = (int (*)(Map19 * self, Node63 * arg1)) 0x0;
+inline int (*Map19::ptr::_InsertFixup19)(Map19 * self, Node63 * arg1) = (int (*)(Map19 * self, Node63 * arg1)) 0x0;
+inline bool (*Map19::ptr::Set20)(Map19 * self, Point * key, Object * value) = (bool (*)(Map19 * self, Point * key, Object * value)) 0x632e30;
+inline bool (*Map19::ptr::Insert9)(Map19 * self, Point * key, Object * value) = (bool (*)(Map19 * self, Point * key, Object * value)) 0x632f40;
+inline Node63 * (*Map19::ptr::FindNode3)(Map19 * self, Point * key) = (Node63 * (*)(Map19 * self, Point * key)) 0x5c9840;
+inline bool (*Map19::ptr::Contains5)(Map19 * self, Point * key) = (bool (*)(Map19 * self, Point * key)) 0x632f50;
+inline MapKeys4 * (*Map19::ptr::Keys)(Map19 * self) = (MapKeys4 * (*)(Map19 * self)) 0x632f70;
+inline Node63 * (*Map19::ptr::_FirstNode)() = (Node63 * (*)()) 0x0;
+inline void (*Map19::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Map19 * (*Map19::ptr::_New)() = (Map19 * (*)()) 0x81bc610;
-int (*Map19::ptr::_Compare6)(Map19 * self, Point * arg1, Point * arg2) = (int (*)(Map19 * self, Point * arg1, Point * arg2)) 0x0;
-int (*Map19::ptr::_RotateLeft19)(Map19 * self, Node63 * arg1) = (int (*)(Map19 * self, Node63 * arg1)) 0x0;
-int (*Map19::ptr::_RotateRight19)(Map19 * self, Node63 * arg1) = (int (*)(Map19 * self, Node63 * arg1)) 0x0;
-int (*Map19::ptr::_InsertFixup19)(Map19 * self, Node63 * arg1) = (int (*)(Map19 * self, Node63 * arg1)) 0x0;
-bool (*Map19::ptr::Set20)(Map19 * self, Point * key, Object * value) = (bool (*)(Map19 * self, Point * key, Object * value)) 0x80bab30;
-bool (*Map19::ptr::Insert9)(Map19 * self, Point * key, Object * value) = (bool (*)(Map19 * self, Point * key, Object * value)) 0x8075b20;
-Node63 * (*Map19::ptr::FindNode3)(Map19 * self, Point * key) = (Node63 * (*)(Map19 * self, Point * key)) 0x8075b30;
-bool (*Map19::ptr::Contains5)(Map19 * self, Point * key) = (bool (*)(Map19 * self, Point * key)) 0x8075b80;
-MapKeys4 * (*Map19::ptr::Keys)(Map19 * self) = (MapKeys4 * (*)(Map19 * self)) 0x80baa30;
-Node63 * (*Map19::ptr::_FirstNode)() = (Node63 * (*)()) 0x8075ba0;
-void (*Map19::ptr::_mark)() = (void (*)()) 0x808e220;
+inline Map19 * (*Map19::ptr::_New)() = (Map19 * (*)()) 0x81bc610;
+inline int (*Map19::ptr::_Compare6)(Map19 * self, Point * arg1, Point * arg2) = (int (*)(Map19 * self, Point * arg1, Point * arg2)) 0x0;
+inline int (*Map19::ptr::_RotateLeft19)(Map19 * self, Node63 * arg1) = (int (*)(Map19 * self, Node63 * arg1)) 0x0;
+inline int (*Map19::ptr::_RotateRight19)(Map19 * self, Node63 * arg1) = (int (*)(Map19 * self, Node63 * arg1)) 0x0;
+inline int (*Map19::ptr::_InsertFixup19)(Map19 * self, Node63 * arg1) = (int (*)(Map19 * self, Node63 * arg1)) 0x0;
+inline bool (*Map19::ptr::Set20)(Map19 * self, Point * key, Object * value) = (bool (*)(Map19 * self, Point * key, Object * value)) 0x80bab30;
+inline bool (*Map19::ptr::Insert9)(Map19 * self, Point * key, Object * value) = (bool (*)(Map19 * self, Point * key, Object * value)) 0x8075b20;
+inline Node63 * (*Map19::ptr::FindNode3)(Map19 * self, Point * key) = (Node63 * (*)(Map19 * self, Point * key)) 0x8075b30;
+inline bool (*Map19::ptr::Contains5)(Map19 * self, Point * key) = (bool (*)(Map19 * self, Point * key)) 0x8075b80;
+inline MapKeys4 * (*Map19::ptr::Keys)(Map19 * self) = (MapKeys4 * (*)(Map19 * self)) 0x80baa30;
+inline Node63 * (*Map19::ptr::_FirstNode)() = (Node63 * (*)()) 0x8075ba0;
+inline void (*Map19::ptr::_mark)() = (void (*)()) 0x808e220;
 #endif
 #endif

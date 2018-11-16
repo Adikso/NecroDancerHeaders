@@ -28,19 +28,19 @@ public:
 
 #ifdef _WIN32
 
-Knight * (*Knight::ptr::New)(Knight * self, int xVal, int yVal, int l) = (Knight * (*)(Knight * self, int xVal, int yVal, int l)) 0x655bf0;
-Knight * (*Knight::ptr::_new2)() = (Knight * (*)()) 0x0;
-Point * (*Knight::ptr::GetMovementDirection)(Knight * self) = (Point * (*)(Knight * self)) 0x656030;
-void (*Knight::ptr::Render)(Knight * self) = (void (*)(Knight * self)) 0x6565b0;
-void (*Knight::ptr::_mark)() = (void (*)()) 0x0;
+inline Knight * (*Knight::ptr::New)(Knight * self, int xVal, int yVal, int l) = (Knight * (*)(Knight * self, int xVal, int yVal, int l)) 0x655bf0;
+inline Knight * (*Knight::ptr::_new2)() = (Knight * (*)()) 0x0;
+inline Point * (*Knight::ptr::GetMovementDirection)(Knight * self) = (Point * (*)(Knight * self)) 0x656030;
+inline void (*Knight::ptr::Render)(Knight * self) = (void (*)(Knight * self)) 0x6565b0;
+inline void (*Knight::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Knight * (*Knight::ptr::New)(Knight * self, int xVal, int yVal, int l) = (Knight * (*)(Knight * self, int xVal, int yVal, int l)) 0x81c8830;
-Knight * (*Knight::ptr::_new2)() = (Knight * (*)()) 0x81c8bc0;
-Point * (*Knight::ptr::GetMovementDirection)(Knight * self) = (Point * (*)(Knight * self)) 0x81b17f0;
-void (*Knight::ptr::Render)(Knight * self) = (void (*)(Knight * self)) 0x830b1a0;
-void (*Knight::ptr::_mark)() = (void (*)()) 0x80b1060;
+inline Knight * (*Knight::ptr::New)(Knight * self, int xVal, int yVal, int l) = (Knight * (*)(Knight * self, int xVal, int yVal, int l)) 0x81c8830;
+inline Knight * (*Knight::ptr::_new2)() = (Knight * (*)()) 0x81c8bc0;
+inline Point * (*Knight::ptr::GetMovementDirection)(Knight * self) = (Point * (*)(Knight * self)) 0x81b17f0;
+inline void (*Knight::ptr::Render)(Knight * self) = (void (*)(Knight * self)) 0x830b1a0;
+inline void (*Knight::ptr::_mark)() = (void (*)()) 0x80b1060;
 #endif
 #endif

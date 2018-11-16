@@ -51,31 +51,31 @@ public:
 
 #ifdef _WIN32
 
-Ghoul * (*Ghoul::ptr::New)(Ghoul * self, int xVal, int yVal, int l) = (Ghoul * (*)(Ghoul * self, int xVal, int yVal, int l)) 0x6855d0;
-Ghoul * (*Ghoul::ptr::_new2)() = (Ghoul * (*)()) 0x0;
-void (*Ghoul::ptr::_Render)() = (void (*)()) 0x0;
-void (*Ghoul::ptr::Update)(Ghoul * self) = (void (*)(Ghoul * self)) 0x685840;
-bool (*Ghoul::ptr::Hit)(Ghoul * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Ghoul * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x685c60;
-bool (*Ghoul::ptr::_CanBeDamaged)(Ghoul * self, bool arg1, bool arg2) = (bool (*)(Ghoul * self, bool arg1, bool arg2)) 0x0;
-void (*Ghoul::ptr::BecomeCorporeal2)(Ghoul * self) = (void (*)(Ghoul * self)) 0x685da0;
-void (*Ghoul::ptr::CheckCorporeality)(Ghoul * self) = (void (*)(Ghoul * self)) 0x686240;
-Point * (*Ghoul::ptr::GetMovementDirection)(Ghoul * self) = (Point * (*)(Ghoul * self)) 0x6865d0;
-void (*Ghoul::ptr::_mark)() = (void (*)()) 0x0;
-void (*Ghoul::ptr::CSTR_Ghoul)(Ghoul * self) = (void (*)(Ghoul * self)) 0x685550;
+inline Ghoul * (*Ghoul::ptr::New)(Ghoul * self, int xVal, int yVal, int l) = (Ghoul * (*)(Ghoul * self, int xVal, int yVal, int l)) 0x6855d0;
+inline Ghoul * (*Ghoul::ptr::_new2)() = (Ghoul * (*)()) 0x0;
+inline void (*Ghoul::ptr::_Render)() = (void (*)()) 0x0;
+inline void (*Ghoul::ptr::Update)(Ghoul * self) = (void (*)(Ghoul * self)) 0x685840;
+inline bool (*Ghoul::ptr::Hit)(Ghoul * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Ghoul * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x685c60;
+inline bool (*Ghoul::ptr::_CanBeDamaged)(Ghoul * self, bool arg1, bool arg2) = (bool (*)(Ghoul * self, bool arg1, bool arg2)) 0x0;
+inline void (*Ghoul::ptr::BecomeCorporeal2)(Ghoul * self) = (void (*)(Ghoul * self)) 0x685da0;
+inline void (*Ghoul::ptr::CheckCorporeality)(Ghoul * self) = (void (*)(Ghoul * self)) 0x686240;
+inline Point * (*Ghoul::ptr::GetMovementDirection)(Ghoul * self) = (Point * (*)(Ghoul * self)) 0x6865d0;
+inline void (*Ghoul::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Ghoul::ptr::CSTR_Ghoul)(Ghoul * self) = (void (*)(Ghoul * self)) 0x685550;
 #endif
 
 #ifdef __linux__
 
-Ghoul * (*Ghoul::ptr::New)(Ghoul * self, int xVal, int yVal, int l) = (Ghoul * (*)(Ghoul * self, int xVal, int yVal, int l)) 0x81e0980;
-Ghoul * (*Ghoul::ptr::_new2)() = (Ghoul * (*)()) 0x81e0b60;
-void (*Ghoul::ptr::_Render)() = (void (*)()) 0x830af70;
-void (*Ghoul::ptr::Update)(Ghoul * self) = (void (*)(Ghoul * self)) 0x837d860;
-bool (*Ghoul::ptr::Hit)(Ghoul * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Ghoul * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8395d90;
-bool (*Ghoul::ptr::_CanBeDamaged)(Ghoul * self, bool arg1, bool arg2) = (bool (*)(Ghoul * self, bool arg1, bool arg2)) 0x8078a80;
-void (*Ghoul::ptr::BecomeCorporeal2)(Ghoul * self) = (void (*)(Ghoul * self)) 0x8264170;
-void (*Ghoul::ptr::CheckCorporeality)(Ghoul * self) = (void (*)(Ghoul * self)) 0x82602e0;
-Point * (*Ghoul::ptr::GetMovementDirection)(Ghoul * self) = (Point * (*)(Ghoul * self)) 0x80b3b30;
-void (*Ghoul::ptr::_mark)() = (void (*)()) 0x80afe50;
-void (*Ghoul::ptr::CSTR_Ghoul)(Ghoul * self) = (void (*)(Ghoul * self)) 0x81e0920;
+inline Ghoul * (*Ghoul::ptr::New)(Ghoul * self, int xVal, int yVal, int l) = (Ghoul * (*)(Ghoul * self, int xVal, int yVal, int l)) 0x81e0980;
+inline Ghoul * (*Ghoul::ptr::_new2)() = (Ghoul * (*)()) 0x81e0b60;
+inline void (*Ghoul::ptr::_Render)() = (void (*)()) 0x830af70;
+inline void (*Ghoul::ptr::Update)(Ghoul * self) = (void (*)(Ghoul * self)) 0x837d860;
+inline bool (*Ghoul::ptr::Hit)(Ghoul * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Ghoul * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8395d90;
+inline bool (*Ghoul::ptr::_CanBeDamaged)(Ghoul * self, bool arg1, bool arg2) = (bool (*)(Ghoul * self, bool arg1, bool arg2)) 0x8078a80;
+inline void (*Ghoul::ptr::BecomeCorporeal2)(Ghoul * self) = (void (*)(Ghoul * self)) 0x8264170;
+inline void (*Ghoul::ptr::CheckCorporeality)(Ghoul * self) = (void (*)(Ghoul * self)) 0x82602e0;
+inline Point * (*Ghoul::ptr::GetMovementDirection)(Ghoul * self) = (Point * (*)(Ghoul * self)) 0x80b3b30;
+inline void (*Ghoul::ptr::_mark)() = (void (*)()) 0x80afe50;
+inline void (*Ghoul::ptr::CSTR_Ghoul)(Ghoul * self) = (void (*)(Ghoul * self)) 0x81e0920;
 #endif
 #endif

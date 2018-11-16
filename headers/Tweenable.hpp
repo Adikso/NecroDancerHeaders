@@ -53,32 +53,32 @@ public:
 };
 
 #ifdef _WIN32
-Point2 * * Tweenable::tweenPoint = (Point2* *) 0x835b78;
+inline Point2 * * Tweenable::tweenPoint = (Point2* *) 0x835b78;
 
-Tweenable * (*Tweenable::ptr::_New)() = (Tweenable * (*)()) 0x0;
-float (*Tweenable::ptr::ProcessAlphaTween)(Tweenable * self) = (float (*)(Tweenable * self)) 0x44b8a0;
-void (*Tweenable::ptr::SetCutoffY)(Tweenable * self, int cY) = (void (*)(Tweenable * self, int cY)) 0x4040c0;
-void (*Tweenable::ptr::CancelTween)(Tweenable * self) = (void (*)(Tweenable * self)) 0x44b940;
-void (*Tweenable::ptr::Tween)(Tweenable * self, float xVal, float yVal, int type, bool buffer) = (void (*)(Tweenable * self, float xVal, float yVal, int type, bool buffer)) 0x44b970;
-Point2 * (*Tweenable::ptr::ProcessTween)(Tweenable * self) = (Point2 * (*)(Tweenable * self)) 0x44ba40;
-void (*Tweenable::ptr::SetAlphaTween)(Tweenable * self, float initialVal, float finalVal, int duration) = (void (*)(Tweenable * self, float initialVal, float finalVal, int duration)) 0x44c380;
-int (*Tweenable::ptr::GetTweenDurationRemaining)(Tweenable * self) = (int (*)(Tweenable * self)) 0x44c360;
-void (*Tweenable::ptr::_mark)() = (void (*)()) 0x0;
-void (*Tweenable::ptr::CSTR_Tweenable)(Tweenable * self) = (void (*)(Tweenable * self)) 0x44b7e0;
+inline Tweenable * (*Tweenable::ptr::_New)() = (Tweenable * (*)()) 0x0;
+inline float (*Tweenable::ptr::ProcessAlphaTween)(Tweenable * self) = (float (*)(Tweenable * self)) 0x44b8a0;
+inline void (*Tweenable::ptr::SetCutoffY)(Tweenable * self, int cY) = (void (*)(Tweenable * self, int cY)) 0x4040c0;
+inline void (*Tweenable::ptr::CancelTween)(Tweenable * self) = (void (*)(Tweenable * self)) 0x44b940;
+inline void (*Tweenable::ptr::Tween)(Tweenable * self, float xVal, float yVal, int type, bool buffer) = (void (*)(Tweenable * self, float xVal, float yVal, int type, bool buffer)) 0x44b970;
+inline Point2 * (*Tweenable::ptr::ProcessTween)(Tweenable * self) = (Point2 * (*)(Tweenable * self)) 0x44ba40;
+inline void (*Tweenable::ptr::SetAlphaTween)(Tweenable * self, float initialVal, float finalVal, int duration) = (void (*)(Tweenable * self, float initialVal, float finalVal, int duration)) 0x44c380;
+inline int (*Tweenable::ptr::GetTweenDurationRemaining)(Tweenable * self) = (int (*)(Tweenable * self)) 0x44c360;
+inline void (*Tweenable::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Tweenable::ptr::CSTR_Tweenable)(Tweenable * self) = (void (*)(Tweenable * self)) 0x44b7e0;
 #endif
 
 #ifdef __linux__
-Point2 * * Tweenable::tweenPoint = (Point2* *) 0x856ab10;
+inline Point2 * * Tweenable::tweenPoint = (Point2* *) 0x856ab10;
 
-Tweenable * (*Tweenable::ptr::_New)() = (Tweenable * (*)()) 0x811b1b0;
-float (*Tweenable::ptr::ProcessAlphaTween)(Tweenable * self) = (float (*)(Tweenable * self)) 0x807dec0;
-void (*Tweenable::ptr::SetCutoffY)(Tweenable * self, int cY) = (void (*)(Tweenable * self, int cY)) 0x806da30;
-void (*Tweenable::ptr::CancelTween)(Tweenable * self) = (void (*)(Tweenable * self)) 0x806da40;
-void (*Tweenable::ptr::Tween)(Tweenable * self, float xVal, float yVal, int type, bool buffer) = (void (*)(Tweenable * self, float xVal, float yVal, int type, bool buffer)) 0x807df50;
-Point2 * (*Tweenable::ptr::ProcessTween)(Tweenable * self) = (Point2 * (*)(Tweenable * self)) 0x807fa80;
-void (*Tweenable::ptr::SetAlphaTween)(Tweenable * self, float initialVal, float finalVal, int duration) = (void (*)(Tweenable * self, float initialVal, float finalVal, int duration)) 0x806da60;
-int (*Tweenable::ptr::GetTweenDurationRemaining)(Tweenable * self) = (int (*)(Tweenable * self)) 0x807e030;
-void (*Tweenable::ptr::_mark)() = (void (*)()) 0x806da90;
-void (*Tweenable::ptr::CSTR_Tweenable)(Tweenable * self) = (void (*)(Tweenable * self)) 0x811b160;
+inline Tweenable * (*Tweenable::ptr::_New)() = (Tweenable * (*)()) 0x811b1b0;
+inline float (*Tweenable::ptr::ProcessAlphaTween)(Tweenable * self) = (float (*)(Tweenable * self)) 0x807dec0;
+inline void (*Tweenable::ptr::SetCutoffY)(Tweenable * self, int cY) = (void (*)(Tweenable * self, int cY)) 0x806da30;
+inline void (*Tweenable::ptr::CancelTween)(Tweenable * self) = (void (*)(Tweenable * self)) 0x806da40;
+inline void (*Tweenable::ptr::Tween)(Tweenable * self, float xVal, float yVal, int type, bool buffer) = (void (*)(Tweenable * self, float xVal, float yVal, int type, bool buffer)) 0x807df50;
+inline Point2 * (*Tweenable::ptr::ProcessTween)(Tweenable * self) = (Point2 * (*)(Tweenable * self)) 0x807fa80;
+inline void (*Tweenable::ptr::SetAlphaTween)(Tweenable * self, float initialVal, float finalVal, int duration) = (void (*)(Tweenable * self, float initialVal, float finalVal, int duration)) 0x806da60;
+inline int (*Tweenable::ptr::GetTweenDurationRemaining)(Tweenable * self) = (int (*)(Tweenable * self)) 0x807e030;
+inline void (*Tweenable::ptr::_mark)() = (void (*)()) 0x806da90;
+inline void (*Tweenable::ptr::CSTR_Tweenable)(Tweenable * self) = (void (*)(Tweenable * self)) 0x811b160;
 #endif
 #endif

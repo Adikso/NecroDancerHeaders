@@ -42,33 +42,33 @@ public:
 
 #ifdef _WIN32
 
-Map17 * (*Map17::ptr::_New)() = (Map17 * (*)()) 0x0;
-int (*Map17::ptr::_Clear)() = (int (*)()) 0x0;
-int (*Map17::ptr::_Compare2)(Map17 * self, int arg1, int arg2) = (int (*)(Map17 * self, int arg1, int arg2)) 0x0;
-int (*Map17::ptr::_RotateLeft17)(Map17 * self, Node55 * arg1) = (int (*)(Map17 * self, Node55 * arg1)) 0x0;
-int (*Map17::ptr::_RotateRight17)(Map17 * self, Node55 * arg1) = (int (*)(Map17 * self, Node55 * arg1)) 0x0;
-int (*Map17::ptr::_InsertFixup17)(Map17 * self, Node55 * node) = (int (*)(Map17 * self, Node55 * node)) 0x5e1300;
-bool (*Map17::ptr::Set18)(Map17 * self, int key, BeatAnimationData * value) = (bool (*)(Map17 * self, int key, BeatAnimationData * value)) 0x616140;
-bool (*Map17::ptr::IsEmpty)(Map17 * self) = (bool (*)(Map17 * self)) 0x616250;
-Node55 * (*Map17::ptr::_FindNode2)(Map17 * self, int arg1) = (Node55 * (*)(Map17 * self, int arg1)) 0x0;
-bool (*Map17::ptr::Contains2)(Map17 * self, int key) = (bool (*)(Map17 * self, int key)) 0x616260;
-BeatAnimationData * (*Map17::ptr::_Get2)(Map17 * self, int arg1) = (BeatAnimationData * (*)(Map17 * self, int arg1)) 0x0;
-void (*Map17::ptr::_mark)() = (void (*)()) 0x0;
+inline Map17 * (*Map17::ptr::_New)() = (Map17 * (*)()) 0x0;
+inline int (*Map17::ptr::_Clear)() = (int (*)()) 0x0;
+inline int (*Map17::ptr::_Compare2)(Map17 * self, int arg1, int arg2) = (int (*)(Map17 * self, int arg1, int arg2)) 0x0;
+inline int (*Map17::ptr::_RotateLeft17)(Map17 * self, Node55 * arg1) = (int (*)(Map17 * self, Node55 * arg1)) 0x0;
+inline int (*Map17::ptr::_RotateRight17)(Map17 * self, Node55 * arg1) = (int (*)(Map17 * self, Node55 * arg1)) 0x0;
+inline int (*Map17::ptr::_InsertFixup17)(Map17 * self, Node55 * node) = (int (*)(Map17 * self, Node55 * node)) 0x5e1300;
+inline bool (*Map17::ptr::Set18)(Map17 * self, int key, BeatAnimationData * value) = (bool (*)(Map17 * self, int key, BeatAnimationData * value)) 0x616140;
+inline bool (*Map17::ptr::IsEmpty)(Map17 * self) = (bool (*)(Map17 * self)) 0x616250;
+inline Node55 * (*Map17::ptr::_FindNode2)(Map17 * self, int arg1) = (Node55 * (*)(Map17 * self, int arg1)) 0x0;
+inline bool (*Map17::ptr::Contains2)(Map17 * self, int key) = (bool (*)(Map17 * self, int key)) 0x616260;
+inline BeatAnimationData * (*Map17::ptr::_Get2)(Map17 * self, int arg1) = (BeatAnimationData * (*)(Map17 * self, int arg1)) 0x0;
+inline void (*Map17::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Map17 * (*Map17::ptr::_New)() = (Map17 * (*)()) 0x81b5a30;
-int (*Map17::ptr::_Clear)() = (int (*)()) 0x8074c70;
-int (*Map17::ptr::_Compare2)(Map17 * self, int arg1, int arg2) = (int (*)(Map17 * self, int arg1, int arg2)) 0x0;
-int (*Map17::ptr::_RotateLeft17)(Map17 * self, Node55 * arg1) = (int (*)(Map17 * self, Node55 * arg1)) 0x0;
-int (*Map17::ptr::_RotateRight17)(Map17 * self, Node55 * arg1) = (int (*)(Map17 * self, Node55 * arg1)) 0x0;
-int (*Map17::ptr::_InsertFixup17)(Map17 * self, Node55 * node) = (int (*)(Map17 * self, Node55 * node)) 0x0;
-bool (*Map17::ptr::Set18)(Map17 * self, int key, BeatAnimationData * value) = (bool (*)(Map17 * self, int key, BeatAnimationData * value)) 0x80b9eb0;
-bool (*Map17::ptr::IsEmpty)(Map17 * self) = (bool (*)(Map17 * self)) 0x8074d80;
-Node55 * (*Map17::ptr::_FindNode2)(Map17 * self, int arg1) = (Node55 * (*)(Map17 * self, int arg1)) 0x8074d90;
-bool (*Map17::ptr::Contains2)(Map17 * self, int key) = (bool (*)(Map17 * self, int key)) 0x8074de0;
-BeatAnimationData * (*Map17::ptr::_Get2)(Map17 * self, int arg1) = (BeatAnimationData * (*)(Map17 * self, int arg1)) 0x8074e00;
-void (*Map17::ptr::_mark)() = (void (*)()) 0x808ceb0;
+inline Map17 * (*Map17::ptr::_New)() = (Map17 * (*)()) 0x81b5a30;
+inline int (*Map17::ptr::_Clear)() = (int (*)()) 0x8074c70;
+inline int (*Map17::ptr::_Compare2)(Map17 * self, int arg1, int arg2) = (int (*)(Map17 * self, int arg1, int arg2)) 0x0;
+inline int (*Map17::ptr::_RotateLeft17)(Map17 * self, Node55 * arg1) = (int (*)(Map17 * self, Node55 * arg1)) 0x0;
+inline int (*Map17::ptr::_RotateRight17)(Map17 * self, Node55 * arg1) = (int (*)(Map17 * self, Node55 * arg1)) 0x0;
+inline int (*Map17::ptr::_InsertFixup17)(Map17 * self, Node55 * node) = (int (*)(Map17 * self, Node55 * node)) 0x0;
+inline bool (*Map17::ptr::Set18)(Map17 * self, int key, BeatAnimationData * value) = (bool (*)(Map17 * self, int key, BeatAnimationData * value)) 0x80b9eb0;
+inline bool (*Map17::ptr::IsEmpty)(Map17 * self) = (bool (*)(Map17 * self)) 0x8074d80;
+inline Node55 * (*Map17::ptr::_FindNode2)(Map17 * self, int arg1) = (Node55 * (*)(Map17 * self, int arg1)) 0x8074d90;
+inline bool (*Map17::ptr::Contains2)(Map17 * self, int key) = (bool (*)(Map17 * self, int key)) 0x8074de0;
+inline BeatAnimationData * (*Map17::ptr::_Get2)(Map17 * self, int arg1) = (BeatAnimationData * (*)(Map17 * self, int arg1)) 0x8074e00;
+inline void (*Map17::ptr::_mark)() = (void (*)()) 0x808ceb0;
 #endif
 #endif

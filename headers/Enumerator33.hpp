@@ -30,19 +30,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator33 * (*Enumerator33::ptr::_New)(Enumerator33 * self, List15 * arg1) = (Enumerator33 * (*)(Enumerator33 * self, List15 * arg1)) 0x0;
-Enumerator33 * (*Enumerator33::ptr::_new2)() = (Enumerator33 * (*)()) 0x0;
-bool (*Enumerator33::ptr::_HasNext)() = (bool (*)()) 0x0;
-TrapObject * (*Enumerator33::ptr::NextObject)(Enumerator33 * self) = (TrapObject * (*)(Enumerator33 * self)) 0x65d2f0;
-void (*Enumerator33::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator33 * (*Enumerator33::ptr::_New)(Enumerator33 * self, List15 * arg1) = (Enumerator33 * (*)(Enumerator33 * self, List15 * arg1)) 0x0;
+inline Enumerator33 * (*Enumerator33::ptr::_new2)() = (Enumerator33 * (*)()) 0x0;
+inline bool (*Enumerator33::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline TrapObject * (*Enumerator33::ptr::NextObject)(Enumerator33 * self) = (TrapObject * (*)(Enumerator33 * self)) 0x65d2f0;
+inline void (*Enumerator33::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator33 * (*Enumerator33::ptr::_New)(Enumerator33 * self, List15 * arg1) = (Enumerator33 * (*)(Enumerator33 * self, List15 * arg1)) 0x0;
-Enumerator33 * (*Enumerator33::ptr::_new2)() = (Enumerator33 * (*)()) 0x81d3f50;
-bool (*Enumerator33::ptr::_HasNext)() = (bool (*)()) 0x808f350;
-TrapObject * (*Enumerator33::ptr::NextObject)(Enumerator33 * self) = (TrapObject * (*)(Enumerator33 * self)) 0x808f2e0;
-void (*Enumerator33::ptr::_mark)() = (void (*)()) 0x8089a30;
+inline Enumerator33 * (*Enumerator33::ptr::_New)(Enumerator33 * self, List15 * arg1) = (Enumerator33 * (*)(Enumerator33 * self, List15 * arg1)) 0x0;
+inline Enumerator33 * (*Enumerator33::ptr::_new2)() = (Enumerator33 * (*)()) 0x81d3f50;
+inline bool (*Enumerator33::ptr::_HasNext)() = (bool (*)()) 0x808f350;
+inline TrapObject * (*Enumerator33::ptr::NextObject)(Enumerator33 * self) = (TrapObject * (*)(Enumerator33 * self)) 0x808f2e0;
+inline void (*Enumerator33::ptr::_mark)() = (void (*)()) 0x8089a30;
 #endif
 #endif

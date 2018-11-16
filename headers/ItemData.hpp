@@ -34,17 +34,17 @@ public:
 
 #ifdef _WIN32
 
-ItemData * (*ItemData::ptr::New)(ItemData * self, XMLNode * itemXML) = (ItemData * (*)(ItemData * self, XMLNode * itemXML)) 0x606a20;
-ItemData * (*ItemData::ptr::_new2)() = (ItemData * (*)()) 0x0;
-void (*ItemData::ptr::_mark)() = (void (*)()) 0x0;
-void (*ItemData::ptr::CSTR_ItemData)(ItemData * self) = (void (*)(ItemData * self)) 0x606990;
+inline ItemData * (*ItemData::ptr::New)(ItemData * self, XMLNode * itemXML) = (ItemData * (*)(ItemData * self, XMLNode * itemXML)) 0x606a20;
+inline ItemData * (*ItemData::ptr::_new2)() = (ItemData * (*)()) 0x0;
+inline void (*ItemData::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*ItemData::ptr::CSTR_ItemData)(ItemData * self) = (void (*)(ItemData * self)) 0x606990;
 #endif
 
 #ifdef __linux__
 
-ItemData * (*ItemData::ptr::New)(ItemData * self, XMLNode * itemXML) = (ItemData * (*)(ItemData * self, XMLNode * itemXML)) 0x81aa400;
-ItemData * (*ItemData::ptr::_new2)() = (ItemData * (*)()) 0x81adc10;
-void (*ItemData::ptr::_mark)() = (void (*)()) 0x80742a0;
-void (*ItemData::ptr::CSTR_ItemData)(ItemData * self) = (void (*)(ItemData * self)) 0x81aa3c0;
+inline ItemData * (*ItemData::ptr::New)(ItemData * self, XMLNode * itemXML) = (ItemData * (*)(ItemData * self, XMLNode * itemXML)) 0x81aa400;
+inline ItemData * (*ItemData::ptr::_new2)() = (ItemData * (*)()) 0x81adc10;
+inline void (*ItemData::ptr::_mark)() = (void (*)()) 0x80742a0;
+inline void (*ItemData::ptr::CSTR_ItemData)(ItemData * self) = (void (*)(ItemData * self)) 0x81aa3c0;
 #endif
 #endif

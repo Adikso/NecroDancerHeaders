@@ -33,21 +33,21 @@ public:
 
 #ifdef _WIN32
 
-Skull * (*Skull::ptr::New)(Skull * self, int xVal, int yVal, int l) = (Skull * (*)(Skull * self, int xVal, int yVal, int l)) 0x6528f0;
-Skull * (*Skull::ptr::_new2)() = (Skull * (*)()) 0x0;
-bool (*Skull::ptr::Hit)(Skull * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Skull * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x652b80;
-bool (*Skull::ptr::_CanBeLord)() = (bool (*)()) 0x0;
-void (*Skull::ptr::_mark)() = (void (*)()) 0x0;
-void (*Skull::ptr::CSTR_Skull)(Skull * self) = (void (*)(Skull * self)) 0x652890;
+inline Skull * (*Skull::ptr::New)(Skull * self, int xVal, int yVal, int l) = (Skull * (*)(Skull * self, int xVal, int yVal, int l)) 0x6528f0;
+inline Skull * (*Skull::ptr::_new2)() = (Skull * (*)()) 0x0;
+inline bool (*Skull::ptr::Hit)(Skull * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Skull * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x652b80;
+inline bool (*Skull::ptr::_CanBeLord)() = (bool (*)()) 0x0;
+inline void (*Skull::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Skull::ptr::CSTR_Skull)(Skull * self) = (void (*)(Skull * self)) 0x652890;
 #endif
 
 #ifdef __linux__
 
-Skull * (*Skull::ptr::New)(Skull * self, int xVal, int yVal, int l) = (Skull * (*)(Skull * self, int xVal, int yVal, int l)) 0x81c7ef0;
-Skull * (*Skull::ptr::_new2)() = (Skull * (*)()) 0x81c8090;
-bool (*Skull::ptr::Hit)(Skull * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Skull * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8397340;
-bool (*Skull::ptr::_CanBeLord)() = (bool (*)()) 0x8076530;
-void (*Skull::ptr::_mark)() = (void (*)()) 0x80b0370;
-void (*Skull::ptr::CSTR_Skull)(Skull * self) = (void (*)(Skull * self)) 0x81c7ed0;
+inline Skull * (*Skull::ptr::New)(Skull * self, int xVal, int yVal, int l) = (Skull * (*)(Skull * self, int xVal, int yVal, int l)) 0x81c7ef0;
+inline Skull * (*Skull::ptr::_new2)() = (Skull * (*)()) 0x81c8090;
+inline bool (*Skull::ptr::Hit)(Skull * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Skull * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8397340;
+inline bool (*Skull::ptr::_CanBeLord)() = (bool (*)()) 0x8076530;
+inline void (*Skull::ptr::_mark)() = (void (*)()) 0x80b0370;
+inline void (*Skull::ptr::CSTR_Skull)(Skull * self) = (void (*)(Skull * self)) 0x81c7ed0;
 #endif
 #endif

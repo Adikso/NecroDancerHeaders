@@ -53,27 +53,27 @@ public:
 
 #ifdef _WIN32
 
-ControllerModSelect * (*ControllerModSelect::ptr::New)(ControllerModSelect * self, ControllerGame * game) = (ControllerModSelect * (*)(ControllerModSelect * self, ControllerGame * game)) 0x69dab0;
-ControllerModSelect * (*ControllerModSelect::ptr::_new2)() = (ControllerModSelect * (*)()) 0x0;
-void (*ControllerModSelect::ptr::_Update)() = (void (*)()) 0x0;
-void (*ControllerModSelect::ptr::Render)(ControllerModSelect * self) = (void (*)(ControllerModSelect * self)) 0x69ddd0;
-void (*ControllerModSelect::ptr::_RegainFocus)() = (void (*)()) 0x0;
-void (*ControllerModSelect::ptr::GUICallback)(ControllerModSelect * self, int index, bool left) = (void (*)(ControllerModSelect * self, int index, bool left)) 0x69e160;
-void (*ControllerModSelect::ptr::Destructor)(ControllerModSelect * self) = (void (*)(ControllerModSelect * self)) 0x69e380;
-void (*ControllerModSelect::ptr::_mark)() = (void (*)()) 0x0;
-void (*ControllerModSelect::ptr::CSTR_ControllerModSelect)(ControllerModSelect * self) = (void (*)(ControllerModSelect * self)) 0x69d700;
+inline ControllerModSelect * (*ControllerModSelect::ptr::New)(ControllerModSelect * self, ControllerGame * game) = (ControllerModSelect * (*)(ControllerModSelect * self, ControllerGame * game)) 0x69dab0;
+inline ControllerModSelect * (*ControllerModSelect::ptr::_new2)() = (ControllerModSelect * (*)()) 0x0;
+inline void (*ControllerModSelect::ptr::_Update)() = (void (*)()) 0x0;
+inline void (*ControllerModSelect::ptr::Render)(ControllerModSelect * self) = (void (*)(ControllerModSelect * self)) 0x69ddd0;
+inline void (*ControllerModSelect::ptr::_RegainFocus)() = (void (*)()) 0x0;
+inline void (*ControllerModSelect::ptr::GUICallback)(ControllerModSelect * self, int index, bool left) = (void (*)(ControllerModSelect * self, int index, bool left)) 0x69e160;
+inline void (*ControllerModSelect::ptr::Destructor)(ControllerModSelect * self) = (void (*)(ControllerModSelect * self)) 0x69e380;
+inline void (*ControllerModSelect::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*ControllerModSelect::ptr::CSTR_ControllerModSelect)(ControllerModSelect * self) = (void (*)(ControllerModSelect * self)) 0x69d700;
 #endif
 
 #ifdef __linux__
 
-ControllerModSelect * (*ControllerModSelect::ptr::New)(ControllerModSelect * self, ControllerGame * game) = (ControllerModSelect * (*)(ControllerModSelect * self, ControllerGame * game)) 0x81ecc40;
-ControllerModSelect * (*ControllerModSelect::ptr::_new2)() = (ControllerModSelect * (*)()) 0x81ecfc0;
-void (*ControllerModSelect::ptr::_Update)() = (void (*)()) 0x8079c70;
-void (*ControllerModSelect::ptr::Render)(ControllerModSelect * self) = (void (*)(ControllerModSelect * self)) 0x80ccc30;
-void (*ControllerModSelect::ptr::_RegainFocus)() = (void (*)()) 0x8079c90;
-void (*ControllerModSelect::ptr::GUICallback)(ControllerModSelect * self, int index, bool left) = (void (*)(ControllerModSelect * self, int index, bool left)) 0x83dbf60;
-void (*ControllerModSelect::ptr::Destructor)(ControllerModSelect * self) = (void (*)(ControllerModSelect * self)) 0x8079ca0;
-void (*ControllerModSelect::ptr::_mark)() = (void (*)()) 0x80a8560;
-void (*ControllerModSelect::ptr::CSTR_ControllerModSelect)(ControllerModSelect * self) = (void (*)(ControllerModSelect * self)) 0x81ec6d0;
+inline ControllerModSelect * (*ControllerModSelect::ptr::New)(ControllerModSelect * self, ControllerGame * game) = (ControllerModSelect * (*)(ControllerModSelect * self, ControllerGame * game)) 0x81ecc40;
+inline ControllerModSelect * (*ControllerModSelect::ptr::_new2)() = (ControllerModSelect * (*)()) 0x81ecfc0;
+inline void (*ControllerModSelect::ptr::_Update)() = (void (*)()) 0x8079c70;
+inline void (*ControllerModSelect::ptr::Render)(ControllerModSelect * self) = (void (*)(ControllerModSelect * self)) 0x80ccc30;
+inline void (*ControllerModSelect::ptr::_RegainFocus)() = (void (*)()) 0x8079c90;
+inline void (*ControllerModSelect::ptr::GUICallback)(ControllerModSelect * self, int index, bool left) = (void (*)(ControllerModSelect * self, int index, bool left)) 0x83dbf60;
+inline void (*ControllerModSelect::ptr::Destructor)(ControllerModSelect * self) = (void (*)(ControllerModSelect * self)) 0x8079ca0;
+inline void (*ControllerModSelect::ptr::_mark)() = (void (*)()) 0x80a8560;
+inline void (*ControllerModSelect::ptr::CSTR_ControllerModSelect)(ControllerModSelect * self) = (void (*)(ControllerModSelect * self)) 0x81ec6d0;
 #endif
 #endif

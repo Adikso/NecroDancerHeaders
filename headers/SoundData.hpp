@@ -37,17 +37,17 @@ public:
 
 #ifdef _WIN32
 
-SoundData * (*SoundData::ptr::_New)(SoundData * self, int arg1, bool arg2, int arg3, int arg4, int arg5, int arg6, bool arg7, float arg8, float arg9, float arg10, int arg11) = (SoundData * (*)(SoundData * self, int arg1, bool arg2, int arg3, int arg4, int arg5, int arg6, bool arg7, float arg8, float arg9, float arg10, int arg11)) 0x0;
-SoundData * (*SoundData::ptr::_new2)() = (SoundData * (*)()) 0x0;
-void (*SoundData::ptr::_mark)() = (void (*)()) 0x0;
-void (*SoundData::ptr::CSTR_SoundData)(SoundData * self) = (void (*)(SoundData * self)) 0x5f7f10;
+inline SoundData * (*SoundData::ptr::_New)(SoundData * self, int arg1, bool arg2, int arg3, int arg4, int arg5, int arg6, bool arg7, float arg8, float arg9, float arg10, int arg11) = (SoundData * (*)(SoundData * self, int arg1, bool arg2, int arg3, int arg4, int arg5, int arg6, bool arg7, float arg8, float arg9, float arg10, int arg11)) 0x0;
+inline SoundData * (*SoundData::ptr::_new2)() = (SoundData * (*)()) 0x0;
+inline void (*SoundData::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*SoundData::ptr::CSTR_SoundData)(SoundData * self) = (void (*)(SoundData * self)) 0x5f7f10;
 #endif
 
 #ifdef __linux__
 
-SoundData * (*SoundData::ptr::_New)(SoundData * self, int arg1, bool arg2, int arg3, int arg4, int arg5, int arg6, bool arg7, float arg8, float arg9, float arg10, int arg11) = (SoundData * (*)(SoundData * self, int arg1, bool arg2, int arg3, int arg4, int arg5, int arg6, bool arg7, float arg8, float arg9, float arg10, int arg11)) 0x81a01b0;
-SoundData * (*SoundData::ptr::_new2)() = (SoundData * (*)()) 0x81a0210;
-void (*SoundData::ptr::_mark)() = (void (*)()) 0x8073740;
-void (*SoundData::ptr::CSTR_SoundData)(SoundData * self) = (void (*)(SoundData * self)) 0x81a0160;
+inline SoundData * (*SoundData::ptr::_New)(SoundData * self, int arg1, bool arg2, int arg3, int arg4, int arg5, int arg6, bool arg7, float arg8, float arg9, float arg10, int arg11) = (SoundData * (*)(SoundData * self, int arg1, bool arg2, int arg3, int arg4, int arg5, int arg6, bool arg7, float arg8, float arg9, float arg10, int arg11)) 0x81a01b0;
+inline SoundData * (*SoundData::ptr::_new2)() = (SoundData * (*)()) 0x81a0210;
+inline void (*SoundData::ptr::_mark)() = (void (*)()) 0x8073740;
+inline void (*SoundData::ptr::CSTR_SoundData)(SoundData * self) = (void (*)(SoundData * self)) 0x81a0160;
 #endif
 #endif

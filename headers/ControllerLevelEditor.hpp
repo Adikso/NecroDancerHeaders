@@ -150,58 +150,58 @@ public:
 };
 
 #ifdef _WIN32
-ControllerLevelEditor * * ControllerLevelEditor::storedEditor = (ControllerLevelEditor* *) 0x835968;
-int * ControllerLevelEditor::playingLevel = (int*) 0x835be0;
-bool * ControllerLevelEditor::playingWholeDungeon = (bool*) 0x8358e7;
+inline ControllerLevelEditor * * ControllerLevelEditor::storedEditor = (ControllerLevelEditor* *) 0x835968;
+inline int * ControllerLevelEditor::playingLevel = (int*) 0x835be0;
+inline bool * ControllerLevelEditor::playingWholeDungeon = (bool*) 0x8358e7;
 
-void (*ControllerLevelEditor::ptr::ResetPlayers)(ControllerLevelEditor * self, int characterID) = (void (*)(ControllerLevelEditor * self, int characterID)) 0x56b230;
-String * (*ControllerLevelEditor::ptr::GetTilesetText)(ControllerLevelEditor * self) = (String * (*)(ControllerLevelEditor * self)) 0x56b3f0;
-void (*ControllerLevelEditor::ptr::UpdateMultiPageList)(ControllerLevelEditor * self, StringStack * names, int prevOption, int nextOption) = (void (*)(ControllerLevelEditor * self, StringStack * names, int prevOption, int nextOption)) 0x56b560;
-void (*ControllerLevelEditor::ptr::UpdateOptions)(ControllerLevelEditor * self, bool setIndex) = (void (*)(ControllerLevelEditor * self, bool setIndex)) 0x56b810;
-ControllerLevelEditor * (*ControllerLevelEditor::ptr::New)(ControllerLevelEditor * self) = (ControllerLevelEditor * (*)(ControllerLevelEditor * self)) 0x56cf20;
-void (*ControllerLevelEditor::ptr::DoDelete)(ControllerLevelEditor * self, int cursorX, int cursorY) = (void (*)(ControllerLevelEditor * self, int cursorX, int cursorY)) 0x56f300;
-void (*ControllerLevelEditor::ptr::ActuallyDoSave)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x56f3d0;
-void (*ControllerLevelEditor::ptr::DoSave)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x56fa90;
-void (*ControllerLevelEditor::ptr::DoLoad)(ControllerLevelEditor * self, String * filename, bool fromWorkshop) = (void (*)(ControllerLevelEditor * self, String * filename, bool fromWorkshop)) 0x56ff10;
-void (*ControllerLevelEditor::ptr::Update)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x5706e0;
-void (*ControllerLevelEditor::ptr::RenderPlacementGhost)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x572890;
-void (*ControllerLevelEditor::ptr::SetCharText)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x572960;
-void (*ControllerLevelEditor::ptr::SetMusicText)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x572c30;
-void (*ControllerLevelEditor::ptr::Render)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x572e30;
-void (*ControllerLevelEditor::ptr::SetRandomText)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x573750;
-void (*ControllerLevelEditor::ptr::ExecuteOption)(ControllerLevelEditor * self, int option) = (void (*)(ControllerLevelEditor * self, int option)) 0x573ca0;
-void (*ControllerLevelEditor::ptr::GUICallback)(ControllerLevelEditor * self, int index, bool left) = (void (*)(ControllerLevelEditor * self, int index, bool left)) 0x574430;
-void (*ControllerLevelEditor::ptr::RegainFocus)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x575490;
-void (*ControllerLevelEditor::ptr::Destructor)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x575560;
-void (*ControllerLevelEditor::ptr::mark)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x575680;
-void (*ControllerLevelEditor::ptr::CSTR_ControllerLevelEditor)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x569d10;
+inline void (*ControllerLevelEditor::ptr::ResetPlayers)(ControllerLevelEditor * self, int characterID) = (void (*)(ControllerLevelEditor * self, int characterID)) 0x56b230;
+inline String * (*ControllerLevelEditor::ptr::GetTilesetText)(ControllerLevelEditor * self) = (String * (*)(ControllerLevelEditor * self)) 0x56b3f0;
+inline void (*ControllerLevelEditor::ptr::UpdateMultiPageList)(ControllerLevelEditor * self, StringStack * names, int prevOption, int nextOption) = (void (*)(ControllerLevelEditor * self, StringStack * names, int prevOption, int nextOption)) 0x56b560;
+inline void (*ControllerLevelEditor::ptr::UpdateOptions)(ControllerLevelEditor * self, bool setIndex) = (void (*)(ControllerLevelEditor * self, bool setIndex)) 0x56b810;
+inline ControllerLevelEditor * (*ControllerLevelEditor::ptr::New)(ControllerLevelEditor * self) = (ControllerLevelEditor * (*)(ControllerLevelEditor * self)) 0x56cf20;
+inline void (*ControllerLevelEditor::ptr::DoDelete)(ControllerLevelEditor * self, int cursorX, int cursorY) = (void (*)(ControllerLevelEditor * self, int cursorX, int cursorY)) 0x56f300;
+inline void (*ControllerLevelEditor::ptr::ActuallyDoSave)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x56f3d0;
+inline void (*ControllerLevelEditor::ptr::DoSave)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x56fa90;
+inline void (*ControllerLevelEditor::ptr::DoLoad)(ControllerLevelEditor * self, String * filename, bool fromWorkshop) = (void (*)(ControllerLevelEditor * self, String * filename, bool fromWorkshop)) 0x56ff10;
+inline void (*ControllerLevelEditor::ptr::Update)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x5706e0;
+inline void (*ControllerLevelEditor::ptr::RenderPlacementGhost)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x572890;
+inline void (*ControllerLevelEditor::ptr::SetCharText)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x572960;
+inline void (*ControllerLevelEditor::ptr::SetMusicText)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x572c30;
+inline void (*ControllerLevelEditor::ptr::Render)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x572e30;
+inline void (*ControllerLevelEditor::ptr::SetRandomText)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x573750;
+inline void (*ControllerLevelEditor::ptr::ExecuteOption)(ControllerLevelEditor * self, int option) = (void (*)(ControllerLevelEditor * self, int option)) 0x573ca0;
+inline void (*ControllerLevelEditor::ptr::GUICallback)(ControllerLevelEditor * self, int index, bool left) = (void (*)(ControllerLevelEditor * self, int index, bool left)) 0x574430;
+inline void (*ControllerLevelEditor::ptr::RegainFocus)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x575490;
+inline void (*ControllerLevelEditor::ptr::Destructor)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x575560;
+inline void (*ControllerLevelEditor::ptr::mark)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x575680;
+inline void (*ControllerLevelEditor::ptr::CSTR_ControllerLevelEditor)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x569d10;
 #endif
 
 #ifdef __linux__
-ControllerLevelEditor * * ControllerLevelEditor::storedEditor = (ControllerLevelEditor* *) 0x856a6e8;
-int * ControllerLevelEditor::playingLevel = (int*) 0x856a6e4;
-bool * ControllerLevelEditor::playingWholeDungeon = (bool*) 0x856a6e1;
+inline ControllerLevelEditor * * ControllerLevelEditor::storedEditor = (ControllerLevelEditor* *) 0x856a6e8;
+inline int * ControllerLevelEditor::playingLevel = (int*) 0x856a6e4;
+inline bool * ControllerLevelEditor::playingWholeDungeon = (bool*) 0x856a6e1;
 
-void (*ControllerLevelEditor::ptr::ResetPlayers)(ControllerLevelEditor * self, int characterID) = (void (*)(ControllerLevelEditor * self, int characterID)) 0x82770f0;
-String * (*ControllerLevelEditor::ptr::GetTilesetText)(ControllerLevelEditor * self) = (String * (*)(ControllerLevelEditor * self)) 0x80c2290;
-void (*ControllerLevelEditor::ptr::UpdateMultiPageList)(ControllerLevelEditor * self, StringStack * names, int prevOption, int nextOption) = (void (*)(ControllerLevelEditor * self, StringStack * names, int prevOption, int nextOption)) 0x80d2170;
-void (*ControllerLevelEditor::ptr::UpdateOptions)(ControllerLevelEditor * self, bool setIndex) = (void (*)(ControllerLevelEditor * self, bool setIndex)) 0x80d0740;
-ControllerLevelEditor * (*ControllerLevelEditor::ptr::New)(ControllerLevelEditor * self) = (ControllerLevelEditor * (*)(ControllerLevelEditor * self)) 0x835d660;
-void (*ControllerLevelEditor::ptr::DoDelete)(ControllerLevelEditor * self, int cursorX, int cursorY) = (void (*)(ControllerLevelEditor * self, int cursorX, int cursorY)) 0x8190990;
-void (*ControllerLevelEditor::ptr::ActuallyDoSave)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x82d94f0;
-void (*ControllerLevelEditor::ptr::DoSave)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x814cc40;
-void (*ControllerLevelEditor::ptr::DoLoad)(ControllerLevelEditor * self, String * filename, bool fromWorkshop) = (void (*)(ControllerLevelEditor * self, String * filename, bool fromWorkshop)) 0x835ce60;
-void (*ControllerLevelEditor::ptr::Update)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x835fd50;
-void (*ControllerLevelEditor::ptr::RenderPlacementGhost)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x807e6b0;
-void (*ControllerLevelEditor::ptr::SetCharText)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x81407b0;
-void (*ControllerLevelEditor::ptr::SetMusicText)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x80c9760;
-void (*ControllerLevelEditor::ptr::Render)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x841e5e0;
-void (*ControllerLevelEditor::ptr::SetRandomText)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x80e0a70;
-void (*ControllerLevelEditor::ptr::ExecuteOption)(ControllerLevelEditor * self, int option) = (void (*)(ControllerLevelEditor * self, int option)) 0x80e3fc0;
-void (*ControllerLevelEditor::ptr::GUICallback)(ControllerLevelEditor * self, int index, bool left) = (void (*)(ControllerLevelEditor * self, int index, bool left)) 0x835b5d0;
-void (*ControllerLevelEditor::ptr::RegainFocus)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x835b480;
-void (*ControllerLevelEditor::ptr::Destructor)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x806f7a0;
-void (*ControllerLevelEditor::ptr::mark)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x80ae030;
-void (*ControllerLevelEditor::ptr::CSTR_ControllerLevelEditor)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x817f700;
+inline void (*ControllerLevelEditor::ptr::ResetPlayers)(ControllerLevelEditor * self, int characterID) = (void (*)(ControllerLevelEditor * self, int characterID)) 0x82770f0;
+inline String * (*ControllerLevelEditor::ptr::GetTilesetText)(ControllerLevelEditor * self) = (String * (*)(ControllerLevelEditor * self)) 0x80c2290;
+inline void (*ControllerLevelEditor::ptr::UpdateMultiPageList)(ControllerLevelEditor * self, StringStack * names, int prevOption, int nextOption) = (void (*)(ControllerLevelEditor * self, StringStack * names, int prevOption, int nextOption)) 0x80d2170;
+inline void (*ControllerLevelEditor::ptr::UpdateOptions)(ControllerLevelEditor * self, bool setIndex) = (void (*)(ControllerLevelEditor * self, bool setIndex)) 0x80d0740;
+inline ControllerLevelEditor * (*ControllerLevelEditor::ptr::New)(ControllerLevelEditor * self) = (ControllerLevelEditor * (*)(ControllerLevelEditor * self)) 0x835d660;
+inline void (*ControllerLevelEditor::ptr::DoDelete)(ControllerLevelEditor * self, int cursorX, int cursorY) = (void (*)(ControllerLevelEditor * self, int cursorX, int cursorY)) 0x8190990;
+inline void (*ControllerLevelEditor::ptr::ActuallyDoSave)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x82d94f0;
+inline void (*ControllerLevelEditor::ptr::DoSave)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x814cc40;
+inline void (*ControllerLevelEditor::ptr::DoLoad)(ControllerLevelEditor * self, String * filename, bool fromWorkshop) = (void (*)(ControllerLevelEditor * self, String * filename, bool fromWorkshop)) 0x835ce60;
+inline void (*ControllerLevelEditor::ptr::Update)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x835fd50;
+inline void (*ControllerLevelEditor::ptr::RenderPlacementGhost)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x807e6b0;
+inline void (*ControllerLevelEditor::ptr::SetCharText)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x81407b0;
+inline void (*ControllerLevelEditor::ptr::SetMusicText)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x80c9760;
+inline void (*ControllerLevelEditor::ptr::Render)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x841e5e0;
+inline void (*ControllerLevelEditor::ptr::SetRandomText)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x80e0a70;
+inline void (*ControllerLevelEditor::ptr::ExecuteOption)(ControllerLevelEditor * self, int option) = (void (*)(ControllerLevelEditor * self, int option)) 0x80e3fc0;
+inline void (*ControllerLevelEditor::ptr::GUICallback)(ControllerLevelEditor * self, int index, bool left) = (void (*)(ControllerLevelEditor * self, int index, bool left)) 0x835b5d0;
+inline void (*ControllerLevelEditor::ptr::RegainFocus)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x835b480;
+inline void (*ControllerLevelEditor::ptr::Destructor)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x806f7a0;
+inline void (*ControllerLevelEditor::ptr::mark)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x80ae030;
+inline void (*ControllerLevelEditor::ptr::CSTR_ControllerLevelEditor)(ControllerLevelEditor * self) = (void (*)(ControllerLevelEditor * self)) 0x817f700;
 #endif
 #endif

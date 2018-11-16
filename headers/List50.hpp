@@ -41,27 +41,27 @@ public:
 
 #ifdef _WIN32
 
-List50 * (*List50::ptr::_New)() = (List50 * (*)()) 0x0;
-Node70 * (*List50::ptr::AddLast50)(List50 * self, Sarcophagus * data) = (Node70 * (*)(List50 * self, Sarcophagus * data)) 0x64ef30;
-List50 * (*List50::ptr::_new2)(List50 * self, Array<Sarcophagus *> * arg1) = (List50 * (*)(List50 * self, Array<Sarcophagus *> * arg1)) 0x0;
-Enumerator50 * (*List50::ptr::ObjectEnumerator)(List50 * self) = (Enumerator50 * (*)(List50 * self)) 0x64efd0;
-bool (*List50::ptr::_Equals30)(List50 * self, Sarcophagus * arg1, Sarcophagus * arg2) = (bool (*)(List50 * self, Sarcophagus * arg1, Sarcophagus * arg2)) 0x0;
-int (*List50::ptr::_RemoveEach26)(List50 * self, Sarcophagus * arg1) = (int (*)(List50 * self, Sarcophagus * arg1)) 0x0;
-int (*List50::ptr::_Count)() = (int (*)()) 0x0;
-void (*List50::ptr::_mark)() = (void (*)()) 0x0;
-void (*List50::ptr::CSTR_List50)(List50 * self) = (void (*)(List50 * self)) 0x64ee60;
+inline List50 * (*List50::ptr::_New)() = (List50 * (*)()) 0x0;
+inline Node70 * (*List50::ptr::AddLast50)(List50 * self, Sarcophagus * data) = (Node70 * (*)(List50 * self, Sarcophagus * data)) 0x64ef30;
+inline List50 * (*List50::ptr::_new2)(List50 * self, Array<Sarcophagus *> * arg1) = (List50 * (*)(List50 * self, Array<Sarcophagus *> * arg1)) 0x0;
+inline Enumerator50 * (*List50::ptr::ObjectEnumerator)(List50 * self) = (Enumerator50 * (*)(List50 * self)) 0x64efd0;
+inline bool (*List50::ptr::_Equals30)(List50 * self, Sarcophagus * arg1, Sarcophagus * arg2) = (bool (*)(List50 * self, Sarcophagus * arg1, Sarcophagus * arg2)) 0x0;
+inline int (*List50::ptr::_RemoveEach26)(List50 * self, Sarcophagus * arg1) = (int (*)(List50 * self, Sarcophagus * arg1)) 0x0;
+inline int (*List50::ptr::_Count)() = (int (*)()) 0x0;
+inline void (*List50::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List50::ptr::CSTR_List50)(List50 * self) = (void (*)(List50 * self)) 0x64ee60;
 #endif
 
 #ifdef __linux__
 
-List50 * (*List50::ptr::_New)() = (List50 * (*)()) 0x81c63a0;
-Node70 * (*List50::ptr::AddLast50)(List50 * self, Sarcophagus * data) = (Node70 * (*)(List50 * self, Sarcophagus * data)) 0x81c65e0;
-List50 * (*List50::ptr::_new2)(List50 * self, Array<Sarcophagus *> * arg1) = (List50 * (*)(List50 * self, Array<Sarcophagus *> * arg1)) 0x0;
-Enumerator50 * (*List50::ptr::ObjectEnumerator)(List50 * self) = (Enumerator50 * (*)(List50 * self)) 0x80bc4f0;
-bool (*List50::ptr::_Equals30)(List50 * self, Sarcophagus * arg1, Sarcophagus * arg2) = (bool (*)(List50 * self, Sarcophagus * arg1, Sarcophagus * arg2)) 0x8076430;
-int (*List50::ptr::_RemoveEach26)(List50 * self, Sarcophagus * arg1) = (int (*)(List50 * self, Sarcophagus * arg1)) 0x8076440;
-int (*List50::ptr::_Count)() = (int (*)()) 0x80764a0;
-void (*List50::ptr::_mark)() = (void (*)()) 0x8088d50;
-void (*List50::ptr::CSTR_List50)(List50 * self) = (void (*)(List50 * self)) 0x81c6720;
+inline List50 * (*List50::ptr::_New)() = (List50 * (*)()) 0x81c63a0;
+inline Node70 * (*List50::ptr::AddLast50)(List50 * self, Sarcophagus * data) = (Node70 * (*)(List50 * self, Sarcophagus * data)) 0x81c65e0;
+inline List50 * (*List50::ptr::_new2)(List50 * self, Array<Sarcophagus *> * arg1) = (List50 * (*)(List50 * self, Array<Sarcophagus *> * arg1)) 0x0;
+inline Enumerator50 * (*List50::ptr::ObjectEnumerator)(List50 * self) = (Enumerator50 * (*)(List50 * self)) 0x80bc4f0;
+inline bool (*List50::ptr::_Equals30)(List50 * self, Sarcophagus * arg1, Sarcophagus * arg2) = (bool (*)(List50 * self, Sarcophagus * arg1, Sarcophagus * arg2)) 0x8076430;
+inline int (*List50::ptr::_RemoveEach26)(List50 * self, Sarcophagus * arg1) = (int (*)(List50 * self, Sarcophagus * arg1)) 0x8076440;
+inline int (*List50::ptr::_Count)() = (int (*)()) 0x80764a0;
+inline void (*List50::ptr::_mark)() = (void (*)()) 0x8088d50;
+inline void (*List50::ptr::CSTR_List50)(List50 * self) = (void (*)(List50 * self)) 0x81c6720;
 #endif
 #endif

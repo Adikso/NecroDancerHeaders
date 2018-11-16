@@ -29,19 +29,19 @@ public:
 
 #ifdef _WIN32
 
-void (*BBThread::ptr::_Start)() = (void (*)()) 0x0;
-bool (*BBThread::ptr::_IsRunning)() = (bool (*)()) 0x0;
-void (*BBThread::ptr::_Wait)() = (void (*)()) 0x0;
-void (*BBThread::ptr::_RunUNSAFE)() = (void (*)()) 0x0;
-unsigned long (*BBThread::ptr::_run)(void * arg1) = (unsigned long (*)(void * arg1)) 0x0;
+inline void (*BBThread::ptr::_Start)() = (void (*)()) 0x0;
+inline bool (*BBThread::ptr::_IsRunning)() = (bool (*)()) 0x0;
+inline void (*BBThread::ptr::_Wait)() = (void (*)()) 0x0;
+inline void (*BBThread::ptr::_RunUNSAFE)() = (void (*)()) 0x0;
+inline unsigned long (*BBThread::ptr::_run)(void * arg1) = (unsigned long (*)(void * arg1)) 0x0;
 #endif
 
 #ifdef __linux__
 
-void (*BBThread::ptr::_Start)() = (void (*)()) 0x807b120;
-bool (*BBThread::ptr::_IsRunning)() = (bool (*)()) 0x806d200;
-void (*BBThread::ptr::_Wait)() = (void (*)()) 0x8084290;
-void (*BBThread::ptr::_RunUNSAFE)() = (void (*)()) 0x806d210;
-unsigned long (*BBThread::ptr::_run)(void * arg1) = (unsigned long (*)(void * arg1)) 0x0;
+inline void (*BBThread::ptr::_Start)() = (void (*)()) 0x807b120;
+inline bool (*BBThread::ptr::_IsRunning)() = (bool (*)()) 0x806d200;
+inline void (*BBThread::ptr::_Wait)() = (void (*)()) 0x8084290;
+inline void (*BBThread::ptr::_RunUNSAFE)() = (void (*)()) 0x806d210;
+inline unsigned long (*BBThread::ptr::_run)(void * arg1) = (unsigned long (*)(void * arg1)) 0x0;
 #endif
 #endif

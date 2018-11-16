@@ -71,37 +71,37 @@ public:
 
 #ifdef _WIN32
 
-DeadRinger * (*DeadRinger::ptr::New)(DeadRinger * self, int xVal, int yVal, int l, Bell * b1, Bell * b2, Bell * b3, Bell * b4) = (DeadRinger * (*)(DeadRinger * self, int xVal, int yVal, int l, Bell * b1, Bell * b2, Bell * b3, Bell * b4)) 0x60b150;
-DeadRinger * (*DeadRinger::ptr::_new2)() = (DeadRinger * (*)()) 0x0;
-void (*DeadRinger::ptr::Update)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x60b810;
-bool (*DeadRinger::ptr::Hit)(DeadRinger * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(DeadRinger * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x60bb00;
-void (*DeadRinger::ptr::PossiblyStartCharge)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x60bf70;
-int (*DeadRinger::ptr::Move)(DeadRinger * self) = (int (*)(DeadRinger * self)) 0x60c700;
-Point * (*DeadRinger::ptr::GetMovementDirection)(DeadRinger * self) = (Point * (*)(DeadRinger * self)) 0x60c760;
-void (*DeadRinger::ptr::Render)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x60cd90;
-void (*DeadRinger::ptr::MoveFail)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x60cea0;
-void (*DeadRinger::ptr::MoveSucceed)(DeadRinger * self, bool hitPlayer, bool moveDelayed) = (void (*)(DeadRinger * self, bool hitPlayer, bool moveDelayed)) 0x60d050;
-bool (*DeadRinger::ptr::_ImmuneToFear)() = (bool (*)()) 0x0;
-void (*DeadRinger::ptr::Die)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x60d4f0;
-void (*DeadRinger::ptr::mark)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x60d600;
-void (*DeadRinger::ptr::CSTR_DeadRinger)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x60b030;
+inline DeadRinger * (*DeadRinger::ptr::New)(DeadRinger * self, int xVal, int yVal, int l, Bell * b1, Bell * b2, Bell * b3, Bell * b4) = (DeadRinger * (*)(DeadRinger * self, int xVal, int yVal, int l, Bell * b1, Bell * b2, Bell * b3, Bell * b4)) 0x60b150;
+inline DeadRinger * (*DeadRinger::ptr::_new2)() = (DeadRinger * (*)()) 0x0;
+inline void (*DeadRinger::ptr::Update)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x60b810;
+inline bool (*DeadRinger::ptr::Hit)(DeadRinger * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(DeadRinger * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x60bb00;
+inline void (*DeadRinger::ptr::PossiblyStartCharge)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x60bf70;
+inline int (*DeadRinger::ptr::Move)(DeadRinger * self) = (int (*)(DeadRinger * self)) 0x60c700;
+inline Point * (*DeadRinger::ptr::GetMovementDirection)(DeadRinger * self) = (Point * (*)(DeadRinger * self)) 0x60c760;
+inline void (*DeadRinger::ptr::Render)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x60cd90;
+inline void (*DeadRinger::ptr::MoveFail)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x60cea0;
+inline void (*DeadRinger::ptr::MoveSucceed)(DeadRinger * self, bool hitPlayer, bool moveDelayed) = (void (*)(DeadRinger * self, bool hitPlayer, bool moveDelayed)) 0x60d050;
+inline bool (*DeadRinger::ptr::_ImmuneToFear)() = (bool (*)()) 0x0;
+inline void (*DeadRinger::ptr::Die)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x60d4f0;
+inline void (*DeadRinger::ptr::mark)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x60d600;
+inline void (*DeadRinger::ptr::CSTR_DeadRinger)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x60b030;
 #endif
 
 #ifdef __linux__
 
-DeadRinger * (*DeadRinger::ptr::New)(DeadRinger * self, int xVal, int yVal, int l, Bell * b1, Bell * b2, Bell * b3, Bell * b4) = (DeadRinger * (*)(DeadRinger * self, int xVal, int yVal, int l, Bell * b1, Bell * b2, Bell * b3, Bell * b4)) 0x81b34d0;
-DeadRinger * (*DeadRinger::ptr::_new2)() = (DeadRinger * (*)()) 0x81b3af0;
-void (*DeadRinger::ptr::Update)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x8385860;
-bool (*DeadRinger::ptr::Hit)(DeadRinger * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(DeadRinger * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83b8c20;
-void (*DeadRinger::ptr::PossiblyStartCharge)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x83a0d60;
-int (*DeadRinger::ptr::Move)(DeadRinger * self) = (int (*)(DeadRinger * self)) 0x8087610;
-Point * (*DeadRinger::ptr::GetMovementDirection)(DeadRinger * self) = (Point * (*)(DeadRinger * self)) 0x83a1440;
-void (*DeadRinger::ptr::Render)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x830d5a0;
-void (*DeadRinger::ptr::MoveFail)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x83a1bf0;
-void (*DeadRinger::ptr::MoveSucceed)(DeadRinger * self, bool hitPlayer, bool moveDelayed) = (void (*)(DeadRinger * self, bool hitPlayer, bool moveDelayed)) 0x83bb150;
-bool (*DeadRinger::ptr::_ImmuneToFear)() = (bool (*)()) 0x8074760;
-void (*DeadRinger::ptr::Die)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x83b6b80;
-void (*DeadRinger::ptr::mark)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x80b1e40;
-void (*DeadRinger::ptr::CSTR_DeadRinger)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x81b32c0;
+inline DeadRinger * (*DeadRinger::ptr::New)(DeadRinger * self, int xVal, int yVal, int l, Bell * b1, Bell * b2, Bell * b3, Bell * b4) = (DeadRinger * (*)(DeadRinger * self, int xVal, int yVal, int l, Bell * b1, Bell * b2, Bell * b3, Bell * b4)) 0x81b34d0;
+inline DeadRinger * (*DeadRinger::ptr::_new2)() = (DeadRinger * (*)()) 0x81b3af0;
+inline void (*DeadRinger::ptr::Update)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x8385860;
+inline bool (*DeadRinger::ptr::Hit)(DeadRinger * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(DeadRinger * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83b8c20;
+inline void (*DeadRinger::ptr::PossiblyStartCharge)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x83a0d60;
+inline int (*DeadRinger::ptr::Move)(DeadRinger * self) = (int (*)(DeadRinger * self)) 0x8087610;
+inline Point * (*DeadRinger::ptr::GetMovementDirection)(DeadRinger * self) = (Point * (*)(DeadRinger * self)) 0x83a1440;
+inline void (*DeadRinger::ptr::Render)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x830d5a0;
+inline void (*DeadRinger::ptr::MoveFail)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x83a1bf0;
+inline void (*DeadRinger::ptr::MoveSucceed)(DeadRinger * self, bool hitPlayer, bool moveDelayed) = (void (*)(DeadRinger * self, bool hitPlayer, bool moveDelayed)) 0x83bb150;
+inline bool (*DeadRinger::ptr::_ImmuneToFear)() = (bool (*)()) 0x8074760;
+inline void (*DeadRinger::ptr::Die)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x83b6b80;
+inline void (*DeadRinger::ptr::mark)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x80b1e40;
+inline void (*DeadRinger::ptr::CSTR_DeadRinger)(DeadRinger * self) = (void (*)(DeadRinger * self)) 0x81b32c0;
 #endif
 #endif

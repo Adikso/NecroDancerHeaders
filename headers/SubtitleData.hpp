@@ -34,17 +34,17 @@ public:
 
 #ifdef _WIN32
 
-SubtitleData * (*SubtitleData::ptr::New)(SubtitleData * self, int startT, int endT, String * path, int xOffset, int yOffset, float sc) = (SubtitleData * (*)(SubtitleData * self, int startT, int endT, String * path, int xOffset, int yOffset, float sc)) 0x557210;
-SubtitleData * (*SubtitleData::ptr::_new2)() = (SubtitleData * (*)()) 0x0;
-void (*SubtitleData::ptr::_mark)() = (void (*)()) 0x0;
-void (*SubtitleData::ptr::CSTR_SubtitleData)(SubtitleData * self) = (void (*)(SubtitleData * self)) 0x557070;
+inline SubtitleData * (*SubtitleData::ptr::New)(SubtitleData * self, int startT, int endT, String * path, int xOffset, int yOffset, float sc) = (SubtitleData * (*)(SubtitleData * self, int startT, int endT, String * path, int xOffset, int yOffset, float sc)) 0x557210;
+inline SubtitleData * (*SubtitleData::ptr::_new2)() = (SubtitleData * (*)()) 0x0;
+inline void (*SubtitleData::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*SubtitleData::ptr::CSTR_SubtitleData)(SubtitleData * self) = (void (*)(SubtitleData * self)) 0x557070;
 #endif
 
 #ifdef __linux__
 
-SubtitleData * (*SubtitleData::ptr::New)(SubtitleData * self, int startT, int endT, String * path, int xOffset, int yOffset, float sc) = (SubtitleData * (*)(SubtitleData * self, int startT, int endT, String * path, int xOffset, int yOffset, float sc)) 0x8150f90;
-SubtitleData * (*SubtitleData::ptr::_new2)() = (SubtitleData * (*)()) 0x8150fe0;
-void (*SubtitleData::ptr::_mark)() = (void (*)()) 0x806f6c0;
-void (*SubtitleData::ptr::CSTR_SubtitleData)(SubtitleData * self) = (void (*)(SubtitleData * self)) 0x8150f20;
+inline SubtitleData * (*SubtitleData::ptr::New)(SubtitleData * self, int startT, int endT, String * path, int xOffset, int yOffset, float sc) = (SubtitleData * (*)(SubtitleData * self, int startT, int endT, String * path, int xOffset, int yOffset, float sc)) 0x8150f90;
+inline SubtitleData * (*SubtitleData::ptr::_new2)() = (SubtitleData * (*)()) 0x8150fe0;
+inline void (*SubtitleData::ptr::_mark)() = (void (*)()) 0x806f6c0;
+inline void (*SubtitleData::ptr::CSTR_SubtitleData)(SubtitleData * self) = (void (*)(SubtitleData * self)) 0x8150f20;
 #endif
 #endif

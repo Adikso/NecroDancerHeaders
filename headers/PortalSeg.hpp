@@ -41,29 +41,29 @@ public:
 
 #ifdef _WIN32
 
-PortalSeg * (*PortalSeg::ptr::New)(PortalSeg * self, int x, int y, int faceDir_, int normalDir_) = (PortalSeg * (*)(PortalSeg * self, int x, int y, int faceDir_, int normalDir_)) 0x65fb70;
-PortalSeg * (*PortalSeg::ptr::_new2)() = (PortalSeg * (*)()) 0x0;
-Point * (*PortalSeg::ptr::GetFaceVector)(PortalSeg * self) = (Point * (*)(PortalSeg * self)) 0x65fc60;
-Rect * (*PortalSeg::ptr::GetBounds)(PortalSeg * self) = (Rect * (*)(PortalSeg * self)) 0x65fc70;
-Point * (*PortalSeg::ptr::GetTerminus)(PortalSeg * self) = (Point * (*)(PortalSeg * self)) 0x65fce0;
-PortalSeg * (*PortalSeg::ptr::Intersect)(PortalSeg * self, PortalSeg * other) = (PortalSeg * (*)(PortalSeg * self, PortalSeg * other)) 0x65fd10;
-Point * (*PortalSeg::ptr::_GetOrigin)() = (Point * (*)()) 0x0;
-Point * (*PortalSeg::ptr::GetNormal)(PortalSeg * self) = (Point * (*)(PortalSeg * self)) 0x65fec0;
-int (*PortalSeg::ptr::_GetLength)() = (int (*)()) 0x0;
-void (*PortalSeg::ptr::_mark)() = (void (*)()) 0x0;
+inline PortalSeg * (*PortalSeg::ptr::New)(PortalSeg * self, int x, int y, int faceDir_, int normalDir_) = (PortalSeg * (*)(PortalSeg * self, int x, int y, int faceDir_, int normalDir_)) 0x65fb70;
+inline PortalSeg * (*PortalSeg::ptr::_new2)() = (PortalSeg * (*)()) 0x0;
+inline Point * (*PortalSeg::ptr::GetFaceVector)(PortalSeg * self) = (Point * (*)(PortalSeg * self)) 0x65fc60;
+inline Rect * (*PortalSeg::ptr::GetBounds)(PortalSeg * self) = (Rect * (*)(PortalSeg * self)) 0x65fc70;
+inline Point * (*PortalSeg::ptr::GetTerminus)(PortalSeg * self) = (Point * (*)(PortalSeg * self)) 0x65fce0;
+inline PortalSeg * (*PortalSeg::ptr::Intersect)(PortalSeg * self, PortalSeg * other) = (PortalSeg * (*)(PortalSeg * self, PortalSeg * other)) 0x65fd10;
+inline Point * (*PortalSeg::ptr::_GetOrigin)() = (Point * (*)()) 0x0;
+inline Point * (*PortalSeg::ptr::GetNormal)(PortalSeg * self) = (Point * (*)(PortalSeg * self)) 0x65fec0;
+inline int (*PortalSeg::ptr::_GetLength)() = (int (*)()) 0x0;
+inline void (*PortalSeg::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-PortalSeg * (*PortalSeg::ptr::New)(PortalSeg * self, int x, int y, int faceDir_, int normalDir_) = (PortalSeg * (*)(PortalSeg * self, int x, int y, int faceDir_, int normalDir_)) 0x81d4f40;
-PortalSeg * (*PortalSeg::ptr::_new2)() = (PortalSeg * (*)()) 0x81d4fd0;
-Point * (*PortalSeg::ptr::GetFaceVector)(PortalSeg * self) = (Point * (*)(PortalSeg * self)) 0x8102940;
-Rect * (*PortalSeg::ptr::GetBounds)(PortalSeg * self) = (Rect * (*)(PortalSeg * self)) 0x80c05d0;
-Point * (*PortalSeg::ptr::GetTerminus)(PortalSeg * self) = (Point * (*)(PortalSeg * self)) 0x8076e80;
-PortalSeg * (*PortalSeg::ptr::Intersect)(PortalSeg * self, PortalSeg * other) = (PortalSeg * (*)(PortalSeg * self, PortalSeg * other)) 0x82308a0;
-Point * (*PortalSeg::ptr::_GetOrigin)() = (Point * (*)()) 0x8076ec0;
-Point * (*PortalSeg::ptr::GetNormal)(PortalSeg * self) = (Point * (*)(PortalSeg * self)) 0x8102930;
-int (*PortalSeg::ptr::_GetLength)() = (int (*)()) 0x8076ed0;
-void (*PortalSeg::ptr::_mark)() = (void (*)()) 0x809a9c0;
+inline PortalSeg * (*PortalSeg::ptr::New)(PortalSeg * self, int x, int y, int faceDir_, int normalDir_) = (PortalSeg * (*)(PortalSeg * self, int x, int y, int faceDir_, int normalDir_)) 0x81d4f40;
+inline PortalSeg * (*PortalSeg::ptr::_new2)() = (PortalSeg * (*)()) 0x81d4fd0;
+inline Point * (*PortalSeg::ptr::GetFaceVector)(PortalSeg * self) = (Point * (*)(PortalSeg * self)) 0x8102940;
+inline Rect * (*PortalSeg::ptr::GetBounds)(PortalSeg * self) = (Rect * (*)(PortalSeg * self)) 0x80c05d0;
+inline Point * (*PortalSeg::ptr::GetTerminus)(PortalSeg * self) = (Point * (*)(PortalSeg * self)) 0x8076e80;
+inline PortalSeg * (*PortalSeg::ptr::Intersect)(PortalSeg * self, PortalSeg * other) = (PortalSeg * (*)(PortalSeg * self, PortalSeg * other)) 0x82308a0;
+inline Point * (*PortalSeg::ptr::_GetOrigin)() = (Point * (*)()) 0x8076ec0;
+inline Point * (*PortalSeg::ptr::GetNormal)(PortalSeg * self) = (Point * (*)(PortalSeg * self)) 0x8102930;
+inline int (*PortalSeg::ptr::_GetLength)() = (int (*)()) 0x8076ed0;
+inline void (*PortalSeg::ptr::_mark)() = (void (*)()) 0x809a9c0;
 #endif
 #endif

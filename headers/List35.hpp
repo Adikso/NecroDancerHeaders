@@ -34,21 +34,21 @@ public:
 
 #ifdef _WIN32
 
-List35 * (*List35::ptr::_New)() = (List35 * (*)()) 0x0;
-Node52 * (*List35::ptr::AddLast35)(List35 * self, Arrow * data) = (Node52 * (*)(List35 * self, Arrow * data)) 0x6068f0;
-List35 * (*List35::ptr::_new2)(List35 * self, Array<Arrow *> * arg1) = (List35 * (*)(List35 * self, Array<Arrow *> * arg1)) 0x0;
-Node52 * (*List35::ptr::_FirstNode)() = (Node52 * (*)()) 0x0;
-void (*List35::ptr::_mark)() = (void (*)()) 0x0;
-void (*List35::ptr::CSTR_List35)(List35 * self) = (void (*)(List35 * self)) 0x606820;
+inline List35 * (*List35::ptr::_New)() = (List35 * (*)()) 0x0;
+inline Node52 * (*List35::ptr::AddLast35)(List35 * self, Arrow * data) = (Node52 * (*)(List35 * self, Arrow * data)) 0x6068f0;
+inline List35 * (*List35::ptr::_new2)(List35 * self, Array<Arrow *> * arg1) = (List35 * (*)(List35 * self, Array<Arrow *> * arg1)) 0x0;
+inline Node52 * (*List35::ptr::_FirstNode)() = (Node52 * (*)()) 0x0;
+inline void (*List35::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List35::ptr::CSTR_List35)(List35 * self) = (void (*)(List35 * self)) 0x606820;
 #endif
 
 #ifdef __linux__
 
-List35 * (*List35::ptr::_New)() = (List35 * (*)()) 0x81a9fe0;
-Node52 * (*List35::ptr::AddLast35)(List35 * self, Arrow * data) = (Node52 * (*)(List35 * self, Arrow * data)) 0x81aa220;
-List35 * (*List35::ptr::_new2)(List35 * self, Array<Arrow *> * arg1) = (List35 * (*)(List35 * self, Array<Arrow *> * arg1)) 0x0;
-Node52 * (*List35::ptr::_FirstNode)() = (Node52 * (*)()) 0x8074230;
-void (*List35::ptr::_mark)() = (void (*)()) 0x8087450;
-void (*List35::ptr::CSTR_List35)(List35 * self) = (void (*)(List35 * self)) 0x81aa360;
+inline List35 * (*List35::ptr::_New)() = (List35 * (*)()) 0x81a9fe0;
+inline Node52 * (*List35::ptr::AddLast35)(List35 * self, Arrow * data) = (Node52 * (*)(List35 * self, Arrow * data)) 0x81aa220;
+inline List35 * (*List35::ptr::_new2)(List35 * self, Array<Arrow *> * arg1) = (List35 * (*)(List35 * self, Array<Arrow *> * arg1)) 0x0;
+inline Node52 * (*List35::ptr::_FirstNode)() = (Node52 * (*)()) 0x8074230;
+inline void (*List35::ptr::_mark)() = (void (*)()) 0x8087450;
+inline void (*List35::ptr::CSTR_List35)(List35 * self) = (void (*)(List35 * self)) 0x81aa360;
 #endif
 #endif

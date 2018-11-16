@@ -29,19 +29,19 @@ public:
 
 #ifdef _WIN32
 
-Node6 * (*Node6::ptr::_New)(Node6 * self, Node6 * arg1, Node6 * arg2, Sprite * arg3) = (Node6 * (*)(Node6 * self, Node6 * arg1, Node6 * arg2, Sprite * arg3)) 0x0;
-Node6 * (*Node6::ptr::_new2)() = (Node6 * (*)()) 0x0;
-Node6 * (*Node6::ptr::_GetNode)() = (Node6 * (*)()) 0x0;
-Node6 * (*Node6::ptr::_NextNode)() = (Node6 * (*)()) 0x0;
-void (*Node6::ptr::_mark)() = (void (*)()) 0x0;
+inline Node6 * (*Node6::ptr::_New)(Node6 * self, Node6 * arg1, Node6 * arg2, Sprite * arg3) = (Node6 * (*)(Node6 * self, Node6 * arg1, Node6 * arg2, Sprite * arg3)) 0x0;
+inline Node6 * (*Node6::ptr::_new2)() = (Node6 * (*)()) 0x0;
+inline Node6 * (*Node6::ptr::_GetNode)() = (Node6 * (*)()) 0x0;
+inline Node6 * (*Node6::ptr::_NextNode)() = (Node6 * (*)()) 0x0;
+inline void (*Node6::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node6 * (*Node6::ptr::_New)(Node6 * self, Node6 * arg1, Node6 * arg2, Sprite * arg3) = (Node6 * (*)(Node6 * self, Node6 * arg1, Node6 * arg2, Sprite * arg3)) 0x0;
-Node6 * (*Node6::ptr::_new2)() = (Node6 * (*)()) 0x8159190;
-Node6 * (*Node6::ptr::_GetNode)() = (Node6 * (*)()) 0x0;
-Node6 * (*Node6::ptr::_NextNode)() = (Node6 * (*)()) 0x0;
-void (*Node6::ptr::_mark)() = (void (*)()) 0x80a10e0;
+inline Node6 * (*Node6::ptr::_New)(Node6 * self, Node6 * arg1, Node6 * arg2, Sprite * arg3) = (Node6 * (*)(Node6 * self, Node6 * arg1, Node6 * arg2, Sprite * arg3)) 0x0;
+inline Node6 * (*Node6::ptr::_new2)() = (Node6 * (*)()) 0x8159190;
+inline Node6 * (*Node6::ptr::_GetNode)() = (Node6 * (*)()) 0x0;
+inline Node6 * (*Node6::ptr::_NextNode)() = (Node6 * (*)()) 0x0;
+inline void (*Node6::ptr::_mark)() = (void (*)()) 0x80a10e0;
 #endif
 #endif

@@ -47,33 +47,33 @@ public:
 
 #ifdef _WIN32
 
-List28 * (*List28::ptr::_New)() = (List28 * (*)()) 0x0;
-Node45 * (*List28::ptr::AddLast28)(List28 * self, Tile * data) = (Node45 * (*)(List28 * self, Tile * data)) 0x5f82f0;
-List28 * (*List28::ptr::_new2)(List28 * self, Array<Tile *> * arg1) = (List28 * (*)(List28 * self, Array<Tile *> * arg1)) 0x0;
-bool (*List28::ptr::_Equals18)(List28 * self, Tile * arg1, Tile * arg2) = (bool (*)(List28 * self, Tile * arg1, Tile * arg2)) 0x0;
-int (*List28::ptr::_RemoveEach15)(List28 * self, Tile * arg1) = (int (*)(List28 * self, Tile * arg1)) 0x0;
-Enumerator31 * (*List28::ptr::ObjectEnumerator)(List28 * self) = (Enumerator31 * (*)(List28 * self)) 0x5f83b0;
-int (*List28::ptr::_Clear)() = (int (*)()) 0x0;
-int (*List28::ptr::_Count)() = (int (*)()) 0x0;
-Tile * (*List28::ptr::First)(List28 * self) = (Tile * (*)(List28 * self)) 0x5dd400;
-Tile * (*List28::ptr::RemoveFirst)(List28 * self) = (Tile * (*)(List28 * self)) 0x5f8390;
-void (*List28::ptr::_mark)() = (void (*)()) 0x0;
-void (*List28::ptr::CSTR_List28)(List28 * self) = (void (*)(List28 * self)) 0x5f8220;
+inline List28 * (*List28::ptr::_New)() = (List28 * (*)()) 0x0;
+inline Node45 * (*List28::ptr::AddLast28)(List28 * self, Tile * data) = (Node45 * (*)(List28 * self, Tile * data)) 0x5f82f0;
+inline List28 * (*List28::ptr::_new2)(List28 * self, Array<Tile *> * arg1) = (List28 * (*)(List28 * self, Array<Tile *> * arg1)) 0x0;
+inline bool (*List28::ptr::_Equals18)(List28 * self, Tile * arg1, Tile * arg2) = (bool (*)(List28 * self, Tile * arg1, Tile * arg2)) 0x0;
+inline int (*List28::ptr::_RemoveEach15)(List28 * self, Tile * arg1) = (int (*)(List28 * self, Tile * arg1)) 0x0;
+inline Enumerator31 * (*List28::ptr::ObjectEnumerator)(List28 * self) = (Enumerator31 * (*)(List28 * self)) 0x5f83b0;
+inline int (*List28::ptr::_Clear)() = (int (*)()) 0x0;
+inline int (*List28::ptr::_Count)() = (int (*)()) 0x0;
+inline Tile * (*List28::ptr::First)(List28 * self) = (Tile * (*)(List28 * self)) 0x5dd400;
+inline Tile * (*List28::ptr::RemoveFirst)(List28 * self) = (Tile * (*)(List28 * self)) 0x5f8390;
+inline void (*List28::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List28::ptr::CSTR_List28)(List28 * self) = (void (*)(List28 * self)) 0x5f8220;
 #endif
 
 #ifdef __linux__
 
-List28 * (*List28::ptr::_New)() = (List28 * (*)()) 0x81a0640;
-Node45 * (*List28::ptr::AddLast28)(List28 * self, Tile * data) = (Node45 * (*)(List28 * self, Tile * data)) 0x80b9220;
-List28 * (*List28::ptr::_new2)(List28 * self, Array<Tile *> * arg1) = (List28 * (*)(List28 * self, Array<Tile *> * arg1)) 0x0;
-bool (*List28::ptr::_Equals18)(List28 * self, Tile * arg1, Tile * arg2) = (bool (*)(List28 * self, Tile * arg1, Tile * arg2)) 0x80737e0;
-int (*List28::ptr::_RemoveEach15)(List28 * self, Tile * arg1) = (int (*)(List28 * self, Tile * arg1)) 0x80737f0;
-Enumerator31 * (*List28::ptr::ObjectEnumerator)(List28 * self) = (Enumerator31 * (*)(List28 * self)) 0x80bc710;
-int (*List28::ptr::_Clear)() = (int (*)()) 0x0;
-int (*List28::ptr::_Count)() = (int (*)()) 0x8073850;
-Tile * (*List28::ptr::First)(List28 * self) = (Tile * (*)(List28 * self)) 0x8073870;
-Tile * (*List28::ptr::RemoveFirst)(List28 * self) = (Tile * (*)(List28 * self)) 0x8073890;
-void (*List28::ptr::_mark)() = (void (*)()) 0x808a390;
-void (*List28::ptr::CSTR_List28)(List28 * self) = (void (*)(List28 * self)) 0x81a0960;
+inline List28 * (*List28::ptr::_New)() = (List28 * (*)()) 0x81a0640;
+inline Node45 * (*List28::ptr::AddLast28)(List28 * self, Tile * data) = (Node45 * (*)(List28 * self, Tile * data)) 0x80b9220;
+inline List28 * (*List28::ptr::_new2)(List28 * self, Array<Tile *> * arg1) = (List28 * (*)(List28 * self, Array<Tile *> * arg1)) 0x0;
+inline bool (*List28::ptr::_Equals18)(List28 * self, Tile * arg1, Tile * arg2) = (bool (*)(List28 * self, Tile * arg1, Tile * arg2)) 0x80737e0;
+inline int (*List28::ptr::_RemoveEach15)(List28 * self, Tile * arg1) = (int (*)(List28 * self, Tile * arg1)) 0x80737f0;
+inline Enumerator31 * (*List28::ptr::ObjectEnumerator)(List28 * self) = (Enumerator31 * (*)(List28 * self)) 0x80bc710;
+inline int (*List28::ptr::_Clear)() = (int (*)()) 0x0;
+inline int (*List28::ptr::_Count)() = (int (*)()) 0x8073850;
+inline Tile * (*List28::ptr::First)(List28 * self) = (Tile * (*)(List28 * self)) 0x8073870;
+inline Tile * (*List28::ptr::RemoveFirst)(List28 * self) = (Tile * (*)(List28 * self)) 0x8073890;
+inline void (*List28::ptr::_mark)() = (void (*)()) 0x808a390;
+inline void (*List28::ptr::CSTR_List28)(List28 * self) = (void (*)(List28 * self)) 0x81a0960;
 #endif
 #endif

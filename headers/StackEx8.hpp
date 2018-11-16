@@ -26,17 +26,17 @@ public:
 
 #ifdef _WIN32
 
-StackEx8 * (*StackEx8::ptr::_New)() = (StackEx8 * (*)()) 0x0;
-void (*StackEx8::ptr::Shuffle)(StackEx8 * self, bool useSeed) = (void (*)(StackEx8 * self, bool useSeed)) 0x660f30;
-void (*StackEx8::ptr::_mark)() = (void (*)()) 0x0;
-void (*StackEx8::ptr::CSTR_StackEx8)(StackEx8 * self) = (void (*)(StackEx8 * self)) 0x68b560;
+inline StackEx8 * (*StackEx8::ptr::_New)() = (StackEx8 * (*)()) 0x0;
+inline void (*StackEx8::ptr::Shuffle)(StackEx8 * self, bool useSeed) = (void (*)(StackEx8 * self, bool useSeed)) 0x660f30;
+inline void (*StackEx8::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*StackEx8::ptr::CSTR_StackEx8)(StackEx8 * self) = (void (*)(StackEx8 * self)) 0x68b560;
 #endif
 
 #ifdef __linux__
 
-StackEx8 * (*StackEx8::ptr::_New)() = (StackEx8 * (*)()) 0x81e2ac0;
-void (*StackEx8::ptr::Shuffle)(StackEx8 * self, bool useSeed) = (void (*)(StackEx8 * self, bool useSeed)) 0x8100340;
-void (*StackEx8::ptr::_mark)() = (void (*)()) 0x80877e0;
-void (*StackEx8::ptr::CSTR_StackEx8)(StackEx8 * self) = (void (*)(StackEx8 * self)) 0x81e29b0;
+inline StackEx8 * (*StackEx8::ptr::_New)() = (StackEx8 * (*)()) 0x81e2ac0;
+inline void (*StackEx8::ptr::Shuffle)(StackEx8 * self, bool useSeed) = (void (*)(StackEx8 * self, bool useSeed)) 0x8100340;
+inline void (*StackEx8::ptr::_mark)() = (void (*)()) 0x80877e0;
+inline void (*StackEx8::ptr::CSTR_StackEx8)(StackEx8 * self) = (void (*)(StackEx8 * self)) 0x81e29b0;
 #endif
 #endif

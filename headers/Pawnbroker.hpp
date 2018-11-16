@@ -32,23 +32,23 @@ public:
 
 #ifdef _WIN32
 
-Pawnbroker * (*Pawnbroker::ptr::New)(Pawnbroker * self, int xVal, int yVal, int l, bool captv) = (Pawnbroker * (*)(Pawnbroker * self, int xVal, int yVal, int l, bool captv)) 0x61ef60;
-Pawnbroker * (*Pawnbroker::ptr::_new2)() = (Pawnbroker * (*)()) 0x0;
-bool (*Pawnbroker::ptr::Hit)(Pawnbroker * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Pawnbroker * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x61f030;
-Point * (*Pawnbroker::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
-bool (*Pawnbroker::ptr::_CanBeDamaged)(Pawnbroker * self, bool arg1, bool arg2) = (bool (*)(Pawnbroker * self, bool arg1, bool arg2)) 0x0;
-void (*Pawnbroker::ptr::Die)(Pawnbroker * self) = (void (*)(Pawnbroker * self)) 0x61f9f0;
-void (*Pawnbroker::ptr::_mark)() = (void (*)()) 0x0;
+inline Pawnbroker * (*Pawnbroker::ptr::New)(Pawnbroker * self, int xVal, int yVal, int l, bool captv) = (Pawnbroker * (*)(Pawnbroker * self, int xVal, int yVal, int l, bool captv)) 0x61ef60;
+inline Pawnbroker * (*Pawnbroker::ptr::_new2)() = (Pawnbroker * (*)()) 0x0;
+inline bool (*Pawnbroker::ptr::Hit)(Pawnbroker * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Pawnbroker * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x61f030;
+inline Point * (*Pawnbroker::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
+inline bool (*Pawnbroker::ptr::_CanBeDamaged)(Pawnbroker * self, bool arg1, bool arg2) = (bool (*)(Pawnbroker * self, bool arg1, bool arg2)) 0x0;
+inline void (*Pawnbroker::ptr::Die)(Pawnbroker * self) = (void (*)(Pawnbroker * self)) 0x61f9f0;
+inline void (*Pawnbroker::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Pawnbroker * (*Pawnbroker::ptr::New)(Pawnbroker * self, int xVal, int yVal, int l, bool captv) = (Pawnbroker * (*)(Pawnbroker * self, int xVal, int yVal, int l, bool captv)) 0x81b8540;
-Pawnbroker * (*Pawnbroker::ptr::_new2)() = (Pawnbroker * (*)()) 0x81b8600;
-bool (*Pawnbroker::ptr::Hit)(Pawnbroker * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Pawnbroker * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x839a2e0;
-Point * (*Pawnbroker::ptr::_GetMovementDirection)() = (Point * (*)()) 0x80b4c40;
-bool (*Pawnbroker::ptr::_CanBeDamaged)(Pawnbroker * self, bool arg1, bool arg2) = (bool (*)(Pawnbroker * self, bool arg1, bool arg2)) 0x8074f00;
-void (*Pawnbroker::ptr::Die)(Pawnbroker * self) = (void (*)(Pawnbroker * self)) 0x83b7810;
-void (*Pawnbroker::ptr::_mark)() = (void (*)()) 0x80b3290;
+inline Pawnbroker * (*Pawnbroker::ptr::New)(Pawnbroker * self, int xVal, int yVal, int l, bool captv) = (Pawnbroker * (*)(Pawnbroker * self, int xVal, int yVal, int l, bool captv)) 0x81b8540;
+inline Pawnbroker * (*Pawnbroker::ptr::_new2)() = (Pawnbroker * (*)()) 0x81b8600;
+inline bool (*Pawnbroker::ptr::Hit)(Pawnbroker * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Pawnbroker * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x839a2e0;
+inline Point * (*Pawnbroker::ptr::_GetMovementDirection)() = (Point * (*)()) 0x80b4c40;
+inline bool (*Pawnbroker::ptr::_CanBeDamaged)(Pawnbroker * self, bool arg1, bool arg2) = (bool (*)(Pawnbroker * self, bool arg1, bool arg2)) 0x8074f00;
+inline void (*Pawnbroker::ptr::Die)(Pawnbroker * self) = (void (*)(Pawnbroker * self)) 0x83b7810;
+inline void (*Pawnbroker::ptr::_mark)() = (void (*)()) 0x80b3290;
 #endif
 #endif

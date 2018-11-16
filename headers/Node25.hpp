@@ -27,17 +27,17 @@ public:
 
 #ifdef _WIN32
 
-Node25 * (*Node25::ptr::_New)(Node25 * self, Node25 * arg1, Node25 * arg2, Trap * arg3) = (Node25 * (*)(Node25 * self, Node25 * arg1, Node25 * arg2, Trap * arg3)) 0x0;
-Node25 * (*Node25::ptr::_new2)() = (Node25 * (*)()) 0x0;
-int (*Node25::ptr::_Remove2)() = (int (*)()) 0x0;
-void (*Node25::ptr::_mark)() = (void (*)()) 0x0;
+inline Node25 * (*Node25::ptr::_New)(Node25 * self, Node25 * arg1, Node25 * arg2, Trap * arg3) = (Node25 * (*)(Node25 * self, Node25 * arg1, Node25 * arg2, Trap * arg3)) 0x0;
+inline Node25 * (*Node25::ptr::_new2)() = (Node25 * (*)()) 0x0;
+inline int (*Node25::ptr::_Remove2)() = (int (*)()) 0x0;
+inline void (*Node25::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node25 * (*Node25::ptr::_New)(Node25 * self, Node25 * arg1, Node25 * arg2, Trap * arg3) = (Node25 * (*)(Node25 * self, Node25 * arg1, Node25 * arg2, Trap * arg3)) 0x0;
-Node25 * (*Node25::ptr::_new2)() = (Node25 * (*)()) 0x819b0d0;
-int (*Node25::ptr::_Remove2)() = (int (*)()) 0x0;
-void (*Node25::ptr::_mark)() = (void (*)()) 0x8089c70;
+inline Node25 * (*Node25::ptr::_New)(Node25 * self, Node25 * arg1, Node25 * arg2, Trap * arg3) = (Node25 * (*)(Node25 * self, Node25 * arg1, Node25 * arg2, Trap * arg3)) 0x0;
+inline Node25 * (*Node25::ptr::_new2)() = (Node25 * (*)()) 0x819b0d0;
+inline int (*Node25::ptr::_Remove2)() = (int (*)()) 0x0;
+inline void (*Node25::ptr::_mark)() = (void (*)()) 0x8089c70;
 #endif
 #endif

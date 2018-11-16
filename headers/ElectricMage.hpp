@@ -35,23 +35,23 @@ public:
 
 #ifdef _WIN32
 
-ElectricMage * (*ElectricMage::ptr::New)(ElectricMage * self, int xVal, int yVal, int l) = (ElectricMage * (*)(ElectricMage * self, int xVal, int yVal, int l)) 0x657a20;
-ElectricMage * (*ElectricMage::ptr::_new2)() = (ElectricMage * (*)()) 0x0;
-Point * (*ElectricMage::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
-int (*ElectricMage::ptr::MoveImmediate)(ElectricMage * self, int xVal, int yVal, String * movementSource) = (int (*)(ElectricMage * self, int xVal, int yVal, String * movementSource)) 0x657cb0;
-void (*ElectricMage::ptr::_Update)() = (void (*)()) 0x0;
-void (*ElectricMage::ptr::_mark)() = (void (*)()) 0x0;
-void (*ElectricMage::ptr::CSTR_ElectricMage)(ElectricMage * self) = (void (*)(ElectricMage * self)) 0x6579c0;
+inline ElectricMage * (*ElectricMage::ptr::New)(ElectricMage * self, int xVal, int yVal, int l) = (ElectricMage * (*)(ElectricMage * self, int xVal, int yVal, int l)) 0x657a20;
+inline ElectricMage * (*ElectricMage::ptr::_new2)() = (ElectricMage * (*)()) 0x0;
+inline Point * (*ElectricMage::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
+inline int (*ElectricMage::ptr::MoveImmediate)(ElectricMage * self, int xVal, int yVal, String * movementSource) = (int (*)(ElectricMage * self, int xVal, int yVal, String * movementSource)) 0x657cb0;
+inline void (*ElectricMage::ptr::_Update)() = (void (*)()) 0x0;
+inline void (*ElectricMage::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*ElectricMage::ptr::CSTR_ElectricMage)(ElectricMage * self) = (void (*)(ElectricMage * self)) 0x6579c0;
 #endif
 
 #ifdef __linux__
 
-ElectricMage * (*ElectricMage::ptr::New)(ElectricMage * self, int xVal, int yVal, int l) = (ElectricMage * (*)(ElectricMage * self, int xVal, int yVal, int l)) 0x81c94f0;
-ElectricMage * (*ElectricMage::ptr::_new2)() = (ElectricMage * (*)()) 0x81c9c90;
-Point * (*ElectricMage::ptr::_GetMovementDirection)() = (Point * (*)()) 0x8076600;
-int (*ElectricMage::ptr::MoveImmediate)(ElectricMage * self, int xVal, int yVal, String * movementSource) = (int (*)(ElectricMage * self, int xVal, int yVal, String * movementSource)) 0x8393000;
-void (*ElectricMage::ptr::_Update)() = (void (*)()) 0x837f280;
-void (*ElectricMage::ptr::_mark)() = (void (*)()) 0x80b0210;
-void (*ElectricMage::ptr::CSTR_ElectricMage)(ElectricMage * self) = (void (*)(ElectricMage * self)) 0x81c94d0;
+inline ElectricMage * (*ElectricMage::ptr::New)(ElectricMage * self, int xVal, int yVal, int l) = (ElectricMage * (*)(ElectricMage * self, int xVal, int yVal, int l)) 0x81c94f0;
+inline ElectricMage * (*ElectricMage::ptr::_new2)() = (ElectricMage * (*)()) 0x81c9c90;
+inline Point * (*ElectricMage::ptr::_GetMovementDirection)() = (Point * (*)()) 0x8076600;
+inline int (*ElectricMage::ptr::MoveImmediate)(ElectricMage * self, int xVal, int yVal, String * movementSource) = (int (*)(ElectricMage * self, int xVal, int yVal, String * movementSource)) 0x8393000;
+inline void (*ElectricMage::ptr::_Update)() = (void (*)()) 0x837f280;
+inline void (*ElectricMage::ptr::_mark)() = (void (*)()) 0x80b0210;
+inline void (*ElectricMage::ptr::CSTR_ElectricMage)(ElectricMage * self) = (void (*)(ElectricMage * self)) 0x81c94d0;
 #endif
 #endif

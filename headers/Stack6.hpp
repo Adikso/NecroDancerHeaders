@@ -40,29 +40,29 @@ public:
 
 #ifdef _WIN32
 
-Stack6 * (*Stack6::ptr::_New)() = (Stack6 * (*)()) 0x0;
-Stack6 * (*Stack6::ptr::_new2)(Stack6 * self, Array<PortalSeg *> * arg1) = (Stack6 * (*)(Stack6 * self, Array<PortalSeg *> * arg1)) 0x0;
-int (*Stack6::ptr::Push16)(Stack6 * self, PortalSeg * value) = (int (*)(Stack6 * self, PortalSeg * value)) 0x65fed0;
-int (*Stack6::ptr::_Push17)(Stack6 * self, Array<PortalSeg *> * arg1, int arg2, int arg3) = (int (*)(Stack6 * self, Array<PortalSeg *> * arg1, int arg2, int arg3)) 0x0;
-int (*Stack6::ptr::_Push18)(Stack6 * self, Array<PortalSeg *> * arg1, int arg2) = (int (*)(Stack6 * self, Array<PortalSeg *> * arg1, int arg2)) 0x0;
-Enumerator41 * (*Stack6::ptr::ObjectEnumerator)(Stack6 * self) = (Enumerator41 * (*)(Stack6 * self)) 0x65ff70;
-int (*Stack6::ptr::_Length)() = (int (*)()) 0x0;
-PortalSeg * (*Stack6::ptr::_Get2)(Stack6 * self, int arg1) = (PortalSeg * (*)(Stack6 * self, int arg1)) 0x0;
-int (*Stack6::ptr::_Set22)(Stack6 * self, int arg1, PortalSeg * arg2) = (int (*)(Stack6 * self, int arg1, PortalSeg * arg2)) 0x0;
-void (*Stack6::ptr::_mark)() = (void (*)()) 0x0;
+inline Stack6 * (*Stack6::ptr::_New)() = (Stack6 * (*)()) 0x0;
+inline Stack6 * (*Stack6::ptr::_new2)(Stack6 * self, Array<PortalSeg *> * arg1) = (Stack6 * (*)(Stack6 * self, Array<PortalSeg *> * arg1)) 0x0;
+inline int (*Stack6::ptr::Push16)(Stack6 * self, PortalSeg * value) = (int (*)(Stack6 * self, PortalSeg * value)) 0x65fed0;
+inline int (*Stack6::ptr::_Push17)(Stack6 * self, Array<PortalSeg *> * arg1, int arg2, int arg3) = (int (*)(Stack6 * self, Array<PortalSeg *> * arg1, int arg2, int arg3)) 0x0;
+inline int (*Stack6::ptr::_Push18)(Stack6 * self, Array<PortalSeg *> * arg1, int arg2) = (int (*)(Stack6 * self, Array<PortalSeg *> * arg1, int arg2)) 0x0;
+inline Enumerator41 * (*Stack6::ptr::ObjectEnumerator)(Stack6 * self) = (Enumerator41 * (*)(Stack6 * self)) 0x65ff70;
+inline int (*Stack6::ptr::_Length)() = (int (*)()) 0x0;
+inline PortalSeg * (*Stack6::ptr::_Get2)(Stack6 * self, int arg1) = (PortalSeg * (*)(Stack6 * self, int arg1)) 0x0;
+inline int (*Stack6::ptr::_Set22)(Stack6 * self, int arg1, PortalSeg * arg2) = (int (*)(Stack6 * self, int arg1, PortalSeg * arg2)) 0x0;
+inline void (*Stack6::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Stack6 * (*Stack6::ptr::_New)() = (Stack6 * (*)()) 0x81d50f0;
-Stack6 * (*Stack6::ptr::_new2)(Stack6 * self, Array<PortalSeg *> * arg1) = (Stack6 * (*)(Stack6 * self, Array<PortalSeg *> * arg1)) 0x0;
-int (*Stack6::ptr::Push16)(Stack6 * self, PortalSeg * value) = (int (*)(Stack6 * self, PortalSeg * value)) 0x80bea80;
-int (*Stack6::ptr::_Push17)(Stack6 * self, Array<PortalSeg *> * arg1, int arg2, int arg3) = (int (*)(Stack6 * self, Array<PortalSeg *> * arg1, int arg2, int arg3)) 0x0;
-int (*Stack6::ptr::_Push18)(Stack6 * self, Array<PortalSeg *> * arg1, int arg2) = (int (*)(Stack6 * self, Array<PortalSeg *> * arg1, int arg2)) 0x0;
-Enumerator41 * (*Stack6::ptr::ObjectEnumerator)(Stack6 * self) = (Enumerator41 * (*)(Stack6 * self)) 0x80bbc00;
-int (*Stack6::ptr::_Length)() = (int (*)()) 0x8076f80;
-PortalSeg * (*Stack6::ptr::_Get2)(Stack6 * self, int arg1) = (PortalSeg * (*)(Stack6 * self, int arg1)) 0x8076f90;
-int (*Stack6::ptr::_Set22)(Stack6 * self, int arg1, PortalSeg * arg2) = (int (*)(Stack6 * self, int arg1, PortalSeg * arg2)) 0x8076fa0;
-void (*Stack6::ptr::_mark)() = (void (*)()) 0x8077000;
+inline Stack6 * (*Stack6::ptr::_New)() = (Stack6 * (*)()) 0x81d50f0;
+inline Stack6 * (*Stack6::ptr::_new2)(Stack6 * self, Array<PortalSeg *> * arg1) = (Stack6 * (*)(Stack6 * self, Array<PortalSeg *> * arg1)) 0x0;
+inline int (*Stack6::ptr::Push16)(Stack6 * self, PortalSeg * value) = (int (*)(Stack6 * self, PortalSeg * value)) 0x80bea80;
+inline int (*Stack6::ptr::_Push17)(Stack6 * self, Array<PortalSeg *> * arg1, int arg2, int arg3) = (int (*)(Stack6 * self, Array<PortalSeg *> * arg1, int arg2, int arg3)) 0x0;
+inline int (*Stack6::ptr::_Push18)(Stack6 * self, Array<PortalSeg *> * arg1, int arg2) = (int (*)(Stack6 * self, Array<PortalSeg *> * arg1, int arg2)) 0x0;
+inline Enumerator41 * (*Stack6::ptr::ObjectEnumerator)(Stack6 * self) = (Enumerator41 * (*)(Stack6 * self)) 0x80bbc00;
+inline int (*Stack6::ptr::_Length)() = (int (*)()) 0x8076f80;
+inline PortalSeg * (*Stack6::ptr::_Get2)(Stack6 * self, int arg1) = (PortalSeg * (*)(Stack6 * self, int arg1)) 0x8076f90;
+inline int (*Stack6::ptr::_Set22)(Stack6 * self, int arg1, PortalSeg * arg2) = (int (*)(Stack6 * self, int arg1, PortalSeg * arg2)) 0x8076fa0;
+inline void (*Stack6::ptr::_mark)() = (void (*)()) 0x8077000;
 #endif
 #endif

@@ -43,25 +43,25 @@ public:
 
 #ifdef _WIN32
 
-Bouncer * (*Bouncer::ptr::New)(Bouncer * self, float minVal, float maxVal, float powerVal, int stepsVal) = (Bouncer * (*)(Bouncer * self, float minVal, float maxVal, float powerVal, int stepsVal)) 0x602490;
-Bouncer * (*Bouncer::ptr::_new2)() = (Bouncer * (*)()) 0x0;
-void (*Bouncer::ptr::Disable)(Bouncer * self) = (void (*)(Bouncer * self)) 0x602590;
-void (*Bouncer::ptr::Update)(Bouncer * self) = (void (*)(Bouncer * self)) 0x6025a0;
-void (*Bouncer::ptr::Enable)(Bouncer * self) = (void (*)(Bouncer * self)) 0x602650;
-float (*Bouncer::ptr::GetVal)(Bouncer * self) = (float (*)(Bouncer * self)) 0x602660;
-void (*Bouncer::ptr::_mark)() = (void (*)()) 0x0;
-void (*Bouncer::ptr::CSTR_Bouncer)(Bouncer * self) = (void (*)(Bouncer * self)) 0x602400;
+inline Bouncer * (*Bouncer::ptr::New)(Bouncer * self, float minVal, float maxVal, float powerVal, int stepsVal) = (Bouncer * (*)(Bouncer * self, float minVal, float maxVal, float powerVal, int stepsVal)) 0x602490;
+inline Bouncer * (*Bouncer::ptr::_new2)() = (Bouncer * (*)()) 0x0;
+inline void (*Bouncer::ptr::Disable)(Bouncer * self) = (void (*)(Bouncer * self)) 0x602590;
+inline void (*Bouncer::ptr::Update)(Bouncer * self) = (void (*)(Bouncer * self)) 0x6025a0;
+inline void (*Bouncer::ptr::Enable)(Bouncer * self) = (void (*)(Bouncer * self)) 0x602650;
+inline float (*Bouncer::ptr::GetVal)(Bouncer * self) = (float (*)(Bouncer * self)) 0x602660;
+inline void (*Bouncer::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Bouncer::ptr::CSTR_Bouncer)(Bouncer * self) = (void (*)(Bouncer * self)) 0x602400;
 #endif
 
 #ifdef __linux__
 
-Bouncer * (*Bouncer::ptr::New)(Bouncer * self, float minVal, float maxVal, float powerVal, int stepsVal) = (Bouncer * (*)(Bouncer * self, float minVal, float maxVal, float powerVal, int stepsVal)) 0x81a6fe0;
-Bouncer * (*Bouncer::ptr::_new2)() = (Bouncer * (*)()) 0x81a70f0;
-void (*Bouncer::ptr::Disable)(Bouncer * self) = (void (*)(Bouncer * self)) 0x8073cb0;
-void (*Bouncer::ptr::Update)(Bouncer * self) = (void (*)(Bouncer * self)) 0x807b080;
-void (*Bouncer::ptr::Enable)(Bouncer * self) = (void (*)(Bouncer * self)) 0x8073cc0;
-float (*Bouncer::ptr::GetVal)(Bouncer * self) = (float (*)(Bouncer * self)) 0x8073cd0;
-void (*Bouncer::ptr::_mark)() = (void (*)()) 0x8073cf0;
-void (*Bouncer::ptr::CSTR_Bouncer)(Bouncer * self) = (void (*)(Bouncer * self)) 0x81a6fb0;
+inline Bouncer * (*Bouncer::ptr::New)(Bouncer * self, float minVal, float maxVal, float powerVal, int stepsVal) = (Bouncer * (*)(Bouncer * self, float minVal, float maxVal, float powerVal, int stepsVal)) 0x81a6fe0;
+inline Bouncer * (*Bouncer::ptr::_new2)() = (Bouncer * (*)()) 0x81a70f0;
+inline void (*Bouncer::ptr::Disable)(Bouncer * self) = (void (*)(Bouncer * self)) 0x8073cb0;
+inline void (*Bouncer::ptr::Update)(Bouncer * self) = (void (*)(Bouncer * self)) 0x807b080;
+inline void (*Bouncer::ptr::Enable)(Bouncer * self) = (void (*)(Bouncer * self)) 0x8073cc0;
+inline float (*Bouncer::ptr::GetVal)(Bouncer * self) = (float (*)(Bouncer * self)) 0x8073cd0;
+inline void (*Bouncer::ptr::_mark)() = (void (*)()) 0x8073cf0;
+inline void (*Bouncer::ptr::CSTR_Bouncer)(Bouncer * self) = (void (*)(Bouncer * self)) 0x81a6fb0;
 #endif
 #endif

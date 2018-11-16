@@ -29,19 +29,19 @@ public:
 
 #ifdef _WIN32
 
-IceElemental * (*IceElemental::ptr::New)(IceElemental * self, int xVal, int yVal, int l) = (IceElemental * (*)(IceElemental * self, int xVal, int yVal, int l)) 0x645920;
-IceElemental * (*IceElemental::ptr::_new2)() = (IceElemental * (*)()) 0x0;
-void (*IceElemental::ptr::DropTile)(IceElemental * self) = (void (*)(IceElemental * self)) 0x645ba0;
-void (*IceElemental::ptr::_mark)() = (void (*)()) 0x0;
-void (*IceElemental::ptr::CSTR_IceElemental)(IceElemental * self) = (void (*)(IceElemental * self)) 0x6458b0;
+inline IceElemental * (*IceElemental::ptr::New)(IceElemental * self, int xVal, int yVal, int l) = (IceElemental * (*)(IceElemental * self, int xVal, int yVal, int l)) 0x645920;
+inline IceElemental * (*IceElemental::ptr::_new2)() = (IceElemental * (*)()) 0x0;
+inline void (*IceElemental::ptr::DropTile)(IceElemental * self) = (void (*)(IceElemental * self)) 0x645ba0;
+inline void (*IceElemental::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*IceElemental::ptr::CSTR_IceElemental)(IceElemental * self) = (void (*)(IceElemental * self)) 0x6458b0;
 #endif
 
 #ifdef __linux__
 
-IceElemental * (*IceElemental::ptr::New)(IceElemental * self, int xVal, int yVal, int l) = (IceElemental * (*)(IceElemental * self, int xVal, int yVal, int l)) 0x81c35c0;
-IceElemental * (*IceElemental::ptr::_new2)() = (IceElemental * (*)()) 0x81c3750;
-void (*IceElemental::ptr::DropTile)(IceElemental * self) = (void (*)(IceElemental * self)) 0x837c880;
-void (*IceElemental::ptr::_mark)() = (void (*)()) 0x80b0630;
-void (*IceElemental::ptr::CSTR_IceElemental)(IceElemental * self) = (void (*)(IceElemental * self)) 0x81c35a0;
+inline IceElemental * (*IceElemental::ptr::New)(IceElemental * self, int xVal, int yVal, int l) = (IceElemental * (*)(IceElemental * self, int xVal, int yVal, int l)) 0x81c35c0;
+inline IceElemental * (*IceElemental::ptr::_new2)() = (IceElemental * (*)()) 0x81c3750;
+inline void (*IceElemental::ptr::DropTile)(IceElemental * self) = (void (*)(IceElemental * self)) 0x837c880;
+inline void (*IceElemental::ptr::_mark)() = (void (*)()) 0x80b0630;
+inline void (*IceElemental::ptr::CSTR_IceElemental)(IceElemental * self) = (void (*)(IceElemental * self)) 0x81c35a0;
 #endif
 #endif

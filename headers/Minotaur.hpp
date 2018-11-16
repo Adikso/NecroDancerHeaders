@@ -42,27 +42,27 @@ public:
 
 #ifdef _WIN32
 
-Minotaur * (*Minotaur::ptr::New)(Minotaur * self, int xVal, int yVal, int l) = (Minotaur * (*)(Minotaur * self, int xVal, int yVal, int l)) 0x618fc0;
-Minotaur * (*Minotaur::ptr::_new2)() = (Minotaur * (*)()) 0x0;
-void (*Minotaur::ptr::Update)(Minotaur * self) = (void (*)(Minotaur * self)) 0x619260;
-int (*Minotaur::ptr::TryChargeAt)(Minotaur * self, int targetX, int targetY) = (int (*)(Minotaur * self, int targetX, int targetY)) 0x619430;
-Point * (*Minotaur::ptr::GetMovementDirection)(Minotaur * self) = (Point * (*)(Minotaur * self)) 0x619580;
-void (*Minotaur::ptr::MoveFail)(Minotaur * self) = (void (*)(Minotaur * self)) 0x619a00;
-void (*Minotaur::ptr::MoveSucceed)(Minotaur * self, bool hitPlayer, bool moveDelayed) = (void (*)(Minotaur * self, bool hitPlayer, bool moveDelayed)) 0x619d30;
-void (*Minotaur::ptr::_mark)() = (void (*)()) 0x0;
-void (*Minotaur::ptr::CSTR_Minotaur)(Minotaur * self) = (void (*)(Minotaur * self)) 0x618f30;
+inline Minotaur * (*Minotaur::ptr::New)(Minotaur * self, int xVal, int yVal, int l) = (Minotaur * (*)(Minotaur * self, int xVal, int yVal, int l)) 0x618fc0;
+inline Minotaur * (*Minotaur::ptr::_new2)() = (Minotaur * (*)()) 0x0;
+inline void (*Minotaur::ptr::Update)(Minotaur * self) = (void (*)(Minotaur * self)) 0x619260;
+inline int (*Minotaur::ptr::TryChargeAt)(Minotaur * self, int targetX, int targetY) = (int (*)(Minotaur * self, int targetX, int targetY)) 0x619430;
+inline Point * (*Minotaur::ptr::GetMovementDirection)(Minotaur * self) = (Point * (*)(Minotaur * self)) 0x619580;
+inline void (*Minotaur::ptr::MoveFail)(Minotaur * self) = (void (*)(Minotaur * self)) 0x619a00;
+inline void (*Minotaur::ptr::MoveSucceed)(Minotaur * self, bool hitPlayer, bool moveDelayed) = (void (*)(Minotaur * self, bool hitPlayer, bool moveDelayed)) 0x619d30;
+inline void (*Minotaur::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Minotaur::ptr::CSTR_Minotaur)(Minotaur * self) = (void (*)(Minotaur * self)) 0x618f30;
 #endif
 
 #ifdef __linux__
 
-Minotaur * (*Minotaur::ptr::New)(Minotaur * self, int xVal, int yVal, int l) = (Minotaur * (*)(Minotaur * self, int xVal, int yVal, int l)) 0x81b65c0;
-Minotaur * (*Minotaur::ptr::_new2)() = (Minotaur * (*)()) 0x81b6780;
-void (*Minotaur::ptr::Update)(Minotaur * self) = (void (*)(Minotaur * self)) 0x8384c00;
-int (*Minotaur::ptr::TryChargeAt)(Minotaur * self, int targetX, int targetY) = (int (*)(Minotaur * self, int targetX, int targetY)) 0x81321f0;
-Point * (*Minotaur::ptr::GetMovementDirection)(Minotaur * self) = (Point * (*)(Minotaur * self)) 0x83a2680;
-void (*Minotaur::ptr::MoveFail)(Minotaur * self) = (void (*)(Minotaur * self)) 0x83a29a0;
-void (*Minotaur::ptr::MoveSucceed)(Minotaur * self, bool hitPlayer, bool moveDelayed) = (void (*)(Minotaur * self, bool hitPlayer, bool moveDelayed)) 0x8257430;
-void (*Minotaur::ptr::_mark)() = (void (*)()) 0x80b0bc0;
-void (*Minotaur::ptr::CSTR_Minotaur)(Minotaur * self) = (void (*)(Minotaur * self)) 0x81b6580;
+inline Minotaur * (*Minotaur::ptr::New)(Minotaur * self, int xVal, int yVal, int l) = (Minotaur * (*)(Minotaur * self, int xVal, int yVal, int l)) 0x81b65c0;
+inline Minotaur * (*Minotaur::ptr::_new2)() = (Minotaur * (*)()) 0x81b6780;
+inline void (*Minotaur::ptr::Update)(Minotaur * self) = (void (*)(Minotaur * self)) 0x8384c00;
+inline int (*Minotaur::ptr::TryChargeAt)(Minotaur * self, int targetX, int targetY) = (int (*)(Minotaur * self, int targetX, int targetY)) 0x81321f0;
+inline Point * (*Minotaur::ptr::GetMovementDirection)(Minotaur * self) = (Point * (*)(Minotaur * self)) 0x83a2680;
+inline void (*Minotaur::ptr::MoveFail)(Minotaur * self) = (void (*)(Minotaur * self)) 0x83a29a0;
+inline void (*Minotaur::ptr::MoveSucceed)(Minotaur * self, bool hitPlayer, bool moveDelayed) = (void (*)(Minotaur * self, bool hitPlayer, bool moveDelayed)) 0x8257430;
+inline void (*Minotaur::ptr::_mark)() = (void (*)()) 0x80b0bc0;
+inline void (*Minotaur::ptr::CSTR_Minotaur)(Minotaur * self) = (void (*)(Minotaur * self)) 0x81b6580;
 #endif
 #endif

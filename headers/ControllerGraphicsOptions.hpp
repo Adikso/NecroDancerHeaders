@@ -60,27 +60,27 @@ public:
 
 #ifdef _WIN32
 
-void (*ControllerGraphicsOptions::ptr::UpdateMultiplierText)(ControllerGraphicsOptions * self) = (void (*)(ControllerGraphicsOptions * self)) 0x6a2370;
-ControllerGraphicsOptions * (*ControllerGraphicsOptions::ptr::New)(ControllerGraphicsOptions * self, Controller * game) = (ControllerGraphicsOptions * (*)(ControllerGraphicsOptions * self, Controller * game)) 0x6a2580;
-void (*ControllerGraphicsOptions::ptr::_Update)() = (void (*)()) 0x0;
-void (*ControllerGraphicsOptions::ptr::Render)(ControllerGraphicsOptions * self) = (void (*)(ControllerGraphicsOptions * self)) 0x6a2890;
-void (*ControllerGraphicsOptions::ptr::_RegainFocus)() = (void (*)()) 0x0;
-void (*ControllerGraphicsOptions::ptr::GUICallback)(ControllerGraphicsOptions * self, int index, bool left) = (void (*)(ControllerGraphicsOptions * self, int index, bool left)) 0x6a2d00;
-void (*ControllerGraphicsOptions::ptr::Destructor)(ControllerGraphicsOptions * self) = (void (*)(ControllerGraphicsOptions * self)) 0x6a2f50;
-void (*ControllerGraphicsOptions::ptr::mark)(ControllerGraphicsOptions * self) = (void (*)(ControllerGraphicsOptions * self)) 0x6a2fc0;
-void (*ControllerGraphicsOptions::ptr::CSTR_ControllerGraphicsOptions)(ControllerGraphicsOptions * self) = (void (*)(ControllerGraphicsOptions * self)) 0x6a1a10;
+inline void (*ControllerGraphicsOptions::ptr::UpdateMultiplierText)(ControllerGraphicsOptions * self) = (void (*)(ControllerGraphicsOptions * self)) 0x6a2370;
+inline ControllerGraphicsOptions * (*ControllerGraphicsOptions::ptr::New)(ControllerGraphicsOptions * self, Controller * game) = (ControllerGraphicsOptions * (*)(ControllerGraphicsOptions * self, Controller * game)) 0x6a2580;
+inline void (*ControllerGraphicsOptions::ptr::_Update)() = (void (*)()) 0x0;
+inline void (*ControllerGraphicsOptions::ptr::Render)(ControllerGraphicsOptions * self) = (void (*)(ControllerGraphicsOptions * self)) 0x6a2890;
+inline void (*ControllerGraphicsOptions::ptr::_RegainFocus)() = (void (*)()) 0x0;
+inline void (*ControllerGraphicsOptions::ptr::GUICallback)(ControllerGraphicsOptions * self, int index, bool left) = (void (*)(ControllerGraphicsOptions * self, int index, bool left)) 0x6a2d00;
+inline void (*ControllerGraphicsOptions::ptr::Destructor)(ControllerGraphicsOptions * self) = (void (*)(ControllerGraphicsOptions * self)) 0x6a2f50;
+inline void (*ControllerGraphicsOptions::ptr::mark)(ControllerGraphicsOptions * self) = (void (*)(ControllerGraphicsOptions * self)) 0x6a2fc0;
+inline void (*ControllerGraphicsOptions::ptr::CSTR_ControllerGraphicsOptions)(ControllerGraphicsOptions * self) = (void (*)(ControllerGraphicsOptions * self)) 0x6a1a10;
 #endif
 
 #ifdef __linux__
 
-void (*ControllerGraphicsOptions::ptr::UpdateMultiplierText)(ControllerGraphicsOptions * self) = (void (*)(ControllerGraphicsOptions * self)) 0x8106f10;
-ControllerGraphicsOptions * (*ControllerGraphicsOptions::ptr::New)(ControllerGraphicsOptions * self, Controller * game) = (ControllerGraphicsOptions * (*)(ControllerGraphicsOptions * self, Controller * game)) 0x81ef440;
-void (*ControllerGraphicsOptions::ptr::_Update)() = (void (*)()) 0x8079ea0;
-void (*ControllerGraphicsOptions::ptr::Render)(ControllerGraphicsOptions * self) = (void (*)(ControllerGraphicsOptions * self)) 0x80c56b0;
-void (*ControllerGraphicsOptions::ptr::_RegainFocus)() = (void (*)()) 0x8079ec0;
-void (*ControllerGraphicsOptions::ptr::GUICallback)(ControllerGraphicsOptions * self, int index, bool left) = (void (*)(ControllerGraphicsOptions * self, int index, bool left)) 0x82db7c0;
-void (*ControllerGraphicsOptions::ptr::Destructor)(ControllerGraphicsOptions * self) = (void (*)(ControllerGraphicsOptions * self)) 0x8079ed0;
-void (*ControllerGraphicsOptions::ptr::mark)(ControllerGraphicsOptions * self) = (void (*)(ControllerGraphicsOptions * self)) 0x80aa190;
-void (*ControllerGraphicsOptions::ptr::CSTR_ControllerGraphicsOptions)(ControllerGraphicsOptions * self) = (void (*)(ControllerGraphicsOptions * self)) 0x81eea40;
+inline void (*ControllerGraphicsOptions::ptr::UpdateMultiplierText)(ControllerGraphicsOptions * self) = (void (*)(ControllerGraphicsOptions * self)) 0x8106f10;
+inline ControllerGraphicsOptions * (*ControllerGraphicsOptions::ptr::New)(ControllerGraphicsOptions * self, Controller * game) = (ControllerGraphicsOptions * (*)(ControllerGraphicsOptions * self, Controller * game)) 0x81ef440;
+inline void (*ControllerGraphicsOptions::ptr::_Update)() = (void (*)()) 0x8079ea0;
+inline void (*ControllerGraphicsOptions::ptr::Render)(ControllerGraphicsOptions * self) = (void (*)(ControllerGraphicsOptions * self)) 0x80c56b0;
+inline void (*ControllerGraphicsOptions::ptr::_RegainFocus)() = (void (*)()) 0x8079ec0;
+inline void (*ControllerGraphicsOptions::ptr::GUICallback)(ControllerGraphicsOptions * self, int index, bool left) = (void (*)(ControllerGraphicsOptions * self, int index, bool left)) 0x82db7c0;
+inline void (*ControllerGraphicsOptions::ptr::Destructor)(ControllerGraphicsOptions * self) = (void (*)(ControllerGraphicsOptions * self)) 0x8079ed0;
+inline void (*ControllerGraphicsOptions::ptr::mark)(ControllerGraphicsOptions * self) = (void (*)(ControllerGraphicsOptions * self)) 0x80aa190;
+inline void (*ControllerGraphicsOptions::ptr::CSTR_ControllerGraphicsOptions)(ControllerGraphicsOptions * self) = (void (*)(ControllerGraphicsOptions * self)) 0x81eea40;
 #endif
 #endif

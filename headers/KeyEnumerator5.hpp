@@ -27,19 +27,19 @@ public:
 
 #ifdef _WIN32
 
-KeyEnumerator5 * (*KeyEnumerator5::ptr::_New)(KeyEnumerator5 * self, Node9 * arg1) = (KeyEnumerator5 * (*)(KeyEnumerator5 * self, Node9 * arg1)) 0x0;
-KeyEnumerator5 * (*KeyEnumerator5::ptr::_new2)() = (KeyEnumerator5 * (*)()) 0x0;
-bool (*KeyEnumerator5::ptr::_HasNext)() = (bool (*)()) 0x0;
-int (*KeyEnumerator5::ptr::NextObject)(KeyEnumerator5 * self) = (int (*)(KeyEnumerator5 * self)) 0x6641a0;
-void (*KeyEnumerator5::ptr::_mark)() = (void (*)()) 0x0;
+inline KeyEnumerator5 * (*KeyEnumerator5::ptr::_New)(KeyEnumerator5 * self, Node9 * arg1) = (KeyEnumerator5 * (*)(KeyEnumerator5 * self, Node9 * arg1)) 0x0;
+inline KeyEnumerator5 * (*KeyEnumerator5::ptr::_new2)() = (KeyEnumerator5 * (*)()) 0x0;
+inline bool (*KeyEnumerator5::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline int (*KeyEnumerator5::ptr::NextObject)(KeyEnumerator5 * self) = (int (*)(KeyEnumerator5 * self)) 0x6641a0;
+inline void (*KeyEnumerator5::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-KeyEnumerator5 * (*KeyEnumerator5::ptr::_New)(KeyEnumerator5 * self, Node9 * arg1) = (KeyEnumerator5 * (*)(KeyEnumerator5 * self, Node9 * arg1)) 0x0;
-KeyEnumerator5 * (*KeyEnumerator5::ptr::_new2)() = (KeyEnumerator5 * (*)()) 0x81d8060;
-bool (*KeyEnumerator5::ptr::_HasNext)() = (bool (*)()) 0x8077910;
-int (*KeyEnumerator5::ptr::NextObject)(KeyEnumerator5 * self) = (int (*)(KeyEnumerator5 * self)) 0x809c6f0;
-void (*KeyEnumerator5::ptr::_mark)() = (void (*)()) 0x808e070;
+inline KeyEnumerator5 * (*KeyEnumerator5::ptr::_New)(KeyEnumerator5 * self, Node9 * arg1) = (KeyEnumerator5 * (*)(KeyEnumerator5 * self, Node9 * arg1)) 0x0;
+inline KeyEnumerator5 * (*KeyEnumerator5::ptr::_new2)() = (KeyEnumerator5 * (*)()) 0x81d8060;
+inline bool (*KeyEnumerator5::ptr::_HasNext)() = (bool (*)()) 0x8077910;
+inline int (*KeyEnumerator5::ptr::NextObject)(KeyEnumerator5 * self) = (int (*)(KeyEnumerator5 * self)) 0x809c6f0;
+inline void (*KeyEnumerator5::ptr::_mark)() = (void (*)()) 0x808e070;
 #endif
 #endif

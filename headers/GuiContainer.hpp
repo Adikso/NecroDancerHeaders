@@ -21,15 +21,15 @@ public:
 
 #ifdef _WIN32
 
-GuiContainer * (*GuiContainer::ptr::_New)() = (GuiContainer * (*)()) 0x0;
-void (*GuiContainer::ptr::GUICallback)(GuiContainer * self, int index, bool left) = (void (*)(GuiContainer * self, int index, bool left)) 0x403c10;
-void (*GuiContainer::ptr::_mark)() = (void (*)()) 0x0;
+inline GuiContainer * (*GuiContainer::ptr::_New)() = (GuiContainer * (*)()) 0x0;
+inline void (*GuiContainer::ptr::GUICallback)(GuiContainer * self, int index, bool left) = (void (*)(GuiContainer * self, int index, bool left)) 0x403c10;
+inline void (*GuiContainer::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-GuiContainer * (*GuiContainer::ptr::_New)() = (GuiContainer * (*)()) 0x811af90;
-void (*GuiContainer::ptr::GUICallback)(GuiContainer * self, int index, bool left) = (void (*)(GuiContainer * self, int index, bool left)) 0x806d990;
-void (*GuiContainer::ptr::_mark)() = (void (*)()) 0x806d9a0;
+inline GuiContainer * (*GuiContainer::ptr::_New)() = (GuiContainer * (*)()) 0x811af90;
+inline void (*GuiContainer::ptr::GUICallback)(GuiContainer * self, int index, bool left) = (void (*)(GuiContainer * self, int index, bool left)) 0x806d990;
+inline void (*GuiContainer::ptr::_mark)() = (void (*)()) 0x806d9a0;
 #endif
 #endif

@@ -37,27 +37,27 @@ public:
 
 #ifdef _WIN32
 
-Stack9 * (*Stack9::ptr::_New)() = (Stack9 * (*)()) 0x0;
-Stack9 * (*Stack9::ptr::_new2)(Stack9 * self, Array<Enemy *> * arg1) = (Stack9 * (*)(Stack9 * self, Array<Enemy *> * arg1)) 0x0;
-int (*Stack9::ptr::Push25)(Stack9 * self, Enemy * value) = (int (*)(Stack9 * self, Enemy * value)) 0x660e10;
-int (*Stack9::ptr::_Push26)(Stack9 * self, Array<Enemy *> * arg1, int arg2, int arg3) = (int (*)(Stack9 * self, Array<Enemy *> * arg1, int arg2, int arg3)) 0x0;
-int (*Stack9::ptr::_Push27)(Stack9 * self, Array<Enemy *> * arg1, int arg2) = (int (*)(Stack9 * self, Array<Enemy *> * arg1, int arg2)) 0x0;
-int (*Stack9::ptr::_Length)() = (int (*)()) 0x0;
-Enemy * (*Stack9::ptr::_Get2)(Stack9 * self, int arg1) = (Enemy * (*)(Stack9 * self, int arg1)) 0x0;
-int (*Stack9::ptr::_Set24)(Stack9 * self, int arg1, Enemy * arg2) = (int (*)(Stack9 * self, int arg1, Enemy * arg2)) 0x0;
-void (*Stack9::ptr::_mark)() = (void (*)()) 0x0;
+inline Stack9 * (*Stack9::ptr::_New)() = (Stack9 * (*)()) 0x0;
+inline Stack9 * (*Stack9::ptr::_new2)(Stack9 * self, Array<Enemy *> * arg1) = (Stack9 * (*)(Stack9 * self, Array<Enemy *> * arg1)) 0x0;
+inline int (*Stack9::ptr::Push25)(Stack9 * self, Enemy * value) = (int (*)(Stack9 * self, Enemy * value)) 0x660e10;
+inline int (*Stack9::ptr::_Push26)(Stack9 * self, Array<Enemy *> * arg1, int arg2, int arg3) = (int (*)(Stack9 * self, Array<Enemy *> * arg1, int arg2, int arg3)) 0x0;
+inline int (*Stack9::ptr::_Push27)(Stack9 * self, Array<Enemy *> * arg1, int arg2) = (int (*)(Stack9 * self, Array<Enemy *> * arg1, int arg2)) 0x0;
+inline int (*Stack9::ptr::_Length)() = (int (*)()) 0x0;
+inline Enemy * (*Stack9::ptr::_Get2)(Stack9 * self, int arg1) = (Enemy * (*)(Stack9 * self, int arg1)) 0x0;
+inline int (*Stack9::ptr::_Set24)(Stack9 * self, int arg1, Enemy * arg2) = (int (*)(Stack9 * self, int arg1, Enemy * arg2)) 0x0;
+inline void (*Stack9::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Stack9 * (*Stack9::ptr::_New)() = (Stack9 * (*)()) 0x81d6660;
-Stack9 * (*Stack9::ptr::_new2)(Stack9 * self, Array<Enemy *> * arg1) = (Stack9 * (*)(Stack9 * self, Array<Enemy *> * arg1)) 0x0;
-int (*Stack9::ptr::Push25)(Stack9 * self, Enemy * value) = (int (*)(Stack9 * self, Enemy * value)) 0x80be1c0;
-int (*Stack9::ptr::_Push26)(Stack9 * self, Array<Enemy *> * arg1, int arg2, int arg3) = (int (*)(Stack9 * self, Array<Enemy *> * arg1, int arg2, int arg3)) 0x0;
-int (*Stack9::ptr::_Push27)(Stack9 * self, Array<Enemy *> * arg1, int arg2) = (int (*)(Stack9 * self, Array<Enemy *> * arg1, int arg2)) 0x0;
-int (*Stack9::ptr::_Length)() = (int (*)()) 0x80775a0;
-Enemy * (*Stack9::ptr::_Get2)(Stack9 * self, int arg1) = (Enemy * (*)(Stack9 * self, int arg1)) 0x80775b0;
-int (*Stack9::ptr::_Set24)(Stack9 * self, int arg1, Enemy * arg2) = (int (*)(Stack9 * self, int arg1, Enemy * arg2)) 0x0;
-void (*Stack9::ptr::_mark)() = (void (*)()) 0x80775c0;
+inline Stack9 * (*Stack9::ptr::_New)() = (Stack9 * (*)()) 0x81d6660;
+inline Stack9 * (*Stack9::ptr::_new2)(Stack9 * self, Array<Enemy *> * arg1) = (Stack9 * (*)(Stack9 * self, Array<Enemy *> * arg1)) 0x0;
+inline int (*Stack9::ptr::Push25)(Stack9 * self, Enemy * value) = (int (*)(Stack9 * self, Enemy * value)) 0x80be1c0;
+inline int (*Stack9::ptr::_Push26)(Stack9 * self, Array<Enemy *> * arg1, int arg2, int arg3) = (int (*)(Stack9 * self, Array<Enemy *> * arg1, int arg2, int arg3)) 0x0;
+inline int (*Stack9::ptr::_Push27)(Stack9 * self, Array<Enemy *> * arg1, int arg2) = (int (*)(Stack9 * self, Array<Enemy *> * arg1, int arg2)) 0x0;
+inline int (*Stack9::ptr::_Length)() = (int (*)()) 0x80775a0;
+inline Enemy * (*Stack9::ptr::_Get2)(Stack9 * self, int arg1) = (Enemy * (*)(Stack9 * self, int arg1)) 0x80775b0;
+inline int (*Stack9::ptr::_Set24)(Stack9 * self, int arg1, Enemy * arg2) = (int (*)(Stack9 * self, int arg1, Enemy * arg2)) 0x0;
+inline void (*Stack9::ptr::_mark)() = (void (*)()) 0x80775c0;
 #endif
 #endif

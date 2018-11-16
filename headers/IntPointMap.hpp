@@ -27,17 +27,17 @@ public:
 
 #ifdef _WIN32
 
-IntPointMap * (*IntPointMap::ptr::_New)() = (IntPointMap * (*)()) 0x0;
-int (*IntPointMap::ptr::Compare6)(IntPointMap * self, Point * a, Point * b) = (int (*)(IntPointMap * self, Point * a, Point * b)) 0x5f3540;
-void (*IntPointMap::ptr::_mark)() = (void (*)()) 0x0;
-void (*IntPointMap::ptr::CSTR_IntPointMap)(IntPointMap * self) = (void (*)(IntPointMap * self)) 0x630e90;
+inline IntPointMap * (*IntPointMap::ptr::_New)() = (IntPointMap * (*)()) 0x0;
+inline int (*IntPointMap::ptr::Compare6)(IntPointMap * self, Point * a, Point * b) = (int (*)(IntPointMap * self, Point * a, Point * b)) 0x5f3540;
+inline void (*IntPointMap::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*IntPointMap::ptr::CSTR_IntPointMap)(IntPointMap * self) = (void (*)(IntPointMap * self)) 0x630e90;
 #endif
 
 #ifdef __linux__
 
-IntPointMap * (*IntPointMap::ptr::_New)() = (IntPointMap * (*)()) 0x81ba1f0;
-int (*IntPointMap::ptr::Compare6)(IntPointMap * self, Point * a, Point * b) = (int (*)(IntPointMap * self, Point * a, Point * b)) 0x80879e0;
-void (*IntPointMap::ptr::_mark)() = (void (*)()) 0x8082ce0;
-void (*IntPointMap::ptr::CSTR_IntPointMap)(IntPointMap * self) = (void (*)(IntPointMap * self)) 0x81ba1d0;
+inline IntPointMap * (*IntPointMap::ptr::_New)() = (IntPointMap * (*)()) 0x81ba1f0;
+inline int (*IntPointMap::ptr::Compare6)(IntPointMap * self, Point * a, Point * b) = (int (*)(IntPointMap * self, Point * a, Point * b)) 0x80879e0;
+inline void (*IntPointMap::ptr::_mark)() = (void (*)()) 0x8082ce0;
+inline void (*IntPointMap::ptr::CSTR_IntPointMap)(IntPointMap * self) = (void (*)(IntPointMap * self)) 0x81ba1d0;
 #endif
 #endif

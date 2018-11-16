@@ -41,27 +41,27 @@ public:
 
 #ifdef _WIN32
 
-List2 * (*List2::ptr::_New)() = (List2 * (*)()) 0x0;
-Node6 * (*List2::ptr::AddLast2)(List2 * self, Sprite * data) = (Node6 * (*)(List2 * self, Sprite * data)) 0x541dc0;
-List2 * (*List2::ptr::_new2)(List2 * self, Array<Sprite *> * arg1) = (List2 * (*)(List2 * self, Array<Sprite *> * arg1)) 0x0;
-Enumerator2 * (*List2::ptr::ObjectEnumerator)(List2 * self) = (Enumerator2 * (*)(List2 * self)) 0x541e60;
-int (*List2::ptr::_Clear)() = (int (*)()) 0x0;
-int (*List2::ptr::_Count)() = (int (*)()) 0x0;
-Sprite * (*List2::ptr::_First)() = (Sprite * (*)()) 0x0;
-void (*List2::ptr::_mark)() = (void (*)()) 0x0;
-void (*List2::ptr::CSTR_List2)(List2 * self) = (void (*)(List2 * self)) 0x541cf0;
+inline List2 * (*List2::ptr::_New)() = (List2 * (*)()) 0x0;
+inline Node6 * (*List2::ptr::AddLast2)(List2 * self, Sprite * data) = (Node6 * (*)(List2 * self, Sprite * data)) 0x541dc0;
+inline List2 * (*List2::ptr::_new2)(List2 * self, Array<Sprite *> * arg1) = (List2 * (*)(List2 * self, Array<Sprite *> * arg1)) 0x0;
+inline Enumerator2 * (*List2::ptr::ObjectEnumerator)(List2 * self) = (Enumerator2 * (*)(List2 * self)) 0x541e60;
+inline int (*List2::ptr::_Clear)() = (int (*)()) 0x0;
+inline int (*List2::ptr::_Count)() = (int (*)()) 0x0;
+inline Sprite * (*List2::ptr::_First)() = (Sprite * (*)()) 0x0;
+inline void (*List2::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List2::ptr::CSTR_List2)(List2 * self) = (void (*)(List2 * self)) 0x541cf0;
 #endif
 
 #ifdef __linux__
 
-List2 * (*List2::ptr::_New)() = (List2 * (*)()) 0x8145e70;
-Node6 * (*List2::ptr::AddLast2)(List2 * self, Sprite * data) = (Node6 * (*)(List2 * self, Sprite * data)) 0x80b6350;
-List2 * (*List2::ptr::_new2)(List2 * self, Array<Sprite *> * arg1) = (List2 * (*)(List2 * self, Array<Sprite *> * arg1)) 0x0;
-Enumerator2 * (*List2::ptr::ObjectEnumerator)(List2 * self) = (Enumerator2 * (*)(List2 * self)) 0x80b6510;
-int (*List2::ptr::_Clear)() = (int (*)()) 0x8094a50;
-int (*List2::ptr::_Count)() = (int (*)()) 0x806f590;
-Sprite * (*List2::ptr::_First)() = (Sprite * (*)()) 0x806f5b0;
-void (*List2::ptr::_mark)() = (void (*)()) 0x808e570;
-void (*List2::ptr::CSTR_List2)(List2 * self) = (void (*)(List2 * self)) 0x8146190;
+inline List2 * (*List2::ptr::_New)() = (List2 * (*)()) 0x8145e70;
+inline Node6 * (*List2::ptr::AddLast2)(List2 * self, Sprite * data) = (Node6 * (*)(List2 * self, Sprite * data)) 0x80b6350;
+inline List2 * (*List2::ptr::_new2)(List2 * self, Array<Sprite *> * arg1) = (List2 * (*)(List2 * self, Array<Sprite *> * arg1)) 0x0;
+inline Enumerator2 * (*List2::ptr::ObjectEnumerator)(List2 * self) = (Enumerator2 * (*)(List2 * self)) 0x80b6510;
+inline int (*List2::ptr::_Clear)() = (int (*)()) 0x8094a50;
+inline int (*List2::ptr::_Count)() = (int (*)()) 0x806f590;
+inline Sprite * (*List2::ptr::_First)() = (Sprite * (*)()) 0x806f5b0;
+inline void (*List2::ptr::_mark)() = (void (*)()) 0x808e570;
+inline void (*List2::ptr::CSTR_List2)(List2 * self) = (void (*)(List2 * self)) 0x8146190;
 #endif
 #endif

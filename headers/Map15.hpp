@@ -43,33 +43,33 @@ public:
 
 #ifdef _WIN32
 
-Map15 * (*Map15::ptr::_New)() = (Map15 * (*)()) 0x0;
-int (*Map15::ptr::_Compare)(Map15 * self, String * arg1, String * arg2) = (int (*)(Map15 * self, String * arg1, String * arg2)) 0x0;
-Node39 * (*Map15::ptr::_FindNode)(Map15 * self, String * arg1) = (Node39 * (*)(Map15 * self, String * arg1)) 0x0;
-bool (*Map15::ptr::_Contains)(Map15 * self, String * arg1) = (bool (*)(Map15 * self, String * arg1)) 0x0;
-int (*Map15::ptr::_RotateLeft15)(Map15 * self, Node39 * arg1) = (int (*)(Map15 * self, Node39 * arg1)) 0x0;
-int (*Map15::ptr::_RotateRight15)(Map15 * self, Node39 * arg1) = (int (*)(Map15 * self, Node39 * arg1)) 0x0;
-int (*Map15::ptr::_InsertFixup15)(Map15 * self, Node39 * arg1) = (int (*)(Map15 * self, Node39 * arg1)) 0x0;
-bool (*Map15::ptr::Set16)(Map15 * self, String * key, Sprite * value) = (bool (*)(Map15 * self, String * key, Sprite * value)) 0x5f2b10;
-int (*Map15::ptr::_Clear)() = (int (*)()) 0x0;
-bool (*Map15::ptr::Add9)(Map15 * self, String * key, Sprite * value) = (bool (*)(Map15 * self, String * key, Sprite * value)) 0x5f2c60;
-Sprite * (*Map15::ptr::_Get)(Map15 * self, String * arg1) = (Sprite * (*)(Map15 * self, String * arg1)) 0x0;
-void (*Map15::ptr::_mark)() = (void (*)()) 0x0;
+inline Map15 * (*Map15::ptr::_New)() = (Map15 * (*)()) 0x0;
+inline int (*Map15::ptr::_Compare)(Map15 * self, String * arg1, String * arg2) = (int (*)(Map15 * self, String * arg1, String * arg2)) 0x0;
+inline Node39 * (*Map15::ptr::_FindNode)(Map15 * self, String * arg1) = (Node39 * (*)(Map15 * self, String * arg1)) 0x0;
+inline bool (*Map15::ptr::_Contains)(Map15 * self, String * arg1) = (bool (*)(Map15 * self, String * arg1)) 0x0;
+inline int (*Map15::ptr::_RotateLeft15)(Map15 * self, Node39 * arg1) = (int (*)(Map15 * self, Node39 * arg1)) 0x0;
+inline int (*Map15::ptr::_RotateRight15)(Map15 * self, Node39 * arg1) = (int (*)(Map15 * self, Node39 * arg1)) 0x0;
+inline int (*Map15::ptr::_InsertFixup15)(Map15 * self, Node39 * arg1) = (int (*)(Map15 * self, Node39 * arg1)) 0x0;
+inline bool (*Map15::ptr::Set16)(Map15 * self, String * key, Sprite * value) = (bool (*)(Map15 * self, String * key, Sprite * value)) 0x5f2b10;
+inline int (*Map15::ptr::_Clear)() = (int (*)()) 0x0;
+inline bool (*Map15::ptr::Add9)(Map15 * self, String * key, Sprite * value) = (bool (*)(Map15 * self, String * key, Sprite * value)) 0x5f2c60;
+inline Sprite * (*Map15::ptr::_Get)(Map15 * self, String * arg1) = (Sprite * (*)(Map15 * self, String * arg1)) 0x0;
+inline void (*Map15::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Map15 * (*Map15::ptr::_New)() = (Map15 * (*)()) 0x819d680;
-int (*Map15::ptr::_Compare)(Map15 * self, String * arg1, String * arg2) = (int (*)(Map15 * self, String * arg1, String * arg2)) 0x0;
-Node39 * (*Map15::ptr::_FindNode)(Map15 * self, String * arg1) = (Node39 * (*)(Map15 * self, String * arg1)) 0x80c32a0;
-bool (*Map15::ptr::_Contains)(Map15 * self, String * arg1) = (bool (*)(Map15 * self, String * arg1)) 0x80c3240;
-int (*Map15::ptr::_RotateLeft15)(Map15 * self, Node39 * arg1) = (int (*)(Map15 * self, Node39 * arg1)) 0x0;
-int (*Map15::ptr::_RotateRight15)(Map15 * self, Node39 * arg1) = (int (*)(Map15 * self, Node39 * arg1)) 0x0;
-int (*Map15::ptr::_InsertFixup15)(Map15 * self, Node39 * arg1) = (int (*)(Map15 * self, Node39 * arg1)) 0x0;
-bool (*Map15::ptr::Set16)(Map15 * self, String * key, Sprite * value) = (bool (*)(Map15 * self, String * key, Sprite * value)) 0x80dc800;
-int (*Map15::ptr::_Clear)() = (int (*)()) 0x8072f20;
-bool (*Map15::ptr::Add9)(Map15 * self, String * key, Sprite * value) = (bool (*)(Map15 * self, String * key, Sprite * value)) 0x80dba80;
-Sprite * (*Map15::ptr::_Get)(Map15 * self, String * arg1) = (Sprite * (*)(Map15 * self, String * arg1)) 0x80c31d0;
-void (*Map15::ptr::_mark)() = (void (*)()) 0x8082bc0;
+inline Map15 * (*Map15::ptr::_New)() = (Map15 * (*)()) 0x819d680;
+inline int (*Map15::ptr::_Compare)(Map15 * self, String * arg1, String * arg2) = (int (*)(Map15 * self, String * arg1, String * arg2)) 0x0;
+inline Node39 * (*Map15::ptr::_FindNode)(Map15 * self, String * arg1) = (Node39 * (*)(Map15 * self, String * arg1)) 0x80c32a0;
+inline bool (*Map15::ptr::_Contains)(Map15 * self, String * arg1) = (bool (*)(Map15 * self, String * arg1)) 0x80c3240;
+inline int (*Map15::ptr::_RotateLeft15)(Map15 * self, Node39 * arg1) = (int (*)(Map15 * self, Node39 * arg1)) 0x0;
+inline int (*Map15::ptr::_RotateRight15)(Map15 * self, Node39 * arg1) = (int (*)(Map15 * self, Node39 * arg1)) 0x0;
+inline int (*Map15::ptr::_InsertFixup15)(Map15 * self, Node39 * arg1) = (int (*)(Map15 * self, Node39 * arg1)) 0x0;
+inline bool (*Map15::ptr::Set16)(Map15 * self, String * key, Sprite * value) = (bool (*)(Map15 * self, String * key, Sprite * value)) 0x80dc800;
+inline int (*Map15::ptr::_Clear)() = (int (*)()) 0x8072f20;
+inline bool (*Map15::ptr::Add9)(Map15 * self, String * key, Sprite * value) = (bool (*)(Map15 * self, String * key, Sprite * value)) 0x80dba80;
+inline Sprite * (*Map15::ptr::_Get)(Map15 * self, String * arg1) = (Sprite * (*)(Map15 * self, String * arg1)) 0x80c31d0;
+inline void (*Map15::ptr::_mark)() = (void (*)()) 0x8082bc0;
 #endif
 #endif

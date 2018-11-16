@@ -51,37 +51,37 @@ public:
 
 #ifdef _WIN32
 
-List14 * (*List14::ptr::_New)() = (List14 * (*)()) 0x0;
-Node24 * (*List14::ptr::AddLast14)(List14 * self, Trap * data) = (Node24 * (*)(List14 * self, Trap * data)) 0x5d8810;
-List14 * (*List14::ptr::_new2)(List14 * self, Array<Trap *> * arg1) = (List14 * (*)(List14 * self, Array<Trap *> * arg1)) 0x0;
-Enumerator7 * (*List14::ptr::ObjectEnumerator)(List14 * self) = (Enumerator7 * (*)(List14 * self)) 0x5d88b0;
-bool (*List14::ptr::_Equals9)(List14 * self, Trap * arg1, Trap * arg2) = (bool (*)(List14 * self, Trap * arg1, Trap * arg2)) 0x0;
-int (*List14::ptr::_RemoveEach8)(List14 * self, Trap * arg1) = (int (*)(List14 * self, Trap * arg1)) 0x0;
-int (*List14::ptr::_Clear)() = (int (*)()) 0x0;
-int (*List14::ptr::_Count)() = (int (*)()) 0x0;
-Array<Trap *> * (*List14::ptr::ToArray)(List14 * self) = (Array<Trap *> * (*)(List14 * self)) 0x5d8940;
-int (*List14::ptr::_Compare3)(List14 * self, Trap * arg1, Trap * arg2) = (int (*)(List14 * self, Trap * arg1, Trap * arg2)) 0x0;
-int (*List14::ptr::Sort)(List14 * self, int ascending) = (int (*)(List14 * self, int ascending)) 0x5d8aa0;
-void (*List14::ptr::_mark)() = (void (*)()) 0x0;
-int (*List14::ptr::RemoveEach9)(List14 * self, Trap * value) = (int (*)(List14 * self, Trap * value)) 0x57f9b0;
-void (*List14::ptr::CSTR_List14)(List14 * self) = (void (*)(List14 * self)) 0x5d8740;
+inline List14 * (*List14::ptr::_New)() = (List14 * (*)()) 0x0;
+inline Node24 * (*List14::ptr::AddLast14)(List14 * self, Trap * data) = (Node24 * (*)(List14 * self, Trap * data)) 0x5d8810;
+inline List14 * (*List14::ptr::_new2)(List14 * self, Array<Trap *> * arg1) = (List14 * (*)(List14 * self, Array<Trap *> * arg1)) 0x0;
+inline Enumerator7 * (*List14::ptr::ObjectEnumerator)(List14 * self) = (Enumerator7 * (*)(List14 * self)) 0x5d88b0;
+inline bool (*List14::ptr::_Equals9)(List14 * self, Trap * arg1, Trap * arg2) = (bool (*)(List14 * self, Trap * arg1, Trap * arg2)) 0x0;
+inline int (*List14::ptr::_RemoveEach8)(List14 * self, Trap * arg1) = (int (*)(List14 * self, Trap * arg1)) 0x0;
+inline int (*List14::ptr::_Clear)() = (int (*)()) 0x0;
+inline int (*List14::ptr::_Count)() = (int (*)()) 0x0;
+inline Array<Trap *> * (*List14::ptr::ToArray)(List14 * self) = (Array<Trap *> * (*)(List14 * self)) 0x5d8940;
+inline int (*List14::ptr::_Compare3)(List14 * self, Trap * arg1, Trap * arg2) = (int (*)(List14 * self, Trap * arg1, Trap * arg2)) 0x0;
+inline int (*List14::ptr::Sort)(List14 * self, int ascending) = (int (*)(List14 * self, int ascending)) 0x5d8aa0;
+inline void (*List14::ptr::_mark)() = (void (*)()) 0x0;
+inline int (*List14::ptr::RemoveEach9)(List14 * self, Trap * value) = (int (*)(List14 * self, Trap * value)) 0x57f9b0;
+inline void (*List14::ptr::CSTR_List14)(List14 * self) = (void (*)(List14 * self)) 0x5d8740;
 #endif
 
 #ifdef __linux__
 
-List14 * (*List14::ptr::_New)() = (List14 * (*)()) 0x8192da0;
-Node24 * (*List14::ptr::AddLast14)(List14 * self, Trap * data) = (Node24 * (*)(List14 * self, Trap * data)) 0x8192ff0;
-List14 * (*List14::ptr::_new2)(List14 * self, Array<Trap *> * arg1) = (List14 * (*)(List14 * self, Array<Trap *> * arg1)) 0x0;
-Enumerator7 * (*List14::ptr::ObjectEnumerator)(List14 * self) = (Enumerator7 * (*)(List14 * self)) 0x80b7f30;
-bool (*List14::ptr::_Equals9)(List14 * self, Trap * arg1, Trap * arg2) = (bool (*)(List14 * self, Trap * arg1, Trap * arg2)) 0x0;
-int (*List14::ptr::_RemoveEach8)(List14 * self, Trap * arg1) = (int (*)(List14 * self, Trap * arg1)) 0x0;
-int (*List14::ptr::_Clear)() = (int (*)()) 0x8095ac0;
-int (*List14::ptr::_Count)() = (int (*)()) 0x8071d70;
-Array<Trap *> * (*List14::ptr::ToArray)(List14 * self) = (Array<Trap *> * (*)(List14 * self)) 0x80be060;
-int (*List14::ptr::_Compare3)(List14 * self, Trap * arg1, Trap * arg2) = (int (*)(List14 * self, Trap * arg1, Trap * arg2)) 0x81f72a0;
-int (*List14::ptr::Sort)(List14 * self, int ascending) = (int (*)(List14 * self, int ascending)) 0x8095820;
-void (*List14::ptr::_mark)() = (void (*)()) 0x808bff0;
-int (*List14::ptr::RemoveEach9)(List14 * self, Trap * value) = (int (*)(List14 * self, Trap * value)) 0x8071d10;
-void (*List14::ptr::CSTR_List14)(List14 * self) = (void (*)(List14 * self)) 0x8193130;
+inline List14 * (*List14::ptr::_New)() = (List14 * (*)()) 0x8192da0;
+inline Node24 * (*List14::ptr::AddLast14)(List14 * self, Trap * data) = (Node24 * (*)(List14 * self, Trap * data)) 0x8192ff0;
+inline List14 * (*List14::ptr::_new2)(List14 * self, Array<Trap *> * arg1) = (List14 * (*)(List14 * self, Array<Trap *> * arg1)) 0x0;
+inline Enumerator7 * (*List14::ptr::ObjectEnumerator)(List14 * self) = (Enumerator7 * (*)(List14 * self)) 0x80b7f30;
+inline bool (*List14::ptr::_Equals9)(List14 * self, Trap * arg1, Trap * arg2) = (bool (*)(List14 * self, Trap * arg1, Trap * arg2)) 0x0;
+inline int (*List14::ptr::_RemoveEach8)(List14 * self, Trap * arg1) = (int (*)(List14 * self, Trap * arg1)) 0x0;
+inline int (*List14::ptr::_Clear)() = (int (*)()) 0x8095ac0;
+inline int (*List14::ptr::_Count)() = (int (*)()) 0x8071d70;
+inline Array<Trap *> * (*List14::ptr::ToArray)(List14 * self) = (Array<Trap *> * (*)(List14 * self)) 0x80be060;
+inline int (*List14::ptr::_Compare3)(List14 * self, Trap * arg1, Trap * arg2) = (int (*)(List14 * self, Trap * arg1, Trap * arg2)) 0x81f72a0;
+inline int (*List14::ptr::Sort)(List14 * self, int ascending) = (int (*)(List14 * self, int ascending)) 0x8095820;
+inline void (*List14::ptr::_mark)() = (void (*)()) 0x808bff0;
+inline int (*List14::ptr::RemoveEach9)(List14 * self, Trap * value) = (int (*)(List14 * self, Trap * value)) 0x8071d10;
+inline void (*List14::ptr::CSTR_List14)(List14 * self) = (void (*)(List14 * self)) 0x8193130;
 #endif
 #endif

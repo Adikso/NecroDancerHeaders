@@ -40,29 +40,29 @@ public:
 
 #ifdef _WIN32
 
-Stack12 * (*Stack12::ptr::_New)() = (Stack12 * (*)()) 0x0;
-Stack12 * (*Stack12::ptr::_new2)(Stack12 * self, Array<SwarmSarcophagus *> * arg1) = (Stack12 * (*)(Stack12 * self, Array<SwarmSarcophagus *> * arg1)) 0x0;
-int (*Stack12::ptr::Push34)(Stack12 * self, SwarmSarcophagus * value) = (int (*)(Stack12 * self, SwarmSarcophagus * value)) 0x68b3e0;
-int (*Stack12::ptr::_Push35)(Stack12 * self, Array<SwarmSarcophagus *> * arg1, int arg2, int arg3) = (int (*)(Stack12 * self, Array<SwarmSarcophagus *> * arg1, int arg2, int arg3)) 0x0;
-int (*Stack12::ptr::_Push36)(Stack12 * self, Array<SwarmSarcophagus *> * arg1, int arg2) = (int (*)(Stack12 * self, Array<SwarmSarcophagus *> * arg1, int arg2)) 0x0;
-int (*Stack12::ptr::_Length)() = (int (*)()) 0x0;
-SwarmSarcophagus * (*Stack12::ptr::_Get2)(Stack12 * self, int arg1) = (SwarmSarcophagus * (*)(Stack12 * self, int arg1)) 0x0;
-int (*Stack12::ptr::Set25)(Stack12 * self, int index, SwarmSarcophagus * value) = (int (*)(Stack12 * self, int index, SwarmSarcophagus * value)) 0x6314c0;
-Enumerator52 * (*Stack12::ptr::ObjectEnumerator)(Stack12 * self) = (Enumerator52 * (*)(Stack12 * self)) 0x68b480;
-void (*Stack12::ptr::_mark)() = (void (*)()) 0x0;
+inline Stack12 * (*Stack12::ptr::_New)() = (Stack12 * (*)()) 0x0;
+inline Stack12 * (*Stack12::ptr::_new2)(Stack12 * self, Array<SwarmSarcophagus *> * arg1) = (Stack12 * (*)(Stack12 * self, Array<SwarmSarcophagus *> * arg1)) 0x0;
+inline int (*Stack12::ptr::Push34)(Stack12 * self, SwarmSarcophagus * value) = (int (*)(Stack12 * self, SwarmSarcophagus * value)) 0x68b3e0;
+inline int (*Stack12::ptr::_Push35)(Stack12 * self, Array<SwarmSarcophagus *> * arg1, int arg2, int arg3) = (int (*)(Stack12 * self, Array<SwarmSarcophagus *> * arg1, int arg2, int arg3)) 0x0;
+inline int (*Stack12::ptr::_Push36)(Stack12 * self, Array<SwarmSarcophagus *> * arg1, int arg2) = (int (*)(Stack12 * self, Array<SwarmSarcophagus *> * arg1, int arg2)) 0x0;
+inline int (*Stack12::ptr::_Length)() = (int (*)()) 0x0;
+inline SwarmSarcophagus * (*Stack12::ptr::_Get2)(Stack12 * self, int arg1) = (SwarmSarcophagus * (*)(Stack12 * self, int arg1)) 0x0;
+inline int (*Stack12::ptr::Set25)(Stack12 * self, int index, SwarmSarcophagus * value) = (int (*)(Stack12 * self, int index, SwarmSarcophagus * value)) 0x6314c0;
+inline Enumerator52 * (*Stack12::ptr::ObjectEnumerator)(Stack12 * self) = (Enumerator52 * (*)(Stack12 * self)) 0x68b480;
+inline void (*Stack12::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Stack12 * (*Stack12::ptr::_New)() = (Stack12 * (*)()) 0x81e2800;
-Stack12 * (*Stack12::ptr::_new2)(Stack12 * self, Array<SwarmSarcophagus *> * arg1) = (Stack12 * (*)(Stack12 * self, Array<SwarmSarcophagus *> * arg1)) 0x0;
-int (*Stack12::ptr::Push34)(Stack12 * self, SwarmSarcophagus * value) = (int (*)(Stack12 * self, SwarmSarcophagus * value)) 0x80bf280;
-int (*Stack12::ptr::_Push35)(Stack12 * self, Array<SwarmSarcophagus *> * arg1, int arg2, int arg3) = (int (*)(Stack12 * self, Array<SwarmSarcophagus *> * arg1, int arg2, int arg3)) 0x0;
-int (*Stack12::ptr::_Push36)(Stack12 * self, Array<SwarmSarcophagus *> * arg1, int arg2) = (int (*)(Stack12 * self, Array<SwarmSarcophagus *> * arg1, int arg2)) 0x0;
-int (*Stack12::ptr::_Length)() = (int (*)()) 0x8078cf0;
-SwarmSarcophagus * (*Stack12::ptr::_Get2)(Stack12 * self, int arg1) = (SwarmSarcophagus * (*)(Stack12 * self, int arg1)) 0x8078d00;
-int (*Stack12::ptr::Set25)(Stack12 * self, int index, SwarmSarcophagus * value) = (int (*)(Stack12 * self, int index, SwarmSarcophagus * value)) 0x80875b0;
-Enumerator52 * (*Stack12::ptr::ObjectEnumerator)(Stack12 * self) = (Enumerator52 * (*)(Stack12 * self)) 0x80bc690;
-void (*Stack12::ptr::_mark)() = (void (*)()) 0x8078d10;
+inline Stack12 * (*Stack12::ptr::_New)() = (Stack12 * (*)()) 0x81e2800;
+inline Stack12 * (*Stack12::ptr::_new2)(Stack12 * self, Array<SwarmSarcophagus *> * arg1) = (Stack12 * (*)(Stack12 * self, Array<SwarmSarcophagus *> * arg1)) 0x0;
+inline int (*Stack12::ptr::Push34)(Stack12 * self, SwarmSarcophagus * value) = (int (*)(Stack12 * self, SwarmSarcophagus * value)) 0x80bf280;
+inline int (*Stack12::ptr::_Push35)(Stack12 * self, Array<SwarmSarcophagus *> * arg1, int arg2, int arg3) = (int (*)(Stack12 * self, Array<SwarmSarcophagus *> * arg1, int arg2, int arg3)) 0x0;
+inline int (*Stack12::ptr::_Push36)(Stack12 * self, Array<SwarmSarcophagus *> * arg1, int arg2) = (int (*)(Stack12 * self, Array<SwarmSarcophagus *> * arg1, int arg2)) 0x0;
+inline int (*Stack12::ptr::_Length)() = (int (*)()) 0x8078cf0;
+inline SwarmSarcophagus * (*Stack12::ptr::_Get2)(Stack12 * self, int arg1) = (SwarmSarcophagus * (*)(Stack12 * self, int arg1)) 0x8078d00;
+inline int (*Stack12::ptr::Set25)(Stack12 * self, int index, SwarmSarcophagus * value) = (int (*)(Stack12 * self, int index, SwarmSarcophagus * value)) 0x80875b0;
+inline Enumerator52 * (*Stack12::ptr::ObjectEnumerator)(Stack12 * self) = (Enumerator52 * (*)(Stack12 * self)) 0x80bc690;
+inline void (*Stack12::ptr::_mark)() = (void (*)()) 0x8078d10;
 #endif
 #endif

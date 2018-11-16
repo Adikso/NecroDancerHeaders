@@ -30,21 +30,21 @@ public:
 
 #ifdef _WIN32
 
-ABTeleportTrap * (*ABTeleportTrap::ptr::_New)(ABTeleportTrap * self, int arg1, int arg2) = (ABTeleportTrap * (*)(ABTeleportTrap * self, int arg1, int arg2)) 0x0;
-ABTeleportTrap * (*ABTeleportTrap::ptr::_new2)() = (ABTeleportTrap * (*)()) 0x0;
-void (*ABTeleportTrap::ptr::_Pair)(ABTeleportTrap * arg1, ABTeleportTrap * arg2) = (void (*)(ABTeleportTrap * arg1, ABTeleportTrap * arg2)) 0x0;
-void (*ABTeleportTrap::ptr::_Update)() = (void (*)()) 0x0;
-void (*ABTeleportTrap::ptr::_Trigger)(ABTeleportTrap * self, Entity * arg1) = (void (*)(ABTeleportTrap * self, Entity * arg1)) 0x0;
-void (*ABTeleportTrap::ptr::_mark)() = (void (*)()) 0x0;
+inline ABTeleportTrap * (*ABTeleportTrap::ptr::_New)(ABTeleportTrap * self, int arg1, int arg2) = (ABTeleportTrap * (*)(ABTeleportTrap * self, int arg1, int arg2)) 0x0;
+inline ABTeleportTrap * (*ABTeleportTrap::ptr::_new2)() = (ABTeleportTrap * (*)()) 0x0;
+inline void (*ABTeleportTrap::ptr::_Pair)(ABTeleportTrap * arg1, ABTeleportTrap * arg2) = (void (*)(ABTeleportTrap * arg1, ABTeleportTrap * arg2)) 0x0;
+inline void (*ABTeleportTrap::ptr::_Update)() = (void (*)()) 0x0;
+inline void (*ABTeleportTrap::ptr::_Trigger)(ABTeleportTrap * self, Entity * arg1) = (void (*)(ABTeleportTrap * self, Entity * arg1)) 0x0;
+inline void (*ABTeleportTrap::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-ABTeleportTrap * (*ABTeleportTrap::ptr::_New)(ABTeleportTrap * self, int arg1, int arg2) = (ABTeleportTrap * (*)(ABTeleportTrap * self, int arg1, int arg2)) 0x81d5d50;
-ABTeleportTrap * (*ABTeleportTrap::ptr::_new2)() = (ABTeleportTrap * (*)()) 0x81d5f00;
-void (*ABTeleportTrap::ptr::_Pair)(ABTeleportTrap * arg1, ABTeleportTrap * arg2) = (void (*)(ABTeleportTrap * arg1, ABTeleportTrap * arg2)) 0x81d5f80;
-void (*ABTeleportTrap::ptr::_Update)() = (void (*)()) 0x812d7f0;
-void (*ABTeleportTrap::ptr::_Trigger)(ABTeleportTrap * self, Entity * arg1) = (void (*)(ABTeleportTrap * self, Entity * arg1)) 0x83d1460;
-void (*ABTeleportTrap::ptr::_mark)() = (void (*)()) 0x80a61b0;
+inline ABTeleportTrap * (*ABTeleportTrap::ptr::_New)(ABTeleportTrap * self, int arg1, int arg2) = (ABTeleportTrap * (*)(ABTeleportTrap * self, int arg1, int arg2)) 0x81d5d50;
+inline ABTeleportTrap * (*ABTeleportTrap::ptr::_new2)() = (ABTeleportTrap * (*)()) 0x81d5f00;
+inline void (*ABTeleportTrap::ptr::_Pair)(ABTeleportTrap * arg1, ABTeleportTrap * arg2) = (void (*)(ABTeleportTrap * arg1, ABTeleportTrap * arg2)) 0x81d5f80;
+inline void (*ABTeleportTrap::ptr::_Update)() = (void (*)()) 0x812d7f0;
+inline void (*ABTeleportTrap::ptr::_Trigger)(ABTeleportTrap * self, Entity * arg1) = (void (*)(ABTeleportTrap * self, Entity * arg1)) 0x83d1460;
+inline void (*ABTeleportTrap::ptr::_mark)() = (void (*)()) 0x80a61b0;
 #endif
 #endif

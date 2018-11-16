@@ -41,27 +41,27 @@ public:
 
 #ifdef _WIN32
 
-List34 * (*List34::ptr::_New)() = (List34 * (*)()) 0x0;
-Node51 * (*List34::ptr::AddLast34)(List34 * self, SoulFamiliar * data) = (Node51 * (*)(List34 * self, SoulFamiliar * data)) 0x604ee0;
-List34 * (*List34::ptr::_new2)(List34 * self, Array<SoulFamiliar *> * arg1) = (List34 * (*)(List34 * self, Array<SoulFamiliar *> * arg1)) 0x0;
-Enumerator17 * (*List34::ptr::ObjectEnumerator)(List34 * self) = (Enumerator17 * (*)(List34 * self)) 0x604f80;
-bool (*List34::ptr::_Equals22)(List34 * self, SoulFamiliar * arg1, SoulFamiliar * arg2) = (bool (*)(List34 * self, SoulFamiliar * arg1, SoulFamiliar * arg2)) 0x0;
-int (*List34::ptr::_RemoveEach19)(List34 * self, SoulFamiliar * arg1) = (int (*)(List34 * self, SoulFamiliar * arg1)) 0x0;
-int (*List34::ptr::Remove9)(List34 * self, SoulFamiliar * value) = (int (*)(List34 * self, SoulFamiliar * value)) 0x57f9f0;
-void (*List34::ptr::_mark)() = (void (*)()) 0x0;
-void (*List34::ptr::CSTR_List34)(List34 * self) = (void (*)(List34 * self)) 0x604e10;
+inline List34 * (*List34::ptr::_New)() = (List34 * (*)()) 0x0;
+inline Node51 * (*List34::ptr::AddLast34)(List34 * self, SoulFamiliar * data) = (Node51 * (*)(List34 * self, SoulFamiliar * data)) 0x604ee0;
+inline List34 * (*List34::ptr::_new2)(List34 * self, Array<SoulFamiliar *> * arg1) = (List34 * (*)(List34 * self, Array<SoulFamiliar *> * arg1)) 0x0;
+inline Enumerator17 * (*List34::ptr::ObjectEnumerator)(List34 * self) = (Enumerator17 * (*)(List34 * self)) 0x604f80;
+inline bool (*List34::ptr::_Equals22)(List34 * self, SoulFamiliar * arg1, SoulFamiliar * arg2) = (bool (*)(List34 * self, SoulFamiliar * arg1, SoulFamiliar * arg2)) 0x0;
+inline int (*List34::ptr::_RemoveEach19)(List34 * self, SoulFamiliar * arg1) = (int (*)(List34 * self, SoulFamiliar * arg1)) 0x0;
+inline int (*List34::ptr::Remove9)(List34 * self, SoulFamiliar * value) = (int (*)(List34 * self, SoulFamiliar * value)) 0x57f9f0;
+inline void (*List34::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List34::ptr::CSTR_List34)(List34 * self) = (void (*)(List34 * self)) 0x604e10;
 #endif
 
 #ifdef __linux__
 
-List34 * (*List34::ptr::_New)() = (List34 * (*)()) 0x81a8f70;
-Node51 * (*List34::ptr::AddLast34)(List34 * self, SoulFamiliar * data) = (Node51 * (*)(List34 * self, SoulFamiliar * data)) 0x81a91b0;
-List34 * (*List34::ptr::_new2)(List34 * self, Array<SoulFamiliar *> * arg1) = (List34 * (*)(List34 * self, Array<SoulFamiliar *> * arg1)) 0x0;
-Enumerator17 * (*List34::ptr::ObjectEnumerator)(List34 * self) = (Enumerator17 * (*)(List34 * self)) 0x80b98e0;
-bool (*List34::ptr::_Equals22)(List34 * self, SoulFamiliar * arg1, SoulFamiliar * arg2) = (bool (*)(List34 * self, SoulFamiliar * arg1, SoulFamiliar * arg2)) 0x8073f90;
-int (*List34::ptr::_RemoveEach19)(List34 * self, SoulFamiliar * arg1) = (int (*)(List34 * self, SoulFamiliar * arg1)) 0x8073fa0;
-int (*List34::ptr::Remove9)(List34 * self, SoulFamiliar * value) = (int (*)(List34 * self, SoulFamiliar * value)) 0x8074000;
-void (*List34::ptr::_mark)() = (void (*)()) 0x808a0d0;
-void (*List34::ptr::CSTR_List34)(List34 * self) = (void (*)(List34 * self)) 0x81a92f0;
+inline List34 * (*List34::ptr::_New)() = (List34 * (*)()) 0x81a8f70;
+inline Node51 * (*List34::ptr::AddLast34)(List34 * self, SoulFamiliar * data) = (Node51 * (*)(List34 * self, SoulFamiliar * data)) 0x81a91b0;
+inline List34 * (*List34::ptr::_new2)(List34 * self, Array<SoulFamiliar *> * arg1) = (List34 * (*)(List34 * self, Array<SoulFamiliar *> * arg1)) 0x0;
+inline Enumerator17 * (*List34::ptr::ObjectEnumerator)(List34 * self) = (Enumerator17 * (*)(List34 * self)) 0x80b98e0;
+inline bool (*List34::ptr::_Equals22)(List34 * self, SoulFamiliar * arg1, SoulFamiliar * arg2) = (bool (*)(List34 * self, SoulFamiliar * arg1, SoulFamiliar * arg2)) 0x8073f90;
+inline int (*List34::ptr::_RemoveEach19)(List34 * self, SoulFamiliar * arg1) = (int (*)(List34 * self, SoulFamiliar * arg1)) 0x8073fa0;
+inline int (*List34::ptr::Remove9)(List34 * self, SoulFamiliar * value) = (int (*)(List34 * self, SoulFamiliar * value)) 0x8074000;
+inline void (*List34::ptr::_mark)() = (void (*)()) 0x808a0d0;
+inline void (*List34::ptr::CSTR_List34)(List34 * self) = (void (*)(List34 * self)) 0x81a92f0;
 #endif
 #endif

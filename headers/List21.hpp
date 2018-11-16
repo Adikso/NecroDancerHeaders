@@ -35,21 +35,21 @@ public:
 
 #ifdef _WIN32
 
-List21 * (*List21::ptr::_New)() = (List21 * (*)()) 0x0;
-Node31 * (*List21::ptr::AddLast21)(List21 * self, ChestObject * data) = (Node31 * (*)(List21 * self, ChestObject * data)) 0x5ded40;
-List21 * (*List21::ptr::_new2)(List21 * self, Array<ChestObject *> * arg1) = (List21 * (*)(List21 * self, Array<ChestObject *> * arg1)) 0x0;
-Enumerator37 * (*List21::ptr::ObjectEnumerator)(List21 * self) = (Enumerator37 * (*)(List21 * self)) 0x5dede0;
-void (*List21::ptr::_mark)() = (void (*)()) 0x0;
-void (*List21::ptr::CSTR_List21)(List21 * self) = (void (*)(List21 * self)) 0x5dec70;
+inline List21 * (*List21::ptr::_New)() = (List21 * (*)()) 0x0;
+inline Node31 * (*List21::ptr::AddLast21)(List21 * self, ChestObject * data) = (Node31 * (*)(List21 * self, ChestObject * data)) 0x5ded40;
+inline List21 * (*List21::ptr::_new2)(List21 * self, Array<ChestObject *> * arg1) = (List21 * (*)(List21 * self, Array<ChestObject *> * arg1)) 0x0;
+inline Enumerator37 * (*List21::ptr::ObjectEnumerator)(List21 * self) = (Enumerator37 * (*)(List21 * self)) 0x5dede0;
+inline void (*List21::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List21::ptr::CSTR_List21)(List21 * self) = (void (*)(List21 * self)) 0x5dec70;
 #endif
 
 #ifdef __linux__
 
-List21 * (*List21::ptr::_New)() = (List21 * (*)()) 0x8197720;
-Node31 * (*List21::ptr::AddLast21)(List21 * self, ChestObject * data) = (Node31 * (*)(List21 * self, ChestObject * data)) 0x8197960;
-List21 * (*List21::ptr::_new2)(List21 * self, Array<ChestObject *> * arg1) = (List21 * (*)(List21 * self, Array<ChestObject *> * arg1)) 0x0;
-Enumerator37 * (*List21::ptr::ObjectEnumerator)(List21 * self) = (Enumerator37 * (*)(List21 * self)) 0x80bb910;
-void (*List21::ptr::_mark)() = (void (*)()) 0x80899d0;
-void (*List21::ptr::CSTR_List21)(List21 * self) = (void (*)(List21 * self)) 0x8197aa0;
+inline List21 * (*List21::ptr::_New)() = (List21 * (*)()) 0x8197720;
+inline Node31 * (*List21::ptr::AddLast21)(List21 * self, ChestObject * data) = (Node31 * (*)(List21 * self, ChestObject * data)) 0x8197960;
+inline List21 * (*List21::ptr::_new2)(List21 * self, Array<ChestObject *> * arg1) = (List21 * (*)(List21 * self, Array<ChestObject *> * arg1)) 0x0;
+inline Enumerator37 * (*List21::ptr::ObjectEnumerator)(List21 * self) = (Enumerator37 * (*)(List21 * self)) 0x80bb910;
+inline void (*List21::ptr::_mark)() = (void (*)()) 0x80899d0;
+inline void (*List21::ptr::CSTR_List21)(List21 * self) = (void (*)(List21 * self)) 0x8197aa0;
 #endif
 #endif

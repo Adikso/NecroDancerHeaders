@@ -39,25 +39,25 @@ public:
 
 #ifdef _WIN32
 
-List53 * (*List53::ptr::_New)() = (List53 * (*)()) 0x0;
-Node73 * (*List53::ptr::AddLast53)(List53 * self, Bell * data) = (Node73 * (*)(List53 * self, Bell * data)) 0x66bad0;
-List53 * (*List53::ptr::_new2)(List53 * self, Array<Bell *> * arg1) = (List53 * (*)(List53 * self, Array<Bell *> * arg1)) 0x0;
-bool (*List53::ptr::_Equals32)(List53 * self, Bell * arg1, Bell * arg2) = (bool (*)(List53 * self, Bell * arg1, Bell * arg2)) 0x0;
-int (*List53::ptr::_RemoveEach28)(List53 * self, Bell * arg1) = (int (*)(List53 * self, Bell * arg1)) 0x0;
-Enumerator56 * (*List53::ptr::ObjectEnumerator)(List53 * self) = (Enumerator56 * (*)(List53 * self)) 0x66bb70;
-void (*List53::ptr::_mark)() = (void (*)()) 0x0;
-void (*List53::ptr::CSTR_List53)(List53 * self) = (void (*)(List53 * self)) 0x66ba00;
+inline List53 * (*List53::ptr::_New)() = (List53 * (*)()) 0x0;
+inline Node73 * (*List53::ptr::AddLast53)(List53 * self, Bell * data) = (Node73 * (*)(List53 * self, Bell * data)) 0x66bad0;
+inline List53 * (*List53::ptr::_new2)(List53 * self, Array<Bell *> * arg1) = (List53 * (*)(List53 * self, Array<Bell *> * arg1)) 0x0;
+inline bool (*List53::ptr::_Equals32)(List53 * self, Bell * arg1, Bell * arg2) = (bool (*)(List53 * self, Bell * arg1, Bell * arg2)) 0x0;
+inline int (*List53::ptr::_RemoveEach28)(List53 * self, Bell * arg1) = (int (*)(List53 * self, Bell * arg1)) 0x0;
+inline Enumerator56 * (*List53::ptr::ObjectEnumerator)(List53 * self) = (Enumerator56 * (*)(List53 * self)) 0x66bb70;
+inline void (*List53::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List53::ptr::CSTR_List53)(List53 * self) = (void (*)(List53 * self)) 0x66ba00;
 #endif
 
 #ifdef __linux__
 
-List53 * (*List53::ptr::_New)() = (List53 * (*)()) 0x81d9bb0;
-Node73 * (*List53::ptr::AddLast53)(List53 * self, Bell * data) = (Node73 * (*)(List53 * self, Bell * data)) 0x80bbfc0;
-List53 * (*List53::ptr::_new2)(List53 * self, Array<Bell *> * arg1) = (List53 * (*)(List53 * self, Array<Bell *> * arg1)) 0x0;
-bool (*List53::ptr::_Equals32)(List53 * self, Bell * arg1, Bell * arg2) = (bool (*)(List53 * self, Bell * arg1, Bell * arg2)) 0x8077ae0;
-int (*List53::ptr::_RemoveEach28)(List53 * self, Bell * arg1) = (int (*)(List53 * self, Bell * arg1)) 0x8077af0;
-Enumerator56 * (*List53::ptr::ObjectEnumerator)(List53 * self) = (Enumerator56 * (*)(List53 * self)) 0x80bcd20;
-void (*List53::ptr::_mark)() = (void (*)()) 0x80889f0;
-void (*List53::ptr::CSTR_List53)(List53 * self) = (void (*)(List53 * self)) 0x81d9ed0;
+inline List53 * (*List53::ptr::_New)() = (List53 * (*)()) 0x81d9bb0;
+inline Node73 * (*List53::ptr::AddLast53)(List53 * self, Bell * data) = (Node73 * (*)(List53 * self, Bell * data)) 0x80bbfc0;
+inline List53 * (*List53::ptr::_new2)(List53 * self, Array<Bell *> * arg1) = (List53 * (*)(List53 * self, Array<Bell *> * arg1)) 0x0;
+inline bool (*List53::ptr::_Equals32)(List53 * self, Bell * arg1, Bell * arg2) = (bool (*)(List53 * self, Bell * arg1, Bell * arg2)) 0x8077ae0;
+inline int (*List53::ptr::_RemoveEach28)(List53 * self, Bell * arg1) = (int (*)(List53 * self, Bell * arg1)) 0x8077af0;
+inline Enumerator56 * (*List53::ptr::ObjectEnumerator)(List53 * self) = (Enumerator56 * (*)(List53 * self)) 0x80bcd20;
+inline void (*List53::ptr::_mark)() = (void (*)()) 0x80889f0;
+inline void (*List53::ptr::CSTR_List53)(List53 * self) = (void (*)(List53 * self)) 0x81d9ed0;
 #endif
 #endif

@@ -61,39 +61,39 @@ public:
 
 #ifdef _WIN32
 
-void (*MushroomLight::ptr::InitMushroom)(MushroomLight * self, int xVal, int yVal, int l, bool forceNonExploding, bool forceExploding) = (void (*)(MushroomLight * self, int xVal, int yVal, int l, bool forceNonExploding, bool forceExploding)) 0x643150;
-MushroomLight * (*MushroomLight::ptr::New)(MushroomLight * self, int xVal, int yVal, int l, bool forceNonExploding, bool forceExploding) = (MushroomLight * (*)(MushroomLight * self, int xVal, int yVal, int l, bool forceNonExploding, bool forceExploding)) 0x6436f0;
-MushroomLight * (*MushroomLight::ptr::new2)(MushroomLight * self, int xVal, int yVal, int l, bool forceNonExploding) = (MushroomLight * (*)(MushroomLight * self, int xVal, int yVal, int l, bool forceNonExploding)) 0x643720;
-MushroomLight * (*MushroomLight::ptr::new3)(MushroomLight * self, int xVal, int yVal, int l) = (MushroomLight * (*)(MushroomLight * self, int xVal, int yVal, int l)) 0x643750;
-MushroomLight * (*MushroomLight::ptr::_new4)() = (MushroomLight * (*)()) 0x0;
-Point * (*MushroomLight::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
-void (*MushroomLight::ptr::Explode)(MushroomLight * self) = (void (*)(MushroomLight * self)) 0x643780;
-bool (*MushroomLight::ptr::Hit)(MushroomLight * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(MushroomLight * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x643890;
-void (*MushroomLight::ptr::Update)(MushroomLight * self) = (void (*)(MushroomLight * self)) 0x6439c0;
-void (*MushroomLight::ptr::Render)(MushroomLight * self) = (void (*)(MushroomLight * self)) 0x643a70;
-bool (*MushroomLight::ptr::CanBeDamaged)(MushroomLight * self, bool phasing, bool piercing) = (bool (*)(MushroomLight * self, bool phasing, bool piercing)) 0x643b10;
-int (*MushroomLight::ptr::_PerformMovement)(MushroomLight * self, int arg1, int arg2) = (int (*)(MushroomLight * self, int arg1, int arg2)) 0x0;
-void (*MushroomLight::ptr::MoveFail)(MushroomLight * self) = (void (*)(MushroomLight * self)) 0x643b20;
-void (*MushroomLight::ptr::_mark)() = (void (*)()) 0x0;
-void (*MushroomLight::ptr::CSTR_MushroomLight)(MushroomLight * self) = (void (*)(MushroomLight * self)) 0x6430b0;
+inline void (*MushroomLight::ptr::InitMushroom)(MushroomLight * self, int xVal, int yVal, int l, bool forceNonExploding, bool forceExploding) = (void (*)(MushroomLight * self, int xVal, int yVal, int l, bool forceNonExploding, bool forceExploding)) 0x643150;
+inline MushroomLight * (*MushroomLight::ptr::New)(MushroomLight * self, int xVal, int yVal, int l, bool forceNonExploding, bool forceExploding) = (MushroomLight * (*)(MushroomLight * self, int xVal, int yVal, int l, bool forceNonExploding, bool forceExploding)) 0x6436f0;
+inline MushroomLight * (*MushroomLight::ptr::new2)(MushroomLight * self, int xVal, int yVal, int l, bool forceNonExploding) = (MushroomLight * (*)(MushroomLight * self, int xVal, int yVal, int l, bool forceNonExploding)) 0x643720;
+inline MushroomLight * (*MushroomLight::ptr::new3)(MushroomLight * self, int xVal, int yVal, int l) = (MushroomLight * (*)(MushroomLight * self, int xVal, int yVal, int l)) 0x643750;
+inline MushroomLight * (*MushroomLight::ptr::_new4)() = (MushroomLight * (*)()) 0x0;
+inline Point * (*MushroomLight::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
+inline void (*MushroomLight::ptr::Explode)(MushroomLight * self) = (void (*)(MushroomLight * self)) 0x643780;
+inline bool (*MushroomLight::ptr::Hit)(MushroomLight * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(MushroomLight * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x643890;
+inline void (*MushroomLight::ptr::Update)(MushroomLight * self) = (void (*)(MushroomLight * self)) 0x6439c0;
+inline void (*MushroomLight::ptr::Render)(MushroomLight * self) = (void (*)(MushroomLight * self)) 0x643a70;
+inline bool (*MushroomLight::ptr::CanBeDamaged)(MushroomLight * self, bool phasing, bool piercing) = (bool (*)(MushroomLight * self, bool phasing, bool piercing)) 0x643b10;
+inline int (*MushroomLight::ptr::_PerformMovement)(MushroomLight * self, int arg1, int arg2) = (int (*)(MushroomLight * self, int arg1, int arg2)) 0x0;
+inline void (*MushroomLight::ptr::MoveFail)(MushroomLight * self) = (void (*)(MushroomLight * self)) 0x643b20;
+inline void (*MushroomLight::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*MushroomLight::ptr::CSTR_MushroomLight)(MushroomLight * self) = (void (*)(MushroomLight * self)) 0x6430b0;
 #endif
 
 #ifdef __linux__
 
-void (*MushroomLight::ptr::InitMushroom)(MushroomLight * self, int xVal, int yVal, int l, bool forceNonExploding, bool forceExploding) = (void (*)(MushroomLight * self, int xVal, int yVal, int l, bool forceNonExploding, bool forceExploding)) 0x811d2f0;
-MushroomLight * (*MushroomLight::ptr::New)(MushroomLight * self, int xVal, int yVal, int l, bool forceNonExploding, bool forceExploding) = (MushroomLight * (*)(MushroomLight * self, int xVal, int yVal, int l, bool forceNonExploding, bool forceExploding)) 0x81c2fe0;
-MushroomLight * (*MushroomLight::ptr::new2)(MushroomLight * self, int xVal, int yVal, int l, bool forceNonExploding) = (MushroomLight * (*)(MushroomLight * self, int xVal, int yVal, int l, bool forceNonExploding)) 0x81c3050;
-MushroomLight * (*MushroomLight::ptr::new3)(MushroomLight * self, int xVal, int yVal, int l) = (MushroomLight * (*)(MushroomLight * self, int xVal, int yVal, int l)) 0x81c30b0;
-MushroomLight * (*MushroomLight::ptr::_new4)() = (MushroomLight * (*)()) 0x81c3100;
-Point * (*MushroomLight::ptr::_GetMovementDirection)() = (Point * (*)()) 0x80b45c0;
-void (*MushroomLight::ptr::Explode)(MushroomLight * self) = (void (*)(MushroomLight * self)) 0x83d10e0;
-bool (*MushroomLight::ptr::Hit)(MushroomLight * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(MushroomLight * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8398c90;
-void (*MushroomLight::ptr::Update)(MushroomLight * self) = (void (*)(MushroomLight * self)) 0x8382090;
-void (*MushroomLight::ptr::Render)(MushroomLight * self) = (void (*)(MushroomLight * self)) 0x830be70;
-bool (*MushroomLight::ptr::CanBeDamaged)(MushroomLight * self, bool phasing, bool piercing) = (bool (*)(MushroomLight * self, bool phasing, bool piercing)) 0x8076220;
-int (*MushroomLight::ptr::_PerformMovement)(MushroomLight * self, int arg1, int arg2) = (int (*)(MushroomLight * self, int arg1, int arg2)) 0x8076230;
-void (*MushroomLight::ptr::MoveFail)(MushroomLight * self) = (void (*)(MushroomLight * self)) 0x8076240;
-void (*MushroomLight::ptr::_mark)() = (void (*)()) 0x80b13f0;
-void (*MushroomLight::ptr::CSTR_MushroomLight)(MushroomLight * self) = (void (*)(MushroomLight * self)) 0x81c2f70;
+inline void (*MushroomLight::ptr::InitMushroom)(MushroomLight * self, int xVal, int yVal, int l, bool forceNonExploding, bool forceExploding) = (void (*)(MushroomLight * self, int xVal, int yVal, int l, bool forceNonExploding, bool forceExploding)) 0x811d2f0;
+inline MushroomLight * (*MushroomLight::ptr::New)(MushroomLight * self, int xVal, int yVal, int l, bool forceNonExploding, bool forceExploding) = (MushroomLight * (*)(MushroomLight * self, int xVal, int yVal, int l, bool forceNonExploding, bool forceExploding)) 0x81c2fe0;
+inline MushroomLight * (*MushroomLight::ptr::new2)(MushroomLight * self, int xVal, int yVal, int l, bool forceNonExploding) = (MushroomLight * (*)(MushroomLight * self, int xVal, int yVal, int l, bool forceNonExploding)) 0x81c3050;
+inline MushroomLight * (*MushroomLight::ptr::new3)(MushroomLight * self, int xVal, int yVal, int l) = (MushroomLight * (*)(MushroomLight * self, int xVal, int yVal, int l)) 0x81c30b0;
+inline MushroomLight * (*MushroomLight::ptr::_new4)() = (MushroomLight * (*)()) 0x81c3100;
+inline Point * (*MushroomLight::ptr::_GetMovementDirection)() = (Point * (*)()) 0x80b45c0;
+inline void (*MushroomLight::ptr::Explode)(MushroomLight * self) = (void (*)(MushroomLight * self)) 0x83d10e0;
+inline bool (*MushroomLight::ptr::Hit)(MushroomLight * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(MushroomLight * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8398c90;
+inline void (*MushroomLight::ptr::Update)(MushroomLight * self) = (void (*)(MushroomLight * self)) 0x8382090;
+inline void (*MushroomLight::ptr::Render)(MushroomLight * self) = (void (*)(MushroomLight * self)) 0x830be70;
+inline bool (*MushroomLight::ptr::CanBeDamaged)(MushroomLight * self, bool phasing, bool piercing) = (bool (*)(MushroomLight * self, bool phasing, bool piercing)) 0x8076220;
+inline int (*MushroomLight::ptr::_PerformMovement)(MushroomLight * self, int arg1, int arg2) = (int (*)(MushroomLight * self, int arg1, int arg2)) 0x8076230;
+inline void (*MushroomLight::ptr::MoveFail)(MushroomLight * self) = (void (*)(MushroomLight * self)) 0x8076240;
+inline void (*MushroomLight::ptr::_mark)() = (void (*)()) 0x80b13f0;
+inline void (*MushroomLight::ptr::CSTR_MushroomLight)(MushroomLight * self) = (void (*)(MushroomLight * self)) 0x81c2f70;
 #endif
 #endif

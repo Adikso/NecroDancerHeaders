@@ -22,15 +22,15 @@ public:
 
 #ifdef _WIN32
 
-EnemyList * (*EnemyList::ptr::_New)() = (EnemyList * (*)()) 0x0;
-int (*EnemyList::ptr::Compare4)(EnemyList * self, Enemy * a, Enemy * b) = (int (*)(EnemyList * self, Enemy * a, Enemy * b)) 0x5dbd60;
-void (*EnemyList::ptr::_mark)() = (void (*)()) 0x0;
+inline EnemyList * (*EnemyList::ptr::_New)() = (EnemyList * (*)()) 0x0;
+inline int (*EnemyList::ptr::Compare4)(EnemyList * self, Enemy * a, Enemy * b) = (int (*)(EnemyList * self, Enemy * a, Enemy * b)) 0x5dbd60;
+inline void (*EnemyList::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-EnemyList * (*EnemyList::ptr::_New)() = (EnemyList * (*)()) 0x8194760;
-int (*EnemyList::ptr::Compare4)(EnemyList * self, Enemy * a, Enemy * b) = (int (*)(EnemyList * self, Enemy * a, Enemy * b)) 0x80963b0;
-void (*EnemyList::ptr::_mark)() = (void (*)()) 0x808fc70;
+inline EnemyList * (*EnemyList::ptr::_New)() = (EnemyList * (*)()) 0x8194760;
+inline int (*EnemyList::ptr::Compare4)(EnemyList * self, Enemy * a, Enemy * b) = (int (*)(EnemyList * self, Enemy * a, Enemy * b)) 0x80963b0;
+inline void (*EnemyList::ptr::_mark)() = (void (*)()) 0x808fc70;
 #endif
 #endif

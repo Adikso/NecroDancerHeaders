@@ -37,15 +37,15 @@ public:
 
 #ifdef _WIN32
 
-ReplayData * (*ReplayData::ptr::_New)() = (ReplayData * (*)()) 0x0;
-void (*ReplayData::ptr::mark)(ReplayData * self) = (void (*)(ReplayData * self)) 0x5f77f0;
-void (*ReplayData::ptr::CSTR_ReplayData)(ReplayData * self) = (void (*)(ReplayData * self)) 0x5f7670;
+inline ReplayData * (*ReplayData::ptr::_New)() = (ReplayData * (*)()) 0x0;
+inline void (*ReplayData::ptr::mark)(ReplayData * self) = (void (*)(ReplayData * self)) 0x5f77f0;
+inline void (*ReplayData::ptr::CSTR_ReplayData)(ReplayData * self) = (void (*)(ReplayData * self)) 0x5f7670;
 #endif
 
 #ifdef __linux__
 
-ReplayData * (*ReplayData::ptr::_New)() = (ReplayData * (*)()) 0x819f0f0;
-void (*ReplayData::ptr::mark)(ReplayData * self) = (void (*)(ReplayData * self)) 0x80a0ef0;
-void (*ReplayData::ptr::CSTR_ReplayData)(ReplayData * self) = (void (*)(ReplayData * self)) 0x819f680;
+inline ReplayData * (*ReplayData::ptr::_New)() = (ReplayData * (*)()) 0x819f0f0;
+inline void (*ReplayData::ptr::mark)(ReplayData * self) = (void (*)(ReplayData * self)) 0x80a0ef0;
+inline void (*ReplayData::ptr::CSTR_ReplayData)(ReplayData * self) = (void (*)(ReplayData * self)) 0x819f680;
 #endif
 #endif

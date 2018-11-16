@@ -39,27 +39,27 @@ public:
 
 #ifdef _WIN32
 
-void (*gxtkSurface::ptr::_setTexture)(gxtkSurface * self, IDirect3DTexture9 * arg1, int arg2, int arg3, int arg4, int arg5) = (void (*)(gxtkSurface * self, IDirect3DTexture9 * arg1, int arg2, int arg3, int arg4, int arg5)) 0x0;
-IDirect3DTexture9 * (*gxtkSurface::ptr::_getTexture)() = (IDirect3DTexture9 * (*)()) 0x0;
-int (*gxtkSurface::ptr::Discard)(gxtkSurface * self) = (int (*)(gxtkSurface * self)) 0x408060;
-int (*gxtkSurface::ptr::_Width)() = (int (*)()) 0x0;
-int (*gxtkSurface::ptr::_Height)() = (int (*)()) 0x0;
-int (*gxtkSurface::ptr::_TextureWidth)() = (int (*)()) 0x0;
-int (*gxtkSurface::ptr::_TextureHeight)() = (int (*)()) 0x0;
-int (*gxtkSurface::ptr::_Loaded)() = (int (*)()) 0x0;
-bool (*gxtkSurface::ptr::_OnUnsafeLoadComplete)() = (bool (*)()) 0x0;
+inline void (*gxtkSurface::ptr::_setTexture)(gxtkSurface * self, IDirect3DTexture9 * arg1, int arg2, int arg3, int arg4, int arg5) = (void (*)(gxtkSurface * self, IDirect3DTexture9 * arg1, int arg2, int arg3, int arg4, int arg5)) 0x0;
+inline IDirect3DTexture9 * (*gxtkSurface::ptr::_getTexture)() = (IDirect3DTexture9 * (*)()) 0x0;
+inline int (*gxtkSurface::ptr::Discard)(gxtkSurface * self) = (int (*)(gxtkSurface * self)) 0x408060;
+inline int (*gxtkSurface::ptr::_Width)() = (int (*)()) 0x0;
+inline int (*gxtkSurface::ptr::_Height)() = (int (*)()) 0x0;
+inline int (*gxtkSurface::ptr::_TextureWidth)() = (int (*)()) 0x0;
+inline int (*gxtkSurface::ptr::_TextureHeight)() = (int (*)()) 0x0;
+inline int (*gxtkSurface::ptr::_Loaded)() = (int (*)()) 0x0;
+inline bool (*gxtkSurface::ptr::_OnUnsafeLoadComplete)() = (bool (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-void (*gxtkSurface::ptr::_setTexture)(gxtkSurface * self, IDirect3DTexture9 * arg1, int arg2, int arg3, int arg4, int arg5) = (void (*)(gxtkSurface * self, IDirect3DTexture9 * arg1, int arg2, int arg3, int arg4, int arg5)) 0x0;
-IDirect3DTexture9 * (*gxtkSurface::ptr::_getTexture)() = (IDirect3DTexture9 * (*)()) 0x0;
-int (*gxtkSurface::ptr::Discard)(gxtkSurface * self) = (int (*)(gxtkSurface * self)) 0x807da10;
-int (*gxtkSurface::ptr::_Width)() = (int (*)()) 0x806ced0;
-int (*gxtkSurface::ptr::_Height)() = (int (*)()) 0x806cee0;
-int (*gxtkSurface::ptr::_TextureWidth)() = (int (*)()) 0x0;
-int (*gxtkSurface::ptr::_TextureHeight)() = (int (*)()) 0x0;
-int (*gxtkSurface::ptr::_Loaded)() = (int (*)()) 0x806cef0;
-bool (*gxtkSurface::ptr::_OnUnsafeLoadComplete)() = (bool (*)()) 0x807d6a0;
+inline void (*gxtkSurface::ptr::_setTexture)(gxtkSurface * self, IDirect3DTexture9 * arg1, int arg2, int arg3, int arg4, int arg5) = (void (*)(gxtkSurface * self, IDirect3DTexture9 * arg1, int arg2, int arg3, int arg4, int arg5)) 0x0;
+inline IDirect3DTexture9 * (*gxtkSurface::ptr::_getTexture)() = (IDirect3DTexture9 * (*)()) 0x0;
+inline int (*gxtkSurface::ptr::Discard)(gxtkSurface * self) = (int (*)(gxtkSurface * self)) 0x807da10;
+inline int (*gxtkSurface::ptr::_Width)() = (int (*)()) 0x806ced0;
+inline int (*gxtkSurface::ptr::_Height)() = (int (*)()) 0x806cee0;
+inline int (*gxtkSurface::ptr::_TextureWidth)() = (int (*)()) 0x0;
+inline int (*gxtkSurface::ptr::_TextureHeight)() = (int (*)()) 0x0;
+inline int (*gxtkSurface::ptr::_Loaded)() = (int (*)()) 0x806cef0;
+inline bool (*gxtkSurface::ptr::_OnUnsafeLoadComplete)() = (bool (*)()) 0x807d6a0;
 #endif
 #endif

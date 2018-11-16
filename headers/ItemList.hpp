@@ -22,15 +22,15 @@ public:
 
 #ifdef _WIN32
 
-ItemList * (*ItemList::ptr::_New)() = (ItemList * (*)()) 0x0;
-int (*ItemList::ptr::Compare)(ItemList * self, String * a, String * b) = (int (*)(ItemList * self, String * a, String * b)) 0x5e1a00;
-void (*ItemList::ptr::_mark)() = (void (*)()) 0x0;
+inline ItemList * (*ItemList::ptr::_New)() = (ItemList * (*)()) 0x0;
+inline int (*ItemList::ptr::Compare)(ItemList * self, String * a, String * b) = (int (*)(ItemList * self, String * a, String * b)) 0x5e1a00;
+inline void (*ItemList::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-ItemList * (*ItemList::ptr::_New)() = (ItemList * (*)()) 0x819a880;
-int (*ItemList::ptr::Compare)(ItemList * self, String * a, String * b) = (int (*)(ItemList * self, String * a, String * b)) 0x80d37d0;
-void (*ItemList::ptr::_mark)() = (void (*)()) 0x8090890;
+inline ItemList * (*ItemList::ptr::_New)() = (ItemList * (*)()) 0x819a880;
+inline int (*ItemList::ptr::Compare)(ItemList * self, String * a, String * b) = (int (*)(ItemList * self, String * a, String * b)) 0x80d37d0;
+inline void (*ItemList::ptr::_mark)() = (void (*)()) 0x8090890;
 #endif
 #endif

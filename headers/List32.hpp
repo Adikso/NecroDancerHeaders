@@ -39,25 +39,25 @@ public:
 
 #ifdef _WIN32
 
-List32 * (*List32::ptr::_New)() = (List32 * (*)()) 0x0;
-Node49 * (*List32::ptr::AddLast32)(List32 * self, SaleChest * data) = (Node49 * (*)(List32 * self, SaleChest * data)) 0x5fd0d0;
-List32 * (*List32::ptr::_new2)(List32 * self, Array<SaleChest *> * arg1) = (List32 * (*)(List32 * self, Array<SaleChest *> * arg1)) 0x0;
-Enumerator15 * (*List32::ptr::ObjectEnumerator)(List32 * self) = (Enumerator15 * (*)(List32 * self)) 0x5fd170;
-bool (*List32::ptr::_Equals21)(List32 * self, SaleChest * arg1, SaleChest * arg2) = (bool (*)(List32 * self, SaleChest * arg1, SaleChest * arg2)) 0x0;
-int (*List32::ptr::_RemoveEach18)(List32 * self, SaleChest * arg1) = (int (*)(List32 * self, SaleChest * arg1)) 0x0;
-void (*List32::ptr::_mark)() = (void (*)()) 0x0;
-void (*List32::ptr::CSTR_List32)(List32 * self) = (void (*)(List32 * self)) 0x5fd000;
+inline List32 * (*List32::ptr::_New)() = (List32 * (*)()) 0x0;
+inline Node49 * (*List32::ptr::AddLast32)(List32 * self, SaleChest * data) = (Node49 * (*)(List32 * self, SaleChest * data)) 0x5fd0d0;
+inline List32 * (*List32::ptr::_new2)(List32 * self, Array<SaleChest *> * arg1) = (List32 * (*)(List32 * self, Array<SaleChest *> * arg1)) 0x0;
+inline Enumerator15 * (*List32::ptr::ObjectEnumerator)(List32 * self) = (Enumerator15 * (*)(List32 * self)) 0x5fd170;
+inline bool (*List32::ptr::_Equals21)(List32 * self, SaleChest * arg1, SaleChest * arg2) = (bool (*)(List32 * self, SaleChest * arg1, SaleChest * arg2)) 0x0;
+inline int (*List32::ptr::_RemoveEach18)(List32 * self, SaleChest * arg1) = (int (*)(List32 * self, SaleChest * arg1)) 0x0;
+inline void (*List32::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List32::ptr::CSTR_List32)(List32 * self) = (void (*)(List32 * self)) 0x5fd000;
 #endif
 
 #ifdef __linux__
 
-List32 * (*List32::ptr::_New)() = (List32 * (*)()) 0x81a5640;
-Node49 * (*List32::ptr::AddLast32)(List32 * self, SaleChest * data) = (Node49 * (*)(List32 * self, SaleChest * data)) 0x81a5880;
-List32 * (*List32::ptr::_new2)(List32 * self, Array<SaleChest *> * arg1) = (List32 * (*)(List32 * self, Array<SaleChest *> * arg1)) 0x0;
-Enumerator15 * (*List32::ptr::ObjectEnumerator)(List32 * self) = (Enumerator15 * (*)(List32 * self)) 0x80b9580;
-bool (*List32::ptr::_Equals21)(List32 * self, SaleChest * arg1, SaleChest * arg2) = (bool (*)(List32 * self, SaleChest * arg1, SaleChest * arg2)) 0x8073b70;
-int (*List32::ptr::_RemoveEach18)(List32 * self, SaleChest * arg1) = (int (*)(List32 * self, SaleChest * arg1)) 0x8073b80;
-void (*List32::ptr::_mark)() = (void (*)()) 0x808a650;
-void (*List32::ptr::CSTR_List32)(List32 * self) = (void (*)(List32 * self)) 0x81a59c0;
+inline List32 * (*List32::ptr::_New)() = (List32 * (*)()) 0x81a5640;
+inline Node49 * (*List32::ptr::AddLast32)(List32 * self, SaleChest * data) = (Node49 * (*)(List32 * self, SaleChest * data)) 0x81a5880;
+inline List32 * (*List32::ptr::_new2)(List32 * self, Array<SaleChest *> * arg1) = (List32 * (*)(List32 * self, Array<SaleChest *> * arg1)) 0x0;
+inline Enumerator15 * (*List32::ptr::ObjectEnumerator)(List32 * self) = (Enumerator15 * (*)(List32 * self)) 0x80b9580;
+inline bool (*List32::ptr::_Equals21)(List32 * self, SaleChest * arg1, SaleChest * arg2) = (bool (*)(List32 * self, SaleChest * arg1, SaleChest * arg2)) 0x8073b70;
+inline int (*List32::ptr::_RemoveEach18)(List32 * self, SaleChest * arg1) = (int (*)(List32 * self, SaleChest * arg1)) 0x8073b80;
+inline void (*List32::ptr::_mark)() = (void (*)()) 0x808a650;
+inline void (*List32::ptr::CSTR_List32)(List32 * self) = (void (*)(List32 * self)) 0x81a59c0;
 #endif
 #endif

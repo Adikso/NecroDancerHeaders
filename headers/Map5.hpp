@@ -46,37 +46,37 @@ public:
 
 #ifdef _WIN32
 
-Map5 * (*Map5::ptr::_New)() = (Map5 * (*)()) 0x0;
-int (*Map5::ptr::_Clear)() = (int (*)()) 0x0;
-int (*Map5::ptr::_Compare2)(Map5 * self, int arg1, int arg2) = (int (*)(Map5 * self, int arg1, int arg2)) 0x0;
-Node9 * (*Map5::ptr::_FindNode2)(Map5 * self, int arg1) = (Node9 * (*)(Map5 * self, int arg1)) 0x0;
-bool (*Map5::ptr::_Contains2)(Map5 * self, int arg1) = (bool (*)(Map5 * self, int arg1)) 0x0;
-int (*Map5::ptr::_RotateLeft5)(Map5 * self, Node9 * arg1) = (int (*)(Map5 * self, Node9 * arg1)) 0x0;
-int (*Map5::ptr::_RotateRight5)(Map5 * self, Node9 * arg1) = (int (*)(Map5 * self, Node9 * arg1)) 0x0;
-int (*Map5::ptr::_InsertFixup5)(Map5 * self, Node9 * arg1) = (int (*)(Map5 * self, Node9 * arg1)) 0x0;
-bool (*Map5::ptr::Set6)(Map5 * self, int key, int value) = (bool (*)(Map5 * self, int key, int value)) 0x576510;
-int (*Map5::ptr::Get2)(Map5 * self, int key) = (int (*)(Map5 * self, int key)) 0x576610;
-int (*Map5::ptr::Count)(Map5 * self) = (int (*)(Map5 * self)) 0x576630;
-MapKeys5 * (*Map5::ptr::Keys)(Map5 * self) = (MapKeys5 * (*)(Map5 * self)) 0x576650;
-Node9 * (*Map5::ptr::_FirstNode)() = (Node9 * (*)()) 0x0;
-void (*Map5::ptr::_mark)() = (void (*)()) 0x0;
+inline Map5 * (*Map5::ptr::_New)() = (Map5 * (*)()) 0x0;
+inline int (*Map5::ptr::_Clear)() = (int (*)()) 0x0;
+inline int (*Map5::ptr::_Compare2)(Map5 * self, int arg1, int arg2) = (int (*)(Map5 * self, int arg1, int arg2)) 0x0;
+inline Node9 * (*Map5::ptr::_FindNode2)(Map5 * self, int arg1) = (Node9 * (*)(Map5 * self, int arg1)) 0x0;
+inline bool (*Map5::ptr::_Contains2)(Map5 * self, int arg1) = (bool (*)(Map5 * self, int arg1)) 0x0;
+inline int (*Map5::ptr::_RotateLeft5)(Map5 * self, Node9 * arg1) = (int (*)(Map5 * self, Node9 * arg1)) 0x0;
+inline int (*Map5::ptr::_RotateRight5)(Map5 * self, Node9 * arg1) = (int (*)(Map5 * self, Node9 * arg1)) 0x0;
+inline int (*Map5::ptr::_InsertFixup5)(Map5 * self, Node9 * arg1) = (int (*)(Map5 * self, Node9 * arg1)) 0x0;
+inline bool (*Map5::ptr::Set6)(Map5 * self, int key, int value) = (bool (*)(Map5 * self, int key, int value)) 0x576510;
+inline int (*Map5::ptr::Get2)(Map5 * self, int key) = (int (*)(Map5 * self, int key)) 0x576610;
+inline int (*Map5::ptr::Count)(Map5 * self) = (int (*)(Map5 * self)) 0x576630;
+inline MapKeys5 * (*Map5::ptr::Keys)(Map5 * self) = (MapKeys5 * (*)(Map5 * self)) 0x576650;
+inline Node9 * (*Map5::ptr::_FirstNode)() = (Node9 * (*)()) 0x0;
+inline void (*Map5::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Map5 * (*Map5::ptr::_New)() = (Map5 * (*)()) 0x8156c80;
-int (*Map5::ptr::_Clear)() = (int (*)()) 0x806f9a0;
-int (*Map5::ptr::_Compare2)(Map5 * self, int arg1, int arg2) = (int (*)(Map5 * self, int arg1, int arg2)) 0x0;
-Node9 * (*Map5::ptr::_FindNode2)(Map5 * self, int arg1) = (Node9 * (*)(Map5 * self, int arg1)) 0x806f9b0;
-bool (*Map5::ptr::_Contains2)(Map5 * self, int arg1) = (bool (*)(Map5 * self, int arg1)) 0x806fa00;
-int (*Map5::ptr::_RotateLeft5)(Map5 * self, Node9 * arg1) = (int (*)(Map5 * self, Node9 * arg1)) 0x0;
-int (*Map5::ptr::_RotateRight5)(Map5 * self, Node9 * arg1) = (int (*)(Map5 * self, Node9 * arg1)) 0x0;
-int (*Map5::ptr::_InsertFixup5)(Map5 * self, Node9 * arg1) = (int (*)(Map5 * self, Node9 * arg1)) 0x0;
-bool (*Map5::ptr::Set6)(Map5 * self, int key, int value) = (bool (*)(Map5 * self, int key, int value)) 0x80b68f0;
-int (*Map5::ptr::Get2)(Map5 * self, int key) = (int (*)(Map5 * self, int key)) 0x806fb20;
-int (*Map5::ptr::Count)(Map5 * self) = (int (*)(Map5 * self)) 0x806fb50;
-MapKeys5 * (*Map5::ptr::Keys)(Map5 * self) = (MapKeys5 * (*)(Map5 * self)) 0x80bbf40;
-Node9 * (*Map5::ptr::_FirstNode)() = (Node9 * (*)()) 0x806fb80;
-void (*Map5::ptr::_mark)() = (void (*)()) 0x808e010;
+inline Map5 * (*Map5::ptr::_New)() = (Map5 * (*)()) 0x8156c80;
+inline int (*Map5::ptr::_Clear)() = (int (*)()) 0x806f9a0;
+inline int (*Map5::ptr::_Compare2)(Map5 * self, int arg1, int arg2) = (int (*)(Map5 * self, int arg1, int arg2)) 0x0;
+inline Node9 * (*Map5::ptr::_FindNode2)(Map5 * self, int arg1) = (Node9 * (*)(Map5 * self, int arg1)) 0x806f9b0;
+inline bool (*Map5::ptr::_Contains2)(Map5 * self, int arg1) = (bool (*)(Map5 * self, int arg1)) 0x806fa00;
+inline int (*Map5::ptr::_RotateLeft5)(Map5 * self, Node9 * arg1) = (int (*)(Map5 * self, Node9 * arg1)) 0x0;
+inline int (*Map5::ptr::_RotateRight5)(Map5 * self, Node9 * arg1) = (int (*)(Map5 * self, Node9 * arg1)) 0x0;
+inline int (*Map5::ptr::_InsertFixup5)(Map5 * self, Node9 * arg1) = (int (*)(Map5 * self, Node9 * arg1)) 0x0;
+inline bool (*Map5::ptr::Set6)(Map5 * self, int key, int value) = (bool (*)(Map5 * self, int key, int value)) 0x80b68f0;
+inline int (*Map5::ptr::Get2)(Map5 * self, int key) = (int (*)(Map5 * self, int key)) 0x806fb20;
+inline int (*Map5::ptr::Count)(Map5 * self) = (int (*)(Map5 * self)) 0x806fb50;
+inline MapKeys5 * (*Map5::ptr::Keys)(Map5 * self) = (MapKeys5 * (*)(Map5 * self)) 0x80bbf40;
+inline Node9 * (*Map5::ptr::_FirstNode)() = (Node9 * (*)()) 0x806fb80;
+inline void (*Map5::ptr::_mark)() = (void (*)()) 0x808e010;
 #endif
 #endif

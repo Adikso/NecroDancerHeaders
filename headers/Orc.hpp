@@ -40,25 +40,25 @@ public:
 
 #ifdef _WIN32
 
-Orc * (*Orc::ptr::New)(Orc * self, int x_, int y_, int l) = (Orc * (*)(Orc * self, int x_, int y_, int l)) 0x65a000;
-Orc * (*Orc::ptr::_new2)() = (Orc * (*)()) 0x0;
-void (*Orc::ptr::Update)(Orc * self) = (void (*)(Orc * self)) 0x65a310;
-Point * (*Orc::ptr::GetMovementDirection)(Orc * self) = (Point * (*)(Orc * self)) 0x65a370;
-void (*Orc::ptr::MoveSucceed)(Orc * self, bool hitPlayer, bool moveDelayed) = (void (*)(Orc * self, bool hitPlayer, bool moveDelayed)) 0x65a440;
-bool (*Orc::ptr::Hit)(Orc * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Orc * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x65a490;
-void (*Orc::ptr::_mark)() = (void (*)()) 0x0;
-void (*Orc::ptr::CSTR_Orc)(Orc * self) = (void (*)(Orc * self)) 0x659f90;
+inline Orc * (*Orc::ptr::New)(Orc * self, int x_, int y_, int l) = (Orc * (*)(Orc * self, int x_, int y_, int l)) 0x65a000;
+inline Orc * (*Orc::ptr::_new2)() = (Orc * (*)()) 0x0;
+inline void (*Orc::ptr::Update)(Orc * self) = (void (*)(Orc * self)) 0x65a310;
+inline Point * (*Orc::ptr::GetMovementDirection)(Orc * self) = (Point * (*)(Orc * self)) 0x65a370;
+inline void (*Orc::ptr::MoveSucceed)(Orc * self, bool hitPlayer, bool moveDelayed) = (void (*)(Orc * self, bool hitPlayer, bool moveDelayed)) 0x65a440;
+inline bool (*Orc::ptr::Hit)(Orc * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Orc * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x65a490;
+inline void (*Orc::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Orc::ptr::CSTR_Orc)(Orc * self) = (void (*)(Orc * self)) 0x659f90;
 #endif
 
 #ifdef __linux__
 
-Orc * (*Orc::ptr::New)(Orc * self, int x_, int y_, int l) = (Orc * (*)(Orc * self, int x_, int y_, int l)) 0x81ca330;
-Orc * (*Orc::ptr::_new2)() = (Orc * (*)()) 0x81cae00;
-void (*Orc::ptr::Update)(Orc * self) = (void (*)(Orc * self)) 0x837ee50;
-Point * (*Orc::ptr::GetMovementDirection)(Orc * self) = (Point * (*)(Orc * self)) 0x80b4290;
-void (*Orc::ptr::MoveSucceed)(Orc * self, bool hitPlayer, bool moveDelayed) = (void (*)(Orc * self, bool hitPlayer, bool moveDelayed)) 0x80766a0;
-bool (*Orc::ptr::Hit)(Orc * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Orc * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8396a70;
-void (*Orc::ptr::_mark)() = (void (*)()) 0x80b01d0;
-void (*Orc::ptr::CSTR_Orc)(Orc * self) = (void (*)(Orc * self)) 0x81ca300;
+inline Orc * (*Orc::ptr::New)(Orc * self, int x_, int y_, int l) = (Orc * (*)(Orc * self, int x_, int y_, int l)) 0x81ca330;
+inline Orc * (*Orc::ptr::_new2)() = (Orc * (*)()) 0x81cae00;
+inline void (*Orc::ptr::Update)(Orc * self) = (void (*)(Orc * self)) 0x837ee50;
+inline Point * (*Orc::ptr::GetMovementDirection)(Orc * self) = (Point * (*)(Orc * self)) 0x80b4290;
+inline void (*Orc::ptr::MoveSucceed)(Orc * self, bool hitPlayer, bool moveDelayed) = (void (*)(Orc * self, bool hitPlayer, bool moveDelayed)) 0x80766a0;
+inline bool (*Orc::ptr::Hit)(Orc * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Orc * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8396a70;
+inline void (*Orc::ptr::_mark)() = (void (*)()) 0x80b01d0;
+inline void (*Orc::ptr::CSTR_Orc)(Orc * self) = (void (*)(Orc * self)) 0x81ca300;
 #endif
 #endif

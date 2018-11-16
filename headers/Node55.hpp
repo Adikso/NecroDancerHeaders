@@ -33,17 +33,17 @@ public:
 
 #ifdef _WIN32
 
-Node55 * (*Node55::ptr::_New)(Node55 * self, int arg1, BeatAnimationData * arg2, int arg3, Node55 * arg4) = (Node55 * (*)(Node55 * self, int arg1, BeatAnimationData * arg2, int arg3, Node55 * arg4)) 0x0;
-Node55 * (*Node55::ptr::_new2)() = (Node55 * (*)()) 0x0;
-void (*Node55::ptr::_mark)() = (void (*)()) 0x0;
-void (*Node55::ptr::CSTR_Node55)(Node55 * self) = (void (*)(Node55 * self)) 0x6162a0;
+inline Node55 * (*Node55::ptr::_New)(Node55 * self, int arg1, BeatAnimationData * arg2, int arg3, Node55 * arg4) = (Node55 * (*)(Node55 * self, int arg1, BeatAnimationData * arg2, int arg3, Node55 * arg4)) 0x0;
+inline Node55 * (*Node55::ptr::_new2)() = (Node55 * (*)()) 0x0;
+inline void (*Node55::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Node55::ptr::CSTR_Node55)(Node55 * self) = (void (*)(Node55 * self)) 0x6162a0;
 #endif
 
 #ifdef __linux__
 
-Node55 * (*Node55::ptr::_New)(Node55 * self, int arg1, BeatAnimationData * arg2, int arg3, Node55 * arg4) = (Node55 * (*)(Node55 * self, int arg1, BeatAnimationData * arg2, int arg3, Node55 * arg4)) 0x0;
-Node55 * (*Node55::ptr::_new2)() = (Node55 * (*)()) 0x81e1680;
-void (*Node55::ptr::_mark)() = (void (*)()) 0x808b210;
-void (*Node55::ptr::CSTR_Node55)(Node55 * self) = (void (*)(Node55 * self)) 0x81e1440;
+inline Node55 * (*Node55::ptr::_New)(Node55 * self, int arg1, BeatAnimationData * arg2, int arg3, Node55 * arg4) = (Node55 * (*)(Node55 * self, int arg1, BeatAnimationData * arg2, int arg3, Node55 * arg4)) 0x0;
+inline Node55 * (*Node55::ptr::_new2)() = (Node55 * (*)()) 0x81e1680;
+inline void (*Node55::ptr::_mark)() = (void (*)()) 0x808b210;
+inline void (*Node55::ptr::CSTR_Node55)(Node55 * self) = (void (*)(Node55 * self)) 0x81e1440;
 #endif
 #endif

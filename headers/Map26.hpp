@@ -38,29 +38,29 @@ public:
 
 #ifdef _WIN32
 
-Map26 * (*Map26::ptr::_New)() = (Map26 * (*)()) 0x0;
-int (*Map26::ptr::_Compare2)(Map26 * self, int arg1, int arg2) = (int (*)(Map26 * self, int arg1, int arg2)) 0x0;
-Node82 * (*Map26::ptr::_FindNode2)(Map26 * self, int arg1) = (Node82 * (*)(Map26 * self, int arg1)) 0x0;
-bool (*Map26::ptr::Contains2)(Map26 * self, int key) = (bool (*)(Map26 * self, int key)) 0x661030;
-Enemy * (*Map26::ptr::_Get2)(Map26 * self, int arg1) = (Enemy * (*)(Map26 * self, int arg1)) 0x0;
-int (*Map26::ptr::_RotateLeft26)(Map26 * self, Node82 * arg1) = (int (*)(Map26 * self, Node82 * arg1)) 0x0;
-int (*Map26::ptr::_RotateRight26)(Map26 * self, Node82 * arg1) = (int (*)(Map26 * self, Node82 * arg1)) 0x0;
-int (*Map26::ptr::_InsertFixup26)(Map26 * self, Node82 * arg1) = (int (*)(Map26 * self, Node82 * arg1)) 0x0;
-bool (*Map26::ptr::Set23)(Map26 * self, int key, Enemy * value) = (bool (*)(Map26 * self, int key, Enemy * value)) 0x68e310;
-void (*Map26::ptr::_mark)() = (void (*)()) 0x0;
+inline Map26 * (*Map26::ptr::_New)() = (Map26 * (*)()) 0x0;
+inline int (*Map26::ptr::_Compare2)(Map26 * self, int arg1, int arg2) = (int (*)(Map26 * self, int arg1, int arg2)) 0x0;
+inline Node82 * (*Map26::ptr::_FindNode2)(Map26 * self, int arg1) = (Node82 * (*)(Map26 * self, int arg1)) 0x0;
+inline bool (*Map26::ptr::Contains2)(Map26 * self, int key) = (bool (*)(Map26 * self, int key)) 0x661030;
+inline Enemy * (*Map26::ptr::_Get2)(Map26 * self, int arg1) = (Enemy * (*)(Map26 * self, int arg1)) 0x0;
+inline int (*Map26::ptr::_RotateLeft26)(Map26 * self, Node82 * arg1) = (int (*)(Map26 * self, Node82 * arg1)) 0x0;
+inline int (*Map26::ptr::_RotateRight26)(Map26 * self, Node82 * arg1) = (int (*)(Map26 * self, Node82 * arg1)) 0x0;
+inline int (*Map26::ptr::_InsertFixup26)(Map26 * self, Node82 * arg1) = (int (*)(Map26 * self, Node82 * arg1)) 0x0;
+inline bool (*Map26::ptr::Set23)(Map26 * self, int key, Enemy * value) = (bool (*)(Map26 * self, int key, Enemy * value)) 0x68e310;
+inline void (*Map26::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Map26 * (*Map26::ptr::_New)() = (Map26 * (*)()) 0x81e5800;
-int (*Map26::ptr::_Compare2)(Map26 * self, int arg1, int arg2) = (int (*)(Map26 * self, int arg1, int arg2)) 0x0;
-Node82 * (*Map26::ptr::_FindNode2)(Map26 * self, int arg1) = (Node82 * (*)(Map26 * self, int arg1)) 0x8079530;
-bool (*Map26::ptr::Contains2)(Map26 * self, int key) = (bool (*)(Map26 * self, int key)) 0x8079580;
-Enemy * (*Map26::ptr::_Get2)(Map26 * self, int arg1) = (Enemy * (*)(Map26 * self, int arg1)) 0x80795a0;
-int (*Map26::ptr::_RotateLeft26)(Map26 * self, Node82 * arg1) = (int (*)(Map26 * self, Node82 * arg1)) 0x0;
-int (*Map26::ptr::_RotateRight26)(Map26 * self, Node82 * arg1) = (int (*)(Map26 * self, Node82 * arg1)) 0x0;
-int (*Map26::ptr::_InsertFixup26)(Map26 * self, Node82 * arg1) = (int (*)(Map26 * self, Node82 * arg1)) 0x0;
-bool (*Map26::ptr::Set23)(Map26 * self, int key, Enemy * value) = (bool (*)(Map26 * self, int key, Enemy * value)) 0x80bd410;
-void (*Map26::ptr::_mark)() = (void (*)()) 0x808c500;
+inline Map26 * (*Map26::ptr::_New)() = (Map26 * (*)()) 0x81e5800;
+inline int (*Map26::ptr::_Compare2)(Map26 * self, int arg1, int arg2) = (int (*)(Map26 * self, int arg1, int arg2)) 0x0;
+inline Node82 * (*Map26::ptr::_FindNode2)(Map26 * self, int arg1) = (Node82 * (*)(Map26 * self, int arg1)) 0x8079530;
+inline bool (*Map26::ptr::Contains2)(Map26 * self, int key) = (bool (*)(Map26 * self, int key)) 0x8079580;
+inline Enemy * (*Map26::ptr::_Get2)(Map26 * self, int arg1) = (Enemy * (*)(Map26 * self, int arg1)) 0x80795a0;
+inline int (*Map26::ptr::_RotateLeft26)(Map26 * self, Node82 * arg1) = (int (*)(Map26 * self, Node82 * arg1)) 0x0;
+inline int (*Map26::ptr::_RotateRight26)(Map26 * self, Node82 * arg1) = (int (*)(Map26 * self, Node82 * arg1)) 0x0;
+inline int (*Map26::ptr::_InsertFixup26)(Map26 * self, Node82 * arg1) = (int (*)(Map26 * self, Node82 * arg1)) 0x0;
+inline bool (*Map26::ptr::Set23)(Map26 * self, int key, Enemy * value) = (bool (*)(Map26 * self, int key, Enemy * value)) 0x80bd410;
+inline void (*Map26::ptr::_mark)() = (void (*)()) 0x808c500;
 #endif
 #endif

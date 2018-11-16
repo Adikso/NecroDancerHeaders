@@ -22,15 +22,15 @@ public:
 
 #ifdef _WIN32
 
-TrapList * (*TrapList::ptr::_New)() = (TrapList * (*)()) 0x0;
-int (*TrapList::ptr::Compare3)(TrapList * self, Trap * a, Trap * b) = (int (*)(TrapList * self, Trap * a, Trap * b)) 0x5d8cc0;
-void (*TrapList::ptr::mark)(TrapList * self) = (void (*)(TrapList * self)) 0x447220;
+inline TrapList * (*TrapList::ptr::_New)() = (TrapList * (*)()) 0x0;
+inline int (*TrapList::ptr::Compare3)(TrapList * self, Trap * a, Trap * b) = (int (*)(TrapList * self, Trap * a, Trap * b)) 0x5d8cc0;
+inline void (*TrapList::ptr::mark)(TrapList * self) = (void (*)(TrapList * self)) 0x447220;
 #endif
 
 #ifdef __linux__
 
-TrapList * (*TrapList::ptr::_New)() = (TrapList * (*)()) 0x8192e00;
-int (*TrapList::ptr::Compare3)(TrapList * self, Trap * a, Trap * b) = (int (*)(TrapList * self, Trap * a, Trap * b)) 0x807ee80;
-void (*TrapList::ptr::mark)(TrapList * self) = (void (*)(TrapList * self)) 0x808bf90;
+inline TrapList * (*TrapList::ptr::_New)() = (TrapList * (*)()) 0x8192e00;
+inline int (*TrapList::ptr::Compare3)(TrapList * self, Trap * a, Trap * b) = (int (*)(TrapList * self, Trap * a, Trap * b)) 0x807ee80;
+inline void (*TrapList::ptr::mark)(TrapList * self) = (void (*)(TrapList * self)) 0x808bf90;
 #endif
 #endif

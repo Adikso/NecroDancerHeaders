@@ -45,21 +45,21 @@ public:
 
 #ifdef _WIN32
 
-WeaponPoint * (*WeaponPoint::ptr::New)(WeaponPoint * self, int x, int y, Weapon * wep, int strikes, WeaponPoint * par, int dir, bool sObs, int swpImgNum, int dmgMult) = (WeaponPoint * (*)(WeaponPoint * self, int x, int y, Weapon * wep, int strikes, WeaponPoint * par, int dir, bool sObs, int swpImgNum, int dmgMult)) 0x5ec920;
-WeaponPoint * (*WeaponPoint::ptr::_new2)() = (WeaponPoint * (*)()) 0x0;
-bool (*WeaponPoint::ptr::DoesHit)(WeaponPoint * self) = (bool (*)(WeaponPoint * self)) 0x5eca00;
-int (*WeaponPoint::ptr::GetDamage)(WeaponPoint * self) = (int (*)(WeaponPoint * self)) 0x5eca10;
-void (*WeaponPoint::ptr::mark)(WeaponPoint * self) = (void (*)(WeaponPoint * self)) 0x5eca30;
-void (*WeaponPoint::ptr::CSTR_WeaponPoint)(WeaponPoint * self) = (void (*)(WeaponPoint * self)) 0x5ec800;
+inline WeaponPoint * (*WeaponPoint::ptr::New)(WeaponPoint * self, int x, int y, Weapon * wep, int strikes, WeaponPoint * par, int dir, bool sObs, int swpImgNum, int dmgMult) = (WeaponPoint * (*)(WeaponPoint * self, int x, int y, Weapon * wep, int strikes, WeaponPoint * par, int dir, bool sObs, int swpImgNum, int dmgMult)) 0x5ec920;
+inline WeaponPoint * (*WeaponPoint::ptr::_new2)() = (WeaponPoint * (*)()) 0x0;
+inline bool (*WeaponPoint::ptr::DoesHit)(WeaponPoint * self) = (bool (*)(WeaponPoint * self)) 0x5eca00;
+inline int (*WeaponPoint::ptr::GetDamage)(WeaponPoint * self) = (int (*)(WeaponPoint * self)) 0x5eca10;
+inline void (*WeaponPoint::ptr::mark)(WeaponPoint * self) = (void (*)(WeaponPoint * self)) 0x5eca30;
+inline void (*WeaponPoint::ptr::CSTR_WeaponPoint)(WeaponPoint * self) = (void (*)(WeaponPoint * self)) 0x5ec800;
 #endif
 
 #ifdef __linux__
 
-WeaponPoint * (*WeaponPoint::ptr::New)(WeaponPoint * self, int x, int y, Weapon * wep, int strikes, WeaponPoint * par, int dir, bool sObs, int swpImgNum, int dmgMult) = (WeaponPoint * (*)(WeaponPoint * self, int x, int y, Weapon * wep, int strikes, WeaponPoint * par, int dir, bool sObs, int swpImgNum, int dmgMult)) 0x819aa90;
-WeaponPoint * (*WeaponPoint::ptr::_new2)() = (WeaponPoint * (*)()) 0x819aba0;
-bool (*WeaponPoint::ptr::DoesHit)(WeaponPoint * self) = (bool (*)(WeaponPoint * self)) 0x80728f0;
-int (*WeaponPoint::ptr::GetDamage)(WeaponPoint * self) = (int (*)(WeaponPoint * self)) 0x8072900;
-void (*WeaponPoint::ptr::mark)(WeaponPoint * self) = (void (*)(WeaponPoint * self)) 0x809aa20;
-void (*WeaponPoint::ptr::CSTR_WeaponPoint)(WeaponPoint * self) = (void (*)(WeaponPoint * self)) 0x819b210;
+inline WeaponPoint * (*WeaponPoint::ptr::New)(WeaponPoint * self, int x, int y, Weapon * wep, int strikes, WeaponPoint * par, int dir, bool sObs, int swpImgNum, int dmgMult) = (WeaponPoint * (*)(WeaponPoint * self, int x, int y, Weapon * wep, int strikes, WeaponPoint * par, int dir, bool sObs, int swpImgNum, int dmgMult)) 0x819aa90;
+inline WeaponPoint * (*WeaponPoint::ptr::_new2)() = (WeaponPoint * (*)()) 0x819aba0;
+inline bool (*WeaponPoint::ptr::DoesHit)(WeaponPoint * self) = (bool (*)(WeaponPoint * self)) 0x80728f0;
+inline int (*WeaponPoint::ptr::GetDamage)(WeaponPoint * self) = (int (*)(WeaponPoint * self)) 0x8072900;
+inline void (*WeaponPoint::ptr::mark)(WeaponPoint * self) = (void (*)(WeaponPoint * self)) 0x809aa20;
+inline void (*WeaponPoint::ptr::CSTR_WeaponPoint)(WeaponPoint * self) = (void (*)(WeaponPoint * self)) 0x819b210;
 #endif
 #endif

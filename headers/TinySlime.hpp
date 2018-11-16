@@ -27,17 +27,17 @@ public:
 
 #ifdef _WIN32
 
-TinySlime * (*TinySlime::ptr::New)(TinySlime * self, int xVal, int yVal, int l) = (TinySlime * (*)(TinySlime * self, int xVal, int yVal, int l)) 0x692af0;
-TinySlime * (*TinySlime::ptr::_new2)() = (TinySlime * (*)()) 0x0;
-void (*TinySlime::ptr::_mark)() = (void (*)()) 0x0;
-void (*TinySlime::ptr::CSTR_TinySlime)(TinySlime * self) = (void (*)(TinySlime * self)) 0x692a90;
+inline TinySlime * (*TinySlime::ptr::New)(TinySlime * self, int xVal, int yVal, int l) = (TinySlime * (*)(TinySlime * self, int xVal, int yVal, int l)) 0x692af0;
+inline TinySlime * (*TinySlime::ptr::_new2)() = (TinySlime * (*)()) 0x0;
+inline void (*TinySlime::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*TinySlime::ptr::CSTR_TinySlime)(TinySlime * self) = (void (*)(TinySlime * self)) 0x692a90;
 #endif
 
 #ifdef __linux__
 
-TinySlime * (*TinySlime::ptr::New)(TinySlime * self, int xVal, int yVal, int l) = (TinySlime * (*)(TinySlime * self, int xVal, int yVal, int l)) 0x81e6ad0;
-TinySlime * (*TinySlime::ptr::_new2)() = (TinySlime * (*)()) 0x81e6bb0;
-void (*TinySlime::ptr::_mark)() = (void (*)()) 0x80afdb0;
-void (*TinySlime::ptr::CSTR_TinySlime)(TinySlime * self) = (void (*)(TinySlime * self)) 0x81e6ab0;
+inline TinySlime * (*TinySlime::ptr::New)(TinySlime * self, int xVal, int yVal, int l) = (TinySlime * (*)(TinySlime * self, int xVal, int yVal, int l)) 0x81e6ad0;
+inline TinySlime * (*TinySlime::ptr::_new2)() = (TinySlime * (*)()) 0x81e6bb0;
+inline void (*TinySlime::ptr::_mark)() = (void (*)()) 0x80afdb0;
+inline void (*TinySlime::ptr::CSTR_TinySlime)(TinySlime * self) = (void (*)(TinySlime * self)) 0x81e6ab0;
 #endif
 #endif

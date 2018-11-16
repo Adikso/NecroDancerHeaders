@@ -30,19 +30,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator3 * (*Enumerator3::ptr::_New)(Enumerator3 * self, List3 * arg1) = (Enumerator3 * (*)(Enumerator3 * self, List3 * arg1)) 0x0;
-Enumerator3 * (*Enumerator3::ptr::_new2)() = (Enumerator3 * (*)()) 0x0;
-bool (*Enumerator3::ptr::_HasNext)() = (bool (*)()) 0x0;
-Array<int> * (*Enumerator3::ptr::NextObject)(Enumerator3 * self) = (Array<int> * (*)(Enumerator3 * self)) 0x5422b0;
-void (*Enumerator3::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator3 * (*Enumerator3::ptr::_New)(Enumerator3 * self, List3 * arg1) = (Enumerator3 * (*)(Enumerator3 * self, List3 * arg1)) 0x0;
+inline Enumerator3 * (*Enumerator3::ptr::_new2)() = (Enumerator3 * (*)()) 0x0;
+inline bool (*Enumerator3::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline Array<int> * (*Enumerator3::ptr::NextObject)(Enumerator3 * self) = (Array<int> * (*)(Enumerator3 * self)) 0x5422b0;
+inline void (*Enumerator3::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator3 * (*Enumerator3::ptr::_New)(Enumerator3 * self, List3 * arg1) = (Enumerator3 * (*)(Enumerator3 * self, List3 * arg1)) 0x814c080;
-Enumerator3 * (*Enumerator3::ptr::_new2)() = (Enumerator3 * (*)()) 0x814c130;
-bool (*Enumerator3::ptr::_HasNext)() = (bool (*)()) 0x8093a00;
-Array<int> * (*Enumerator3::ptr::NextObject)(Enumerator3 * self) = (Array<int> * (*)(Enumerator3 * self)) 0x8093980;
-void (*Enumerator3::ptr::_mark)() = (void (*)()) 0x808e2e0;
+inline Enumerator3 * (*Enumerator3::ptr::_New)(Enumerator3 * self, List3 * arg1) = (Enumerator3 * (*)(Enumerator3 * self, List3 * arg1)) 0x814c080;
+inline Enumerator3 * (*Enumerator3::ptr::_new2)() = (Enumerator3 * (*)()) 0x814c130;
+inline bool (*Enumerator3::ptr::_HasNext)() = (bool (*)()) 0x8093a00;
+inline Array<int> * (*Enumerator3::ptr::NextObject)(Enumerator3 * self) = (Array<int> * (*)(Enumerator3 * self)) 0x8093980;
+inline void (*Enumerator3::ptr::_mark)() = (void (*)()) 0x808e2e0;
 #endif
 #endif

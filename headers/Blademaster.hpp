@@ -45,29 +45,29 @@ public:
 
 #ifdef _WIN32
 
-Blademaster * (*Blademaster::ptr::New)(Blademaster * self, int xVal, int yVal, int l) = (Blademaster * (*)(Blademaster * self, int xVal, int yVal, int l)) 0x64a4e0;
-Blademaster * (*Blademaster::ptr::_new2)() = (Blademaster * (*)()) 0x0;
-Point * (*Blademaster::ptr::GetMovementDirection)(Blademaster * self) = (Point * (*)(Blademaster * self)) 0x64a770;
-void (*Blademaster::ptr::Update)(Blademaster * self) = (void (*)(Blademaster * self)) 0x64a8a0;
-bool (*Blademaster::ptr::Hit)(Blademaster * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Blademaster * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x64a980;
-void (*Blademaster::ptr::MoveSucceed)(Blademaster * self, bool hitPlayer, bool moveDelayed) = (void (*)(Blademaster * self, bool hitPlayer, bool moveDelayed)) 0x64ace0;
-void (*Blademaster::ptr::MoveFail)(Blademaster * self) = (void (*)(Blademaster * self)) 0x64b040;
-bool (*Blademaster::ptr::_CanBeLord)() = (bool (*)()) 0x0;
-void (*Blademaster::ptr::_mark)() = (void (*)()) 0x0;
-void (*Blademaster::ptr::CSTR_Blademaster)(Blademaster * self) = (void (*)(Blademaster * self)) 0x64a470;
+inline Blademaster * (*Blademaster::ptr::New)(Blademaster * self, int xVal, int yVal, int l) = (Blademaster * (*)(Blademaster * self, int xVal, int yVal, int l)) 0x64a4e0;
+inline Blademaster * (*Blademaster::ptr::_new2)() = (Blademaster * (*)()) 0x0;
+inline Point * (*Blademaster::ptr::GetMovementDirection)(Blademaster * self) = (Point * (*)(Blademaster * self)) 0x64a770;
+inline void (*Blademaster::ptr::Update)(Blademaster * self) = (void (*)(Blademaster * self)) 0x64a8a0;
+inline bool (*Blademaster::ptr::Hit)(Blademaster * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Blademaster * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x64a980;
+inline void (*Blademaster::ptr::MoveSucceed)(Blademaster * self, bool hitPlayer, bool moveDelayed) = (void (*)(Blademaster * self, bool hitPlayer, bool moveDelayed)) 0x64ace0;
+inline void (*Blademaster::ptr::MoveFail)(Blademaster * self) = (void (*)(Blademaster * self)) 0x64b040;
+inline bool (*Blademaster::ptr::_CanBeLord)() = (bool (*)()) 0x0;
+inline void (*Blademaster::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Blademaster::ptr::CSTR_Blademaster)(Blademaster * self) = (void (*)(Blademaster * self)) 0x64a470;
 #endif
 
 #ifdef __linux__
 
-Blademaster * (*Blademaster::ptr::New)(Blademaster * self, int xVal, int yVal, int l) = (Blademaster * (*)(Blademaster * self, int xVal, int yVal, int l)) 0x81c4cc0;
-Blademaster * (*Blademaster::ptr::_new2)() = (Blademaster * (*)()) 0x81c4e60;
-Point * (*Blademaster::ptr::GetMovementDirection)(Blademaster * self) = (Point * (*)(Blademaster * self)) 0x8132740;
-void (*Blademaster::ptr::Update)(Blademaster * self) = (void (*)(Blademaster * self)) 0x8380d20;
-bool (*Blademaster::ptr::Hit)(Blademaster * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Blademaster * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8397a50;
-void (*Blademaster::ptr::MoveSucceed)(Blademaster * self, bool hitPlayer, bool moveDelayed) = (void (*)(Blademaster * self, bool hitPlayer, bool moveDelayed)) 0x83a6950;
-void (*Blademaster::ptr::MoveFail)(Blademaster * self) = (void (*)(Blademaster * self)) 0x8134cc0;
-bool (*Blademaster::ptr::_CanBeLord)() = (bool (*)()) 0x8076360;
-void (*Blademaster::ptr::_mark)() = (void (*)()) 0x80b04b0;
-void (*Blademaster::ptr::CSTR_Blademaster)(Blademaster * self) = (void (*)(Blademaster * self)) 0x81c4c80;
+inline Blademaster * (*Blademaster::ptr::New)(Blademaster * self, int xVal, int yVal, int l) = (Blademaster * (*)(Blademaster * self, int xVal, int yVal, int l)) 0x81c4cc0;
+inline Blademaster * (*Blademaster::ptr::_new2)() = (Blademaster * (*)()) 0x81c4e60;
+inline Point * (*Blademaster::ptr::GetMovementDirection)(Blademaster * self) = (Point * (*)(Blademaster * self)) 0x8132740;
+inline void (*Blademaster::ptr::Update)(Blademaster * self) = (void (*)(Blademaster * self)) 0x8380d20;
+inline bool (*Blademaster::ptr::Hit)(Blademaster * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Blademaster * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8397a50;
+inline void (*Blademaster::ptr::MoveSucceed)(Blademaster * self, bool hitPlayer, bool moveDelayed) = (void (*)(Blademaster * self, bool hitPlayer, bool moveDelayed)) 0x83a6950;
+inline void (*Blademaster::ptr::MoveFail)(Blademaster * self) = (void (*)(Blademaster * self)) 0x8134cc0;
+inline bool (*Blademaster::ptr::_CanBeLord)() = (bool (*)()) 0x8076360;
+inline void (*Blademaster::ptr::_mark)() = (void (*)()) 0x80b04b0;
+inline void (*Blademaster::ptr::CSTR_Blademaster)(Blademaster * self) = (void (*)(Blademaster * self)) 0x81c4c80;
 #endif
 #endif

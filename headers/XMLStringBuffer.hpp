@@ -47,31 +47,31 @@ public:
 
 #ifdef _WIN32
 
-XMLStringBuffer * (*XMLStringBuffer::ptr::_New)(XMLStringBuffer * self, int arg1) = (XMLStringBuffer * (*)(XMLStringBuffer * self, int arg1)) 0x0;
-void (*XMLStringBuffer::ptr::Add)(XMLStringBuffer * self, int asc) = (void (*)(XMLStringBuffer * self, int asc)) 0x445ce0;
-void (*XMLStringBuffer::ptr::Add2)(XMLStringBuffer * self, String * text) = (void (*)(XMLStringBuffer * self, String * text)) 0x445d40;
-void (*XMLStringBuffer::ptr::Add3)(XMLStringBuffer * self, String * text, int offset, int suggestedLength) = (void (*)(XMLStringBuffer * self, String * text, int offset, int suggestedLength)) 0x445e50;
-int (*XMLStringBuffer::ptr::_Length)() = (int (*)()) 0x0;
-String * (*XMLStringBuffer::ptr::value)(XMLStringBuffer * self) = (String * (*)(XMLStringBuffer * self)) 0x445f90;
-void (*XMLStringBuffer::ptr::Clear)(XMLStringBuffer * self) = (void (*)(XMLStringBuffer * self)) 0x4460b0;
-int (*XMLStringBuffer::ptr::Last)(XMLStringBuffer * self, int defaultValue) = (int (*)(XMLStringBuffer * self, int defaultValue)) 0x446150;
-bool (*XMLStringBuffer::ptr::Trim)(XMLStringBuffer * self) = (bool (*)(XMLStringBuffer * self)) 0x446170;
-void (*XMLStringBuffer::ptr::mark)(XMLStringBuffer * self) = (void (*)(XMLStringBuffer * self)) 0x446260;
-void (*XMLStringBuffer::ptr::CSTR_XMLStringBuffer)(XMLStringBuffer * self) = (void (*)(XMLStringBuffer * self)) 0x445b40;
+inline XMLStringBuffer * (*XMLStringBuffer::ptr::_New)(XMLStringBuffer * self, int arg1) = (XMLStringBuffer * (*)(XMLStringBuffer * self, int arg1)) 0x0;
+inline void (*XMLStringBuffer::ptr::Add)(XMLStringBuffer * self, int asc) = (void (*)(XMLStringBuffer * self, int asc)) 0x445ce0;
+inline void (*XMLStringBuffer::ptr::Add2)(XMLStringBuffer * self, String * text) = (void (*)(XMLStringBuffer * self, String * text)) 0x445d40;
+inline void (*XMLStringBuffer::ptr::Add3)(XMLStringBuffer * self, String * text, int offset, int suggestedLength) = (void (*)(XMLStringBuffer * self, String * text, int offset, int suggestedLength)) 0x445e50;
+inline int (*XMLStringBuffer::ptr::_Length)() = (int (*)()) 0x0;
+inline String * (*XMLStringBuffer::ptr::value)(XMLStringBuffer * self) = (String * (*)(XMLStringBuffer * self)) 0x445f90;
+inline void (*XMLStringBuffer::ptr::Clear)(XMLStringBuffer * self) = (void (*)(XMLStringBuffer * self)) 0x4460b0;
+inline int (*XMLStringBuffer::ptr::Last)(XMLStringBuffer * self, int defaultValue) = (int (*)(XMLStringBuffer * self, int defaultValue)) 0x446150;
+inline bool (*XMLStringBuffer::ptr::Trim)(XMLStringBuffer * self) = (bool (*)(XMLStringBuffer * self)) 0x446170;
+inline void (*XMLStringBuffer::ptr::mark)(XMLStringBuffer * self) = (void (*)(XMLStringBuffer * self)) 0x446260;
+inline void (*XMLStringBuffer::ptr::CSTR_XMLStringBuffer)(XMLStringBuffer * self) = (void (*)(XMLStringBuffer * self)) 0x445b40;
 #endif
 
 #ifdef __linux__
 
-XMLStringBuffer * (*XMLStringBuffer::ptr::_New)(XMLStringBuffer * self, int arg1) = (XMLStringBuffer * (*)(XMLStringBuffer * self, int arg1)) 0x8118120;
-void (*XMLStringBuffer::ptr::Add)(XMLStringBuffer * self, int asc) = (void (*)(XMLStringBuffer * self, int asc)) 0x80c15c0;
-void (*XMLStringBuffer::ptr::Add2)(XMLStringBuffer * self, String * text) = (void (*)(XMLStringBuffer * self, String * text)) 0x80c1120;
-void (*XMLStringBuffer::ptr::Add3)(XMLStringBuffer * self, String * text, int offset, int suggestedLength) = (void (*)(XMLStringBuffer * self, String * text, int offset, int suggestedLength)) 0x80bdb60;
-int (*XMLStringBuffer::ptr::_Length)() = (int (*)()) 0x806d650;
-String * (*XMLStringBuffer::ptr::value)(XMLStringBuffer * self) = (String * (*)(XMLStringBuffer * self)) 0x80dfe70;
-void (*XMLStringBuffer::ptr::Clear)(XMLStringBuffer * self) = (void (*)(XMLStringBuffer * self)) 0x80d8cd0;
-int (*XMLStringBuffer::ptr::Last)(XMLStringBuffer * self, int defaultValue) = (int (*)(XMLStringBuffer * self, int defaultValue)) 0x8081dd0;
-bool (*XMLStringBuffer::ptr::Trim)(XMLStringBuffer * self) = (bool (*)(XMLStringBuffer * self)) 0x8081c90;
-void (*XMLStringBuffer::ptr::mark)(XMLStringBuffer * self) = (void (*)(XMLStringBuffer * self)) 0x80a0e90;
-void (*XMLStringBuffer::ptr::CSTR_XMLStringBuffer)(XMLStringBuffer * self) = (void (*)(XMLStringBuffer * self)) 0x8117fd0;
+inline XMLStringBuffer * (*XMLStringBuffer::ptr::_New)(XMLStringBuffer * self, int arg1) = (XMLStringBuffer * (*)(XMLStringBuffer * self, int arg1)) 0x8118120;
+inline void (*XMLStringBuffer::ptr::Add)(XMLStringBuffer * self, int asc) = (void (*)(XMLStringBuffer * self, int asc)) 0x80c15c0;
+inline void (*XMLStringBuffer::ptr::Add2)(XMLStringBuffer * self, String * text) = (void (*)(XMLStringBuffer * self, String * text)) 0x80c1120;
+inline void (*XMLStringBuffer::ptr::Add3)(XMLStringBuffer * self, String * text, int offset, int suggestedLength) = (void (*)(XMLStringBuffer * self, String * text, int offset, int suggestedLength)) 0x80bdb60;
+inline int (*XMLStringBuffer::ptr::_Length)() = (int (*)()) 0x806d650;
+inline String * (*XMLStringBuffer::ptr::value)(XMLStringBuffer * self) = (String * (*)(XMLStringBuffer * self)) 0x80dfe70;
+inline void (*XMLStringBuffer::ptr::Clear)(XMLStringBuffer * self) = (void (*)(XMLStringBuffer * self)) 0x80d8cd0;
+inline int (*XMLStringBuffer::ptr::Last)(XMLStringBuffer * self, int defaultValue) = (int (*)(XMLStringBuffer * self, int defaultValue)) 0x8081dd0;
+inline bool (*XMLStringBuffer::ptr::Trim)(XMLStringBuffer * self) = (bool (*)(XMLStringBuffer * self)) 0x8081c90;
+inline void (*XMLStringBuffer::ptr::mark)(XMLStringBuffer * self) = (void (*)(XMLStringBuffer * self)) 0x80a0e90;
+inline void (*XMLStringBuffer::ptr::CSTR_XMLStringBuffer)(XMLStringBuffer * self) = (void (*)(XMLStringBuffer * self)) 0x8117fd0;
 #endif
 #endif

@@ -55,42 +55,42 @@ public:
 };
 
 #ifdef _WIN32
-List50 * * Sarcophagus::sarcophagi = (List50* *) 0x83558c;
+inline List50 * * Sarcophagus::sarcophagi = (List50* *) 0x83558c;
 
-Sarcophagus * (*Sarcophagus::ptr::New)(Sarcophagus * self, int xVal, int yVal, int l) = (Sarcophagus * (*)(Sarcophagus * self, int xVal, int yVal, int l)) 0x64e4a0;
-Sarcophagus * (*Sarcophagus::ptr::_new2)() = (Sarcophagus * (*)()) 0x0;
-void (*Sarcophagus::ptr::Die)(Sarcophagus * self) = (void (*)(Sarcophagus * self)) 0x64e6b0;
-void (*Sarcophagus::ptr::DestroyAll)() = (void (*)()) 0x64e710;
-int (*Sarcophagus::ptr::_GetNumSarcophagi)() = (int (*)()) 0x0;
-Point * (*Sarcophagus::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
-int (*Sarcophagus::ptr::_PerformMovement)(Sarcophagus * self, int arg1, int arg2) = (int (*)(Sarcophagus * self, int arg1, int arg2)) 0x0;
-bool (*Sarcophagus::ptr::_ImmuneToFear)() = (bool (*)()) 0x0;
-void (*Sarcophagus::ptr::MoveFail)(Sarcophagus * self) = (void (*)(Sarcophagus * self)) 0x64e750;
-void (*Sarcophagus::ptr::_MoveSucceed)(Sarcophagus * self, bool arg1, bool arg2) = (void (*)(Sarcophagus * self, bool arg1, bool arg2)) 0x0;
-void (*Sarcophagus::ptr::Update)(Sarcophagus * self) = (void (*)(Sarcophagus * self)) 0x64ede0;
-bool (*Sarcophagus::ptr::_CanBeLord)() = (bool (*)()) 0x0;
-void (*Sarcophagus::ptr::Delete)(Sarcophagus * self) = (void (*)(Sarcophagus * self)) 0x64ee30;
-void (*Sarcophagus::ptr::_mark)() = (void (*)()) 0x0;
-void (*Sarcophagus::ptr::CSTR_Sarcophagus)(Sarcophagus * self) = (void (*)(Sarcophagus * self)) 0x64e420;
+inline Sarcophagus * (*Sarcophagus::ptr::New)(Sarcophagus * self, int xVal, int yVal, int l) = (Sarcophagus * (*)(Sarcophagus * self, int xVal, int yVal, int l)) 0x64e4a0;
+inline Sarcophagus * (*Sarcophagus::ptr::_new2)() = (Sarcophagus * (*)()) 0x0;
+inline void (*Sarcophagus::ptr::Die)(Sarcophagus * self) = (void (*)(Sarcophagus * self)) 0x64e6b0;
+inline void (*Sarcophagus::ptr::DestroyAll)() = (void (*)()) 0x64e710;
+inline int (*Sarcophagus::ptr::_GetNumSarcophagi)() = (int (*)()) 0x0;
+inline Point * (*Sarcophagus::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
+inline int (*Sarcophagus::ptr::_PerformMovement)(Sarcophagus * self, int arg1, int arg2) = (int (*)(Sarcophagus * self, int arg1, int arg2)) 0x0;
+inline bool (*Sarcophagus::ptr::_ImmuneToFear)() = (bool (*)()) 0x0;
+inline void (*Sarcophagus::ptr::MoveFail)(Sarcophagus * self) = (void (*)(Sarcophagus * self)) 0x64e750;
+inline void (*Sarcophagus::ptr::_MoveSucceed)(Sarcophagus * self, bool arg1, bool arg2) = (void (*)(Sarcophagus * self, bool arg1, bool arg2)) 0x0;
+inline void (*Sarcophagus::ptr::Update)(Sarcophagus * self) = (void (*)(Sarcophagus * self)) 0x64ede0;
+inline bool (*Sarcophagus::ptr::_CanBeLord)() = (bool (*)()) 0x0;
+inline void (*Sarcophagus::ptr::Delete)(Sarcophagus * self) = (void (*)(Sarcophagus * self)) 0x64ee30;
+inline void (*Sarcophagus::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Sarcophagus::ptr::CSTR_Sarcophagus)(Sarcophagus * self) = (void (*)(Sarcophagus * self)) 0x64e420;
 #endif
 
 #ifdef __linux__
-List50 * * Sarcophagus::sarcophagi = (List50* *) 0x856a354;
+inline List50 * * Sarcophagus::sarcophagi = (List50* *) 0x856a354;
 
-Sarcophagus * (*Sarcophagus::ptr::New)(Sarcophagus * self, int xVal, int yVal, int l) = (Sarcophagus * (*)(Sarcophagus * self, int xVal, int yVal, int l)) 0x81c5db0;
-Sarcophagus * (*Sarcophagus::ptr::_new2)() = (Sarcophagus * (*)()) 0x81c6320;
-void (*Sarcophagus::ptr::Die)(Sarcophagus * self) = (void (*)(Sarcophagus * self)) 0x83b5e80;
-void (*Sarcophagus::ptr::DestroyAll)() = (void (*)()) 0x81c6340;
-int (*Sarcophagus::ptr::_GetNumSarcophagi)() = (int (*)()) 0x81c6380;
-Point * (*Sarcophagus::ptr::_GetMovementDirection)() = (Point * (*)()) 0x80b4430;
-int (*Sarcophagus::ptr::_PerformMovement)(Sarcophagus * self, int arg1, int arg2) = (int (*)(Sarcophagus * self, int arg1, int arg2)) 0x8076400;
-bool (*Sarcophagus::ptr::_ImmuneToFear)() = (bool (*)()) 0x8076410;
-void (*Sarcophagus::ptr::MoveFail)(Sarcophagus * self) = (void (*)(Sarcophagus * self)) 0x83a70f0;
-void (*Sarcophagus::ptr::_MoveSucceed)(Sarcophagus * self, bool arg1, bool arg2) = (void (*)(Sarcophagus * self, bool arg1, bool arg2)) 0x83a75e0;
-void (*Sarcophagus::ptr::Update)(Sarcophagus * self) = (void (*)(Sarcophagus * self)) 0x8380080;
-bool (*Sarcophagus::ptr::_CanBeLord)() = (bool (*)()) 0x8076420;
-void (*Sarcophagus::ptr::Delete)(Sarcophagus * self) = (void (*)(Sarcophagus * self)) 0x8093630;
-void (*Sarcophagus::ptr::_mark)() = (void (*)()) 0x80b0430;
-void (*Sarcophagus::ptr::CSTR_Sarcophagus)(Sarcophagus * self) = (void (*)(Sarcophagus * self)) 0x81c5d60;
+inline Sarcophagus * (*Sarcophagus::ptr::New)(Sarcophagus * self, int xVal, int yVal, int l) = (Sarcophagus * (*)(Sarcophagus * self, int xVal, int yVal, int l)) 0x81c5db0;
+inline Sarcophagus * (*Sarcophagus::ptr::_new2)() = (Sarcophagus * (*)()) 0x81c6320;
+inline void (*Sarcophagus::ptr::Die)(Sarcophagus * self) = (void (*)(Sarcophagus * self)) 0x83b5e80;
+inline void (*Sarcophagus::ptr::DestroyAll)() = (void (*)()) 0x81c6340;
+inline int (*Sarcophagus::ptr::_GetNumSarcophagi)() = (int (*)()) 0x81c6380;
+inline Point * (*Sarcophagus::ptr::_GetMovementDirection)() = (Point * (*)()) 0x80b4430;
+inline int (*Sarcophagus::ptr::_PerformMovement)(Sarcophagus * self, int arg1, int arg2) = (int (*)(Sarcophagus * self, int arg1, int arg2)) 0x8076400;
+inline bool (*Sarcophagus::ptr::_ImmuneToFear)() = (bool (*)()) 0x8076410;
+inline void (*Sarcophagus::ptr::MoveFail)(Sarcophagus * self) = (void (*)(Sarcophagus * self)) 0x83a70f0;
+inline void (*Sarcophagus::ptr::_MoveSucceed)(Sarcophagus * self, bool arg1, bool arg2) = (void (*)(Sarcophagus * self, bool arg1, bool arg2)) 0x83a75e0;
+inline void (*Sarcophagus::ptr::Update)(Sarcophagus * self) = (void (*)(Sarcophagus * self)) 0x8380080;
+inline bool (*Sarcophagus::ptr::_CanBeLord)() = (bool (*)()) 0x8076420;
+inline void (*Sarcophagus::ptr::Delete)(Sarcophagus * self) = (void (*)(Sarcophagus * self)) 0x8093630;
+inline void (*Sarcophagus::ptr::_mark)() = (void (*)()) 0x80b0430;
+inline void (*Sarcophagus::ptr::CSTR_Sarcophagus)(Sarcophagus * self) = (void (*)(Sarcophagus * self)) 0x81c5d60;
 #endif
 #endif

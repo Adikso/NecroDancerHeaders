@@ -68,44 +68,44 @@ public:
 };
 
 #ifdef _WIN32
-bool * Dragon::castingFireball = (bool*) 0x83562a;
+inline bool * Dragon::castingFireball = (bool*) 0x83562a;
 
-Dragon * (*Dragon::ptr::New)(Dragon * self, int xVal, int yVal, int l) = (Dragon * (*)(Dragon * self, int xVal, int yVal, int l)) 0x609670;
-Dragon * (*Dragon::ptr::_new2)() = (Dragon * (*)()) 0x0;
-bool (*Dragon::ptr::Shoots)(Dragon * self) = (bool (*)(Dragon * self)) 0x609a30;
-void (*Dragon::ptr::IceBy)(Dragon * self, int dx, int dy) = (void (*)(Dragon * self, int dx, int dy)) 0x609a50;
-void (*Dragon::ptr::IceBall)(Dragon * self) = (void (*)(Dragon * self)) 0x609ae0;
-void (*Dragon::ptr::DoShot)(Dragon * self) = (void (*)(Dragon * self)) 0x609b80;
-void (*Dragon::ptr::Update)(Dragon * self) = (void (*)(Dragon * self)) 0x609eb0;
-Point * (*Dragon::ptr::GetMovementDirection)(Dragon * self) = (Point * (*)(Dragon * self)) 0x60a0e0;
-void (*Dragon::ptr::Render)(Dragon * self) = (void (*)(Dragon * self)) 0x60a1b0;
-Player * (*Dragon::ptr::ClearShot)(Dragon * self) = (Player * (*)(Dragon * self)) 0x60a280;
-void (*Dragon::ptr::MoveSucceed)(Dragon * self, bool hitPlayer, bool moveDelayed) = (void (*)(Dragon * self, bool hitPlayer, bool moveDelayed)) 0x60a6d0;
-void (*Dragon::ptr::MoveFail)(Dragon * self) = (void (*)(Dragon * self)) 0x60a9a0;
-void (*Dragon::ptr::RaiseWallAt)(Dragon * self, int xWall, int yWall) = (void (*)(Dragon * self, int xWall, int yWall)) 0x60ad70;
-bool (*Dragon::ptr::Hit)(Dragon * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Dragon * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x60ade0;
-void (*Dragon::ptr::_mark)() = (void (*)()) 0x0;
-void (*Dragon::ptr::CSTR_Dragon)(Dragon * self) = (void (*)(Dragon * self)) 0x6095c0;
+inline Dragon * (*Dragon::ptr::New)(Dragon * self, int xVal, int yVal, int l) = (Dragon * (*)(Dragon * self, int xVal, int yVal, int l)) 0x609670;
+inline Dragon * (*Dragon::ptr::_new2)() = (Dragon * (*)()) 0x0;
+inline bool (*Dragon::ptr::Shoots)(Dragon * self) = (bool (*)(Dragon * self)) 0x609a30;
+inline void (*Dragon::ptr::IceBy)(Dragon * self, int dx, int dy) = (void (*)(Dragon * self, int dx, int dy)) 0x609a50;
+inline void (*Dragon::ptr::IceBall)(Dragon * self) = (void (*)(Dragon * self)) 0x609ae0;
+inline void (*Dragon::ptr::DoShot)(Dragon * self) = (void (*)(Dragon * self)) 0x609b80;
+inline void (*Dragon::ptr::Update)(Dragon * self) = (void (*)(Dragon * self)) 0x609eb0;
+inline Point * (*Dragon::ptr::GetMovementDirection)(Dragon * self) = (Point * (*)(Dragon * self)) 0x60a0e0;
+inline void (*Dragon::ptr::Render)(Dragon * self) = (void (*)(Dragon * self)) 0x60a1b0;
+inline Player * (*Dragon::ptr::ClearShot)(Dragon * self) = (Player * (*)(Dragon * self)) 0x60a280;
+inline void (*Dragon::ptr::MoveSucceed)(Dragon * self, bool hitPlayer, bool moveDelayed) = (void (*)(Dragon * self, bool hitPlayer, bool moveDelayed)) 0x60a6d0;
+inline void (*Dragon::ptr::MoveFail)(Dragon * self) = (void (*)(Dragon * self)) 0x60a9a0;
+inline void (*Dragon::ptr::RaiseWallAt)(Dragon * self, int xWall, int yWall) = (void (*)(Dragon * self, int xWall, int yWall)) 0x60ad70;
+inline bool (*Dragon::ptr::Hit)(Dragon * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Dragon * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x60ade0;
+inline void (*Dragon::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Dragon::ptr::CSTR_Dragon)(Dragon * self) = (void (*)(Dragon * self)) 0x6095c0;
 #endif
 
 #ifdef __linux__
-bool * Dragon::castingFireball = (bool*) 0x856a3c0;
+inline bool * Dragon::castingFireball = (bool*) 0x856a3c0;
 
-Dragon * (*Dragon::ptr::New)(Dragon * self, int xVal, int yVal, int l) = (Dragon * (*)(Dragon * self, int xVal, int yVal, int l)) 0x81b2f90;
-Dragon * (*Dragon::ptr::_new2)() = (Dragon * (*)()) 0x81b32a0;
-bool (*Dragon::ptr::Shoots)(Dragon * self) = (bool (*)(Dragon * self)) 0x8074580;
-void (*Dragon::ptr::IceBy)(Dragon * self, int dx, int dy) = (void (*)(Dragon * self, int dx, int dy)) 0x80745a0;
-void (*Dragon::ptr::IceBall)(Dragon * self) = (void (*)(Dragon * self)) 0x8074640;
-void (*Dragon::ptr::DoShot)(Dragon * self) = (void (*)(Dragon * self)) 0x83bea20;
-void (*Dragon::ptr::Update)(Dragon * self) = (void (*)(Dragon * self)) 0x8385d90;
-Point * (*Dragon::ptr::GetMovementDirection)(Dragon * self) = (Point * (*)(Dragon * self)) 0x80b4db0;
-void (*Dragon::ptr::Render)(Dragon * self) = (void (*)(Dragon * self)) 0x830d730;
-Player * (*Dragon::ptr::ClearShot)(Dragon * self) = (Player * (*)(Dragon * self)) 0x812e560;
-void (*Dragon::ptr::MoveSucceed)(Dragon * self, bool hitPlayer, bool moveDelayed) = (void (*)(Dragon * self, bool hitPlayer, bool moveDelayed)) 0x83a0980;
-void (*Dragon::ptr::MoveFail)(Dragon * self) = (void (*)(Dragon * self)) 0x83bb700;
-void (*Dragon::ptr::RaiseWallAt)(Dragon * self, int xWall, int yWall) = (void (*)(Dragon * self, int xWall, int yWall)) 0x818da10;
-bool (*Dragon::ptr::Hit)(Dragon * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Dragon * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x839c250;
-void (*Dragon::ptr::_mark)() = (void (*)()) 0x80b1950;
-void (*Dragon::ptr::CSTR_Dragon)(Dragon * self) = (void (*)(Dragon * self)) 0x81b2f10;
+inline Dragon * (*Dragon::ptr::New)(Dragon * self, int xVal, int yVal, int l) = (Dragon * (*)(Dragon * self, int xVal, int yVal, int l)) 0x81b2f90;
+inline Dragon * (*Dragon::ptr::_new2)() = (Dragon * (*)()) 0x81b32a0;
+inline bool (*Dragon::ptr::Shoots)(Dragon * self) = (bool (*)(Dragon * self)) 0x8074580;
+inline void (*Dragon::ptr::IceBy)(Dragon * self, int dx, int dy) = (void (*)(Dragon * self, int dx, int dy)) 0x80745a0;
+inline void (*Dragon::ptr::IceBall)(Dragon * self) = (void (*)(Dragon * self)) 0x8074640;
+inline void (*Dragon::ptr::DoShot)(Dragon * self) = (void (*)(Dragon * self)) 0x83bea20;
+inline void (*Dragon::ptr::Update)(Dragon * self) = (void (*)(Dragon * self)) 0x8385d90;
+inline Point * (*Dragon::ptr::GetMovementDirection)(Dragon * self) = (Point * (*)(Dragon * self)) 0x80b4db0;
+inline void (*Dragon::ptr::Render)(Dragon * self) = (void (*)(Dragon * self)) 0x830d730;
+inline Player * (*Dragon::ptr::ClearShot)(Dragon * self) = (Player * (*)(Dragon * self)) 0x812e560;
+inline void (*Dragon::ptr::MoveSucceed)(Dragon * self, bool hitPlayer, bool moveDelayed) = (void (*)(Dragon * self, bool hitPlayer, bool moveDelayed)) 0x83a0980;
+inline void (*Dragon::ptr::MoveFail)(Dragon * self) = (void (*)(Dragon * self)) 0x83bb700;
+inline void (*Dragon::ptr::RaiseWallAt)(Dragon * self, int xWall, int yWall) = (void (*)(Dragon * self, int xWall, int yWall)) 0x818da10;
+inline bool (*Dragon::ptr::Hit)(Dragon * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Dragon * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x839c250;
+inline void (*Dragon::ptr::_mark)() = (void (*)()) 0x80b1950;
+inline void (*Dragon::ptr::CSTR_Dragon)(Dragon * self) = (void (*)(Dragon * self)) 0x81b2f10;
 #endif
 #endif

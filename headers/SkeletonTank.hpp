@@ -42,27 +42,27 @@ public:
 
 #ifdef _WIN32
 
-SkeletonTank * (*SkeletonTank::ptr::New)(SkeletonTank * self, int xVal, int yVal, int l) = (SkeletonTank * (*)(SkeletonTank * self, int xVal, int yVal, int l)) 0x6893f0;
-SkeletonTank * (*SkeletonTank::ptr::_new2)() = (SkeletonTank * (*)()) 0x0;
-void (*SkeletonTank::ptr::Update)(SkeletonTank * self) = (void (*)(SkeletonTank * self)) 0x689670;
-Point * (*SkeletonTank::ptr::GetMovementDirection)(SkeletonTank * self) = (Point * (*)(SkeletonTank * self)) 0x6896b0;
-bool (*SkeletonTank::ptr::Hit)(SkeletonTank * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(SkeletonTank * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x689780;
-void (*SkeletonTank::ptr::MoveFail)(SkeletonTank * self) = (void (*)(SkeletonTank * self)) 0x689920;
-void (*SkeletonTank::ptr::MoveSucceed)(SkeletonTank * self, bool hitPlayer, bool moveDelayed) = (void (*)(SkeletonTank * self, bool hitPlayer, bool moveDelayed)) 0x689ab0;
-void (*SkeletonTank::ptr::_mark)() = (void (*)()) 0x0;
-void (*SkeletonTank::ptr::CSTR_SkeletonTank)(SkeletonTank * self) = (void (*)(SkeletonTank * self)) 0x689380;
+inline SkeletonTank * (*SkeletonTank::ptr::New)(SkeletonTank * self, int xVal, int yVal, int l) = (SkeletonTank * (*)(SkeletonTank * self, int xVal, int yVal, int l)) 0x6893f0;
+inline SkeletonTank * (*SkeletonTank::ptr::_new2)() = (SkeletonTank * (*)()) 0x0;
+inline void (*SkeletonTank::ptr::Update)(SkeletonTank * self) = (void (*)(SkeletonTank * self)) 0x689670;
+inline Point * (*SkeletonTank::ptr::GetMovementDirection)(SkeletonTank * self) = (Point * (*)(SkeletonTank * self)) 0x6896b0;
+inline bool (*SkeletonTank::ptr::Hit)(SkeletonTank * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(SkeletonTank * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x689780;
+inline void (*SkeletonTank::ptr::MoveFail)(SkeletonTank * self) = (void (*)(SkeletonTank * self)) 0x689920;
+inline void (*SkeletonTank::ptr::MoveSucceed)(SkeletonTank * self, bool hitPlayer, bool moveDelayed) = (void (*)(SkeletonTank * self, bool hitPlayer, bool moveDelayed)) 0x689ab0;
+inline void (*SkeletonTank::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*SkeletonTank::ptr::CSTR_SkeletonTank)(SkeletonTank * self) = (void (*)(SkeletonTank * self)) 0x689380;
 #endif
 
 #ifdef __linux__
 
-SkeletonTank * (*SkeletonTank::ptr::New)(SkeletonTank * self, int xVal, int yVal, int l) = (SkeletonTank * (*)(SkeletonTank * self, int xVal, int yVal, int l)) 0x81e17f0;
-SkeletonTank * (*SkeletonTank::ptr::_new2)() = (SkeletonTank * (*)()) 0x81e1980;
-void (*SkeletonTank::ptr::Update)(SkeletonTank * self) = (void (*)(SkeletonTank * self)) 0x837d630;
-Point * (*SkeletonTank::ptr::GetMovementDirection)(SkeletonTank * self) = (Point * (*)(SkeletonTank * self)) 0x81026d0;
-bool (*SkeletonTank::ptr::Hit)(SkeletonTank * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(SkeletonTank * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83957f0;
-void (*SkeletonTank::ptr::MoveFail)(SkeletonTank * self) = (void (*)(SkeletonTank * self)) 0x83ab930;
-void (*SkeletonTank::ptr::MoveSucceed)(SkeletonTank * self, bool hitPlayer, bool moveDelayed) = (void (*)(SkeletonTank * self, bool hitPlayer, bool moveDelayed)) 0x8078b60;
-void (*SkeletonTank::ptr::_mark)() = (void (*)()) 0x80afdc0;
-void (*SkeletonTank::ptr::CSTR_SkeletonTank)(SkeletonTank * self) = (void (*)(SkeletonTank * self)) 0x81e17c0;
+inline SkeletonTank * (*SkeletonTank::ptr::New)(SkeletonTank * self, int xVal, int yVal, int l) = (SkeletonTank * (*)(SkeletonTank * self, int xVal, int yVal, int l)) 0x81e17f0;
+inline SkeletonTank * (*SkeletonTank::ptr::_new2)() = (SkeletonTank * (*)()) 0x81e1980;
+inline void (*SkeletonTank::ptr::Update)(SkeletonTank * self) = (void (*)(SkeletonTank * self)) 0x837d630;
+inline Point * (*SkeletonTank::ptr::GetMovementDirection)(SkeletonTank * self) = (Point * (*)(SkeletonTank * self)) 0x81026d0;
+inline bool (*SkeletonTank::ptr::Hit)(SkeletonTank * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(SkeletonTank * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83957f0;
+inline void (*SkeletonTank::ptr::MoveFail)(SkeletonTank * self) = (void (*)(SkeletonTank * self)) 0x83ab930;
+inline void (*SkeletonTank::ptr::MoveSucceed)(SkeletonTank * self, bool hitPlayer, bool moveDelayed) = (void (*)(SkeletonTank * self, bool hitPlayer, bool moveDelayed)) 0x8078b60;
+inline void (*SkeletonTank::ptr::_mark)() = (void (*)()) 0x80afdc0;
+inline void (*SkeletonTank::ptr::CSTR_SkeletonTank)(SkeletonTank * self) = (void (*)(SkeletonTank * self)) 0x81e17c0;
 #endif
 #endif

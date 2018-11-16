@@ -29,17 +29,17 @@ public:
 
 #ifdef _WIN32
 
-TileData * (*TileData::ptr::_New)(TileData * self, int arg1, int arg2, int arg3) = (TileData * (*)(TileData * self, int arg1, int arg2, int arg3)) 0x0;
-TileData * (*TileData::ptr::_new2)() = (TileData * (*)()) 0x0;
-void (*TileData::ptr::_mark)() = (void (*)()) 0x0;
-void (*TileData::ptr::CSTR_TileData)(TileData * self) = (void (*)(TileData * self)) 0x608330;
+inline TileData * (*TileData::ptr::_New)(TileData * self, int arg1, int arg2, int arg3) = (TileData * (*)(TileData * self, int arg1, int arg2, int arg3)) 0x0;
+inline TileData * (*TileData::ptr::_new2)() = (TileData * (*)()) 0x0;
+inline void (*TileData::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*TileData::ptr::CSTR_TileData)(TileData * self) = (void (*)(TileData * self)) 0x608330;
 #endif
 
 #ifdef __linux__
 
-TileData * (*TileData::ptr::_New)(TileData * self, int arg1, int arg2, int arg3) = (TileData * (*)(TileData * self, int arg1, int arg2, int arg3)) 0x81adee0;
-TileData * (*TileData::ptr::_new2)() = (TileData * (*)()) 0x81adf00;
-void (*TileData::ptr::_mark)() = (void (*)()) 0x8074340;
-void (*TileData::ptr::CSTR_TileData)(TileData * self) = (void (*)(TileData * self)) 0x81adec0;
+inline TileData * (*TileData::ptr::_New)(TileData * self, int arg1, int arg2, int arg3) = (TileData * (*)(TileData * self, int arg1, int arg2, int arg3)) 0x81adee0;
+inline TileData * (*TileData::ptr::_new2)() = (TileData * (*)()) 0x81adf00;
+inline void (*TileData::ptr::_mark)() = (void (*)()) 0x8074340;
+inline void (*TileData::ptr::CSTR_TileData)(TileData * self) = (void (*)(TileData * self)) 0x81adec0;
 #endif
 #endif

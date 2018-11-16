@@ -30,19 +30,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator12 * (*Enumerator12::ptr::_New)(Enumerator12 * self, List22 * arg1) = (Enumerator12 * (*)(Enumerator12 * self, List22 * arg1)) 0x0;
-Enumerator12 * (*Enumerator12::ptr::_new2)() = (Enumerator12 * (*)()) 0x0;
-bool (*Enumerator12::ptr::_HasNext)() = (bool (*)()) 0x0;
-Shrine * (*Enumerator12::ptr::_NextObject)() = (Shrine * (*)()) 0x0;
-void (*Enumerator12::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator12 * (*Enumerator12::ptr::_New)(Enumerator12 * self, List22 * arg1) = (Enumerator12 * (*)(Enumerator12 * self, List22 * arg1)) 0x0;
+inline Enumerator12 * (*Enumerator12::ptr::_new2)() = (Enumerator12 * (*)()) 0x0;
+inline bool (*Enumerator12::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline Shrine * (*Enumerator12::ptr::_NextObject)() = (Shrine * (*)()) 0x0;
+inline void (*Enumerator12::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator12 * (*Enumerator12::ptr::_New)(Enumerator12 * self, List22 * arg1) = (Enumerator12 * (*)(Enumerator12 * self, List22 * arg1)) 0x0;
-Enumerator12 * (*Enumerator12::ptr::_new2)() = (Enumerator12 * (*)()) 0x8198700;
-bool (*Enumerator12::ptr::_HasNext)() = (bool (*)()) 0x8091d40;
-Shrine * (*Enumerator12::ptr::_NextObject)() = (Shrine * (*)()) 0x8091cd0;
-void (*Enumerator12::ptr::_mark)() = (void (*)()) 0x808e8b0;
+inline Enumerator12 * (*Enumerator12::ptr::_New)(Enumerator12 * self, List22 * arg1) = (Enumerator12 * (*)(Enumerator12 * self, List22 * arg1)) 0x0;
+inline Enumerator12 * (*Enumerator12::ptr::_new2)() = (Enumerator12 * (*)()) 0x8198700;
+inline bool (*Enumerator12::ptr::_HasNext)() = (bool (*)()) 0x8091d40;
+inline Shrine * (*Enumerator12::ptr::_NextObject)() = (Shrine * (*)()) 0x8091cd0;
+inline void (*Enumerator12::ptr::_mark)() = (void (*)()) 0x808e8b0;
 #endif
 #endif

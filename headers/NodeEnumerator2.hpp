@@ -27,19 +27,19 @@ public:
 
 #ifdef _WIN32
 
-NodeEnumerator2 * (*NodeEnumerator2::ptr::_New)(NodeEnumerator2 * self, Node23 * arg1) = (NodeEnumerator2 * (*)(NodeEnumerator2 * self, Node23 * arg1)) 0x0;
-NodeEnumerator2 * (*NodeEnumerator2::ptr::_new2)() = (NodeEnumerator2 * (*)()) 0x0;
-bool (*NodeEnumerator2::ptr::_HasNext)() = (bool (*)()) 0x0;
-Node23 * (*NodeEnumerator2::ptr::_NextObject)() = (Node23 * (*)()) 0x0;
-void (*NodeEnumerator2::ptr::_mark)() = (void (*)()) 0x0;
+inline NodeEnumerator2 * (*NodeEnumerator2::ptr::_New)(NodeEnumerator2 * self, Node23 * arg1) = (NodeEnumerator2 * (*)(NodeEnumerator2 * self, Node23 * arg1)) 0x0;
+inline NodeEnumerator2 * (*NodeEnumerator2::ptr::_new2)() = (NodeEnumerator2 * (*)()) 0x0;
+inline bool (*NodeEnumerator2::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline Node23 * (*NodeEnumerator2::ptr::_NextObject)() = (Node23 * (*)()) 0x0;
+inline void (*NodeEnumerator2::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-NodeEnumerator2 * (*NodeEnumerator2::ptr::_New)(NodeEnumerator2 * self, Node23 * arg1) = (NodeEnumerator2 * (*)(NodeEnumerator2 * self, Node23 * arg1)) 0x0;
-NodeEnumerator2 * (*NodeEnumerator2::ptr::_new2)() = (NodeEnumerator2 * (*)()) 0x81912e0;
-bool (*NodeEnumerator2::ptr::_HasNext)() = (bool (*)()) 0x8071c70;
-Node23 * (*NodeEnumerator2::ptr::_NextObject)() = (Node23 * (*)()) 0x809ef10;
-void (*NodeEnumerator2::ptr::_mark)() = (void (*)()) 0x808d580;
+inline NodeEnumerator2 * (*NodeEnumerator2::ptr::_New)(NodeEnumerator2 * self, Node23 * arg1) = (NodeEnumerator2 * (*)(NodeEnumerator2 * self, Node23 * arg1)) 0x0;
+inline NodeEnumerator2 * (*NodeEnumerator2::ptr::_new2)() = (NodeEnumerator2 * (*)()) 0x81912e0;
+inline bool (*NodeEnumerator2::ptr::_HasNext)() = (bool (*)()) 0x8071c70;
+inline Node23 * (*NodeEnumerator2::ptr::_NextObject)() = (Node23 * (*)()) 0x809ef10;
+inline void (*NodeEnumerator2::ptr::_mark)() = (void (*)()) 0x808d580;
 #endif
 #endif

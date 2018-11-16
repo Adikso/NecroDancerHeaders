@@ -38,25 +38,25 @@ public:
 
 #ifdef _WIN32
 
-Mushroom * (*Mushroom::ptr::New)(Mushroom * self, int xVal, int yVal, int l) = (Mushroom * (*)(Mushroom * self, int xVal, int yVal, int l)) 0x63ced0;
-Mushroom * (*Mushroom::ptr::_new2)() = (Mushroom * (*)()) 0x0;
-Point * (*Mushroom::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
-int (*Mushroom::ptr::_PerformMovement)(Mushroom * self, int arg1, int arg2) = (int (*)(Mushroom * self, int arg1, int arg2)) 0x0;
-void (*Mushroom::ptr::MoveFail)(Mushroom * self) = (void (*)(Mushroom * self)) 0x63d160;
-void (*Mushroom::ptr::Update)(Mushroom * self) = (void (*)(Mushroom * self)) 0x63d470;
-void (*Mushroom::ptr::_mark)() = (void (*)()) 0x0;
-void (*Mushroom::ptr::CSTR_Mushroom)(Mushroom * self) = (void (*)(Mushroom * self)) 0x63ce60;
+inline Mushroom * (*Mushroom::ptr::New)(Mushroom * self, int xVal, int yVal, int l) = (Mushroom * (*)(Mushroom * self, int xVal, int yVal, int l)) 0x63ced0;
+inline Mushroom * (*Mushroom::ptr::_new2)() = (Mushroom * (*)()) 0x0;
+inline Point * (*Mushroom::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
+inline int (*Mushroom::ptr::_PerformMovement)(Mushroom * self, int arg1, int arg2) = (int (*)(Mushroom * self, int arg1, int arg2)) 0x0;
+inline void (*Mushroom::ptr::MoveFail)(Mushroom * self) = (void (*)(Mushroom * self)) 0x63d160;
+inline void (*Mushroom::ptr::Update)(Mushroom * self) = (void (*)(Mushroom * self)) 0x63d470;
+inline void (*Mushroom::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Mushroom::ptr::CSTR_Mushroom)(Mushroom * self) = (void (*)(Mushroom * self)) 0x63ce60;
 #endif
 
 #ifdef __linux__
 
-Mushroom * (*Mushroom::ptr::New)(Mushroom * self, int xVal, int yVal, int l) = (Mushroom * (*)(Mushroom * self, int xVal, int yVal, int l)) 0x81c0c40;
-Mushroom * (*Mushroom::ptr::_new2)() = (Mushroom * (*)()) 0x81c0da0;
-Point * (*Mushroom::ptr::_GetMovementDirection)() = (Point * (*)()) 0x80b4650;
-int (*Mushroom::ptr::_PerformMovement)(Mushroom * self, int arg1, int arg2) = (int (*)(Mushroom * self, int arg1, int arg2)) 0x80760b0;
-void (*Mushroom::ptr::MoveFail)(Mushroom * self) = (void (*)(Mushroom * self)) 0x83a4090;
-void (*Mushroom::ptr::Update)(Mushroom * self) = (void (*)(Mushroom * self)) 0x8382c60;
-void (*Mushroom::ptr::_mark)() = (void (*)()) 0x80b0770;
-void (*Mushroom::ptr::CSTR_Mushroom)(Mushroom * self) = (void (*)(Mushroom * self)) 0x81c0c10;
+inline Mushroom * (*Mushroom::ptr::New)(Mushroom * self, int xVal, int yVal, int l) = (Mushroom * (*)(Mushroom * self, int xVal, int yVal, int l)) 0x81c0c40;
+inline Mushroom * (*Mushroom::ptr::_new2)() = (Mushroom * (*)()) 0x81c0da0;
+inline Point * (*Mushroom::ptr::_GetMovementDirection)() = (Point * (*)()) 0x80b4650;
+inline int (*Mushroom::ptr::_PerformMovement)(Mushroom * self, int arg1, int arg2) = (int (*)(Mushroom * self, int arg1, int arg2)) 0x80760b0;
+inline void (*Mushroom::ptr::MoveFail)(Mushroom * self) = (void (*)(Mushroom * self)) 0x83a4090;
+inline void (*Mushroom::ptr::Update)(Mushroom * self) = (void (*)(Mushroom * self)) 0x8382c60;
+inline void (*Mushroom::ptr::_mark)() = (void (*)()) 0x80b0770;
+inline void (*Mushroom::ptr::CSTR_Mushroom)(Mushroom * self) = (void (*)(Mushroom * self)) 0x81c0c10;
 #endif
 #endif

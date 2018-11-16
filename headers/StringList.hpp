@@ -27,19 +27,19 @@ public:
 
 #ifdef _WIN32
 
-StringList * (*StringList::ptr::_New)(StringList * self, Array<String> * arg1) = (StringList * (*)(StringList * self, Array<String> * arg1)) 0x0;
-StringList * (*StringList::ptr::_new2)() = (StringList * (*)()) 0x0;
-bool (*StringList::ptr::_Equals8)(StringList * self, String * arg1, String * arg2) = (bool (*)(StringList * self, String * arg1, String * arg2)) 0x0;
-int (*StringList::ptr::_Compare)(StringList * self, String * arg1, String * arg2) = (int (*)(StringList * self, String * arg1, String * arg2)) 0x0;
-void (*StringList::ptr::_mark)() = (void (*)()) 0x0;
+inline StringList * (*StringList::ptr::_New)(StringList * self, Array<String> * arg1) = (StringList * (*)(StringList * self, Array<String> * arg1)) 0x0;
+inline StringList * (*StringList::ptr::_new2)() = (StringList * (*)()) 0x0;
+inline bool (*StringList::ptr::_Equals8)(StringList * self, String * arg1, String * arg2) = (bool (*)(StringList * self, String * arg1, String * arg2)) 0x0;
+inline int (*StringList::ptr::_Compare)(StringList * self, String * arg1, String * arg2) = (int (*)(StringList * self, String * arg1, String * arg2)) 0x0;
+inline void (*StringList::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-StringList * (*StringList::ptr::_New)(StringList * self, Array<String> * arg1) = (StringList * (*)(StringList * self, Array<String> * arg1)) 0x0;
-StringList * (*StringList::ptr::_new2)() = (StringList * (*)()) 0x0;
-bool (*StringList::ptr::_Equals8)(StringList * self, String * arg1, String * arg2) = (bool (*)(StringList * self, String * arg1, String * arg2)) 0x80c2440;
-int (*StringList::ptr::_Compare)(StringList * self, String * arg1, String * arg2) = (int (*)(StringList * self, String * arg1, String * arg2)) 0x80967c0;
-void (*StringList::ptr::_mark)() = (void (*)()) 0x8090830;
+inline StringList * (*StringList::ptr::_New)(StringList * self, Array<String> * arg1) = (StringList * (*)(StringList * self, Array<String> * arg1)) 0x0;
+inline StringList * (*StringList::ptr::_new2)() = (StringList * (*)()) 0x0;
+inline bool (*StringList::ptr::_Equals8)(StringList * self, String * arg1, String * arg2) = (bool (*)(StringList * self, String * arg1, String * arg2)) 0x80c2440;
+inline int (*StringList::ptr::_Compare)(StringList * self, String * arg1, String * arg2) = (int (*)(StringList * self, String * arg1, String * arg2)) 0x80967c0;
+inline void (*StringList::ptr::_mark)() = (void (*)()) 0x8090830;
 #endif
 #endif

@@ -52,30 +52,30 @@ public:
 };
 
 #ifdef _WIN32
-bool * ControllerBossIntro::showingBossIntro = (bool*) 0x83557c;
+inline bool * ControllerBossIntro::showingBossIntro = (bool*) 0x83557c;
 
-ControllerBossIntro * (*ControllerBossIntro::ptr::New)(ControllerBossIntro * self, ControllerGame * game, int bossNum) = (ControllerBossIntro * (*)(ControllerBossIntro * self, ControllerGame * game, int bossNum)) 0x66d630;
-ControllerBossIntro * (*ControllerBossIntro::ptr::_new2)() = (ControllerBossIntro * (*)()) 0x0;
-void (*ControllerBossIntro::ptr::Update)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x66e6a0;
-void (*ControllerBossIntro::ptr::Render)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x66eaa0;
-void (*ControllerBossIntro::ptr::Suspend)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x66f2d0;
-void (*ControllerBossIntro::ptr::RegainFocus)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x5c3c30;
-void (*ControllerBossIntro::ptr::Destructor)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x66f2e0;
-void (*ControllerBossIntro::ptr::mark)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x66f2f0;
-void (*ControllerBossIntro::ptr::CSTR_ControllerBossIntro)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x66d450;
+inline ControllerBossIntro * (*ControllerBossIntro::ptr::New)(ControllerBossIntro * self, ControllerGame * game, int bossNum) = (ControllerBossIntro * (*)(ControllerBossIntro * self, ControllerGame * game, int bossNum)) 0x66d630;
+inline ControllerBossIntro * (*ControllerBossIntro::ptr::_new2)() = (ControllerBossIntro * (*)()) 0x0;
+inline void (*ControllerBossIntro::ptr::Update)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x66e6a0;
+inline void (*ControllerBossIntro::ptr::Render)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x66eaa0;
+inline void (*ControllerBossIntro::ptr::Suspend)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x66f2d0;
+inline void (*ControllerBossIntro::ptr::RegainFocus)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x5c3c30;
+inline void (*ControllerBossIntro::ptr::Destructor)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x66f2e0;
+inline void (*ControllerBossIntro::ptr::mark)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x66f2f0;
+inline void (*ControllerBossIntro::ptr::CSTR_ControllerBossIntro)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x66d450;
 #endif
 
 #ifdef __linux__
-bool * ControllerBossIntro::showingBossIntro = (bool*) 0x856a338;
+inline bool * ControllerBossIntro::showingBossIntro = (bool*) 0x856a338;
 
-ControllerBossIntro * (*ControllerBossIntro::ptr::New)(ControllerBossIntro * self, ControllerGame * game, int bossNum) = (ControllerBossIntro * (*)(ControllerBossIntro * self, ControllerGame * game, int bossNum)) 0x8317710;
-ControllerBossIntro * (*ControllerBossIntro::ptr::_new2)() = (ControllerBossIntro * (*)()) 0x81db510;
-void (*ControllerBossIntro::ptr::Update)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x80a3300;
-void (*ControllerBossIntro::ptr::Render)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x80c2690;
-void (*ControllerBossIntro::ptr::Suspend)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x8077f00;
-void (*ControllerBossIntro::ptr::RegainFocus)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x8077f20;
-void (*ControllerBossIntro::ptr::Destructor)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x8077f40;
-void (*ControllerBossIntro::ptr::mark)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x80a9150;
-void (*ControllerBossIntro::ptr::CSTR_ControllerBossIntro)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x81db470;
+inline ControllerBossIntro * (*ControllerBossIntro::ptr::New)(ControllerBossIntro * self, ControllerGame * game, int bossNum) = (ControllerBossIntro * (*)(ControllerBossIntro * self, ControllerGame * game, int bossNum)) 0x8317710;
+inline ControllerBossIntro * (*ControllerBossIntro::ptr::_new2)() = (ControllerBossIntro * (*)()) 0x81db510;
+inline void (*ControllerBossIntro::ptr::Update)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x80a3300;
+inline void (*ControllerBossIntro::ptr::Render)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x80c2690;
+inline void (*ControllerBossIntro::ptr::Suspend)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x8077f00;
+inline void (*ControllerBossIntro::ptr::RegainFocus)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x8077f20;
+inline void (*ControllerBossIntro::ptr::Destructor)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x8077f40;
+inline void (*ControllerBossIntro::ptr::mark)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x80a9150;
+inline void (*ControllerBossIntro::ptr::CSTR_ControllerBossIntro)(ControllerBossIntro * self) = (void (*)(ControllerBossIntro * self)) 0x81db470;
 #endif
 #endif

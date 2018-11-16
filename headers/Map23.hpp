@@ -36,27 +36,27 @@ public:
 
 #ifdef _WIN32
 
-Map23 * (*Map23::ptr::_New)() = (Map23 * (*)()) 0x0;
-int (*Map23::ptr::_Compare2)(Map23 * self, int arg1, int arg2) = (int (*)(Map23 * self, int arg1, int arg2)) 0x0;
-Node77 * (*Map23::ptr::_FindNode2)(Map23 * self, int arg1) = (Node77 * (*)(Map23 * self, int arg1)) 0x0;
-TextSprite * (*Map23::ptr::_Get2)(Map23 * self, int arg1) = (TextSprite * (*)(Map23 * self, int arg1)) 0x0;
-int (*Map23::ptr::_RotateLeft23)(Map23 * self, Node77 * arg1) = (int (*)(Map23 * self, Node77 * arg1)) 0x0;
-int (*Map23::ptr::_RotateRight23)(Map23 * self, Node77 * arg1) = (int (*)(Map23 * self, Node77 * arg1)) 0x0;
-int (*Map23::ptr::_InsertFixup23)(Map23 * self, Node77 * arg1) = (int (*)(Map23 * self, Node77 * arg1)) 0x0;
-bool (*Map23::ptr::Set27)(Map23 * self, int key, TextSprite * value) = (bool (*)(Map23 * self, int key, TextSprite * value)) 0x68b820;
-void (*Map23::ptr::_mark)() = (void (*)()) 0x0;
+inline Map23 * (*Map23::ptr::_New)() = (Map23 * (*)()) 0x0;
+inline int (*Map23::ptr::_Compare2)(Map23 * self, int arg1, int arg2) = (int (*)(Map23 * self, int arg1, int arg2)) 0x0;
+inline Node77 * (*Map23::ptr::_FindNode2)(Map23 * self, int arg1) = (Node77 * (*)(Map23 * self, int arg1)) 0x0;
+inline TextSprite * (*Map23::ptr::_Get2)(Map23 * self, int arg1) = (TextSprite * (*)(Map23 * self, int arg1)) 0x0;
+inline int (*Map23::ptr::_RotateLeft23)(Map23 * self, Node77 * arg1) = (int (*)(Map23 * self, Node77 * arg1)) 0x0;
+inline int (*Map23::ptr::_RotateRight23)(Map23 * self, Node77 * arg1) = (int (*)(Map23 * self, Node77 * arg1)) 0x0;
+inline int (*Map23::ptr::_InsertFixup23)(Map23 * self, Node77 * arg1) = (int (*)(Map23 * self, Node77 * arg1)) 0x0;
+inline bool (*Map23::ptr::Set27)(Map23 * self, int key, TextSprite * value) = (bool (*)(Map23 * self, int key, TextSprite * value)) 0x68b820;
+inline void (*Map23::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Map23 * (*Map23::ptr::_New)() = (Map23 * (*)()) 0x81e2f10;
-int (*Map23::ptr::_Compare2)(Map23 * self, int arg1, int arg2) = (int (*)(Map23 * self, int arg1, int arg2)) 0x0;
-Node77 * (*Map23::ptr::_FindNode2)(Map23 * self, int arg1) = (Node77 * (*)(Map23 * self, int arg1)) 0x8078f20;
-TextSprite * (*Map23::ptr::_Get2)(Map23 * self, int arg1) = (TextSprite * (*)(Map23 * self, int arg1)) 0x8078f70;
-int (*Map23::ptr::_RotateLeft23)(Map23 * self, Node77 * arg1) = (int (*)(Map23 * self, Node77 * arg1)) 0x0;
-int (*Map23::ptr::_RotateRight23)(Map23 * self, Node77 * arg1) = (int (*)(Map23 * self, Node77 * arg1)) 0x0;
-int (*Map23::ptr::_InsertFixup23)(Map23 * self, Node77 * arg1) = (int (*)(Map23 * self, Node77 * arg1)) 0x0;
-bool (*Map23::ptr::Set27)(Map23 * self, int key, TextSprite * value) = (bool (*)(Map23 * self, int key, TextSprite * value)) 0x80bc7e0;
-void (*Map23::ptr::_mark)() = (void (*)()) 0x808c6b0;
+inline Map23 * (*Map23::ptr::_New)() = (Map23 * (*)()) 0x81e2f10;
+inline int (*Map23::ptr::_Compare2)(Map23 * self, int arg1, int arg2) = (int (*)(Map23 * self, int arg1, int arg2)) 0x0;
+inline Node77 * (*Map23::ptr::_FindNode2)(Map23 * self, int arg1) = (Node77 * (*)(Map23 * self, int arg1)) 0x8078f20;
+inline TextSprite * (*Map23::ptr::_Get2)(Map23 * self, int arg1) = (TextSprite * (*)(Map23 * self, int arg1)) 0x8078f70;
+inline int (*Map23::ptr::_RotateLeft23)(Map23 * self, Node77 * arg1) = (int (*)(Map23 * self, Node77 * arg1)) 0x0;
+inline int (*Map23::ptr::_RotateRight23)(Map23 * self, Node77 * arg1) = (int (*)(Map23 * self, Node77 * arg1)) 0x0;
+inline int (*Map23::ptr::_InsertFixup23)(Map23 * self, Node77 * arg1) = (int (*)(Map23 * self, Node77 * arg1)) 0x0;
+inline bool (*Map23::ptr::Set27)(Map23 * self, int key, TextSprite * value) = (bool (*)(Map23 * self, int key, TextSprite * value)) 0x80bc7e0;
+inline void (*Map23::ptr::_mark)() = (void (*)()) 0x808c6b0;
 #endif
 #endif

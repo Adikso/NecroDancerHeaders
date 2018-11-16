@@ -27,17 +27,17 @@ public:
 
 #ifdef _WIN32
 
-Node51 * (*Node51::ptr::_New)(Node51 * self, Node51 * arg1, Node51 * arg2, SoulFamiliar * arg3) = (Node51 * (*)(Node51 * self, Node51 * arg1, Node51 * arg2, SoulFamiliar * arg3)) 0x0;
-Node51 * (*Node51::ptr::_new2)() = (Node51 * (*)()) 0x0;
-int (*Node51::ptr::_Remove3)() = (int (*)()) 0x0;
-void (*Node51::ptr::_mark)() = (void (*)()) 0x0;
+inline Node51 * (*Node51::ptr::_New)(Node51 * self, Node51 * arg1, Node51 * arg2, SoulFamiliar * arg3) = (Node51 * (*)(Node51 * self, Node51 * arg1, Node51 * arg2, SoulFamiliar * arg3)) 0x0;
+inline Node51 * (*Node51::ptr::_new2)() = (Node51 * (*)()) 0x0;
+inline int (*Node51::ptr::_Remove3)() = (int (*)()) 0x0;
+inline void (*Node51::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node51 * (*Node51::ptr::_New)(Node51 * self, Node51 * arg1, Node51 * arg2, SoulFamiliar * arg3) = (Node51 * (*)(Node51 * self, Node51 * arg1, Node51 * arg2, SoulFamiliar * arg3)) 0x0;
-Node51 * (*Node51::ptr::_new2)() = (Node51 * (*)()) 0x81c6640;
-int (*Node51::ptr::_Remove3)() = (int (*)()) 0x8091400;
-void (*Node51::ptr::_mark)() = (void (*)()) 0x8088db0;
+inline Node51 * (*Node51::ptr::_New)(Node51 * self, Node51 * arg1, Node51 * arg2, SoulFamiliar * arg3) = (Node51 * (*)(Node51 * self, Node51 * arg1, Node51 * arg2, SoulFamiliar * arg3)) 0x0;
+inline Node51 * (*Node51::ptr::_new2)() = (Node51 * (*)()) 0x81c6640;
+inline int (*Node51::ptr::_Remove3)() = (int (*)()) 0x8091400;
+inline void (*Node51::ptr::_mark)() = (void (*)()) 0x8088db0;
 #endif
 #endif

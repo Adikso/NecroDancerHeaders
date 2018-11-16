@@ -38,21 +38,21 @@ public:
 
 #ifdef _WIN32
 
-ItemObject * (*ItemObject::ptr::_New)(ItemObject * self, int arg1, int arg2, String * arg3, bool arg4, int arg5, float arg6) = (ItemObject * (*)(ItemObject * self, int arg1, int arg2, String * arg3, bool arg4, int arg5, float arg6)) 0x0;
-ItemObject * (*ItemObject::ptr::new2)(ItemObject * self, XMLNode * fromXML) = (ItemObject * (*)(ItemObject * self, XMLNode * fromXML)) 0x5dc920;
-ItemObject * (*ItemObject::ptr::_new3)() = (ItemObject * (*)()) 0x0;
-void (*ItemObject::ptr::AddToXML)(ItemObject * self, XMLNode * xml) = (void (*)(ItemObject * self, XMLNode * xml)) 0x5dccb0;
-void (*ItemObject::ptr::_mark)() = (void (*)()) 0x0;
-void (*ItemObject::ptr::CSTR_ItemObject)(ItemObject * self) = (void (*)(ItemObject * self)) 0x5dc840;
+inline ItemObject * (*ItemObject::ptr::_New)(ItemObject * self, int arg1, int arg2, String * arg3, bool arg4, int arg5, float arg6) = (ItemObject * (*)(ItemObject * self, int arg1, int arg2, String * arg3, bool arg4, int arg5, float arg6)) 0x0;
+inline ItemObject * (*ItemObject::ptr::new2)(ItemObject * self, XMLNode * fromXML) = (ItemObject * (*)(ItemObject * self, XMLNode * fromXML)) 0x5dc920;
+inline ItemObject * (*ItemObject::ptr::_new3)() = (ItemObject * (*)()) 0x0;
+inline void (*ItemObject::ptr::AddToXML)(ItemObject * self, XMLNode * xml) = (void (*)(ItemObject * self, XMLNode * xml)) 0x5dccb0;
+inline void (*ItemObject::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*ItemObject::ptr::CSTR_ItemObject)(ItemObject * self) = (void (*)(ItemObject * self)) 0x5dc840;
 #endif
 
 #ifdef __linux__
 
-ItemObject * (*ItemObject::ptr::_New)(ItemObject * self, int arg1, int arg2, String * arg3, bool arg4, int arg5, float arg6) = (ItemObject * (*)(ItemObject * self, int arg1, int arg2, String * arg3, bool arg4, int arg5, float arg6)) 0x81963a0;
-ItemObject * (*ItemObject::ptr::new2)(ItemObject * self, XMLNode * fromXML) = (ItemObject * (*)(ItemObject * self, XMLNode * fromXML)) 0x8196410;
-ItemObject * (*ItemObject::ptr::_new3)() = (ItemObject * (*)()) 0x81966a0;
-void (*ItemObject::ptr::AddToXML)(ItemObject * self, XMLNode * xml) = (void (*)(ItemObject * self, XMLNode * xml)) 0x80c7ab0;
-void (*ItemObject::ptr::_mark)() = (void (*)()) 0x8072030;
-void (*ItemObject::ptr::CSTR_ItemObject)(ItemObject * self) = (void (*)(ItemObject * self)) 0x8196330;
+inline ItemObject * (*ItemObject::ptr::_New)(ItemObject * self, int arg1, int arg2, String * arg3, bool arg4, int arg5, float arg6) = (ItemObject * (*)(ItemObject * self, int arg1, int arg2, String * arg3, bool arg4, int arg5, float arg6)) 0x81963a0;
+inline ItemObject * (*ItemObject::ptr::new2)(ItemObject * self, XMLNode * fromXML) = (ItemObject * (*)(ItemObject * self, XMLNode * fromXML)) 0x8196410;
+inline ItemObject * (*ItemObject::ptr::_new3)() = (ItemObject * (*)()) 0x81966a0;
+inline void (*ItemObject::ptr::AddToXML)(ItemObject * self, XMLNode * xml) = (void (*)(ItemObject * self, XMLNode * xml)) 0x80c7ab0;
+inline void (*ItemObject::ptr::_mark)() = (void (*)()) 0x8072030;
+inline void (*ItemObject::ptr::CSTR_ItemObject)(ItemObject * self) = (void (*)(ItemObject * self)) 0x8196330;
 #endif
 #endif

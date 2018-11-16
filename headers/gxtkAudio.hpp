@@ -53,45 +53,45 @@ public:
 
 #ifdef _WIN32
 
-int (*gxtkAudio::ptr::_Suspend)() = (int (*)()) 0x0;
-int (*gxtkAudio::ptr::_Resume)() = (int (*)()) 0x0;
-gxtkSample * (*gxtkAudio::ptr::LoadSampleUNSAFE)(gxtkAudio * self, gxtkSample * sample, String * path) = (gxtkSample * (*)(gxtkAudio * self, gxtkSample * sample, String * path)) 0x4069d0;
-gxtkSample * (*gxtkAudio::ptr::LoadSample)(gxtkAudio * self, String * path) = (gxtkSample * (*)(gxtkAudio * self, String * path)) 0x406a30;
-int (*gxtkAudio::ptr::PlaySample)(gxtkAudio * self, gxtkSample * sample, int channel, int flags) = (int (*)(gxtkAudio * self, gxtkSample * sample, int channel, int flags)) 0x406a90;
-int (*gxtkAudio::ptr::StopChannel)(gxtkAudio * self, int channel) = (int (*)(gxtkAudio * self, int channel)) 0x4068a0;
-int (*gxtkAudio::ptr::_PauseChannel)(gxtkAudio * self, int arg1) = (int (*)(gxtkAudio * self, int arg1)) 0x0;
-int (*gxtkAudio::ptr::_ResumeChannel)(gxtkAudio * self, int arg1) = (int (*)(gxtkAudio * self, int arg1)) 0x0;
-int (*gxtkAudio::ptr::_ChannelState)(gxtkAudio * self, int arg1) = (int (*)(gxtkAudio * self, int arg1)) 0x0;
-int (*gxtkAudio::ptr::_SetVolume)(gxtkAudio * self, int arg1, float arg2) = (int (*)(gxtkAudio * self, int arg1, float arg2)) 0x0;
-int (*gxtkAudio::ptr::_SetPan)(gxtkAudio * self, int arg1, float arg2) = (int (*)(gxtkAudio * self, int arg1, float arg2)) 0x0;
-int (*gxtkAudio::ptr::_SetRate)(gxtkAudio * self, int arg1, float arg2) = (int (*)(gxtkAudio * self, int arg1, float arg2)) 0x0;
-int (*gxtkAudio::ptr::PlayMusic)(gxtkAudio * self, String * path, int flags) = (int (*)(gxtkAudio * self, String * path, int flags)) 0x406ab0;
-int (*gxtkAudio::ptr::_StopMusic)() = (int (*)()) 0x0;
-int (*gxtkAudio::ptr::_PauseMusic)() = (int (*)()) 0x0;
-int (*gxtkAudio::ptr::_ResumeMusic)() = (int (*)()) 0x0;
-int (*gxtkAudio::ptr::_MusicState)() = (int (*)()) 0x0;
-int (*gxtkAudio::ptr::_SetMusicVolume)(gxtkAudio * self, float arg1) = (int (*)(gxtkAudio * self, float arg1)) 0x0;
+inline int (*gxtkAudio::ptr::_Suspend)() = (int (*)()) 0x0;
+inline int (*gxtkAudio::ptr::_Resume)() = (int (*)()) 0x0;
+inline gxtkSample * (*gxtkAudio::ptr::LoadSampleUNSAFE)(gxtkAudio * self, gxtkSample * sample, String * path) = (gxtkSample * (*)(gxtkAudio * self, gxtkSample * sample, String * path)) 0x4069d0;
+inline gxtkSample * (*gxtkAudio::ptr::LoadSample)(gxtkAudio * self, String * path) = (gxtkSample * (*)(gxtkAudio * self, String * path)) 0x406a30;
+inline int (*gxtkAudio::ptr::PlaySample)(gxtkAudio * self, gxtkSample * sample, int channel, int flags) = (int (*)(gxtkAudio * self, gxtkSample * sample, int channel, int flags)) 0x406a90;
+inline int (*gxtkAudio::ptr::StopChannel)(gxtkAudio * self, int channel) = (int (*)(gxtkAudio * self, int channel)) 0x4068a0;
+inline int (*gxtkAudio::ptr::_PauseChannel)(gxtkAudio * self, int arg1) = (int (*)(gxtkAudio * self, int arg1)) 0x0;
+inline int (*gxtkAudio::ptr::_ResumeChannel)(gxtkAudio * self, int arg1) = (int (*)(gxtkAudio * self, int arg1)) 0x0;
+inline int (*gxtkAudio::ptr::_ChannelState)(gxtkAudio * self, int arg1) = (int (*)(gxtkAudio * self, int arg1)) 0x0;
+inline int (*gxtkAudio::ptr::_SetVolume)(gxtkAudio * self, int arg1, float arg2) = (int (*)(gxtkAudio * self, int arg1, float arg2)) 0x0;
+inline int (*gxtkAudio::ptr::_SetPan)(gxtkAudio * self, int arg1, float arg2) = (int (*)(gxtkAudio * self, int arg1, float arg2)) 0x0;
+inline int (*gxtkAudio::ptr::_SetRate)(gxtkAudio * self, int arg1, float arg2) = (int (*)(gxtkAudio * self, int arg1, float arg2)) 0x0;
+inline int (*gxtkAudio::ptr::PlayMusic)(gxtkAudio * self, String * path, int flags) = (int (*)(gxtkAudio * self, String * path, int flags)) 0x406ab0;
+inline int (*gxtkAudio::ptr::_StopMusic)() = (int (*)()) 0x0;
+inline int (*gxtkAudio::ptr::_PauseMusic)() = (int (*)()) 0x0;
+inline int (*gxtkAudio::ptr::_ResumeMusic)() = (int (*)()) 0x0;
+inline int (*gxtkAudio::ptr::_MusicState)() = (int (*)()) 0x0;
+inline int (*gxtkAudio::ptr::_SetMusicVolume)(gxtkAudio * self, float arg1) = (int (*)(gxtkAudio * self, float arg1)) 0x0;
 #endif
 
 #ifdef __linux__
 
-int (*gxtkAudio::ptr::_Suspend)() = (int (*)()) 0x0;
-int (*gxtkAudio::ptr::_Resume)() = (int (*)()) 0x0;
-gxtkSample * (*gxtkAudio::ptr::LoadSampleUNSAFE)(gxtkAudio * self, gxtkSample * sample, String * path) = (gxtkSample * (*)(gxtkAudio * self, gxtkSample * sample, String * path)) 0x80e2250;
-gxtkSample * (*gxtkAudio::ptr::LoadSample)(gxtkAudio * self, String * path) = (gxtkSample * (*)(gxtkAudio * self, String * path)) 0x8302510;
-int (*gxtkAudio::ptr::PlaySample)(gxtkAudio * self, gxtkSample * sample, int channel, int flags) = (int (*)(gxtkAudio * self, gxtkSample * sample, int channel, int flags)) 0x8302430;
-int (*gxtkAudio::ptr::StopChannel)(gxtkAudio * self, int channel) = (int (*)(gxtkAudio * self, int channel)) 0x807d660;
-int (*gxtkAudio::ptr::_PauseChannel)(gxtkAudio * self, int arg1) = (int (*)(gxtkAudio * self, int arg1)) 0x807d5e0;
-int (*gxtkAudio::ptr::_ResumeChannel)(gxtkAudio * self, int arg1) = (int (*)(gxtkAudio * self, int arg1)) 0x807d5a0;
-int (*gxtkAudio::ptr::_ChannelState)(gxtkAudio * self, int arg1) = (int (*)(gxtkAudio * self, int arg1)) 0x807d450;
-int (*gxtkAudio::ptr::_SetVolume)(gxtkAudio * self, int arg1, float arg2) = (int (*)(gxtkAudio * self, int arg1, float arg2)) 0x8084d80;
-int (*gxtkAudio::ptr::_SetPan)(gxtkAudio * self, int arg1, float arg2) = (int (*)(gxtkAudio * self, int arg1, float arg2)) 0x8084d20;
-int (*gxtkAudio::ptr::_SetRate)(gxtkAudio * self, int arg1, float arg2) = (int (*)(gxtkAudio * self, int arg1, float arg2)) 0x8084cd0;
-int (*gxtkAudio::ptr::PlayMusic)(gxtkAudio * self, String * path, int flags) = (int (*)(gxtkAudio * self, String * path, int flags)) 0x80c4e40;
-int (*gxtkAudio::ptr::_StopMusic)() = (int (*)()) 0x806d140;
-int (*gxtkAudio::ptr::_PauseMusic)() = (int (*)()) 0x806d160;
-int (*gxtkAudio::ptr::_ResumeMusic)() = (int (*)()) 0x806d180;
-int (*gxtkAudio::ptr::_MusicState)() = (int (*)()) 0x806d1a0;
-int (*gxtkAudio::ptr::_SetMusicVolume)(gxtkAudio * self, float arg1) = (int (*)(gxtkAudio * self, float arg1)) 0x806d1c0;
+inline int (*gxtkAudio::ptr::_Suspend)() = (int (*)()) 0x0;
+inline int (*gxtkAudio::ptr::_Resume)() = (int (*)()) 0x0;
+inline gxtkSample * (*gxtkAudio::ptr::LoadSampleUNSAFE)(gxtkAudio * self, gxtkSample * sample, String * path) = (gxtkSample * (*)(gxtkAudio * self, gxtkSample * sample, String * path)) 0x80e2250;
+inline gxtkSample * (*gxtkAudio::ptr::LoadSample)(gxtkAudio * self, String * path) = (gxtkSample * (*)(gxtkAudio * self, String * path)) 0x8302510;
+inline int (*gxtkAudio::ptr::PlaySample)(gxtkAudio * self, gxtkSample * sample, int channel, int flags) = (int (*)(gxtkAudio * self, gxtkSample * sample, int channel, int flags)) 0x8302430;
+inline int (*gxtkAudio::ptr::StopChannel)(gxtkAudio * self, int channel) = (int (*)(gxtkAudio * self, int channel)) 0x807d660;
+inline int (*gxtkAudio::ptr::_PauseChannel)(gxtkAudio * self, int arg1) = (int (*)(gxtkAudio * self, int arg1)) 0x807d5e0;
+inline int (*gxtkAudio::ptr::_ResumeChannel)(gxtkAudio * self, int arg1) = (int (*)(gxtkAudio * self, int arg1)) 0x807d5a0;
+inline int (*gxtkAudio::ptr::_ChannelState)(gxtkAudio * self, int arg1) = (int (*)(gxtkAudio * self, int arg1)) 0x807d450;
+inline int (*gxtkAudio::ptr::_SetVolume)(gxtkAudio * self, int arg1, float arg2) = (int (*)(gxtkAudio * self, int arg1, float arg2)) 0x8084d80;
+inline int (*gxtkAudio::ptr::_SetPan)(gxtkAudio * self, int arg1, float arg2) = (int (*)(gxtkAudio * self, int arg1, float arg2)) 0x8084d20;
+inline int (*gxtkAudio::ptr::_SetRate)(gxtkAudio * self, int arg1, float arg2) = (int (*)(gxtkAudio * self, int arg1, float arg2)) 0x8084cd0;
+inline int (*gxtkAudio::ptr::PlayMusic)(gxtkAudio * self, String * path, int flags) = (int (*)(gxtkAudio * self, String * path, int flags)) 0x80c4e40;
+inline int (*gxtkAudio::ptr::_StopMusic)() = (int (*)()) 0x806d140;
+inline int (*gxtkAudio::ptr::_PauseMusic)() = (int (*)()) 0x806d160;
+inline int (*gxtkAudio::ptr::_ResumeMusic)() = (int (*)()) 0x806d180;
+inline int (*gxtkAudio::ptr::_MusicState)() = (int (*)()) 0x806d1a0;
+inline int (*gxtkAudio::ptr::_SetMusicVolume)(gxtkAudio * self, float arg1) = (int (*)(gxtkAudio * self, float arg1)) 0x806d1c0;
 #endif
 #endif

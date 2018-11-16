@@ -19,13 +19,13 @@ public:
 
 #ifdef _WIN32
 
-HeadNode24 * (*HeadNode24::ptr::_New)() = (HeadNode24 * (*)()) 0x0;
-void (*HeadNode24::ptr::_mark)() = (void (*)()) 0x0;
+inline HeadNode24 * (*HeadNode24::ptr::_New)() = (HeadNode24 * (*)()) 0x0;
+inline void (*HeadNode24::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-HeadNode24 * (*HeadNode24::ptr::_New)() = (HeadNode24 * (*)()) 0x8199d70;
-void (*HeadNode24::ptr::_mark)() = (void (*)()) 0x8089f60;
+inline HeadNode24 * (*HeadNode24::ptr::_New)() = (HeadNode24 * (*)()) 0x8199d70;
+inline void (*HeadNode24::ptr::_mark)() = (void (*)()) 0x8089f60;
 #endif
 #endif

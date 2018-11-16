@@ -47,31 +47,31 @@ public:
 
 #ifdef _WIN32
 
-Ghost * (*Ghost::ptr::New)(Ghost * self, int xVal, int yVal, int l) = (Ghost * (*)(Ghost * self, int xVal, int yVal, int l)) 0x63ae90;
-Ghost * (*Ghost::ptr::_new2)() = (Ghost * (*)()) 0x0;
-void (*Ghost::ptr::ProcessDistanceChanges)(Ghost * self) = (void (*)(Ghost * self)) 0x63b0c0;
-void (*Ghost::ptr::Update)(Ghost * self) = (void (*)(Ghost * self)) 0x63b470;
-int (*Ghost::ptr::Move)(Ghost * self) = (int (*)(Ghost * self)) 0x63b570;
-int (*Ghost::ptr::_MoveImmediate)(Ghost * self, int arg1, int arg2, String * arg3) = (int (*)(Ghost * self, int arg1, int arg2, String * arg3)) 0x0;
-bool (*Ghost::ptr::CanBeDamaged)(Ghost * self, bool phasing, bool piercing) = (bool (*)(Ghost * self, bool phasing, bool piercing)) 0x63b6e0;
-bool (*Ghost::ptr::_Hit)(Ghost * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(Ghost * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x0;
-Point * (*Ghost::ptr::GetMovementDirection)(Ghost * self) = (Point * (*)(Ghost * self)) 0x63b7d0;
-void (*Ghost::ptr::_mark)() = (void (*)()) 0x0;
-void (*Ghost::ptr::CSTR_Ghost)(Ghost * self) = (void (*)(Ghost * self)) 0x63adc0;
+inline Ghost * (*Ghost::ptr::New)(Ghost * self, int xVal, int yVal, int l) = (Ghost * (*)(Ghost * self, int xVal, int yVal, int l)) 0x63ae90;
+inline Ghost * (*Ghost::ptr::_new2)() = (Ghost * (*)()) 0x0;
+inline void (*Ghost::ptr::ProcessDistanceChanges)(Ghost * self) = (void (*)(Ghost * self)) 0x63b0c0;
+inline void (*Ghost::ptr::Update)(Ghost * self) = (void (*)(Ghost * self)) 0x63b470;
+inline int (*Ghost::ptr::Move)(Ghost * self) = (int (*)(Ghost * self)) 0x63b570;
+inline int (*Ghost::ptr::_MoveImmediate)(Ghost * self, int arg1, int arg2, String * arg3) = (int (*)(Ghost * self, int arg1, int arg2, String * arg3)) 0x0;
+inline bool (*Ghost::ptr::CanBeDamaged)(Ghost * self, bool phasing, bool piercing) = (bool (*)(Ghost * self, bool phasing, bool piercing)) 0x63b6e0;
+inline bool (*Ghost::ptr::_Hit)(Ghost * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(Ghost * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x0;
+inline Point * (*Ghost::ptr::GetMovementDirection)(Ghost * self) = (Point * (*)(Ghost * self)) 0x63b7d0;
+inline void (*Ghost::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Ghost::ptr::CSTR_Ghost)(Ghost * self) = (void (*)(Ghost * self)) 0x63adc0;
 #endif
 
 #ifdef __linux__
 
-Ghost * (*Ghost::ptr::New)(Ghost * self, int xVal, int yVal, int l) = (Ghost * (*)(Ghost * self, int xVal, int yVal, int l)) 0x81c0490;
-Ghost * (*Ghost::ptr::_new2)() = (Ghost * (*)()) 0x81c0620;
-void (*Ghost::ptr::ProcessDistanceChanges)(Ghost * self) = (void (*)(Ghost * self)) 0x80c0a80;
-void (*Ghost::ptr::Update)(Ghost * self) = (void (*)(Ghost * self)) 0x8382ff0;
-int (*Ghost::ptr::Move)(Ghost * self) = (int (*)(Ghost * self)) 0x80962e0;
-int (*Ghost::ptr::_MoveImmediate)(Ghost * self, int arg1, int arg2, String * arg3) = (int (*)(Ghost * self, int arg1, int arg2, String * arg3)) 0x8393d10;
-bool (*Ghost::ptr::CanBeDamaged)(Ghost * self, bool phasing, bool piercing) = (bool (*)(Ghost * self, bool phasing, bool piercing)) 0x8076060;
-bool (*Ghost::ptr::_Hit)(Ghost * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(Ghost * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x8399560;
-Point * (*Ghost::ptr::GetMovementDirection)(Ghost * self) = (Point * (*)(Ghost * self)) 0x80b46d0;
-void (*Ghost::ptr::_mark)() = (void (*)()) 0x80b07a0;
-void (*Ghost::ptr::CSTR_Ghost)(Ghost * self) = (void (*)(Ghost * self)) 0x81c0320;
+inline Ghost * (*Ghost::ptr::New)(Ghost * self, int xVal, int yVal, int l) = (Ghost * (*)(Ghost * self, int xVal, int yVal, int l)) 0x81c0490;
+inline Ghost * (*Ghost::ptr::_new2)() = (Ghost * (*)()) 0x81c0620;
+inline void (*Ghost::ptr::ProcessDistanceChanges)(Ghost * self) = (void (*)(Ghost * self)) 0x80c0a80;
+inline void (*Ghost::ptr::Update)(Ghost * self) = (void (*)(Ghost * self)) 0x8382ff0;
+inline int (*Ghost::ptr::Move)(Ghost * self) = (int (*)(Ghost * self)) 0x80962e0;
+inline int (*Ghost::ptr::_MoveImmediate)(Ghost * self, int arg1, int arg2, String * arg3) = (int (*)(Ghost * self, int arg1, int arg2, String * arg3)) 0x8393d10;
+inline bool (*Ghost::ptr::CanBeDamaged)(Ghost * self, bool phasing, bool piercing) = (bool (*)(Ghost * self, bool phasing, bool piercing)) 0x8076060;
+inline bool (*Ghost::ptr::_Hit)(Ghost * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(Ghost * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x8399560;
+inline Point * (*Ghost::ptr::GetMovementDirection)(Ghost * self) = (Point * (*)(Ghost * self)) 0x80b46d0;
+inline void (*Ghost::ptr::_mark)() = (void (*)()) 0x80b07a0;
+inline void (*Ghost::ptr::CSTR_Ghost)(Ghost * self) = (void (*)(Ghost * self)) 0x81c0320;
 #endif
 #endif

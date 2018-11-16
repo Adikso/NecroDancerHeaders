@@ -33,21 +33,21 @@ public:
 
 #ifdef _WIN32
 
-ScatterTrap * (*ScatterTrap::ptr::New)(ScatterTrap * self, int xVal, int yVal) = (ScatterTrap * (*)(ScatterTrap * self, int xVal, int yVal)) 0x65c980;
-ScatterTrap * (*ScatterTrap::ptr::_new2)() = (ScatterTrap * (*)()) 0x0;
-void (*ScatterTrap::ptr::Update)(ScatterTrap * self) = (void (*)(ScatterTrap * self)) 0x6290a0;
-void (*ScatterTrap::ptr::Trigger)(ScatterTrap * self, Entity * ent) = (void (*)(ScatterTrap * self, Entity * ent)) 0x65cb00;
-void (*ScatterTrap::ptr::_mark)() = (void (*)()) 0x0;
-void (*ScatterTrap::ptr::CSTR_ScatterTrap)(ScatterTrap * self) = (void (*)(ScatterTrap * self)) 0x65c920;
+inline ScatterTrap * (*ScatterTrap::ptr::New)(ScatterTrap * self, int xVal, int yVal) = (ScatterTrap * (*)(ScatterTrap * self, int xVal, int yVal)) 0x65c980;
+inline ScatterTrap * (*ScatterTrap::ptr::_new2)() = (ScatterTrap * (*)()) 0x0;
+inline void (*ScatterTrap::ptr::Update)(ScatterTrap * self) = (void (*)(ScatterTrap * self)) 0x6290a0;
+inline void (*ScatterTrap::ptr::Trigger)(ScatterTrap * self, Entity * ent) = (void (*)(ScatterTrap * self, Entity * ent)) 0x65cb00;
+inline void (*ScatterTrap::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*ScatterTrap::ptr::CSTR_ScatterTrap)(ScatterTrap * self) = (void (*)(ScatterTrap * self)) 0x65c920;
 #endif
 
 #ifdef __linux__
 
-ScatterTrap * (*ScatterTrap::ptr::New)(ScatterTrap * self, int xVal, int yVal) = (ScatterTrap * (*)(ScatterTrap * self, int xVal, int yVal)) 0x81d3120;
-ScatterTrap * (*ScatterTrap::ptr::_new2)() = (ScatterTrap * (*)()) 0x81d32d0;
-void (*ScatterTrap::ptr::Update)(ScatterTrap * self) = (void (*)(ScatterTrap * self)) 0x812d860;
-void (*ScatterTrap::ptr::Trigger)(ScatterTrap * self, Entity * ent) = (void (*)(ScatterTrap * self, Entity * ent)) 0x83a9bb0;
-void (*ScatterTrap::ptr::_mark)() = (void (*)()) 0x80a5820;
-void (*ScatterTrap::ptr::CSTR_ScatterTrap)(ScatterTrap * self) = (void (*)(ScatterTrap * self)) 0x81d30a0;
+inline ScatterTrap * (*ScatterTrap::ptr::New)(ScatterTrap * self, int xVal, int yVal) = (ScatterTrap * (*)(ScatterTrap * self, int xVal, int yVal)) 0x81d3120;
+inline ScatterTrap * (*ScatterTrap::ptr::_new2)() = (ScatterTrap * (*)()) 0x81d32d0;
+inline void (*ScatterTrap::ptr::Update)(ScatterTrap * self) = (void (*)(ScatterTrap * self)) 0x812d860;
+inline void (*ScatterTrap::ptr::Trigger)(ScatterTrap * self, Entity * ent) = (void (*)(ScatterTrap * self, Entity * ent)) 0x83a9bb0;
+inline void (*ScatterTrap::ptr::_mark)() = (void (*)()) 0x80a5820;
+inline void (*ScatterTrap::ptr::CSTR_ScatterTrap)(ScatterTrap * self) = (void (*)(ScatterTrap * self)) 0x81d30a0;
 #endif
 #endif

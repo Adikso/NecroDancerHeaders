@@ -49,21 +49,21 @@ public:
 
 #ifdef _WIN32
 
-LevelObject * (*LevelObject::ptr::New)(LevelObject * self, int num, int music, int boss, bool loadFromCurrent, XMLNode * fromXML) = (LevelObject * (*)(LevelObject * self, int num, int music, int boss, bool loadFromCurrent, XMLNode * fromXML)) 0x5c7280;
-LevelObject * (*LevelObject::ptr::_new2)() = (LevelObject * (*)()) 0x0;
-void (*LevelObject::ptr::CreateMap)(LevelObject * self) = (void (*)(LevelObject * self)) 0x5c8540;
-XMLNode * (*LevelObject::ptr::ToXML)(LevelObject * self) = (XMLNode * (*)(LevelObject * self)) 0x5c8ea0;
-void (*LevelObject::ptr::mark)(LevelObject * self) = (void (*)(LevelObject * self)) 0x5c9630;
-void (*LevelObject::ptr::CSTR_LevelObject)(LevelObject * self) = (void (*)(LevelObject * self)) 0x5c70f0;
+inline LevelObject * (*LevelObject::ptr::New)(LevelObject * self, int num, int music, int boss, bool loadFromCurrent, XMLNode * fromXML) = (LevelObject * (*)(LevelObject * self, int num, int music, int boss, bool loadFromCurrent, XMLNode * fromXML)) 0x5c7280;
+inline LevelObject * (*LevelObject::ptr::_new2)() = (LevelObject * (*)()) 0x0;
+inline void (*LevelObject::ptr::CreateMap)(LevelObject * self) = (void (*)(LevelObject * self)) 0x5c8540;
+inline XMLNode * (*LevelObject::ptr::ToXML)(LevelObject * self) = (XMLNode * (*)(LevelObject * self)) 0x5c8ea0;
+inline void (*LevelObject::ptr::mark)(LevelObject * self) = (void (*)(LevelObject * self)) 0x5c9630;
+inline void (*LevelObject::ptr::CSTR_LevelObject)(LevelObject * self) = (void (*)(LevelObject * self)) 0x5c70f0;
 #endif
 
 #ifdef __linux__
 
-LevelObject * (*LevelObject::ptr::New)(LevelObject * self, int num, int music, int boss, bool loadFromCurrent, XMLNode * fromXML) = (LevelObject * (*)(LevelObject * self, int num, int music, int boss, bool loadFromCurrent, XMLNode * fromXML)) 0x8198890;
-LevelObject * (*LevelObject::ptr::_new2)() = (LevelObject * (*)()) 0x8189940;
-void (*LevelObject::ptr::CreateMap)(LevelObject * self) = (void (*)(LevelObject * self)) 0x82d7120;
-XMLNode * (*LevelObject::ptr::ToXML)(LevelObject * self) = (XMLNode * (*)(LevelObject * self)) 0x8129250;
-void (*LevelObject::ptr::mark)(LevelObject * self) = (void (*)(LevelObject * self)) 0x8085300;
-void (*LevelObject::ptr::CSTR_LevelObject)(LevelObject * self) = (void (*)(LevelObject * self)) 0x8199e80;
+inline LevelObject * (*LevelObject::ptr::New)(LevelObject * self, int num, int music, int boss, bool loadFromCurrent, XMLNode * fromXML) = (LevelObject * (*)(LevelObject * self, int num, int music, int boss, bool loadFromCurrent, XMLNode * fromXML)) 0x8198890;
+inline LevelObject * (*LevelObject::ptr::_new2)() = (LevelObject * (*)()) 0x8189940;
+inline void (*LevelObject::ptr::CreateMap)(LevelObject * self) = (void (*)(LevelObject * self)) 0x82d7120;
+inline XMLNode * (*LevelObject::ptr::ToXML)(LevelObject * self) = (XMLNode * (*)(LevelObject * self)) 0x8129250;
+inline void (*LevelObject::ptr::mark)(LevelObject * self) = (void (*)(LevelObject * self)) 0x8085300;
+inline void (*LevelObject::ptr::CSTR_LevelObject)(LevelObject * self) = (void (*)(LevelObject * self)) 0x8199e80;
 #endif
 #endif

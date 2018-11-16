@@ -28,21 +28,21 @@ public:
 
 #ifdef _WIN32
 
-Thing * (*Thing::ptr::_New)(Thing * self, int arg1, int arg2, bool arg3) = (Thing * (*)(Thing * self, int arg1, int arg2, bool arg3)) 0x0;
-Thing * (*Thing::ptr::_new2)() = (Thing * (*)()) 0x0;
-bool (*Thing::ptr::Hit)(Thing * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Thing * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x632ac0;
-void (*Thing::ptr::Update)(Thing * self) = (void (*)(Thing * self)) 0x401010;
-void (*Thing::ptr::_Render)() = (void (*)()) 0x0;
-void (*Thing::ptr::mark)(Thing * self) = (void (*)(Thing * self)) 0x4fdc30;
+inline Thing * (*Thing::ptr::_New)(Thing * self, int arg1, int arg2, bool arg3) = (Thing * (*)(Thing * self, int arg1, int arg2, bool arg3)) 0x0;
+inline Thing * (*Thing::ptr::_new2)() = (Thing * (*)()) 0x0;
+inline bool (*Thing::ptr::Hit)(Thing * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Thing * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x632ac0;
+inline void (*Thing::ptr::Update)(Thing * self) = (void (*)(Thing * self)) 0x401010;
+inline void (*Thing::ptr::_Render)() = (void (*)()) 0x0;
+inline void (*Thing::ptr::mark)(Thing * self) = (void (*)(Thing * self)) 0x4fdc30;
 #endif
 
 #ifdef __linux__
 
-Thing * (*Thing::ptr::_New)(Thing * self, int arg1, int arg2, bool arg3) = (Thing * (*)(Thing * self, int arg1, int arg2, bool arg3)) 0x81bc010;
-Thing * (*Thing::ptr::_new2)() = (Thing * (*)()) 0x81bc090;
-bool (*Thing::ptr::Hit)(Thing * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Thing * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8075910;
-void (*Thing::ptr::Update)(Thing * self) = (void (*)(Thing * self)) 0x8075920;
-void (*Thing::ptr::_Render)() = (void (*)()) 0x8075930;
-void (*Thing::ptr::mark)(Thing * self) = (void (*)(Thing * self)) 0x80a5220;
+inline Thing * (*Thing::ptr::_New)(Thing * self, int arg1, int arg2, bool arg3) = (Thing * (*)(Thing * self, int arg1, int arg2, bool arg3)) 0x81bc010;
+inline Thing * (*Thing::ptr::_new2)() = (Thing * (*)()) 0x81bc090;
+inline bool (*Thing::ptr::Hit)(Thing * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Thing * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8075910;
+inline void (*Thing::ptr::Update)(Thing * self) = (void (*)(Thing * self)) 0x8075920;
+inline void (*Thing::ptr::_Render)() = (void (*)()) 0x8075930;
+inline void (*Thing::ptr::mark)(Thing * self) = (void (*)(Thing * self)) 0x80a5220;
 #endif
 #endif

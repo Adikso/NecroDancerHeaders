@@ -35,27 +35,27 @@ public:
 
 #ifdef _WIN32
 
-Map20 * (*Map20::ptr::_New)() = (Map20 * (*)()) 0x0;
-int (*Map20::ptr::_Compare2)(Map20 * self, int arg1, int arg2) = (int (*)(Map20 * self, int arg1, int arg2)) 0x0;
-Node72 * (*Map20::ptr::_FindNode2)(Map20 * self, int arg1) = (Node72 * (*)(Map20 * self, int arg1)) 0x0;
-bool (*Map20::ptr::_Contains2)(Map20 * self, int arg1) = (bool (*)(Map20 * self, int arg1)) 0x0;
-int (*Map20::ptr::_RotateLeft20)(Map20 * self, Node72 * arg1) = (int (*)(Map20 * self, Node72 * arg1)) 0x0;
-int (*Map20::ptr::_RotateRight20)(Map20 * self, Node72 * arg1) = (int (*)(Map20 * self, Node72 * arg1)) 0x0;
-int (*Map20::ptr::_InsertFixup20)(Map20 * self, Node72 * arg1) = (int (*)(Map20 * self, Node72 * arg1)) 0x0;
-bool (*Map20::ptr::Add13)(Map20 * self, int key, bool value) = (bool (*)(Map20 * self, int key, bool value)) 0x661050;
-void (*Map20::ptr::_mark)() = (void (*)()) 0x0;
+inline Map20 * (*Map20::ptr::_New)() = (Map20 * (*)()) 0x0;
+inline int (*Map20::ptr::_Compare2)(Map20 * self, int arg1, int arg2) = (int (*)(Map20 * self, int arg1, int arg2)) 0x0;
+inline Node72 * (*Map20::ptr::_FindNode2)(Map20 * self, int arg1) = (Node72 * (*)(Map20 * self, int arg1)) 0x0;
+inline bool (*Map20::ptr::_Contains2)(Map20 * self, int arg1) = (bool (*)(Map20 * self, int arg1)) 0x0;
+inline int (*Map20::ptr::_RotateLeft20)(Map20 * self, Node72 * arg1) = (int (*)(Map20 * self, Node72 * arg1)) 0x0;
+inline int (*Map20::ptr::_RotateRight20)(Map20 * self, Node72 * arg1) = (int (*)(Map20 * self, Node72 * arg1)) 0x0;
+inline int (*Map20::ptr::_InsertFixup20)(Map20 * self, Node72 * arg1) = (int (*)(Map20 * self, Node72 * arg1)) 0x0;
+inline bool (*Map20::ptr::Add13)(Map20 * self, int key, bool value) = (bool (*)(Map20 * self, int key, bool value)) 0x661050;
+inline void (*Map20::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Map20 * (*Map20::ptr::_New)() = (Map20 * (*)()) 0x81d6950;
-int (*Map20::ptr::_Compare2)(Map20 * self, int arg1, int arg2) = (int (*)(Map20 * self, int arg1, int arg2)) 0x0;
-Node72 * (*Map20::ptr::_FindNode2)(Map20 * self, int arg1) = (Node72 * (*)(Map20 * self, int arg1)) 0x8077620;
-bool (*Map20::ptr::_Contains2)(Map20 * self, int arg1) = (bool (*)(Map20 * self, int arg1)) 0x8077670;
-int (*Map20::ptr::_RotateLeft20)(Map20 * self, Node72 * arg1) = (int (*)(Map20 * self, Node72 * arg1)) 0x0;
-int (*Map20::ptr::_RotateRight20)(Map20 * self, Node72 * arg1) = (int (*)(Map20 * self, Node72 * arg1)) 0x0;
-int (*Map20::ptr::_InsertFixup20)(Map20 * self, Node72 * arg1) = (int (*)(Map20 * self, Node72 * arg1)) 0x0;
-bool (*Map20::ptr::Add13)(Map20 * self, int key, bool value) = (bool (*)(Map20 * self, int key, bool value)) 0x80bbd00;
-void (*Map20::ptr::_mark)() = (void (*)()) 0x808c650;
+inline Map20 * (*Map20::ptr::_New)() = (Map20 * (*)()) 0x81d6950;
+inline int (*Map20::ptr::_Compare2)(Map20 * self, int arg1, int arg2) = (int (*)(Map20 * self, int arg1, int arg2)) 0x0;
+inline Node72 * (*Map20::ptr::_FindNode2)(Map20 * self, int arg1) = (Node72 * (*)(Map20 * self, int arg1)) 0x8077620;
+inline bool (*Map20::ptr::_Contains2)(Map20 * self, int arg1) = (bool (*)(Map20 * self, int arg1)) 0x8077670;
+inline int (*Map20::ptr::_RotateLeft20)(Map20 * self, Node72 * arg1) = (int (*)(Map20 * self, Node72 * arg1)) 0x0;
+inline int (*Map20::ptr::_RotateRight20)(Map20 * self, Node72 * arg1) = (int (*)(Map20 * self, Node72 * arg1)) 0x0;
+inline int (*Map20::ptr::_InsertFixup20)(Map20 * self, Node72 * arg1) = (int (*)(Map20 * self, Node72 * arg1)) 0x0;
+inline bool (*Map20::ptr::Add13)(Map20 * self, int key, bool value) = (bool (*)(Map20 * self, int key, bool value)) 0x80bbd00;
+inline void (*Map20::ptr::_mark)() = (void (*)()) 0x808c650;
 #endif
 #endif

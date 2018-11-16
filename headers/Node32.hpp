@@ -25,15 +25,15 @@ public:
 
 #ifdef _WIN32
 
-Node32 * (*Node32::ptr::_New)(Node32 * self, Node32 * arg1, Node32 * arg2, ChestObject * arg3) = (Node32 * (*)(Node32 * self, Node32 * arg1, Node32 * arg2, ChestObject * arg3)) 0x0;
-Node32 * (*Node32::ptr::_new2)() = (Node32 * (*)()) 0x0;
-void (*Node32::ptr::_mark)() = (void (*)()) 0x0;
+inline Node32 * (*Node32::ptr::_New)(Node32 * self, Node32 * arg1, Node32 * arg2, ChestObject * arg3) = (Node32 * (*)(Node32 * self, Node32 * arg1, Node32 * arg2, ChestObject * arg3)) 0x0;
+inline Node32 * (*Node32::ptr::_new2)() = (Node32 * (*)()) 0x0;
+inline void (*Node32::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node32 * (*Node32::ptr::_New)(Node32 * self, Node32 * arg1, Node32 * arg2, ChestObject * arg3) = (Node32 * (*)(Node32 * self, Node32 * arg1, Node32 * arg2, ChestObject * arg3)) 0x0;
-Node32 * (*Node32::ptr::_new2)() = (Node32 * (*)()) 0x81a5420;
-void (*Node32::ptr::_mark)() = (void (*)()) 0x808a550;
+inline Node32 * (*Node32::ptr::_New)(Node32 * self, Node32 * arg1, Node32 * arg2, ChestObject * arg3) = (Node32 * (*)(Node32 * self, Node32 * arg1, Node32 * arg2, ChestObject * arg3)) 0x0;
+inline Node32 * (*Node32::ptr::_new2)() = (Node32 * (*)()) 0x81a5420;
+inline void (*Node32::ptr::_mark)() = (void (*)()) 0x808a550;
 #endif
 #endif

@@ -41,25 +41,25 @@ public:
 
 #ifdef _WIN32
 
-Spider * (*Spider::ptr::New)(Spider * self, int xVal, int yVal, int l) = (Spider * (*)(Spider * self, int xVal, int yVal, int l)) 0x64f0e0;
-Spider * (*Spider::ptr::_new2)() = (Spider * (*)()) 0x0;
-Point * (*Spider::ptr::GetMovementDirection)(Spider * self) = (Point * (*)(Spider * self)) 0x64f300;
-int (*Spider::ptr::MoveImmediate)(Spider * self, int xVal, int yVal, String * movementSource) = (int (*)(Spider * self, int xVal, int yVal, String * movementSource)) 0x64f590;
-void (*Spider::ptr::MoveSucceed)(Spider * self, bool hitPlayer, bool moveDelayed) = (void (*)(Spider * self, bool hitPlayer, bool moveDelayed)) 0x64f630;
-void (*Spider::ptr::Update)(Spider * self) = (void (*)(Spider * self)) 0x64f720;
-void (*Spider::ptr::_mark)() = (void (*)()) 0x0;
-void (*Spider::ptr::CSTR_Spider)(Spider * self) = (void (*)(Spider * self)) 0x64f060;
+inline Spider * (*Spider::ptr::New)(Spider * self, int xVal, int yVal, int l) = (Spider * (*)(Spider * self, int xVal, int yVal, int l)) 0x64f0e0;
+inline Spider * (*Spider::ptr::_new2)() = (Spider * (*)()) 0x0;
+inline Point * (*Spider::ptr::GetMovementDirection)(Spider * self) = (Point * (*)(Spider * self)) 0x64f300;
+inline int (*Spider::ptr::MoveImmediate)(Spider * self, int xVal, int yVal, String * movementSource) = (int (*)(Spider * self, int xVal, int yVal, String * movementSource)) 0x64f590;
+inline void (*Spider::ptr::MoveSucceed)(Spider * self, bool hitPlayer, bool moveDelayed) = (void (*)(Spider * self, bool hitPlayer, bool moveDelayed)) 0x64f630;
+inline void (*Spider::ptr::Update)(Spider * self) = (void (*)(Spider * self)) 0x64f720;
+inline void (*Spider::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Spider::ptr::CSTR_Spider)(Spider * self) = (void (*)(Spider * self)) 0x64f060;
 #endif
 
 #ifdef __linux__
 
-Spider * (*Spider::ptr::New)(Spider * self, int xVal, int yVal, int l) = (Spider * (*)(Spider * self, int xVal, int yVal, int l)) 0x81c67c0;
-Spider * (*Spider::ptr::_new2)() = (Spider * (*)()) 0x81c6990;
-Point * (*Spider::ptr::GetMovementDirection)(Spider * self) = (Point * (*)(Spider * self)) 0x81042f0;
-int (*Spider::ptr::MoveImmediate)(Spider * self, int xVal, int yVal, String * movementSource) = (int (*)(Spider * self, int xVal, int yVal, String * movementSource)) 0x83933e0;
-void (*Spider::ptr::MoveSucceed)(Spider * self, bool hitPlayer, bool moveDelayed) = (void (*)(Spider * self, bool hitPlayer, bool moveDelayed)) 0x81a8730;
-void (*Spider::ptr::Update)(Spider * self) = (void (*)(Spider * self)) 0x837ff20;
-void (*Spider::ptr::_mark)() = (void (*)()) 0x80b0420;
-void (*Spider::ptr::CSTR_Spider)(Spider * self) = (void (*)(Spider * self)) 0x81c6780;
+inline Spider * (*Spider::ptr::New)(Spider * self, int xVal, int yVal, int l) = (Spider * (*)(Spider * self, int xVal, int yVal, int l)) 0x81c67c0;
+inline Spider * (*Spider::ptr::_new2)() = (Spider * (*)()) 0x81c6990;
+inline Point * (*Spider::ptr::GetMovementDirection)(Spider * self) = (Point * (*)(Spider * self)) 0x81042f0;
+inline int (*Spider::ptr::MoveImmediate)(Spider * self, int xVal, int yVal, String * movementSource) = (int (*)(Spider * self, int xVal, int yVal, String * movementSource)) 0x83933e0;
+inline void (*Spider::ptr::MoveSucceed)(Spider * self, bool hitPlayer, bool moveDelayed) = (void (*)(Spider * self, bool hitPlayer, bool moveDelayed)) 0x81a8730;
+inline void (*Spider::ptr::Update)(Spider * self) = (void (*)(Spider * self)) 0x837ff20;
+inline void (*Spider::ptr::_mark)() = (void (*)()) 0x80b0420;
+inline void (*Spider::ptr::CSTR_Spider)(Spider * self) = (void (*)(Spider * self)) 0x81c6780;
 #endif
 #endif

@@ -57,46 +57,46 @@ public:
 };
 
 #ifdef _WIN32
-int * Stack::_NIL = (int*) 0x8355d4;
+inline int * Stack::_NIL = (int*) 0x8355d4;
 
-Stack * (*Stack::ptr::_New)() = (Stack * (*)()) 0x0;
-Stack * (*Stack::ptr::_new2)(Stack * self, Array<int> * arg1) = (Stack * (*)(Stack * self, Array<int> * arg1)) 0x0;
-int (*Stack::ptr::Push)(Stack * self, int value) = (int (*)(Stack * self, int value)) 0x605090;
-int (*Stack::ptr::_Push2)(Stack * self, Array<int> * arg1, int arg2, int arg3) = (int (*)(Stack * self, Array<int> * arg1, int arg2, int arg3)) 0x0;
-int (*Stack::ptr::_Push3)(Stack * self, Array<int> * arg1, int arg2) = (int (*)(Stack * self, Array<int> * arg1, int arg2)) 0x0;
-int (*Stack::ptr::_Length)() = (int (*)()) 0x0;
-int (*Stack::ptr::Get2)(Stack * self, int index) = (int (*)(Stack * self, int index)) 0x605160;
-bool (*Stack::ptr::_Equals16)(Stack * self, int arg1, int arg2) = (bool (*)(Stack * self, int arg1, int arg2)) 0x0;
-Enumerator25 * (*Stack::ptr::ObjectEnumerator)(Stack * self) = (Enumerator25 * (*)(Stack * self)) 0x605180;
-int (*Stack::ptr::Clear)(Stack * self) = (int (*)(Stack * self)) 0x605260;
-int (*Stack::ptr::Set6)(Stack * self, int index, int value) = (int (*)(Stack * self, int index, int value)) 0x6052a0;
-int (*Stack::ptr::Remove5)(Stack * self, int index) = (int (*)(Stack * self, int index)) 0x6052c0;
-int (*Stack::ptr::Pop)(Stack * self) = (int (*)(Stack * self)) 0x605310;
-bool (*Stack::ptr::Contains2)(Stack * self, int value) = (bool (*)(Stack * self, int value)) 0x605330;
-BackwardsStack * (*Stack::ptr::Backwards)(Stack * self) = (BackwardsStack * (*)(Stack * self)) 0x605380;
-void (*Stack::ptr::_mark)() = (void (*)()) 0x0;
-void (*Stack::ptr::CSTR_Stack)(Stack * self) = (void (*)(Stack * self)) 0x605010;
+inline Stack * (*Stack::ptr::_New)() = (Stack * (*)()) 0x0;
+inline Stack * (*Stack::ptr::_new2)(Stack * self, Array<int> * arg1) = (Stack * (*)(Stack * self, Array<int> * arg1)) 0x0;
+inline int (*Stack::ptr::Push)(Stack * self, int value) = (int (*)(Stack * self, int value)) 0x605090;
+inline int (*Stack::ptr::_Push2)(Stack * self, Array<int> * arg1, int arg2, int arg3) = (int (*)(Stack * self, Array<int> * arg1, int arg2, int arg3)) 0x0;
+inline int (*Stack::ptr::_Push3)(Stack * self, Array<int> * arg1, int arg2) = (int (*)(Stack * self, Array<int> * arg1, int arg2)) 0x0;
+inline int (*Stack::ptr::_Length)() = (int (*)()) 0x0;
+inline int (*Stack::ptr::Get2)(Stack * self, int index) = (int (*)(Stack * self, int index)) 0x605160;
+inline bool (*Stack::ptr::_Equals16)(Stack * self, int arg1, int arg2) = (bool (*)(Stack * self, int arg1, int arg2)) 0x0;
+inline Enumerator25 * (*Stack::ptr::ObjectEnumerator)(Stack * self) = (Enumerator25 * (*)(Stack * self)) 0x605180;
+inline int (*Stack::ptr::Clear)(Stack * self) = (int (*)(Stack * self)) 0x605260;
+inline int (*Stack::ptr::Set6)(Stack * self, int index, int value) = (int (*)(Stack * self, int index, int value)) 0x6052a0;
+inline int (*Stack::ptr::Remove5)(Stack * self, int index) = (int (*)(Stack * self, int index)) 0x6052c0;
+inline int (*Stack::ptr::Pop)(Stack * self) = (int (*)(Stack * self)) 0x605310;
+inline bool (*Stack::ptr::Contains2)(Stack * self, int value) = (bool (*)(Stack * self, int value)) 0x605330;
+inline BackwardsStack * (*Stack::ptr::Backwards)(Stack * self) = (BackwardsStack * (*)(Stack * self)) 0x605380;
+inline void (*Stack::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Stack::ptr::CSTR_Stack)(Stack * self) = (void (*)(Stack * self)) 0x605010;
 #endif
 
 #ifdef __linux__
-int * Stack::_NIL = (int*) 0x0;
+inline int * Stack::_NIL = (int*) 0x0;
 
-Stack * (*Stack::ptr::_New)() = (Stack * (*)()) 0x81a97e0;
-Stack * (*Stack::ptr::_new2)(Stack * self, Array<int> * arg1) = (Stack * (*)(Stack * self, Array<int> * arg1)) 0x81a97f0;
-int (*Stack::ptr::Push)(Stack * self, int value) = (int (*)(Stack * self, int value)) 0x80c13b0;
-int (*Stack::ptr::_Push2)(Stack * self, Array<int> * arg1, int arg2, int arg3) = (int (*)(Stack * self, Array<int> * arg1, int arg2, int arg3)) 0x8074020;
-int (*Stack::ptr::_Push3)(Stack * self, Array<int> * arg1, int arg2) = (int (*)(Stack * self, Array<int> * arg1, int arg2)) 0x8074070;
-int (*Stack::ptr::_Length)() = (int (*)()) 0x80740c0;
-int (*Stack::ptr::Get2)(Stack * self, int index) = (int (*)(Stack * self, int index)) 0x80740d0;
-bool (*Stack::ptr::_Equals16)(Stack * self, int arg1, int arg2) = (bool (*)(Stack * self, int arg1, int arg2)) 0x80740e0;
-Enumerator25 * (*Stack::ptr::ObjectEnumerator)(Stack * self) = (Enumerator25 * (*)(Stack * self)) 0x80b60d0;
-int (*Stack::ptr::Clear)(Stack * self) = (int (*)(Stack * self)) 0x80740f0;
-int (*Stack::ptr::Set6)(Stack * self, int index, int value) = (int (*)(Stack * self, int index, int value)) 0x8074100;
-int (*Stack::ptr::Remove5)(Stack * self, int index) = (int (*)(Stack * self, int index)) 0x8074120;
-int (*Stack::ptr::Pop)(Stack * self) = (int (*)(Stack * self)) 0x8074160;
-bool (*Stack::ptr::Contains2)(Stack * self, int value) = (bool (*)(Stack * self, int value)) 0x8074180;
-BackwardsStack * (*Stack::ptr::Backwards)(Stack * self) = (BackwardsStack * (*)(Stack * self)) 0x80b6050;
-void (*Stack::ptr::_mark)() = (void (*)()) 0x80a0b90;
-void (*Stack::ptr::CSTR_Stack)(Stack * self) = (void (*)(Stack * self)) 0x81a96d0;
+inline Stack * (*Stack::ptr::_New)() = (Stack * (*)()) 0x81a97e0;
+inline Stack * (*Stack::ptr::_new2)(Stack * self, Array<int> * arg1) = (Stack * (*)(Stack * self, Array<int> * arg1)) 0x81a97f0;
+inline int (*Stack::ptr::Push)(Stack * self, int value) = (int (*)(Stack * self, int value)) 0x80c13b0;
+inline int (*Stack::ptr::_Push2)(Stack * self, Array<int> * arg1, int arg2, int arg3) = (int (*)(Stack * self, Array<int> * arg1, int arg2, int arg3)) 0x8074020;
+inline int (*Stack::ptr::_Push3)(Stack * self, Array<int> * arg1, int arg2) = (int (*)(Stack * self, Array<int> * arg1, int arg2)) 0x8074070;
+inline int (*Stack::ptr::_Length)() = (int (*)()) 0x80740c0;
+inline int (*Stack::ptr::Get2)(Stack * self, int index) = (int (*)(Stack * self, int index)) 0x80740d0;
+inline bool (*Stack::ptr::_Equals16)(Stack * self, int arg1, int arg2) = (bool (*)(Stack * self, int arg1, int arg2)) 0x80740e0;
+inline Enumerator25 * (*Stack::ptr::ObjectEnumerator)(Stack * self) = (Enumerator25 * (*)(Stack * self)) 0x80b60d0;
+inline int (*Stack::ptr::Clear)(Stack * self) = (int (*)(Stack * self)) 0x80740f0;
+inline int (*Stack::ptr::Set6)(Stack * self, int index, int value) = (int (*)(Stack * self, int index, int value)) 0x8074100;
+inline int (*Stack::ptr::Remove5)(Stack * self, int index) = (int (*)(Stack * self, int index)) 0x8074120;
+inline int (*Stack::ptr::Pop)(Stack * self) = (int (*)(Stack * self)) 0x8074160;
+inline bool (*Stack::ptr::Contains2)(Stack * self, int value) = (bool (*)(Stack * self, int value)) 0x8074180;
+inline BackwardsStack * (*Stack::ptr::Backwards)(Stack * self) = (BackwardsStack * (*)(Stack * self)) 0x80b6050;
+inline void (*Stack::ptr::_mark)() = (void (*)()) 0x80a0b90;
+inline void (*Stack::ptr::CSTR_Stack)(Stack * self) = (void (*)(Stack * self)) 0x81a96d0;
 #endif
 #endif

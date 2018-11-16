@@ -43,29 +43,29 @@ public:
 
 #ifdef _WIN32
 
-TrapCauldron * (*TrapCauldron::ptr::New)(TrapCauldron * self, int xVal, int yVal, int l) = (TrapCauldron * (*)(TrapCauldron * self, int xVal, int yVal, int l)) 0x648be0;
-TrapCauldron * (*TrapCauldron::ptr::_new2)() = (TrapCauldron * (*)()) 0x0;
-bool (*TrapCauldron::ptr::CanBeDamaged)(TrapCauldron * self, bool phasing, bool piercing) = (bool (*)(TrapCauldron * self, bool phasing, bool piercing)) 0x61dac0;
-bool (*TrapCauldron::ptr::_HideHeartsWhenStealthed)() = (bool (*)()) 0x0;
-bool (*TrapCauldron::ptr::_Hit)(TrapCauldron * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(TrapCauldron * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x0;
-void (*TrapCauldron::ptr::Update)(TrapCauldron * self) = (void (*)(TrapCauldron * self)) 0x648e60;
-Point * (*TrapCauldron::ptr::GetMovementDirection)(TrapCauldron * self) = (Point * (*)(TrapCauldron * self)) 0x649030;
-void (*TrapCauldron::ptr::Die)(TrapCauldron * self) = (void (*)(TrapCauldron * self)) 0x6490f0;
-void (*TrapCauldron::ptr::_mark)() = (void (*)()) 0x0;
-void (*TrapCauldron::ptr::CSTR_TrapCauldron)(TrapCauldron * self) = (void (*)(TrapCauldron * self)) 0x648b80;
+inline TrapCauldron * (*TrapCauldron::ptr::New)(TrapCauldron * self, int xVal, int yVal, int l) = (TrapCauldron * (*)(TrapCauldron * self, int xVal, int yVal, int l)) 0x648be0;
+inline TrapCauldron * (*TrapCauldron::ptr::_new2)() = (TrapCauldron * (*)()) 0x0;
+inline bool (*TrapCauldron::ptr::CanBeDamaged)(TrapCauldron * self, bool phasing, bool piercing) = (bool (*)(TrapCauldron * self, bool phasing, bool piercing)) 0x61dac0;
+inline bool (*TrapCauldron::ptr::_HideHeartsWhenStealthed)() = (bool (*)()) 0x0;
+inline bool (*TrapCauldron::ptr::_Hit)(TrapCauldron * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(TrapCauldron * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x0;
+inline void (*TrapCauldron::ptr::Update)(TrapCauldron * self) = (void (*)(TrapCauldron * self)) 0x648e60;
+inline Point * (*TrapCauldron::ptr::GetMovementDirection)(TrapCauldron * self) = (Point * (*)(TrapCauldron * self)) 0x649030;
+inline void (*TrapCauldron::ptr::Die)(TrapCauldron * self) = (void (*)(TrapCauldron * self)) 0x6490f0;
+inline void (*TrapCauldron::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*TrapCauldron::ptr::CSTR_TrapCauldron)(TrapCauldron * self) = (void (*)(TrapCauldron * self)) 0x648b80;
 #endif
 
 #ifdef __linux__
 
-TrapCauldron * (*TrapCauldron::ptr::New)(TrapCauldron * self, int xVal, int yVal, int l) = (TrapCauldron * (*)(TrapCauldron * self, int xVal, int yVal, int l)) 0x81c4400;
-TrapCauldron * (*TrapCauldron::ptr::_new2)() = (TrapCauldron * (*)()) 0x81c4590;
-bool (*TrapCauldron::ptr::CanBeDamaged)(TrapCauldron * self, bool phasing, bool piercing) = (bool (*)(TrapCauldron * self, bool phasing, bool piercing)) 0x807f8e0;
-bool (*TrapCauldron::ptr::_HideHeartsWhenStealthed)() = (bool (*)()) 0x8076340;
-bool (*TrapCauldron::ptr::_Hit)(TrapCauldron * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(TrapCauldron * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x83980b0;
-void (*TrapCauldron::ptr::Update)(TrapCauldron * self) = (void (*)(TrapCauldron * self)) 0x8381120;
-Point * (*TrapCauldron::ptr::GetMovementDirection)(TrapCauldron * self) = (Point * (*)(TrapCauldron * self)) 0x80b4500;
-void (*TrapCauldron::ptr::Die)(TrapCauldron * self) = (void (*)(TrapCauldron * self)) 0x83b6180;
-void (*TrapCauldron::ptr::_mark)() = (void (*)()) 0x80b04f0;
-void (*TrapCauldron::ptr::CSTR_TrapCauldron)(TrapCauldron * self) = (void (*)(TrapCauldron * self)) 0x81c43d0;
+inline TrapCauldron * (*TrapCauldron::ptr::New)(TrapCauldron * self, int xVal, int yVal, int l) = (TrapCauldron * (*)(TrapCauldron * self, int xVal, int yVal, int l)) 0x81c4400;
+inline TrapCauldron * (*TrapCauldron::ptr::_new2)() = (TrapCauldron * (*)()) 0x81c4590;
+inline bool (*TrapCauldron::ptr::CanBeDamaged)(TrapCauldron * self, bool phasing, bool piercing) = (bool (*)(TrapCauldron * self, bool phasing, bool piercing)) 0x807f8e0;
+inline bool (*TrapCauldron::ptr::_HideHeartsWhenStealthed)() = (bool (*)()) 0x8076340;
+inline bool (*TrapCauldron::ptr::_Hit)(TrapCauldron * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(TrapCauldron * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x83980b0;
+inline void (*TrapCauldron::ptr::Update)(TrapCauldron * self) = (void (*)(TrapCauldron * self)) 0x8381120;
+inline Point * (*TrapCauldron::ptr::GetMovementDirection)(TrapCauldron * self) = (Point * (*)(TrapCauldron * self)) 0x80b4500;
+inline void (*TrapCauldron::ptr::Die)(TrapCauldron * self) = (void (*)(TrapCauldron * self)) 0x83b6180;
+inline void (*TrapCauldron::ptr::_mark)() = (void (*)()) 0x80b04f0;
+inline void (*TrapCauldron::ptr::CSTR_TrapCauldron)(TrapCauldron * self) = (void (*)(TrapCauldron * self)) 0x81c43d0;
 #endif
 #endif

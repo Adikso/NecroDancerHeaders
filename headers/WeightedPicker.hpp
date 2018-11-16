@@ -36,23 +36,23 @@ public:
 
 #ifdef _WIN32
 
-WeightedPicker * (*WeightedPicker::ptr::_New)() = (WeightedPicker * (*)()) 0x0;
-void (*WeightedPicker::ptr::Push)(WeightedPicker * self, int weight) = (void (*)(WeightedPicker * self, int weight)) 0x65d460;
-int (*WeightedPicker::ptr::PickRandom)(WeightedPicker * self, bool useSeed) = (int (*)(WeightedPicker * self, bool useSeed)) 0x65d490;
-int (*WeightedPicker::ptr::Length)(WeightedPicker * self) = (int (*)(WeightedPicker * self)) 0x5c3780;
-void (*WeightedPicker::ptr::SetEnabled)(WeightedPicker * self, int i, bool en) = (void (*)(WeightedPicker * self, int i, bool en)) 0x65d5f0;
-void (*WeightedPicker::ptr::mark)(WeightedPicker * self) = (void (*)(WeightedPicker * self)) 0x454440;
-void (*WeightedPicker::ptr::CSTR_WeightedPicker)(WeightedPicker * self) = (void (*)(WeightedPicker * self)) 0x65d350;
+inline WeightedPicker * (*WeightedPicker::ptr::_New)() = (WeightedPicker * (*)()) 0x0;
+inline void (*WeightedPicker::ptr::Push)(WeightedPicker * self, int weight) = (void (*)(WeightedPicker * self, int weight)) 0x65d460;
+inline int (*WeightedPicker::ptr::PickRandom)(WeightedPicker * self, bool useSeed) = (int (*)(WeightedPicker * self, bool useSeed)) 0x65d490;
+inline int (*WeightedPicker::ptr::Length)(WeightedPicker * self) = (int (*)(WeightedPicker * self)) 0x5c3780;
+inline void (*WeightedPicker::ptr::SetEnabled)(WeightedPicker * self, int i, bool en) = (void (*)(WeightedPicker * self, int i, bool en)) 0x65d5f0;
+inline void (*WeightedPicker::ptr::mark)(WeightedPicker * self) = (void (*)(WeightedPicker * self)) 0x454440;
+inline void (*WeightedPicker::ptr::CSTR_WeightedPicker)(WeightedPicker * self) = (void (*)(WeightedPicker * self)) 0x65d350;
 #endif
 
 #ifdef __linux__
 
-WeightedPicker * (*WeightedPicker::ptr::_New)() = (WeightedPicker * (*)()) 0x81d3960;
-void (*WeightedPicker::ptr::Push)(WeightedPicker * self, int weight) = (void (*)(WeightedPicker * self, int weight)) 0x8076830;
-int (*WeightedPicker::ptr::PickRandom)(WeightedPicker * self, bool useSeed) = (int (*)(WeightedPicker * self, bool useSeed)) 0x8230770;
-int (*WeightedPicker::ptr::Length)(WeightedPicker * self) = (int (*)(WeightedPicker * self)) 0x8076870;
-void (*WeightedPicker::ptr::SetEnabled)(WeightedPicker * self, int i, bool en) = (void (*)(WeightedPicker * self, int i, bool en)) 0x8076890;
-void (*WeightedPicker::ptr::mark)(WeightedPicker * self) = (void (*)(WeightedPicker * self)) 0x808f790;
-void (*WeightedPicker::ptr::CSTR_WeightedPicker)(WeightedPicker * self) = (void (*)(WeightedPicker * self)) 0x81d3720;
+inline WeightedPicker * (*WeightedPicker::ptr::_New)() = (WeightedPicker * (*)()) 0x81d3960;
+inline void (*WeightedPicker::ptr::Push)(WeightedPicker * self, int weight) = (void (*)(WeightedPicker * self, int weight)) 0x8076830;
+inline int (*WeightedPicker::ptr::PickRandom)(WeightedPicker * self, bool useSeed) = (int (*)(WeightedPicker * self, bool useSeed)) 0x8230770;
+inline int (*WeightedPicker::ptr::Length)(WeightedPicker * self) = (int (*)(WeightedPicker * self)) 0x8076870;
+inline void (*WeightedPicker::ptr::SetEnabled)(WeightedPicker * self, int i, bool en) = (void (*)(WeightedPicker * self, int i, bool en)) 0x8076890;
+inline void (*WeightedPicker::ptr::mark)(WeightedPicker * self) = (void (*)(WeightedPicker * self)) 0x808f790;
+inline void (*WeightedPicker::ptr::CSTR_WeightedPicker)(WeightedPicker * self) = (void (*)(WeightedPicker * self)) 0x81d3720;
 #endif
 #endif

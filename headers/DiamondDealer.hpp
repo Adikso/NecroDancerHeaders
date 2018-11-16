@@ -27,17 +27,17 @@ public:
 
 #ifdef _WIN32
 
-DiamondDealer * (*DiamondDealer::ptr::New)(DiamondDealer * self, int xVal, int yVal, int l, bool captv) = (DiamondDealer * (*)(DiamondDealer * self, int xVal, int yVal, int l, bool captv)) 0x661410;
-DiamondDealer * (*DiamondDealer::ptr::_new2)() = (DiamondDealer * (*)()) 0x0;
-void (*DiamondDealer::ptr::_mark)() = (void (*)()) 0x0;
-void (*DiamondDealer::ptr::CSTR_DiamondDealer)(DiamondDealer * self) = (void (*)(DiamondDealer * self)) 0x6613b0;
+inline DiamondDealer * (*DiamondDealer::ptr::New)(DiamondDealer * self, int xVal, int yVal, int l, bool captv) = (DiamondDealer * (*)(DiamondDealer * self, int xVal, int yVal, int l, bool captv)) 0x661410;
+inline DiamondDealer * (*DiamondDealer::ptr::_new2)() = (DiamondDealer * (*)()) 0x0;
+inline void (*DiamondDealer::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*DiamondDealer::ptr::CSTR_DiamondDealer)(DiamondDealer * self) = (void (*)(DiamondDealer * self)) 0x6613b0;
 #endif
 
 #ifdef __linux__
 
-DiamondDealer * (*DiamondDealer::ptr::New)(DiamondDealer * self, int xVal, int yVal, int l, bool captv) = (DiamondDealer * (*)(DiamondDealer * self, int xVal, int yVal, int l, bool captv)) 0x81d6c10;
-DiamondDealer * (*DiamondDealer::ptr::_new2)() = (DiamondDealer * (*)()) 0x81d6cd0;
-void (*DiamondDealer::ptr::_mark)() = (void (*)()) 0x80b2dc0;
-void (*DiamondDealer::ptr::CSTR_DiamondDealer)(DiamondDealer * self) = (void (*)(DiamondDealer * self)) 0x81d6ba0;
+inline DiamondDealer * (*DiamondDealer::ptr::New)(DiamondDealer * self, int xVal, int yVal, int l, bool captv) = (DiamondDealer * (*)(DiamondDealer * self, int xVal, int yVal, int l, bool captv)) 0x81d6c10;
+inline DiamondDealer * (*DiamondDealer::ptr::_new2)() = (DiamondDealer * (*)()) 0x81d6cd0;
+inline void (*DiamondDealer::ptr::_mark)() = (void (*)()) 0x80b2dc0;
+inline void (*DiamondDealer::ptr::CSTR_DiamondDealer)(DiamondDealer * self) = (void (*)(DiamondDealer * self)) 0x81d6ba0;
 #endif
 #endif

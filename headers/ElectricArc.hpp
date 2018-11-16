@@ -49,36 +49,36 @@ public:
 };
 
 #ifdef _WIN32
-Stack * * ElectricArc::animRenderFrames = (Stack* *) 0x8355a8;
-int * ElectricArc::totalRenderFrames = (int*) 0x8355a4;
-Sprite * * ElectricArc::imageDown = (Sprite* *) 0x8355a0;
-Sprite * * ElectricArc::imageDownLeft = (Sprite* *) 0x83559c;
-Sprite * * ElectricArc::imageFlash = (Sprite* *) 0x835598;
-List43 * * ElectricArc::arcList = (List43* *) 0x835594;
+inline Stack * * ElectricArc::animRenderFrames = (Stack* *) 0x8355a8;
+inline int * ElectricArc::totalRenderFrames = (int*) 0x8355a4;
+inline Sprite * * ElectricArc::imageDown = (Sprite* *) 0x8355a0;
+inline Sprite * * ElectricArc::imageDownLeft = (Sprite* *) 0x83559c;
+inline Sprite * * ElectricArc::imageFlash = (Sprite* *) 0x835598;
+inline List43 * * ElectricArc::arcList = (List43* *) 0x835594;
 
-ElectricArc * (*ElectricArc::ptr::New)(ElectricArc * self, int targetX_, int targetY_, int inDir, int delay_, bool flashOnly_) = (ElectricArc * (*)(ElectricArc * self, int targetX_, int targetY_, int inDir, int delay_, bool flashOnly_)) 0x6322c0;
-ElectricArc * (*ElectricArc::ptr::_new2)() = (ElectricArc * (*)()) 0x0;
-int (*ElectricArc::ptr::GetFrameIndexFromRenderFrames)(ElectricArc * self, int renderFrame) = (int (*)(ElectricArc * self, int renderFrame)) 0x6327a0;
-void (*ElectricArc::ptr::Render)(ElectricArc * self) = (void (*)(ElectricArc * self)) 0x632810;
-void (*ElectricArc::ptr::RenderAll)() = (void (*)()) 0x6329d0;
-void (*ElectricArc::ptr::mark)(ElectricArc * self) = (void (*)(ElectricArc * self)) 0x632a30;
-void (*ElectricArc::ptr::CSTR_ElectricArc)(ElectricArc * self) = (void (*)(ElectricArc * self)) 0x632230;
+inline ElectricArc * (*ElectricArc::ptr::New)(ElectricArc * self, int targetX_, int targetY_, int inDir, int delay_, bool flashOnly_) = (ElectricArc * (*)(ElectricArc * self, int targetX_, int targetY_, int inDir, int delay_, bool flashOnly_)) 0x6322c0;
+inline ElectricArc * (*ElectricArc::ptr::_new2)() = (ElectricArc * (*)()) 0x0;
+inline int (*ElectricArc::ptr::GetFrameIndexFromRenderFrames)(ElectricArc * self, int renderFrame) = (int (*)(ElectricArc * self, int renderFrame)) 0x6327a0;
+inline void (*ElectricArc::ptr::Render)(ElectricArc * self) = (void (*)(ElectricArc * self)) 0x632810;
+inline void (*ElectricArc::ptr::RenderAll)() = (void (*)()) 0x6329d0;
+inline void (*ElectricArc::ptr::mark)(ElectricArc * self) = (void (*)(ElectricArc * self)) 0x632a30;
+inline void (*ElectricArc::ptr::CSTR_ElectricArc)(ElectricArc * self) = (void (*)(ElectricArc * self)) 0x632230;
 #endif
 
 #ifdef __linux__
-Stack * * ElectricArc::animRenderFrames = (Stack* *) 0x856a38c;
-int * ElectricArc::totalRenderFrames = (int*) 0x856a388;
-Sprite * * ElectricArc::imageDown = (Sprite* *) 0x856a384;
-Sprite * * ElectricArc::imageDownLeft = (Sprite* *) 0x856a380;
-Sprite * * ElectricArc::imageFlash = (Sprite* *) 0x856a37c;
-List43 * * ElectricArc::arcList = (List43* *) 0x856a378;
+inline Stack * * ElectricArc::animRenderFrames = (Stack* *) 0x856a38c;
+inline int * ElectricArc::totalRenderFrames = (int*) 0x856a388;
+inline Sprite * * ElectricArc::imageDown = (Sprite* *) 0x856a384;
+inline Sprite * * ElectricArc::imageDownLeft = (Sprite* *) 0x856a380;
+inline Sprite * * ElectricArc::imageFlash = (Sprite* *) 0x856a37c;
+inline List43 * * ElectricArc::arcList = (List43* *) 0x856a378;
 
-ElectricArc * (*ElectricArc::ptr::New)(ElectricArc * self, int targetX_, int targetY_, int inDir, int delay_, bool flashOnly_) = (ElectricArc * (*)(ElectricArc * self, int targetX_, int targetY_, int inDir, int delay_, bool flashOnly_)) 0x822fe20;
-ElectricArc * (*ElectricArc::ptr::_new2)() = (ElectricArc * (*)()) 0x81bbed0;
-int (*ElectricArc::ptr::GetFrameIndexFromRenderFrames)(ElectricArc * self, int renderFrame) = (int (*)(ElectricArc * self, int renderFrame)) 0x8075850;
-void (*ElectricArc::ptr::Render)(ElectricArc * self) = (void (*)(ElectricArc * self)) 0x830a670;
-void (*ElectricArc::ptr::RenderAll)() = (void (*)()) 0x81bbee0;
-void (*ElectricArc::ptr::mark)(ElectricArc * self) = (void (*)(ElectricArc * self)) 0x80a1080;
-void (*ElectricArc::ptr::CSTR_ElectricArc)(ElectricArc * self) = (void (*)(ElectricArc * self)) 0x81bbe90;
+inline ElectricArc * (*ElectricArc::ptr::New)(ElectricArc * self, int targetX_, int targetY_, int inDir, int delay_, bool flashOnly_) = (ElectricArc * (*)(ElectricArc * self, int targetX_, int targetY_, int inDir, int delay_, bool flashOnly_)) 0x822fe20;
+inline ElectricArc * (*ElectricArc::ptr::_new2)() = (ElectricArc * (*)()) 0x81bbed0;
+inline int (*ElectricArc::ptr::GetFrameIndexFromRenderFrames)(ElectricArc * self, int renderFrame) = (int (*)(ElectricArc * self, int renderFrame)) 0x8075850;
+inline void (*ElectricArc::ptr::Render)(ElectricArc * self) = (void (*)(ElectricArc * self)) 0x830a670;
+inline void (*ElectricArc::ptr::RenderAll)() = (void (*)()) 0x81bbee0;
+inline void (*ElectricArc::ptr::mark)(ElectricArc * self) = (void (*)(ElectricArc * self)) 0x80a1080;
+inline void (*ElectricArc::ptr::CSTR_ElectricArc)(ElectricArc * self) = (void (*)(ElectricArc * self)) 0x81bbe90;
 #endif
 #endif

@@ -64,41 +64,41 @@ public:
 
 #ifdef _WIN32
 
-SkeletonKnight * (*SkeletonKnight::ptr::New)(SkeletonKnight * self, int xVal, int yVal, int l) = (SkeletonKnight * (*)(SkeletonKnight * self, int xVal, int yVal, int l)) 0x643c40;
-SkeletonKnight * (*SkeletonKnight::ptr::_new2)() = (SkeletonKnight * (*)()) 0x0;
-Point * (*SkeletonKnight::ptr::GetMovementDirection)(SkeletonKnight * self) = (Point * (*)(SkeletonKnight * self)) 0x643ee0;
-int (*SkeletonKnight::ptr::MoveImmediate)(SkeletonKnight * self, int xVal, int yVal, String * movementSource) = (int (*)(SkeletonKnight * self, int xVal, int yVal, String * movementSource)) 0x617840;
-void (*SkeletonKnight::ptr::Update)(SkeletonKnight * self) = (void (*)(SkeletonKnight * self)) 0x643f10;
-void (*SkeletonKnight::ptr::DestroyHorse)(SkeletonKnight * self, int dir) = (void (*)(SkeletonKnight * self, int dir)) 0x644140;
-void (*SkeletonKnight::ptr::Knockback)(SkeletonKnight * self, int dir) = (void (*)(SkeletonKnight * self, int dir)) 0x6449e0;
-void (*SkeletonKnight::ptr::DestroyShield)(SkeletonKnight * self, int dir) = (void (*)(SkeletonKnight * self, int dir)) 0x644a00;
-bool (*SkeletonKnight::ptr::_Beheadable)() = (bool (*)()) 0x0;
-bool (*SkeletonKnight::ptr::Hit)(SkeletonKnight * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(SkeletonKnight * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x644e80;
-void (*SkeletonKnight::ptr::AdjustShieldDir)(SkeletonKnight * self) = (void (*)(SkeletonKnight * self)) 0x6183c0;
-void (*SkeletonKnight::ptr::MoveFail)(SkeletonKnight * self) = (void (*)(SkeletonKnight * self)) 0x645340;
-void (*SkeletonKnight::ptr::MoveSucceed)(SkeletonKnight * self, bool hitPlayer, bool moveDelayed) = (void (*)(SkeletonKnight * self, bool hitPlayer, bool moveDelayed)) 0x645360;
-void (*SkeletonKnight::ptr::Die)(SkeletonKnight * self) = (void (*)(SkeletonKnight * self)) 0x618470;
-void (*SkeletonKnight::ptr::mark)(SkeletonKnight * self) = (void (*)(SkeletonKnight * self)) 0x5c4da0;
-void (*SkeletonKnight::ptr::CSTR_SkeletonKnight)(SkeletonKnight * self) = (void (*)(SkeletonKnight * self)) 0x643b50;
+inline SkeletonKnight * (*SkeletonKnight::ptr::New)(SkeletonKnight * self, int xVal, int yVal, int l) = (SkeletonKnight * (*)(SkeletonKnight * self, int xVal, int yVal, int l)) 0x643c40;
+inline SkeletonKnight * (*SkeletonKnight::ptr::_new2)() = (SkeletonKnight * (*)()) 0x0;
+inline Point * (*SkeletonKnight::ptr::GetMovementDirection)(SkeletonKnight * self) = (Point * (*)(SkeletonKnight * self)) 0x643ee0;
+inline int (*SkeletonKnight::ptr::MoveImmediate)(SkeletonKnight * self, int xVal, int yVal, String * movementSource) = (int (*)(SkeletonKnight * self, int xVal, int yVal, String * movementSource)) 0x617840;
+inline void (*SkeletonKnight::ptr::Update)(SkeletonKnight * self) = (void (*)(SkeletonKnight * self)) 0x643f10;
+inline void (*SkeletonKnight::ptr::DestroyHorse)(SkeletonKnight * self, int dir) = (void (*)(SkeletonKnight * self, int dir)) 0x644140;
+inline void (*SkeletonKnight::ptr::Knockback)(SkeletonKnight * self, int dir) = (void (*)(SkeletonKnight * self, int dir)) 0x6449e0;
+inline void (*SkeletonKnight::ptr::DestroyShield)(SkeletonKnight * self, int dir) = (void (*)(SkeletonKnight * self, int dir)) 0x644a00;
+inline bool (*SkeletonKnight::ptr::_Beheadable)() = (bool (*)()) 0x0;
+inline bool (*SkeletonKnight::ptr::Hit)(SkeletonKnight * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(SkeletonKnight * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x644e80;
+inline void (*SkeletonKnight::ptr::AdjustShieldDir)(SkeletonKnight * self) = (void (*)(SkeletonKnight * self)) 0x6183c0;
+inline void (*SkeletonKnight::ptr::MoveFail)(SkeletonKnight * self) = (void (*)(SkeletonKnight * self)) 0x645340;
+inline void (*SkeletonKnight::ptr::MoveSucceed)(SkeletonKnight * self, bool hitPlayer, bool moveDelayed) = (void (*)(SkeletonKnight * self, bool hitPlayer, bool moveDelayed)) 0x645360;
+inline void (*SkeletonKnight::ptr::Die)(SkeletonKnight * self) = (void (*)(SkeletonKnight * self)) 0x618470;
+inline void (*SkeletonKnight::ptr::mark)(SkeletonKnight * self) = (void (*)(SkeletonKnight * self)) 0x5c4da0;
+inline void (*SkeletonKnight::ptr::CSTR_SkeletonKnight)(SkeletonKnight * self) = (void (*)(SkeletonKnight * self)) 0x643b50;
 #endif
 
 #ifdef __linux__
 
-SkeletonKnight * (*SkeletonKnight::ptr::New)(SkeletonKnight * self, int xVal, int yVal, int l) = (SkeletonKnight * (*)(SkeletonKnight * self, int xVal, int yVal, int l)) 0x81c31c0;
-SkeletonKnight * (*SkeletonKnight::ptr::_new2)() = (SkeletonKnight * (*)()) 0x81c3370;
-Point * (*SkeletonKnight::ptr::GetMovementDirection)(SkeletonKnight * self) = (Point * (*)(SkeletonKnight * self)) 0x81032d0;
-int (*SkeletonKnight::ptr::MoveImmediate)(SkeletonKnight * self, int xVal, int yVal, String * movementSource) = (int (*)(SkeletonKnight * self, int xVal, int yVal, String * movementSource)) 0x8393ab0;
-void (*SkeletonKnight::ptr::Update)(SkeletonKnight * self) = (void (*)(SkeletonKnight * self)) 0x8381e10;
-void (*SkeletonKnight::ptr::DestroyHorse)(SkeletonKnight * self, int dir) = (void (*)(SkeletonKnight * self, int dir)) 0x83a5210;
-void (*SkeletonKnight::ptr::Knockback)(SkeletonKnight * self, int dir) = (void (*)(SkeletonKnight * self, int dir)) 0x81031c0;
-void (*SkeletonKnight::ptr::DestroyShield)(SkeletonKnight * self, int dir) = (void (*)(SkeletonKnight * self, int dir)) 0x81a3c30;
-bool (*SkeletonKnight::ptr::_Beheadable)() = (bool (*)()) 0x8076290;
-bool (*SkeletonKnight::ptr::Hit)(SkeletonKnight * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(SkeletonKnight * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8398510;
-void (*SkeletonKnight::ptr::AdjustShieldDir)(SkeletonKnight * self) = (void (*)(SkeletonKnight * self)) 0x807f7e0;
-void (*SkeletonKnight::ptr::MoveFail)(SkeletonKnight * self) = (void (*)(SkeletonKnight * self)) 0x8135200;
-void (*SkeletonKnight::ptr::MoveSucceed)(SkeletonKnight * self, bool hitPlayer, bool moveDelayed) = (void (*)(SkeletonKnight * self, bool hitPlayer, bool moveDelayed)) 0x807f840;
-void (*SkeletonKnight::ptr::Die)(SkeletonKnight * self) = (void (*)(SkeletonKnight * self)) 0x83b6260;
-void (*SkeletonKnight::ptr::mark)(SkeletonKnight * self) = (void (*)(SkeletonKnight * self)) 0x80b0650;
-void (*SkeletonKnight::ptr::CSTR_SkeletonKnight)(SkeletonKnight * self) = (void (*)(SkeletonKnight * self)) 0x81c3120;
+inline SkeletonKnight * (*SkeletonKnight::ptr::New)(SkeletonKnight * self, int xVal, int yVal, int l) = (SkeletonKnight * (*)(SkeletonKnight * self, int xVal, int yVal, int l)) 0x81c31c0;
+inline SkeletonKnight * (*SkeletonKnight::ptr::_new2)() = (SkeletonKnight * (*)()) 0x81c3370;
+inline Point * (*SkeletonKnight::ptr::GetMovementDirection)(SkeletonKnight * self) = (Point * (*)(SkeletonKnight * self)) 0x81032d0;
+inline int (*SkeletonKnight::ptr::MoveImmediate)(SkeletonKnight * self, int xVal, int yVal, String * movementSource) = (int (*)(SkeletonKnight * self, int xVal, int yVal, String * movementSource)) 0x8393ab0;
+inline void (*SkeletonKnight::ptr::Update)(SkeletonKnight * self) = (void (*)(SkeletonKnight * self)) 0x8381e10;
+inline void (*SkeletonKnight::ptr::DestroyHorse)(SkeletonKnight * self, int dir) = (void (*)(SkeletonKnight * self, int dir)) 0x83a5210;
+inline void (*SkeletonKnight::ptr::Knockback)(SkeletonKnight * self, int dir) = (void (*)(SkeletonKnight * self, int dir)) 0x81031c0;
+inline void (*SkeletonKnight::ptr::DestroyShield)(SkeletonKnight * self, int dir) = (void (*)(SkeletonKnight * self, int dir)) 0x81a3c30;
+inline bool (*SkeletonKnight::ptr::_Beheadable)() = (bool (*)()) 0x8076290;
+inline bool (*SkeletonKnight::ptr::Hit)(SkeletonKnight * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(SkeletonKnight * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8398510;
+inline void (*SkeletonKnight::ptr::AdjustShieldDir)(SkeletonKnight * self) = (void (*)(SkeletonKnight * self)) 0x807f7e0;
+inline void (*SkeletonKnight::ptr::MoveFail)(SkeletonKnight * self) = (void (*)(SkeletonKnight * self)) 0x8135200;
+inline void (*SkeletonKnight::ptr::MoveSucceed)(SkeletonKnight * self, bool hitPlayer, bool moveDelayed) = (void (*)(SkeletonKnight * self, bool hitPlayer, bool moveDelayed)) 0x807f840;
+inline void (*SkeletonKnight::ptr::Die)(SkeletonKnight * self) = (void (*)(SkeletonKnight * self)) 0x83b6260;
+inline void (*SkeletonKnight::ptr::mark)(SkeletonKnight * self) = (void (*)(SkeletonKnight * self)) 0x80b0650;
+inline void (*SkeletonKnight::ptr::CSTR_SkeletonKnight)(SkeletonKnight * self) = (void (*)(SkeletonKnight * self)) 0x81c3120;
 #endif
 #endif

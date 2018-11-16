@@ -50,39 +50,39 @@ public:
 
 #ifdef _WIN32
 
-Map * (*Map::ptr::_New)() = (Map * (*)()) 0x0;
-int (*Map::ptr::_Compare)(Map * self, String * arg1, String * arg2) = (int (*)(Map * self, String * arg1, String * arg2)) 0x0;
-Node * (*Map::ptr::FindNode)(Map * self, String * key) = (Node * (*)(Map * self, String * key)) 0x446750;
-XMLAttribute * (*Map::ptr::Get)(Map * self, String * key) = (XMLAttribute * (*)(Map * self, String * key)) 0x446800;
-MapKeys * (*Map::ptr::Keys)(Map * self) = (MapKeys * (*)(Map * self)) 0x446890;
-Node * (*Map::ptr::FirstNode)(Map * self) = (Node * (*)(Map * self)) 0x446970;
-int (*Map::ptr::RotateLeft)(Map * self, Node * node) = (int (*)(Map * self, Node * node)) 0x446990;
-int (*Map::ptr::RotateRight)(Map * self, Node * node) = (int (*)(Map * self, Node * node)) 0x446b10;
-int (*Map::ptr::InsertFixup)(Map * self, Node * node) = (int (*)(Map * self, Node * node)) 0x446c90;
-bool (*Map::ptr::Set)(Map * self, String * key, XMLAttribute * value) = (bool (*)(Map * self, String * key, XMLAttribute * value)) 0x446d80;
-bool (*Map::ptr::Insert)(Map * self, String * key, XMLAttribute * value) = (bool (*)(Map * self, String * key, XMLAttribute * value)) 0x446ed0;
-int (*Map::ptr::DeleteFixup)(Map * self, Node * node, Node * parent) = (int (*)(Map * self, Node * node, Node * parent)) 0x446f50;
-int (*Map::ptr::RemoveNode)(Map * self, Node * node) = (int (*)(Map * self, Node * node)) 0x4470c0;
-int (*Map::ptr::Remove)(Map * self, String * key) = (int (*)(Map * self, String * key)) 0x447180;
-void (*Map::ptr::_mark)() = (void (*)()) 0x0;
+inline Map * (*Map::ptr::_New)() = (Map * (*)()) 0x0;
+inline int (*Map::ptr::_Compare)(Map * self, String * arg1, String * arg2) = (int (*)(Map * self, String * arg1, String * arg2)) 0x0;
+inline Node * (*Map::ptr::FindNode)(Map * self, String * key) = (Node * (*)(Map * self, String * key)) 0x446750;
+inline XMLAttribute * (*Map::ptr::Get)(Map * self, String * key) = (XMLAttribute * (*)(Map * self, String * key)) 0x446800;
+inline MapKeys * (*Map::ptr::Keys)(Map * self) = (MapKeys * (*)(Map * self)) 0x446890;
+inline Node * (*Map::ptr::FirstNode)(Map * self) = (Node * (*)(Map * self)) 0x446970;
+inline int (*Map::ptr::RotateLeft)(Map * self, Node * node) = (int (*)(Map * self, Node * node)) 0x446990;
+inline int (*Map::ptr::RotateRight)(Map * self, Node * node) = (int (*)(Map * self, Node * node)) 0x446b10;
+inline int (*Map::ptr::InsertFixup)(Map * self, Node * node) = (int (*)(Map * self, Node * node)) 0x446c90;
+inline bool (*Map::ptr::Set)(Map * self, String * key, XMLAttribute * value) = (bool (*)(Map * self, String * key, XMLAttribute * value)) 0x446d80;
+inline bool (*Map::ptr::Insert)(Map * self, String * key, XMLAttribute * value) = (bool (*)(Map * self, String * key, XMLAttribute * value)) 0x446ed0;
+inline int (*Map::ptr::DeleteFixup)(Map * self, Node * node, Node * parent) = (int (*)(Map * self, Node * node, Node * parent)) 0x446f50;
+inline int (*Map::ptr::RemoveNode)(Map * self, Node * node) = (int (*)(Map * self, Node * node)) 0x4470c0;
+inline int (*Map::ptr::Remove)(Map * self, String * key) = (int (*)(Map * self, String * key)) 0x447180;
+inline void (*Map::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Map * (*Map::ptr::_New)() = (Map * (*)()) 0x8118370;
-int (*Map::ptr::_Compare)(Map * self, String * arg1, String * arg2) = (int (*)(Map * self, String * arg1, String * arg2)) 0x0;
-Node * (*Map::ptr::FindNode)(Map * self, String * key) = (Node * (*)(Map * self, String * key)) 0x80c4bd0;
-XMLAttribute * (*Map::ptr::Get)(Map * self, String * key) = (XMLAttribute * (*)(Map * self, String * key)) 0x80c4b60;
-MapKeys * (*Map::ptr::Keys)(Map * self) = (MapKeys * (*)(Map * self)) 0x80b5cb0;
-Node * (*Map::ptr::FirstNode)(Map * self) = (Node * (*)(Map * self)) 0x806d680;
-int (*Map::ptr::RotateLeft)(Map * self, Node * node) = (int (*)(Map * self, Node * node)) 0x809ec80;
-int (*Map::ptr::RotateRight)(Map * self, Node * node) = (int (*)(Map * self, Node * node)) 0x809e9f0;
-int (*Map::ptr::InsertFixup)(Map * self, Node * node) = (int (*)(Map * self, Node * node)) 0x806d6a0;
-bool (*Map::ptr::Set)(Map * self, String * key, XMLAttribute * value) = (bool (*)(Map * self, String * key, XMLAttribute * value)) 0x80de1d0;
-bool (*Map::ptr::Insert)(Map * self, String * key, XMLAttribute * value) = (bool (*)(Map * self, String * key, XMLAttribute * value)) 0x80c4b00;
-int (*Map::ptr::DeleteFixup)(Map * self, Node * node, Node * parent) = (int (*)(Map * self, Node * node, Node * parent)) 0x806d7a0;
-int (*Map::ptr::RemoveNode)(Map * self, Node * node) = (int (*)(Map * self, Node * node)) 0x80deee0;
-int (*Map::ptr::Remove)(Map * self, String * key) = (int (*)(Map * self, String * key)) 0x80c4a90;
-void (*Map::ptr::_mark)() = (void (*)()) 0x808eab0;
+inline Map * (*Map::ptr::_New)() = (Map * (*)()) 0x8118370;
+inline int (*Map::ptr::_Compare)(Map * self, String * arg1, String * arg2) = (int (*)(Map * self, String * arg1, String * arg2)) 0x0;
+inline Node * (*Map::ptr::FindNode)(Map * self, String * key) = (Node * (*)(Map * self, String * key)) 0x80c4bd0;
+inline XMLAttribute * (*Map::ptr::Get)(Map * self, String * key) = (XMLAttribute * (*)(Map * self, String * key)) 0x80c4b60;
+inline MapKeys * (*Map::ptr::Keys)(Map * self) = (MapKeys * (*)(Map * self)) 0x80b5cb0;
+inline Node * (*Map::ptr::FirstNode)(Map * self) = (Node * (*)(Map * self)) 0x806d680;
+inline int (*Map::ptr::RotateLeft)(Map * self, Node * node) = (int (*)(Map * self, Node * node)) 0x809ec80;
+inline int (*Map::ptr::RotateRight)(Map * self, Node * node) = (int (*)(Map * self, Node * node)) 0x809e9f0;
+inline int (*Map::ptr::InsertFixup)(Map * self, Node * node) = (int (*)(Map * self, Node * node)) 0x806d6a0;
+inline bool (*Map::ptr::Set)(Map * self, String * key, XMLAttribute * value) = (bool (*)(Map * self, String * key, XMLAttribute * value)) 0x80de1d0;
+inline bool (*Map::ptr::Insert)(Map * self, String * key, XMLAttribute * value) = (bool (*)(Map * self, String * key, XMLAttribute * value)) 0x80c4b00;
+inline int (*Map::ptr::DeleteFixup)(Map * self, Node * node, Node * parent) = (int (*)(Map * self, Node * node, Node * parent)) 0x806d7a0;
+inline int (*Map::ptr::RemoveNode)(Map * self, Node * node) = (int (*)(Map * self, Node * node)) 0x80deee0;
+inline int (*Map::ptr::Remove)(Map * self, String * key) = (int (*)(Map * self, String * key)) 0x80c4a90;
+inline void (*Map::ptr::_mark)() = (void (*)()) 0x808eab0;
 #endif
 #endif

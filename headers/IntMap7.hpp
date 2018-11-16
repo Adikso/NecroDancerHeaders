@@ -21,15 +21,15 @@ public:
 
 #ifdef _WIN32
 
-IntMap7 * (*IntMap7::ptr::_New)() = (IntMap7 * (*)()) 0x0;
-int (*IntMap7::ptr::_Compare2)(IntMap7 * self, int arg1, int arg2) = (int (*)(IntMap7 * self, int arg1, int arg2)) 0x0;
-void (*IntMap7::ptr::_mark)() = (void (*)()) 0x0;
+inline IntMap7 * (*IntMap7::ptr::_New)() = (IntMap7 * (*)()) 0x0;
+inline int (*IntMap7::ptr::_Compare2)(IntMap7 * self, int arg1, int arg2) = (int (*)(IntMap7 * self, int arg1, int arg2)) 0x0;
+inline void (*IntMap7::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-IntMap7 * (*IntMap7::ptr::_New)() = (IntMap7 * (*)()) 0x81b5a60;
-int (*IntMap7::ptr::_Compare2)(IntMap7 * self, int arg1, int arg2) = (int (*)(IntMap7 * self, int arg1, int arg2)) 0x8074e30;
-void (*IntMap7::ptr::_mark)() = (void (*)()) 0x808cf10;
+inline IntMap7 * (*IntMap7::ptr::_New)() = (IntMap7 * (*)()) 0x81b5a60;
+inline int (*IntMap7::ptr::_Compare2)(IntMap7 * self, int arg1, int arg2) = (int (*)(IntMap7 * self, int arg1, int arg2)) 0x8074e30;
+inline void (*IntMap7::ptr::_mark)() = (void (*)()) 0x808cf10;
 #endif
 #endif

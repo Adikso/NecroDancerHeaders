@@ -43,29 +43,29 @@ public:
 
 #ifdef _WIN32
 
-List7 * (*List7::ptr::_New)() = (List7 * (*)()) 0x0;
-Node13 * (*List7::ptr::AddLast7)(List7 * self, FamiliarFixed * data) = (Node13 * (*)(List7 * self, FamiliarFixed * data)) 0x57f880;
-List7 * (*List7::ptr::_new2)(List7 * self, Array<FamiliarFixed *> * arg1) = (List7 * (*)(List7 * self, Array<FamiliarFixed *> * arg1)) 0x0;
-Enumerator4 * (*List7::ptr::ObjectEnumerator)(List7 * self) = (Enumerator4 * (*)(List7 * self)) 0x57f920;
-bool (*List7::ptr::_Equals4)(List7 * self, FamiliarFixed * arg1, FamiliarFixed * arg2) = (bool (*)(List7 * self, FamiliarFixed * arg1, FamiliarFixed * arg2)) 0x0;
-int (*List7::ptr::_RemoveEach4)(List7 * self, FamiliarFixed * arg1) = (int (*)(List7 * self, FamiliarFixed * arg1)) 0x0;
-int (*List7::ptr::_Clear)() = (int (*)()) 0x0;
-int (*List7::ptr::_Remove4)(List7 * self, FamiliarFixed * arg1) = (int (*)(List7 * self, FamiliarFixed * arg1)) 0x0;
-void (*List7::ptr::_mark)() = (void (*)()) 0x0;
-void (*List7::ptr::CSTR_List7)(List7 * self) = (void (*)(List7 * self)) 0x57f7b0;
+inline List7 * (*List7::ptr::_New)() = (List7 * (*)()) 0x0;
+inline Node13 * (*List7::ptr::AddLast7)(List7 * self, FamiliarFixed * data) = (Node13 * (*)(List7 * self, FamiliarFixed * data)) 0x57f880;
+inline List7 * (*List7::ptr::_new2)(List7 * self, Array<FamiliarFixed *> * arg1) = (List7 * (*)(List7 * self, Array<FamiliarFixed *> * arg1)) 0x0;
+inline Enumerator4 * (*List7::ptr::ObjectEnumerator)(List7 * self) = (Enumerator4 * (*)(List7 * self)) 0x57f920;
+inline bool (*List7::ptr::_Equals4)(List7 * self, FamiliarFixed * arg1, FamiliarFixed * arg2) = (bool (*)(List7 * self, FamiliarFixed * arg1, FamiliarFixed * arg2)) 0x0;
+inline int (*List7::ptr::_RemoveEach4)(List7 * self, FamiliarFixed * arg1) = (int (*)(List7 * self, FamiliarFixed * arg1)) 0x0;
+inline int (*List7::ptr::_Clear)() = (int (*)()) 0x0;
+inline int (*List7::ptr::_Remove4)(List7 * self, FamiliarFixed * arg1) = (int (*)(List7 * self, FamiliarFixed * arg1)) 0x0;
+inline void (*List7::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List7::ptr::CSTR_List7)(List7 * self) = (void (*)(List7 * self)) 0x57f7b0;
 #endif
 
 #ifdef __linux__
 
-List7 * (*List7::ptr::_New)() = (List7 * (*)()) 0x8159400;
-Node13 * (*List7::ptr::AddLast7)(List7 * self, FamiliarFixed * data) = (Node13 * (*)(List7 * self, FamiliarFixed * data)) 0x8159640;
-List7 * (*List7::ptr::_new2)(List7 * self, Array<FamiliarFixed *> * arg1) = (List7 * (*)(List7 * self, Array<FamiliarFixed *> * arg1)) 0x0;
-Enumerator4 * (*List7::ptr::ObjectEnumerator)(List7 * self) = (Enumerator4 * (*)(List7 * self)) 0x80b6fd0;
-bool (*List7::ptr::_Equals4)(List7 * self, FamiliarFixed * arg1, FamiliarFixed * arg2) = (bool (*)(List7 * self, FamiliarFixed * arg1, FamiliarFixed * arg2)) 0x80700b0;
-int (*List7::ptr::_RemoveEach4)(List7 * self, FamiliarFixed * arg1) = (int (*)(List7 * self, FamiliarFixed * arg1)) 0x80700c0;
-int (*List7::ptr::_Clear)() = (int (*)()) 0x8094560;
-int (*List7::ptr::_Remove4)(List7 * self, FamiliarFixed * arg1) = (int (*)(List7 * self, FamiliarFixed * arg1)) 0x8070120;
-void (*List7::ptr::_mark)() = (void (*)()) 0x808ad10;
-void (*List7::ptr::CSTR_List7)(List7 * self) = (void (*)(List7 * self)) 0x8159780;
+inline List7 * (*List7::ptr::_New)() = (List7 * (*)()) 0x8159400;
+inline Node13 * (*List7::ptr::AddLast7)(List7 * self, FamiliarFixed * data) = (Node13 * (*)(List7 * self, FamiliarFixed * data)) 0x8159640;
+inline List7 * (*List7::ptr::_new2)(List7 * self, Array<FamiliarFixed *> * arg1) = (List7 * (*)(List7 * self, Array<FamiliarFixed *> * arg1)) 0x0;
+inline Enumerator4 * (*List7::ptr::ObjectEnumerator)(List7 * self) = (Enumerator4 * (*)(List7 * self)) 0x80b6fd0;
+inline bool (*List7::ptr::_Equals4)(List7 * self, FamiliarFixed * arg1, FamiliarFixed * arg2) = (bool (*)(List7 * self, FamiliarFixed * arg1, FamiliarFixed * arg2)) 0x80700b0;
+inline int (*List7::ptr::_RemoveEach4)(List7 * self, FamiliarFixed * arg1) = (int (*)(List7 * self, FamiliarFixed * arg1)) 0x80700c0;
+inline int (*List7::ptr::_Clear)() = (int (*)()) 0x8094560;
+inline int (*List7::ptr::_Remove4)(List7 * self, FamiliarFixed * arg1) = (int (*)(List7 * self, FamiliarFixed * arg1)) 0x8070120;
+inline void (*List7::ptr::_mark)() = (void (*)()) 0x808ad10;
+inline void (*List7::ptr::CSTR_List7)(List7 * self) = (void (*)(List7 * self)) 0x8159780;
 #endif
 #endif

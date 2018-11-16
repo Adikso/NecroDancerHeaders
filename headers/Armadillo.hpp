@@ -53,37 +53,37 @@ public:
 
 #ifdef _WIN32
 
-Armadillo * (*Armadillo::ptr::New)(Armadillo * self, int xVal, int yVal, int l) = (Armadillo * (*)(Armadillo * self, int xVal, int yVal, int l)) 0x63dcc0;
-Armadillo * (*Armadillo::ptr::_new2)() = (Armadillo * (*)()) 0x0;
-void (*Armadillo::ptr::AttemptCharge)(Armadillo * self, Entity * target, bool immediate) = (void (*)(Armadillo * self, Entity * target, bool immediate)) 0x63df50;
-void (*Armadillo::ptr::AttemptCharge2)(Armadillo * self, bool immediate) = (void (*)(Armadillo * self, bool immediate)) 0x63e520;
-Point * (*Armadillo::ptr::GetMovementDirection)(Armadillo * self) = (Point * (*)(Armadillo * self)) 0x63e5b0;
-void (*Armadillo::ptr::Update)(Armadillo * self) = (void (*)(Armadillo * self)) 0x63e790;
-bool (*Armadillo::ptr::Hit)(Armadillo * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Armadillo * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x63e9d0;
-void (*Armadillo::ptr::MoveFail)(Armadillo * self) = (void (*)(Armadillo * self)) 0x63ec10;
-int (*Armadillo::ptr::MoveImmediate)(Armadillo * self, int xVal, int yVal, String * movementSource) = (int (*)(Armadillo * self, int xVal, int yVal, String * movementSource)) 0x63ee20;
-void (*Armadillo::ptr::MoveSucceed)(Armadillo * self, bool hitPlayer, bool moveDelayed) = (void (*)(Armadillo * self, bool hitPlayer, bool moveDelayed)) 0x63ef60;
-void (*Armadillo::ptr::Knockback)(Armadillo * self, int dir) = (void (*)(Armadillo * self, int dir)) 0x63f000;
-bool (*Armadillo::ptr::_CanBeLord)() = (bool (*)()) 0x0;
-void (*Armadillo::ptr::_mark)() = (void (*)()) 0x0;
-void (*Armadillo::ptr::CSTR_Armadillo)(Armadillo * self) = (void (*)(Armadillo * self)) 0x63dc40;
+inline Armadillo * (*Armadillo::ptr::New)(Armadillo * self, int xVal, int yVal, int l) = (Armadillo * (*)(Armadillo * self, int xVal, int yVal, int l)) 0x63dcc0;
+inline Armadillo * (*Armadillo::ptr::_new2)() = (Armadillo * (*)()) 0x0;
+inline void (*Armadillo::ptr::AttemptCharge)(Armadillo * self, Entity * target, bool immediate) = (void (*)(Armadillo * self, Entity * target, bool immediate)) 0x63df50;
+inline void (*Armadillo::ptr::AttemptCharge2)(Armadillo * self, bool immediate) = (void (*)(Armadillo * self, bool immediate)) 0x63e520;
+inline Point * (*Armadillo::ptr::GetMovementDirection)(Armadillo * self) = (Point * (*)(Armadillo * self)) 0x63e5b0;
+inline void (*Armadillo::ptr::Update)(Armadillo * self) = (void (*)(Armadillo * self)) 0x63e790;
+inline bool (*Armadillo::ptr::Hit)(Armadillo * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Armadillo * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x63e9d0;
+inline void (*Armadillo::ptr::MoveFail)(Armadillo * self) = (void (*)(Armadillo * self)) 0x63ec10;
+inline int (*Armadillo::ptr::MoveImmediate)(Armadillo * self, int xVal, int yVal, String * movementSource) = (int (*)(Armadillo * self, int xVal, int yVal, String * movementSource)) 0x63ee20;
+inline void (*Armadillo::ptr::MoveSucceed)(Armadillo * self, bool hitPlayer, bool moveDelayed) = (void (*)(Armadillo * self, bool hitPlayer, bool moveDelayed)) 0x63ef60;
+inline void (*Armadillo::ptr::Knockback)(Armadillo * self, int dir) = (void (*)(Armadillo * self, int dir)) 0x63f000;
+inline bool (*Armadillo::ptr::_CanBeLord)() = (bool (*)()) 0x0;
+inline void (*Armadillo::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Armadillo::ptr::CSTR_Armadillo)(Armadillo * self) = (void (*)(Armadillo * self)) 0x63dc40;
 #endif
 
 #ifdef __linux__
 
-Armadillo * (*Armadillo::ptr::New)(Armadillo * self, int xVal, int yVal, int l) = (Armadillo * (*)(Armadillo * self, int xVal, int yVal, int l)) 0x81c1040;
-Armadillo * (*Armadillo::ptr::_new2)() = (Armadillo * (*)()) 0x81c11e0;
-void (*Armadillo::ptr::AttemptCharge)(Armadillo * self, Entity * target, bool immediate) = (void (*)(Armadillo * self, Entity * target, bool immediate)) 0x83a4380;
-void (*Armadillo::ptr::AttemptCharge2)(Armadillo * self, bool immediate) = (void (*)(Armadillo * self, bool immediate)) 0x8103f80;
-Point * (*Armadillo::ptr::GetMovementDirection)(Armadillo * self) = (Point * (*)(Armadillo * self)) 0x83a4820;
-void (*Armadillo::ptr::Update)(Armadillo * self) = (void (*)(Armadillo * self)) 0x8382830;
-bool (*Armadillo::ptr::Hit)(Armadillo * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Armadillo * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8399120;
-void (*Armadillo::ptr::MoveFail)(Armadillo * self) = (void (*)(Armadillo * self)) 0x83a49a0;
-int (*Armadillo::ptr::MoveImmediate)(Armadillo * self, int xVal, int yVal, String * movementSource) = (int (*)(Armadillo * self, int xVal, int yVal, String * movementSource)) 0x8393bb0;
-void (*Armadillo::ptr::MoveSucceed)(Armadillo * self, bool hitPlayer, bool moveDelayed) = (void (*)(Armadillo * self, bool hitPlayer, bool moveDelayed)) 0x8103e90;
-void (*Armadillo::ptr::Knockback)(Armadillo * self, int dir) = (void (*)(Armadillo * self, int dir)) 0x81031e0;
-bool (*Armadillo::ptr::_CanBeLord)() = (bool (*)()) 0x80760d0;
-void (*Armadillo::ptr::_mark)() = (void (*)()) 0x80b0750;
-void (*Armadillo::ptr::CSTR_Armadillo)(Armadillo * self) = (void (*)(Armadillo * self)) 0x81c1000;
+inline Armadillo * (*Armadillo::ptr::New)(Armadillo * self, int xVal, int yVal, int l) = (Armadillo * (*)(Armadillo * self, int xVal, int yVal, int l)) 0x81c1040;
+inline Armadillo * (*Armadillo::ptr::_new2)() = (Armadillo * (*)()) 0x81c11e0;
+inline void (*Armadillo::ptr::AttemptCharge)(Armadillo * self, Entity * target, bool immediate) = (void (*)(Armadillo * self, Entity * target, bool immediate)) 0x83a4380;
+inline void (*Armadillo::ptr::AttemptCharge2)(Armadillo * self, bool immediate) = (void (*)(Armadillo * self, bool immediate)) 0x8103f80;
+inline Point * (*Armadillo::ptr::GetMovementDirection)(Armadillo * self) = (Point * (*)(Armadillo * self)) 0x83a4820;
+inline void (*Armadillo::ptr::Update)(Armadillo * self) = (void (*)(Armadillo * self)) 0x8382830;
+inline bool (*Armadillo::ptr::Hit)(Armadillo * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Armadillo * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8399120;
+inline void (*Armadillo::ptr::MoveFail)(Armadillo * self) = (void (*)(Armadillo * self)) 0x83a49a0;
+inline int (*Armadillo::ptr::MoveImmediate)(Armadillo * self, int xVal, int yVal, String * movementSource) = (int (*)(Armadillo * self, int xVal, int yVal, String * movementSource)) 0x8393bb0;
+inline void (*Armadillo::ptr::MoveSucceed)(Armadillo * self, bool hitPlayer, bool moveDelayed) = (void (*)(Armadillo * self, bool hitPlayer, bool moveDelayed)) 0x8103e90;
+inline void (*Armadillo::ptr::Knockback)(Armadillo * self, int dir) = (void (*)(Armadillo * self, int dir)) 0x81031e0;
+inline bool (*Armadillo::ptr::_CanBeLord)() = (bool (*)()) 0x80760d0;
+inline void (*Armadillo::ptr::_mark)() = (void (*)()) 0x80b0750;
+inline void (*Armadillo::ptr::CSTR_Armadillo)(Armadillo * self) = (void (*)(Armadillo * self)) 0x81c1000;
 #endif
 #endif

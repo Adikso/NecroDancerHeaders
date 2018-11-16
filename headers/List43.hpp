@@ -34,21 +34,21 @@ public:
 
 #ifdef _WIN32
 
-List43 * (*List43::ptr::_New)() = (List43 * (*)()) 0x0;
-Node62 * (*List43::ptr::AddLast43)(List43 * self, ElectricArc * data) = (Node62 * (*)(List43 * self, ElectricArc * data)) 0x632bf0;
-List43 * (*List43::ptr::_new2)(List43 * self, Array<ElectricArc *> * arg1) = (List43 * (*)(List43 * self, Array<ElectricArc *> * arg1)) 0x0;
-Node62 * (*List43::ptr::_FirstNode)() = (Node62 * (*)()) 0x0;
-void (*List43::ptr::_mark)() = (void (*)()) 0x0;
-void (*List43::ptr::CSTR_List43)(List43 * self) = (void (*)(List43 * self)) 0x632b20;
+inline List43 * (*List43::ptr::_New)() = (List43 * (*)()) 0x0;
+inline Node62 * (*List43::ptr::AddLast43)(List43 * self, ElectricArc * data) = (Node62 * (*)(List43 * self, ElectricArc * data)) 0x632bf0;
+inline List43 * (*List43::ptr::_new2)(List43 * self, Array<ElectricArc *> * arg1) = (List43 * (*)(List43 * self, Array<ElectricArc *> * arg1)) 0x0;
+inline Node62 * (*List43::ptr::_FirstNode)() = (Node62 * (*)()) 0x0;
+inline void (*List43::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List43::ptr::CSTR_List43)(List43 * self) = (void (*)(List43 * self)) 0x632b20;
 #endif
 
 #ifdef __linux__
 
-List43 * (*List43::ptr::_New)() = (List43 * (*)()) 0x81bc0f0;
-Node62 * (*List43::ptr::AddLast43)(List43 * self, ElectricArc * data) = (Node62 * (*)(List43 * self, ElectricArc * data)) 0x81bc330;
-List43 * (*List43::ptr::_new2)(List43 * self, Array<ElectricArc *> * arg1) = (List43 * (*)(List43 * self, Array<ElectricArc *> * arg1)) 0x0;
-Node62 * (*List43::ptr::_FirstNode)() = (Node62 * (*)()) 0x8075940;
-void (*List43::ptr::_mark)() = (void (*)()) 0x8086970;
-void (*List43::ptr::CSTR_List43)(List43 * self) = (void (*)(List43 * self)) 0x81bc470;
+inline List43 * (*List43::ptr::_New)() = (List43 * (*)()) 0x81bc0f0;
+inline Node62 * (*List43::ptr::AddLast43)(List43 * self, ElectricArc * data) = (Node62 * (*)(List43 * self, ElectricArc * data)) 0x81bc330;
+inline List43 * (*List43::ptr::_new2)(List43 * self, Array<ElectricArc *> * arg1) = (List43 * (*)(List43 * self, Array<ElectricArc *> * arg1)) 0x0;
+inline Node62 * (*List43::ptr::_FirstNode)() = (Node62 * (*)()) 0x8075940;
+inline void (*List43::ptr::_mark)() = (void (*)()) 0x8086970;
+inline void (*List43::ptr::CSTR_List43)(List43 * self) = (void (*)(List43 * self)) 0x81bc470;
 #endif
 #endif

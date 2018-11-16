@@ -47,31 +47,31 @@ public:
 
 #ifdef _WIN32
 
-void (*TrapChest::ptr::DetermineContents)(TrapChest * self) = (void (*)(TrapChest * self)) 0x61e1c0;
-TrapChest * (*TrapChest::ptr::New)(TrapChest * self, int xVal, int yVal, int l) = (TrapChest * (*)(TrapChest * self, int xVal, int yVal, int l)) 0x61e5d0;
-TrapChest * (*TrapChest::ptr::_new2)() = (TrapChest * (*)()) 0x0;
-bool (*TrapChest::ptr::CanBeDamaged)(TrapChest * self, bool phasing, bool piercing) = (bool (*)(TrapChest * self, bool phasing, bool piercing)) 0x61e870;
-bool (*TrapChest::ptr::Hit)(TrapChest * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(TrapChest * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x61daf0;
-void (*TrapChest::ptr::Update)(TrapChest * self) = (void (*)(TrapChest * self)) 0x61e8a0;
-Point * (*TrapChest::ptr::GetMovementDirection)(TrapChest * self) = (Point * (*)(TrapChest * self)) 0x61ea80;
-void (*TrapChest::ptr::DropItem2)(TrapChest * self) = (void (*)(TrapChest * self)) 0x61eb60;
-void (*TrapChest::ptr::Die)(TrapChest * self) = (void (*)(TrapChest * self)) 0x61ecc0;
-void (*TrapChest::ptr::_mark)() = (void (*)()) 0x0;
-void (*TrapChest::ptr::CSTR_TrapChest)(TrapChest * self) = (void (*)(TrapChest * self)) 0x61e000;
+inline void (*TrapChest::ptr::DetermineContents)(TrapChest * self) = (void (*)(TrapChest * self)) 0x61e1c0;
+inline TrapChest * (*TrapChest::ptr::New)(TrapChest * self, int xVal, int yVal, int l) = (TrapChest * (*)(TrapChest * self, int xVal, int yVal, int l)) 0x61e5d0;
+inline TrapChest * (*TrapChest::ptr::_new2)() = (TrapChest * (*)()) 0x0;
+inline bool (*TrapChest::ptr::CanBeDamaged)(TrapChest * self, bool phasing, bool piercing) = (bool (*)(TrapChest * self, bool phasing, bool piercing)) 0x61e870;
+inline bool (*TrapChest::ptr::Hit)(TrapChest * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(TrapChest * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x61daf0;
+inline void (*TrapChest::ptr::Update)(TrapChest * self) = (void (*)(TrapChest * self)) 0x61e8a0;
+inline Point * (*TrapChest::ptr::GetMovementDirection)(TrapChest * self) = (Point * (*)(TrapChest * self)) 0x61ea80;
+inline void (*TrapChest::ptr::DropItem2)(TrapChest * self) = (void (*)(TrapChest * self)) 0x61eb60;
+inline void (*TrapChest::ptr::Die)(TrapChest * self) = (void (*)(TrapChest * self)) 0x61ecc0;
+inline void (*TrapChest::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*TrapChest::ptr::CSTR_TrapChest)(TrapChest * self) = (void (*)(TrapChest * self)) 0x61e000;
 #endif
 
 #ifdef __linux__
 
-void (*TrapChest::ptr::DetermineContents)(TrapChest * self) = (void (*)(TrapChest * self)) 0x82ac660;
-TrapChest * (*TrapChest::ptr::New)(TrapChest * self, int xVal, int yVal, int l) = (TrapChest * (*)(TrapChest * self, int xVal, int yVal, int l)) 0x81b7c20;
-TrapChest * (*TrapChest::ptr::_new2)() = (TrapChest * (*)()) 0x81b7fb0;
-bool (*TrapChest::ptr::CanBeDamaged)(TrapChest * self, bool phasing, bool piercing) = (bool (*)(TrapChest * self, bool phasing, bool piercing)) 0x807f5b0;
-bool (*TrapChest::ptr::Hit)(TrapChest * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(TrapChest * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x839ac70;
-void (*TrapChest::ptr::Update)(TrapChest * self) = (void (*)(TrapChest * self)) 0x8384600;
-Point * (*TrapChest::ptr::GetMovementDirection)(TrapChest * self) = (Point * (*)(TrapChest * self)) 0x80b4c90;
-void (*TrapChest::ptr::DropItem2)(TrapChest * self) = (void (*)(TrapChest * self)) 0x829a500;
-void (*TrapChest::ptr::Die)(TrapChest * self) = (void (*)(TrapChest * self)) 0x83b6820;
-void (*TrapChest::ptr::_mark)() = (void (*)()) 0x80b0b80;
-void (*TrapChest::ptr::CSTR_TrapChest)(TrapChest * self) = (void (*)(TrapChest * self)) 0x81b7ba0;
+inline void (*TrapChest::ptr::DetermineContents)(TrapChest * self) = (void (*)(TrapChest * self)) 0x82ac660;
+inline TrapChest * (*TrapChest::ptr::New)(TrapChest * self, int xVal, int yVal, int l) = (TrapChest * (*)(TrapChest * self, int xVal, int yVal, int l)) 0x81b7c20;
+inline TrapChest * (*TrapChest::ptr::_new2)() = (TrapChest * (*)()) 0x81b7fb0;
+inline bool (*TrapChest::ptr::CanBeDamaged)(TrapChest * self, bool phasing, bool piercing) = (bool (*)(TrapChest * self, bool phasing, bool piercing)) 0x807f5b0;
+inline bool (*TrapChest::ptr::Hit)(TrapChest * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(TrapChest * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x839ac70;
+inline void (*TrapChest::ptr::Update)(TrapChest * self) = (void (*)(TrapChest * self)) 0x8384600;
+inline Point * (*TrapChest::ptr::GetMovementDirection)(TrapChest * self) = (Point * (*)(TrapChest * self)) 0x80b4c90;
+inline void (*TrapChest::ptr::DropItem2)(TrapChest * self) = (void (*)(TrapChest * self)) 0x829a500;
+inline void (*TrapChest::ptr::Die)(TrapChest * self) = (void (*)(TrapChest * self)) 0x83b6820;
+inline void (*TrapChest::ptr::_mark)() = (void (*)()) 0x80b0b80;
+inline void (*TrapChest::ptr::CSTR_TrapChest)(TrapChest * self) = (void (*)(TrapChest * self)) 0x81b7ba0;
 #endif
 #endif

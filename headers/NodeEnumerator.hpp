@@ -27,19 +27,19 @@ public:
 
 #ifdef _WIN32
 
-NodeEnumerator * (*NodeEnumerator::ptr::_New)(NodeEnumerator * self, Node22 * arg1) = (NodeEnumerator * (*)(NodeEnumerator * self, Node22 * arg1)) 0x0;
-NodeEnumerator * (*NodeEnumerator::ptr::_new2)() = (NodeEnumerator * (*)()) 0x0;
-bool (*NodeEnumerator::ptr::HasNext)(NodeEnumerator * self) = (bool (*)(NodeEnumerator * self)) 0x453a30;
-Node22 * (*NodeEnumerator::ptr::NextObject)(NodeEnumerator * self) = (Node22 * (*)(NodeEnumerator * self)) 0x5d6cd0;
-void (*NodeEnumerator::ptr::_mark)() = (void (*)()) 0x0;
+inline NodeEnumerator * (*NodeEnumerator::ptr::_New)(NodeEnumerator * self, Node22 * arg1) = (NodeEnumerator * (*)(NodeEnumerator * self, Node22 * arg1)) 0x0;
+inline NodeEnumerator * (*NodeEnumerator::ptr::_new2)() = (NodeEnumerator * (*)()) 0x0;
+inline bool (*NodeEnumerator::ptr::HasNext)(NodeEnumerator * self) = (bool (*)(NodeEnumerator * self)) 0x453a30;
+inline Node22 * (*NodeEnumerator::ptr::NextObject)(NodeEnumerator * self) = (Node22 * (*)(NodeEnumerator * self)) 0x5d6cd0;
+inline void (*NodeEnumerator::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-NodeEnumerator * (*NodeEnumerator::ptr::_New)(NodeEnumerator * self, Node22 * arg1) = (NodeEnumerator * (*)(NodeEnumerator * self, Node22 * arg1)) 0x0;
-NodeEnumerator * (*NodeEnumerator::ptr::_new2)() = (NodeEnumerator * (*)()) 0x8191140;
-bool (*NodeEnumerator::ptr::HasNext)(NodeEnumerator * self) = (bool (*)(NodeEnumerator * self)) 0x8071c00;
-Node22 * (*NodeEnumerator::ptr::NextObject)(NodeEnumerator * self) = (Node22 * (*)(NodeEnumerator * self)) 0x809d210;
-void (*NodeEnumerator::ptr::_mark)() = (void (*)()) 0x808d9f0;
+inline NodeEnumerator * (*NodeEnumerator::ptr::_New)(NodeEnumerator * self, Node22 * arg1) = (NodeEnumerator * (*)(NodeEnumerator * self, Node22 * arg1)) 0x0;
+inline NodeEnumerator * (*NodeEnumerator::ptr::_new2)() = (NodeEnumerator * (*)()) 0x8191140;
+inline bool (*NodeEnumerator::ptr::HasNext)(NodeEnumerator * self) = (bool (*)(NodeEnumerator * self)) 0x8071c00;
+inline Node22 * (*NodeEnumerator::ptr::NextObject)(NodeEnumerator * self) = (Node22 * (*)(NodeEnumerator * self)) 0x809d210;
+inline void (*NodeEnumerator::ptr::_mark)() = (void (*)()) 0x808d9f0;
 #endif
 #endif

@@ -39,29 +39,29 @@ public:
 
 #ifdef _WIN32
 
-Map22 * (*Map22::ptr::_New)() = (Map22 * (*)()) 0x0;
-int (*Map22::ptr::_Compare)(Map22 * self, String * arg1, String * arg2) = (int (*)(Map22 * self, String * arg1, String * arg2)) 0x0;
-Node76 * (*Map22::ptr::_FindNode)(Map22 * self, String * arg1) = (Node76 * (*)(Map22 * self, String * arg1)) 0x0;
-bool (*Map22::ptr::_Contains)(Map22 * self, String * arg1) = (bool (*)(Map22 * self, String * arg1)) 0x0;
-int (*Map22::ptr::_RotateLeft22)(Map22 * self, Node76 * arg1) = (int (*)(Map22 * self, Node76 * arg1)) 0x0;
-int (*Map22::ptr::_RotateRight22)(Map22 * self, Node76 * arg1) = (int (*)(Map22 * self, Node76 * arg1)) 0x0;
-int (*Map22::ptr::_InsertFixup22)(Map22 * self, Node76 * arg1) = (int (*)(Map22 * self, Node76 * arg1)) 0x0;
-bool (*Map22::ptr::Set26)(Map22 * self, String * key, TextSprite * value) = (bool (*)(Map22 * self, String * key, TextSprite * value)) 0x68b5e0;
-TextSprite * (*Map22::ptr::_Get)(Map22 * self, String * arg1) = (TextSprite * (*)(Map22 * self, String * arg1)) 0x0;
-void (*Map22::ptr::_mark)() = (void (*)()) 0x0;
+inline Map22 * (*Map22::ptr::_New)() = (Map22 * (*)()) 0x0;
+inline int (*Map22::ptr::_Compare)(Map22 * self, String * arg1, String * arg2) = (int (*)(Map22 * self, String * arg1, String * arg2)) 0x0;
+inline Node76 * (*Map22::ptr::_FindNode)(Map22 * self, String * arg1) = (Node76 * (*)(Map22 * self, String * arg1)) 0x0;
+inline bool (*Map22::ptr::_Contains)(Map22 * self, String * arg1) = (bool (*)(Map22 * self, String * arg1)) 0x0;
+inline int (*Map22::ptr::_RotateLeft22)(Map22 * self, Node76 * arg1) = (int (*)(Map22 * self, Node76 * arg1)) 0x0;
+inline int (*Map22::ptr::_RotateRight22)(Map22 * self, Node76 * arg1) = (int (*)(Map22 * self, Node76 * arg1)) 0x0;
+inline int (*Map22::ptr::_InsertFixup22)(Map22 * self, Node76 * arg1) = (int (*)(Map22 * self, Node76 * arg1)) 0x0;
+inline bool (*Map22::ptr::Set26)(Map22 * self, String * key, TextSprite * value) = (bool (*)(Map22 * self, String * key, TextSprite * value)) 0x68b5e0;
+inline TextSprite * (*Map22::ptr::_Get)(Map22 * self, String * arg1) = (TextSprite * (*)(Map22 * self, String * arg1)) 0x0;
+inline void (*Map22::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Map22 * (*Map22::ptr::_New)() = (Map22 * (*)()) 0x81e2d40;
-int (*Map22::ptr::_Compare)(Map22 * self, String * arg1, String * arg2) = (int (*)(Map22 * self, String * arg1, String * arg2)) 0x0;
-Node76 * (*Map22::ptr::_FindNode)(Map22 * self, String * arg1) = (Node76 * (*)(Map22 * self, String * arg1)) 0x80c25e0;
-bool (*Map22::ptr::_Contains)(Map22 * self, String * arg1) = (bool (*)(Map22 * self, String * arg1)) 0x80c2580;
-int (*Map22::ptr::_RotateLeft22)(Map22 * self, Node76 * arg1) = (int (*)(Map22 * self, Node76 * arg1)) 0x0;
-int (*Map22::ptr::_RotateRight22)(Map22 * self, Node76 * arg1) = (int (*)(Map22 * self, Node76 * arg1)) 0x0;
-int (*Map22::ptr::_InsertFixup22)(Map22 * self, Node76 * arg1) = (int (*)(Map22 * self, Node76 * arg1)) 0x0;
-bool (*Map22::ptr::Set26)(Map22 * self, String * key, TextSprite * value) = (bool (*)(Map22 * self, String * key, TextSprite * value)) 0x80ddbf0;
-TextSprite * (*Map22::ptr::_Get)(Map22 * self, String * arg1) = (TextSprite * (*)(Map22 * self, String * arg1)) 0x80c2510;
-void (*Map22::ptr::_mark)() = (void (*)()) 0x808c710;
+inline Map22 * (*Map22::ptr::_New)() = (Map22 * (*)()) 0x81e2d40;
+inline int (*Map22::ptr::_Compare)(Map22 * self, String * arg1, String * arg2) = (int (*)(Map22 * self, String * arg1, String * arg2)) 0x0;
+inline Node76 * (*Map22::ptr::_FindNode)(Map22 * self, String * arg1) = (Node76 * (*)(Map22 * self, String * arg1)) 0x80c25e0;
+inline bool (*Map22::ptr::_Contains)(Map22 * self, String * arg1) = (bool (*)(Map22 * self, String * arg1)) 0x80c2580;
+inline int (*Map22::ptr::_RotateLeft22)(Map22 * self, Node76 * arg1) = (int (*)(Map22 * self, Node76 * arg1)) 0x0;
+inline int (*Map22::ptr::_RotateRight22)(Map22 * self, Node76 * arg1) = (int (*)(Map22 * self, Node76 * arg1)) 0x0;
+inline int (*Map22::ptr::_InsertFixup22)(Map22 * self, Node76 * arg1) = (int (*)(Map22 * self, Node76 * arg1)) 0x0;
+inline bool (*Map22::ptr::Set26)(Map22 * self, String * key, TextSprite * value) = (bool (*)(Map22 * self, String * key, TextSprite * value)) 0x80ddbf0;
+inline TextSprite * (*Map22::ptr::_Get)(Map22 * self, String * arg1) = (TextSprite * (*)(Map22 * self, String * arg1)) 0x80c2510;
+inline void (*Map22::ptr::_mark)() = (void (*)()) 0x808c710;
 #endif
 #endif

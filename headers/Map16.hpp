@@ -55,45 +55,45 @@ public:
 
 #ifdef _WIN32
 
-Map16 * (*Map16::ptr::_New)() = (Map16 * (*)()) 0x0;
-Node41 * (*Map16::ptr::_FirstNode)() = (Node41 * (*)()) 0x0;
-NodeEnumerator3 * (*Map16::ptr::ObjectEnumerator)(Map16 * self) = (NodeEnumerator3 * (*)(Map16 * self)) 0x5f2e90;
-int (*Map16::ptr::_Count)() = (int (*)()) 0x0;
-int (*Map16::ptr::_Clear)() = (int (*)()) 0x0;
-int (*Map16::ptr::_Compare6)(Map16 * self, Point * arg1, Point * arg2) = (int (*)(Map16 * self, Point * arg1, Point * arg2)) 0x0;
-int (*Map16::ptr::_RotateLeft16)(Map16 * self, Node41 * arg1) = (int (*)(Map16 * self, Node41 * arg1)) 0x0;
-int (*Map16::ptr::_RotateRight16)(Map16 * self, Node41 * arg1) = (int (*)(Map16 * self, Node41 * arg1)) 0x0;
-int (*Map16::ptr::_InsertFixup16)(Map16 * self, Node41 * node) = (int (*)(Map16 * self, Node41 * node)) 0x5f2f70;
-bool (*Map16::ptr::Set17)(Map16 * self, Point * key, Point * value) = (bool (*)(Map16 * self, Point * key, Point * value)) 0x5f3060;
-bool (*Map16::ptr::Add10)(Map16 * self, Point * key, Point * value) = (bool (*)(Map16 * self, Point * key, Point * value)) 0x5f3170;
-Node41 * (*Map16::ptr::FindNode3)(Map16 * self, Point * key) = (Node41 * (*)(Map16 * self, Point * key)) 0x5f3270;
-bool (*Map16::ptr::Contains5)(Map16 * self, Point * key) = (bool (*)(Map16 * self, Point * key)) 0x5f32b0;
-Point * (*Map16::ptr::Get4)(Map16 * self, Point * key) = (Point * (*)(Map16 * self, Point * key)) 0x5f32d0;
-int (*Map16::ptr::_DeleteFixup7)(Map16 * self, Node41 * node, Node41 * parent) = (int (*)(Map16 * self, Node41 * node, Node41 * parent)) 0x5f32f0;
-int (*Map16::ptr::_RemoveNode7)(Map16 * self, Node41 * node) = (int (*)(Map16 * self, Node41 * node)) 0x5f3460;
-int (*Map16::ptr::Remove6)(Map16 * self, Point * key) = (int (*)(Map16 * self, Point * key)) 0x5f3510;
-void (*Map16::ptr::_mark)() = (void (*)()) 0x0;
+inline Map16 * (*Map16::ptr::_New)() = (Map16 * (*)()) 0x0;
+inline Node41 * (*Map16::ptr::_FirstNode)() = (Node41 * (*)()) 0x0;
+inline NodeEnumerator3 * (*Map16::ptr::ObjectEnumerator)(Map16 * self) = (NodeEnumerator3 * (*)(Map16 * self)) 0x5f2e90;
+inline int (*Map16::ptr::_Count)() = (int (*)()) 0x0;
+inline int (*Map16::ptr::_Clear)() = (int (*)()) 0x0;
+inline int (*Map16::ptr::_Compare6)(Map16 * self, Point * arg1, Point * arg2) = (int (*)(Map16 * self, Point * arg1, Point * arg2)) 0x0;
+inline int (*Map16::ptr::_RotateLeft16)(Map16 * self, Node41 * arg1) = (int (*)(Map16 * self, Node41 * arg1)) 0x0;
+inline int (*Map16::ptr::_RotateRight16)(Map16 * self, Node41 * arg1) = (int (*)(Map16 * self, Node41 * arg1)) 0x0;
+inline int (*Map16::ptr::_InsertFixup16)(Map16 * self, Node41 * node) = (int (*)(Map16 * self, Node41 * node)) 0x5f2f70;
+inline bool (*Map16::ptr::Set17)(Map16 * self, Point * key, Point * value) = (bool (*)(Map16 * self, Point * key, Point * value)) 0x5f3060;
+inline bool (*Map16::ptr::Add10)(Map16 * self, Point * key, Point * value) = (bool (*)(Map16 * self, Point * key, Point * value)) 0x5f3170;
+inline Node41 * (*Map16::ptr::FindNode3)(Map16 * self, Point * key) = (Node41 * (*)(Map16 * self, Point * key)) 0x5f3270;
+inline bool (*Map16::ptr::Contains5)(Map16 * self, Point * key) = (bool (*)(Map16 * self, Point * key)) 0x5f32b0;
+inline Point * (*Map16::ptr::Get4)(Map16 * self, Point * key) = (Point * (*)(Map16 * self, Point * key)) 0x5f32d0;
+inline int (*Map16::ptr::_DeleteFixup7)(Map16 * self, Node41 * node, Node41 * parent) = (int (*)(Map16 * self, Node41 * node, Node41 * parent)) 0x5f32f0;
+inline int (*Map16::ptr::_RemoveNode7)(Map16 * self, Node41 * node) = (int (*)(Map16 * self, Node41 * node)) 0x5f3460;
+inline int (*Map16::ptr::Remove6)(Map16 * self, Point * key) = (int (*)(Map16 * self, Point * key)) 0x5f3510;
+inline void (*Map16::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Map16 * (*Map16::ptr::_New)() = (Map16 * (*)()) 0x819d850;
-Node41 * (*Map16::ptr::_FirstNode)() = (Node41 * (*)()) 0x8072f30;
-NodeEnumerator3 * (*Map16::ptr::ObjectEnumerator)(Map16 * self) = (NodeEnumerator3 * (*)(Map16 * self)) 0x80b8850;
-int (*Map16::ptr::_Count)() = (int (*)()) 0x8072f50;
-int (*Map16::ptr::_Clear)() = (int (*)()) 0x8072f80;
-int (*Map16::ptr::_Compare6)(Map16 * self, Point * arg1, Point * arg2) = (int (*)(Map16 * self, Point * arg1, Point * arg2)) 0x0;
-int (*Map16::ptr::_RotateLeft16)(Map16 * self, Node41 * arg1) = (int (*)(Map16 * self, Node41 * arg1)) 0x0;
-int (*Map16::ptr::_RotateRight16)(Map16 * self, Node41 * arg1) = (int (*)(Map16 * self, Node41 * arg1)) 0x0;
-int (*Map16::ptr::_InsertFixup16)(Map16 * self, Node41 * node) = (int (*)(Map16 * self, Node41 * node)) 0x0;
-bool (*Map16::ptr::Set17)(Map16 * self, Point * key, Point * value) = (bool (*)(Map16 * self, Point * key, Point * value)) 0x80b8bb0;
-bool (*Map16::ptr::Add10)(Map16 * self, Point * key, Point * value) = (bool (*)(Map16 * self, Point * key, Point * value)) 0x80b88d0;
-Node41 * (*Map16::ptr::FindNode3)(Map16 * self, Point * key) = (Node41 * (*)(Map16 * self, Point * key)) 0x8073090;
-bool (*Map16::ptr::Contains5)(Map16 * self, Point * key) = (bool (*)(Map16 * self, Point * key)) 0x80730e0;
-Point * (*Map16::ptr::Get4)(Map16 * self, Point * key) = (Point * (*)(Map16 * self, Point * key)) 0x8073100;
-int (*Map16::ptr::_DeleteFixup7)(Map16 * self, Node41 * node, Node41 * parent) = (int (*)(Map16 * self, Node41 * node, Node41 * parent)) 0x0;
-int (*Map16::ptr::_RemoveNode7)(Map16 * self, Node41 * node) = (int (*)(Map16 * self, Node41 * node)) 0x0;
-int (*Map16::ptr::Remove6)(Map16 * self, Point * key) = (int (*)(Map16 * self, Point * key)) 0x8073320;
-void (*Map16::ptr::_mark)() = (void (*)()) 0x808fb50;
+inline Map16 * (*Map16::ptr::_New)() = (Map16 * (*)()) 0x819d850;
+inline Node41 * (*Map16::ptr::_FirstNode)() = (Node41 * (*)()) 0x8072f30;
+inline NodeEnumerator3 * (*Map16::ptr::ObjectEnumerator)(Map16 * self) = (NodeEnumerator3 * (*)(Map16 * self)) 0x80b8850;
+inline int (*Map16::ptr::_Count)() = (int (*)()) 0x8072f50;
+inline int (*Map16::ptr::_Clear)() = (int (*)()) 0x8072f80;
+inline int (*Map16::ptr::_Compare6)(Map16 * self, Point * arg1, Point * arg2) = (int (*)(Map16 * self, Point * arg1, Point * arg2)) 0x0;
+inline int (*Map16::ptr::_RotateLeft16)(Map16 * self, Node41 * arg1) = (int (*)(Map16 * self, Node41 * arg1)) 0x0;
+inline int (*Map16::ptr::_RotateRight16)(Map16 * self, Node41 * arg1) = (int (*)(Map16 * self, Node41 * arg1)) 0x0;
+inline int (*Map16::ptr::_InsertFixup16)(Map16 * self, Node41 * node) = (int (*)(Map16 * self, Node41 * node)) 0x0;
+inline bool (*Map16::ptr::Set17)(Map16 * self, Point * key, Point * value) = (bool (*)(Map16 * self, Point * key, Point * value)) 0x80b8bb0;
+inline bool (*Map16::ptr::Add10)(Map16 * self, Point * key, Point * value) = (bool (*)(Map16 * self, Point * key, Point * value)) 0x80b88d0;
+inline Node41 * (*Map16::ptr::FindNode3)(Map16 * self, Point * key) = (Node41 * (*)(Map16 * self, Point * key)) 0x8073090;
+inline bool (*Map16::ptr::Contains5)(Map16 * self, Point * key) = (bool (*)(Map16 * self, Point * key)) 0x80730e0;
+inline Point * (*Map16::ptr::Get4)(Map16 * self, Point * key) = (Point * (*)(Map16 * self, Point * key)) 0x8073100;
+inline int (*Map16::ptr::_DeleteFixup7)(Map16 * self, Node41 * node, Node41 * parent) = (int (*)(Map16 * self, Node41 * node, Node41 * parent)) 0x0;
+inline int (*Map16::ptr::_RemoveNode7)(Map16 * self, Node41 * node) = (int (*)(Map16 * self, Node41 * node)) 0x0;
+inline int (*Map16::ptr::Remove6)(Map16 * self, Point * key) = (int (*)(Map16 * self, Point * key)) 0x8073320;
+inline void (*Map16::ptr::_mark)() = (void (*)()) 0x808fb50;
 #endif
 #endif

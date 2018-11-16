@@ -39,25 +39,25 @@ public:
 
 #ifdef _WIN32
 
-List52 * (*List52::ptr::_New)() = (List52 * (*)()) 0x0;
-Node42 * (*List52::ptr::AddLast52)(List52 * self, ReplayData * data) = (Node42 * (*)(List52 * self, ReplayData * data)) 0x663d20;
-List52 * (*List52::ptr::_new2)(List52 * self, Array<ReplayData *> * arg1) = (List52 * (*)(List52 * self, Array<ReplayData *> * arg1)) 0x0;
-int (*List52::ptr::Count)(List52 * self) = (int (*)(List52 * self)) 0x663dc0;
-Enumerator44 * (*List52::ptr::ObjectEnumerator)(List52 * self) = (Enumerator44 * (*)(List52 * self)) 0x663de0;
-Node42 * (*List52::ptr::FirstNode)(List52 * self) = (Node42 * (*)(List52 * self)) 0x663e70;
-void (*List52::ptr::_mark)() = (void (*)()) 0x0;
-void (*List52::ptr::CSTR_List52)(List52 * self) = (void (*)(List52 * self)) 0x663c50;
+inline List52 * (*List52::ptr::_New)() = (List52 * (*)()) 0x0;
+inline Node42 * (*List52::ptr::AddLast52)(List52 * self, ReplayData * data) = (Node42 * (*)(List52 * self, ReplayData * data)) 0x663d20;
+inline List52 * (*List52::ptr::_new2)(List52 * self, Array<ReplayData *> * arg1) = (List52 * (*)(List52 * self, Array<ReplayData *> * arg1)) 0x0;
+inline int (*List52::ptr::Count)(List52 * self) = (int (*)(List52 * self)) 0x663dc0;
+inline Enumerator44 * (*List52::ptr::ObjectEnumerator)(List52 * self) = (Enumerator44 * (*)(List52 * self)) 0x663de0;
+inline Node42 * (*List52::ptr::FirstNode)(List52 * self) = (Node42 * (*)(List52 * self)) 0x663e70;
+inline void (*List52::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List52::ptr::CSTR_List52)(List52 * self) = (void (*)(List52 * self)) 0x663c50;
 #endif
 
 #ifdef __linux__
 
-List52 * (*List52::ptr::_New)() = (List52 * (*)()) 0x81d7a60;
-Node42 * (*List52::ptr::AddLast52)(List52 * self, ReplayData * data) = (Node42 * (*)(List52 * self, ReplayData * data)) 0x819f2e0;
-List52 * (*List52::ptr::_new2)(List52 * self, Array<ReplayData *> * arg1) = (List52 * (*)(List52 * self, Array<ReplayData *> * arg1)) 0x0;
-int (*List52::ptr::Count)(List52 * self) = (int (*)(List52 * self)) 0x8077860;
-Enumerator44 * (*List52::ptr::ObjectEnumerator)(List52 * self) = (Enumerator44 * (*)(List52 * self)) 0x80b8f00;
-Node42 * (*List52::ptr::FirstNode)(List52 * self) = (Node42 * (*)(List52 * self)) 0x8077880;
-void (*List52::ptr::_mark)() = (void (*)()) 0x808bd90;
-void (*List52::ptr::CSTR_List52)(List52 * self) = (void (*)(List52 * self)) 0x81d7b90;
+inline List52 * (*List52::ptr::_New)() = (List52 * (*)()) 0x81d7a60;
+inline Node42 * (*List52::ptr::AddLast52)(List52 * self, ReplayData * data) = (Node42 * (*)(List52 * self, ReplayData * data)) 0x819f2e0;
+inline List52 * (*List52::ptr::_new2)(List52 * self, Array<ReplayData *> * arg1) = (List52 * (*)(List52 * self, Array<ReplayData *> * arg1)) 0x0;
+inline int (*List52::ptr::Count)(List52 * self) = (int (*)(List52 * self)) 0x8077860;
+inline Enumerator44 * (*List52::ptr::ObjectEnumerator)(List52 * self) = (Enumerator44 * (*)(List52 * self)) 0x80b8f00;
+inline Node42 * (*List52::ptr::FirstNode)(List52 * self) = (Node42 * (*)(List52 * self)) 0x8077880;
+inline void (*List52::ptr::_mark)() = (void (*)()) 0x808bd90;
+inline void (*List52::ptr::CSTR_List52)(List52 * self) = (void (*)(List52 * self)) 0x81d7b90;
 #endif
 #endif

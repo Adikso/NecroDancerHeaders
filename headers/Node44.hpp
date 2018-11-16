@@ -27,17 +27,17 @@ public:
 
 #ifdef _WIN32
 
-Node44 * (*Node44::ptr::_New)(Node44 * self, Node44 * arg1, Node44 * arg2, SoundData * arg3) = (Node44 * (*)(Node44 * self, Node44 * arg1, Node44 * arg2, SoundData * arg3)) 0x0;
-Node44 * (*Node44::ptr::_new2)() = (Node44 * (*)()) 0x0;
-int (*Node44::ptr::_Remove3)() = (int (*)()) 0x0;
-void (*Node44::ptr::_mark)() = (void (*)()) 0x0;
+inline Node44 * (*Node44::ptr::_New)(Node44 * self, Node44 * arg1, Node44 * arg2, SoundData * arg3) = (Node44 * (*)(Node44 * self, Node44 * arg1, Node44 * arg2, SoundData * arg3)) 0x0;
+inline Node44 * (*Node44::ptr::_new2)() = (Node44 * (*)()) 0x0;
+inline int (*Node44::ptr::_Remove3)() = (int (*)()) 0x0;
+inline void (*Node44::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node44 * (*Node44::ptr::_New)(Node44 * self, Node44 * arg1, Node44 * arg2, SoundData * arg3) = (Node44 * (*)(Node44 * self, Node44 * arg1, Node44 * arg2, SoundData * arg3)) 0x0;
-Node44 * (*Node44::ptr::_new2)() = (Node44 * (*)()) 0x81bc390;
-int (*Node44::ptr::_Remove3)() = (int (*)()) 0x808d160;
-void (*Node44::ptr::_mark)() = (void (*)()) 0x80869d0;
+inline Node44 * (*Node44::ptr::_New)(Node44 * self, Node44 * arg1, Node44 * arg2, SoundData * arg3) = (Node44 * (*)(Node44 * self, Node44 * arg1, Node44 * arg2, SoundData * arg3)) 0x0;
+inline Node44 * (*Node44::ptr::_new2)() = (Node44 * (*)()) 0x81bc390;
+inline int (*Node44::ptr::_Remove3)() = (int (*)()) 0x808d160;
+inline void (*Node44::ptr::_mark)() = (void (*)()) 0x80869d0;
 #endif
 #endif

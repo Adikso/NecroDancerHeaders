@@ -27,17 +27,17 @@ public:
 
 #ifdef _WIN32
 
-Node27 * (*Node27::ptr::_New)(Node27 * self, Node27 * arg1, Node27 * arg2, Enemy * arg3) = (Node27 * (*)(Node27 * self, Node27 * arg1, Node27 * arg2, Enemy * arg3)) 0x0;
-Node27 * (*Node27::ptr::_new2)() = (Node27 * (*)()) 0x0;
-int (*Node27::ptr::_Remove2)() = (int (*)()) 0x0;
-void (*Node27::ptr::_mark)() = (void (*)()) 0x0;
+inline Node27 * (*Node27::ptr::_New)(Node27 * self, Node27 * arg1, Node27 * arg2, Enemy * arg3) = (Node27 * (*)(Node27 * self, Node27 * arg1, Node27 * arg2, Enemy * arg3)) 0x0;
+inline Node27 * (*Node27::ptr::_new2)() = (Node27 * (*)()) 0x0;
+inline int (*Node27::ptr::_Remove2)() = (int (*)()) 0x0;
+inline void (*Node27::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node27 * (*Node27::ptr::_New)(Node27 * self, Node27 * arg1, Node27 * arg2, Enemy * arg3) = (Node27 * (*)(Node27 * self, Node27 * arg1, Node27 * arg2, Enemy * arg3)) 0x0;
-Node27 * (*Node27::ptr::_new2)() = (Node27 * (*)()) 0x819f540;
-int (*Node27::ptr::_Remove2)() = (int (*)()) 0x0;
-void (*Node27::ptr::_mark)() = (void (*)()) 0x808ffb0;
+inline Node27 * (*Node27::ptr::_New)(Node27 * self, Node27 * arg1, Node27 * arg2, Enemy * arg3) = (Node27 * (*)(Node27 * self, Node27 * arg1, Node27 * arg2, Enemy * arg3)) 0x0;
+inline Node27 * (*Node27::ptr::_new2)() = (Node27 * (*)()) 0x819f540;
+inline int (*Node27::ptr::_Remove2)() = (int (*)()) 0x0;
+inline void (*Node27::ptr::_mark)() = (void (*)()) 0x808ffb0;
 #endif
 #endif

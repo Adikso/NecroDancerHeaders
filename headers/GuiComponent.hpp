@@ -29,21 +29,21 @@ public:
 
 #ifdef _WIN32
 
-GuiComponent * (*GuiComponent::ptr::_New)() = (GuiComponent * (*)()) 0x0;
-void (*GuiComponent::ptr::SetSelected)(GuiComponent * self, bool s) = (void (*)(GuiComponent * self, bool s)) 0x5414e0;
-bool (*GuiComponent::ptr::Right)(GuiComponent * self) = (bool (*)(GuiComponent * self)) 0x4068b0;
-bool (*GuiComponent::ptr::_Left)() = (bool (*)()) 0x0;
-bool (*GuiComponent::ptr::_IsActive)() = (bool (*)()) 0x0;
-void (*GuiComponent::ptr::_mark)() = (void (*)()) 0x0;
+inline GuiComponent * (*GuiComponent::ptr::_New)() = (GuiComponent * (*)()) 0x0;
+inline void (*GuiComponent::ptr::SetSelected)(GuiComponent * self, bool s) = (void (*)(GuiComponent * self, bool s)) 0x5414e0;
+inline bool (*GuiComponent::ptr::Right)(GuiComponent * self) = (bool (*)(GuiComponent * self)) 0x4068b0;
+inline bool (*GuiComponent::ptr::_Left)() = (bool (*)()) 0x0;
+inline bool (*GuiComponent::ptr::_IsActive)() = (bool (*)()) 0x0;
+inline void (*GuiComponent::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-GuiComponent * (*GuiComponent::ptr::_New)() = (GuiComponent * (*)()) 0x8145e20;
-void (*GuiComponent::ptr::SetSelected)(GuiComponent * self, bool s) = (void (*)(GuiComponent * self, bool s)) 0x806f490;
-bool (*GuiComponent::ptr::Right)(GuiComponent * self) = (bool (*)(GuiComponent * self)) 0x806f4a0;
-bool (*GuiComponent::ptr::_Left)() = (bool (*)()) 0x806f4b0;
-bool (*GuiComponent::ptr::_IsActive)() = (bool (*)()) 0x806f4c0;
-void (*GuiComponent::ptr::_mark)() = (void (*)()) 0x806f4d0;
+inline GuiComponent * (*GuiComponent::ptr::_New)() = (GuiComponent * (*)()) 0x8145e20;
+inline void (*GuiComponent::ptr::SetSelected)(GuiComponent * self, bool s) = (void (*)(GuiComponent * self, bool s)) 0x806f490;
+inline bool (*GuiComponent::ptr::Right)(GuiComponent * self) = (bool (*)(GuiComponent * self)) 0x806f4a0;
+inline bool (*GuiComponent::ptr::_Left)() = (bool (*)()) 0x806f4b0;
+inline bool (*GuiComponent::ptr::_IsActive)() = (bool (*)()) 0x806f4c0;
+inline void (*GuiComponent::ptr::_mark)() = (void (*)()) 0x806f4d0;
 #endif
 #endif

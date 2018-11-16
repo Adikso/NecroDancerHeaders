@@ -41,27 +41,27 @@ public:
 
 #ifdef _WIN32
 
-List6 * (*List6::ptr::_New)() = (List6 * (*)()) 0x0;
-Node12 * (*List6::ptr::AddLast6)(List6 * self, Entity * data) = (Node12 * (*)(List6 * self, Entity * data)) 0x57f1f0;
-List6 * (*List6::ptr::_new2)(List6 * self, Array<Entity *> * arg1) = (List6 * (*)(List6 * self, Array<Entity *> * arg1)) 0x0;
-bool (*List6::ptr::_Equals2)(List6 * self, Entity * arg1, Entity * arg2) = (bool (*)(List6 * self, Entity * arg1, Entity * arg2)) 0x0;
-int (*List6::ptr::_RemoveEach2)(List6 * self, Entity * arg1) = (int (*)(List6 * self, Entity * arg1)) 0x0;
-Enumerator5 * (*List6::ptr::ObjectEnumerator)(List6 * self) = (Enumerator5 * (*)(List6 * self)) 0x57f290;
-int (*List6::ptr::_Clear)() = (int (*)()) 0x0;
-void (*List6::ptr::_mark)() = (void (*)()) 0x0;
-void (*List6::ptr::CSTR_List6)(List6 * self) = (void (*)(List6 * self)) 0x57f120;
+inline List6 * (*List6::ptr::_New)() = (List6 * (*)()) 0x0;
+inline Node12 * (*List6::ptr::AddLast6)(List6 * self, Entity * data) = (Node12 * (*)(List6 * self, Entity * data)) 0x57f1f0;
+inline List6 * (*List6::ptr::_new2)(List6 * self, Array<Entity *> * arg1) = (List6 * (*)(List6 * self, Array<Entity *> * arg1)) 0x0;
+inline bool (*List6::ptr::_Equals2)(List6 * self, Entity * arg1, Entity * arg2) = (bool (*)(List6 * self, Entity * arg1, Entity * arg2)) 0x0;
+inline int (*List6::ptr::_RemoveEach2)(List6 * self, Entity * arg1) = (int (*)(List6 * self, Entity * arg1)) 0x0;
+inline Enumerator5 * (*List6::ptr::ObjectEnumerator)(List6 * self) = (Enumerator5 * (*)(List6 * self)) 0x57f290;
+inline int (*List6::ptr::_Clear)() = (int (*)()) 0x0;
+inline void (*List6::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List6::ptr::CSTR_List6)(List6 * self) = (void (*)(List6 * self)) 0x57f120;
 #endif
 
 #ifdef __linux__
 
-List6 * (*List6::ptr::_New)() = (List6 * (*)()) 0x8158f50;
-Node12 * (*List6::ptr::AddLast6)(List6 * self, Entity * data) = (Node12 * (*)(List6 * self, Entity * data)) 0x80b6e10;
-List6 * (*List6::ptr::_new2)(List6 * self, Array<Entity *> * arg1) = (List6 * (*)(List6 * self, Array<Entity *> * arg1)) 0x0;
-bool (*List6::ptr::_Equals2)(List6 * self, Entity * arg1, Entity * arg2) = (bool (*)(List6 * self, Entity * arg1, Entity * arg2)) 0x0;
-int (*List6::ptr::_RemoveEach2)(List6 * self, Entity * arg1) = (int (*)(List6 * self, Entity * arg1)) 0x0;
-Enumerator5 * (*List6::ptr::ObjectEnumerator)(List6 * self) = (Enumerator5 * (*)(List6 * self)) 0x80b7420;
-int (*List6::ptr::_Clear)() = (int (*)()) 0x80951a0;
-void (*List6::ptr::_mark)() = (void (*)()) 0x808e950;
-void (*List6::ptr::CSTR_List6)(List6 * self) = (void (*)(List6 * self)) 0x8159270;
+inline List6 * (*List6::ptr::_New)() = (List6 * (*)()) 0x8158f50;
+inline Node12 * (*List6::ptr::AddLast6)(List6 * self, Entity * data) = (Node12 * (*)(List6 * self, Entity * data)) 0x80b6e10;
+inline List6 * (*List6::ptr::_new2)(List6 * self, Array<Entity *> * arg1) = (List6 * (*)(List6 * self, Array<Entity *> * arg1)) 0x0;
+inline bool (*List6::ptr::_Equals2)(List6 * self, Entity * arg1, Entity * arg2) = (bool (*)(List6 * self, Entity * arg1, Entity * arg2)) 0x0;
+inline int (*List6::ptr::_RemoveEach2)(List6 * self, Entity * arg1) = (int (*)(List6 * self, Entity * arg1)) 0x0;
+inline Enumerator5 * (*List6::ptr::ObjectEnumerator)(List6 * self) = (Enumerator5 * (*)(List6 * self)) 0x80b7420;
+inline int (*List6::ptr::_Clear)() = (int (*)()) 0x80951a0;
+inline void (*List6::ptr::_mark)() = (void (*)()) 0x808e950;
+inline void (*List6::ptr::CSTR_List6)(List6 * self) = (void (*)(List6 * self)) 0x8159270;
 #endif
 #endif

@@ -57,27 +57,27 @@ public:
 
 #ifdef _WIN32
 
-void (*ControllerLanguages::ptr::UpdateLanguageText)(ControllerLanguages * self) = (void (*)(ControllerLanguages * self)) 0x6a86d0;
-ControllerLanguages * (*ControllerLanguages::ptr::New)(ControllerLanguages * self, Controller * game) = (ControllerLanguages * (*)(ControllerLanguages * self, Controller * game)) 0x6a8830;
-void (*ControllerLanguages::ptr::_Update)() = (void (*)()) 0x0;
-void (*ControllerLanguages::ptr::Render)(ControllerLanguages * self) = (void (*)(ControllerLanguages * self)) 0x6a9340;
-void (*ControllerLanguages::ptr::_RegainFocus)() = (void (*)()) 0x0;
-void (*ControllerLanguages::ptr::GUICallback)(ControllerLanguages * self, int index, bool left) = (void (*)(ControllerLanguages * self, int index, bool left)) 0x6a9580;
-void (*ControllerLanguages::ptr::Destructor)(ControllerLanguages * self) = (void (*)(ControllerLanguages * self)) 0x6a9750;
-void (*ControllerLanguages::ptr::mark)(ControllerLanguages * self) = (void (*)(ControllerLanguages * self)) 0x6a9780;
-void (*ControllerLanguages::ptr::CSTR_ControllerLanguages)(ControllerLanguages * self) = (void (*)(ControllerLanguages * self)) 0x6a8260;
+inline void (*ControllerLanguages::ptr::UpdateLanguageText)(ControllerLanguages * self) = (void (*)(ControllerLanguages * self)) 0x6a86d0;
+inline ControllerLanguages * (*ControllerLanguages::ptr::New)(ControllerLanguages * self, Controller * game) = (ControllerLanguages * (*)(ControllerLanguages * self, Controller * game)) 0x6a8830;
+inline void (*ControllerLanguages::ptr::_Update)() = (void (*)()) 0x0;
+inline void (*ControllerLanguages::ptr::Render)(ControllerLanguages * self) = (void (*)(ControllerLanguages * self)) 0x6a9340;
+inline void (*ControllerLanguages::ptr::_RegainFocus)() = (void (*)()) 0x0;
+inline void (*ControllerLanguages::ptr::GUICallback)(ControllerLanguages * self, int index, bool left) = (void (*)(ControllerLanguages * self, int index, bool left)) 0x6a9580;
+inline void (*ControllerLanguages::ptr::Destructor)(ControllerLanguages * self) = (void (*)(ControllerLanguages * self)) 0x6a9750;
+inline void (*ControllerLanguages::ptr::mark)(ControllerLanguages * self) = (void (*)(ControllerLanguages * self)) 0x6a9780;
+inline void (*ControllerLanguages::ptr::CSTR_ControllerLanguages)(ControllerLanguages * self) = (void (*)(ControllerLanguages * self)) 0x6a8260;
 #endif
 
 #ifdef __linux__
 
-void (*ControllerLanguages::ptr::UpdateLanguageText)(ControllerLanguages * self) = (void (*)(ControllerLanguages * self)) 0x80c8d90;
-ControllerLanguages * (*ControllerLanguages::ptr::New)(ControllerLanguages * self, Controller * game) = (ControllerLanguages * (*)(ControllerLanguages * self, Controller * game)) 0x81f2030;
-void (*ControllerLanguages::ptr::_Update)() = (void (*)()) 0x807a320;
-void (*ControllerLanguages::ptr::Render)(ControllerLanguages * self) = (void (*)(ControllerLanguages * self)) 0x80c5440;
-void (*ControllerLanguages::ptr::_RegainFocus)() = (void (*)()) 0x807a340;
-void (*ControllerLanguages::ptr::GUICallback)(ControllerLanguages * self, int index, bool left) = (void (*)(ControllerLanguages * self, int index, bool left)) 0x8365750;
-void (*ControllerLanguages::ptr::Destructor)(ControllerLanguages * self) = (void (*)(ControllerLanguages * self)) 0x807a350;
-void (*ControllerLanguages::ptr::mark)(ControllerLanguages * self) = (void (*)(ControllerLanguages * self)) 0x80a9e90;
-void (*ControllerLanguages::ptr::CSTR_ControllerLanguages)(ControllerLanguages * self) = (void (*)(ControllerLanguages * self)) 0x81f1b40;
+inline void (*ControllerLanguages::ptr::UpdateLanguageText)(ControllerLanguages * self) = (void (*)(ControllerLanguages * self)) 0x80c8d90;
+inline ControllerLanguages * (*ControllerLanguages::ptr::New)(ControllerLanguages * self, Controller * game) = (ControllerLanguages * (*)(ControllerLanguages * self, Controller * game)) 0x81f2030;
+inline void (*ControllerLanguages::ptr::_Update)() = (void (*)()) 0x807a320;
+inline void (*ControllerLanguages::ptr::Render)(ControllerLanguages * self) = (void (*)(ControllerLanguages * self)) 0x80c5440;
+inline void (*ControllerLanguages::ptr::_RegainFocus)() = (void (*)()) 0x807a340;
+inline void (*ControllerLanguages::ptr::GUICallback)(ControllerLanguages * self, int index, bool left) = (void (*)(ControllerLanguages * self, int index, bool left)) 0x8365750;
+inline void (*ControllerLanguages::ptr::Destructor)(ControllerLanguages * self) = (void (*)(ControllerLanguages * self)) 0x807a350;
+inline void (*ControllerLanguages::ptr::mark)(ControllerLanguages * self) = (void (*)(ControllerLanguages * self)) 0x80a9e90;
+inline void (*ControllerLanguages::ptr::CSTR_ControllerLanguages)(ControllerLanguages * self) = (void (*)(ControllerLanguages * self)) 0x81f1b40;
 #endif
 #endif

@@ -43,31 +43,31 @@ public:
 
 #ifdef _WIN32
 
-Slime * (*Slime::ptr::New)(Slime * self, int xVal, int yVal, int l) = (Slime * (*)(Slime * self, int xVal, int yVal, int l)) 0x638e50;
-Slime * (*Slime::ptr::_new2)() = (Slime * (*)()) 0x0;
-void (*Slime::ptr::Update)(Slime * self) = (void (*)(Slime * self)) 0x639380;
-Point * (*Slime::ptr::GetMovementDirection)(Slime * self) = (Point * (*)(Slime * self)) 0x6393e0;
-int (*Slime::ptr::PerformMovement)(Slime * self, int xVal, int yVal) = (int (*)(Slime * self, int xVal, int yVal)) 0x620b70;
-bool (*Slime::ptr::CanBeLord)(Slime * self) = (bool (*)(Slime * self)) 0x639840;
-void (*Slime::ptr::MoveSucceed)(Slime * self, bool hitPlayer, bool moveDelayed) = (void (*)(Slime * self, bool hitPlayer, bool moveDelayed)) 0x639850;
-void (*Slime::ptr::MoveFail)(Slime * self) = (void (*)(Slime * self)) 0x639920;
-void (*Slime::ptr::Die)(Slime * self) = (void (*)(Slime * self)) 0x639b90;
-void (*Slime::ptr::_mark)() = (void (*)()) 0x0;
-void (*Slime::ptr::CSTR_Slime)(Slime * self) = (void (*)(Slime * self)) 0x638df0;
+inline Slime * (*Slime::ptr::New)(Slime * self, int xVal, int yVal, int l) = (Slime * (*)(Slime * self, int xVal, int yVal, int l)) 0x638e50;
+inline Slime * (*Slime::ptr::_new2)() = (Slime * (*)()) 0x0;
+inline void (*Slime::ptr::Update)(Slime * self) = (void (*)(Slime * self)) 0x639380;
+inline Point * (*Slime::ptr::GetMovementDirection)(Slime * self) = (Point * (*)(Slime * self)) 0x6393e0;
+inline int (*Slime::ptr::PerformMovement)(Slime * self, int xVal, int yVal) = (int (*)(Slime * self, int xVal, int yVal)) 0x620b70;
+inline bool (*Slime::ptr::CanBeLord)(Slime * self) = (bool (*)(Slime * self)) 0x639840;
+inline void (*Slime::ptr::MoveSucceed)(Slime * self, bool hitPlayer, bool moveDelayed) = (void (*)(Slime * self, bool hitPlayer, bool moveDelayed)) 0x639850;
+inline void (*Slime::ptr::MoveFail)(Slime * self) = (void (*)(Slime * self)) 0x639920;
+inline void (*Slime::ptr::Die)(Slime * self) = (void (*)(Slime * self)) 0x639b90;
+inline void (*Slime::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Slime::ptr::CSTR_Slime)(Slime * self) = (void (*)(Slime * self)) 0x638df0;
 #endif
 
 #ifdef __linux__
 
-Slime * (*Slime::ptr::New)(Slime * self, int xVal, int yVal, int l) = (Slime * (*)(Slime * self, int xVal, int yVal, int l)) 0x81bf5d0;
-Slime * (*Slime::ptr::_new2)() = (Slime * (*)()) 0x81bfcc0;
-void (*Slime::ptr::Update)(Slime * self) = (void (*)(Slime * self)) 0x83832a0;
-Point * (*Slime::ptr::GetMovementDirection)(Slime * self) = (Point * (*)(Slime * self)) 0x80b47f0;
-int (*Slime::ptr::PerformMovement)(Slime * self, int xVal, int yVal) = (int (*)(Slime * self, int xVal, int yVal)) 0x81a8cf0;
-bool (*Slime::ptr::CanBeLord)(Slime * self) = (bool (*)(Slime * self)) 0x8076050;
-void (*Slime::ptr::MoveSucceed)(Slime * self, bool hitPlayer, bool moveDelayed) = (void (*)(Slime * self, bool hitPlayer, bool moveDelayed)) 0x80b4720;
-void (*Slime::ptr::MoveFail)(Slime * self) = (void (*)(Slime * self)) 0x8135540;
-void (*Slime::ptr::Die)(Slime * self) = (void (*)(Slime * self)) 0x83b6450;
-void (*Slime::ptr::_mark)() = (void (*)()) 0x80b0810;
-void (*Slime::ptr::CSTR_Slime)(Slime * self) = (void (*)(Slime * self)) 0x81bf5a0;
+inline Slime * (*Slime::ptr::New)(Slime * self, int xVal, int yVal, int l) = (Slime * (*)(Slime * self, int xVal, int yVal, int l)) 0x81bf5d0;
+inline Slime * (*Slime::ptr::_new2)() = (Slime * (*)()) 0x81bfcc0;
+inline void (*Slime::ptr::Update)(Slime * self) = (void (*)(Slime * self)) 0x83832a0;
+inline Point * (*Slime::ptr::GetMovementDirection)(Slime * self) = (Point * (*)(Slime * self)) 0x80b47f0;
+inline int (*Slime::ptr::PerformMovement)(Slime * self, int xVal, int yVal) = (int (*)(Slime * self, int xVal, int yVal)) 0x81a8cf0;
+inline bool (*Slime::ptr::CanBeLord)(Slime * self) = (bool (*)(Slime * self)) 0x8076050;
+inline void (*Slime::ptr::MoveSucceed)(Slime * self, bool hitPlayer, bool moveDelayed) = (void (*)(Slime * self, bool hitPlayer, bool moveDelayed)) 0x80b4720;
+inline void (*Slime::ptr::MoveFail)(Slime * self) = (void (*)(Slime * self)) 0x8135540;
+inline void (*Slime::ptr::Die)(Slime * self) = (void (*)(Slime * self)) 0x83b6450;
+inline void (*Slime::ptr::_mark)() = (void (*)()) 0x80b0810;
+inline void (*Slime::ptr::CSTR_Slime)(Slime * self) = (void (*)(Slime * self)) 0x81bf5a0;
 #endif
 #endif

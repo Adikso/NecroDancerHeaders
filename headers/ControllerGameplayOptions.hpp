@@ -66,27 +66,27 @@ public:
 
 #ifdef _WIN32
 
-void (*ControllerGameplayOptions::ptr::ReloadSprites)(ControllerGameplayOptions * self) = (void (*)(ControllerGameplayOptions * self)) 0x69f050;
-ControllerGameplayOptions * (*ControllerGameplayOptions::ptr::New)(ControllerGameplayOptions * self, Controller * game) = (ControllerGameplayOptions * (*)(ControllerGameplayOptions * self, Controller * game)) 0x69f430;
-void (*ControllerGameplayOptions::ptr::Update)(ControllerGameplayOptions * self) = (void (*)(ControllerGameplayOptions * self)) 0x69f740;
-void (*ControllerGameplayOptions::ptr::Render)(ControllerGameplayOptions * self) = (void (*)(ControllerGameplayOptions * self)) 0x69f790;
-void (*ControllerGameplayOptions::ptr::_RegainFocus)() = (void (*)()) 0x0;
-void (*ControllerGameplayOptions::ptr::GUICallback)(ControllerGameplayOptions * self, int index, bool left) = (void (*)(ControllerGameplayOptions * self, int index, bool left)) 0x69fcb0;
-void (*ControllerGameplayOptions::ptr::Destructor)(ControllerGameplayOptions * self) = (void (*)(ControllerGameplayOptions * self)) 0x69ffa0;
-void (*ControllerGameplayOptions::ptr::mark)(ControllerGameplayOptions * self) = (void (*)(ControllerGameplayOptions * self)) 0x6a0010;
-void (*ControllerGameplayOptions::ptr::CSTR_ControllerGameplayOptions)(ControllerGameplayOptions * self) = (void (*)(ControllerGameplayOptions * self)) 0x69e6f0;
+inline void (*ControllerGameplayOptions::ptr::ReloadSprites)(ControllerGameplayOptions * self) = (void (*)(ControllerGameplayOptions * self)) 0x69f050;
+inline ControllerGameplayOptions * (*ControllerGameplayOptions::ptr::New)(ControllerGameplayOptions * self, Controller * game) = (ControllerGameplayOptions * (*)(ControllerGameplayOptions * self, Controller * game)) 0x69f430;
+inline void (*ControllerGameplayOptions::ptr::Update)(ControllerGameplayOptions * self) = (void (*)(ControllerGameplayOptions * self)) 0x69f740;
+inline void (*ControllerGameplayOptions::ptr::Render)(ControllerGameplayOptions * self) = (void (*)(ControllerGameplayOptions * self)) 0x69f790;
+inline void (*ControllerGameplayOptions::ptr::_RegainFocus)() = (void (*)()) 0x0;
+inline void (*ControllerGameplayOptions::ptr::GUICallback)(ControllerGameplayOptions * self, int index, bool left) = (void (*)(ControllerGameplayOptions * self, int index, bool left)) 0x69fcb0;
+inline void (*ControllerGameplayOptions::ptr::Destructor)(ControllerGameplayOptions * self) = (void (*)(ControllerGameplayOptions * self)) 0x69ffa0;
+inline void (*ControllerGameplayOptions::ptr::mark)(ControllerGameplayOptions * self) = (void (*)(ControllerGameplayOptions * self)) 0x6a0010;
+inline void (*ControllerGameplayOptions::ptr::CSTR_ControllerGameplayOptions)(ControllerGameplayOptions * self) = (void (*)(ControllerGameplayOptions * self)) 0x69e6f0;
 #endif
 
 #ifdef __linux__
 
-void (*ControllerGameplayOptions::ptr::ReloadSprites)(ControllerGameplayOptions * self) = (void (*)(ControllerGameplayOptions * self)) 0x81278b0;
-ControllerGameplayOptions * (*ControllerGameplayOptions::ptr::New)(ControllerGameplayOptions * self, Controller * game) = (ControllerGameplayOptions * (*)(ControllerGameplayOptions * self, Controller * game)) 0x81eda80;
-void (*ControllerGameplayOptions::ptr::Update)(ControllerGameplayOptions * self) = (void (*)(ControllerGameplayOptions * self)) 0x8365d40;
-void (*ControllerGameplayOptions::ptr::Render)(ControllerGameplayOptions * self) = (void (*)(ControllerGameplayOptions * self)) 0x80c5e30;
-void (*ControllerGameplayOptions::ptr::_RegainFocus)() = (void (*)()) 0x8079d00;
-void (*ControllerGameplayOptions::ptr::GUICallback)(ControllerGameplayOptions * self, int index, bool left) = (void (*)(ControllerGameplayOptions * self, int index, bool left)) 0x82dba00;
-void (*ControllerGameplayOptions::ptr::Destructor)(ControllerGameplayOptions * self) = (void (*)(ControllerGameplayOptions * self)) 0x8079d10;
-void (*ControllerGameplayOptions::ptr::mark)(ControllerGameplayOptions * self) = (void (*)(ControllerGameplayOptions * self)) 0x80aa6f0;
-void (*ControllerGameplayOptions::ptr::CSTR_ControllerGameplayOptions)(ControllerGameplayOptions * self) = (void (*)(ControllerGameplayOptions * self)) 0x81ed070;
+inline void (*ControllerGameplayOptions::ptr::ReloadSprites)(ControllerGameplayOptions * self) = (void (*)(ControllerGameplayOptions * self)) 0x81278b0;
+inline ControllerGameplayOptions * (*ControllerGameplayOptions::ptr::New)(ControllerGameplayOptions * self, Controller * game) = (ControllerGameplayOptions * (*)(ControllerGameplayOptions * self, Controller * game)) 0x81eda80;
+inline void (*ControllerGameplayOptions::ptr::Update)(ControllerGameplayOptions * self) = (void (*)(ControllerGameplayOptions * self)) 0x8365d40;
+inline void (*ControllerGameplayOptions::ptr::Render)(ControllerGameplayOptions * self) = (void (*)(ControllerGameplayOptions * self)) 0x80c5e30;
+inline void (*ControllerGameplayOptions::ptr::_RegainFocus)() = (void (*)()) 0x8079d00;
+inline void (*ControllerGameplayOptions::ptr::GUICallback)(ControllerGameplayOptions * self, int index, bool left) = (void (*)(ControllerGameplayOptions * self, int index, bool left)) 0x82dba00;
+inline void (*ControllerGameplayOptions::ptr::Destructor)(ControllerGameplayOptions * self) = (void (*)(ControllerGameplayOptions * self)) 0x8079d10;
+inline void (*ControllerGameplayOptions::ptr::mark)(ControllerGameplayOptions * self) = (void (*)(ControllerGameplayOptions * self)) 0x80aa6f0;
+inline void (*ControllerGameplayOptions::ptr::CSTR_ControllerGameplayOptions)(ControllerGameplayOptions * self) = (void (*)(ControllerGameplayOptions * self)) 0x81ed070;
 #endif
 #endif

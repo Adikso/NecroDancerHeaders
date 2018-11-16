@@ -34,21 +34,21 @@ public:
 
 #ifdef _WIN32
 
-SpeedUpTrap * (*SpeedUpTrap::ptr::New)(SpeedUpTrap * self, int xVal, int yVal) = (SpeedUpTrap * (*)(SpeedUpTrap * self, int xVal, int yVal)) 0x65c2e0;
-SpeedUpTrap * (*SpeedUpTrap::ptr::_new2)() = (SpeedUpTrap * (*)()) 0x0;
-void (*SpeedUpTrap::ptr::Update)(SpeedUpTrap * self) = (void (*)(SpeedUpTrap * self)) 0x65c460;
-void (*SpeedUpTrap::ptr::Trigger)(SpeedUpTrap * self, Entity * ent) = (void (*)(SpeedUpTrap * self, Entity * ent)) 0x65c5d0;
-void (*SpeedUpTrap::ptr::_mark)() = (void (*)()) 0x0;
-void (*SpeedUpTrap::ptr::CSTR_SpeedUpTrap)(SpeedUpTrap * self) = (void (*)(SpeedUpTrap * self)) 0x65c270;
+inline SpeedUpTrap * (*SpeedUpTrap::ptr::New)(SpeedUpTrap * self, int xVal, int yVal) = (SpeedUpTrap * (*)(SpeedUpTrap * self, int xVal, int yVal)) 0x65c2e0;
+inline SpeedUpTrap * (*SpeedUpTrap::ptr::_new2)() = (SpeedUpTrap * (*)()) 0x0;
+inline void (*SpeedUpTrap::ptr::Update)(SpeedUpTrap * self) = (void (*)(SpeedUpTrap * self)) 0x65c460;
+inline void (*SpeedUpTrap::ptr::Trigger)(SpeedUpTrap * self, Entity * ent) = (void (*)(SpeedUpTrap * self, Entity * ent)) 0x65c5d0;
+inline void (*SpeedUpTrap::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*SpeedUpTrap::ptr::CSTR_SpeedUpTrap)(SpeedUpTrap * self) = (void (*)(SpeedUpTrap * self)) 0x65c270;
 #endif
 
 #ifdef __linux__
 
-SpeedUpTrap * (*SpeedUpTrap::ptr::New)(SpeedUpTrap * self, int xVal, int yVal) = (SpeedUpTrap * (*)(SpeedUpTrap * self, int xVal, int yVal)) 0x81d2e70;
-SpeedUpTrap * (*SpeedUpTrap::ptr::_new2)() = (SpeedUpTrap * (*)()) 0x81d3020;
-void (*SpeedUpTrap::ptr::Update)(SpeedUpTrap * self) = (void (*)(SpeedUpTrap * self)) 0x826f340;
-void (*SpeedUpTrap::ptr::Trigger)(SpeedUpTrap * self, Entity * ent) = (void (*)(SpeedUpTrap * self, Entity * ent)) 0x83a97f0;
-void (*SpeedUpTrap::ptr::_mark)() = (void (*)()) 0x80a58d0;
-void (*SpeedUpTrap::ptr::CSTR_SpeedUpTrap)(SpeedUpTrap * self) = (void (*)(SpeedUpTrap * self)) 0x81d2de0;
+inline SpeedUpTrap * (*SpeedUpTrap::ptr::New)(SpeedUpTrap * self, int xVal, int yVal) = (SpeedUpTrap * (*)(SpeedUpTrap * self, int xVal, int yVal)) 0x81d2e70;
+inline SpeedUpTrap * (*SpeedUpTrap::ptr::_new2)() = (SpeedUpTrap * (*)()) 0x81d3020;
+inline void (*SpeedUpTrap::ptr::Update)(SpeedUpTrap * self) = (void (*)(SpeedUpTrap * self)) 0x826f340;
+inline void (*SpeedUpTrap::ptr::Trigger)(SpeedUpTrap * self, Entity * ent) = (void (*)(SpeedUpTrap * self, Entity * ent)) 0x83a97f0;
+inline void (*SpeedUpTrap::ptr::_mark)() = (void (*)()) 0x80a58d0;
+inline void (*SpeedUpTrap::ptr::CSTR_SpeedUpTrap)(SpeedUpTrap * self) = (void (*)(SpeedUpTrap * self)) 0x81d2de0;
 #endif
 #endif

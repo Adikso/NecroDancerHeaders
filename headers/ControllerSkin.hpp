@@ -56,29 +56,29 @@ public:
 
 #ifdef _WIN32
 
-void (*ControllerSkin::ptr::ReloadSprites2)(ControllerSkin * self, int characterID) = (void (*)(ControllerSkin * self, int characterID)) 0x6a6750;
-void (*ControllerSkin::ptr::ReloadLabel)(ControllerSkin * self, int characterID) = (void (*)(ControllerSkin * self, int characterID)) 0x6a7830;
-ControllerSkin * (*ControllerSkin::ptr::New)(ControllerSkin * self, Controller * game) = (ControllerSkin * (*)(ControllerSkin * self, Controller * game)) 0x6a79b0;
-void (*ControllerSkin::ptr::_Update)() = (void (*)()) 0x0;
-void (*ControllerSkin::ptr::Render)(ControllerSkin * self) = (void (*)(ControllerSkin * self)) 0x6a7d70;
-void (*ControllerSkin::ptr::_RegainFocus)() = (void (*)()) 0x0;
-void (*ControllerSkin::ptr::GUICallback)(ControllerSkin * self, int index, bool left) = (void (*)(ControllerSkin * self, int index, bool left)) 0x6a80f0;
-void (*ControllerSkin::ptr::Destructor)(ControllerSkin * self) = (void (*)(ControllerSkin * self)) 0x6a8220;
-void (*ControllerSkin::ptr::mark)(ControllerSkin * self) = (void (*)(ControllerSkin * self)) 0x69e3c0;
-void (*ControllerSkin::ptr::CSTR_ControllerSkin)(ControllerSkin * self) = (void (*)(ControllerSkin * self)) 0x6a6090;
+inline void (*ControllerSkin::ptr::ReloadSprites2)(ControllerSkin * self, int characterID) = (void (*)(ControllerSkin * self, int characterID)) 0x6a6750;
+inline void (*ControllerSkin::ptr::ReloadLabel)(ControllerSkin * self, int characterID) = (void (*)(ControllerSkin * self, int characterID)) 0x6a7830;
+inline ControllerSkin * (*ControllerSkin::ptr::New)(ControllerSkin * self, Controller * game) = (ControllerSkin * (*)(ControllerSkin * self, Controller * game)) 0x6a79b0;
+inline void (*ControllerSkin::ptr::_Update)() = (void (*)()) 0x0;
+inline void (*ControllerSkin::ptr::Render)(ControllerSkin * self) = (void (*)(ControllerSkin * self)) 0x6a7d70;
+inline void (*ControllerSkin::ptr::_RegainFocus)() = (void (*)()) 0x0;
+inline void (*ControllerSkin::ptr::GUICallback)(ControllerSkin * self, int index, bool left) = (void (*)(ControllerSkin * self, int index, bool left)) 0x6a80f0;
+inline void (*ControllerSkin::ptr::Destructor)(ControllerSkin * self) = (void (*)(ControllerSkin * self)) 0x6a8220;
+inline void (*ControllerSkin::ptr::mark)(ControllerSkin * self) = (void (*)(ControllerSkin * self)) 0x69e3c0;
+inline void (*ControllerSkin::ptr::CSTR_ControllerSkin)(ControllerSkin * self) = (void (*)(ControllerSkin * self)) 0x6a6090;
 #endif
 
 #ifdef __linux__
 
-void (*ControllerSkin::ptr::ReloadSprites2)(ControllerSkin * self, int characterID) = (void (*)(ControllerSkin * self, int characterID)) 0x81222d0;
-void (*ControllerSkin::ptr::ReloadLabel)(ControllerSkin * self, int characterID) = (void (*)(ControllerSkin * self, int characterID)) 0x8109010;
-ControllerSkin * (*ControllerSkin::ptr::New)(ControllerSkin * self, Controller * game) = (ControllerSkin * (*)(ControllerSkin * self, Controller * game)) 0x81f1730;
-void (*ControllerSkin::ptr::_Update)() = (void (*)()) 0x807a200;
-void (*ControllerSkin::ptr::Render)(ControllerSkin * self) = (void (*)(ControllerSkin * self)) 0x8108c50;
-void (*ControllerSkin::ptr::_RegainFocus)() = (void (*)()) 0x807a220;
-void (*ControllerSkin::ptr::GUICallback)(ControllerSkin * self, int index, bool left) = (void (*)(ControllerSkin * self, int index, bool left)) 0x8365ac0;
-void (*ControllerSkin::ptr::Destructor)(ControllerSkin * self) = (void (*)(ControllerSkin * self)) 0x807a230;
-void (*ControllerSkin::ptr::mark)(ControllerSkin * self) = (void (*)(ControllerSkin * self)) 0x80aeef0;
-void (*ControllerSkin::ptr::CSTR_ControllerSkin)(ControllerSkin * self) = (void (*)(ControllerSkin * self)) 0x81f0d30;
+inline void (*ControllerSkin::ptr::ReloadSprites2)(ControllerSkin * self, int characterID) = (void (*)(ControllerSkin * self, int characterID)) 0x81222d0;
+inline void (*ControllerSkin::ptr::ReloadLabel)(ControllerSkin * self, int characterID) = (void (*)(ControllerSkin * self, int characterID)) 0x8109010;
+inline ControllerSkin * (*ControllerSkin::ptr::New)(ControllerSkin * self, Controller * game) = (ControllerSkin * (*)(ControllerSkin * self, Controller * game)) 0x81f1730;
+inline void (*ControllerSkin::ptr::_Update)() = (void (*)()) 0x807a200;
+inline void (*ControllerSkin::ptr::Render)(ControllerSkin * self) = (void (*)(ControllerSkin * self)) 0x8108c50;
+inline void (*ControllerSkin::ptr::_RegainFocus)() = (void (*)()) 0x807a220;
+inline void (*ControllerSkin::ptr::GUICallback)(ControllerSkin * self, int index, bool left) = (void (*)(ControllerSkin * self, int index, bool left)) 0x8365ac0;
+inline void (*ControllerSkin::ptr::Destructor)(ControllerSkin * self) = (void (*)(ControllerSkin * self)) 0x807a230;
+inline void (*ControllerSkin::ptr::mark)(ControllerSkin * self) = (void (*)(ControllerSkin * self)) 0x80aeef0;
+inline void (*ControllerSkin::ptr::CSTR_ControllerSkin)(ControllerSkin * self) = (void (*)(ControllerSkin * self)) 0x81f0d30;
 #endif
 #endif

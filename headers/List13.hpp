@@ -35,21 +35,21 @@ public:
 
 #ifdef _WIN32
 
-List13 * (*List13::ptr::_New)() = (List13 * (*)()) 0x0;
-Node23 * (*List13::ptr::AddLast13)(List13 * self, TileObject * data) = (Node23 * (*)(List13 * self, TileObject * data)) 0x5d7690;
-List13 * (*List13::ptr::_new2)(List13 * self, Array<TileObject *> * arg1) = (List13 * (*)(List13 * self, Array<TileObject *> * arg1)) 0x0;
-Enumerator32 * (*List13::ptr::ObjectEnumerator)(List13 * self) = (Enumerator32 * (*)(List13 * self)) 0x5d7730;
-void (*List13::ptr::_mark)() = (void (*)()) 0x0;
-void (*List13::ptr::CSTR_List13)(List13 * self) = (void (*)(List13 * self)) 0x5d75c0;
+inline List13 * (*List13::ptr::_New)() = (List13 * (*)()) 0x0;
+inline Node23 * (*List13::ptr::AddLast13)(List13 * self, TileObject * data) = (Node23 * (*)(List13 * self, TileObject * data)) 0x5d7690;
+inline List13 * (*List13::ptr::_new2)(List13 * self, Array<TileObject *> * arg1) = (List13 * (*)(List13 * self, Array<TileObject *> * arg1)) 0x0;
+inline Enumerator32 * (*List13::ptr::ObjectEnumerator)(List13 * self) = (Enumerator32 * (*)(List13 * self)) 0x5d7730;
+inline void (*List13::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List13::ptr::CSTR_List13)(List13 * self) = (void (*)(List13 * self)) 0x5d75c0;
 #endif
 
 #ifdef __linux__
 
-List13 * (*List13::ptr::_New)() = (List13 * (*)()) 0x81916a0;
-Node23 * (*List13::ptr::AddLast13)(List13 * self, TileObject * data) = (Node23 * (*)(List13 * self, TileObject * data)) 0x81918e0;
-List13 * (*List13::ptr::_new2)(List13 * self, Array<TileObject *> * arg1) = (List13 * (*)(List13 * self, Array<TileObject *> * arg1)) 0x0;
-Enumerator32 * (*List13::ptr::ObjectEnumerator)(List13 * self) = (Enumerator32 * (*)(List13 * self)) 0x80bb550;
-void (*List13::ptr::_mark)() = (void (*)()) 0x808b0b0;
-void (*List13::ptr::CSTR_List13)(List13 * self) = (void (*)(List13 * self)) 0x8191a20;
+inline List13 * (*List13::ptr::_New)() = (List13 * (*)()) 0x81916a0;
+inline Node23 * (*List13::ptr::AddLast13)(List13 * self, TileObject * data) = (Node23 * (*)(List13 * self, TileObject * data)) 0x81918e0;
+inline List13 * (*List13::ptr::_new2)(List13 * self, Array<TileObject *> * arg1) = (List13 * (*)(List13 * self, Array<TileObject *> * arg1)) 0x0;
+inline Enumerator32 * (*List13::ptr::ObjectEnumerator)(List13 * self) = (Enumerator32 * (*)(List13 * self)) 0x80bb550;
+inline void (*List13::ptr::_mark)() = (void (*)()) 0x808b0b0;
+inline void (*List13::ptr::CSTR_List13)(List13 * self) = (void (*)(List13 * self)) 0x8191a20;
 #endif
 #endif

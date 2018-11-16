@@ -47,29 +47,29 @@ public:
 
 #ifdef _WIN32
 
-MetroGnome * (*MetroGnome::ptr::New)(MetroGnome * self, int x_, int y_, int l) = (MetroGnome * (*)(MetroGnome * self, int x_, int y_, int l)) 0x651b30;
-MetroGnome * (*MetroGnome::ptr::_new2)() = (MetroGnome * (*)()) 0x0;
-void (*MetroGnome::ptr::Update)(MetroGnome * self) = (void (*)(MetroGnome * self)) 0x651f00;
-Point * (*MetroGnome::ptr::GetMovementDirection)(MetroGnome * self) = (Point * (*)(MetroGnome * self)) 0x651f20;
-void (*MetroGnome::ptr::Tick)(MetroGnome * self) = (void (*)(MetroGnome * self)) 0x651fd0;
-void (*MetroGnome::ptr::MoveFail)(MetroGnome * self) = (void (*)(MetroGnome * self)) 0x652340;
-void (*MetroGnome::ptr::MoveSucceed)(MetroGnome * self, bool hitPlayer, bool moveDelayed) = (void (*)(MetroGnome * self, bool hitPlayer, bool moveDelayed)) 0x652440;
-bool (*MetroGnome::ptr::Hit)(MetroGnome * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(MetroGnome * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x6525c0;
-void (*MetroGnome::ptr::_mark)() = (void (*)()) 0x0;
-void (*MetroGnome::ptr::CSTR_MetroGnome)(MetroGnome * self) = (void (*)(MetroGnome * self)) 0x651ab0;
+inline MetroGnome * (*MetroGnome::ptr::New)(MetroGnome * self, int x_, int y_, int l) = (MetroGnome * (*)(MetroGnome * self, int x_, int y_, int l)) 0x651b30;
+inline MetroGnome * (*MetroGnome::ptr::_new2)() = (MetroGnome * (*)()) 0x0;
+inline void (*MetroGnome::ptr::Update)(MetroGnome * self) = (void (*)(MetroGnome * self)) 0x651f00;
+inline Point * (*MetroGnome::ptr::GetMovementDirection)(MetroGnome * self) = (Point * (*)(MetroGnome * self)) 0x651f20;
+inline void (*MetroGnome::ptr::Tick)(MetroGnome * self) = (void (*)(MetroGnome * self)) 0x651fd0;
+inline void (*MetroGnome::ptr::MoveFail)(MetroGnome * self) = (void (*)(MetroGnome * self)) 0x652340;
+inline void (*MetroGnome::ptr::MoveSucceed)(MetroGnome * self, bool hitPlayer, bool moveDelayed) = (void (*)(MetroGnome * self, bool hitPlayer, bool moveDelayed)) 0x652440;
+inline bool (*MetroGnome::ptr::Hit)(MetroGnome * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(MetroGnome * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x6525c0;
+inline void (*MetroGnome::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*MetroGnome::ptr::CSTR_MetroGnome)(MetroGnome * self) = (void (*)(MetroGnome * self)) 0x651ab0;
 #endif
 
 #ifdef __linux__
 
-MetroGnome * (*MetroGnome::ptr::New)(MetroGnome * self, int x_, int y_, int l) = (MetroGnome * (*)(MetroGnome * self, int x_, int y_, int l)) 0x81c7550;
-MetroGnome * (*MetroGnome::ptr::_new2)() = (MetroGnome * (*)()) 0x81c7eb0;
-void (*MetroGnome::ptr::Update)(MetroGnome * self) = (void (*)(MetroGnome * self)) 0x837f650;
-Point * (*MetroGnome::ptr::GetMovementDirection)(MetroGnome * self) = (Point * (*)(MetroGnome * self)) 0x80b4390;
-void (*MetroGnome::ptr::Tick)(MetroGnome * self) = (void (*)(MetroGnome * self)) 0x83a7cb0;
-void (*MetroGnome::ptr::MoveFail)(MetroGnome * self) = (void (*)(MetroGnome * self)) 0x81348a0;
-void (*MetroGnome::ptr::MoveSucceed)(MetroGnome * self, bool hitPlayer, bool moveDelayed) = (void (*)(MetroGnome * self, bool hitPlayer, bool moveDelayed)) 0x83a7fe0;
-bool (*MetroGnome::ptr::Hit)(MetroGnome * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(MetroGnome * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83d6490;
-void (*MetroGnome::ptr::_mark)() = (void (*)()) 0x80b0380;
-void (*MetroGnome::ptr::CSTR_MetroGnome)(MetroGnome * self) = (void (*)(MetroGnome * self)) 0x81c7500;
+inline MetroGnome * (*MetroGnome::ptr::New)(MetroGnome * self, int x_, int y_, int l) = (MetroGnome * (*)(MetroGnome * self, int x_, int y_, int l)) 0x81c7550;
+inline MetroGnome * (*MetroGnome::ptr::_new2)() = (MetroGnome * (*)()) 0x81c7eb0;
+inline void (*MetroGnome::ptr::Update)(MetroGnome * self) = (void (*)(MetroGnome * self)) 0x837f650;
+inline Point * (*MetroGnome::ptr::GetMovementDirection)(MetroGnome * self) = (Point * (*)(MetroGnome * self)) 0x80b4390;
+inline void (*MetroGnome::ptr::Tick)(MetroGnome * self) = (void (*)(MetroGnome * self)) 0x83a7cb0;
+inline void (*MetroGnome::ptr::MoveFail)(MetroGnome * self) = (void (*)(MetroGnome * self)) 0x81348a0;
+inline void (*MetroGnome::ptr::MoveSucceed)(MetroGnome * self, bool hitPlayer, bool moveDelayed) = (void (*)(MetroGnome * self, bool hitPlayer, bool moveDelayed)) 0x83a7fe0;
+inline bool (*MetroGnome::ptr::Hit)(MetroGnome * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(MetroGnome * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83d6490;
+inline void (*MetroGnome::ptr::_mark)() = (void (*)()) 0x80b0380;
+inline void (*MetroGnome::ptr::CSTR_MetroGnome)(MetroGnome * self) = (void (*)(MetroGnome * self)) 0x81c7500;
 #endif
 #endif

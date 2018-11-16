@@ -24,17 +24,17 @@ public:
 
 #ifdef _WIN32
 
-Hephaestus * (*Hephaestus::ptr::New)(Hephaestus * self, int xVal, int yVal, int l, bool captv) = (Hephaestus * (*)(Hephaestus * self, int xVal, int yVal, int l, bool captv)) 0x66c970;
-Hephaestus * (*Hephaestus::ptr::_new2)() = (Hephaestus * (*)()) 0x0;
-void (*Hephaestus::ptr::Update)(Hephaestus * self) = (void (*)(Hephaestus * self)) 0x66ca30;
-void (*Hephaestus::ptr::_mark)() = (void (*)()) 0x0;
+inline Hephaestus * (*Hephaestus::ptr::New)(Hephaestus * self, int xVal, int yVal, int l, bool captv) = (Hephaestus * (*)(Hephaestus * self, int xVal, int yVal, int l, bool captv)) 0x66c970;
+inline Hephaestus * (*Hephaestus::ptr::_new2)() = (Hephaestus * (*)()) 0x0;
+inline void (*Hephaestus::ptr::Update)(Hephaestus * self) = (void (*)(Hephaestus * self)) 0x66ca30;
+inline void (*Hephaestus::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Hephaestus * (*Hephaestus::ptr::New)(Hephaestus * self, int xVal, int yVal, int l, bool captv) = (Hephaestus * (*)(Hephaestus * self, int xVal, int yVal, int l, bool captv)) 0x81da9b0;
-Hephaestus * (*Hephaestus::ptr::_new2)() = (Hephaestus * (*)()) 0x81daa70;
-void (*Hephaestus::ptr::Update)(Hephaestus * self) = (void (*)(Hephaestus * self)) 0x8387090;
-void (*Hephaestus::ptr::_mark)() = (void (*)()) 0x80b2b70;
+inline Hephaestus * (*Hephaestus::ptr::New)(Hephaestus * self, int xVal, int yVal, int l, bool captv) = (Hephaestus * (*)(Hephaestus * self, int xVal, int yVal, int l, bool captv)) 0x81da9b0;
+inline Hephaestus * (*Hephaestus::ptr::_new2)() = (Hephaestus * (*)()) 0x81daa70;
+inline void (*Hephaestus::ptr::Update)(Hephaestus * self) = (void (*)(Hephaestus * self)) 0x8387090;
+inline void (*Hephaestus::ptr::_mark)() = (void (*)()) 0x80b2b70;
 #endif
 #endif

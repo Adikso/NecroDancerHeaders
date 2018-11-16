@@ -30,19 +30,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator35 * (*Enumerator35::ptr::_New)(Enumerator35 * self, List17 * arg1) = (Enumerator35 * (*)(Enumerator35 * self, List17 * arg1)) 0x0;
-Enumerator35 * (*Enumerator35::ptr::_new2)() = (Enumerator35 * (*)()) 0x0;
-bool (*Enumerator35::ptr::_HasNext)() = (bool (*)()) 0x0;
-EnemyObject * (*Enumerator35::ptr::_NextObject)() = (EnemyObject * (*)()) 0x0;
-void (*Enumerator35::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator35 * (*Enumerator35::ptr::_New)(Enumerator35 * self, List17 * arg1) = (Enumerator35 * (*)(Enumerator35 * self, List17 * arg1)) 0x0;
+inline Enumerator35 * (*Enumerator35::ptr::_new2)() = (Enumerator35 * (*)()) 0x0;
+inline bool (*Enumerator35::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline EnemyObject * (*Enumerator35::ptr::_NextObject)() = (EnemyObject * (*)()) 0x0;
+inline void (*Enumerator35::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator35 * (*Enumerator35::ptr::_New)(Enumerator35 * self, List17 * arg1) = (Enumerator35 * (*)(Enumerator35 * self, List17 * arg1)) 0x0;
-Enumerator35 * (*Enumerator35::ptr::_new2)() = (Enumerator35 * (*)()) 0x81d4110;
-bool (*Enumerator35::ptr::_HasNext)() = (bool (*)()) 0x808edb0;
-EnemyObject * (*Enumerator35::ptr::_NextObject)() = (EnemyObject * (*)()) 0x808ed40;
-void (*Enumerator35::ptr::_mark)() = (void (*)()) 0x8089d70;
+inline Enumerator35 * (*Enumerator35::ptr::_New)(Enumerator35 * self, List17 * arg1) = (Enumerator35 * (*)(Enumerator35 * self, List17 * arg1)) 0x0;
+inline Enumerator35 * (*Enumerator35::ptr::_new2)() = (Enumerator35 * (*)()) 0x81d4110;
+inline bool (*Enumerator35::ptr::_HasNext)() = (bool (*)()) 0x808edb0;
+inline EnemyObject * (*Enumerator35::ptr::_NextObject)() = (EnemyObject * (*)()) 0x808ed40;
+inline void (*Enumerator35::ptr::_mark)() = (void (*)()) 0x8089d70;
 #endif
 #endif

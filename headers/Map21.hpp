@@ -40,29 +40,29 @@ public:
 
 #ifdef _WIN32
 
-Map21 * (*Map21::ptr::_New)() = (Map21 * (*)()) 0x0;
-Node75 * (*Map21::ptr::_FirstNode)() = (Node75 * (*)()) 0x0;
-NodeEnumerator5 * (*Map21::ptr::ObjectEnumerator)(Map21 * self) = (NodeEnumerator5 * (*)(Map21 * self)) 0x67fe80;
-int (*Map21::ptr::_Clear)() = (int (*)()) 0x0;
-int (*Map21::ptr::_Compare)(Map21 * self, String * arg1, String * arg2) = (int (*)(Map21 * self, String * arg1, String * arg2)) 0x0;
-int (*Map21::ptr::_RotateLeft21)(Map21 * self, Node75 * arg1) = (int (*)(Map21 * self, Node75 * arg1)) 0x0;
-int (*Map21::ptr::_RotateRight21)(Map21 * self, Node75 * arg1) = (int (*)(Map21 * self, Node75 * arg1)) 0x0;
-int (*Map21::ptr::_InsertFixup21)(Map21 * self, Node75 * node) = (int (*)(Map21 * self, Node75 * node)) 0x67ff60;
-bool (*Map21::ptr::Set24)(Map21 * self, String * key, Point * value) = (bool (*)(Map21 * self, String * key, Point * value)) 0x680050;
-void (*Map21::ptr::_mark)() = (void (*)()) 0x0;
+inline Map21 * (*Map21::ptr::_New)() = (Map21 * (*)()) 0x0;
+inline Node75 * (*Map21::ptr::_FirstNode)() = (Node75 * (*)()) 0x0;
+inline NodeEnumerator5 * (*Map21::ptr::ObjectEnumerator)(Map21 * self) = (NodeEnumerator5 * (*)(Map21 * self)) 0x67fe80;
+inline int (*Map21::ptr::_Clear)() = (int (*)()) 0x0;
+inline int (*Map21::ptr::_Compare)(Map21 * self, String * arg1, String * arg2) = (int (*)(Map21 * self, String * arg1, String * arg2)) 0x0;
+inline int (*Map21::ptr::_RotateLeft21)(Map21 * self, Node75 * arg1) = (int (*)(Map21 * self, Node75 * arg1)) 0x0;
+inline int (*Map21::ptr::_RotateRight21)(Map21 * self, Node75 * arg1) = (int (*)(Map21 * self, Node75 * arg1)) 0x0;
+inline int (*Map21::ptr::_InsertFixup21)(Map21 * self, Node75 * node) = (int (*)(Map21 * self, Node75 * node)) 0x67ff60;
+inline bool (*Map21::ptr::Set24)(Map21 * self, String * key, Point * value) = (bool (*)(Map21 * self, String * key, Point * value)) 0x680050;
+inline void (*Map21::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Map21 * (*Map21::ptr::_New)() = (Map21 * (*)()) 0x81dec70;
-Node75 * (*Map21::ptr::_FirstNode)() = (Node75 * (*)()) 0x8078270;
-NodeEnumerator5 * (*Map21::ptr::ObjectEnumerator)(Map21 * self) = (NodeEnumerator5 * (*)(Map21 * self)) 0x80bc2d0;
-int (*Map21::ptr::_Clear)() = (int (*)()) 0x8078290;
-int (*Map21::ptr::_Compare)(Map21 * self, String * arg1, String * arg2) = (int (*)(Map21 * self, String * arg1, String * arg2)) 0x0;
-int (*Map21::ptr::_RotateLeft21)(Map21 * self, Node75 * arg1) = (int (*)(Map21 * self, Node75 * arg1)) 0x0;
-int (*Map21::ptr::_RotateRight21)(Map21 * self, Node75 * arg1) = (int (*)(Map21 * self, Node75 * arg1)) 0x0;
-int (*Map21::ptr::_InsertFixup21)(Map21 * self, Node75 * node) = (int (*)(Map21 * self, Node75 * node)) 0x0;
-bool (*Map21::ptr::Set24)(Map21 * self, String * key, Point * value) = (bool (*)(Map21 * self, String * key, Point * value)) 0x80dc450;
-void (*Map21::ptr::_mark)() = (void (*)()) 0x808deb0;
+inline Map21 * (*Map21::ptr::_New)() = (Map21 * (*)()) 0x81dec70;
+inline Node75 * (*Map21::ptr::_FirstNode)() = (Node75 * (*)()) 0x8078270;
+inline NodeEnumerator5 * (*Map21::ptr::ObjectEnumerator)(Map21 * self) = (NodeEnumerator5 * (*)(Map21 * self)) 0x80bc2d0;
+inline int (*Map21::ptr::_Clear)() = (int (*)()) 0x8078290;
+inline int (*Map21::ptr::_Compare)(Map21 * self, String * arg1, String * arg2) = (int (*)(Map21 * self, String * arg1, String * arg2)) 0x0;
+inline int (*Map21::ptr::_RotateLeft21)(Map21 * self, Node75 * arg1) = (int (*)(Map21 * self, Node75 * arg1)) 0x0;
+inline int (*Map21::ptr::_RotateRight21)(Map21 * self, Node75 * arg1) = (int (*)(Map21 * self, Node75 * arg1)) 0x0;
+inline int (*Map21::ptr::_InsertFixup21)(Map21 * self, Node75 * node) = (int (*)(Map21 * self, Node75 * node)) 0x0;
+inline bool (*Map21::ptr::Set24)(Map21 * self, String * key, Point * value) = (bool (*)(Map21 * self, String * key, Point * value)) 0x80dc450;
+inline void (*Map21::ptr::_mark)() = (void (*)()) 0x808deb0;
 #endif
 #endif

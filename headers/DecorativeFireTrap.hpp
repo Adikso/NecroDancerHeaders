@@ -23,17 +23,17 @@ public:
 
 #ifdef _WIN32
 
-DecorativeFireTrap * (*DecorativeFireTrap::ptr::New)(DecorativeFireTrap * self, int xVal, int yVal) = (DecorativeFireTrap * (*)(DecorativeFireTrap * self, int xVal, int yVal)) 0x65acb0;
-DecorativeFireTrap * (*DecorativeFireTrap::ptr::_new2)() = (DecorativeFireTrap * (*)()) 0x0;
-void (*DecorativeFireTrap::ptr::Update)(DecorativeFireTrap * self) = (void (*)(DecorativeFireTrap * self)) 0x65ae30;
-void (*DecorativeFireTrap::ptr::_mark)() = (void (*)()) 0x0;
+inline DecorativeFireTrap * (*DecorativeFireTrap::ptr::New)(DecorativeFireTrap * self, int xVal, int yVal) = (DecorativeFireTrap * (*)(DecorativeFireTrap * self, int xVal, int yVal)) 0x65acb0;
+inline DecorativeFireTrap * (*DecorativeFireTrap::ptr::_new2)() = (DecorativeFireTrap * (*)()) 0x0;
+inline void (*DecorativeFireTrap::ptr::Update)(DecorativeFireTrap * self) = (void (*)(DecorativeFireTrap * self)) 0x65ae30;
+inline void (*DecorativeFireTrap::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-DecorativeFireTrap * (*DecorativeFireTrap::ptr::New)(DecorativeFireTrap * self, int xVal, int yVal) = (DecorativeFireTrap * (*)(DecorativeFireTrap * self, int xVal, int yVal)) 0x81d0c50;
-DecorativeFireTrap * (*DecorativeFireTrap::ptr::_new2)() = (DecorativeFireTrap * (*)()) 0x81d0e00;
-void (*DecorativeFireTrap::ptr::Update)(DecorativeFireTrap * self) = (void (*)(DecorativeFireTrap * self)) 0x82573a0;
-void (*DecorativeFireTrap::ptr::_mark)() = (void (*)()) 0x80a5c40;
+inline DecorativeFireTrap * (*DecorativeFireTrap::ptr::New)(DecorativeFireTrap * self, int xVal, int yVal) = (DecorativeFireTrap * (*)(DecorativeFireTrap * self, int xVal, int yVal)) 0x81d0c50;
+inline DecorativeFireTrap * (*DecorativeFireTrap::ptr::_new2)() = (DecorativeFireTrap * (*)()) 0x81d0e00;
+inline void (*DecorativeFireTrap::ptr::Update)(DecorativeFireTrap * self) = (void (*)(DecorativeFireTrap * self)) 0x82573a0;
+inline void (*DecorativeFireTrap::ptr::_mark)() = (void (*)()) 0x80a5c40;
 #endif
 #endif

@@ -34,23 +34,23 @@ public:
 
 #ifdef _WIN32
 
-Hellhound * (*Hellhound::ptr::New)(Hellhound * self, int xVal, int yVal, int l) = (Hellhound * (*)(Hellhound * self, int xVal, int yVal, int l)) 0x646fd0;
-Hellhound * (*Hellhound::ptr::_new2)() = (Hellhound * (*)()) 0x0;
-Point * (*Hellhound::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
-void (*Hellhound::ptr::_Update)() = (void (*)()) 0x0;
-void (*Hellhound::ptr::Die)(Hellhound * self) = (void (*)(Hellhound * self)) 0x6471d0;
-void (*Hellhound::ptr::_mark)() = (void (*)()) 0x0;
-void (*Hellhound::ptr::CSTR_Hellhound)(Hellhound * self) = (void (*)(Hellhound * self)) 0x646f70;
+inline Hellhound * (*Hellhound::ptr::New)(Hellhound * self, int xVal, int yVal, int l) = (Hellhound * (*)(Hellhound * self, int xVal, int yVal, int l)) 0x646fd0;
+inline Hellhound * (*Hellhound::ptr::_new2)() = (Hellhound * (*)()) 0x0;
+inline Point * (*Hellhound::ptr::_GetMovementDirection)() = (Point * (*)()) 0x0;
+inline void (*Hellhound::ptr::_Update)() = (void (*)()) 0x0;
+inline void (*Hellhound::ptr::Die)(Hellhound * self) = (void (*)(Hellhound * self)) 0x6471d0;
+inline void (*Hellhound::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Hellhound::ptr::CSTR_Hellhound)(Hellhound * self) = (void (*)(Hellhound * self)) 0x646f70;
 #endif
 
 #ifdef __linux__
 
-Hellhound * (*Hellhound::ptr::New)(Hellhound * self, int xVal, int yVal, int l) = (Hellhound * (*)(Hellhound * self, int xVal, int yVal, int l)) 0x81c3ce0;
-Hellhound * (*Hellhound::ptr::_new2)() = (Hellhound * (*)()) 0x81c3e30;
-Point * (*Hellhound::ptr::_GetMovementDirection)() = (Point * (*)()) 0x8076310;
-void (*Hellhound::ptr::_Update)() = (void (*)()) 0x8381c70;
-void (*Hellhound::ptr::Die)(Hellhound * self) = (void (*)(Hellhound * self)) 0x83b6210;
-void (*Hellhound::ptr::_mark)() = (void (*)()) 0x80b0590;
-void (*Hellhound::ptr::CSTR_Hellhound)(Hellhound * self) = (void (*)(Hellhound * self)) 0x81c3cc0;
+inline Hellhound * (*Hellhound::ptr::New)(Hellhound * self, int xVal, int yVal, int l) = (Hellhound * (*)(Hellhound * self, int xVal, int yVal, int l)) 0x81c3ce0;
+inline Hellhound * (*Hellhound::ptr::_new2)() = (Hellhound * (*)()) 0x81c3e30;
+inline Point * (*Hellhound::ptr::_GetMovementDirection)() = (Point * (*)()) 0x8076310;
+inline void (*Hellhound::ptr::_Update)() = (void (*)()) 0x8381c70;
+inline void (*Hellhound::ptr::Die)(Hellhound * self) = (void (*)(Hellhound * self)) 0x83b6210;
+inline void (*Hellhound::ptr::_mark)() = (void (*)()) 0x80b0590;
+inline void (*Hellhound::ptr::CSTR_Hellhound)(Hellhound * self) = (void (*)(Hellhound * self)) 0x81c3cc0;
 #endif
 #endif

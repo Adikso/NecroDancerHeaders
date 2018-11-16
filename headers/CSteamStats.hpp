@@ -38,19 +38,19 @@ public:
 
 #ifdef _WIN32
 
-bool (*CSteamStats::ptr::_RequestStats)() = (bool (*)()) 0x0;
-bool (*CSteamStats::ptr::StoreStats)(CSteamStats * self) = (bool (*)(CSteamStats * self)) 0x412e50;
-void (*CSteamStats::ptr::OnUserStatsReceived)(CSteamStats * self, UserStatsReceived_t * pCallback) = (void (*)(CSteamStats * self, UserStatsReceived_t * pCallback)) 0x413020;
-void (*CSteamStats::ptr::OnUserStatsStored)(CSteamStats * self, UserStatsStored_t * pCallback) = (void (*)(CSteamStats * self, UserStatsStored_t * pCallback)) 0x4131a0;
-void (*CSteamStats::ptr::CSTR_CSteamStats)(CSteamStats * self, Stat_t * Stats, int NumStats) = (void (*)(CSteamStats * self, Stat_t * Stats, int NumStats)) 0x412d10;
+inline bool (*CSteamStats::ptr::_RequestStats)() = (bool (*)()) 0x0;
+inline bool (*CSteamStats::ptr::StoreStats)(CSteamStats * self) = (bool (*)(CSteamStats * self)) 0x412e50;
+inline void (*CSteamStats::ptr::OnUserStatsReceived)(CSteamStats * self, UserStatsReceived_t * pCallback) = (void (*)(CSteamStats * self, UserStatsReceived_t * pCallback)) 0x413020;
+inline void (*CSteamStats::ptr::OnUserStatsStored)(CSteamStats * self, UserStatsStored_t * pCallback) = (void (*)(CSteamStats * self, UserStatsStored_t * pCallback)) 0x4131a0;
+inline void (*CSteamStats::ptr::CSTR_CSteamStats)(CSteamStats * self, Stat_t * Stats, int NumStats) = (void (*)(CSteamStats * self, Stat_t * Stats, int NumStats)) 0x412d10;
 #endif
 
 #ifdef __linux__
 
-bool (*CSteamStats::ptr::_RequestStats)() = (bool (*)()) 0x80f8f10;
-bool (*CSteamStats::ptr::StoreStats)(CSteamStats * self) = (bool (*)(CSteamStats * self)) 0x8275f20;
-void (*CSteamStats::ptr::OnUserStatsReceived)(CSteamStats * self, UserStatsReceived_t * pCallback) = (void (*)(CSteamStats * self, UserStatsReceived_t * pCallback)) 0x8275770;
-void (*CSteamStats::ptr::OnUserStatsStored)(CSteamStats * self, UserStatsStored_t * pCallback) = (void (*)(CSteamStats * self, UserStatsStored_t * pCallback)) 0x8275b60;
-void (*CSteamStats::ptr::CSTR_CSteamStats)(CSteamStats * self, Stat_t * Stats, int NumStats) = (void (*)(CSteamStats * self, Stat_t * Stats, int NumStats)) 0x81ff9a0;
+inline bool (*CSteamStats::ptr::_RequestStats)() = (bool (*)()) 0x80f8f10;
+inline bool (*CSteamStats::ptr::StoreStats)(CSteamStats * self) = (bool (*)(CSteamStats * self)) 0x8275f20;
+inline void (*CSteamStats::ptr::OnUserStatsReceived)(CSteamStats * self, UserStatsReceived_t * pCallback) = (void (*)(CSteamStats * self, UserStatsReceived_t * pCallback)) 0x8275770;
+inline void (*CSteamStats::ptr::OnUserStatsStored)(CSteamStats * self, UserStatsStored_t * pCallback) = (void (*)(CSteamStats * self, UserStatsStored_t * pCallback)) 0x8275b60;
+inline void (*CSteamStats::ptr::CSTR_CSteamStats)(CSteamStats * self, Stat_t * Stats, int NumStats) = (void (*)(CSteamStats * self, Stat_t * Stats, int NumStats)) 0x81ff9a0;
 #endif
 #endif

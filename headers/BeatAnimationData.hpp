@@ -30,17 +30,17 @@ public:
 
 #ifdef _WIN32
 
-BeatAnimationData * (*BeatAnimationData::ptr::_New)(BeatAnimationData * self, int arg1, float arg2, float arg3, bool arg4) = (BeatAnimationData * (*)(BeatAnimationData * self, int arg1, float arg2, float arg3, bool arg4)) 0x0;
-BeatAnimationData * (*BeatAnimationData::ptr::_new2)() = (BeatAnimationData * (*)()) 0x0;
-void (*BeatAnimationData::ptr::_mark)() = (void (*)()) 0x0;
-void (*BeatAnimationData::ptr::CSTR_BeatAnimationData)(BeatAnimationData * self) = (void (*)(BeatAnimationData * self)) 0x6160c0;
+inline BeatAnimationData * (*BeatAnimationData::ptr::_New)(BeatAnimationData * self, int arg1, float arg2, float arg3, bool arg4) = (BeatAnimationData * (*)(BeatAnimationData * self, int arg1, float arg2, float arg3, bool arg4)) 0x0;
+inline BeatAnimationData * (*BeatAnimationData::ptr::_new2)() = (BeatAnimationData * (*)()) 0x0;
+inline void (*BeatAnimationData::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*BeatAnimationData::ptr::CSTR_BeatAnimationData)(BeatAnimationData * self) = (void (*)(BeatAnimationData * self)) 0x6160c0;
 #endif
 
 #ifdef __linux__
 
-BeatAnimationData * (*BeatAnimationData::ptr::_New)(BeatAnimationData * self, int arg1, float arg2, float arg3, bool arg4) = (BeatAnimationData * (*)(BeatAnimationData * self, int arg1, float arg2, float arg3, bool arg4)) 0x81b59d0;
-BeatAnimationData * (*BeatAnimationData::ptr::_new2)() = (BeatAnimationData * (*)()) 0x81b5a00;
-void (*BeatAnimationData::ptr::_mark)() = (void (*)()) 0x8074c60;
-void (*BeatAnimationData::ptr::CSTR_BeatAnimationData)(BeatAnimationData * self) = (void (*)(BeatAnimationData * self)) 0x81b59b0;
+inline BeatAnimationData * (*BeatAnimationData::ptr::_New)(BeatAnimationData * self, int arg1, float arg2, float arg3, bool arg4) = (BeatAnimationData * (*)(BeatAnimationData * self, int arg1, float arg2, float arg3, bool arg4)) 0x81b59d0;
+inline BeatAnimationData * (*BeatAnimationData::ptr::_new2)() = (BeatAnimationData * (*)()) 0x81b5a00;
+inline void (*BeatAnimationData::ptr::_mark)() = (void (*)()) 0x8074c60;
+inline void (*BeatAnimationData::ptr::CSTR_BeatAnimationData)(BeatAnimationData * self) = (void (*)(BeatAnimationData * self)) 0x81b59b0;
 #endif
 #endif

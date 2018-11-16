@@ -24,15 +24,15 @@ public:
 
 #ifdef _WIN32
 
-PulseData * (*PulseData::ptr::_New)(PulseData * self, int arg1, int arg2) = (PulseData * (*)(PulseData * self, int arg1, int arg2)) 0x0;
-PulseData * (*PulseData::ptr::_new2)() = (PulseData * (*)()) 0x0;
-void (*PulseData::ptr::_mark)() = (void (*)()) 0x0;
+inline PulseData * (*PulseData::ptr::_New)(PulseData * self, int arg1, int arg2) = (PulseData * (*)(PulseData * self, int arg1, int arg2)) 0x0;
+inline PulseData * (*PulseData::ptr::_new2)() = (PulseData * (*)()) 0x0;
+inline void (*PulseData::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-PulseData * (*PulseData::ptr::_New)(PulseData * self, int arg1, int arg2) = (PulseData * (*)(PulseData * self, int arg1, int arg2)) 0x81bdda0;
-PulseData * (*PulseData::ptr::_new2)() = (PulseData * (*)()) 0x81bddc0;
-void (*PulseData::ptr::_mark)() = (void (*)()) 0x8075d30;
+inline PulseData * (*PulseData::ptr::_New)(PulseData * self, int arg1, int arg2) = (PulseData * (*)(PulseData * self, int arg1, int arg2)) 0x81bdda0;
+inline PulseData * (*PulseData::ptr::_new2)() = (PulseData * (*)()) 0x81bddc0;
+inline void (*PulseData::ptr::_mark)() = (void (*)()) 0x8075d30;
 #endif
 #endif

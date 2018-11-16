@@ -29,19 +29,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator40 * (*Enumerator40::ptr::_New)(Enumerator40 * self, Stack5 * arg1) = (Enumerator40 * (*)(Enumerator40 * self, Stack5 * arg1)) 0x0;
-Enumerator40 * (*Enumerator40::ptr::_new2)() = (Enumerator40 * (*)()) 0x0;
-bool (*Enumerator40::ptr::_HasNext)() = (bool (*)()) 0x0;
-TileData * (*Enumerator40::ptr::_NextObject)() = (TileData * (*)()) 0x0;
-void (*Enumerator40::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator40 * (*Enumerator40::ptr::_New)(Enumerator40 * self, Stack5 * arg1) = (Enumerator40 * (*)(Enumerator40 * self, Stack5 * arg1)) 0x0;
+inline Enumerator40 * (*Enumerator40::ptr::_new2)() = (Enumerator40 * (*)()) 0x0;
+inline bool (*Enumerator40::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline TileData * (*Enumerator40::ptr::_NextObject)() = (TileData * (*)()) 0x0;
+inline void (*Enumerator40::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator40 * (*Enumerator40::ptr::_New)(Enumerator40 * self, Stack5 * arg1) = (Enumerator40 * (*)(Enumerator40 * self, Stack5 * arg1)) 0x0;
-Enumerator40 * (*Enumerator40::ptr::_new2)() = (Enumerator40 * (*)()) 0x81e2520;
-bool (*Enumerator40::ptr::_HasNext)() = (bool (*)()) 0x8092290;
-TileData * (*Enumerator40::ptr::_NextObject)() = (TileData * (*)()) 0x8092220;
-void (*Enumerator40::ptr::_mark)() = (void (*)()) 0x808b110;
+inline Enumerator40 * (*Enumerator40::ptr::_New)(Enumerator40 * self, Stack5 * arg1) = (Enumerator40 * (*)(Enumerator40 * self, Stack5 * arg1)) 0x0;
+inline Enumerator40 * (*Enumerator40::ptr::_new2)() = (Enumerator40 * (*)()) 0x81e2520;
+inline bool (*Enumerator40::ptr::_HasNext)() = (bool (*)()) 0x8092290;
+inline TileData * (*Enumerator40::ptr::_NextObject)() = (TileData * (*)()) 0x8092220;
+inline void (*Enumerator40::ptr::_mark)() = (void (*)()) 0x808b110;
 #endif
 #endif

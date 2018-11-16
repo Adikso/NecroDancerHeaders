@@ -21,15 +21,15 @@ public:
 
 #ifdef _WIN32
 
-HeadNode * (*HeadNode::ptr::New)(HeadNode * self) = (HeadNode * (*)(HeadNode * self)) 0x4541f0;
-Node2 * (*HeadNode::ptr::_GetNode)() = (Node2 * (*)()) 0x0;
-void (*HeadNode::ptr::mark)(HeadNode * self) = (void (*)(HeadNode * self)) 0x454290;
+inline HeadNode * (*HeadNode::ptr::New)(HeadNode * self) = (HeadNode * (*)(HeadNode * self)) 0x4541f0;
+inline Node2 * (*HeadNode::ptr::_GetNode)() = (Node2 * (*)()) 0x0;
+inline void (*HeadNode::ptr::mark)(HeadNode * self) = (void (*)(HeadNode * self)) 0x454290;
 #endif
 
 #ifdef __linux__
 
-HeadNode * (*HeadNode::ptr::New)(HeadNode * self) = (HeadNode * (*)(HeadNode * self)) 0x81283f0;
-Node2 * (*HeadNode::ptr::_GetNode)() = (Node2 * (*)()) 0x806df10;
-void (*HeadNode::ptr::mark)(HeadNode * self) = (void (*)(HeadNode * self)) 0x808e480;
+inline HeadNode * (*HeadNode::ptr::New)(HeadNode * self) = (HeadNode * (*)(HeadNode * self)) 0x81283f0;
+inline Node2 * (*HeadNode::ptr::_GetNode)() = (Node2 * (*)()) 0x806df10;
+inline void (*HeadNode::ptr::mark)(HeadNode * self) = (void (*)(HeadNode * self)) 0x808e480;
 #endif
 #endif

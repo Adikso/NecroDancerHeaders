@@ -39,25 +39,25 @@ public:
 
 #ifdef _WIN32
 
-List55 * (*List55::ptr::_New)() = (List55 * (*)()) 0x0;
-Node76 * (*List55::ptr::AddLast55)(List55 * self, Doppelganger * data) = (Node76 * (*)(List55 * self, Doppelganger * data)) 0x689250;
-List55 * (*List55::ptr::_new2)(List55 * self, Array<Doppelganger *> * arg1) = (List55 * (*)(List55 * self, Array<Doppelganger *> * arg1)) 0x0;
-Enumerator48 * (*List55::ptr::ObjectEnumerator)(List55 * self) = (Enumerator48 * (*)(List55 * self)) 0x6892f0;
-bool (*List55::ptr::_Equals33)(List55 * self, Doppelganger * arg1, Doppelganger * arg2) = (bool (*)(List55 * self, Doppelganger * arg1, Doppelganger * arg2)) 0x0;
-int (*List55::ptr::_RemoveEach29)(List55 * self, Doppelganger * arg1) = (int (*)(List55 * self, Doppelganger * arg1)) 0x0;
-void (*List55::ptr::_mark)() = (void (*)()) 0x0;
-void (*List55::ptr::CSTR_List55)(List55 * self) = (void (*)(List55 * self)) 0x689180;
+inline List55 * (*List55::ptr::_New)() = (List55 * (*)()) 0x0;
+inline Node76 * (*List55::ptr::AddLast55)(List55 * self, Doppelganger * data) = (Node76 * (*)(List55 * self, Doppelganger * data)) 0x689250;
+inline List55 * (*List55::ptr::_new2)(List55 * self, Array<Doppelganger *> * arg1) = (List55 * (*)(List55 * self, Array<Doppelganger *> * arg1)) 0x0;
+inline Enumerator48 * (*List55::ptr::ObjectEnumerator)(List55 * self) = (Enumerator48 * (*)(List55 * self)) 0x6892f0;
+inline bool (*List55::ptr::_Equals33)(List55 * self, Doppelganger * arg1, Doppelganger * arg2) = (bool (*)(List55 * self, Doppelganger * arg1, Doppelganger * arg2)) 0x0;
+inline int (*List55::ptr::_RemoveEach29)(List55 * self, Doppelganger * arg1) = (int (*)(List55 * self, Doppelganger * arg1)) 0x0;
+inline void (*List55::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List55::ptr::CSTR_List55)(List55 * self) = (void (*)(List55 * self)) 0x689180;
 #endif
 
 #ifdef __linux__
 
-List55 * (*List55::ptr::_New)() = (List55 * (*)()) 0x81e13e0;
-Node76 * (*List55::ptr::AddLast55)(List55 * self, Doppelganger * data) = (Node76 * (*)(List55 * self, Doppelganger * data)) 0x81e1620;
-List55 * (*List55::ptr::_new2)(List55 * self, Array<Doppelganger *> * arg1) = (List55 * (*)(List55 * self, Array<Doppelganger *> * arg1)) 0x0;
-Enumerator48 * (*List55::ptr::ObjectEnumerator)(List55 * self) = (Enumerator48 * (*)(List55 * self)) 0x80bc350;
-bool (*List55::ptr::_Equals33)(List55 * self, Doppelganger * arg1, Doppelganger * arg2) = (bool (*)(List55 * self, Doppelganger * arg1, Doppelganger * arg2)) 0x8078af0;
-int (*List55::ptr::_RemoveEach29)(List55 * self, Doppelganger * arg1) = (int (*)(List55 * self, Doppelganger * arg1)) 0x8078b00;
-void (*List55::ptr::_mark)() = (void (*)()) 0x808b1b0;
-void (*List55::ptr::CSTR_List55)(List55 * self) = (void (*)(List55 * self)) 0x81e1760;
+inline List55 * (*List55::ptr::_New)() = (List55 * (*)()) 0x81e13e0;
+inline Node76 * (*List55::ptr::AddLast55)(List55 * self, Doppelganger * data) = (Node76 * (*)(List55 * self, Doppelganger * data)) 0x81e1620;
+inline List55 * (*List55::ptr::_new2)(List55 * self, Array<Doppelganger *> * arg1) = (List55 * (*)(List55 * self, Array<Doppelganger *> * arg1)) 0x0;
+inline Enumerator48 * (*List55::ptr::ObjectEnumerator)(List55 * self) = (Enumerator48 * (*)(List55 * self)) 0x80bc350;
+inline bool (*List55::ptr::_Equals33)(List55 * self, Doppelganger * arg1, Doppelganger * arg2) = (bool (*)(List55 * self, Doppelganger * arg1, Doppelganger * arg2)) 0x8078af0;
+inline int (*List55::ptr::_RemoveEach29)(List55 * self, Doppelganger * arg1) = (int (*)(List55 * self, Doppelganger * arg1)) 0x8078b00;
+inline void (*List55::ptr::_mark)() = (void (*)()) 0x808b1b0;
+inline void (*List55::ptr::CSTR_List55)(List55 * self) = (void (*)(List55 * self)) 0x81e1760;
 #endif
 #endif

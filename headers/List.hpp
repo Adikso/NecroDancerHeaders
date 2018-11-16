@@ -55,41 +55,41 @@ public:
 
 #ifdef _WIN32
 
-List * (*List::ptr::_New)() = (List * (*)()) 0x0;
-Node2 * (*List::ptr::AddLast)(List * self, XMLNode * data) = (Node2 * (*)(List * self, XMLNode * data)) 0x453bd0;
-List * (*List::ptr::_new2)(List * self, Array<XMLNode *> * arg1) = (List * (*)(List * self, Array<XMLNode *> * arg1)) 0x0;
-bool (*List::ptr::IsEmpty)(List * self) = (bool (*)(List * self)) 0x453c70;
-Enumerator * (*List::ptr::ObjectEnumerator)(List * self) = (Enumerator * (*)(List * self)) 0x453c80;
-XMLNode * (*List::ptr::RemoveLast)(List * self) = (XMLNode * (*)(List * self)) 0x453d10;
-XMLNode * (*List::ptr::Last2)(List * self) = (XMLNode * (*)(List * self)) 0x453d30;
-int (*List::ptr::Count)(List * self) = (int (*)(List * self)) 0x453d40;
-XMLNode * (*List::ptr::_First)() = (XMLNode * (*)()) 0x0;
-Array<XMLNode *> * (*List::ptr::ToArray)(List * self) = (Array<XMLNode *> * (*)(List * self)) 0x453d70;
-int (*List::ptr::Clear)(List * self) = (int (*)(List * self)) 0x453e40;
-bool (*List::ptr::Equals)(List * self, XMLNode * lhs, XMLNode * rhs) = (bool (*)(List * self, XMLNode * lhs, XMLNode * rhs)) 0x453ef0;
-int (*List::ptr::RemoveEach)(List * self, XMLNode * value) = (int (*)(List * self, XMLNode * value)) 0x453f10;
-int (*List::ptr::Remove2)(List * self, XMLNode * value) = (int (*)(List * self, XMLNode * value)) 0x453f50;
-void (*List::ptr::_mark)() = (void (*)()) 0x0;
-void (*List::ptr::CSTR_List)(List * self) = (void (*)(List * self)) 0x453b00;
+inline List * (*List::ptr::_New)() = (List * (*)()) 0x0;
+inline Node2 * (*List::ptr::AddLast)(List * self, XMLNode * data) = (Node2 * (*)(List * self, XMLNode * data)) 0x453bd0;
+inline List * (*List::ptr::_new2)(List * self, Array<XMLNode *> * arg1) = (List * (*)(List * self, Array<XMLNode *> * arg1)) 0x0;
+inline bool (*List::ptr::IsEmpty)(List * self) = (bool (*)(List * self)) 0x453c70;
+inline Enumerator * (*List::ptr::ObjectEnumerator)(List * self) = (Enumerator * (*)(List * self)) 0x453c80;
+inline XMLNode * (*List::ptr::RemoveLast)(List * self) = (XMLNode * (*)(List * self)) 0x453d10;
+inline XMLNode * (*List::ptr::Last2)(List * self) = (XMLNode * (*)(List * self)) 0x453d30;
+inline int (*List::ptr::Count)(List * self) = (int (*)(List * self)) 0x453d40;
+inline XMLNode * (*List::ptr::_First)() = (XMLNode * (*)()) 0x0;
+inline Array<XMLNode *> * (*List::ptr::ToArray)(List * self) = (Array<XMLNode *> * (*)(List * self)) 0x453d70;
+inline int (*List::ptr::Clear)(List * self) = (int (*)(List * self)) 0x453e40;
+inline bool (*List::ptr::Equals)(List * self, XMLNode * lhs, XMLNode * rhs) = (bool (*)(List * self, XMLNode * lhs, XMLNode * rhs)) 0x453ef0;
+inline int (*List::ptr::RemoveEach)(List * self, XMLNode * value) = (int (*)(List * self, XMLNode * value)) 0x453f10;
+inline int (*List::ptr::Remove2)(List * self, XMLNode * value) = (int (*)(List * self, XMLNode * value)) 0x453f50;
+inline void (*List::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List::ptr::CSTR_List)(List * self) = (void (*)(List * self)) 0x453b00;
 #endif
 
 #ifdef __linux__
 
-List * (*List::ptr::_New)() = (List * (*)()) 0x8128180;
-Node2 * (*List::ptr::AddLast)(List * self, XMLNode * data) = (Node2 * (*)(List * self, XMLNode * data)) 0x80b5e00;
-List * (*List::ptr::_new2)(List * self, Array<XMLNode *> * arg1) = (List * (*)(List * self, Array<XMLNode *> * arg1)) 0x0;
-bool (*List::ptr::IsEmpty)(List * self) = (bool (*)(List * self)) 0x806dd80;
-Enumerator * (*List::ptr::ObjectEnumerator)(List * self) = (Enumerator * (*)(List * self)) 0x80b5d30;
-XMLNode * (*List::ptr::RemoveLast)(List * self) = (XMLNode * (*)(List * self)) 0x806dd90;
-XMLNode * (*List::ptr::Last2)(List * self) = (XMLNode * (*)(List * self)) 0x806ddd0;
-int (*List::ptr::Count)(List * self) = (int (*)(List * self)) 0x806ddf0;
-XMLNode * (*List::ptr::_First)() = (XMLNode * (*)()) 0x806de10;
-Array<XMLNode *> * (*List::ptr::ToArray)(List * self) = (Array<XMLNode *> * (*)(List * self)) 0x80c0470;
-int (*List::ptr::Clear)(List * self) = (int (*)(List * self)) 0x8095380;
-bool (*List::ptr::Equals)(List * self, XMLNode * lhs, XMLNode * rhs) = (bool (*)(List * self, XMLNode * lhs, XMLNode * rhs)) 0x806de30;
-int (*List::ptr::RemoveEach)(List * self, XMLNode * value) = (int (*)(List * self, XMLNode * value)) 0x806de40;
-int (*List::ptr::Remove2)(List * self, XMLNode * value) = (int (*)(List * self, XMLNode * value)) 0x806dea0;
-void (*List::ptr::_mark)() = (void (*)()) 0x808e420;
-void (*List::ptr::CSTR_List)(List * self) = (void (*)(List * self)) 0x81284a0;
+inline List * (*List::ptr::_New)() = (List * (*)()) 0x8128180;
+inline Node2 * (*List::ptr::AddLast)(List * self, XMLNode * data) = (Node2 * (*)(List * self, XMLNode * data)) 0x80b5e00;
+inline List * (*List::ptr::_new2)(List * self, Array<XMLNode *> * arg1) = (List * (*)(List * self, Array<XMLNode *> * arg1)) 0x0;
+inline bool (*List::ptr::IsEmpty)(List * self) = (bool (*)(List * self)) 0x806dd80;
+inline Enumerator * (*List::ptr::ObjectEnumerator)(List * self) = (Enumerator * (*)(List * self)) 0x80b5d30;
+inline XMLNode * (*List::ptr::RemoveLast)(List * self) = (XMLNode * (*)(List * self)) 0x806dd90;
+inline XMLNode * (*List::ptr::Last2)(List * self) = (XMLNode * (*)(List * self)) 0x806ddd0;
+inline int (*List::ptr::Count)(List * self) = (int (*)(List * self)) 0x806ddf0;
+inline XMLNode * (*List::ptr::_First)() = (XMLNode * (*)()) 0x806de10;
+inline Array<XMLNode *> * (*List::ptr::ToArray)(List * self) = (Array<XMLNode *> * (*)(List * self)) 0x80c0470;
+inline int (*List::ptr::Clear)(List * self) = (int (*)(List * self)) 0x8095380;
+inline bool (*List::ptr::Equals)(List * self, XMLNode * lhs, XMLNode * rhs) = (bool (*)(List * self, XMLNode * lhs, XMLNode * rhs)) 0x806de30;
+inline int (*List::ptr::RemoveEach)(List * self, XMLNode * value) = (int (*)(List * self, XMLNode * value)) 0x806de40;
+inline int (*List::ptr::Remove2)(List * self, XMLNode * value) = (int (*)(List * self, XMLNode * value)) 0x806dea0;
+inline void (*List::ptr::_mark)() = (void (*)()) 0x808e420;
+inline void (*List::ptr::CSTR_List)(List * self) = (void (*)(List * self)) 0x81284a0;
 #endif
 #endif

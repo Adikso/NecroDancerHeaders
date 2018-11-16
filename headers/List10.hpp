@@ -68,53 +68,53 @@ public:
 
 #ifdef _WIN32
 
-List10 * (*List10::ptr::_New)() = (List10 * (*)()) 0x0;
-Node17 * (*List10::ptr::_AddLast10)(List10 * self, String * arg1) = (Node17 * (*)(List10 * self, String * arg1)) 0x0;
-List10 * (*List10::ptr::_new2)(List10 * self, Array<String> * arg1) = (List10 * (*)(List10 * self, Array<String> * arg1)) 0x0;
-int (*List10::ptr::_Clear)() = (int (*)()) 0x0;
-bool (*List10::ptr::_Equals6)(List10 * self, String * arg1, String * arg2) = (bool (*)(List10 * self, String * arg1, String * arg2)) 0x0;
-bool (*List10::ptr::_Contains)(List10 * self, String * arg1) = (bool (*)(List10 * self, String * arg1)) 0x0;
-int (*List10::ptr::_RemoveEach5)(List10 * self, String * arg1) = (int (*)(List10 * self, String * arg1)) 0x0;
-Enumerator23 * (*List10::ptr::_ObjectEnumerator)() = (Enumerator23 * (*)()) 0x0;
-int (*List10::ptr::_Count)() = (int (*)()) 0x0;
-Array<String> * (*List10::ptr::_ToArray)() = (Array<String> * (*)()) 0x0;
-int (*List10::ptr::_Compare)(List10 * self, String * arg1, String * arg2) = (int (*)(List10 * self, String * arg1, String * arg2)) 0x0;
-int (*List10::ptr::_Sort)(List10 * self, int arg1) = (int (*)(List10 * self, int arg1)) 0x0;
-String * (*List10::ptr::_Last2)() = (String * (*)()) 0x0;
-Node17 * (*List10::ptr::_FirstNode)() = (Node17 * (*)()) 0x0;
-bool (*List10::ptr::_IsEmpty)() = (bool (*)()) 0x0;
-String * (*List10::ptr::_RemoveFirst)() = (String * (*)()) 0x0;
-String * (*List10::ptr::_RemoveLast)() = (String * (*)()) 0x0;
-Node17 * (*List10::ptr::_AddFirst)(List10 * self, String * arg1) = (Node17 * (*)(List10 * self, String * arg1)) 0x0;
-void (*List10::ptr::_mark)() = (void (*)()) 0x0;
-void (*List10::ptr::CSTR_List10)(List10 * self) = (void (*)(List10 * self)) 0x5c2d50;
-Node17 * (*List10::ptr::AddLast10)(List10 * self, Gargoyle * data) = (Node17 * (*)(List10 * self, Gargoyle * data)) 0x5c2e20;
-bool (*List10::ptr::Contains4)(List10 * self, Gargoyle * value) = (bool (*)(List10 * self, Gargoyle * value)) 0x5c2ec0;
+inline List10 * (*List10::ptr::_New)() = (List10 * (*)()) 0x0;
+inline Node17 * (*List10::ptr::_AddLast10)(List10 * self, String * arg1) = (Node17 * (*)(List10 * self, String * arg1)) 0x0;
+inline List10 * (*List10::ptr::_new2)(List10 * self, Array<String> * arg1) = (List10 * (*)(List10 * self, Array<String> * arg1)) 0x0;
+inline int (*List10::ptr::_Clear)() = (int (*)()) 0x0;
+inline bool (*List10::ptr::_Equals6)(List10 * self, String * arg1, String * arg2) = (bool (*)(List10 * self, String * arg1, String * arg2)) 0x0;
+inline bool (*List10::ptr::_Contains)(List10 * self, String * arg1) = (bool (*)(List10 * self, String * arg1)) 0x0;
+inline int (*List10::ptr::_RemoveEach5)(List10 * self, String * arg1) = (int (*)(List10 * self, String * arg1)) 0x0;
+inline Enumerator23 * (*List10::ptr::_ObjectEnumerator)() = (Enumerator23 * (*)()) 0x0;
+inline int (*List10::ptr::_Count)() = (int (*)()) 0x0;
+inline Array<String> * (*List10::ptr::_ToArray)() = (Array<String> * (*)()) 0x0;
+inline int (*List10::ptr::_Compare)(List10 * self, String * arg1, String * arg2) = (int (*)(List10 * self, String * arg1, String * arg2)) 0x0;
+inline int (*List10::ptr::_Sort)(List10 * self, int arg1) = (int (*)(List10 * self, int arg1)) 0x0;
+inline String * (*List10::ptr::_Last2)() = (String * (*)()) 0x0;
+inline Node17 * (*List10::ptr::_FirstNode)() = (Node17 * (*)()) 0x0;
+inline bool (*List10::ptr::_IsEmpty)() = (bool (*)()) 0x0;
+inline String * (*List10::ptr::_RemoveFirst)() = (String * (*)()) 0x0;
+inline String * (*List10::ptr::_RemoveLast)() = (String * (*)()) 0x0;
+inline Node17 * (*List10::ptr::_AddFirst)(List10 * self, String * arg1) = (Node17 * (*)(List10 * self, String * arg1)) 0x0;
+inline void (*List10::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List10::ptr::CSTR_List10)(List10 * self) = (void (*)(List10 * self)) 0x5c2d50;
+inline Node17 * (*List10::ptr::AddLast10)(List10 * self, Gargoyle * data) = (Node17 * (*)(List10 * self, Gargoyle * data)) 0x5c2e20;
+inline bool (*List10::ptr::Contains4)(List10 * self, Gargoyle * value) = (bool (*)(List10 * self, Gargoyle * value)) 0x5c2ec0;
 #endif
 
 #ifdef __linux__
 
-List10 * (*List10::ptr::_New)() = (List10 * (*)()) 0x817eee0;
-Node17 * (*List10::ptr::_AddLast10)(List10 * self, String * arg1) = (Node17 * (*)(List10 * self, String * arg1)) 0x0;
-List10 * (*List10::ptr::_new2)(List10 * self, Array<String> * arg1) = (List10 * (*)(List10 * self, Array<String> * arg1)) 0x0;
-int (*List10::ptr::_Clear)() = (int (*)()) 0x8090680;
-bool (*List10::ptr::_Equals6)(List10 * self, String * arg1, String * arg2) = (bool (*)(List10 * self, String * arg1, String * arg2)) 0x0;
-bool (*List10::ptr::_Contains)(List10 * self, String * arg1) = (bool (*)(List10 * self, String * arg1)) 0x0;
-int (*List10::ptr::_RemoveEach5)(List10 * self, String * arg1) = (int (*)(List10 * self, String * arg1)) 0x0;
-Enumerator23 * (*List10::ptr::_ObjectEnumerator)() = (Enumerator23 * (*)()) 0x0;
-int (*List10::ptr::_Count)() = (int (*)()) 0x8070b10;
-Array<String> * (*List10::ptr::_ToArray)() = (Array<String> * (*)()) 0x0;
-int (*List10::ptr::_Compare)(List10 * self, String * arg1, String * arg2) = (int (*)(List10 * self, String * arg1, String * arg2)) 0x0;
-int (*List10::ptr::_Sort)(List10 * self, int arg1) = (int (*)(List10 * self, int arg1)) 0x0;
-String * (*List10::ptr::_Last2)() = (String * (*)()) 0x0;
-Node17 * (*List10::ptr::_FirstNode)() = (Node17 * (*)()) 0x0;
-bool (*List10::ptr::_IsEmpty)() = (bool (*)()) 0x0;
-String * (*List10::ptr::_RemoveFirst)() = (String * (*)()) 0x8070b30;
-String * (*List10::ptr::_RemoveLast)() = (String * (*)()) 0x0;
-Node17 * (*List10::ptr::_AddFirst)(List10 * self, String * arg1) = (Node17 * (*)(List10 * self, String * arg1)) 0x0;
-void (*List10::ptr::_mark)() = (void (*)()) 0x8087090;
-void (*List10::ptr::CSTR_List10)(List10 * self) = (void (*)(List10 * self)) 0x817f260;
-Node17 * (*List10::ptr::AddLast10)(List10 * self, Gargoyle * data) = (Node17 * (*)(List10 * self, Gargoyle * data)) 0x817f120;
-bool (*List10::ptr::Contains4)(List10 * self, Gargoyle * value) = (bool (*)(List10 * self, Gargoyle * value)) 0x8070b80;
+inline List10 * (*List10::ptr::_New)() = (List10 * (*)()) 0x817eee0;
+inline Node17 * (*List10::ptr::_AddLast10)(List10 * self, String * arg1) = (Node17 * (*)(List10 * self, String * arg1)) 0x0;
+inline List10 * (*List10::ptr::_new2)(List10 * self, Array<String> * arg1) = (List10 * (*)(List10 * self, Array<String> * arg1)) 0x0;
+inline int (*List10::ptr::_Clear)() = (int (*)()) 0x8090680;
+inline bool (*List10::ptr::_Equals6)(List10 * self, String * arg1, String * arg2) = (bool (*)(List10 * self, String * arg1, String * arg2)) 0x0;
+inline bool (*List10::ptr::_Contains)(List10 * self, String * arg1) = (bool (*)(List10 * self, String * arg1)) 0x0;
+inline int (*List10::ptr::_RemoveEach5)(List10 * self, String * arg1) = (int (*)(List10 * self, String * arg1)) 0x0;
+inline Enumerator23 * (*List10::ptr::_ObjectEnumerator)() = (Enumerator23 * (*)()) 0x0;
+inline int (*List10::ptr::_Count)() = (int (*)()) 0x8070b10;
+inline Array<String> * (*List10::ptr::_ToArray)() = (Array<String> * (*)()) 0x0;
+inline int (*List10::ptr::_Compare)(List10 * self, String * arg1, String * arg2) = (int (*)(List10 * self, String * arg1, String * arg2)) 0x0;
+inline int (*List10::ptr::_Sort)(List10 * self, int arg1) = (int (*)(List10 * self, int arg1)) 0x0;
+inline String * (*List10::ptr::_Last2)() = (String * (*)()) 0x0;
+inline Node17 * (*List10::ptr::_FirstNode)() = (Node17 * (*)()) 0x0;
+inline bool (*List10::ptr::_IsEmpty)() = (bool (*)()) 0x0;
+inline String * (*List10::ptr::_RemoveFirst)() = (String * (*)()) 0x8070b30;
+inline String * (*List10::ptr::_RemoveLast)() = (String * (*)()) 0x0;
+inline Node17 * (*List10::ptr::_AddFirst)(List10 * self, String * arg1) = (Node17 * (*)(List10 * self, String * arg1)) 0x0;
+inline void (*List10::ptr::_mark)() = (void (*)()) 0x8087090;
+inline void (*List10::ptr::CSTR_List10)(List10 * self) = (void (*)(List10 * self)) 0x817f260;
+inline Node17 * (*List10::ptr::AddLast10)(List10 * self, Gargoyle * data) = (Node17 * (*)(List10 * self, Gargoyle * data)) 0x817f120;
+inline bool (*List10::ptr::Contains4)(List10 * self, Gargoyle * value) = (bool (*)(List10 * self, Gargoyle * value)) 0x8070b80;
 #endif
 #endif

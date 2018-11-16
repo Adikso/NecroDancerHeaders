@@ -51,32 +51,32 @@ public:
 };
 
 #ifdef _WIN32
-bool * Leprechaun::seenLeprechaun = (bool*) 0x835a8a;
+inline bool * Leprechaun::seenLeprechaun = (bool*) 0x835a8a;
 
-Leprechaun * (*Leprechaun::ptr::New)(Leprechaun * self, int xVal, int yVal, int l) = (Leprechaun * (*)(Leprechaun * self, int xVal, int yVal, int l)) 0x5c3eb0;
-Leprechaun * (*Leprechaun::ptr::_new2)() = (Leprechaun * (*)()) 0x0;
-bool (*Leprechaun::ptr::Hit)(Leprechaun * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Leprechaun * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x5c4520;
-void (*Leprechaun::ptr::Disappear)(Leprechaun * self) = (void (*)(Leprechaun * self)) 0x5c4700;
-void (*Leprechaun::ptr::Update)(Leprechaun * self) = (void (*)(Leprechaun * self)) 0x5c47f0;
-Point * (*Leprechaun::ptr::GetMovementDirection)(Leprechaun * self) = (Point * (*)(Leprechaun * self)) 0x5c4b20;
-void (*Leprechaun::ptr::MoveSucceed)(Leprechaun * self, bool hitPlayer, bool moveDelayed) = (void (*)(Leprechaun * self, bool hitPlayer, bool moveDelayed)) 0x5c4bf0;
-void (*Leprechaun::ptr::Render)(Leprechaun * self) = (void (*)(Leprechaun * self)) 0x5c4ce0;
-void (*Leprechaun::ptr::_mark)() = (void (*)()) 0x0;
-void (*Leprechaun::ptr::CSTR_Leprechaun)(Leprechaun * self) = (void (*)(Leprechaun * self)) 0x5c3d70;
+inline Leprechaun * (*Leprechaun::ptr::New)(Leprechaun * self, int xVal, int yVal, int l) = (Leprechaun * (*)(Leprechaun * self, int xVal, int yVal, int l)) 0x5c3eb0;
+inline Leprechaun * (*Leprechaun::ptr::_new2)() = (Leprechaun * (*)()) 0x0;
+inline bool (*Leprechaun::ptr::Hit)(Leprechaun * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Leprechaun * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x5c4520;
+inline void (*Leprechaun::ptr::Disappear)(Leprechaun * self) = (void (*)(Leprechaun * self)) 0x5c4700;
+inline void (*Leprechaun::ptr::Update)(Leprechaun * self) = (void (*)(Leprechaun * self)) 0x5c47f0;
+inline Point * (*Leprechaun::ptr::GetMovementDirection)(Leprechaun * self) = (Point * (*)(Leprechaun * self)) 0x5c4b20;
+inline void (*Leprechaun::ptr::MoveSucceed)(Leprechaun * self, bool hitPlayer, bool moveDelayed) = (void (*)(Leprechaun * self, bool hitPlayer, bool moveDelayed)) 0x5c4bf0;
+inline void (*Leprechaun::ptr::Render)(Leprechaun * self) = (void (*)(Leprechaun * self)) 0x5c4ce0;
+inline void (*Leprechaun::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Leprechaun::ptr::CSTR_Leprechaun)(Leprechaun * self) = (void (*)(Leprechaun * self)) 0x5c3d70;
 #endif
 
 #ifdef __linux__
-bool * Leprechaun::seenLeprechaun = (bool*) 0x856a568;
+inline bool * Leprechaun::seenLeprechaun = (bool*) 0x856a568;
 
-Leprechaun * (*Leprechaun::ptr::New)(Leprechaun * self, int xVal, int yVal, int l) = (Leprechaun * (*)(Leprechaun * self, int xVal, int yVal, int l)) 0x839ea80;
-Leprechaun * (*Leprechaun::ptr::_new2)() = (Leprechaun * (*)()) 0x8186a60;
-bool (*Leprechaun::ptr::Hit)(Leprechaun * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Leprechaun * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x839c800;
-void (*Leprechaun::ptr::Disappear)(Leprechaun * self) = (void (*)(Leprechaun * self)) 0x839ee60;
-void (*Leprechaun::ptr::Update)(Leprechaun * self) = (void (*)(Leprechaun * self)) 0x8387690;
-Point * (*Leprechaun::ptr::GetMovementDirection)(Leprechaun * self) = (Point * (*)(Leprechaun * self)) 0x80b5150;
-void (*Leprechaun::ptr::MoveSucceed)(Leprechaun * self, bool hitPlayer, bool moveDelayed) = (void (*)(Leprechaun * self, bool hitPlayer, bool moveDelayed)) 0x829a720;
-void (*Leprechaun::ptr::Render)(Leprechaun * self) = (void (*)(Leprechaun * self)) 0x830db10;
-void (*Leprechaun::ptr::_mark)() = (void (*)()) 0x80b1bd0;
-void (*Leprechaun::ptr::CSTR_Leprechaun)(Leprechaun * self) = (void (*)(Leprechaun * self)) 0x81869f0;
+inline Leprechaun * (*Leprechaun::ptr::New)(Leprechaun * self, int xVal, int yVal, int l) = (Leprechaun * (*)(Leprechaun * self, int xVal, int yVal, int l)) 0x839ea80;
+inline Leprechaun * (*Leprechaun::ptr::_new2)() = (Leprechaun * (*)()) 0x8186a60;
+inline bool (*Leprechaun::ptr::Hit)(Leprechaun * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Leprechaun * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x839c800;
+inline void (*Leprechaun::ptr::Disappear)(Leprechaun * self) = (void (*)(Leprechaun * self)) 0x839ee60;
+inline void (*Leprechaun::ptr::Update)(Leprechaun * self) = (void (*)(Leprechaun * self)) 0x8387690;
+inline Point * (*Leprechaun::ptr::GetMovementDirection)(Leprechaun * self) = (Point * (*)(Leprechaun * self)) 0x80b5150;
+inline void (*Leprechaun::ptr::MoveSucceed)(Leprechaun * self, bool hitPlayer, bool moveDelayed) = (void (*)(Leprechaun * self, bool hitPlayer, bool moveDelayed)) 0x829a720;
+inline void (*Leprechaun::ptr::Render)(Leprechaun * self) = (void (*)(Leprechaun * self)) 0x830db10;
+inline void (*Leprechaun::ptr::_mark)() = (void (*)()) 0x80b1bd0;
+inline void (*Leprechaun::ptr::CSTR_Leprechaun)(Leprechaun * self) = (void (*)(Leprechaun * self)) 0x81869f0;
 #endif
 #endif

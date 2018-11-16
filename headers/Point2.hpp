@@ -28,17 +28,17 @@ public:
 
 #ifdef _WIN32
 
-Point2 * (*Point2::ptr::_New)(Point2 * self, float arg1, float arg2) = (Point2 * (*)(Point2 * self, float arg1, float arg2)) 0x0;
-Point2 * (*Point2::ptr::_new2)() = (Point2 * (*)()) 0x0;
-void (*Point2::ptr::_mark)() = (void (*)()) 0x0;
-void (*Point2::ptr::CSTR_Point2)(Point2 * self) = (void (*)(Point2 * self)) 0x5f38a0;
+inline Point2 * (*Point2::ptr::_New)(Point2 * self, float arg1, float arg2) = (Point2 * (*)(Point2 * self, float arg1, float arg2)) 0x0;
+inline Point2 * (*Point2::ptr::_new2)() = (Point2 * (*)()) 0x0;
+inline void (*Point2::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Point2::ptr::CSTR_Point2)(Point2 * self) = (void (*)(Point2 * self)) 0x5f38a0;
 #endif
 
 #ifdef __linux__
 
-Point2 * (*Point2::ptr::_New)(Point2 * self, float arg1, float arg2) = (Point2 * (*)(Point2 * self, float arg1, float arg2)) 0x819dac0;
-Point2 * (*Point2::ptr::_new2)() = (Point2 * (*)()) 0x819dae0;
-void (*Point2::ptr::_mark)() = (void (*)()) 0x80733d0;
-void (*Point2::ptr::CSTR_Point2)(Point2 * self) = (void (*)(Point2 * self)) 0x819daa0;
+inline Point2 * (*Point2::ptr::_New)(Point2 * self, float arg1, float arg2) = (Point2 * (*)(Point2 * self, float arg1, float arg2)) 0x819dac0;
+inline Point2 * (*Point2::ptr::_new2)() = (Point2 * (*)()) 0x819dae0;
+inline void (*Point2::ptr::_mark)() = (void (*)()) 0x80733d0;
+inline void (*Point2::ptr::CSTR_Point2)(Point2 * self) = (void (*)(Point2 * self)) 0x819daa0;
 #endif
 #endif

@@ -39,31 +39,31 @@ public:
 
 #ifdef _WIN32
 
-Map6 * (*Map6::ptr::_New)() = (Map6 * (*)()) 0x0;
-int (*Map6::ptr::_Clear)() = (int (*)()) 0x0;
-int (*Map6::ptr::_Compare2)(Map6 * self, int arg1, int arg2) = (int (*)(Map6 * self, int arg1, int arg2)) 0x0;
-Node10 * (*Map6::ptr::FindNode2)(Map6 * self, int key) = (Node10 * (*)(Map6 * self, int key)) 0x5764b0;
-bool (*Map6::ptr::Contains2)(Map6 * self, int key) = (bool (*)(Map6 * self, int key)) 0x5764f0;
-int (*Map6::ptr::_RotateLeft6)(Map6 * self, Node10 * arg1) = (int (*)(Map6 * self, Node10 * arg1)) 0x0;
-int (*Map6::ptr::_RotateRight6)(Map6 * self, Node10 * arg1) = (int (*)(Map6 * self, Node10 * arg1)) 0x0;
-int (*Map6::ptr::_InsertFixup6)(Map6 * self, Node10 * node) = (int (*)(Map6 * self, Node10 * node)) 0x53b580;
-bool (*Map6::ptr::Set7)(Map6 * self, int key, Object * value) = (bool (*)(Map6 * self, int key, Object * value)) 0x57e150;
-bool (*Map6::ptr::Insert4)(Map6 * self, int key, Object * value) = (bool (*)(Map6 * self, int key, Object * value)) 0x57e260;
-void (*Map6::ptr::_mark)() = (void (*)()) 0x0;
+inline Map6 * (*Map6::ptr::_New)() = (Map6 * (*)()) 0x0;
+inline int (*Map6::ptr::_Clear)() = (int (*)()) 0x0;
+inline int (*Map6::ptr::_Compare2)(Map6 * self, int arg1, int arg2) = (int (*)(Map6 * self, int arg1, int arg2)) 0x0;
+inline Node10 * (*Map6::ptr::FindNode2)(Map6 * self, int key) = (Node10 * (*)(Map6 * self, int key)) 0x5764b0;
+inline bool (*Map6::ptr::Contains2)(Map6 * self, int key) = (bool (*)(Map6 * self, int key)) 0x5764f0;
+inline int (*Map6::ptr::_RotateLeft6)(Map6 * self, Node10 * arg1) = (int (*)(Map6 * self, Node10 * arg1)) 0x0;
+inline int (*Map6::ptr::_RotateRight6)(Map6 * self, Node10 * arg1) = (int (*)(Map6 * self, Node10 * arg1)) 0x0;
+inline int (*Map6::ptr::_InsertFixup6)(Map6 * self, Node10 * node) = (int (*)(Map6 * self, Node10 * node)) 0x53b580;
+inline bool (*Map6::ptr::Set7)(Map6 * self, int key, Object * value) = (bool (*)(Map6 * self, int key, Object * value)) 0x57e150;
+inline bool (*Map6::ptr::Insert4)(Map6 * self, int key, Object * value) = (bool (*)(Map6 * self, int key, Object * value)) 0x57e260;
+inline void (*Map6::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Map6 * (*Map6::ptr::_New)() = (Map6 * (*)()) 0x81581b0;
-int (*Map6::ptr::_Clear)() = (int (*)()) 0x806fcc0;
-int (*Map6::ptr::_Compare2)(Map6 * self, int arg1, int arg2) = (int (*)(Map6 * self, int arg1, int arg2)) 0x0;
-Node10 * (*Map6::ptr::FindNode2)(Map6 * self, int key) = (Node10 * (*)(Map6 * self, int key)) 0x806fcd0;
-bool (*Map6::ptr::Contains2)(Map6 * self, int key) = (bool (*)(Map6 * self, int key)) 0x806fd20;
-int (*Map6::ptr::_RotateLeft6)(Map6 * self, Node10 * arg1) = (int (*)(Map6 * self, Node10 * arg1)) 0x0;
-int (*Map6::ptr::_RotateRight6)(Map6 * self, Node10 * arg1) = (int (*)(Map6 * self, Node10 * arg1)) 0x0;
-int (*Map6::ptr::_InsertFixup6)(Map6 * self, Node10 * node) = (int (*)(Map6 * self, Node10 * node)) 0x0;
-bool (*Map6::ptr::Set7)(Map6 * self, int key, Object * value) = (bool (*)(Map6 * self, int key, Object * value)) 0x80b6b40;
-bool (*Map6::ptr::Insert4)(Map6 * self, int key, Object * value) = (bool (*)(Map6 * self, int key, Object * value)) 0x806fe40;
-void (*Map6::ptr::_mark)() = (void (*)()) 0x808c150;
+inline Map6 * (*Map6::ptr::_New)() = (Map6 * (*)()) 0x81581b0;
+inline int (*Map6::ptr::_Clear)() = (int (*)()) 0x806fcc0;
+inline int (*Map6::ptr::_Compare2)(Map6 * self, int arg1, int arg2) = (int (*)(Map6 * self, int arg1, int arg2)) 0x0;
+inline Node10 * (*Map6::ptr::FindNode2)(Map6 * self, int key) = (Node10 * (*)(Map6 * self, int key)) 0x806fcd0;
+inline bool (*Map6::ptr::Contains2)(Map6 * self, int key) = (bool (*)(Map6 * self, int key)) 0x806fd20;
+inline int (*Map6::ptr::_RotateLeft6)(Map6 * self, Node10 * arg1) = (int (*)(Map6 * self, Node10 * arg1)) 0x0;
+inline int (*Map6::ptr::_RotateRight6)(Map6 * self, Node10 * arg1) = (int (*)(Map6 * self, Node10 * arg1)) 0x0;
+inline int (*Map6::ptr::_InsertFixup6)(Map6 * self, Node10 * node) = (int (*)(Map6 * self, Node10 * node)) 0x0;
+inline bool (*Map6::ptr::Set7)(Map6 * self, int key, Object * value) = (bool (*)(Map6 * self, int key, Object * value)) 0x80b6b40;
+inline bool (*Map6::ptr::Insert4)(Map6 * self, int key, Object * value) = (bool (*)(Map6 * self, int key, Object * value)) 0x806fe40;
+inline void (*Map6::ptr::_mark)() = (void (*)()) 0x808c150;
 #endif
 #endif

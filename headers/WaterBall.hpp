@@ -37,25 +37,25 @@ public:
 
 #ifdef _WIN32
 
-WaterBall * (*WaterBall::ptr::New)(WaterBall * self, int x_, int y_, int l) = (WaterBall * (*)(WaterBall * self, int x_, int y_, int l)) 0x657350;
-WaterBall * (*WaterBall::ptr::_new2)() = (WaterBall * (*)()) 0x0;
-Point * (*WaterBall::ptr::GetMovementDirection)(WaterBall * self) = (Point * (*)(WaterBall * self)) 0x6471c0;
-void (*WaterBall::ptr::PlaceTileAt)(WaterBall * self, int tileX, int tileY) = (void (*)(WaterBall * self, int tileX, int tileY)) 0x657670;
-void (*WaterBall::ptr::Die)(WaterBall * self) = (void (*)(WaterBall * self)) 0x6576a0;
-void (*WaterBall::ptr::AfterHitPlayer)(WaterBall * self, Player * p) = (void (*)(WaterBall * self, Player * p)) 0x6576d0;
-void (*WaterBall::ptr::_mark)() = (void (*)()) 0x0;
-void (*WaterBall::ptr::CSTR_WaterBall)(WaterBall * self) = (void (*)(WaterBall * self)) 0x6572f0;
+inline WaterBall * (*WaterBall::ptr::New)(WaterBall * self, int x_, int y_, int l) = (WaterBall * (*)(WaterBall * self, int x_, int y_, int l)) 0x657350;
+inline WaterBall * (*WaterBall::ptr::_new2)() = (WaterBall * (*)()) 0x0;
+inline Point * (*WaterBall::ptr::GetMovementDirection)(WaterBall * self) = (Point * (*)(WaterBall * self)) 0x6471c0;
+inline void (*WaterBall::ptr::PlaceTileAt)(WaterBall * self, int tileX, int tileY) = (void (*)(WaterBall * self, int tileX, int tileY)) 0x657670;
+inline void (*WaterBall::ptr::Die)(WaterBall * self) = (void (*)(WaterBall * self)) 0x6576a0;
+inline void (*WaterBall::ptr::AfterHitPlayer)(WaterBall * self, Player * p) = (void (*)(WaterBall * self, Player * p)) 0x6576d0;
+inline void (*WaterBall::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*WaterBall::ptr::CSTR_WaterBall)(WaterBall * self) = (void (*)(WaterBall * self)) 0x6572f0;
 #endif
 
 #ifdef __linux__
 
-WaterBall * (*WaterBall::ptr::New)(WaterBall * self, int x_, int y_, int l) = (WaterBall * (*)(WaterBall * self, int x_, int y_, int l)) 0x81c92a0;
-WaterBall * (*WaterBall::ptr::_new2)() = (WaterBall * (*)()) 0x81c94b0;
-Point * (*WaterBall::ptr::GetMovementDirection)(WaterBall * self) = (Point * (*)(WaterBall * self)) 0x80765f0;
-void (*WaterBall::ptr::PlaceTileAt)(WaterBall * self, int tileX, int tileY) = (void (*)(WaterBall * self, int tileX, int tileY)) 0x81929b0;
-void (*WaterBall::ptr::Die)(WaterBall * self) = (void (*)(WaterBall * self)) 0x83b5d80;
-void (*WaterBall::ptr::AfterHitPlayer)(WaterBall * self, Player * p) = (void (*)(WaterBall * self, Player * p)) 0x8318e10;
-void (*WaterBall::ptr::_mark)() = (void (*)()) 0x80b0220;
-void (*WaterBall::ptr::CSTR_WaterBall)(WaterBall * self) = (void (*)(WaterBall * self)) 0x81c9280;
+inline WaterBall * (*WaterBall::ptr::New)(WaterBall * self, int x_, int y_, int l) = (WaterBall * (*)(WaterBall * self, int x_, int y_, int l)) 0x81c92a0;
+inline WaterBall * (*WaterBall::ptr::_new2)() = (WaterBall * (*)()) 0x81c94b0;
+inline Point * (*WaterBall::ptr::GetMovementDirection)(WaterBall * self) = (Point * (*)(WaterBall * self)) 0x80765f0;
+inline void (*WaterBall::ptr::PlaceTileAt)(WaterBall * self, int tileX, int tileY) = (void (*)(WaterBall * self, int tileX, int tileY)) 0x81929b0;
+inline void (*WaterBall::ptr::Die)(WaterBall * self) = (void (*)(WaterBall * self)) 0x83b5d80;
+inline void (*WaterBall::ptr::AfterHitPlayer)(WaterBall * self, Player * p) = (void (*)(WaterBall * self, Player * p)) 0x8318e10;
+inline void (*WaterBall::ptr::_mark)() = (void (*)()) 0x80b0220;
+inline void (*WaterBall::ptr::CSTR_WaterBall)(WaterBall * self) = (void (*)(WaterBall * self)) 0x81c9280;
 #endif
 #endif

@@ -34,17 +34,17 @@ public:
 
 #ifdef _WIN32
 
-Node5 * (*Node5::ptr::_New)(Node5 * self, String * arg1, SpriteInitData * arg2, int arg3, Node5 * arg4) = (Node5 * (*)(Node5 * self, String * arg1, SpriteInitData * arg2, int arg3, Node5 * arg4)) 0x0;
-Node5 * (*Node5::ptr::_new2)() = (Node5 * (*)()) 0x0;
-void (*Node5::ptr::_mark)() = (void (*)()) 0x0;
-void (*Node5::ptr::CSTR_Node5)(Node5 * self) = (void (*)(Node5 * self)) 0x53c020;
+inline Node5 * (*Node5::ptr::_New)(Node5 * self, String * arg1, SpriteInitData * arg2, int arg3, Node5 * arg4) = (Node5 * (*)(Node5 * self, String * arg1, SpriteInitData * arg2, int arg3, Node5 * arg4)) 0x0;
+inline Node5 * (*Node5::ptr::_new2)() = (Node5 * (*)()) 0x0;
+inline void (*Node5::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Node5::ptr::CSTR_Node5)(Node5 * self) = (void (*)(Node5 * self)) 0x53c020;
 #endif
 
 #ifdef __linux__
 
-Node5 * (*Node5::ptr::_New)(Node5 * self, String * arg1, SpriteInitData * arg2, int arg3, Node5 * arg4) = (Node5 * (*)(Node5 * self, String * arg1, SpriteInitData * arg2, int arg3, Node5 * arg4)) 0x0;
-Node5 * (*Node5::ptr::_new2)() = (Node5 * (*)()) 0x8158690;
-void (*Node5::ptr::_mark)() = (void (*)()) 0x808aa10;
-void (*Node5::ptr::CSTR_Node5)(Node5 * self) = (void (*)(Node5 * self)) 0x8158450;
+inline Node5 * (*Node5::ptr::_New)(Node5 * self, String * arg1, SpriteInitData * arg2, int arg3, Node5 * arg4) = (Node5 * (*)(Node5 * self, String * arg1, SpriteInitData * arg2, int arg3, Node5 * arg4)) 0x0;
+inline Node5 * (*Node5::ptr::_new2)() = (Node5 * (*)()) 0x8158690;
+inline void (*Node5::ptr::_mark)() = (void (*)()) 0x808aa10;
+inline void (*Node5::ptr::CSTR_Node5)(Node5 * self) = (void (*)(Node5 * self)) 0x8158450;
 #endif
 #endif

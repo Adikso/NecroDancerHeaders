@@ -67,51 +67,51 @@ public:
 
 #ifdef _WIN32
 
-Rect * (*Rect::ptr::_New)(Rect * self, int arg1, int arg2, int arg3, int arg4) = (Rect * (*)(Rect * self, int arg1, int arg2, int arg3, int arg4)) 0x0;
-Rect * (*Rect::ptr::_new2)() = (Rect * (*)()) 0x0;
-int (*Rect::ptr::GetRight)(Rect * self) = (int (*)(Rect * self)) 0x6033c0;
-int (*Rect::ptr::GetBottom)(Rect * self) = (int (*)(Rect * self)) 0x6033d0;
-bool (*Rect::ptr::Contains6)(Rect * self, Rect * other) = (bool (*)(Rect * self, Rect * other)) 0x6033e0;
-Rect * (*Rect::ptr::MakeBounds)(int minX, int minY, int maxX, int maxY) = (Rect * (*)(int minX, int minY, int maxX, int maxY)) 0x603440;
-Rect * (*Rect::ptr::_MakeCorners)(Point * arg1, Point * arg2) = (Rect * (*)(Point * arg1, Point * arg2)) 0x0;
-bool (*Rect::ptr::Contains7)(Rect * self, int px, int py) = (bool (*)(Rect * self, int px, int py)) 0x6034f0;
-bool (*Rect::ptr::Contains5)(Rect * self, Point * other) = (bool (*)(Rect * self, Point * other)) 0x603590;
-String * (*Rect::ptr::ToString)(Rect * self) = (String * (*)(Rect * self)) 0x6035e0;
-bool (*Rect::ptr::OnBorder)(Rect * self, int px, int py) = (bool (*)(Rect * self, int px, int py)) 0x603a50;
-Stack3 * (*Rect::ptr::GetCorners)(Rect * self) = (Stack3 * (*)(Rect * self)) 0x603ab0;
-int (*Rect::ptr::GetL1Dist)(Rect * self, Point * other) = (int (*)(Rect * self, Point * other)) 0x603c00;
-int (*Rect::ptr::GetL1Dist2)(Rect * self, Rect * other) = (int (*)(Rect * self, Rect * other)) 0x603c70;
-bool (*Rect::ptr::ContainsNoCorners)(Rect * self, Rect * other) = (bool (*)(Rect * self, Rect * other)) 0x603d10;
-Point * (*Rect::ptr::RandomPoint)(Rect * self) = (Point * (*)(Rect * self)) 0x603d80;
-Stack3 * (*Rect::ptr::GetPoints)(Rect * self) = (Stack3 * (*)(Rect * self)) 0x603ef0;
-Point * (*Rect::ptr::GetCenter)(Rect * self) = (Point * (*)(Rect * self)) 0x604030;
-Rect * (*Rect::ptr::_Copy)() = (Rect * (*)()) 0x0;
-void (*Rect::ptr::_mark)() = (void (*)()) 0x0;
-void (*Rect::ptr::CSTR_Rect)(Rect * self) = (void (*)(Rect * self)) 0x603340;
+inline Rect * (*Rect::ptr::_New)(Rect * self, int arg1, int arg2, int arg3, int arg4) = (Rect * (*)(Rect * self, int arg1, int arg2, int arg3, int arg4)) 0x0;
+inline Rect * (*Rect::ptr::_new2)() = (Rect * (*)()) 0x0;
+inline int (*Rect::ptr::GetRight)(Rect * self) = (int (*)(Rect * self)) 0x6033c0;
+inline int (*Rect::ptr::GetBottom)(Rect * self) = (int (*)(Rect * self)) 0x6033d0;
+inline bool (*Rect::ptr::Contains6)(Rect * self, Rect * other) = (bool (*)(Rect * self, Rect * other)) 0x6033e0;
+inline Rect * (*Rect::ptr::MakeBounds)(int minX, int minY, int maxX, int maxY) = (Rect * (*)(int minX, int minY, int maxX, int maxY)) 0x603440;
+inline Rect * (*Rect::ptr::_MakeCorners)(Point * arg1, Point * arg2) = (Rect * (*)(Point * arg1, Point * arg2)) 0x0;
+inline bool (*Rect::ptr::Contains7)(Rect * self, int px, int py) = (bool (*)(Rect * self, int px, int py)) 0x6034f0;
+inline bool (*Rect::ptr::Contains5)(Rect * self, Point * other) = (bool (*)(Rect * self, Point * other)) 0x603590;
+inline String * (*Rect::ptr::ToString)(Rect * self) = (String * (*)(Rect * self)) 0x6035e0;
+inline bool (*Rect::ptr::OnBorder)(Rect * self, int px, int py) = (bool (*)(Rect * self, int px, int py)) 0x603a50;
+inline Stack3 * (*Rect::ptr::GetCorners)(Rect * self) = (Stack3 * (*)(Rect * self)) 0x603ab0;
+inline int (*Rect::ptr::GetL1Dist)(Rect * self, Point * other) = (int (*)(Rect * self, Point * other)) 0x603c00;
+inline int (*Rect::ptr::GetL1Dist2)(Rect * self, Rect * other) = (int (*)(Rect * self, Rect * other)) 0x603c70;
+inline bool (*Rect::ptr::ContainsNoCorners)(Rect * self, Rect * other) = (bool (*)(Rect * self, Rect * other)) 0x603d10;
+inline Point * (*Rect::ptr::RandomPoint)(Rect * self) = (Point * (*)(Rect * self)) 0x603d80;
+inline Stack3 * (*Rect::ptr::GetPoints)(Rect * self) = (Stack3 * (*)(Rect * self)) 0x603ef0;
+inline Point * (*Rect::ptr::GetCenter)(Rect * self) = (Point * (*)(Rect * self)) 0x604030;
+inline Rect * (*Rect::ptr::_Copy)() = (Rect * (*)()) 0x0;
+inline void (*Rect::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Rect::ptr::CSTR_Rect)(Rect * self) = (void (*)(Rect * self)) 0x603340;
 #endif
 
 #ifdef __linux__
 
-Rect * (*Rect::ptr::_New)(Rect * self, int arg1, int arg2, int arg3, int arg4) = (Rect * (*)(Rect * self, int arg1, int arg2, int arg3, int arg4)) 0x81a7c00;
-Rect * (*Rect::ptr::_new2)() = (Rect * (*)()) 0x81a7c30;
-int (*Rect::ptr::GetRight)(Rect * self) = (int (*)(Rect * self)) 0x8073d70;
-int (*Rect::ptr::GetBottom)(Rect * self) = (int (*)(Rect * self)) 0x8073d80;
-bool (*Rect::ptr::Contains6)(Rect * self, Rect * other) = (bool (*)(Rect * self, Rect * other)) 0x8073d90;
-Rect * (*Rect::ptr::MakeBounds)(int minX, int minY, int maxX, int maxY) = (Rect * (*)(int minX, int minY, int maxX, int maxY)) 0x81a7c40;
-Rect * (*Rect::ptr::_MakeCorners)(Point * arg1, Point * arg2) = (Rect * (*)(Point * arg1, Point * arg2)) 0x81a7ca0;
-bool (*Rect::ptr::Contains7)(Rect * self, int px, int py) = (bool (*)(Rect * self, int px, int py)) 0x80b4f20;
-bool (*Rect::ptr::Contains5)(Rect * self, Point * other) = (bool (*)(Rect * self, Point * other)) 0x80c0670;
-String * (*Rect::ptr::ToString)(Rect * self) = (String * (*)(Rect * self)) 0x80c92f0;
-bool (*Rect::ptr::OnBorder)(Rect * self, int px, int py) = (bool (*)(Rect * self, int px, int py)) 0x807f270;
-Stack3 * (*Rect::ptr::GetCorners)(Rect * self) = (Stack3 * (*)(Rect * self)) 0x81ba840;
-int (*Rect::ptr::GetL1Dist)(Rect * self, Point * other) = (int (*)(Rect * self, Point * other)) 0x8073e10;
-int (*Rect::ptr::GetL1Dist2)(Rect * self, Rect * other) = (int (*)(Rect * self, Rect * other)) 0x8073e90;
-bool (*Rect::ptr::ContainsNoCorners)(Rect * self, Rect * other) = (bool (*)(Rect * self, Rect * other)) 0x807f2e0;
-Point * (*Rect::ptr::RandomPoint)(Rect * self) = (Point * (*)(Rect * self)) 0x8100ed0;
-Stack3 * (*Rect::ptr::GetPoints)(Rect * self) = (Stack3 * (*)(Rect * self)) 0x81ba7a0;
-Point * (*Rect::ptr::GetCenter)(Rect * self) = (Point * (*)(Rect * self)) 0x80b4ec0;
-Rect * (*Rect::ptr::_Copy)() = (Rect * (*)()) 0x80b5a20;
-void (*Rect::ptr::_mark)() = (void (*)()) 0x8073f30;
-void (*Rect::ptr::CSTR_Rect)(Rect * self) = (void (*)(Rect * self)) 0x81a7bd0;
+inline Rect * (*Rect::ptr::_New)(Rect * self, int arg1, int arg2, int arg3, int arg4) = (Rect * (*)(Rect * self, int arg1, int arg2, int arg3, int arg4)) 0x81a7c00;
+inline Rect * (*Rect::ptr::_new2)() = (Rect * (*)()) 0x81a7c30;
+inline int (*Rect::ptr::GetRight)(Rect * self) = (int (*)(Rect * self)) 0x8073d70;
+inline int (*Rect::ptr::GetBottom)(Rect * self) = (int (*)(Rect * self)) 0x8073d80;
+inline bool (*Rect::ptr::Contains6)(Rect * self, Rect * other) = (bool (*)(Rect * self, Rect * other)) 0x8073d90;
+inline Rect * (*Rect::ptr::MakeBounds)(int minX, int minY, int maxX, int maxY) = (Rect * (*)(int minX, int minY, int maxX, int maxY)) 0x81a7c40;
+inline Rect * (*Rect::ptr::_MakeCorners)(Point * arg1, Point * arg2) = (Rect * (*)(Point * arg1, Point * arg2)) 0x81a7ca0;
+inline bool (*Rect::ptr::Contains7)(Rect * self, int px, int py) = (bool (*)(Rect * self, int px, int py)) 0x80b4f20;
+inline bool (*Rect::ptr::Contains5)(Rect * self, Point * other) = (bool (*)(Rect * self, Point * other)) 0x80c0670;
+inline String * (*Rect::ptr::ToString)(Rect * self) = (String * (*)(Rect * self)) 0x80c92f0;
+inline bool (*Rect::ptr::OnBorder)(Rect * self, int px, int py) = (bool (*)(Rect * self, int px, int py)) 0x807f270;
+inline Stack3 * (*Rect::ptr::GetCorners)(Rect * self) = (Stack3 * (*)(Rect * self)) 0x81ba840;
+inline int (*Rect::ptr::GetL1Dist)(Rect * self, Point * other) = (int (*)(Rect * self, Point * other)) 0x8073e10;
+inline int (*Rect::ptr::GetL1Dist2)(Rect * self, Rect * other) = (int (*)(Rect * self, Rect * other)) 0x8073e90;
+inline bool (*Rect::ptr::ContainsNoCorners)(Rect * self, Rect * other) = (bool (*)(Rect * self, Rect * other)) 0x807f2e0;
+inline Point * (*Rect::ptr::RandomPoint)(Rect * self) = (Point * (*)(Rect * self)) 0x8100ed0;
+inline Stack3 * (*Rect::ptr::GetPoints)(Rect * self) = (Stack3 * (*)(Rect * self)) 0x81ba7a0;
+inline Point * (*Rect::ptr::GetCenter)(Rect * self) = (Point * (*)(Rect * self)) 0x80b4ec0;
+inline Rect * (*Rect::ptr::_Copy)() = (Rect * (*)()) 0x80b5a20;
+inline void (*Rect::ptr::_mark)() = (void (*)()) 0x8073f30;
+inline void (*Rect::ptr::CSTR_Rect)(Rect * self) = (void (*)(Rect * self)) 0x81a7bd0;
 #endif
 #endif

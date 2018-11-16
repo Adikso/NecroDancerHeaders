@@ -25,15 +25,15 @@ public:
 
 #ifdef _WIN32
 
-Node56 * (*Node56::ptr::_New)(Node56 * self, Node56 * arg1, Node56 * arg2, MinibossTileData * arg3) = (Node56 * (*)(Node56 * self, Node56 * arg1, Node56 * arg2, MinibossTileData * arg3)) 0x0;
-Node56 * (*Node56::ptr::_new2)() = (Node56 * (*)()) 0x0;
-void (*Node56::ptr::_mark)() = (void (*)()) 0x0;
+inline Node56 * (*Node56::ptr::_New)(Node56 * self, Node56 * arg1, Node56 * arg2, MinibossTileData * arg3) = (Node56 * (*)(Node56 * self, Node56 * arg1, Node56 * arg2, MinibossTileData * arg3)) 0x0;
+inline Node56 * (*Node56::ptr::_new2)() = (Node56 * (*)()) 0x0;
+inline void (*Node56::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node56 * (*Node56::ptr::_New)(Node56 * self, Node56 * arg1, Node56 * arg2, MinibossTileData * arg3) = (Node56 * (*)(Node56 * self, Node56 * arg1, Node56 * arg2, MinibossTileData * arg3)) 0x0;
-Node56 * (*Node56::ptr::_new2)() = (Node56 * (*)()) 0x81e4fe0;
-void (*Node56::ptr::_mark)() = (void (*)()) 0x8089210;
+inline Node56 * (*Node56::ptr::_New)(Node56 * self, Node56 * arg1, Node56 * arg2, MinibossTileData * arg3) = (Node56 * (*)(Node56 * self, Node56 * arg1, Node56 * arg2, MinibossTileData * arg3)) 0x0;
+inline Node56 * (*Node56::ptr::_new2)() = (Node56 * (*)()) 0x81e4fe0;
+inline void (*Node56::ptr::_mark)() = (void (*)()) 0x8089210;
 #endif
 #endif

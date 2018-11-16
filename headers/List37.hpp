@@ -51,37 +51,37 @@ public:
 
 #ifdef _WIN32
 
-List37 * (*List37::ptr::_New)() = (List37 * (*)()) 0x0;
-Node54 * (*List37::ptr::AddLast37)(List37 * self, Point * data) = (Node54 * (*)(List37 * self, Point * data)) 0x609380;
-List37 * (*List37::ptr::_new2)(List37 * self, Array<Point *> * arg1) = (List37 * (*)(List37 * self, Array<Point *> * arg1)) 0x0;
-int (*List37::ptr::_Clear)() = (int (*)()) 0x0;
-int (*List37::ptr::_Count)() = (int (*)()) 0x0;
-Point * (*List37::ptr::_RemoveFirst)() = (Point * (*)()) 0x0;
-Enumerator28 * (*List37::ptr::ObjectEnumerator)(List37 * self) = (Enumerator28 * (*)(List37 * self)) 0x609420;
-Array<Point *> * (*List37::ptr::ToArray)(List37 * self) = (Array<Point *> * (*)(List37 * self)) 0x6094b0;
-bool (*List37::ptr::_Equals23)(List37 * self, Point * arg1, Point * arg2) = (bool (*)(List37 * self, Point * arg1, Point * arg2)) 0x0;
-int (*List37::ptr::RemoveEach20)(List37 * self, Point * value) = (int (*)(List37 * self, Point * value)) 0x609580;
-bool (*List37::ptr::_IsEmpty)() = (bool (*)()) 0x0;
-Node54 * (*List37::ptr::_FirstNode)() = (Node54 * (*)()) 0x0;
-void (*List37::ptr::_mark)() = (void (*)()) 0x0;
-void (*List37::ptr::CSTR_List37)(List37 * self) = (void (*)(List37 * self)) 0x6092b0;
+inline List37 * (*List37::ptr::_New)() = (List37 * (*)()) 0x0;
+inline Node54 * (*List37::ptr::AddLast37)(List37 * self, Point * data) = (Node54 * (*)(List37 * self, Point * data)) 0x609380;
+inline List37 * (*List37::ptr::_new2)(List37 * self, Array<Point *> * arg1) = (List37 * (*)(List37 * self, Array<Point *> * arg1)) 0x0;
+inline int (*List37::ptr::_Clear)() = (int (*)()) 0x0;
+inline int (*List37::ptr::_Count)() = (int (*)()) 0x0;
+inline Point * (*List37::ptr::_RemoveFirst)() = (Point * (*)()) 0x0;
+inline Enumerator28 * (*List37::ptr::ObjectEnumerator)(List37 * self) = (Enumerator28 * (*)(List37 * self)) 0x609420;
+inline Array<Point *> * (*List37::ptr::ToArray)(List37 * self) = (Array<Point *> * (*)(List37 * self)) 0x6094b0;
+inline bool (*List37::ptr::_Equals23)(List37 * self, Point * arg1, Point * arg2) = (bool (*)(List37 * self, Point * arg1, Point * arg2)) 0x0;
+inline int (*List37::ptr::RemoveEach20)(List37 * self, Point * value) = (int (*)(List37 * self, Point * value)) 0x609580;
+inline bool (*List37::ptr::_IsEmpty)() = (bool (*)()) 0x0;
+inline Node54 * (*List37::ptr::_FirstNode)() = (Node54 * (*)()) 0x0;
+inline void (*List37::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List37::ptr::CSTR_List37)(List37 * self) = (void (*)(List37 * self)) 0x6092b0;
 #endif
 
 #ifdef __linux__
 
-List37 * (*List37::ptr::_New)() = (List37 * (*)()) 0x81aff30;
-Node54 * (*List37::ptr::AddLast37)(List37 * self, Point * data) = (Node54 * (*)(List37 * self, Point * data)) 0x80b9cf0;
-List37 * (*List37::ptr::_new2)(List37 * self, Array<Point *> * arg1) = (List37 * (*)(List37 * self, Array<Point *> * arg1)) 0x0;
-int (*List37::ptr::_Clear)() = (int (*)()) 0x8094f50;
-int (*List37::ptr::_Count)() = (int (*)()) 0x8074430;
-Point * (*List37::ptr::_RemoveFirst)() = (Point * (*)()) 0x8074450;
-Enumerator28 * (*List37::ptr::ObjectEnumerator)(List37 * self) = (Enumerator28 * (*)(List37 * self)) 0x80bb0a0;
-Array<Point *> * (*List37::ptr::ToArray)(List37 * self) = (Array<Point *> * (*)(List37 * self)) 0x80c0310;
-bool (*List37::ptr::_Equals23)(List37 * self, Point * arg1, Point * arg2) = (bool (*)(List37 * self, Point * arg1, Point * arg2)) 0x8074490;
-int (*List37::ptr::RemoveEach20)(List37 * self, Point * value) = (int (*)(List37 * self, Point * value)) 0x80744a0;
-bool (*List37::ptr::_IsEmpty)() = (bool (*)()) 0x8074500;
-Node54 * (*List37::ptr::_FirstNode)() = (Node54 * (*)()) 0x8074510;
-void (*List37::ptr::_mark)() = (void (*)()) 0x8090150;
-void (*List37::ptr::CSTR_List37)(List37 * self) = (void (*)(List37 * self)) 0x81b0250;
+inline List37 * (*List37::ptr::_New)() = (List37 * (*)()) 0x81aff30;
+inline Node54 * (*List37::ptr::AddLast37)(List37 * self, Point * data) = (Node54 * (*)(List37 * self, Point * data)) 0x80b9cf0;
+inline List37 * (*List37::ptr::_new2)(List37 * self, Array<Point *> * arg1) = (List37 * (*)(List37 * self, Array<Point *> * arg1)) 0x0;
+inline int (*List37::ptr::_Clear)() = (int (*)()) 0x8094f50;
+inline int (*List37::ptr::_Count)() = (int (*)()) 0x8074430;
+inline Point * (*List37::ptr::_RemoveFirst)() = (Point * (*)()) 0x8074450;
+inline Enumerator28 * (*List37::ptr::ObjectEnumerator)(List37 * self) = (Enumerator28 * (*)(List37 * self)) 0x80bb0a0;
+inline Array<Point *> * (*List37::ptr::ToArray)(List37 * self) = (Array<Point *> * (*)(List37 * self)) 0x80c0310;
+inline bool (*List37::ptr::_Equals23)(List37 * self, Point * arg1, Point * arg2) = (bool (*)(List37 * self, Point * arg1, Point * arg2)) 0x8074490;
+inline int (*List37::ptr::RemoveEach20)(List37 * self, Point * value) = (int (*)(List37 * self, Point * value)) 0x80744a0;
+inline bool (*List37::ptr::_IsEmpty)() = (bool (*)()) 0x8074500;
+inline Node54 * (*List37::ptr::_FirstNode)() = (Node54 * (*)()) 0x8074510;
+inline void (*List37::ptr::_mark)() = (void (*)()) 0x8090150;
+inline void (*List37::ptr::CSTR_List37)(List37 * self) = (void (*)(List37 * self)) 0x81b0250;
 #endif
 #endif

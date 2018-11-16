@@ -35,21 +35,21 @@ public:
 
 #ifdef _WIN32
 
-List49 * (*List49::ptr::_New)() = (List49 * (*)()) 0x0;
-Node69 * (*List49::ptr::AddLast49)(List49 * self, FireTrap * data) = (Node69 * (*)(List49 * self, FireTrap * data)) 0x639cb0;
-List49 * (*List49::ptr::_new2)(List49 * self, Array<FireTrap *> * arg1) = (List49 * (*)(List49 * self, Array<FireTrap *> * arg1)) 0x0;
-Enumerator54 * (*List49::ptr::ObjectEnumerator)(List49 * self) = (Enumerator54 * (*)(List49 * self)) 0x639d50;
-void (*List49::ptr::_mark)() = (void (*)()) 0x0;
-void (*List49::ptr::CSTR_List49)(List49 * self) = (void (*)(List49 * self)) 0x639be0;
+inline List49 * (*List49::ptr::_New)() = (List49 * (*)()) 0x0;
+inline Node69 * (*List49::ptr::AddLast49)(List49 * self, FireTrap * data) = (Node69 * (*)(List49 * self, FireTrap * data)) 0x639cb0;
+inline List49 * (*List49::ptr::_new2)(List49 * self, Array<FireTrap *> * arg1) = (List49 * (*)(List49 * self, Array<FireTrap *> * arg1)) 0x0;
+inline Enumerator54 * (*List49::ptr::ObjectEnumerator)(List49 * self) = (Enumerator54 * (*)(List49 * self)) 0x639d50;
+inline void (*List49::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List49::ptr::CSTR_List49)(List49 * self) = (void (*)(List49 * self)) 0x639be0;
 #endif
 
 #ifdef __linux__
 
-List49 * (*List49::ptr::_New)() = (List49 * (*)()) 0x81bfce0;
-Node69 * (*List49::ptr::AddLast49)(List49 * self, FireTrap * data) = (Node69 * (*)(List49 * self, FireTrap * data)) 0x80bb390;
-List49 * (*List49::ptr::_new2)(List49 * self, Array<FireTrap *> * arg1) = (List49 * (*)(List49 * self, Array<FireTrap *> * arg1)) 0x0;
-Enumerator54 * (*List49::ptr::ObjectEnumerator)(List49 * self) = (Enumerator54 * (*)(List49 * self)) 0x80bcb80;
-void (*List49::ptr::_mark)() = (void (*)()) 0x80886d0;
-void (*List49::ptr::CSTR_List49)(List49 * self) = (void (*)(List49 * self)) 0x81c0000;
+inline List49 * (*List49::ptr::_New)() = (List49 * (*)()) 0x81bfce0;
+inline Node69 * (*List49::ptr::AddLast49)(List49 * self, FireTrap * data) = (Node69 * (*)(List49 * self, FireTrap * data)) 0x80bb390;
+inline List49 * (*List49::ptr::_new2)(List49 * self, Array<FireTrap *> * arg1) = (List49 * (*)(List49 * self, Array<FireTrap *> * arg1)) 0x0;
+inline Enumerator54 * (*List49::ptr::ObjectEnumerator)(List49 * self) = (Enumerator54 * (*)(List49 * self)) 0x80bcb80;
+inline void (*List49::ptr::_mark)() = (void (*)()) 0x80886d0;
+inline void (*List49::ptr::CSTR_List49)(List49 * self) = (void (*)(List49 * self)) 0x81c0000;
 #endif
 #endif

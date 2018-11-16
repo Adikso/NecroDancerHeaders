@@ -27,17 +27,17 @@ public:
 
 #ifdef _WIN32
 
-Node28 * (*Node28::ptr::_New)(Node28 * self, Node28 * arg1, Node28 * arg2, Item * arg3) = (Node28 * (*)(Node28 * self, Node28 * arg1, Node28 * arg2, Item * arg3)) 0x0;
-Node28 * (*Node28::ptr::_new2)() = (Node28 * (*)()) 0x0;
-int (*Node28::ptr::_Remove3)() = (int (*)()) 0x0;
-void (*Node28::ptr::_mark)() = (void (*)()) 0x0;
+inline Node28 * (*Node28::ptr::_New)(Node28 * self, Node28 * arg1, Node28 * arg2, Item * arg3) = (Node28 * (*)(Node28 * self, Node28 * arg1, Node28 * arg2, Item * arg3)) 0x0;
+inline Node28 * (*Node28::ptr::_new2)() = (Node28 * (*)()) 0x0;
+inline int (*Node28::ptr::_Remove3)() = (int (*)()) 0x0;
+inline void (*Node28::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node28 * (*Node28::ptr::_New)(Node28 * self, Node28 * arg1, Node28 * arg2, Item * arg3) = (Node28 * (*)(Node28 * self, Node28 * arg1, Node28 * arg2, Item * arg3)) 0x0;
-Node28 * (*Node28::ptr::_new2)() = (Node28 * (*)()) 0x81a04c0;
-int (*Node28::ptr::_Remove3)() = (int (*)()) 0x8091740;
-void (*Node28::ptr::_mark)() = (void (*)()) 0x8087e10;
+inline Node28 * (*Node28::ptr::_New)(Node28 * self, Node28 * arg1, Node28 * arg2, Item * arg3) = (Node28 * (*)(Node28 * self, Node28 * arg1, Node28 * arg2, Item * arg3)) 0x0;
+inline Node28 * (*Node28::ptr::_new2)() = (Node28 * (*)()) 0x81a04c0;
+inline int (*Node28::ptr::_Remove3)() = (int (*)()) 0x8091740;
+inline void (*Node28::ptr::_mark)() = (void (*)()) 0x8087e10;
 #endif
 #endif

@@ -52,41 +52,41 @@ public:
 
 #ifdef _WIN32
 
-Map3 * (*Map3::ptr::_New)() = (Map3 * (*)()) 0x0;
-int (*Map3::ptr::_Compare)(Map3 * self, String * arg1, String * arg2) = (int (*)(Map3 * self, String * arg1, String * arg2)) 0x0;
-Node4 * (*Map3::ptr::_FindNode)(Map3 * self, String * arg1) = (Node4 * (*)(Map3 * self, String * arg1)) 0x0;
-bool (*Map3::ptr::Contains)(Map3 * self, String * key) = (bool (*)(Map3 * self, String * key)) 0x53b500;
-Image * (*Map3::ptr::_Get)(Map3 * self, String * arg1) = (Image * (*)(Map3 * self, String * arg1)) 0x0;
-int (*Map3::ptr::_RotateLeft3)(Map3 * self, Node4 * arg1) = (int (*)(Map3 * self, Node4 * arg1)) 0x0;
-int (*Map3::ptr::_RotateRight3)(Map3 * self, Node4 * arg1) = (int (*)(Map3 * self, Node4 * arg1)) 0x0;
-int (*Map3::ptr::_InsertFixup3)(Map3 * self, Node4 * arg1) = (int (*)(Map3 * self, Node4 * arg1)) 0x0;
-bool (*Map3::ptr::Set4)(Map3 * self, String * key, Image * value) = (bool (*)(Map3 * self, String * key, Image * value)) 0x53b670;
-bool (*Map3::ptr::Add4)(Map3 * self, String * key, Image * value) = (bool (*)(Map3 * self, String * key, Image * value)) 0x53b7c0;
-int (*Map3::ptr::_DeleteFixup2)(Map3 * self, Node4 * node, Node4 * parent) = (int (*)(Map3 * self, Node4 * node, Node4 * parent)) 0x53b900;
-int (*Map3::ptr::_RemoveNode2)(Map3 * self, Node4 * node) = (int (*)(Map3 * self, Node4 * node)) 0x53ba70;
-int (*Map3::ptr::Remove)(Map3 * self, String * key) = (int (*)(Map3 * self, String * key)) 0x53bb30;
-Node4 * (*Map3::ptr::_FirstNode)() = (Node4 * (*)()) 0x0;
-NodeEnumerator6 * (*Map3::ptr::ObjectEnumerator)(Map3 * self) = (NodeEnumerator6 * (*)(Map3 * self)) 0x53bbd0;
-void (*Map3::ptr::_mark)() = (void (*)()) 0x0;
+inline Map3 * (*Map3::ptr::_New)() = (Map3 * (*)()) 0x0;
+inline int (*Map3::ptr::_Compare)(Map3 * self, String * arg1, String * arg2) = (int (*)(Map3 * self, String * arg1, String * arg2)) 0x0;
+inline Node4 * (*Map3::ptr::_FindNode)(Map3 * self, String * arg1) = (Node4 * (*)(Map3 * self, String * arg1)) 0x0;
+inline bool (*Map3::ptr::Contains)(Map3 * self, String * key) = (bool (*)(Map3 * self, String * key)) 0x53b500;
+inline Image * (*Map3::ptr::_Get)(Map3 * self, String * arg1) = (Image * (*)(Map3 * self, String * arg1)) 0x0;
+inline int (*Map3::ptr::_RotateLeft3)(Map3 * self, Node4 * arg1) = (int (*)(Map3 * self, Node4 * arg1)) 0x0;
+inline int (*Map3::ptr::_RotateRight3)(Map3 * self, Node4 * arg1) = (int (*)(Map3 * self, Node4 * arg1)) 0x0;
+inline int (*Map3::ptr::_InsertFixup3)(Map3 * self, Node4 * arg1) = (int (*)(Map3 * self, Node4 * arg1)) 0x0;
+inline bool (*Map3::ptr::Set4)(Map3 * self, String * key, Image * value) = (bool (*)(Map3 * self, String * key, Image * value)) 0x53b670;
+inline bool (*Map3::ptr::Add4)(Map3 * self, String * key, Image * value) = (bool (*)(Map3 * self, String * key, Image * value)) 0x53b7c0;
+inline int (*Map3::ptr::_DeleteFixup2)(Map3 * self, Node4 * node, Node4 * parent) = (int (*)(Map3 * self, Node4 * node, Node4 * parent)) 0x53b900;
+inline int (*Map3::ptr::_RemoveNode2)(Map3 * self, Node4 * node) = (int (*)(Map3 * self, Node4 * node)) 0x53ba70;
+inline int (*Map3::ptr::Remove)(Map3 * self, String * key) = (int (*)(Map3 * self, String * key)) 0x53bb30;
+inline Node4 * (*Map3::ptr::_FirstNode)() = (Node4 * (*)()) 0x0;
+inline NodeEnumerator6 * (*Map3::ptr::ObjectEnumerator)(Map3 * self) = (NodeEnumerator6 * (*)(Map3 * self)) 0x53bbd0;
+inline void (*Map3::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Map3 * (*Map3::ptr::_New)() = (Map3 * (*)()) 0x8145960;
-int (*Map3::ptr::_Compare)(Map3 * self, String * arg1, String * arg2) = (int (*)(Map3 * self, String * arg1, String * arg2)) 0x0;
-Node4 * (*Map3::ptr::_FindNode)(Map3 * self, String * arg1) = (Node4 * (*)(Map3 * self, String * arg1)) 0x80c40e0;
-bool (*Map3::ptr::Contains)(Map3 * self, String * key) = (bool (*)(Map3 * self, String * key)) 0x80c4080;
-Image * (*Map3::ptr::_Get)(Map3 * self, String * arg1) = (Image * (*)(Map3 * self, String * arg1)) 0x80c4010;
-int (*Map3::ptr::_RotateLeft3)(Map3 * self, Node4 * arg1) = (int (*)(Map3 * self, Node4 * arg1)) 0x0;
-int (*Map3::ptr::_RotateRight3)(Map3 * self, Node4 * arg1) = (int (*)(Map3 * self, Node4 * arg1)) 0x0;
-int (*Map3::ptr::_InsertFixup3)(Map3 * self, Node4 * arg1) = (int (*)(Map3 * self, Node4 * arg1)) 0x0;
-bool (*Map3::ptr::Set4)(Map3 * self, String * key, Image * value) = (bool (*)(Map3 * self, String * key, Image * value)) 0x80de850;
-bool (*Map3::ptr::Add4)(Map3 * self, String * key, Image * value) = (bool (*)(Map3 * self, String * key, Image * value)) 0x80db730;
-int (*Map3::ptr::_DeleteFixup2)(Map3 * self, Node4 * node, Node4 * parent) = (int (*)(Map3 * self, Node4 * node, Node4 * parent)) 0x0;
-int (*Map3::ptr::_RemoveNode2)(Map3 * self, Node4 * node) = (int (*)(Map3 * self, Node4 * node)) 0x0;
-int (*Map3::ptr::Remove)(Map3 * self, String * key) = (int (*)(Map3 * self, String * key)) 0x80c3fa0;
-Node4 * (*Map3::ptr::_FirstNode)() = (Node4 * (*)()) 0x806f270;
-NodeEnumerator6 * (*Map3::ptr::ObjectEnumerator)(Map3 * self) = (NodeEnumerator6 * (*)(Map3 * self)) 0x80b62d0;
-void (*Map3::ptr::_mark)() = (void (*)()) 0x808dc50;
+inline Map3 * (*Map3::ptr::_New)() = (Map3 * (*)()) 0x8145960;
+inline int (*Map3::ptr::_Compare)(Map3 * self, String * arg1, String * arg2) = (int (*)(Map3 * self, String * arg1, String * arg2)) 0x0;
+inline Node4 * (*Map3::ptr::_FindNode)(Map3 * self, String * arg1) = (Node4 * (*)(Map3 * self, String * arg1)) 0x80c40e0;
+inline bool (*Map3::ptr::Contains)(Map3 * self, String * key) = (bool (*)(Map3 * self, String * key)) 0x80c4080;
+inline Image * (*Map3::ptr::_Get)(Map3 * self, String * arg1) = (Image * (*)(Map3 * self, String * arg1)) 0x80c4010;
+inline int (*Map3::ptr::_RotateLeft3)(Map3 * self, Node4 * arg1) = (int (*)(Map3 * self, Node4 * arg1)) 0x0;
+inline int (*Map3::ptr::_RotateRight3)(Map3 * self, Node4 * arg1) = (int (*)(Map3 * self, Node4 * arg1)) 0x0;
+inline int (*Map3::ptr::_InsertFixup3)(Map3 * self, Node4 * arg1) = (int (*)(Map3 * self, Node4 * arg1)) 0x0;
+inline bool (*Map3::ptr::Set4)(Map3 * self, String * key, Image * value) = (bool (*)(Map3 * self, String * key, Image * value)) 0x80de850;
+inline bool (*Map3::ptr::Add4)(Map3 * self, String * key, Image * value) = (bool (*)(Map3 * self, String * key, Image * value)) 0x80db730;
+inline int (*Map3::ptr::_DeleteFixup2)(Map3 * self, Node4 * node, Node4 * parent) = (int (*)(Map3 * self, Node4 * node, Node4 * parent)) 0x0;
+inline int (*Map3::ptr::_RemoveNode2)(Map3 * self, Node4 * node) = (int (*)(Map3 * self, Node4 * node)) 0x0;
+inline int (*Map3::ptr::Remove)(Map3 * self, String * key) = (int (*)(Map3 * self, String * key)) 0x80c3fa0;
+inline Node4 * (*Map3::ptr::_FirstNode)() = (Node4 * (*)()) 0x806f270;
+inline NodeEnumerator6 * (*Map3::ptr::ObjectEnumerator)(Map3 * self) = (NodeEnumerator6 * (*)(Map3 * self)) 0x80b62d0;
+inline void (*Map3::ptr::_mark)() = (void (*)()) 0x808dc50;
 #endif
 #endif

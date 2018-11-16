@@ -39,29 +39,29 @@ public:
 
 #ifdef _WIN32
 
-Map2 * (*Map2::ptr::_New)() = (Map2 * (*)()) 0x0;
-int (*Map2::ptr::_Compare)(Map2 * self, String * arg1, String * arg2) = (int (*)(Map2 * self, String * arg1, String * arg2)) 0x0;
-int (*Map2::ptr::_RotateLeft2)(Map2 * self, Node3 * arg1) = (int (*)(Map2 * self, Node3 * arg1)) 0x0;
-int (*Map2::ptr::_RotateRight2)(Map2 * self, Node3 * arg1) = (int (*)(Map2 * self, Node3 * arg1)) 0x0;
-int (*Map2::ptr::_InsertFixup2)(Map2 * self, Node3 * arg1) = (int (*)(Map2 * self, Node3 * arg1)) 0x0;
-bool (*Map2::ptr::Set3)(Map2 * self, String * key, List * value) = (bool (*)(Map2 * self, String * key, List * value)) 0x4f7bd0;
-bool (*Map2::ptr::Insert2)(Map2 * self, String * key, List * value) = (bool (*)(Map2 * self, String * key, List * value)) 0x4f7d20;
-Node3 * (*Map2::ptr::_FindNode)(Map2 * self, String * arg1) = (Node3 * (*)(Map2 * self, String * arg1)) 0x0;
-List * (*Map2::ptr::_Get)(Map2 * self, String * arg1) = (List * (*)(Map2 * self, String * arg1)) 0x0;
-void (*Map2::ptr::_mark)() = (void (*)()) 0x0;
+inline Map2 * (*Map2::ptr::_New)() = (Map2 * (*)()) 0x0;
+inline int (*Map2::ptr::_Compare)(Map2 * self, String * arg1, String * arg2) = (int (*)(Map2 * self, String * arg1, String * arg2)) 0x0;
+inline int (*Map2::ptr::_RotateLeft2)(Map2 * self, Node3 * arg1) = (int (*)(Map2 * self, Node3 * arg1)) 0x0;
+inline int (*Map2::ptr::_RotateRight2)(Map2 * self, Node3 * arg1) = (int (*)(Map2 * self, Node3 * arg1)) 0x0;
+inline int (*Map2::ptr::_InsertFixup2)(Map2 * self, Node3 * arg1) = (int (*)(Map2 * self, Node3 * arg1)) 0x0;
+inline bool (*Map2::ptr::Set3)(Map2 * self, String * key, List * value) = (bool (*)(Map2 * self, String * key, List * value)) 0x4f7bd0;
+inline bool (*Map2::ptr::Insert2)(Map2 * self, String * key, List * value) = (bool (*)(Map2 * self, String * key, List * value)) 0x4f7d20;
+inline Node3 * (*Map2::ptr::_FindNode)(Map2 * self, String * arg1) = (Node3 * (*)(Map2 * self, String * arg1)) 0x0;
+inline List * (*Map2::ptr::_Get)(Map2 * self, String * arg1) = (List * (*)(Map2 * self, String * arg1)) 0x0;
+inline void (*Map2::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Map2 * (*Map2::ptr::_New)() = (Map2 * (*)()) 0x813b930;
-int (*Map2::ptr::_Compare)(Map2 * self, String * arg1, String * arg2) = (int (*)(Map2 * self, String * arg1, String * arg2)) 0x0;
-int (*Map2::ptr::_RotateLeft2)(Map2 * self, Node3 * arg1) = (int (*)(Map2 * self, Node3 * arg1)) 0x0;
-int (*Map2::ptr::_RotateRight2)(Map2 * self, Node3 * arg1) = (int (*)(Map2 * self, Node3 * arg1)) 0x0;
-int (*Map2::ptr::_InsertFixup2)(Map2 * self, Node3 * arg1) = (int (*)(Map2 * self, Node3 * arg1)) 0x0;
-bool (*Map2::ptr::Set3)(Map2 * self, String * key, List * value) = (bool (*)(Map2 * self, String * key, List * value)) 0x80db390;
-bool (*Map2::ptr::Insert2)(Map2 * self, String * key, List * value) = (bool (*)(Map2 * self, String * key, List * value)) 0x80c49d0;
-Node3 * (*Map2::ptr::_FindNode)(Map2 * self, String * arg1) = (Node3 * (*)(Map2 * self, String * arg1)) 0x80c4920;
-List * (*Map2::ptr::_Get)(Map2 * self, String * arg1) = (List * (*)(Map2 * self, String * arg1)) 0x80c48b0;
-void (*Map2::ptr::_mark)() = (void (*)()) 0x808bcd0;
+inline Map2 * (*Map2::ptr::_New)() = (Map2 * (*)()) 0x813b930;
+inline int (*Map2::ptr::_Compare)(Map2 * self, String * arg1, String * arg2) = (int (*)(Map2 * self, String * arg1, String * arg2)) 0x0;
+inline int (*Map2::ptr::_RotateLeft2)(Map2 * self, Node3 * arg1) = (int (*)(Map2 * self, Node3 * arg1)) 0x0;
+inline int (*Map2::ptr::_RotateRight2)(Map2 * self, Node3 * arg1) = (int (*)(Map2 * self, Node3 * arg1)) 0x0;
+inline int (*Map2::ptr::_InsertFixup2)(Map2 * self, Node3 * arg1) = (int (*)(Map2 * self, Node3 * arg1)) 0x0;
+inline bool (*Map2::ptr::Set3)(Map2 * self, String * key, List * value) = (bool (*)(Map2 * self, String * key, List * value)) 0x80db390;
+inline bool (*Map2::ptr::Insert2)(Map2 * self, String * key, List * value) = (bool (*)(Map2 * self, String * key, List * value)) 0x80c49d0;
+inline Node3 * (*Map2::ptr::_FindNode)(Map2 * self, String * arg1) = (Node3 * (*)(Map2 * self, String * arg1)) 0x80c4920;
+inline List * (*Map2::ptr::_Get)(Map2 * self, String * arg1) = (List * (*)(Map2 * self, String * arg1)) 0x80c48b0;
+inline void (*Map2::ptr::_mark)() = (void (*)()) 0x808bcd0;
 #endif
 #endif

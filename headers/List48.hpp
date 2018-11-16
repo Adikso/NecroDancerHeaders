@@ -45,31 +45,31 @@ public:
 
 #ifdef _WIN32
 
-List48 * (*List48::ptr::_New)() = (List48 * (*)()) 0x0;
-Node68 * (*List48::ptr::AddLast48)(List48 * self, RoomData * data) = (Node68 * (*)(List48 * self, RoomData * data)) 0x638af0;
-List48 * (*List48::ptr::_new2)(List48 * self, Array<RoomData *> * arg1) = (List48 * (*)(List48 * self, Array<RoomData *> * arg1)) 0x0;
-int (*List48::ptr::_Clear)() = (int (*)()) 0x0;
-RoomData * (*List48::ptr::_Last2)() = (RoomData * (*)()) 0x0;
-Enumerator43 * (*List48::ptr::ObjectEnumerator)(List48 * self) = (Enumerator43 * (*)(List48 * self)) 0x638b90;
-int (*List48::ptr::_Count)() = (int (*)()) 0x0;
-Array<RoomData *> * (*List48::ptr::ToArray)(List48 * self) = (Array<RoomData *> * (*)(List48 * self)) 0x638c20;
-RoomData * (*List48::ptr::RemoveFirst)(List48 * self) = (RoomData * (*)(List48 * self)) 0x638cf0;
-void (*List48::ptr::_mark)() = (void (*)()) 0x0;
-void (*List48::ptr::CSTR_List48)(List48 * self) = (void (*)(List48 * self)) 0x638a20;
+inline List48 * (*List48::ptr::_New)() = (List48 * (*)()) 0x0;
+inline Node68 * (*List48::ptr::AddLast48)(List48 * self, RoomData * data) = (Node68 * (*)(List48 * self, RoomData * data)) 0x638af0;
+inline List48 * (*List48::ptr::_new2)(List48 * self, Array<RoomData *> * arg1) = (List48 * (*)(List48 * self, Array<RoomData *> * arg1)) 0x0;
+inline int (*List48::ptr::_Clear)() = (int (*)()) 0x0;
+inline RoomData * (*List48::ptr::_Last2)() = (RoomData * (*)()) 0x0;
+inline Enumerator43 * (*List48::ptr::ObjectEnumerator)(List48 * self) = (Enumerator43 * (*)(List48 * self)) 0x638b90;
+inline int (*List48::ptr::_Count)() = (int (*)()) 0x0;
+inline Array<RoomData *> * (*List48::ptr::ToArray)(List48 * self) = (Array<RoomData *> * (*)(List48 * self)) 0x638c20;
+inline RoomData * (*List48::ptr::RemoveFirst)(List48 * self) = (RoomData * (*)(List48 * self)) 0x638cf0;
+inline void (*List48::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List48::ptr::CSTR_List48)(List48 * self) = (void (*)(List48 * self)) 0x638a20;
 #endif
 
 #ifdef __linux__
 
-List48 * (*List48::ptr::_New)() = (List48 * (*)()) 0x81bf0a0;
-Node68 * (*List48::ptr::AddLast48)(List48 * self, RoomData * data) = (Node68 * (*)(List48 * self, RoomData * data)) 0x81bf2e0;
-List48 * (*List48::ptr::_new2)(List48 * self, Array<RoomData *> * arg1) = (List48 * (*)(List48 * self, Array<RoomData *> * arg1)) 0x0;
-int (*List48::ptr::_Clear)() = (int (*)()) 0x8093e00;
-RoomData * (*List48::ptr::_Last2)() = (RoomData * (*)()) 0x8075f00;
-Enumerator43 * (*List48::ptr::ObjectEnumerator)(List48 * self) = (Enumerator43 * (*)(List48 * self)) 0x80bb240;
-int (*List48::ptr::_Count)() = (int (*)()) 0x8075f20;
-Array<RoomData *> * (*List48::ptr::ToArray)(List48 * self) = (Array<RoomData *> * (*)(List48 * self)) 0x80be720;
-RoomData * (*List48::ptr::RemoveFirst)(List48 * self) = (RoomData * (*)(List48 * self)) 0x8075f40;
-void (*List48::ptr::_mark)() = (void (*)()) 0x8088270;
-void (*List48::ptr::CSTR_List48)(List48 * self) = (void (*)(List48 * self)) 0x81bf420;
+inline List48 * (*List48::ptr::_New)() = (List48 * (*)()) 0x81bf0a0;
+inline Node68 * (*List48::ptr::AddLast48)(List48 * self, RoomData * data) = (Node68 * (*)(List48 * self, RoomData * data)) 0x81bf2e0;
+inline List48 * (*List48::ptr::_new2)(List48 * self, Array<RoomData *> * arg1) = (List48 * (*)(List48 * self, Array<RoomData *> * arg1)) 0x0;
+inline int (*List48::ptr::_Clear)() = (int (*)()) 0x8093e00;
+inline RoomData * (*List48::ptr::_Last2)() = (RoomData * (*)()) 0x8075f00;
+inline Enumerator43 * (*List48::ptr::ObjectEnumerator)(List48 * self) = (Enumerator43 * (*)(List48 * self)) 0x80bb240;
+inline int (*List48::ptr::_Count)() = (int (*)()) 0x8075f20;
+inline Array<RoomData *> * (*List48::ptr::ToArray)(List48 * self) = (Array<RoomData *> * (*)(List48 * self)) 0x80be720;
+inline RoomData * (*List48::ptr::RemoveFirst)(List48 * self) = (RoomData * (*)(List48 * self)) 0x8075f40;
+inline void (*List48::ptr::_mark)() = (void (*)()) 0x8088270;
+inline void (*List48::ptr::CSTR_List48)(List48 * self) = (void (*)(List48 * self)) 0x81bf420;
 #endif
 #endif

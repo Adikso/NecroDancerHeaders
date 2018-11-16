@@ -38,27 +38,27 @@ public:
 
 #ifdef _WIN32
 
-Stack5 * (*Stack5::ptr::_New)() = (Stack5 * (*)()) 0x0;
-Stack5 * (*Stack5::ptr::_new2)(Stack5 * self, Array<TileData *> * arg1) = (Stack5 * (*)(Stack5 * self, Array<TileData *> * arg1)) 0x0;
-int (*Stack5::ptr::Push13)(Stack5 * self, TileData * value) = (int (*)(Stack5 * self, TileData * value)) 0x65f500;
-int (*Stack5::ptr::_Push14)(Stack5 * self, Array<TileData *> * arg1, int arg2, int arg3) = (int (*)(Stack5 * self, Array<TileData *> * arg1, int arg2, int arg3)) 0x0;
-int (*Stack5::ptr::_Push15)(Stack5 * self, Array<TileData *> * arg1, int arg2) = (int (*)(Stack5 * self, Array<TileData *> * arg1, int arg2)) 0x0;
-Enumerator40 * (*Stack5::ptr::ObjectEnumerator)(Stack5 * self) = (Enumerator40 * (*)(Stack5 * self)) 0x65f5a0;
-int (*Stack5::ptr::_Length)() = (int (*)()) 0x0;
-TileData * (*Stack5::ptr::_Get2)(Stack5 * self, int arg1) = (TileData * (*)(Stack5 * self, int arg1)) 0x0;
-void (*Stack5::ptr::_mark)() = (void (*)()) 0x0;
+inline Stack5 * (*Stack5::ptr::_New)() = (Stack5 * (*)()) 0x0;
+inline Stack5 * (*Stack5::ptr::_new2)(Stack5 * self, Array<TileData *> * arg1) = (Stack5 * (*)(Stack5 * self, Array<TileData *> * arg1)) 0x0;
+inline int (*Stack5::ptr::Push13)(Stack5 * self, TileData * value) = (int (*)(Stack5 * self, TileData * value)) 0x65f500;
+inline int (*Stack5::ptr::_Push14)(Stack5 * self, Array<TileData *> * arg1, int arg2, int arg3) = (int (*)(Stack5 * self, Array<TileData *> * arg1, int arg2, int arg3)) 0x0;
+inline int (*Stack5::ptr::_Push15)(Stack5 * self, Array<TileData *> * arg1, int arg2) = (int (*)(Stack5 * self, Array<TileData *> * arg1, int arg2)) 0x0;
+inline Enumerator40 * (*Stack5::ptr::ObjectEnumerator)(Stack5 * self) = (Enumerator40 * (*)(Stack5 * self)) 0x65f5a0;
+inline int (*Stack5::ptr::_Length)() = (int (*)()) 0x0;
+inline TileData * (*Stack5::ptr::_Get2)(Stack5 * self, int arg1) = (TileData * (*)(Stack5 * self, int arg1)) 0x0;
+inline void (*Stack5::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Stack5 * (*Stack5::ptr::_New)() = (Stack5 * (*)()) 0x81d4a70;
-Stack5 * (*Stack5::ptr::_new2)(Stack5 * self, Array<TileData *> * arg1) = (Stack5 * (*)(Stack5 * self, Array<TileData *> * arg1)) 0x0;
-int (*Stack5::ptr::Push13)(Stack5 * self, TileData * value) = (int (*)(Stack5 * self, TileData * value)) 0x80be880;
-int (*Stack5::ptr::_Push14)(Stack5 * self, Array<TileData *> * arg1, int arg2, int arg3) = (int (*)(Stack5 * self, Array<TileData *> * arg1, int arg2, int arg3)) 0x0;
-int (*Stack5::ptr::_Push15)(Stack5 * self, Array<TileData *> * arg1, int arg2) = (int (*)(Stack5 * self, Array<TileData *> * arg1, int arg2)) 0x0;
-Enumerator40 * (*Stack5::ptr::ObjectEnumerator)(Stack5 * self) = (Enumerator40 * (*)(Stack5 * self)) 0x80bbb80;
-int (*Stack5::ptr::_Length)() = (int (*)()) 0x8076c70;
-TileData * (*Stack5::ptr::_Get2)(Stack5 * self, int arg1) = (TileData * (*)(Stack5 * self, int arg1)) 0x8076c80;
-void (*Stack5::ptr::_mark)() = (void (*)()) 0x8076c90;
+inline Stack5 * (*Stack5::ptr::_New)() = (Stack5 * (*)()) 0x81d4a70;
+inline Stack5 * (*Stack5::ptr::_new2)(Stack5 * self, Array<TileData *> * arg1) = (Stack5 * (*)(Stack5 * self, Array<TileData *> * arg1)) 0x0;
+inline int (*Stack5::ptr::Push13)(Stack5 * self, TileData * value) = (int (*)(Stack5 * self, TileData * value)) 0x80be880;
+inline int (*Stack5::ptr::_Push14)(Stack5 * self, Array<TileData *> * arg1, int arg2, int arg3) = (int (*)(Stack5 * self, Array<TileData *> * arg1, int arg2, int arg3)) 0x0;
+inline int (*Stack5::ptr::_Push15)(Stack5 * self, Array<TileData *> * arg1, int arg2) = (int (*)(Stack5 * self, Array<TileData *> * arg1, int arg2)) 0x0;
+inline Enumerator40 * (*Stack5::ptr::ObjectEnumerator)(Stack5 * self) = (Enumerator40 * (*)(Stack5 * self)) 0x80bbb80;
+inline int (*Stack5::ptr::_Length)() = (int (*)()) 0x8076c70;
+inline TileData * (*Stack5::ptr::_Get2)(Stack5 * self, int arg1) = (TileData * (*)(Stack5 * self, int arg1)) 0x8076c80;
+inline void (*Stack5::ptr::_mark)() = (void (*)()) 0x8076c90;
 #endif
 #endif

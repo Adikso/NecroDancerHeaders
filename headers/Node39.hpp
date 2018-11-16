@@ -29,15 +29,15 @@ public:
 
 #ifdef _WIN32
 
-Node39 * (*Node39::ptr::_New)(Node39 * self, String * arg1, Sprite * arg2, int arg3, Node39 * arg4) = (Node39 * (*)(Node39 * self, String * arg1, Sprite * arg2, int arg3, Node39 * arg4)) 0x0;
-Node39 * (*Node39::ptr::_new2)() = (Node39 * (*)()) 0x0;
-void (*Node39::ptr::_mark)() = (void (*)()) 0x0;
+inline Node39 * (*Node39::ptr::_New)(Node39 * self, String * arg1, Sprite * arg2, int arg3, Node39 * arg4) = (Node39 * (*)(Node39 * self, String * arg1, Sprite * arg2, int arg3, Node39 * arg4)) 0x0;
+inline Node39 * (*Node39::ptr::_new2)() = (Node39 * (*)()) 0x0;
+inline void (*Node39::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node39 * (*Node39::ptr::_New)(Node39 * self, String * arg1, Sprite * arg2, int arg3, Node39 * arg4) = (Node39 * (*)(Node39 * self, String * arg1, Sprite * arg2, int arg3, Node39 * arg4)) 0x0;
-Node39 * (*Node39::ptr::_new2)() = (Node39 * (*)()) 0x81b82b0;
-void (*Node39::ptr::_mark)() = (void (*)()) 0x8088f10;
+inline Node39 * (*Node39::ptr::_New)(Node39 * self, String * arg1, Sprite * arg2, int arg3, Node39 * arg4) = (Node39 * (*)(Node39 * self, String * arg1, Sprite * arg2, int arg3, Node39 * arg4)) 0x0;
+inline Node39 * (*Node39::ptr::_new2)() = (Node39 * (*)()) 0x81b82b0;
+inline void (*Node39::ptr::_mark)() = (void (*)()) 0x8088f10;
 #endif
 #endif

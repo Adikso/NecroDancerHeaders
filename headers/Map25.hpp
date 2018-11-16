@@ -36,27 +36,27 @@ public:
 
 #ifdef _WIN32
 
-Map25 * (*Map25::ptr::_New)() = (Map25 * (*)()) 0x0;
-int (*Map25::ptr::_Compare2)(Map25 * self, int arg1, int arg2) = (int (*)(Map25 * self, int arg1, int arg2)) 0x0;
-Node80 * (*Map25::ptr::_FindNode2)(Map25 * self, int arg1) = (Node80 * (*)(Map25 * self, int arg1)) 0x0;
-IntMap10 * (*Map25::ptr::_Get2)(Map25 * self, int arg1) = (IntMap10 * (*)(Map25 * self, int arg1)) 0x0;
-int (*Map25::ptr::_RotateLeft25)(Map25 * self, Node80 * arg1) = (int (*)(Map25 * self, Node80 * arg1)) 0x0;
-int (*Map25::ptr::_RotateRight25)(Map25 * self, Node80 * arg1) = (int (*)(Map25 * self, Node80 * arg1)) 0x0;
-int (*Map25::ptr::_InsertFixup25)(Map25 * self, Node80 * arg1) = (int (*)(Map25 * self, Node80 * arg1)) 0x0;
-bool (*Map25::ptr::Set29)(Map25 * self, int key, IntMap10 * value) = (bool (*)(Map25 * self, int key, IntMap10 * value)) 0x68e0e0;
-void (*Map25::ptr::_mark)() = (void (*)()) 0x0;
+inline Map25 * (*Map25::ptr::_New)() = (Map25 * (*)()) 0x0;
+inline int (*Map25::ptr::_Compare2)(Map25 * self, int arg1, int arg2) = (int (*)(Map25 * self, int arg1, int arg2)) 0x0;
+inline Node80 * (*Map25::ptr::_FindNode2)(Map25 * self, int arg1) = (Node80 * (*)(Map25 * self, int arg1)) 0x0;
+inline IntMap10 * (*Map25::ptr::_Get2)(Map25 * self, int arg1) = (IntMap10 * (*)(Map25 * self, int arg1)) 0x0;
+inline int (*Map25::ptr::_RotateLeft25)(Map25 * self, Node80 * arg1) = (int (*)(Map25 * self, Node80 * arg1)) 0x0;
+inline int (*Map25::ptr::_RotateRight25)(Map25 * self, Node80 * arg1) = (int (*)(Map25 * self, Node80 * arg1)) 0x0;
+inline int (*Map25::ptr::_InsertFixup25)(Map25 * self, Node80 * arg1) = (int (*)(Map25 * self, Node80 * arg1)) 0x0;
+inline bool (*Map25::ptr::Set29)(Map25 * self, int key, IntMap10 * value) = (bool (*)(Map25 * self, int key, IntMap10 * value)) 0x68e0e0;
+inline void (*Map25::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Map25 * (*Map25::ptr::_New)() = (Map25 * (*)()) 0x81e54f0;
-int (*Map25::ptr::_Compare2)(Map25 * self, int arg1, int arg2) = (int (*)(Map25 * self, int arg1, int arg2)) 0x0;
-Node80 * (*Map25::ptr::_FindNode2)(Map25 * self, int arg1) = (Node80 * (*)(Map25 * self, int arg1)) 0x8079350;
-IntMap10 * (*Map25::ptr::_Get2)(Map25 * self, int arg1) = (IntMap10 * (*)(Map25 * self, int arg1)) 0x80793a0;
-int (*Map25::ptr::_RotateLeft25)(Map25 * self, Node80 * arg1) = (int (*)(Map25 * self, Node80 * arg1)) 0x0;
-int (*Map25::ptr::_RotateRight25)(Map25 * self, Node80 * arg1) = (int (*)(Map25 * self, Node80 * arg1)) 0x0;
-int (*Map25::ptr::_InsertFixup25)(Map25 * self, Node80 * arg1) = (int (*)(Map25 * self, Node80 * arg1)) 0x0;
-bool (*Map25::ptr::Set29)(Map25 * self, int key, IntMap10 * value) = (bool (*)(Map25 * self, int key, IntMap10 * value)) 0x80bd0c0;
-void (*Map25::ptr::_mark)() = (void (*)()) 0x808cb10;
+inline Map25 * (*Map25::ptr::_New)() = (Map25 * (*)()) 0x81e54f0;
+inline int (*Map25::ptr::_Compare2)(Map25 * self, int arg1, int arg2) = (int (*)(Map25 * self, int arg1, int arg2)) 0x0;
+inline Node80 * (*Map25::ptr::_FindNode2)(Map25 * self, int arg1) = (Node80 * (*)(Map25 * self, int arg1)) 0x8079350;
+inline IntMap10 * (*Map25::ptr::_Get2)(Map25 * self, int arg1) = (IntMap10 * (*)(Map25 * self, int arg1)) 0x80793a0;
+inline int (*Map25::ptr::_RotateLeft25)(Map25 * self, Node80 * arg1) = (int (*)(Map25 * self, Node80 * arg1)) 0x0;
+inline int (*Map25::ptr::_RotateRight25)(Map25 * self, Node80 * arg1) = (int (*)(Map25 * self, Node80 * arg1)) 0x0;
+inline int (*Map25::ptr::_InsertFixup25)(Map25 * self, Node80 * arg1) = (int (*)(Map25 * self, Node80 * arg1)) 0x0;
+inline bool (*Map25::ptr::Set29)(Map25 * self, int key, IntMap10 * value) = (bool (*)(Map25 * self, int key, IntMap10 * value)) 0x80bd0c0;
+inline void (*Map25::ptr::_mark)() = (void (*)()) 0x808cb10;
 #endif
 #endif

@@ -30,19 +30,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator22 * (*Enumerator22::ptr::_New)(Enumerator22 * self, List38 * arg1) = (Enumerator22 * (*)(Enumerator22 * self, List38 * arg1)) 0x0;
-Enumerator22 * (*Enumerator22::ptr::_new2)() = (Enumerator22 * (*)()) 0x0;
-bool (*Enumerator22::ptr::_HasNext)() = (bool (*)()) 0x0;
-MinibossTileData * (*Enumerator22::ptr::_NextObject)() = (MinibossTileData * (*)()) 0x0;
-void (*Enumerator22::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator22 * (*Enumerator22::ptr::_New)(Enumerator22 * self, List38 * arg1) = (Enumerator22 * (*)(Enumerator22 * self, List38 * arg1)) 0x0;
+inline Enumerator22 * (*Enumerator22::ptr::_new2)() = (Enumerator22 * (*)()) 0x0;
+inline bool (*Enumerator22::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline MinibossTileData * (*Enumerator22::ptr::_NextObject)() = (MinibossTileData * (*)()) 0x0;
+inline void (*Enumerator22::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator22 * (*Enumerator22::ptr::_New)(Enumerator22 * self, List38 * arg1) = (Enumerator22 * (*)(Enumerator22 * self, List38 * arg1)) 0x81b8410;
-Enumerator22 * (*Enumerator22::ptr::_new2)() = (Enumerator22 * (*)()) 0x81b84c0;
-bool (*Enumerator22::ptr::_HasNext)() = (bool (*)()) 0x80911e0;
-MinibossTileData * (*Enumerator22::ptr::_NextObject)() = (MinibossTileData * (*)()) 0x8090fd0;
-void (*Enumerator22::ptr::_mark)() = (void (*)()) 0x8084a00;
+inline Enumerator22 * (*Enumerator22::ptr::_New)(Enumerator22 * self, List38 * arg1) = (Enumerator22 * (*)(Enumerator22 * self, List38 * arg1)) 0x81b8410;
+inline Enumerator22 * (*Enumerator22::ptr::_new2)() = (Enumerator22 * (*)()) 0x81b84c0;
+inline bool (*Enumerator22::ptr::_HasNext)() = (bool (*)()) 0x80911e0;
+inline MinibossTileData * (*Enumerator22::ptr::_NextObject)() = (MinibossTileData * (*)()) 0x8090fd0;
+inline void (*Enumerator22::ptr::_mark)() = (void (*)()) 0x8084a00;
 #endif
 #endif

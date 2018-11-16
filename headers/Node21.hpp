@@ -33,17 +33,17 @@ public:
 
 #ifdef _WIN32
 
-Node21 * (*Node21::ptr::_New)(Node21 * self, int arg1, LevelObject * arg2, int arg3, Node21 * arg4) = (Node21 * (*)(Node21 * self, int arg1, LevelObject * arg2, int arg3, Node21 * arg4)) 0x0;
-Node21 * (*Node21::ptr::_new2)() = (Node21 * (*)()) 0x0;
-void (*Node21::ptr::_mark)() = (void (*)()) 0x0;
-void (*Node21::ptr::CSTR_Node21)(Node21 * self) = (void (*)(Node21 * self)) 0x5d6d40;
+inline Node21 * (*Node21::ptr::_New)(Node21 * self, int arg1, LevelObject * arg2, int arg3, Node21 * arg4) = (Node21 * (*)(Node21 * self, int arg1, LevelObject * arg2, int arg3, Node21 * arg4)) 0x0;
+inline Node21 * (*Node21::ptr::_new2)() = (Node21 * (*)()) 0x0;
+inline void (*Node21::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Node21::ptr::CSTR_Node21)(Node21 * self) = (void (*)(Node21 * self)) 0x5d6d40;
 #endif
 
 #ifdef __linux__
 
-Node21 * (*Node21::ptr::_New)(Node21 * self, int arg1, LevelObject * arg2, int arg3, Node21 * arg4) = (Node21 * (*)(Node21 * self, int arg1, LevelObject * arg2, int arg3, Node21 * arg4)) 0x0;
-Node21 * (*Node21::ptr::_new2)() = (Node21 * (*)()) 0x81979c0;
-void (*Node21::ptr::_mark)() = (void (*)()) 0x8089ad0;
-void (*Node21::ptr::CSTR_Node21)(Node21 * self) = (void (*)(Node21 * self)) 0x8197780;
+inline Node21 * (*Node21::ptr::_New)(Node21 * self, int arg1, LevelObject * arg2, int arg3, Node21 * arg4) = (Node21 * (*)(Node21 * self, int arg1, LevelObject * arg2, int arg3, Node21 * arg4)) 0x0;
+inline Node21 * (*Node21::ptr::_new2)() = (Node21 * (*)()) 0x81979c0;
+inline void (*Node21::ptr::_mark)() = (void (*)()) 0x8089ad0;
+inline void (*Node21::ptr::CSTR_Node21)(Node21 * self) = (void (*)(Node21 * self)) 0x8197780;
 #endif
 #endif

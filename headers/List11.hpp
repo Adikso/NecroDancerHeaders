@@ -63,49 +63,49 @@ public:
 
 #ifdef _WIN32
 
-List11 * (*List11::ptr::_New)() = (List11 * (*)()) 0x0;
-Node18 * (*List11::ptr::AddLast11)(List11 * self, String * data) = (Node18 * (*)(List11 * self, String * data)) 0x5c2fb0;
-List11 * (*List11::ptr::_new2)(List11 * self, Array<String> * arg1) = (List11 * (*)(List11 * self, Array<String> * arg1)) 0x0;
-int (*List11::ptr::_Clear)() = (int (*)()) 0x0;
-bool (*List11::ptr::_Equals8)(List11 * self, String * arg1, String * arg2) = (bool (*)(List11 * self, String * arg1, String * arg2)) 0x0;
-bool (*List11::ptr::Contains)(List11 * self, String * value) = (bool (*)(List11 * self, String * value)) 0x5c3100;
-int (*List11::ptr::RemoveEach7)(List11 * self, String * value) = (int (*)(List11 * self, String * value)) 0x5c31c0;
-Enumerator23 * (*List11::ptr::ObjectEnumerator)(List11 * self) = (Enumerator23 * (*)(List11 * self)) 0x5c3280;
-int (*List11::ptr::_Count)() = (int (*)()) 0x0;
-Array<String> * (*List11::ptr::ToArray)(List11 * self) = (Array<String> * (*)(List11 * self)) 0x5c3310;
-int (*List11::ptr::Compare)(List11 * self, String * lhs, String * rhs) = (int (*)(List11 * self, String * lhs, String * rhs)) 0x5c3410;
-int (*List11::ptr::Sort)(List11 * self, int ascending) = (int (*)(List11 * self, int ascending)) 0x5c34a0;
-String * (*List11::ptr::Last2)(List11 * self) = (String * (*)(List11 * self)) 0x5c3720;
-Node18 * (*List11::ptr::_FirstNode)() = (Node18 * (*)()) 0x0;
-bool (*List11::ptr::_IsEmpty)() = (bool (*)()) 0x0;
-String * (*List11::ptr::RemoveFirst)(List11 * self) = (String * (*)(List11 * self)) 0x5c3790;
-String * (*List11::ptr::RemoveLast)(List11 * self) = (String * (*)(List11 * self)) 0x5c3810;
-Node18 * (*List11::ptr::AddFirst)(List11 * self, String * data) = (Node18 * (*)(List11 * self, String * data)) 0x5c3890;
-void (*List11::ptr::_mark)() = (void (*)()) 0x0;
-void (*List11::ptr::CSTR_List11)(List11 * self) = (void (*)(List11 * self)) 0x5c2f00;
+inline List11 * (*List11::ptr::_New)() = (List11 * (*)()) 0x0;
+inline Node18 * (*List11::ptr::AddLast11)(List11 * self, String * data) = (Node18 * (*)(List11 * self, String * data)) 0x5c2fb0;
+inline List11 * (*List11::ptr::_new2)(List11 * self, Array<String> * arg1) = (List11 * (*)(List11 * self, Array<String> * arg1)) 0x0;
+inline int (*List11::ptr::_Clear)() = (int (*)()) 0x0;
+inline bool (*List11::ptr::_Equals8)(List11 * self, String * arg1, String * arg2) = (bool (*)(List11 * self, String * arg1, String * arg2)) 0x0;
+inline bool (*List11::ptr::Contains)(List11 * self, String * value) = (bool (*)(List11 * self, String * value)) 0x5c3100;
+inline int (*List11::ptr::RemoveEach7)(List11 * self, String * value) = (int (*)(List11 * self, String * value)) 0x5c31c0;
+inline Enumerator23 * (*List11::ptr::ObjectEnumerator)(List11 * self) = (Enumerator23 * (*)(List11 * self)) 0x5c3280;
+inline int (*List11::ptr::_Count)() = (int (*)()) 0x0;
+inline Array<String> * (*List11::ptr::ToArray)(List11 * self) = (Array<String> * (*)(List11 * self)) 0x5c3310;
+inline int (*List11::ptr::Compare)(List11 * self, String * lhs, String * rhs) = (int (*)(List11 * self, String * lhs, String * rhs)) 0x5c3410;
+inline int (*List11::ptr::Sort)(List11 * self, int ascending) = (int (*)(List11 * self, int ascending)) 0x5c34a0;
+inline String * (*List11::ptr::Last2)(List11 * self) = (String * (*)(List11 * self)) 0x5c3720;
+inline Node18 * (*List11::ptr::_FirstNode)() = (Node18 * (*)()) 0x0;
+inline bool (*List11::ptr::_IsEmpty)() = (bool (*)()) 0x0;
+inline String * (*List11::ptr::RemoveFirst)(List11 * self) = (String * (*)(List11 * self)) 0x5c3790;
+inline String * (*List11::ptr::RemoveLast)(List11 * self) = (String * (*)(List11 * self)) 0x5c3810;
+inline Node18 * (*List11::ptr::AddFirst)(List11 * self, String * data) = (Node18 * (*)(List11 * self, String * data)) 0x5c3890;
+inline void (*List11::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*List11::ptr::CSTR_List11)(List11 * self) = (void (*)(List11 * self)) 0x5c2f00;
 #endif
 
 #ifdef __linux__
 
-List11 * (*List11::ptr::_New)() = (List11 * (*)()) 0x817f2c0;
-Node18 * (*List11::ptr::AddLast11)(List11 * self, String * data) = (Node18 * (*)(List11 * self, String * data)) 0x80da020;
-List11 * (*List11::ptr::_new2)(List11 * self, Array<String> * arg1) = (List11 * (*)(List11 * self, Array<String> * arg1)) 0x817f2d0;
-int (*List11::ptr::_Clear)() = (int (*)()) 0x809b570;
-bool (*List11::ptr::_Equals8)(List11 * self, String * arg1, String * arg2) = (bool (*)(List11 * self, String * arg1, String * arg2)) 0x80c24a0;
-bool (*List11::ptr::Contains)(List11 * self, String * value) = (bool (*)(List11 * self, String * value)) 0x80c3a40;
-int (*List11::ptr::RemoveEach7)(List11 * self, String * value) = (int (*)(List11 * self, String * value)) 0x80c3990;
-Enumerator23 * (*List11::ptr::ObjectEnumerator)(List11 * self) = (Enumerator23 * (*)(List11 * self)) 0x80b7350;
-int (*List11::ptr::_Count)() = (int (*)()) 0x8070c10;
-Array<String> * (*List11::ptr::ToArray)(List11 * self) = (Array<String> * (*)(List11 * self)) 0x80d8970;
-int (*List11::ptr::Compare)(List11 * self, String * lhs, String * rhs) = (int (*)(List11 * self, String * lhs, String * rhs)) 0x81f72e0;
-int (*List11::ptr::Sort)(List11 * self, int ascending) = (int (*)(List11 * self, int ascending)) 0x80d2470;
-String * (*List11::ptr::Last2)(List11 * self) = (String * (*)(List11 * self)) 0x8070c30;
-Node18 * (*List11::ptr::_FirstNode)() = (Node18 * (*)()) 0x8070c60;
-bool (*List11::ptr::_IsEmpty)() = (bool (*)()) 0x8070c80;
-String * (*List11::ptr::RemoveFirst)(List11 * self) = (String * (*)(List11 * self)) 0x80c3930;
-String * (*List11::ptr::RemoveLast)(List11 * self) = (String * (*)(List11 * self)) 0x80c38d0;
-Node18 * (*List11::ptr::AddFirst)(List11 * self, String * data) = (Node18 * (*)(List11 * self, String * data)) 0x80d9010;
-void (*List11::ptr::_mark)() = (void (*)()) 0x80907d0;
-void (*List11::ptr::CSTR_List11)(List11 * self) = (void (*)(List11 * self)) 0x817f670;
+inline List11 * (*List11::ptr::_New)() = (List11 * (*)()) 0x817f2c0;
+inline Node18 * (*List11::ptr::AddLast11)(List11 * self, String * data) = (Node18 * (*)(List11 * self, String * data)) 0x80da020;
+inline List11 * (*List11::ptr::_new2)(List11 * self, Array<String> * arg1) = (List11 * (*)(List11 * self, Array<String> * arg1)) 0x817f2d0;
+inline int (*List11::ptr::_Clear)() = (int (*)()) 0x809b570;
+inline bool (*List11::ptr::_Equals8)(List11 * self, String * arg1, String * arg2) = (bool (*)(List11 * self, String * arg1, String * arg2)) 0x80c24a0;
+inline bool (*List11::ptr::Contains)(List11 * self, String * value) = (bool (*)(List11 * self, String * value)) 0x80c3a40;
+inline int (*List11::ptr::RemoveEach7)(List11 * self, String * value) = (int (*)(List11 * self, String * value)) 0x80c3990;
+inline Enumerator23 * (*List11::ptr::ObjectEnumerator)(List11 * self) = (Enumerator23 * (*)(List11 * self)) 0x80b7350;
+inline int (*List11::ptr::_Count)() = (int (*)()) 0x8070c10;
+inline Array<String> * (*List11::ptr::ToArray)(List11 * self) = (Array<String> * (*)(List11 * self)) 0x80d8970;
+inline int (*List11::ptr::Compare)(List11 * self, String * lhs, String * rhs) = (int (*)(List11 * self, String * lhs, String * rhs)) 0x81f72e0;
+inline int (*List11::ptr::Sort)(List11 * self, int ascending) = (int (*)(List11 * self, int ascending)) 0x80d2470;
+inline String * (*List11::ptr::Last2)(List11 * self) = (String * (*)(List11 * self)) 0x8070c30;
+inline Node18 * (*List11::ptr::_FirstNode)() = (Node18 * (*)()) 0x8070c60;
+inline bool (*List11::ptr::_IsEmpty)() = (bool (*)()) 0x8070c80;
+inline String * (*List11::ptr::RemoveFirst)(List11 * self) = (String * (*)(List11 * self)) 0x80c3930;
+inline String * (*List11::ptr::RemoveLast)(List11 * self) = (String * (*)(List11 * self)) 0x80c38d0;
+inline Node18 * (*List11::ptr::AddFirst)(List11 * self, String * data) = (Node18 * (*)(List11 * self, String * data)) 0x80d9010;
+inline void (*List11::ptr::_mark)() = (void (*)()) 0x80907d0;
+inline void (*List11::ptr::CSTR_List11)(List11 * self) = (void (*)(List11 * self)) 0x817f670;
 #endif
 #endif

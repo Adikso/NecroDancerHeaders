@@ -27,17 +27,17 @@ public:
 
 #ifdef _WIN32
 
-Node47 * (*Node47::ptr::_New)(Node47 * self, Node47 * arg1, Node47 * arg2, ParticleSystem * arg3) = (Node47 * (*)(Node47 * self, Node47 * arg1, Node47 * arg2, ParticleSystem * arg3)) 0x0;
-Node47 * (*Node47::ptr::_new2)() = (Node47 * (*)()) 0x0;
-int (*Node47::ptr::_Remove3)() = (int (*)()) 0x0;
-void (*Node47::ptr::_mark)() = (void (*)()) 0x0;
+inline Node47 * (*Node47::ptr::_New)(Node47 * self, Node47 * arg1, Node47 * arg2, ParticleSystem * arg3) = (Node47 * (*)(Node47 * self, Node47 * arg1, Node47 * arg2, ParticleSystem * arg3)) 0x0;
+inline Node47 * (*Node47::ptr::_new2)() = (Node47 * (*)()) 0x0;
+inline int (*Node47::ptr::_Remove3)() = (int (*)()) 0x0;
+inline void (*Node47::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Node47 * (*Node47::ptr::_New)(Node47 * self, Node47 * arg1, Node47 * arg2, ParticleSystem * arg3) = (Node47 * (*)(Node47 * self, Node47 * arg1, Node47 * arg2, ParticleSystem * arg3)) 0x0;
-Node47 * (*Node47::ptr::_new2)() = (Node47 * (*)()) 0x81be070;
-int (*Node47::ptr::_Remove3)() = (int (*)()) 0x808d2c0;
-void (*Node47::ptr::_mark)() = (void (*)()) 0x8087250;
+inline Node47 * (*Node47::ptr::_New)(Node47 * self, Node47 * arg1, Node47 * arg2, ParticleSystem * arg3) = (Node47 * (*)(Node47 * self, Node47 * arg1, Node47 * arg2, ParticleSystem * arg3)) 0x0;
+inline Node47 * (*Node47::ptr::_new2)() = (Node47 * (*)()) 0x81be070;
+inline int (*Node47::ptr::_Remove3)() = (int (*)()) 0x808d2c0;
+inline void (*Node47::ptr::_mark)() = (void (*)()) 0x8087250;
 #endif
 #endif

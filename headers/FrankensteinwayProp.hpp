@@ -39,27 +39,27 @@ public:
 
 #ifdef _WIN32
 
-FrankensteinwayProp * (*FrankensteinwayProp::ptr::New)(FrankensteinwayProp * self, int xVal, int yVal) = (FrankensteinwayProp * (*)(FrankensteinwayProp * self, int xVal, int yVal)) 0x66bc00;
-FrankensteinwayProp * (*FrankensteinwayProp::ptr::_new2)() = (FrankensteinwayProp * (*)()) 0x0;
-void (*FrankensteinwayProp::ptr::Activate2)(FrankensteinwayProp * self) = (void (*)(FrankensteinwayProp * self)) 0x66bcd0;
-void (*FrankensteinwayProp::ptr::Update)(FrankensteinwayProp * self) = (void (*)(FrankensteinwayProp * self)) 0x66bda0;
-bool (*FrankensteinwayProp::ptr::_ImmuneToEarth)() = (bool (*)()) 0x0;
-bool (*FrankensteinwayProp::ptr::_ImmuneToFear)() = (bool (*)()) 0x0;
-bool (*FrankensteinwayProp::ptr::Hit)(FrankensteinwayProp * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(FrankensteinwayProp * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x66be00;
-void (*FrankensteinwayProp::ptr::Deactivate)(FrankensteinwayProp * self) = (void (*)(FrankensteinwayProp * self)) 0x66bfe0;
-void (*FrankensteinwayProp::ptr::_mark)() = (void (*)()) 0x0;
+inline FrankensteinwayProp * (*FrankensteinwayProp::ptr::New)(FrankensteinwayProp * self, int xVal, int yVal) = (FrankensteinwayProp * (*)(FrankensteinwayProp * self, int xVal, int yVal)) 0x66bc00;
+inline FrankensteinwayProp * (*FrankensteinwayProp::ptr::_new2)() = (FrankensteinwayProp * (*)()) 0x0;
+inline void (*FrankensteinwayProp::ptr::Activate2)(FrankensteinwayProp * self) = (void (*)(FrankensteinwayProp * self)) 0x66bcd0;
+inline void (*FrankensteinwayProp::ptr::Update)(FrankensteinwayProp * self) = (void (*)(FrankensteinwayProp * self)) 0x66bda0;
+inline bool (*FrankensteinwayProp::ptr::_ImmuneToEarth)() = (bool (*)()) 0x0;
+inline bool (*FrankensteinwayProp::ptr::_ImmuneToFear)() = (bool (*)()) 0x0;
+inline bool (*FrankensteinwayProp::ptr::Hit)(FrankensteinwayProp * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(FrankensteinwayProp * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x66be00;
+inline void (*FrankensteinwayProp::ptr::Deactivate)(FrankensteinwayProp * self) = (void (*)(FrankensteinwayProp * self)) 0x66bfe0;
+inline void (*FrankensteinwayProp::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-FrankensteinwayProp * (*FrankensteinwayProp::ptr::New)(FrankensteinwayProp * self, int xVal, int yVal) = (FrankensteinwayProp * (*)(FrankensteinwayProp * self, int xVal, int yVal)) 0x81d9f70;
-FrankensteinwayProp * (*FrankensteinwayProp::ptr::_new2)() = (FrankensteinwayProp * (*)()) 0x81da050;
-void (*FrankensteinwayProp::ptr::Activate2)(FrankensteinwayProp * self) = (void (*)(FrankensteinwayProp * self)) 0x83ab310;
-void (*FrankensteinwayProp::ptr::Update)(FrankensteinwayProp * self) = (void (*)(FrankensteinwayProp * self)) 0x837df50;
-bool (*FrankensteinwayProp::ptr::_ImmuneToEarth)() = (bool (*)()) 0x8077b50;
-bool (*FrankensteinwayProp::ptr::_ImmuneToFear)() = (bool (*)()) 0x8077b60;
-bool (*FrankensteinwayProp::ptr::Hit)(FrankensteinwayProp * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(FrankensteinwayProp * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8396270;
-void (*FrankensteinwayProp::ptr::Deactivate)(FrankensteinwayProp * self) = (void (*)(FrankensteinwayProp * self)) 0x83ab3a0;
-void (*FrankensteinwayProp::ptr::_mark)() = (void (*)()) 0x80afee0;
+inline FrankensteinwayProp * (*FrankensteinwayProp::ptr::New)(FrankensteinwayProp * self, int xVal, int yVal) = (FrankensteinwayProp * (*)(FrankensteinwayProp * self, int xVal, int yVal)) 0x81d9f70;
+inline FrankensteinwayProp * (*FrankensteinwayProp::ptr::_new2)() = (FrankensteinwayProp * (*)()) 0x81da050;
+inline void (*FrankensteinwayProp::ptr::Activate2)(FrankensteinwayProp * self) = (void (*)(FrankensteinwayProp * self)) 0x83ab310;
+inline void (*FrankensteinwayProp::ptr::Update)(FrankensteinwayProp * self) = (void (*)(FrankensteinwayProp * self)) 0x837df50;
+inline bool (*FrankensteinwayProp::ptr::_ImmuneToEarth)() = (bool (*)()) 0x8077b50;
+inline bool (*FrankensteinwayProp::ptr::_ImmuneToFear)() = (bool (*)()) 0x8077b60;
+inline bool (*FrankensteinwayProp::ptr::Hit)(FrankensteinwayProp * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(FrankensteinwayProp * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8396270;
+inline void (*FrankensteinwayProp::ptr::Deactivate)(FrankensteinwayProp * self) = (void (*)(FrankensteinwayProp * self)) 0x83ab3a0;
+inline void (*FrankensteinwayProp::ptr::_mark)() = (void (*)()) 0x80afee0;
 #endif
 #endif

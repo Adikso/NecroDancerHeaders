@@ -33,21 +33,21 @@ public:
 
 #ifdef _WIN32
 
-TeleportTrap * (*TeleportTrap::ptr::New)(TeleportTrap * self, int xVal, int yVal) = (TeleportTrap * (*)(TeleportTrap * self, int xVal, int yVal)) 0x65b8a0;
-TeleportTrap * (*TeleportTrap::ptr::_new2)() = (TeleportTrap * (*)()) 0x0;
-void (*TeleportTrap::ptr::Update)(TeleportTrap * self) = (void (*)(TeleportTrap * self)) 0x65b610;
-void (*TeleportTrap::ptr::Trigger)(TeleportTrap * self, Entity * ent) = (void (*)(TeleportTrap * self, Entity * ent)) 0x65ba20;
-void (*TeleportTrap::ptr::_mark)() = (void (*)()) 0x0;
-void (*TeleportTrap::ptr::CSTR_TeleportTrap)(TeleportTrap * self) = (void (*)(TeleportTrap * self)) 0x65b840;
+inline TeleportTrap * (*TeleportTrap::ptr::New)(TeleportTrap * self, int xVal, int yVal) = (TeleportTrap * (*)(TeleportTrap * self, int xVal, int yVal)) 0x65b8a0;
+inline TeleportTrap * (*TeleportTrap::ptr::_new2)() = (TeleportTrap * (*)()) 0x0;
+inline void (*TeleportTrap::ptr::Update)(TeleportTrap * self) = (void (*)(TeleportTrap * self)) 0x65b610;
+inline void (*TeleportTrap::ptr::Trigger)(TeleportTrap * self, Entity * ent) = (void (*)(TeleportTrap * self, Entity * ent)) 0x65ba20;
+inline void (*TeleportTrap::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*TeleportTrap::ptr::CSTR_TeleportTrap)(TeleportTrap * self) = (void (*)(TeleportTrap * self)) 0x65b840;
 #endif
 
 #ifdef __linux__
 
-TeleportTrap * (*TeleportTrap::ptr::New)(TeleportTrap * self, int xVal, int yVal) = (TeleportTrap * (*)(TeleportTrap * self, int xVal, int yVal)) 0x81d1630;
-TeleportTrap * (*TeleportTrap::ptr::_new2)() = (TeleportTrap * (*)()) 0x81d2aa0;
-void (*TeleportTrap::ptr::Update)(TeleportTrap * self) = (void (*)(TeleportTrap * self)) 0x812d8d0;
-void (*TeleportTrap::ptr::Trigger)(TeleportTrap * self, Entity * ent) = (void (*)(TeleportTrap * self, Entity * ent)) 0x83b86b0;
-void (*TeleportTrap::ptr::_mark)() = (void (*)()) 0x80a5a30;
-void (*TeleportTrap::ptr::CSTR_TeleportTrap)(TeleportTrap * self) = (void (*)(TeleportTrap * self)) 0x81d15b0;
+inline TeleportTrap * (*TeleportTrap::ptr::New)(TeleportTrap * self, int xVal, int yVal) = (TeleportTrap * (*)(TeleportTrap * self, int xVal, int yVal)) 0x81d1630;
+inline TeleportTrap * (*TeleportTrap::ptr::_new2)() = (TeleportTrap * (*)()) 0x81d2aa0;
+inline void (*TeleportTrap::ptr::Update)(TeleportTrap * self) = (void (*)(TeleportTrap * self)) 0x812d8d0;
+inline void (*TeleportTrap::ptr::Trigger)(TeleportTrap * self, Entity * ent) = (void (*)(TeleportTrap * self, Entity * ent)) 0x83b86b0;
+inline void (*TeleportTrap::ptr::_mark)() = (void (*)()) 0x80a5a30;
+inline void (*TeleportTrap::ptr::CSTR_TeleportTrap)(TeleportTrap * self) = (void (*)(TeleportTrap * self)) 0x81d15b0;
 #endif
 #endif

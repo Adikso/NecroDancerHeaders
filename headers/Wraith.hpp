@@ -52,38 +52,38 @@ public:
 };
 
 #ifdef _WIN32
-Wraith * * Wraith::theCursedWraith = (Wraith* *) 0x835988;
+inline Wraith * * Wraith::theCursedWraith = (Wraith* *) 0x835988;
 
-void (*Wraith::ptr::Die)(Wraith * self) = (void (*)(Wraith * self)) 0x63bd40;
-Wraith * (*Wraith::ptr::New)(Wraith * self, int xVal, int yVal, int l) = (Wraith * (*)(Wraith * self, int xVal, int yVal, int l)) 0x63bd60;
-Wraith * (*Wraith::ptr::_new2)() = (Wraith * (*)()) 0x0;
-void (*Wraith::ptr::Render)(Wraith * self) = (void (*)(Wraith * self)) 0x63c170;
-void (*Wraith::ptr::BecomeCorporeal)(Wraith * self, bool force) = (void (*)(Wraith * self, bool force)) 0x63c1b0;
-void (*Wraith::ptr::CheckCorporeality)(Wraith * self) = (void (*)(Wraith * self)) 0x63c520;
-void (*Wraith::ptr::Update)(Wraith * self) = (void (*)(Wraith * self)) 0x63c8b0;
-bool (*Wraith::ptr::Hit)(Wraith * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Wraith * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x63c9d0;
-void (*Wraith::ptr::AfterHitPlayer)(Wraith * self, Player * p) = (void (*)(Wraith * self, Player * p)) 0x63ca70;
-bool (*Wraith::ptr::CanBeDamaged)(Wraith * self, bool phasing, bool piercing) = (bool (*)(Wraith * self, bool phasing, bool piercing)) 0x63cda0;
-Point * (*Wraith::ptr::GetMovementDirection)(Wraith * self) = (Point * (*)(Wraith * self)) 0x63cdb0;
-void (*Wraith::ptr::_mark)() = (void (*)()) 0x0;
-void (*Wraith::ptr::CSTR_Wraith)(Wraith * self) = (void (*)(Wraith * self)) 0x63bc70;
+inline void (*Wraith::ptr::Die)(Wraith * self) = (void (*)(Wraith * self)) 0x63bd40;
+inline Wraith * (*Wraith::ptr::New)(Wraith * self, int xVal, int yVal, int l) = (Wraith * (*)(Wraith * self, int xVal, int yVal, int l)) 0x63bd60;
+inline Wraith * (*Wraith::ptr::_new2)() = (Wraith * (*)()) 0x0;
+inline void (*Wraith::ptr::Render)(Wraith * self) = (void (*)(Wraith * self)) 0x63c170;
+inline void (*Wraith::ptr::BecomeCorporeal)(Wraith * self, bool force) = (void (*)(Wraith * self, bool force)) 0x63c1b0;
+inline void (*Wraith::ptr::CheckCorporeality)(Wraith * self) = (void (*)(Wraith * self)) 0x63c520;
+inline void (*Wraith::ptr::Update)(Wraith * self) = (void (*)(Wraith * self)) 0x63c8b0;
+inline bool (*Wraith::ptr::Hit)(Wraith * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Wraith * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x63c9d0;
+inline void (*Wraith::ptr::AfterHitPlayer)(Wraith * self, Player * p) = (void (*)(Wraith * self, Player * p)) 0x63ca70;
+inline bool (*Wraith::ptr::CanBeDamaged)(Wraith * self, bool phasing, bool piercing) = (bool (*)(Wraith * self, bool phasing, bool piercing)) 0x63cda0;
+inline Point * (*Wraith::ptr::GetMovementDirection)(Wraith * self) = (Point * (*)(Wraith * self)) 0x63cdb0;
+inline void (*Wraith::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Wraith::ptr::CSTR_Wraith)(Wraith * self) = (void (*)(Wraith * self)) 0x63bc70;
 #endif
 
 #ifdef __linux__
-Wraith * * Wraith::theCursedWraith = (Wraith* *) 0x856a35c;
+inline Wraith * * Wraith::theCursedWraith = (Wraith* *) 0x856a35c;
 
-void (*Wraith::ptr::Die)(Wraith * self) = (void (*)(Wraith * self)) 0x83b63e0;
-Wraith * (*Wraith::ptr::New)(Wraith * self, int xVal, int yVal, int l) = (Wraith * (*)(Wraith * self, int xVal, int yVal, int l)) 0x81c0880;
-Wraith * (*Wraith::ptr::_new2)() = (Wraith * (*)()) 0x81c0bf0;
-void (*Wraith::ptr::Render)(Wraith * self) = (void (*)(Wraith * self)) 0x830c140;
-void (*Wraith::ptr::BecomeCorporeal)(Wraith * self, bool force) = (void (*)(Wraith * self, bool force)) 0x8264f10;
-void (*Wraith::ptr::CheckCorporeality)(Wraith * self) = (void (*)(Wraith * self)) 0x8261190;
-void (*Wraith::ptr::Update)(Wraith * self) = (void (*)(Wraith * self)) 0x8382d40;
-bool (*Wraith::ptr::Hit)(Wraith * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Wraith * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83994c0;
-void (*Wraith::ptr::AfterHitPlayer)(Wraith * self, Player * p) = (void (*)(Wraith * self, Player * p)) 0x8318f40;
-bool (*Wraith::ptr::CanBeDamaged)(Wraith * self, bool phasing, bool piercing) = (bool (*)(Wraith * self, bool phasing, bool piercing)) 0x80760a0;
-Point * (*Wraith::ptr::GetMovementDirection)(Wraith * self) = (Point * (*)(Wraith * self)) 0x80b4680;
-void (*Wraith::ptr::_mark)() = (void (*)()) 0x80b0780;
-void (*Wraith::ptr::CSTR_Wraith)(Wraith * self) = (void (*)(Wraith * self)) 0x81c0810;
+inline void (*Wraith::ptr::Die)(Wraith * self) = (void (*)(Wraith * self)) 0x83b63e0;
+inline Wraith * (*Wraith::ptr::New)(Wraith * self, int xVal, int yVal, int l) = (Wraith * (*)(Wraith * self, int xVal, int yVal, int l)) 0x81c0880;
+inline Wraith * (*Wraith::ptr::_new2)() = (Wraith * (*)()) 0x81c0bf0;
+inline void (*Wraith::ptr::Render)(Wraith * self) = (void (*)(Wraith * self)) 0x830c140;
+inline void (*Wraith::ptr::BecomeCorporeal)(Wraith * self, bool force) = (void (*)(Wraith * self, bool force)) 0x8264f10;
+inline void (*Wraith::ptr::CheckCorporeality)(Wraith * self) = (void (*)(Wraith * self)) 0x8261190;
+inline void (*Wraith::ptr::Update)(Wraith * self) = (void (*)(Wraith * self)) 0x8382d40;
+inline bool (*Wraith::ptr::Hit)(Wraith * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Wraith * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83994c0;
+inline void (*Wraith::ptr::AfterHitPlayer)(Wraith * self, Player * p) = (void (*)(Wraith * self, Player * p)) 0x8318f40;
+inline bool (*Wraith::ptr::CanBeDamaged)(Wraith * self, bool phasing, bool piercing) = (bool (*)(Wraith * self, bool phasing, bool piercing)) 0x80760a0;
+inline Point * (*Wraith::ptr::GetMovementDirection)(Wraith * self) = (Point * (*)(Wraith * self)) 0x80b4680;
+inline void (*Wraith::ptr::_mark)() = (void (*)()) 0x80b0780;
+inline void (*Wraith::ptr::CSTR_Wraith)(Wraith * self) = (void (*)(Wraith * self)) 0x81c0810;
 #endif
 #endif

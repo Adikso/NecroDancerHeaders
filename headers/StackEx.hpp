@@ -30,21 +30,21 @@ public:
 
 #ifdef _WIN32
 
-StackEx * (*StackEx::ptr::_New)() = (StackEx * (*)()) 0x0;
-int (*StackEx::ptr::Find)(StackEx * self, int value) = (int (*)(StackEx * self, int value)) 0x6054e0;
-void (*StackEx::ptr::Shuffle)(StackEx * self, bool useSeed) = (void (*)(StackEx * self, bool useSeed)) 0x605530;
-int (*StackEx::ptr::ChooseRandom)(StackEx * self, bool useSeed) = (int (*)(StackEx * self, bool useSeed)) 0x605630;
-void (*StackEx::ptr::_mark)() = (void (*)()) 0x0;
-void (*StackEx::ptr::CSTR_StackEx)(StackEx * self) = (void (*)(StackEx * self)) 0x605460;
+inline StackEx * (*StackEx::ptr::_New)() = (StackEx * (*)()) 0x0;
+inline int (*StackEx::ptr::Find)(StackEx * self, int value) = (int (*)(StackEx * self, int value)) 0x6054e0;
+inline void (*StackEx::ptr::Shuffle)(StackEx * self, bool useSeed) = (void (*)(StackEx * self, bool useSeed)) 0x605530;
+inline int (*StackEx::ptr::ChooseRandom)(StackEx * self, bool useSeed) = (int (*)(StackEx * self, bool useSeed)) 0x605630;
+inline void (*StackEx::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*StackEx::ptr::CSTR_StackEx)(StackEx * self) = (void (*)(StackEx * self)) 0x605460;
 #endif
 
 #ifdef __linux__
 
-StackEx * (*StackEx::ptr::_New)() = (StackEx * (*)()) 0x81a9b20;
-int (*StackEx::ptr::Find)(StackEx * self, int value) = (int (*)(StackEx * self, int value)) 0x80741d0;
-void (*StackEx::ptr::Shuffle)(StackEx * self, bool useSeed) = (void (*)(StackEx * self, bool useSeed)) 0x8100e30;
-int (*StackEx::ptr::ChooseRandom)(StackEx * self, bool useSeed) = (int (*)(StackEx * self, bool useSeed)) 0x8100dd0;
-void (*StackEx::ptr::_mark)() = (void (*)()) 0x80a0c50;
-void (*StackEx::ptr::CSTR_StackEx)(StackEx * self) = (void (*)(StackEx * self)) 0x81a9a10;
+inline StackEx * (*StackEx::ptr::_New)() = (StackEx * (*)()) 0x81a9b20;
+inline int (*StackEx::ptr::Find)(StackEx * self, int value) = (int (*)(StackEx * self, int value)) 0x80741d0;
+inline void (*StackEx::ptr::Shuffle)(StackEx * self, bool useSeed) = (void (*)(StackEx * self, bool useSeed)) 0x8100e30;
+inline int (*StackEx::ptr::ChooseRandom)(StackEx * self, bool useSeed) = (int (*)(StackEx * self, bool useSeed)) 0x8100dd0;
+inline void (*StackEx::ptr::_mark)() = (void (*)()) 0x80a0c50;
+inline void (*StackEx::ptr::CSTR_StackEx)(StackEx * self) = (void (*)(StackEx * self)) 0x81a9a10;
 #endif
 #endif

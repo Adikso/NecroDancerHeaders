@@ -24,17 +24,17 @@ public:
 
 #ifdef _WIN32
 
-IntList * (*IntList::ptr::_New)(IntList * self, Array<int> * arg1) = (IntList * (*)(IntList * self, Array<int> * arg1)) 0x0;
-IntList * (*IntList::ptr::_new2)() = (IntList * (*)()) 0x0;
-bool (*IntList::ptr::_Equals14)(IntList * self, int arg1, int arg2) = (bool (*)(IntList * self, int arg1, int arg2)) 0x0;
-void (*IntList::ptr::_mark)() = (void (*)()) 0x0;
+inline IntList * (*IntList::ptr::_New)(IntList * self, Array<int> * arg1) = (IntList * (*)(IntList * self, Array<int> * arg1)) 0x0;
+inline IntList * (*IntList::ptr::_new2)() = (IntList * (*)()) 0x0;
+inline bool (*IntList::ptr::_Equals14)(IntList * self, int arg1, int arg2) = (bool (*)(IntList * self, int arg1, int arg2)) 0x0;
+inline void (*IntList::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-IntList * (*IntList::ptr::_New)(IntList * self, Array<int> * arg1) = (IntList * (*)(IntList * self, Array<int> * arg1)) 0x0;
-IntList * (*IntList::ptr::_new2)() = (IntList * (*)()) 0x0;
-bool (*IntList::ptr::_Equals14)(IntList * self, int arg1, int arg2) = (bool (*)(IntList * self, int arg1, int arg2)) 0x0;
-void (*IntList::ptr::_mark)() = (void (*)()) 0x8090050;
+inline IntList * (*IntList::ptr::_New)(IntList * self, Array<int> * arg1) = (IntList * (*)(IntList * self, Array<int> * arg1)) 0x0;
+inline IntList * (*IntList::ptr::_new2)() = (IntList * (*)()) 0x0;
+inline bool (*IntList::ptr::_Equals14)(IntList * self, int arg1, int arg2) = (bool (*)(IntList * self, int arg1, int arg2)) 0x0;
+inline void (*IntList::ptr::_mark)() = (void (*)()) 0x8090050;
 #endif
 #endif

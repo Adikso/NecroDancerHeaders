@@ -29,19 +29,19 @@ public:
 
 #ifdef _WIN32
 
-Weaponmaster * (*Weaponmaster::ptr::New)(Weaponmaster * self, int xVal, int yVal, int l, bool captv) = (Weaponmaster * (*)(Weaponmaster * self, int xVal, int yVal, int l, bool captv)) 0x6612b0;
-Weaponmaster * (*Weaponmaster::ptr::_new2)() = (Weaponmaster * (*)()) 0x0;
-void (*Weaponmaster::ptr::Update)(Weaponmaster * self) = (void (*)(Weaponmaster * self)) 0x661370;
-void (*Weaponmaster::ptr::mark)(Weaponmaster * self) = (void (*)(Weaponmaster * self)) 0x5fc7a0;
-void (*Weaponmaster::ptr::CSTR_Weaponmaster)(Weaponmaster * self) = (void (*)(Weaponmaster * self)) 0x661250;
+inline Weaponmaster * (*Weaponmaster::ptr::New)(Weaponmaster * self, int xVal, int yVal, int l, bool captv) = (Weaponmaster * (*)(Weaponmaster * self, int xVal, int yVal, int l, bool captv)) 0x6612b0;
+inline Weaponmaster * (*Weaponmaster::ptr::_new2)() = (Weaponmaster * (*)()) 0x0;
+inline void (*Weaponmaster::ptr::Update)(Weaponmaster * self) = (void (*)(Weaponmaster * self)) 0x661370;
+inline void (*Weaponmaster::ptr::mark)(Weaponmaster * self) = (void (*)(Weaponmaster * self)) 0x5fc7a0;
+inline void (*Weaponmaster::ptr::CSTR_Weaponmaster)(Weaponmaster * self) = (void (*)(Weaponmaster * self)) 0x661250;
 #endif
 
 #ifdef __linux__
 
-Weaponmaster * (*Weaponmaster::ptr::New)(Weaponmaster * self, int xVal, int yVal, int l, bool captv) = (Weaponmaster * (*)(Weaponmaster * self, int xVal, int yVal, int l, bool captv)) 0x81d6ac0;
-Weaponmaster * (*Weaponmaster::ptr::_new2)() = (Weaponmaster * (*)()) 0x81d6b80;
-void (*Weaponmaster::ptr::Update)(Weaponmaster * self) = (void (*)(Weaponmaster * self)) 0x8387180;
-void (*Weaponmaster::ptr::mark)(Weaponmaster * self) = (void (*)(Weaponmaster * self)) 0x80b3080;
-void (*Weaponmaster::ptr::CSTR_Weaponmaster)(Weaponmaster * self) = (void (*)(Weaponmaster * self)) 0x81d6a50;
+inline Weaponmaster * (*Weaponmaster::ptr::New)(Weaponmaster * self, int xVal, int yVal, int l, bool captv) = (Weaponmaster * (*)(Weaponmaster * self, int xVal, int yVal, int l, bool captv)) 0x81d6ac0;
+inline Weaponmaster * (*Weaponmaster::ptr::_new2)() = (Weaponmaster * (*)()) 0x81d6b80;
+inline void (*Weaponmaster::ptr::Update)(Weaponmaster * self) = (void (*)(Weaponmaster * self)) 0x8387180;
+inline void (*Weaponmaster::ptr::mark)(Weaponmaster * self) = (void (*)(Weaponmaster * self)) 0x80b3080;
+inline void (*Weaponmaster::ptr::CSTR_Weaponmaster)(Weaponmaster * self) = (void (*)(Weaponmaster * self)) 0x81d6a50;
 #endif
 #endif

@@ -30,19 +30,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator20 * (*Enumerator20::ptr::_New)(Enumerator20 * self, List25 * arg1) = (Enumerator20 * (*)(Enumerator20 * self, List25 * arg1)) 0x0;
-Enumerator20 * (*Enumerator20::ptr::_new2)() = (Enumerator20 * (*)()) 0x0;
-bool (*Enumerator20::ptr::_HasNext)() = (bool (*)()) 0x0;
-WeaponPoint * (*Enumerator20::ptr::_NextObject)() = (WeaponPoint * (*)()) 0x0;
-void (*Enumerator20::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator20 * (*Enumerator20::ptr::_New)(Enumerator20 * self, List25 * arg1) = (Enumerator20 * (*)(Enumerator20 * self, List25 * arg1)) 0x0;
+inline Enumerator20 * (*Enumerator20::ptr::_new2)() = (Enumerator20 * (*)()) 0x0;
+inline bool (*Enumerator20::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline WeaponPoint * (*Enumerator20::ptr::_NextObject)() = (WeaponPoint * (*)()) 0x0;
+inline void (*Enumerator20::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator20 * (*Enumerator20::ptr::_New)(Enumerator20 * self, List25 * arg1) = (Enumerator20 * (*)(Enumerator20 * self, List25 * arg1)) 0x81a9610;
-Enumerator20 * (*Enumerator20::ptr::_new2)() = (Enumerator20 * (*)()) 0x81a96c0;
-bool (*Enumerator20::ptr::_HasNext)() = (bool (*)()) 0x808f620;
-WeaponPoint * (*Enumerator20::ptr::_NextObject)() = (WeaponPoint * (*)()) 0x808f5b0;
-void (*Enumerator20::ptr::_mark)() = (void (*)()) 0x8089bd0;
+inline Enumerator20 * (*Enumerator20::ptr::_New)(Enumerator20 * self, List25 * arg1) = (Enumerator20 * (*)(Enumerator20 * self, List25 * arg1)) 0x81a9610;
+inline Enumerator20 * (*Enumerator20::ptr::_new2)() = (Enumerator20 * (*)()) 0x81a96c0;
+inline bool (*Enumerator20::ptr::_HasNext)() = (bool (*)()) 0x808f620;
+inline WeaponPoint * (*Enumerator20::ptr::_NextObject)() = (WeaponPoint * (*)()) 0x808f5b0;
+inline void (*Enumerator20::ptr::_mark)() = (void (*)()) 0x8089bd0;
 #endif
 #endif

@@ -35,19 +35,19 @@ public:
 
 #ifdef _WIN32
 
-Node38 * (*Node38::ptr::_New)(Node38 * self, int arg1, Sprite * arg2, int arg3, Node38 * arg4) = (Node38 * (*)(Node38 * self, int arg1, Sprite * arg2, int arg3, Node38 * arg4)) 0x0;
-Node38 * (*Node38::ptr::_new2)() = (Node38 * (*)()) 0x0;
-int (*Node38::ptr::_Count2)(Node38 * self, int arg1) = (int (*)(Node38 * self, int arg1)) 0x0;
-void (*Node38::ptr::_mark)() = (void (*)()) 0x0;
-void (*Node38::ptr::CSTR_Node38)(Node38 * self) = (void (*)(Node38 * self)) 0x5ecc90;
+inline Node38 * (*Node38::ptr::_New)(Node38 * self, int arg1, Sprite * arg2, int arg3, Node38 * arg4) = (Node38 * (*)(Node38 * self, int arg1, Sprite * arg2, int arg3, Node38 * arg4)) 0x0;
+inline Node38 * (*Node38::ptr::_new2)() = (Node38 * (*)()) 0x0;
+inline int (*Node38::ptr::_Count2)(Node38 * self, int arg1) = (int (*)(Node38 * self, int arg1)) 0x0;
+inline void (*Node38::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*Node38::ptr::CSTR_Node38)(Node38 * self) = (void (*)(Node38 * self)) 0x5ecc90;
 #endif
 
 #ifdef __linux__
 
-Node38 * (*Node38::ptr::_New)(Node38 * self, int arg1, Sprite * arg2, int arg3, Node38 * arg4) = (Node38 * (*)(Node38 * self, int arg1, Sprite * arg2, int arg3, Node38 * arg4)) 0x0;
-Node38 * (*Node38::ptr::_new2)() = (Node38 * (*)()) 0x81b0170;
-int (*Node38::ptr::_Count2)(Node38 * self, int arg1) = (int (*)(Node38 * self, int arg1)) 0x0;
-void (*Node38::ptr::_mark)() = (void (*)()) 0x809acf0;
-void (*Node38::ptr::CSTR_Node38)(Node38 * self) = (void (*)(Node38 * self)) 0x81aff90;
+inline Node38 * (*Node38::ptr::_New)(Node38 * self, int arg1, Sprite * arg2, int arg3, Node38 * arg4) = (Node38 * (*)(Node38 * self, int arg1, Sprite * arg2, int arg3, Node38 * arg4)) 0x0;
+inline Node38 * (*Node38::ptr::_new2)() = (Node38 * (*)()) 0x81b0170;
+inline int (*Node38::ptr::_Count2)(Node38 * self, int arg1) = (int (*)(Node38 * self, int arg1)) 0x0;
+inline void (*Node38::ptr::_mark)() = (void (*)()) 0x809acf0;
+inline void (*Node38::ptr::CSTR_Node38)(Node38 * self) = (void (*)(Node38 * self)) 0x81aff90;
 #endif
 #endif

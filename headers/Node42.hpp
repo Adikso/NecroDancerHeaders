@@ -31,21 +31,21 @@ public:
 
 #ifdef _WIN32
 
-ReplayData * (*Node42::ptr::Value)(Node42 * self) = (ReplayData * (*)(Node42 * self)) 0x5f7970;
-Node42 * (*Node42::ptr::_GetNode)() = (Node42 * (*)()) 0x0;
-Node42 * (*Node42::ptr::_NextNode)() = (Node42 * (*)()) 0x0;
-Node42 * (*Node42::ptr::_New)(Node42 * self, Node42 * succ, Node42 * pred, ReplayData * data) = (Node42 * (*)(Node42 * self, Node42 * succ, Node42 * pred, ReplayData * data)) 0x5f7980;
-Node42 * (*Node42::ptr::_new2)() = (Node42 * (*)()) 0x0;
-void (*Node42::ptr::_mark)() = (void (*)()) 0x0;
+inline ReplayData * (*Node42::ptr::Value)(Node42 * self) = (ReplayData * (*)(Node42 * self)) 0x5f7970;
+inline Node42 * (*Node42::ptr::_GetNode)() = (Node42 * (*)()) 0x0;
+inline Node42 * (*Node42::ptr::_NextNode)() = (Node42 * (*)()) 0x0;
+inline Node42 * (*Node42::ptr::_New)(Node42 * self, Node42 * succ, Node42 * pred, ReplayData * data) = (Node42 * (*)(Node42 * self, Node42 * succ, Node42 * pred, ReplayData * data)) 0x5f7980;
+inline Node42 * (*Node42::ptr::_new2)() = (Node42 * (*)()) 0x0;
+inline void (*Node42::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-ReplayData * (*Node42::ptr::Value)(Node42 * self) = (ReplayData * (*)(Node42 * self)) 0x8075590;
-Node42 * (*Node42::ptr::_GetNode)() = (Node42 * (*)()) 0x8075560;
-Node42 * (*Node42::ptr::_NextNode)() = (Node42 * (*)()) 0x8075570;
-Node42 * (*Node42::ptr::_New)(Node42 * self, Node42 * succ, Node42 * pred, ReplayData * data) = (Node42 * (*)(Node42 * self, Node42 * succ, Node42 * pred, ReplayData * data)) 0x0;
-Node42 * (*Node42::ptr::_new2)() = (Node42 * (*)()) 0x81ba550;
-void (*Node42::ptr::_mark)() = (void (*)()) 0x80898d0;
+inline ReplayData * (*Node42::ptr::Value)(Node42 * self) = (ReplayData * (*)(Node42 * self)) 0x8075590;
+inline Node42 * (*Node42::ptr::_GetNode)() = (Node42 * (*)()) 0x8075560;
+inline Node42 * (*Node42::ptr::_NextNode)() = (Node42 * (*)()) 0x8075570;
+inline Node42 * (*Node42::ptr::_New)(Node42 * self, Node42 * succ, Node42 * pred, ReplayData * data) = (Node42 * (*)(Node42 * self, Node42 * succ, Node42 * pred, ReplayData * data)) 0x0;
+inline Node42 * (*Node42::ptr::_new2)() = (Node42 * (*)()) 0x81ba550;
+inline void (*Node42::ptr::_mark)() = (void (*)()) 0x80898d0;
 #endif
 #endif

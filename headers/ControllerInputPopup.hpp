@@ -54,27 +54,27 @@ public:
 
 #ifdef _WIN32
 
-ControllerInputPopup * (*ControllerInputPopup::ptr::New)(ControllerInputPopup * self, Controller * game, String * txt1, String * txt2, bool dbg) = (ControllerInputPopup * (*)(ControllerInputPopup * self, Controller * game, String * txt1, String * txt2, bool dbg)) 0x682370;
-ControllerInputPopup * (*ControllerInputPopup::ptr::_new2)() = (ControllerInputPopup * (*)()) 0x0;
-void (*ControllerInputPopup::ptr::GUICallback)(ControllerInputPopup * self, int index, bool left) = (void (*)(ControllerInputPopup * self, int index, bool left)) 0x682770;
-void (*ControllerInputPopup::ptr::Update)(ControllerInputPopup * self) = (void (*)(ControllerInputPopup * self)) 0x682810;
-void (*ControllerInputPopup::ptr::Render)(ControllerInputPopup * self) = (void (*)(ControllerInputPopup * self)) 0x6831e0;
-void (*ControllerInputPopup::ptr::_RegainFocus)() = (void (*)()) 0x0;
-void (*ControllerInputPopup::ptr::Destructor)(ControllerInputPopup * self) = (void (*)(ControllerInputPopup * self)) 0x683430;
-void (*ControllerInputPopup::ptr::mark)(ControllerInputPopup * self) = (void (*)(ControllerInputPopup * self)) 0x683460;
-void (*ControllerInputPopup::ptr::CSTR_ControllerInputPopup)(ControllerInputPopup * self) = (void (*)(ControllerInputPopup * self)) 0x682000;
+inline ControllerInputPopup * (*ControllerInputPopup::ptr::New)(ControllerInputPopup * self, Controller * game, String * txt1, String * txt2, bool dbg) = (ControllerInputPopup * (*)(ControllerInputPopup * self, Controller * game, String * txt1, String * txt2, bool dbg)) 0x682370;
+inline ControllerInputPopup * (*ControllerInputPopup::ptr::_new2)() = (ControllerInputPopup * (*)()) 0x0;
+inline void (*ControllerInputPopup::ptr::GUICallback)(ControllerInputPopup * self, int index, bool left) = (void (*)(ControllerInputPopup * self, int index, bool left)) 0x682770;
+inline void (*ControllerInputPopup::ptr::Update)(ControllerInputPopup * self) = (void (*)(ControllerInputPopup * self)) 0x682810;
+inline void (*ControllerInputPopup::ptr::Render)(ControllerInputPopup * self) = (void (*)(ControllerInputPopup * self)) 0x6831e0;
+inline void (*ControllerInputPopup::ptr::_RegainFocus)() = (void (*)()) 0x0;
+inline void (*ControllerInputPopup::ptr::Destructor)(ControllerInputPopup * self) = (void (*)(ControllerInputPopup * self)) 0x683430;
+inline void (*ControllerInputPopup::ptr::mark)(ControllerInputPopup * self) = (void (*)(ControllerInputPopup * self)) 0x683460;
+inline void (*ControllerInputPopup::ptr::CSTR_ControllerInputPopup)(ControllerInputPopup * self) = (void (*)(ControllerInputPopup * self)) 0x682000;
 #endif
 
 #ifdef __linux__
 
-ControllerInputPopup * (*ControllerInputPopup::ptr::New)(ControllerInputPopup * self, Controller * game, String * txt1, String * txt2, bool dbg) = (ControllerInputPopup * (*)(ControllerInputPopup * self, Controller * game, String * txt1, String * txt2, bool dbg)) 0x820d670;
-ControllerInputPopup * (*ControllerInputPopup::ptr::_new2)() = (ControllerInputPopup * (*)()) 0x81e0330;
-void (*ControllerInputPopup::ptr::GUICallback)(ControllerInputPopup * self, int index, bool left) = (void (*)(ControllerInputPopup * self, int index, bool left)) 0x80e0510;
-void (*ControllerInputPopup::ptr::Update)(ControllerInputPopup * self) = (void (*)(ControllerInputPopup * self)) 0x8154290;
-void (*ControllerInputPopup::ptr::Render)(ControllerInputPopup * self) = (void (*)(ControllerInputPopup * self)) 0x80c5150;
-void (*ControllerInputPopup::ptr::_RegainFocus)() = (void (*)()) 0x80789f0;
-void (*ControllerInputPopup::ptr::Destructor)(ControllerInputPopup * self) = (void (*)(ControllerInputPopup * self)) 0x8078a00;
-void (*ControllerInputPopup::ptr::mark)(ControllerInputPopup * self) = (void (*)(ControllerInputPopup * self)) 0x80a9c20;
-void (*ControllerInputPopup::ptr::CSTR_ControllerInputPopup)(ControllerInputPopup * self) = (void (*)(ControllerInputPopup * self)) 0x81dff20;
+inline ControllerInputPopup * (*ControllerInputPopup::ptr::New)(ControllerInputPopup * self, Controller * game, String * txt1, String * txt2, bool dbg) = (ControllerInputPopup * (*)(ControllerInputPopup * self, Controller * game, String * txt1, String * txt2, bool dbg)) 0x820d670;
+inline ControllerInputPopup * (*ControllerInputPopup::ptr::_new2)() = (ControllerInputPopup * (*)()) 0x81e0330;
+inline void (*ControllerInputPopup::ptr::GUICallback)(ControllerInputPopup * self, int index, bool left) = (void (*)(ControllerInputPopup * self, int index, bool left)) 0x80e0510;
+inline void (*ControllerInputPopup::ptr::Update)(ControllerInputPopup * self) = (void (*)(ControllerInputPopup * self)) 0x8154290;
+inline void (*ControllerInputPopup::ptr::Render)(ControllerInputPopup * self) = (void (*)(ControllerInputPopup * self)) 0x80c5150;
+inline void (*ControllerInputPopup::ptr::_RegainFocus)() = (void (*)()) 0x80789f0;
+inline void (*ControllerInputPopup::ptr::Destructor)(ControllerInputPopup * self) = (void (*)(ControllerInputPopup * self)) 0x8078a00;
+inline void (*ControllerInputPopup::ptr::mark)(ControllerInputPopup * self) = (void (*)(ControllerInputPopup * self)) 0x80a9c20;
+inline void (*ControllerInputPopup::ptr::CSTR_ControllerInputPopup)(ControllerInputPopup * self) = (void (*)(ControllerInputPopup * self)) 0x81dff20;
 #endif
 #endif

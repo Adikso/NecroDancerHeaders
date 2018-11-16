@@ -22,15 +22,15 @@ public:
 
 #ifdef _WIN32
 
-StackEx7 * (*StackEx7::ptr::_New)() = (StackEx7 * (*)()) 0x0;
-String * (*StackEx7::ptr::ChooseRandom)(StackEx7 * self, bool useSeed) = (String * (*)(StackEx7 * self, bool useSeed)) 0x66d210;
-void (*StackEx7::ptr::_mark)() = (void (*)()) 0x0;
+inline StackEx7 * (*StackEx7::ptr::_New)() = (StackEx7 * (*)()) 0x0;
+inline String * (*StackEx7::ptr::ChooseRandom)(StackEx7 * self, bool useSeed) = (String * (*)(StackEx7 * self, bool useSeed)) 0x66d210;
+inline void (*StackEx7::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-StackEx7 * (*StackEx7::ptr::_New)() = (StackEx7 * (*)()) 0x81db2c0;
-String * (*StackEx7::ptr::ChooseRandom)(StackEx7 * self, bool useSeed) = (String * (*)(StackEx7 * self, bool useSeed)) 0x81003e0;
-void (*StackEx7::ptr::_mark)() = (void (*)()) 0x8094670;
+inline StackEx7 * (*StackEx7::ptr::_New)() = (StackEx7 * (*)()) 0x81db2c0;
+inline String * (*StackEx7::ptr::ChooseRandom)(StackEx7 * self, bool useSeed) = (String * (*)(StackEx7 * self, bool useSeed)) 0x81003e0;
+inline void (*StackEx7::ptr::_mark)() = (void (*)()) 0x8094670;
 #endif
 #endif

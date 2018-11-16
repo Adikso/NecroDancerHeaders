@@ -39,27 +39,27 @@ public:
 
 #ifdef _WIN32
 
-EvilEye * (*EvilEye::ptr::New)(EvilEye * self, int x_, int y_, int l) = (EvilEye * (*)(EvilEye * self, int x_, int y_, int l)) 0x659450;
-EvilEye * (*EvilEye::ptr::_new2)() = (EvilEye * (*)()) 0x0;
-void (*EvilEye::ptr::Update)(EvilEye * self) = (void (*)(EvilEye * self)) 0x659770;
-Point * (*EvilEye::ptr::GetMovementDirection)(EvilEye * self) = (Point * (*)(EvilEye * self)) 0x659980;
-void (*EvilEye::ptr::CheckDash)(EvilEye * self) = (void (*)(EvilEye * self)) 0x659a30;
-void (*EvilEye::ptr::MoveSucceed)(EvilEye * self, bool hitPlayer, bool moveDelayed) = (void (*)(EvilEye * self, bool hitPlayer, bool moveDelayed)) 0x659c60;
-void (*EvilEye::ptr::_MoveFail)() = (void (*)()) 0x0;
-void (*EvilEye::ptr::_mark)() = (void (*)()) 0x0;
-void (*EvilEye::ptr::CSTR_EvilEye)(EvilEye * self) = (void (*)(EvilEye * self)) 0x6593f0;
+inline EvilEye * (*EvilEye::ptr::New)(EvilEye * self, int x_, int y_, int l) = (EvilEye * (*)(EvilEye * self, int x_, int y_, int l)) 0x659450;
+inline EvilEye * (*EvilEye::ptr::_new2)() = (EvilEye * (*)()) 0x0;
+inline void (*EvilEye::ptr::Update)(EvilEye * self) = (void (*)(EvilEye * self)) 0x659770;
+inline Point * (*EvilEye::ptr::GetMovementDirection)(EvilEye * self) = (Point * (*)(EvilEye * self)) 0x659980;
+inline void (*EvilEye::ptr::CheckDash)(EvilEye * self) = (void (*)(EvilEye * self)) 0x659a30;
+inline void (*EvilEye::ptr::MoveSucceed)(EvilEye * self, bool hitPlayer, bool moveDelayed) = (void (*)(EvilEye * self, bool hitPlayer, bool moveDelayed)) 0x659c60;
+inline void (*EvilEye::ptr::_MoveFail)() = (void (*)()) 0x0;
+inline void (*EvilEye::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*EvilEye::ptr::CSTR_EvilEye)(EvilEye * self) = (void (*)(EvilEye * self)) 0x6593f0;
 #endif
 
 #ifdef __linux__
 
-EvilEye * (*EvilEye::ptr::New)(EvilEye * self, int x_, int y_, int l) = (EvilEye * (*)(EvilEye * self, int x_, int y_, int l)) 0x81ca080;
-EvilEye * (*EvilEye::ptr::_new2)() = (EvilEye * (*)()) 0x81ca2e0;
-void (*EvilEye::ptr::Update)(EvilEye * self) = (void (*)(EvilEye * self)) 0x837ef00;
-Point * (*EvilEye::ptr::GetMovementDirection)(EvilEye * self) = (Point * (*)(EvilEye * self)) 0x8102950;
-void (*EvilEye::ptr::CheckDash)(EvilEye * self) = (void (*)(EvilEye * self)) 0x83a8860;
-void (*EvilEye::ptr::MoveSucceed)(EvilEye * self, bool hitPlayer, bool moveDelayed) = (void (*)(EvilEye * self, bool hitPlayer, bool moveDelayed)) 0x83a8a10;
-void (*EvilEye::ptr::_MoveFail)() = (void (*)()) 0x81347d0;
-void (*EvilEye::ptr::_mark)() = (void (*)()) 0x80b01e0;
-void (*EvilEye::ptr::CSTR_EvilEye)(EvilEye * self) = (void (*)(EvilEye * self)) 0x81ca050;
+inline EvilEye * (*EvilEye::ptr::New)(EvilEye * self, int x_, int y_, int l) = (EvilEye * (*)(EvilEye * self, int x_, int y_, int l)) 0x81ca080;
+inline EvilEye * (*EvilEye::ptr::_new2)() = (EvilEye * (*)()) 0x81ca2e0;
+inline void (*EvilEye::ptr::Update)(EvilEye * self) = (void (*)(EvilEye * self)) 0x837ef00;
+inline Point * (*EvilEye::ptr::GetMovementDirection)(EvilEye * self) = (Point * (*)(EvilEye * self)) 0x8102950;
+inline void (*EvilEye::ptr::CheckDash)(EvilEye * self) = (void (*)(EvilEye * self)) 0x83a8860;
+inline void (*EvilEye::ptr::MoveSucceed)(EvilEye * self, bool hitPlayer, bool moveDelayed) = (void (*)(EvilEye * self, bool hitPlayer, bool moveDelayed)) 0x83a8a10;
+inline void (*EvilEye::ptr::_MoveFail)() = (void (*)()) 0x81347d0;
+inline void (*EvilEye::ptr::_mark)() = (void (*)()) 0x80b01e0;
+inline void (*EvilEye::ptr::CSTR_EvilEye)(EvilEye * self) = (void (*)(EvilEye * self)) 0x81ca050;
 #endif
 #endif

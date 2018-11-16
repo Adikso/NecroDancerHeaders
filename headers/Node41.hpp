@@ -41,25 +41,25 @@ public:
 
 #ifdef _WIN32
 
-Node41 * (*Node41::ptr::_NextNode)() = (Node41 * (*)()) 0x0;
-Point * (*Node41::ptr::_Key)() = (Point * (*)()) 0x0;
-Point * (*Node41::ptr::_Value)() = (Point * (*)()) 0x0;
-int (*Node41::ptr::_Count2)(Node41 * self, int n) = (int (*)(Node41 * self, int n)) 0x5d6ed0;
-Node41 * (*Node41::ptr::_New)(Node41 * self, Point * key, Point * value, int color, Node41 * parent) = (Node41 * (*)(Node41 * self, Point * key, Point * value, int color, Node41 * parent)) 0x5f3610;
-Node41 * (*Node41::ptr::_new2)() = (Node41 * (*)()) 0x0;
-void (*Node41::ptr::mark)(Node41 * self) = (void (*)(Node41 * self)) 0x5f3710;
-void (*Node41::ptr::CSTR_Node41)(Node41 * self) = (void (*)(Node41 * self)) 0x5f3580;
+inline Node41 * (*Node41::ptr::_NextNode)() = (Node41 * (*)()) 0x0;
+inline Point * (*Node41::ptr::_Key)() = (Point * (*)()) 0x0;
+inline Point * (*Node41::ptr::_Value)() = (Point * (*)()) 0x0;
+inline int (*Node41::ptr::_Count2)(Node41 * self, int n) = (int (*)(Node41 * self, int n)) 0x5d6ed0;
+inline Node41 * (*Node41::ptr::_New)(Node41 * self, Point * key, Point * value, int color, Node41 * parent) = (Node41 * (*)(Node41 * self, Point * key, Point * value, int color, Node41 * parent)) 0x5f3610;
+inline Node41 * (*Node41::ptr::_new2)() = (Node41 * (*)()) 0x0;
+inline void (*Node41::ptr::mark)(Node41 * self) = (void (*)(Node41 * self)) 0x5f3710;
+inline void (*Node41::ptr::CSTR_Node41)(Node41 * self) = (void (*)(Node41 * self)) 0x5f3580;
 #endif
 
 #ifdef __linux__
 
-Node41 * (*Node41::ptr::_NextNode)() = (Node41 * (*)()) 0x80750d0;
-Point * (*Node41::ptr::_Key)() = (Point * (*)()) 0x0;
-Point * (*Node41::ptr::_Value)() = (Point * (*)()) 0x0;
-int (*Node41::ptr::_Count2)(Node41 * self, int n) = (int (*)(Node41 * self, int n)) 0x0;
-Node41 * (*Node41::ptr::_New)(Node41 * self, Point * key, Point * value, int color, Node41 * parent) = (Node41 * (*)(Node41 * self, Point * key, Point * value, int color, Node41 * parent)) 0x0;
-Node41 * (*Node41::ptr::_new2)() = (Node41 * (*)()) 0x81b9a70;
-void (*Node41::ptr::mark)(Node41 * self) = (void (*)(Node41 * self)) 0x8086cf0;
-void (*Node41::ptr::CSTR_Node41)(Node41 * self) = (void (*)(Node41 * self)) 0x81b9890;
+inline Node41 * (*Node41::ptr::_NextNode)() = (Node41 * (*)()) 0x80750d0;
+inline Point * (*Node41::ptr::_Key)() = (Point * (*)()) 0x0;
+inline Point * (*Node41::ptr::_Value)() = (Point * (*)()) 0x0;
+inline int (*Node41::ptr::_Count2)(Node41 * self, int n) = (int (*)(Node41 * self, int n)) 0x0;
+inline Node41 * (*Node41::ptr::_New)(Node41 * self, Point * key, Point * value, int color, Node41 * parent) = (Node41 * (*)(Node41 * self, Point * key, Point * value, int color, Node41 * parent)) 0x0;
+inline Node41 * (*Node41::ptr::_new2)() = (Node41 * (*)()) 0x81b9a70;
+inline void (*Node41::ptr::mark)(Node41 * self) = (void (*)(Node41 * self)) 0x8086cf0;
+inline void (*Node41::ptr::CSTR_Node41)(Node41 * self) = (void (*)(Node41 * self)) 0x81b9890;
 #endif
 #endif

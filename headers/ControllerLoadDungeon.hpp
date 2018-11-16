@@ -60,27 +60,27 @@ public:
 
 #ifdef _WIN32
 
-void (*ControllerLoadDungeon::ptr::Refresh)(ControllerLoadDungeon * self) = (void (*)(ControllerLoadDungeon * self)) 0x68bf20;
-ControllerLoadDungeon * (*ControllerLoadDungeon::ptr::New)(ControllerLoadDungeon * self, Controller * game) = (ControllerLoadDungeon * (*)(ControllerLoadDungeon * self, Controller * game)) 0x68c230;
-void (*ControllerLoadDungeon::ptr::Update)(ControllerLoadDungeon * self) = (void (*)(ControllerLoadDungeon * self)) 0x68caf0;
-void (*ControllerLoadDungeon::ptr::Render)(ControllerLoadDungeon * self) = (void (*)(ControllerLoadDungeon * self)) 0x68cb00;
-void (*ControllerLoadDungeon::ptr::_RegainFocus)() = (void (*)()) 0x0;
-void (*ControllerLoadDungeon::ptr::GUICallback)(ControllerLoadDungeon * self, int index, bool left) = (void (*)(ControllerLoadDungeon * self, int index, bool left)) 0x68ce50;
-void (*ControllerLoadDungeon::ptr::Destructor)(ControllerLoadDungeon * self) = (void (*)(ControllerLoadDungeon * self)) 0x68cf40;
-void (*ControllerLoadDungeon::ptr::mark)(ControllerLoadDungeon * self) = (void (*)(ControllerLoadDungeon * self)) 0x68cf90;
-void (*ControllerLoadDungeon::ptr::CSTR_ControllerLoadDungeon)(ControllerLoadDungeon * self) = (void (*)(ControllerLoadDungeon * self)) 0x68b9c0;
+inline void (*ControllerLoadDungeon::ptr::Refresh)(ControllerLoadDungeon * self) = (void (*)(ControllerLoadDungeon * self)) 0x68bf20;
+inline ControllerLoadDungeon * (*ControllerLoadDungeon::ptr::New)(ControllerLoadDungeon * self, Controller * game) = (ControllerLoadDungeon * (*)(ControllerLoadDungeon * self, Controller * game)) 0x68c230;
+inline void (*ControllerLoadDungeon::ptr::Update)(ControllerLoadDungeon * self) = (void (*)(ControllerLoadDungeon * self)) 0x68caf0;
+inline void (*ControllerLoadDungeon::ptr::Render)(ControllerLoadDungeon * self) = (void (*)(ControllerLoadDungeon * self)) 0x68cb00;
+inline void (*ControllerLoadDungeon::ptr::_RegainFocus)() = (void (*)()) 0x0;
+inline void (*ControllerLoadDungeon::ptr::GUICallback)(ControllerLoadDungeon * self, int index, bool left) = (void (*)(ControllerLoadDungeon * self, int index, bool left)) 0x68ce50;
+inline void (*ControllerLoadDungeon::ptr::Destructor)(ControllerLoadDungeon * self) = (void (*)(ControllerLoadDungeon * self)) 0x68cf40;
+inline void (*ControllerLoadDungeon::ptr::mark)(ControllerLoadDungeon * self) = (void (*)(ControllerLoadDungeon * self)) 0x68cf90;
+inline void (*ControllerLoadDungeon::ptr::CSTR_ControllerLoadDungeon)(ControllerLoadDungeon * self) = (void (*)(ControllerLoadDungeon * self)) 0x68b9c0;
 #endif
 
 #ifdef __linux__
 
-void (*ControllerLoadDungeon::ptr::Refresh)(ControllerLoadDungeon * self) = (void (*)(ControllerLoadDungeon * self)) 0x80e4a40;
-ControllerLoadDungeon * (*ControllerLoadDungeon::ptr::New)(ControllerLoadDungeon * self, Controller * game) = (ControllerLoadDungeon * (*)(ControllerLoadDungeon * self, Controller * game)) 0x81e38f0;
-void (*ControllerLoadDungeon::ptr::Update)(ControllerLoadDungeon * self) = (void (*)(ControllerLoadDungeon * self)) 0x80790b0;
-void (*ControllerLoadDungeon::ptr::Render)(ControllerLoadDungeon * self) = (void (*)(ControllerLoadDungeon * self)) 0x80d0270;
-void (*ControllerLoadDungeon::ptr::_RegainFocus)() = (void (*)()) 0x80790d0;
-void (*ControllerLoadDungeon::ptr::GUICallback)(ControllerLoadDungeon * self, int index, bool left) = (void (*)(ControllerLoadDungeon * self, int index, bool left)) 0x80e0570;
-void (*ControllerLoadDungeon::ptr::Destructor)(ControllerLoadDungeon * self) = (void (*)(ControllerLoadDungeon * self)) 0x80790e0;
-void (*ControllerLoadDungeon::ptr::mark)(ControllerLoadDungeon * self) = (void (*)(ControllerLoadDungeon * self)) 0x80af5d0;
-void (*ControllerLoadDungeon::ptr::CSTR_ControllerLoadDungeon)(ControllerLoadDungeon * self) = (void (*)(ControllerLoadDungeon * self)) 0x81e3140;
+inline void (*ControllerLoadDungeon::ptr::Refresh)(ControllerLoadDungeon * self) = (void (*)(ControllerLoadDungeon * self)) 0x80e4a40;
+inline ControllerLoadDungeon * (*ControllerLoadDungeon::ptr::New)(ControllerLoadDungeon * self, Controller * game) = (ControllerLoadDungeon * (*)(ControllerLoadDungeon * self, Controller * game)) 0x81e38f0;
+inline void (*ControllerLoadDungeon::ptr::Update)(ControllerLoadDungeon * self) = (void (*)(ControllerLoadDungeon * self)) 0x80790b0;
+inline void (*ControllerLoadDungeon::ptr::Render)(ControllerLoadDungeon * self) = (void (*)(ControllerLoadDungeon * self)) 0x80d0270;
+inline void (*ControllerLoadDungeon::ptr::_RegainFocus)() = (void (*)()) 0x80790d0;
+inline void (*ControllerLoadDungeon::ptr::GUICallback)(ControllerLoadDungeon * self, int index, bool left) = (void (*)(ControllerLoadDungeon * self, int index, bool left)) 0x80e0570;
+inline void (*ControllerLoadDungeon::ptr::Destructor)(ControllerLoadDungeon * self) = (void (*)(ControllerLoadDungeon * self)) 0x80790e0;
+inline void (*ControllerLoadDungeon::ptr::mark)(ControllerLoadDungeon * self) = (void (*)(ControllerLoadDungeon * self)) 0x80af5d0;
+inline void (*ControllerLoadDungeon::ptr::CSTR_ControllerLoadDungeon)(ControllerLoadDungeon * self) = (void (*)(ControllerLoadDungeon * self)) 0x81e3140;
 #endif
 #endif

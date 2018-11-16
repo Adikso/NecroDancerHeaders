@@ -50,33 +50,33 @@ public:
 
 #ifdef _WIN32
 
-ZombieSnake * (*ZombieSnake::ptr::New)(ZombieSnake * self, int xVal, int yVal, int l) = (ZombieSnake * (*)(ZombieSnake * self, int xVal, int yVal, int l)) 0x6642f0;
-ZombieSnake * (*ZombieSnake::ptr::_new2)() = (ZombieSnake * (*)()) 0x0;
-void (*ZombieSnake::ptr::SetChild)(ZombieSnake * self, ZombieSnake * zs) = (void (*)(ZombieSnake * self, ZombieSnake * zs)) 0x6643e0;
-void (*ZombieSnake::ptr::SetParent)(ZombieSnake * self, ZombieSnake * zs) = (void (*)(ZombieSnake * self, ZombieSnake * zs)) 0x664440;
-Point * (*ZombieSnake::ptr::GetMovementDirection)(ZombieSnake * self) = (Point * (*)(ZombieSnake * self)) 0x6644b0;
-void (*ZombieSnake::ptr::Update)(ZombieSnake * self) = (void (*)(ZombieSnake * self)) 0x664560;
-bool (*ZombieSnake::ptr::Hit)(ZombieSnake * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(ZombieSnake * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x664c60;
-void (*ZombieSnake::ptr::AdjustFacingDir)(ZombieSnake * self) = (void (*)(ZombieSnake * self)) 0x664d20;
-void (*ZombieSnake::ptr::MoveSucceed)(ZombieSnake * self, bool hitPlayer, bool moveDelayed) = (void (*)(ZombieSnake * self, bool hitPlayer, bool moveDelayed)) 0x664d70;
-void (*ZombieSnake::ptr::MoveFail)(ZombieSnake * self) = (void (*)(ZombieSnake * self)) 0x601650;
-void (*ZombieSnake::ptr::mark)(ZombieSnake * self) = (void (*)(ZombieSnake * self)) 0x664da0;
-void (*ZombieSnake::ptr::CSTR_ZombieSnake)(ZombieSnake * self) = (void (*)(ZombieSnake * self)) 0x664210;
+inline ZombieSnake * (*ZombieSnake::ptr::New)(ZombieSnake * self, int xVal, int yVal, int l) = (ZombieSnake * (*)(ZombieSnake * self, int xVal, int yVal, int l)) 0x6642f0;
+inline ZombieSnake * (*ZombieSnake::ptr::_new2)() = (ZombieSnake * (*)()) 0x0;
+inline void (*ZombieSnake::ptr::SetChild)(ZombieSnake * self, ZombieSnake * zs) = (void (*)(ZombieSnake * self, ZombieSnake * zs)) 0x6643e0;
+inline void (*ZombieSnake::ptr::SetParent)(ZombieSnake * self, ZombieSnake * zs) = (void (*)(ZombieSnake * self, ZombieSnake * zs)) 0x664440;
+inline Point * (*ZombieSnake::ptr::GetMovementDirection)(ZombieSnake * self) = (Point * (*)(ZombieSnake * self)) 0x6644b0;
+inline void (*ZombieSnake::ptr::Update)(ZombieSnake * self) = (void (*)(ZombieSnake * self)) 0x664560;
+inline bool (*ZombieSnake::ptr::Hit)(ZombieSnake * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(ZombieSnake * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x664c60;
+inline void (*ZombieSnake::ptr::AdjustFacingDir)(ZombieSnake * self) = (void (*)(ZombieSnake * self)) 0x664d20;
+inline void (*ZombieSnake::ptr::MoveSucceed)(ZombieSnake * self, bool hitPlayer, bool moveDelayed) = (void (*)(ZombieSnake * self, bool hitPlayer, bool moveDelayed)) 0x664d70;
+inline void (*ZombieSnake::ptr::MoveFail)(ZombieSnake * self) = (void (*)(ZombieSnake * self)) 0x601650;
+inline void (*ZombieSnake::ptr::mark)(ZombieSnake * self) = (void (*)(ZombieSnake * self)) 0x664da0;
+inline void (*ZombieSnake::ptr::CSTR_ZombieSnake)(ZombieSnake * self) = (void (*)(ZombieSnake * self)) 0x664210;
 #endif
 
 #ifdef __linux__
 
-ZombieSnake * (*ZombieSnake::ptr::New)(ZombieSnake * self, int xVal, int yVal, int l) = (ZombieSnake * (*)(ZombieSnake * self, int xVal, int yVal, int l)) 0x81d81d0;
-ZombieSnake * (*ZombieSnake::ptr::_new2)() = (ZombieSnake * (*)()) 0x81d82d0;
-void (*ZombieSnake::ptr::SetChild)(ZombieSnake * self, ZombieSnake * zs) = (void (*)(ZombieSnake * self, ZombieSnake * zs)) 0x8077920;
-void (*ZombieSnake::ptr::SetParent)(ZombieSnake * self, ZombieSnake * zs) = (void (*)(ZombieSnake * self, ZombieSnake * zs)) 0x8077980;
-Point * (*ZombieSnake::ptr::GetMovementDirection)(ZombieSnake * self) = (Point * (*)(ZombieSnake * self)) 0x80a18a0;
-void (*ZombieSnake::ptr::Update)(ZombieSnake * self) = (void (*)(ZombieSnake * self)) 0x837e8c0;
-bool (*ZombieSnake::ptr::Hit)(ZombieSnake * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(ZombieSnake * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8396700;
-void (*ZombieSnake::ptr::AdjustFacingDir)(ZombieSnake * self) = (void (*)(ZombieSnake * self)) 0x807f920;
-void (*ZombieSnake::ptr::MoveSucceed)(ZombieSnake * self, bool hitPlayer, bool moveDelayed) = (void (*)(ZombieSnake * self, bool hitPlayer, bool moveDelayed)) 0x80779f0;
-void (*ZombieSnake::ptr::MoveFail)(ZombieSnake * self) = (void (*)(ZombieSnake * self)) 0x81347a0;
-void (*ZombieSnake::ptr::mark)(ZombieSnake * self) = (void (*)(ZombieSnake * self)) 0x80b0040;
-void (*ZombieSnake::ptr::CSTR_ZombieSnake)(ZombieSnake * self) = (void (*)(ZombieSnake * self)) 0x81d8150;
+inline ZombieSnake * (*ZombieSnake::ptr::New)(ZombieSnake * self, int xVal, int yVal, int l) = (ZombieSnake * (*)(ZombieSnake * self, int xVal, int yVal, int l)) 0x81d81d0;
+inline ZombieSnake * (*ZombieSnake::ptr::_new2)() = (ZombieSnake * (*)()) 0x81d82d0;
+inline void (*ZombieSnake::ptr::SetChild)(ZombieSnake * self, ZombieSnake * zs) = (void (*)(ZombieSnake * self, ZombieSnake * zs)) 0x8077920;
+inline void (*ZombieSnake::ptr::SetParent)(ZombieSnake * self, ZombieSnake * zs) = (void (*)(ZombieSnake * self, ZombieSnake * zs)) 0x8077980;
+inline Point * (*ZombieSnake::ptr::GetMovementDirection)(ZombieSnake * self) = (Point * (*)(ZombieSnake * self)) 0x80a18a0;
+inline void (*ZombieSnake::ptr::Update)(ZombieSnake * self) = (void (*)(ZombieSnake * self)) 0x837e8c0;
+inline bool (*ZombieSnake::ptr::Hit)(ZombieSnake * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(ZombieSnake * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x8396700;
+inline void (*ZombieSnake::ptr::AdjustFacingDir)(ZombieSnake * self) = (void (*)(ZombieSnake * self)) 0x807f920;
+inline void (*ZombieSnake::ptr::MoveSucceed)(ZombieSnake * self, bool hitPlayer, bool moveDelayed) = (void (*)(ZombieSnake * self, bool hitPlayer, bool moveDelayed)) 0x80779f0;
+inline void (*ZombieSnake::ptr::MoveFail)(ZombieSnake * self) = (void (*)(ZombieSnake * self)) 0x81347a0;
+inline void (*ZombieSnake::ptr::mark)(ZombieSnake * self) = (void (*)(ZombieSnake * self)) 0x80b0040;
+inline void (*ZombieSnake::ptr::CSTR_ZombieSnake)(ZombieSnake * self) = (void (*)(ZombieSnake * self)) 0x81d8150;
 #endif
 #endif

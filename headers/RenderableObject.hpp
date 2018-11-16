@@ -87,52 +87,52 @@ public:
 };
 
 #ifdef _WIN32
-List5 * * RenderableObject::renderableObjectList = (List5* *) 0x835bec;
-List5 * * RenderableObject::lightSourceList = (List5* *) 0x8358e8;
-bool * RenderableObject::deletingAll = (bool*) 0x8358cb;
+inline List5 * * RenderableObject::renderableObjectList = (List5* *) 0x835bec;
+inline List5 * * RenderableObject::lightSourceList = (List5* *) 0x8358e8;
+inline bool * RenderableObject::deletingAll = (bool*) 0x8358cb;
 
-void (*RenderableObject::ptr::Die)(RenderableObject * self) = (void (*)(RenderableObject * self)) 0x4f9790;
-bool (*RenderableObject::ptr::_Hit)(RenderableObject * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(RenderableObject * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x0;
-Point * (*RenderableObject::ptr::GetLocation)(RenderableObject * self) = (Point * (*)(RenderableObject * self)) 0x4f97c0;
-bool (*RenderableObject::ptr::IsExplosiveDamage)(String * damageSource) = (bool (*)(String * damageSource)) 0x4f9860;
-bool (*RenderableObject::ptr::IsParryableDamage)(String * damageSource) = (bool (*)(String * damageSource)) 0x4f9b80;
-RenderableObject * (*RenderableObject::ptr::_New)() = (RenderableObject * (*)()) 0x0;
-void (*RenderableObject::ptr::ActivateLight)(RenderableObject * self, float lMin, float lMax) = (void (*)(RenderableObject * self, float lMin, float lMax)) 0x4f9e00;
-bool (*RenderableObject::ptr::IsOnTile)(RenderableObject * self, int px, int py) = (bool (*)(RenderableObject * self, int px, int py)) 0x4f9e40;
-bool (*RenderableObject::ptr::IsFrozen)(RenderableObject * self, bool ignoreLastBeat) = (bool (*)(RenderableObject * self, bool ignoreLastBeat)) 0x4f9e80;
-bool (*RenderableObject::ptr::HitTile)(String * damageSource, int xVal, int yVal, int damage, int dir, Entity * hitter, bool allowSelfHits, bool phasing, bool piercing, bool confuse, bool frost) = (bool (*)(String * damageSource, int xVal, int yVal, int damage, int dir, Entity * hitter, bool allowSelfHits, bool phasing, bool piercing, bool confuse, bool frost)) 0x4f9e90;
-void (*RenderableObject::ptr::DeleteAll)(bool spareThePlayers) = (void (*)(bool spareThePlayers)) 0x4faa60;
-void (*RenderableObject::ptr::_Update)() = (void (*)()) 0x0;
-bool (*RenderableObject::ptr::IsOnScreen)(RenderableObject * self) = (bool (*)(RenderableObject * self)) 0x4faac0;
-void (*RenderableObject::ptr::UpdateAll)() = (void (*)()) 0x4faae0;
-void (*RenderableObject::ptr::_Render)() = (void (*)()) 0x0;
-bool (*RenderableObject::ptr::IsPlayerMeleeDamage)(String * damageSource) = (bool (*)(String * damageSource)) 0x4fab70;
-void (*RenderableObject::ptr::_mark)() = (void (*)()) 0x0;
-void (*RenderableObject::ptr::CSTR_RenderableObject)(RenderableObject * self) = (void (*)(RenderableObject * self)) 0x4f96b0;
+inline void (*RenderableObject::ptr::Die)(RenderableObject * self) = (void (*)(RenderableObject * self)) 0x4f9790;
+inline bool (*RenderableObject::ptr::_Hit)(RenderableObject * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(RenderableObject * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x0;
+inline Point * (*RenderableObject::ptr::GetLocation)(RenderableObject * self) = (Point * (*)(RenderableObject * self)) 0x4f97c0;
+inline bool (*RenderableObject::ptr::IsExplosiveDamage)(String * damageSource) = (bool (*)(String * damageSource)) 0x4f9860;
+inline bool (*RenderableObject::ptr::IsParryableDamage)(String * damageSource) = (bool (*)(String * damageSource)) 0x4f9b80;
+inline RenderableObject * (*RenderableObject::ptr::_New)() = (RenderableObject * (*)()) 0x0;
+inline void (*RenderableObject::ptr::ActivateLight)(RenderableObject * self, float lMin, float lMax) = (void (*)(RenderableObject * self, float lMin, float lMax)) 0x4f9e00;
+inline bool (*RenderableObject::ptr::IsOnTile)(RenderableObject * self, int px, int py) = (bool (*)(RenderableObject * self, int px, int py)) 0x4f9e40;
+inline bool (*RenderableObject::ptr::IsFrozen)(RenderableObject * self, bool ignoreLastBeat) = (bool (*)(RenderableObject * self, bool ignoreLastBeat)) 0x4f9e80;
+inline bool (*RenderableObject::ptr::HitTile)(String * damageSource, int xVal, int yVal, int damage, int dir, Entity * hitter, bool allowSelfHits, bool phasing, bool piercing, bool confuse, bool frost) = (bool (*)(String * damageSource, int xVal, int yVal, int damage, int dir, Entity * hitter, bool allowSelfHits, bool phasing, bool piercing, bool confuse, bool frost)) 0x4f9e90;
+inline void (*RenderableObject::ptr::DeleteAll)(bool spareThePlayers) = (void (*)(bool spareThePlayers)) 0x4faa60;
+inline void (*RenderableObject::ptr::_Update)() = (void (*)()) 0x0;
+inline bool (*RenderableObject::ptr::IsOnScreen)(RenderableObject * self) = (bool (*)(RenderableObject * self)) 0x4faac0;
+inline void (*RenderableObject::ptr::UpdateAll)() = (void (*)()) 0x4faae0;
+inline void (*RenderableObject::ptr::_Render)() = (void (*)()) 0x0;
+inline bool (*RenderableObject::ptr::IsPlayerMeleeDamage)(String * damageSource) = (bool (*)(String * damageSource)) 0x4fab70;
+inline void (*RenderableObject::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*RenderableObject::ptr::CSTR_RenderableObject)(RenderableObject * self) = (void (*)(RenderableObject * self)) 0x4f96b0;
 #endif
 
 #ifdef __linux__
-List5 * * RenderableObject::renderableObjectList = (List5* *) 0x856a8f4;
-List5 * * RenderableObject::lightSourceList = (List5* *) 0x856a8f0;
-bool * RenderableObject::deletingAll = (bool*) 0x856a8ec;
+inline List5 * * RenderableObject::renderableObjectList = (List5* *) 0x856a8f4;
+inline List5 * * RenderableObject::lightSourceList = (List5* *) 0x856a8f0;
+inline bool * RenderableObject::deletingAll = (bool*) 0x856a8ec;
 
-void (*RenderableObject::ptr::Die)(RenderableObject * self) = (void (*)(RenderableObject * self)) 0x8093200;
-bool (*RenderableObject::ptr::_Hit)(RenderableObject * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(RenderableObject * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x0;
-Point * (*RenderableObject::ptr::GetLocation)(RenderableObject * self) = (Point * (*)(RenderableObject * self)) 0x80b5860;
-bool (*RenderableObject::ptr::IsExplosiveDamage)(String * damageSource) = (bool (*)(String * damageSource)) 0x813e140;
-bool (*RenderableObject::ptr::IsParryableDamage)(String * damageSource) = (bool (*)(String * damageSource)) 0x813e250;
-RenderableObject * (*RenderableObject::ptr::_New)() = (RenderableObject * (*)()) 0x813e3e0;
-void (*RenderableObject::ptr::ActivateLight)(RenderableObject * self, float lMin, float lMax) = (void (*)(RenderableObject * self, float lMin, float lMax)) 0x806e030;
-bool (*RenderableObject::ptr::IsOnTile)(RenderableObject * self, int px, int py) = (bool (*)(RenderableObject * self, int px, int py)) 0x806e060;
-bool (*RenderableObject::ptr::IsFrozen)(RenderableObject * self, bool ignoreLastBeat) = (bool (*)(RenderableObject * self, bool ignoreLastBeat)) 0x806e0b0;
-bool (*RenderableObject::ptr::HitTile)(String * damageSource, int xVal, int yVal, int damage, int dir, Entity * hitter, bool allowSelfHits, bool phasing, bool piercing, bool confuse, bool frost) = (bool (*)(String * damageSource, int xVal, int yVal, int damage, int dir, Entity * hitter, bool allowSelfHits, bool phasing, bool piercing, bool confuse, bool frost)) 0x83b9450;
-void (*RenderableObject::ptr::DeleteAll)(bool spareThePlayers) = (void (*)(bool spareThePlayers)) 0x813e410;
-void (*RenderableObject::ptr::_Update)() = (void (*)()) 0x806e0c0;
-bool (*RenderableObject::ptr::IsOnScreen)(RenderableObject * self) = (bool (*)(RenderableObject * self)) 0x8104f30;
-void (*RenderableObject::ptr::UpdateAll)() = (void (*)()) 0x813e4b0;
-void (*RenderableObject::ptr::_Render)() = (void (*)()) 0x0;
-bool (*RenderableObject::ptr::IsPlayerMeleeDamage)(String * damageSource) = (bool (*)(String * damageSource)) 0x813e580;
-void (*RenderableObject::ptr::_mark)() = (void (*)()) 0x806e0d0;
-void (*RenderableObject::ptr::CSTR_RenderableObject)(RenderableObject * self) = (void (*)(RenderableObject * self)) 0x813e0b0;
+inline void (*RenderableObject::ptr::Die)(RenderableObject * self) = (void (*)(RenderableObject * self)) 0x8093200;
+inline bool (*RenderableObject::ptr::_Hit)(RenderableObject * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6) = (bool (*)(RenderableObject * self, String * arg1, int arg2, int arg3, Entity * arg4, bool arg5, int arg6)) 0x0;
+inline Point * (*RenderableObject::ptr::GetLocation)(RenderableObject * self) = (Point * (*)(RenderableObject * self)) 0x80b5860;
+inline bool (*RenderableObject::ptr::IsExplosiveDamage)(String * damageSource) = (bool (*)(String * damageSource)) 0x813e140;
+inline bool (*RenderableObject::ptr::IsParryableDamage)(String * damageSource) = (bool (*)(String * damageSource)) 0x813e250;
+inline RenderableObject * (*RenderableObject::ptr::_New)() = (RenderableObject * (*)()) 0x813e3e0;
+inline void (*RenderableObject::ptr::ActivateLight)(RenderableObject * self, float lMin, float lMax) = (void (*)(RenderableObject * self, float lMin, float lMax)) 0x806e030;
+inline bool (*RenderableObject::ptr::IsOnTile)(RenderableObject * self, int px, int py) = (bool (*)(RenderableObject * self, int px, int py)) 0x806e060;
+inline bool (*RenderableObject::ptr::IsFrozen)(RenderableObject * self, bool ignoreLastBeat) = (bool (*)(RenderableObject * self, bool ignoreLastBeat)) 0x806e0b0;
+inline bool (*RenderableObject::ptr::HitTile)(String * damageSource, int xVal, int yVal, int damage, int dir, Entity * hitter, bool allowSelfHits, bool phasing, bool piercing, bool confuse, bool frost) = (bool (*)(String * damageSource, int xVal, int yVal, int damage, int dir, Entity * hitter, bool allowSelfHits, bool phasing, bool piercing, bool confuse, bool frost)) 0x83b9450;
+inline void (*RenderableObject::ptr::DeleteAll)(bool spareThePlayers) = (void (*)(bool spareThePlayers)) 0x813e410;
+inline void (*RenderableObject::ptr::_Update)() = (void (*)()) 0x806e0c0;
+inline bool (*RenderableObject::ptr::IsOnScreen)(RenderableObject * self) = (bool (*)(RenderableObject * self)) 0x8104f30;
+inline void (*RenderableObject::ptr::UpdateAll)() = (void (*)()) 0x813e4b0;
+inline void (*RenderableObject::ptr::_Render)() = (void (*)()) 0x0;
+inline bool (*RenderableObject::ptr::IsPlayerMeleeDamage)(String * damageSource) = (bool (*)(String * damageSource)) 0x813e580;
+inline void (*RenderableObject::ptr::_mark)() = (void (*)()) 0x806e0d0;
+inline void (*RenderableObject::ptr::CSTR_RenderableObject)(RenderableObject * self) = (void (*)(RenderableObject * self)) 0x813e0b0;
 #endif
 #endif

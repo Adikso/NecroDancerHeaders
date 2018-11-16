@@ -32,21 +32,21 @@ public:
 
 #ifdef _WIN32
 
-Slider * (*Slider::ptr::New)(Slider * self, float v, String * t, int j, float sc) = (Slider * (*)(Slider * self, float v, String * t, int j, float sc)) 0x6a1520;
-Slider * (*Slider::ptr::_new2)() = (Slider * (*)()) 0x0;
-void (*Slider::ptr::Draw2)(Slider * self, float x, float y, int frameOverride) = (void (*)(Slider * self, float x, float y, int frameOverride)) 0x6a1800;
-bool (*Slider::ptr::Left)(Slider * self) = (bool (*)(Slider * self)) 0x6a1900;
-bool (*Slider::ptr::Right)(Slider * self) = (bool (*)(Slider * self)) 0x6a1930;
-void (*Slider::ptr::mark)(Slider * self) = (void (*)(Slider * self)) 0x6a1960;
+inline Slider * (*Slider::ptr::New)(Slider * self, float v, String * t, int j, float sc) = (Slider * (*)(Slider * self, float v, String * t, int j, float sc)) 0x6a1520;
+inline Slider * (*Slider::ptr::_new2)() = (Slider * (*)()) 0x0;
+inline void (*Slider::ptr::Draw2)(Slider * self, float x, float y, int frameOverride) = (void (*)(Slider * self, float x, float y, int frameOverride)) 0x6a1800;
+inline bool (*Slider::ptr::Left)(Slider * self) = (bool (*)(Slider * self)) 0x6a1900;
+inline bool (*Slider::ptr::Right)(Slider * self) = (bool (*)(Slider * self)) 0x6a1930;
+inline void (*Slider::ptr::mark)(Slider * self) = (void (*)(Slider * self)) 0x6a1960;
 #endif
 
 #ifdef __linux__
 
-Slider * (*Slider::ptr::New)(Slider * self, float v, String * t, int j, float sc) = (Slider * (*)(Slider * self, float v, String * t, int j, float sc)) 0x81ee750;
-Slider * (*Slider::ptr::_new2)() = (Slider * (*)()) 0x81eea30;
-void (*Slider::ptr::Draw2)(Slider * self, float x, float y, int frameOverride) = (void (*)(Slider * self, float x, float y, int frameOverride)) 0x80858a0;
-bool (*Slider::ptr::Left)(Slider * self) = (bool (*)(Slider * self)) 0x8079e40;
-bool (*Slider::ptr::Right)(Slider * self) = (bool (*)(Slider * self)) 0x8079e70;
-void (*Slider::ptr::mark)(Slider * self) = (void (*)(Slider * self)) 0x80a49f0;
+inline Slider * (*Slider::ptr::New)(Slider * self, float v, String * t, int j, float sc) = (Slider * (*)(Slider * self, float v, String * t, int j, float sc)) 0x81ee750;
+inline Slider * (*Slider::ptr::_new2)() = (Slider * (*)()) 0x81eea30;
+inline void (*Slider::ptr::Draw2)(Slider * self, float x, float y, int frameOverride) = (void (*)(Slider * self, float x, float y, int frameOverride)) 0x80858a0;
+inline bool (*Slider::ptr::Left)(Slider * self) = (bool (*)(Slider * self)) 0x8079e40;
+inline bool (*Slider::ptr::Right)(Slider * self) = (bool (*)(Slider * self)) 0x8079e70;
+inline void (*Slider::ptr::mark)(Slider * self) = (void (*)(Slider * self)) 0x80a49f0;
 #endif
 #endif

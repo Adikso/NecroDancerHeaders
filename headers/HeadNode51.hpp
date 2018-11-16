@@ -21,15 +21,15 @@ public:
 
 #ifdef _WIN32
 
-HeadNode51 * (*HeadNode51::ptr::_New)() = (HeadNode51 * (*)()) 0x0;
-Node42 * (*HeadNode51::ptr::_GetNode)() = (Node42 * (*)()) 0x0;
-void (*HeadNode51::ptr::_mark)() = (void (*)()) 0x0;
+inline HeadNode51 * (*HeadNode51::ptr::_New)() = (HeadNode51 * (*)()) 0x0;
+inline Node42 * (*HeadNode51::ptr::_GetNode)() = (Node42 * (*)()) 0x0;
+inline void (*HeadNode51::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-HeadNode51 * (*HeadNode51::ptr::_New)() = (HeadNode51 * (*)()) 0x81d4660;
-Node42 * (*HeadNode51::ptr::_GetNode)() = (Node42 * (*)()) 0x0;
-void (*HeadNode51::ptr::_mark)() = (void (*)()) 0x80889e0;
+inline HeadNode51 * (*HeadNode51::ptr::_New)() = (HeadNode51 * (*)()) 0x81d4660;
+inline Node42 * (*HeadNode51::ptr::_GetNode)() = (Node42 * (*)()) 0x0;
+inline void (*HeadNode51::ptr::_mark)() = (void (*)()) 0x80889e0;
 #endif
 #endif

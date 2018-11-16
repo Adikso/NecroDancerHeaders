@@ -44,27 +44,27 @@ public:
 
 #ifdef _WIN32
 
-BounceTrap * (*BounceTrap::ptr::New)(BounceTrap * self, int xVal, int yVal, int d) = (BounceTrap * (*)(BounceTrap * self, int xVal, int yVal, int d)) 0x5d92e0;
-BounceTrap * (*BounceTrap::ptr::_new2)() = (BounceTrap * (*)()) 0x0;
-int (*BounceTrap::ptr::RotateDir)(BounceTrap * self, int dir, bool cw) = (int (*)(BounceTrap * self, int dir, bool cw)) 0x5d98d0;
-void (*BounceTrap::ptr::Rotate)(BounceTrap * self) = (void (*)(BounceTrap * self)) 0x5d9920;
-int (*BounceTrap::ptr::GetFrameToShow)(BounceTrap * self) = (int (*)(BounceTrap * self)) 0x5d9b80;
-void (*BounceTrap::ptr::Update)(BounceTrap * self) = (void (*)(BounceTrap * self)) 0x5d9c00;
-void (*BounceTrap::ptr::Trigger)(BounceTrap * self, Entity * ent) = (void (*)(BounceTrap * self, Entity * ent)) 0x5d9e30;
-void (*BounceTrap::ptr::_mark)() = (void (*)()) 0x0;
-void (*BounceTrap::ptr::CSTR_BounceTrap)(BounceTrap * self) = (void (*)(BounceTrap * self)) 0x5d91b0;
+inline BounceTrap * (*BounceTrap::ptr::New)(BounceTrap * self, int xVal, int yVal, int d) = (BounceTrap * (*)(BounceTrap * self, int xVal, int yVal, int d)) 0x5d92e0;
+inline BounceTrap * (*BounceTrap::ptr::_new2)() = (BounceTrap * (*)()) 0x0;
+inline int (*BounceTrap::ptr::RotateDir)(BounceTrap * self, int dir, bool cw) = (int (*)(BounceTrap * self, int dir, bool cw)) 0x5d98d0;
+inline void (*BounceTrap::ptr::Rotate)(BounceTrap * self) = (void (*)(BounceTrap * self)) 0x5d9920;
+inline int (*BounceTrap::ptr::GetFrameToShow)(BounceTrap * self) = (int (*)(BounceTrap * self)) 0x5d9b80;
+inline void (*BounceTrap::ptr::Update)(BounceTrap * self) = (void (*)(BounceTrap * self)) 0x5d9c00;
+inline void (*BounceTrap::ptr::Trigger)(BounceTrap * self, Entity * ent) = (void (*)(BounceTrap * self, Entity * ent)) 0x5d9e30;
+inline void (*BounceTrap::ptr::_mark)() = (void (*)()) 0x0;
+inline void (*BounceTrap::ptr::CSTR_BounceTrap)(BounceTrap * self) = (void (*)(BounceTrap * self)) 0x5d91b0;
 #endif
 
 #ifdef __linux__
 
-BounceTrap * (*BounceTrap::ptr::New)(BounceTrap * self, int xVal, int yVal, int d) = (BounceTrap * (*)(BounceTrap * self, int xVal, int yVal, int d)) 0x8193560;
-BounceTrap * (*BounceTrap::ptr::_new2)() = (BounceTrap * (*)()) 0x8193bf0;
-int (*BounceTrap::ptr::RotateDir)(BounceTrap * self, int dir, bool cw) = (int (*)(BounceTrap * self, int dir, bool cw)) 0x807ef00;
-void (*BounceTrap::ptr::Rotate)(BounceTrap * self) = (void (*)(BounceTrap * self)) 0x825ecc0;
-int (*BounceTrap::ptr::GetFrameToShow)(BounceTrap * self) = (int (*)(BounceTrap * self)) 0x8071da0;
-void (*BounceTrap::ptr::Update)(BounceTrap * self) = (void (*)(BounceTrap * self)) 0x825ebf0;
-void (*BounceTrap::ptr::Trigger)(BounceTrap * self, Entity * ent) = (void (*)(BounceTrap * self, Entity * ent)) 0x839f480;
-void (*BounceTrap::ptr::_mark)() = (void (*)()) 0x80a5f00;
-void (*BounceTrap::ptr::CSTR_BounceTrap)(BounceTrap * self) = (void (*)(BounceTrap * self)) 0x81934b0;
+inline BounceTrap * (*BounceTrap::ptr::New)(BounceTrap * self, int xVal, int yVal, int d) = (BounceTrap * (*)(BounceTrap * self, int xVal, int yVal, int d)) 0x8193560;
+inline BounceTrap * (*BounceTrap::ptr::_new2)() = (BounceTrap * (*)()) 0x8193bf0;
+inline int (*BounceTrap::ptr::RotateDir)(BounceTrap * self, int dir, bool cw) = (int (*)(BounceTrap * self, int dir, bool cw)) 0x807ef00;
+inline void (*BounceTrap::ptr::Rotate)(BounceTrap * self) = (void (*)(BounceTrap * self)) 0x825ecc0;
+inline int (*BounceTrap::ptr::GetFrameToShow)(BounceTrap * self) = (int (*)(BounceTrap * self)) 0x8071da0;
+inline void (*BounceTrap::ptr::Update)(BounceTrap * self) = (void (*)(BounceTrap * self)) 0x825ebf0;
+inline void (*BounceTrap::ptr::Trigger)(BounceTrap * self, Entity * ent) = (void (*)(BounceTrap * self, Entity * ent)) 0x839f480;
+inline void (*BounceTrap::ptr::_mark)() = (void (*)()) 0x80a5f00;
+inline void (*BounceTrap::ptr::CSTR_BounceTrap)(BounceTrap * self) = (void (*)(BounceTrap * self)) 0x81934b0;
 #endif
 #endif

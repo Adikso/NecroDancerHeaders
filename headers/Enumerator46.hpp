@@ -29,19 +29,19 @@ public:
 
 #ifdef _WIN32
 
-Enumerator46 * (*Enumerator46::ptr::_New)(Enumerator46 * self, Stack11 * arg1) = (Enumerator46 * (*)(Enumerator46 * self, Stack11 * arg1)) 0x0;
-Enumerator46 * (*Enumerator46::ptr::_new2)() = (Enumerator46 * (*)()) 0x0;
-bool (*Enumerator46::ptr::_HasNext)() = (bool (*)()) 0x0;
-XMLNode * (*Enumerator46::ptr::_NextObject)() = (XMLNode * (*)()) 0x0;
-void (*Enumerator46::ptr::_mark)() = (void (*)()) 0x0;
+inline Enumerator46 * (*Enumerator46::ptr::_New)(Enumerator46 * self, Stack11 * arg1) = (Enumerator46 * (*)(Enumerator46 * self, Stack11 * arg1)) 0x0;
+inline Enumerator46 * (*Enumerator46::ptr::_new2)() = (Enumerator46 * (*)()) 0x0;
+inline bool (*Enumerator46::ptr::_HasNext)() = (bool (*)()) 0x0;
+inline XMLNode * (*Enumerator46::ptr::_NextObject)() = (XMLNode * (*)()) 0x0;
+inline void (*Enumerator46::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-Enumerator46 * (*Enumerator46::ptr::_New)(Enumerator46 * self, Stack11 * arg1) = (Enumerator46 * (*)(Enumerator46 * self, Stack11 * arg1)) 0x0;
-Enumerator46 * (*Enumerator46::ptr::_new2)() = (Enumerator46 * (*)()) 0x81e4550;
-bool (*Enumerator46::ptr::_HasNext)() = (bool (*)()) 0x8093a80;
-XMLNode * (*Enumerator46::ptr::_NextObject)() = (XMLNode * (*)()) 0x8093b00;
-void (*Enumerator46::ptr::_mark)() = (void (*)()) 0x8088630;
+inline Enumerator46 * (*Enumerator46::ptr::_New)(Enumerator46 * self, Stack11 * arg1) = (Enumerator46 * (*)(Enumerator46 * self, Stack11 * arg1)) 0x0;
+inline Enumerator46 * (*Enumerator46::ptr::_new2)() = (Enumerator46 * (*)()) 0x81e4550;
+inline bool (*Enumerator46::ptr::_HasNext)() = (bool (*)()) 0x8093a80;
+inline XMLNode * (*Enumerator46::ptr::_NextObject)() = (XMLNode * (*)()) 0x8093b00;
+inline void (*Enumerator46::ptr::_mark)() = (void (*)()) 0x8088630;
 #endif
 #endif

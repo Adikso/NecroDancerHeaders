@@ -58,33 +58,33 @@ public:
 
 #ifdef _WIN32
 
-void (*Gargoyle::ptr::DetermineContents)(Gargoyle * self) = (void (*)(Gargoyle * self)) 0x5c1950;
-Gargoyle * (*Gargoyle::ptr::New)(Gargoyle * self, int xVal, int yVal, int l) = (Gargoyle * (*)(Gargoyle * self, int xVal, int yVal, int l)) 0x5c1a00;
-Gargoyle * (*Gargoyle::ptr::_new2)() = (Gargoyle * (*)()) 0x0;
-void (*Gargoyle::ptr::Die)(Gargoyle * self) = (void (*)(Gargoyle * self)) 0x5c1cf0;
-void (*Gargoyle::ptr::OpenAsCrate)(Gargoyle * self, bool enemyOK) = (void (*)(Gargoyle * self, bool enemyOK)) 0x5c1d30;
-bool (*Gargoyle::ptr::Hit)(Gargoyle * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Gargoyle * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x5c1e80;
-Point * (*Gargoyle::ptr::GetMovementDirection)(Gargoyle * self) = (Point * (*)(Gargoyle * self)) 0x5c2130;
-void (*Gargoyle::ptr::MoveSucceed)(Gargoyle * self, bool hitPlayer, bool moveDelayed) = (void (*)(Gargoyle * self, bool hitPlayer, bool moveDelayed)) 0x5c2200;
-void (*Gargoyle::ptr::Update)(Gargoyle * self) = (void (*)(Gargoyle * self)) 0x5c25f0;
-void (*Gargoyle::ptr::Render)(Gargoyle * self) = (void (*)(Gargoyle * self)) 0x5c2a30;
-void (*Gargoyle::ptr::mark)(Gargoyle * self) = (void (*)(Gargoyle * self)) 0x5c2c10;
-void (*Gargoyle::ptr::CSTR_Gargoyle)(Gargoyle * self) = (void (*)(Gargoyle * self)) 0x5c1790;
+inline void (*Gargoyle::ptr::DetermineContents)(Gargoyle * self) = (void (*)(Gargoyle * self)) 0x5c1950;
+inline Gargoyle * (*Gargoyle::ptr::New)(Gargoyle * self, int xVal, int yVal, int l) = (Gargoyle * (*)(Gargoyle * self, int xVal, int yVal, int l)) 0x5c1a00;
+inline Gargoyle * (*Gargoyle::ptr::_new2)() = (Gargoyle * (*)()) 0x0;
+inline void (*Gargoyle::ptr::Die)(Gargoyle * self) = (void (*)(Gargoyle * self)) 0x5c1cf0;
+inline void (*Gargoyle::ptr::OpenAsCrate)(Gargoyle * self, bool enemyOK) = (void (*)(Gargoyle * self, bool enemyOK)) 0x5c1d30;
+inline bool (*Gargoyle::ptr::Hit)(Gargoyle * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Gargoyle * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x5c1e80;
+inline Point * (*Gargoyle::ptr::GetMovementDirection)(Gargoyle * self) = (Point * (*)(Gargoyle * self)) 0x5c2130;
+inline void (*Gargoyle::ptr::MoveSucceed)(Gargoyle * self, bool hitPlayer, bool moveDelayed) = (void (*)(Gargoyle * self, bool hitPlayer, bool moveDelayed)) 0x5c2200;
+inline void (*Gargoyle::ptr::Update)(Gargoyle * self) = (void (*)(Gargoyle * self)) 0x5c25f0;
+inline void (*Gargoyle::ptr::Render)(Gargoyle * self) = (void (*)(Gargoyle * self)) 0x5c2a30;
+inline void (*Gargoyle::ptr::mark)(Gargoyle * self) = (void (*)(Gargoyle * self)) 0x5c2c10;
+inline void (*Gargoyle::ptr::CSTR_Gargoyle)(Gargoyle * self) = (void (*)(Gargoyle * self)) 0x5c1790;
 #endif
 
 #ifdef __linux__
 
-void (*Gargoyle::ptr::DetermineContents)(Gargoyle * self) = (void (*)(Gargoyle * self)) 0x82ad240;
-Gargoyle * (*Gargoyle::ptr::New)(Gargoyle * self, int xVal, int yVal, int l) = (Gargoyle * (*)(Gargoyle * self, int xVal, int yVal, int l)) 0x817ea20;
-Gargoyle * (*Gargoyle::ptr::_new2)() = (Gargoyle * (*)()) 0x817eec0;
-void (*Gargoyle::ptr::Die)(Gargoyle * self) = (void (*)(Gargoyle * self)) 0x83b70f0;
-void (*Gargoyle::ptr::OpenAsCrate)(Gargoyle * self, bool enemyOK) = (void (*)(Gargoyle * self, bool enemyOK)) 0x839e950;
-bool (*Gargoyle::ptr::Hit)(Gargoyle * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Gargoyle * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83abdc0;
-Point * (*Gargoyle::ptr::GetMovementDirection)(Gargoyle * self) = (Point * (*)(Gargoyle * self)) 0x80b51c0;
-void (*Gargoyle::ptr::MoveSucceed)(Gargoyle * self, bool hitPlayer, bool moveDelayed) = (void (*)(Gargoyle * self, bool hitPlayer, bool moveDelayed)) 0x83ac430;
-void (*Gargoyle::ptr::Update)(Gargoyle * self) = (void (*)(Gargoyle * self)) 0x8387830;
-void (*Gargoyle::ptr::Render)(Gargoyle * self) = (void (*)(Gargoyle * self)) 0x830dc10;
-void (*Gargoyle::ptr::mark)(Gargoyle * self) = (void (*)(Gargoyle * self)) 0x80b1c40;
-void (*Gargoyle::ptr::CSTR_Gargoyle)(Gargoyle * self) = (void (*)(Gargoyle * self)) 0x817e970;
+inline void (*Gargoyle::ptr::DetermineContents)(Gargoyle * self) = (void (*)(Gargoyle * self)) 0x82ad240;
+inline Gargoyle * (*Gargoyle::ptr::New)(Gargoyle * self, int xVal, int yVal, int l) = (Gargoyle * (*)(Gargoyle * self, int xVal, int yVal, int l)) 0x817ea20;
+inline Gargoyle * (*Gargoyle::ptr::_new2)() = (Gargoyle * (*)()) 0x817eec0;
+inline void (*Gargoyle::ptr::Die)(Gargoyle * self) = (void (*)(Gargoyle * self)) 0x83b70f0;
+inline void (*Gargoyle::ptr::OpenAsCrate)(Gargoyle * self, bool enemyOK) = (void (*)(Gargoyle * self, bool enemyOK)) 0x839e950;
+inline bool (*Gargoyle::ptr::Hit)(Gargoyle * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(Gargoyle * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83abdc0;
+inline Point * (*Gargoyle::ptr::GetMovementDirection)(Gargoyle * self) = (Point * (*)(Gargoyle * self)) 0x80b51c0;
+inline void (*Gargoyle::ptr::MoveSucceed)(Gargoyle * self, bool hitPlayer, bool moveDelayed) = (void (*)(Gargoyle * self, bool hitPlayer, bool moveDelayed)) 0x83ac430;
+inline void (*Gargoyle::ptr::Update)(Gargoyle * self) = (void (*)(Gargoyle * self)) 0x8387830;
+inline void (*Gargoyle::ptr::Render)(Gargoyle * self) = (void (*)(Gargoyle * self)) 0x830dc10;
+inline void (*Gargoyle::ptr::mark)(Gargoyle * self) = (void (*)(Gargoyle * self)) 0x80b1c40;
+inline void (*Gargoyle::ptr::CSTR_Gargoyle)(Gargoyle * self) = (void (*)(Gargoyle * self)) 0x817e970;
 #endif
 #endif

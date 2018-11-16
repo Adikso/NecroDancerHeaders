@@ -69,48 +69,48 @@ public:
 };
 
 #ifdef _WIN32
-KingConga * * KingConga::theKing = (KingConga* *) 0x8355d8;
+inline KingConga * * KingConga::theKing = (KingConga* *) 0x8355d8;
 
-void (*KingConga::ptr::MissedBeat)() = (void (*)()) 0x600f90;
-void (*KingConga::ptr::EnterFinalState)(KingConga * self, bool playCry) = (void (*)(KingConga * self, bool playCry)) 0x601030;
-void (*KingConga::ptr::DestroyThrone)() = (void (*)()) 0x601100;
-KingConga * (*KingConga::ptr::New)(KingConga * self, int xVal, int yVal, int l) = (KingConga * (*)(KingConga * self, int xVal, int yVal, int l)) 0x601170;
-KingConga * (*KingConga::ptr::_new2)() = (KingConga * (*)()) 0x0;
-void (*KingConga::ptr::AddZombieFriend)(KingConga * self, Enemy * z) = (void (*)(KingConga * self, Enemy * z)) 0x6015f0;
-void (*KingConga::ptr::CheckZombieFriends)(KingConga * self) = (void (*)(KingConga * self)) 0x601600;
-void (*KingConga::ptr::_MoveFail)() = (void (*)()) 0x0;
-void (*KingConga::ptr::Update)(KingConga * self) = (void (*)(KingConga * self)) 0x601670;
-void (*KingConga::ptr::Render)(KingConga * self) = (void (*)(KingConga * self)) 0x601a90;
-void (*KingConga::ptr::MoveSucceed)(KingConga * self, bool hitPlayer, bool moveDelayed) = (void (*)(KingConga * self, bool hitPlayer, bool moveDelayed)) 0x601b40;
-Point * (*KingConga::ptr::GetMovementDirection)(KingConga * self) = (Point * (*)(KingConga * self)) 0x601ba0;
-void (*KingConga::ptr::TeleportBack)(KingConga * self) = (void (*)(KingConga * self)) 0x601c50;
-bool (*KingConga::ptr::Hit)(KingConga * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(KingConga * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x601d30;
-bool (*KingConga::ptr::ImmuneToFear)(KingConga * self) = (bool (*)(KingConga * self)) 0x601ee0;
-void (*KingConga::ptr::Die)(KingConga * self) = (void (*)(KingConga * self)) 0x601ef0;
-void (*KingConga::ptr::mark)(KingConga * self) = (void (*)(KingConga * self)) 0x602080;
-void (*KingConga::ptr::CSTR_KingConga)(KingConga * self) = (void (*)(KingConga * self)) 0x600ec0;
+inline void (*KingConga::ptr::MissedBeat)() = (void (*)()) 0x600f90;
+inline void (*KingConga::ptr::EnterFinalState)(KingConga * self, bool playCry) = (void (*)(KingConga * self, bool playCry)) 0x601030;
+inline void (*KingConga::ptr::DestroyThrone)() = (void (*)()) 0x601100;
+inline KingConga * (*KingConga::ptr::New)(KingConga * self, int xVal, int yVal, int l) = (KingConga * (*)(KingConga * self, int xVal, int yVal, int l)) 0x601170;
+inline KingConga * (*KingConga::ptr::_new2)() = (KingConga * (*)()) 0x0;
+inline void (*KingConga::ptr::AddZombieFriend)(KingConga * self, Enemy * z) = (void (*)(KingConga * self, Enemy * z)) 0x6015f0;
+inline void (*KingConga::ptr::CheckZombieFriends)(KingConga * self) = (void (*)(KingConga * self)) 0x601600;
+inline void (*KingConga::ptr::_MoveFail)() = (void (*)()) 0x0;
+inline void (*KingConga::ptr::Update)(KingConga * self) = (void (*)(KingConga * self)) 0x601670;
+inline void (*KingConga::ptr::Render)(KingConga * self) = (void (*)(KingConga * self)) 0x601a90;
+inline void (*KingConga::ptr::MoveSucceed)(KingConga * self, bool hitPlayer, bool moveDelayed) = (void (*)(KingConga * self, bool hitPlayer, bool moveDelayed)) 0x601b40;
+inline Point * (*KingConga::ptr::GetMovementDirection)(KingConga * self) = (Point * (*)(KingConga * self)) 0x601ba0;
+inline void (*KingConga::ptr::TeleportBack)(KingConga * self) = (void (*)(KingConga * self)) 0x601c50;
+inline bool (*KingConga::ptr::Hit)(KingConga * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(KingConga * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x601d30;
+inline bool (*KingConga::ptr::ImmuneToFear)(KingConga * self) = (bool (*)(KingConga * self)) 0x601ee0;
+inline void (*KingConga::ptr::Die)(KingConga * self) = (void (*)(KingConga * self)) 0x601ef0;
+inline void (*KingConga::ptr::mark)(KingConga * self) = (void (*)(KingConga * self)) 0x602080;
+inline void (*KingConga::ptr::CSTR_KingConga)(KingConga * self) = (void (*)(KingConga * self)) 0x600ec0;
 #endif
 
 #ifdef __linux__
-KingConga * * KingConga::theKing = (KingConga* *) 0x856a3e0;
+inline KingConga * * KingConga::theKing = (KingConga* *) 0x856a3e0;
 
-void (*KingConga::ptr::MissedBeat)() = (void (*)()) 0x8319df0;
-void (*KingConga::ptr::EnterFinalState)(KingConga * self, bool playCry) = (void (*)(KingConga * self, bool playCry)) 0x8319d60;
-void (*KingConga::ptr::DestroyThrone)() = (void (*)()) 0x83b93c0;
-KingConga * (*KingConga::ptr::New)(KingConga * self, int xVal, int yVal, int l) = (KingConga * (*)(KingConga * self, int xVal, int yVal, int l)) 0x81a6980;
-KingConga * (*KingConga::ptr::_new2)() = (KingConga * (*)()) 0x81a6d30;
-void (*KingConga::ptr::AddZombieFriend)(KingConga * self, Enemy * z) = (void (*)(KingConga * self, Enemy * z)) 0x8073c10;
-void (*KingConga::ptr::CheckZombieFriends)(KingConga * self) = (void (*)(KingConga * self)) 0x807f210;
-void (*KingConga::ptr::_MoveFail)() = (void (*)()) 0x8135a50;
-void (*KingConga::ptr::Update)(KingConga * self) = (void (*)(KingConga * self)) 0x8386190;
-void (*KingConga::ptr::Render)(KingConga * self) = (void (*)(KingConga * self)) 0x830d890;
-void (*KingConga::ptr::MoveSucceed)(KingConga * self, bool hitPlayer, bool moveDelayed) = (void (*)(KingConga * self, bool hitPlayer, bool moveDelayed)) 0x8073c30;
-Point * (*KingConga::ptr::GetMovementDirection)(KingConga * self) = (Point * (*)(KingConga * self)) 0x80b4f80;
-void (*KingConga::ptr::TeleportBack)(KingConga * self) = (void (*)(KingConga * self)) 0x8319cc0;
-bool (*KingConga::ptr::Hit)(KingConga * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(KingConga * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83b91b0;
-bool (*KingConga::ptr::ImmuneToFear)(KingConga * self) = (bool (*)(KingConga * self)) 0x8073ca0;
-void (*KingConga::ptr::Die)(KingConga * self) = (void (*)(KingConga * self)) 0x83b6cc0;
-void (*KingConga::ptr::mark)(KingConga * self) = (void (*)(KingConga * self)) 0x80b19c0;
-void (*KingConga::ptr::CSTR_KingConga)(KingConga * self) = (void (*)(KingConga * self)) 0x81a6890;
+inline void (*KingConga::ptr::MissedBeat)() = (void (*)()) 0x8319df0;
+inline void (*KingConga::ptr::EnterFinalState)(KingConga * self, bool playCry) = (void (*)(KingConga * self, bool playCry)) 0x8319d60;
+inline void (*KingConga::ptr::DestroyThrone)() = (void (*)()) 0x83b93c0;
+inline KingConga * (*KingConga::ptr::New)(KingConga * self, int xVal, int yVal, int l) = (KingConga * (*)(KingConga * self, int xVal, int yVal, int l)) 0x81a6980;
+inline KingConga * (*KingConga::ptr::_new2)() = (KingConga * (*)()) 0x81a6d30;
+inline void (*KingConga::ptr::AddZombieFriend)(KingConga * self, Enemy * z) = (void (*)(KingConga * self, Enemy * z)) 0x8073c10;
+inline void (*KingConga::ptr::CheckZombieFriends)(KingConga * self) = (void (*)(KingConga * self)) 0x807f210;
+inline void (*KingConga::ptr::_MoveFail)() = (void (*)()) 0x8135a50;
+inline void (*KingConga::ptr::Update)(KingConga * self) = (void (*)(KingConga * self)) 0x8386190;
+inline void (*KingConga::ptr::Render)(KingConga * self) = (void (*)(KingConga * self)) 0x830d890;
+inline void (*KingConga::ptr::MoveSucceed)(KingConga * self, bool hitPlayer, bool moveDelayed) = (void (*)(KingConga * self, bool hitPlayer, bool moveDelayed)) 0x8073c30;
+inline Point * (*KingConga::ptr::GetMovementDirection)(KingConga * self) = (Point * (*)(KingConga * self)) 0x80b4f80;
+inline void (*KingConga::ptr::TeleportBack)(KingConga * self) = (void (*)(KingConga * self)) 0x8319cc0;
+inline bool (*KingConga::ptr::Hit)(KingConga * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType) = (bool (*)(KingConga * self, String * damageSource, int damage, int dir, Entity * hitter, bool hitAtLastTile, int hitType)) 0x83b91b0;
+inline bool (*KingConga::ptr::ImmuneToFear)(KingConga * self) = (bool (*)(KingConga * self)) 0x8073ca0;
+inline void (*KingConga::ptr::Die)(KingConga * self) = (void (*)(KingConga * self)) 0x83b6cc0;
+inline void (*KingConga::ptr::mark)(KingConga * self) = (void (*)(KingConga * self)) 0x80b19c0;
+inline void (*KingConga::ptr::CSTR_KingConga)(KingConga * self) = (void (*)(KingConga * self)) 0x81a6890;
 #endif
 #endif

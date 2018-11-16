@@ -22,15 +22,15 @@ public:
 
 #ifdef _WIN32
 
-IntPointList * (*IntPointList::ptr::_New)() = (IntPointList * (*)()) 0x0;
-bool (*IntPointList::ptr::Equals23)(IntPointList * self, Point * a, Point * b) = (bool (*)(IntPointList * self, Point * a, Point * b)) 0x65cca0;
-void (*IntPointList::ptr::_mark)() = (void (*)()) 0x0;
+inline IntPointList * (*IntPointList::ptr::_New)() = (IntPointList * (*)()) 0x0;
+inline bool (*IntPointList::ptr::Equals23)(IntPointList * self, Point * a, Point * b) = (bool (*)(IntPointList * self, Point * a, Point * b)) 0x65cca0;
+inline void (*IntPointList::ptr::_mark)() = (void (*)()) 0x0;
 #endif
 
 #ifdef __linux__
 
-IntPointList * (*IntPointList::ptr::_New)() = (IntPointList * (*)()) 0x81d33b0;
-bool (*IntPointList::ptr::Equals23)(IntPointList * self, Point * a, Point * b) = (bool (*)(IntPointList * self, Point * a, Point * b)) 0x8076720;
-void (*IntPointList::ptr::_mark)() = (void (*)()) 0x80901b0;
+inline IntPointList * (*IntPointList::ptr::_New)() = (IntPointList * (*)()) 0x81d33b0;
+inline bool (*IntPointList::ptr::Equals23)(IntPointList * self, Point * a, Point * b) = (bool (*)(IntPointList * self, Point * a, Point * b)) 0x8076720;
+inline void (*IntPointList::ptr::_mark)() = (void (*)()) 0x80901b0;
 #endif
 #endif
