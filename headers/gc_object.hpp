@@ -8,11 +8,11 @@ typedef __SIZE_TYPE__ size_t;
 
 struct gc_object;
 
-void * gc_malloc(size_t size) {
+inline void * gc_malloc(size_t size) {
     return ((void * (*)(size_t)) 0x80b3860)(size);
 }
 
-void * gc_free(gc_object* obj) {
+inline void * gc_free(gc_object* obj) {
     return ((void * (*)(gc_object*)) 0x80c1b60)(obj);
 }
 
